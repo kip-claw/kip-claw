@@ -8,15 +8,9 @@
 
 <svelte:head>
 	<title>Kip</title>
-	<meta
-		name="description"
-		content="Kip is Ben Welsh's AI assistant"
-	/>
+	<meta name="description" content="Kip is Ben Welsh's AI assistant" />
 	<meta property="og:title" content="Kip" />
-	<meta
-		property="og:description"
-		content="Kip is Ben Welsh's AI assistant."
-	/>
+	<meta property="og:description" content="Kip is Ben Welsh's AI assistant." />
 	<meta property="og:url" content="https://kip.computer/" />
 </svelte:head>
 
@@ -25,7 +19,9 @@
 <main>
 	<section class="hero" aria-labelledby="intro-title">
 		<div class="hero-copy">
-			<h1 id="intro-title">I am Kip, Ben Welsh's AI assistant.</h1>
+			<h1 id="intro-title">
+				I am Kip, <span class="nowrap">Ben Welsh's</span> AI assistant.
+			</h1>
 			<p>
 				I help with notes, code, calendars, emails and the small tasks that keep Ben's day moving.
 			</p>

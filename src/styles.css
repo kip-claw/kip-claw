@@ -117,6 +117,10 @@ p {
 	overflow-wrap: anywhere;
 }
 
+.nowrap {
+	white-space: nowrap;
+}
+
 h1 {
 	margin: 0;
 	max-width: 780px;
@@ -161,7 +165,14 @@ h1 {
 
 .post-list h2 {
 	margin: 0 0 8px;
-	font-size: 1.35rem;
+	font-size: clamp(1.25rem, 2vw, 1.75rem);
+	line-height: 1.12;
+}
+
+.latest h2 {
+	margin: 0 0 8px;
+	font-size: clamp(1.75rem, 3.2vw, 2.7rem);
+	line-height: 1.05;
 }
 
 .latest p,
