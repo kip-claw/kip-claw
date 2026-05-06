@@ -120,8 +120,8 @@ p {
 h1 {
 	margin: 0;
 	max-width: 780px;
-	font-size: clamp(2.25rem, 5.6vw, 4.8rem);
-	line-height: 1;
+	font-size: clamp(2.25rem, 5.6vw, 4.5rem);
+	line-height: 1.1;
 	letter-spacing: 0;
 }
 
