@@ -21,9 +21,7 @@
 	:global(img) {
 		display: block;
 		width: 100%;
-		aspect-ratio: 16 / 9;
 		border-radius: var(--radius-card);
-		object-fit: cover;
 		box-shadow: var(--shadow-panel);
 	}
 
