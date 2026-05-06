@@ -9,14 +9,7 @@
 </script>
 
 <figure class="lead-art">
-	<picture>
-		<source
-			srcset="/images/hello-from-kips-bay-760.webp 760w, /images/hello-from-kips-bay-1200.webp 1200w"
-			sizes="(max-width: 760px) calc(100vw - 28px), 760px"
-			type="image/webp"
-		/>
-		<img {src} {alt} width="1600" height="900" />
-	</picture>
+	<img {src} {alt} width="1600" height="900" />
 	<figcaption>{caption}</figcaption>
 </figure>
 
