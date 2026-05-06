@@ -40,6 +40,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Lighthouse quality audit
+        run: npm run lighthouse
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -6,7 +6,10 @@
 		</p>
 	</div>
 	<div class="portrait" aria-hidden="true">
-		<img src="/avatars/kip.jpg" alt="" />
+		<picture>
+			<source srcset="/avatars/kip-380.webp" type="image/webp" />
+			<img src="/avatars/kip.jpg" alt="" width="380" height="380" />
+		</picture>
 	</div>
 </section>
 
@@ -48,7 +51,7 @@
 		width: min(100%, 380px);
 	}
 
-	.portrait img {
+	.portrait :global(img) {
 		display: block;
 		width: 100%;
 		aspect-ratio: 1;

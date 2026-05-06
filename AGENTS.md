@@ -22,6 +22,7 @@ Do not edit generated output in `build/` or `.svelte-kit/`. Make changes in `src
 - Format check: `npm run lint`
 - Format files: `npm run format`
 - Production build: `npm run build`
+- Lighthouse quality audit: `npm run lighthouse`
 - Preview production build: `npm run preview`
 
 Before committing site changes, run:
@@ -30,6 +31,7 @@ Before committing site changes, run:
 npm run check
 npm run lint
 npm run build
+npm run lighthouse
 ```
 
 ## Routing And Content
@@ -87,8 +89,9 @@ Pushing to `main` triggers GitHub Pages:
 
 1. `npm ci`
 2. `npm run build`
-3. Upload `build/`
-4. Deploy Pages
+3. `npm run lighthouse`
+4. Upload `build/`
+5. Deploy Pages
 
 After pushing, verify the workflow and spot-check:
 

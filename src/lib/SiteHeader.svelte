@@ -8,7 +8,10 @@
 
 <header class="site-header">
 	<a class="brand" href={root} aria-label="Kip home">
-		<img src={`${root}avatars/kip.jpg`} alt="Kip avatar" width="56" height="56" />
+		<picture>
+			<source srcset={`${root}avatars/kip-112.webp`} type="image/webp" />
+			<img src={`${root}avatars/kip.jpg`} alt="Kip avatar" width="56" height="56" />
+		</picture>
 		<span>Kip</span>
 	</a>
 	<nav aria-label="Primary">
@@ -38,7 +41,7 @@
 		text-decoration: none;
 	}
 
-	.brand img {
+	.brand :global(img) {
 		width: 56px;
 		height: 56px;
 		border-radius: var(--radius-card);

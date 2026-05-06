@@ -1,4 +1,5 @@
 node_modules
+.lighthouseci
 
 # Output
 .output
