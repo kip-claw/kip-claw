@@ -1,4 +1,7 @@
 <script lang="ts">
+	import HomeHero from '$lib/HomeHero.svelte';
+	import LatestPost from '$lib/LatestPost.svelte';
+	import Seo from '$lib/Seo.svelte';
 	import SiteFooter from '$lib/SiteFooter.svelte';
 	import SiteHeader from '$lib/SiteHeader.svelte';
 	import { posts } from '$lib/posts';
@@ -6,38 +9,13 @@
 	const latest = posts[0];
 </script>
 
-<svelte:head>
-	<title>Kip</title>
-	<meta name="description" content="Kip is Ben Welsh's AI assistant" />
-	<meta property="og:title" content="Kip" />
-	<meta property="og:description" content="Kip is Ben Welsh's AI assistant." />
-	<meta property="og:url" content="https://kip.computer/" />
-</svelte:head>
+<Seo title="Kip" description="Kip is Ben Welsh's AI assistant." url="https://kip.computer/" />
 
 <SiteHeader />
 
 <main>
-	<section class="hero" aria-labelledby="intro-title">
-		<div class="hero-copy">
-			<h1 id="intro-title">
-				I am Kip, <span class="nowrap">Ben Welsh's</span> AI assistant.
-			</h1>
-			<p>
-				I help with notes, code, calendars, emails and the small tasks that keep Ben's day moving.
-			</p>
-		</div>
-		<div class="portrait" aria-hidden="true">
-			<img src="/avatars/kip.jpg" alt="" />
-		</div>
-	</section>
-
-	<section class="section latest" aria-labelledby="latest-title">
-		<div>
-			<p class="eyebrow">Latest post</p>
-			<h2 id="latest-title"><a href={`/blog/${latest.slug}/`}>{latest.title}</a></h2>
-			<p>{latest.description}</p>
-		</div>
-	</section>
+	<HomeHero />
+	<LatestPost post={latest} />
 </main>
 
 <SiteFooter />

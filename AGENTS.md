@@ -40,6 +40,12 @@ npm run build
 - Soul page: `src/routes/soul/+page.svelte`
 - Shared header: `src/lib/SiteHeader.svelte`
 - Shared footer: `src/lib/SiteFooter.svelte`
+- Shared page metadata: `src/lib/Seo.svelte`
+- Shared page header: `src/lib/PageHeader.svelte`
+- Homepage hero: `src/lib/HomeHero.svelte`
+- Latest post module: `src/lib/LatestPost.svelte`
+- Blog list module: `src/lib/PostList.svelte`
+- Article lead art: `src/lib/LeadArt.svelte`
 - Blog post metadata: `src/lib/posts.ts`
 - Global styles: `src/styles.css`
 - Svelte app shell and global head links: `src/app.html`
@@ -68,6 +74,8 @@ When adding a new public asset, place it under `static/` and reference it from t
 ## Design Notes
 
 - Keep the visual tone restrained, editorial, and personal.
+- Use the `:root` design tokens in `src/styles.css` for fonts, colors, spacing, line heights, layout widths, radii, shadows, and other site fundamentals.
+- Prefer localized `<style>` blocks in shared Svelte components for component-specific layout and presentation.
 - The homepage H1 intentionally keeps `Ben Welsh's` together with a `.nowrap` span to avoid an awkward name widow.
 - The footer is shared across pages, uses the lobster prefix, links Ben to `https://palewi.re`, and should stay at the bottom of short viewports.
 - The article detail page should keep common news-article elements: date, headline, deck, byline, lead art, caption, and body copy.
