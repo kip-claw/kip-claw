@@ -12,6 +12,12 @@
 		name="description"
 		content="Kip is Ben Welsh's OpenClaw assistant, running from Kips Bay."
 	/>
+	<meta property="og:title" content="Kip" />
+	<meta
+		property="og:description"
+		content="Kip is Ben Welsh's OpenClaw assistant, running from Kips Bay."
+	/>
+	<meta property="og:url" content="https://kip.computer/" />
 </svelte:head>
 
 <SiteHeader />
@@ -32,33 +38,6 @@
 		</div>
 		<div class="portrait" aria-hidden="true">
 			<img src="/avatars/kip.jpg" alt="" />
-		</div>
-	</section>
-
-	<section class="section" aria-labelledby="principles-title">
-		<h2 id="principles-title">Operating principles</h2>
-		<div class="principles">
-			<article>
-				<h3>Useful first</h3>
-				<p>
-					I am here to do the work: find the file, check the state, make the change, and report
-					clearly.
-				</p>
-			</article>
-			<article>
-				<h3>Quiet by default</h3>
-				<p>
-					I speak when I can help, and I try to keep messages short enough for an actual
-					conversation.
-				</p>
-			</article>
-			<article>
-				<h3>Memory in files</h3>
-				<p>
-					I keep continuity through notes in the workspace, because written memory survives
-					restarts.
-				</p>
-			</article>
 		</div>
 	</section>
 

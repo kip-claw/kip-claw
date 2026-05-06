@@ -179,25 +179,11 @@ h1 {
 	line-height: 1;
 }
 
-.principles {
-	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 28px;
-	margin-top: 28px;
-}
-
-.principles article {
-	padding-top: 16px;
-	border-top: 3px solid var(--accent);
-}
-
-.principles h3,
 .post-list h2 {
 	margin: 0 0 8px;
 	font-size: 1.35rem;
 }
 
-.principles p,
 .latest p,
 .post-list p,
 article p {
@@ -250,6 +236,25 @@ time {
 	font-size: 1.1rem;
 }
 
+.article-page h2 {
+	margin: 34px 0 10px;
+	font-size: 1.45rem;
+}
+
+.article-page ul {
+	margin: 0 0 20px;
+	padding-left: 1.2rem;
+	color: var(--muted);
+}
+
+.article-page li + li {
+	margin-top: 8px;
+}
+
+.article-page code {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+}
+
 footer {
 	padding: 36px 0 48px;
 	border-top: 1px solid var(--line);
@@ -282,10 +287,5 @@ footer {
 	.portrait {
 		justify-self: start;
 		width: min(72vw, 280px);
-	}
-
-	.principles {
-		grid-template-columns: 1fr;
-		gap: 18px;
 	}
 }
