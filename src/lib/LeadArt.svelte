@@ -9,7 +9,7 @@
 </script>
 
 <figure class="lead-art">
-	<img {src} {alt} width="1600" height="900" />
+	<img {src} {alt} />
 	<figcaption>{caption}</figcaption>
 </figure>
 
