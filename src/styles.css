@@ -85,35 +85,6 @@ main {
 	padding: var(--space-8) 0 var(--space-9);
 }
 
-.article-page article {
-	max-width: 760px;
-}
-
-.article-page article p {
-	color: var(--color-muted);
-	font-size: var(--font-size-article);
-	overflow-wrap: anywhere;
-}
-
-.article-page h2 {
-	margin: 34px 0 10px;
-	font-size: var(--font-size-article-heading);
-}
-
-.article-page ul {
-	margin: 0 0 20px;
-	padding-left: 1.2rem;
-	color: var(--color-muted);
-}
-
-.article-page li + li {
-	margin-top: var(--space-2);
-}
-
-.article-page code {
-	font-family: var(--font-family-mono);
-}
-
 @media (max-width: 760px) {
 	main {
 		width: var(--layout-width-mobile);
