@@ -1,0 +1,242 @@
+[
+	{
+		"timestamp": "2026-04-22 21:26:17",
+		"downloadMbps": 467.89,
+		"uploadMbps": 22.99,
+		"pingMs": 19.2,
+		"server": "New York NY",
+		"provider": "Surfshark Ltd"
+	},
+	{
+		"timestamp": "2026-04-22 21:27:04",
+		"downloadMbps": 411.24,
+		"uploadMbps": 23.25,
+		"pingMs": 18.1,
+		"server": "New York NY",
+		"provider": "Optimum Online"
+	},
+	{
+		"timestamp": "2026-04-22 21:37:20",
+		"downloadMbps": 164.51,
+		"uploadMbps": 22.33,
+		"pingMs": 26,
+		"server": "New York NY",
+		"provider": "Starry Inc."
+	},
+	{
+		"timestamp": "2026-04-22 21:56:08",
+		"downloadMbps": 486.14,
+		"uploadMbps": 23,
+		"pingMs": 21.4,
+		"server": "New York NY",
+		"provider": "x99.cloud"
+	},
+	{
+		"timestamp": "2026-04-23 09:09:40",
+		"downloadMbps": 537.39,
+		"uploadMbps": 22.59,
+		"pingMs": 17.2,
+		"server": "New York NY",
+		"provider": "WebNX Inc"
+	},
+	{
+		"timestamp": "2026-04-23 21:00:14",
+		"downloadMbps": 449.29,
+		"uploadMbps": 22.37,
+		"pingMs": 23.4,
+		"server": "New York NY",
+		"provider": "Starry Inc."
+	},
+	{
+		"timestamp": "2026-04-24 09:00:30",
+		"downloadMbps": 508.49,
+		"uploadMbps": 22.95,
+		"pingMs": 19.4,
+		"server": "New York NY",
+		"provider": "WebNX Inc"
+	},
+	{
+		"timestamp": "2026-04-24 21:00:30",
+		"downloadMbps": 467.38,
+		"uploadMbps": 22.33,
+		"pingMs": 20.7,
+		"server": "New York NY",
+		"provider": "x99.cloud"
+	},
+	{
+		"timestamp": "2026-04-25 09:18:11",
+		"downloadMbps": 446.51,
+		"uploadMbps": 22.31,
+		"pingMs": 20.6,
+		"server": "New York NY",
+		"provider": "UnlimitedFiber"
+	},
+	{
+		"timestamp": "2026-04-26 21:00:16",
+		"downloadMbps": 377.42,
+		"uploadMbps": 19.64,
+		"pingMs": 21.3,
+		"server": "White Plains NY",
+		"provider": "Optimum Online"
+	},
+	{
+		"timestamp": "2026-04-26 21:00:27",
+		"downloadMbps": 421.65,
+		"uploadMbps": 22.63,
+		"pingMs": 14.7,
+		"server": "White Plains NY",
+		"provider": "Optimum Online"
+	},
+	{
+		"timestamp": "2026-04-27 09:00:17",
+		"downloadMbps": 427.5,
+		"uploadMbps": 23.24,
+		"pingMs": 20.8,
+		"server": "Newark NJ",
+		"provider": "RippleFiber"
+	},
+	{
+		"timestamp": "2026-04-27 21:00:18",
+		"downloadMbps": 346.49,
+		"uploadMbps": 23.16,
+		"pingMs": 23.3,
+		"server": "New York NY",
+		"provider": "Pilot Fiber"
+	},
+	{
+		"timestamp": "2026-04-28 09:00:13",
+		"downloadMbps": 209.13,
+		"uploadMbps": 18.39,
+		"pingMs": 20.7,
+		"server": "New York NY",
+		"provider": "OceanHost"
+	},
+	{
+		"timestamp": "2026-04-28 09:00:25",
+		"downloadMbps": 288.94,
+		"uploadMbps": 12.5,
+		"pingMs": 15.5,
+		"server": "New York NY",
+		"provider": "Wnet"
+	},
+	{
+		"timestamp": "2026-04-28 09:00:26",
+		"downloadMbps": 290.67,
+		"uploadMbps": 12.54,
+		"pingMs": 28,
+		"server": "New York NY",
+		"provider": "PVDataNet"
+	},
+	{
+		"timestamp": "2026-04-28 21:00:13",
+		"downloadMbps": 439.75,
+		"uploadMbps": 22.56,
+		"pingMs": 21.3,
+		"server": "New York NY",
+		"provider": "Nitel"
+	},
+	{
+		"timestamp": "2026-04-29 09:00:13",
+		"downloadMbps": 453.67,
+		"uploadMbps": 23.27,
+		"pingMs": 20.9,
+		"server": "New York NY",
+		"provider": "OneProvider"
+	},
+	{
+		"timestamp": "2026-04-30 09:00:39",
+		"downloadMbps": 527.04,
+		"uploadMbps": 23.16,
+		"pingMs": 20.4,
+		"server": "New York NY",
+		"provider": "Nitel"
+	},
+	{
+		"timestamp": "2026-04-30 21:00:26",
+		"downloadMbps": 477.81,
+		"uploadMbps": 22.73,
+		"pingMs": 23.3,
+		"server": "New York NY",
+		"provider": "Wnet"
+	},
+	{
+		"timestamp": "2026-05-01 09:00:27",
+		"downloadMbps": 500.22,
+		"uploadMbps": 23.06,
+		"pingMs": 20.7,
+		"server": "New York NY",
+		"provider": "OceanHost"
+	},
+	{
+		"timestamp": "2026-05-01 21:00:24",
+		"downloadMbps": 437.05,
+		"uploadMbps": 22.35,
+		"pingMs": 24.2,
+		"server": "Troy NY",
+		"provider": "MassiveMesh Networks"
+	},
+	{
+		"timestamp": "2026-05-02 09:02:11",
+		"downloadMbps": 532.12,
+		"uploadMbps": 22.83,
+		"pingMs": 19.1,
+		"server": "New York NY",
+		"provider": "ServerRoom.net"
+	},
+	{
+		"timestamp": "2026-05-02 21:02:22",
+		"downloadMbps": 508.17,
+		"uploadMbps": 23.14,
+		"pingMs": 22.5,
+		"server": "White Plains NY",
+		"provider": "Optimum Online"
+	},
+	{
+		"timestamp": "2026-05-03 09:04:26",
+		"downloadMbps": 476.6,
+		"uploadMbps": 22.38,
+		"pingMs": 21.3,
+		"server": "New York NY",
+		"provider": "Spectrum"
+	},
+	{
+		"timestamp": "2026-05-03 21:00:16",
+		"downloadMbps": 385.24,
+		"uploadMbps": 23.23,
+		"pingMs": 28.9,
+		"server": "Carlstadt NJ",
+		"provider": "Contabo"
+	},
+	{
+		"timestamp": "2026-05-06 21:48:11",
+		"downloadMbps": 409.16,
+		"uploadMbps": 22.4,
+		"pingMs": 20.8,
+		"server": "New York NY",
+		"provider": "UnlimitedFiber"
+	},
+	{
+		"timestamp": "2026-05-06 21:49:17",
+		"downloadMbps": 332.14,
+		"uploadMbps": 21.83,
+		"pingMs": 18.7,
+		"server": "New York NY",
+		"provider": "UnlimitedFiber"
+	},
+	{
+		"timestamp": "2026-05-06 21:51:58",
+		"downloadMbps": 325.19,
+		"uploadMbps": 22.58,
+		"pingMs": 25.4,
+		"server": "New York NY",
+		"provider": "UnlimitedFiber"
+	},
+	{
+		"timestamp": "2026-05-06 22:37:45",
+		"downloadMbps": 292.63,
+		"uploadMbps": 23.06,
+		"pingMs": 25.6,
+		"server": "New York NY",
+		"provider": "Pilot Fiber"
+	}
+]

@@ -1,85 +1,11 @@
 <script lang="ts">
-	import type { SpeedTest } from './speedTests';
-	import { parseSpeedTestDate } from './speedTests';
+	import type { SpeedChartModel } from './speedChart';
 
 	type Props = {
-		tests: SpeedTest[];
+		chart: SpeedChartModel;
 	};
 
-	type Point = {
-		x: number;
-		y: number;
-		test: SpeedTest;
-		average: number;
-	};
-
-	const width = 920;
-	const height = 430;
-	const margin = { top: 26, right: 26, bottom: 52, left: 58 };
-	const plotWidth = width - margin.left - margin.right;
-	const plotHeight = height - margin.top - margin.bottom;
-	const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
-
-	let { tests }: Props = $props();
-
-	const sorted = $derived(
-		[...tests].sort((a, b) => +parseSpeedTestDate(a.timestamp) - +parseSpeedTestDate(b.timestamp))
-	);
-	const dates = $derived(sorted.map((test) => +parseSpeedTestDate(test.timestamp)));
-	const minDate = $derived(Math.min(...dates));
-	const maxDate = $derived(Math.max(...dates));
-	const maxDownload = $derived(Math.max(...sorted.map((test) => test.downloadMbps)));
-	const yMax = $derived(Math.ceil(maxDownload / 100) * 100);
-
-	const xScale = (value: number) => {
-		if (maxDate === minDate) return margin.left + plotWidth / 2;
-		return margin.left + ((value - minDate) / (maxDate - minDate)) * plotWidth;
-	};
-
-	const yScale = (value: number) => margin.top + plotHeight - (value / yMax) * plotHeight;
-
-	const rollingAverage = (test: SpeedTest) => {
-		const current = +parseSpeedTestDate(test.timestamp);
-		const window = sorted.filter((candidate) => {
-			const candidateTime = +parseSpeedTestDate(candidate.timestamp);
-			return candidateTime <= current && candidateTime >= current - sevenDaysMs;
-		});
-
-		return window.reduce((total, candidate) => total + candidate.downloadMbps, 0) / window.length;
-	};
-
-	const points = $derived<Point[]>(
-		sorted.map((test) => ({
-			x: xScale(+parseSpeedTestDate(test.timestamp)),
-			y: yScale(test.downloadMbps),
-			test,
-			average: rollingAverage(test)
-		}))
-	);
-
-	const averagePath = $derived(
-		points
-			.map((point, index) => `${index === 0 ? 'M' : 'L'} ${point.x} ${yScale(point.average)}`)
-			.join(' ')
-	);
-
-	const yTicks = $derived([0, yMax / 4, yMax / 2, (yMax * 3) / 4, yMax]);
-	const xTicks = $derived(
-		[
-			sorted[0],
-			sorted[Math.floor(sorted.length / 3)],
-			sorted[Math.floor((sorted.length * 2) / 3)],
-			sorted[sorted.length - 1]
-		].filter(Boolean)
-	);
-
-	const formatDate = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' });
-	const formatTimestamp = new Intl.DateTimeFormat('en-US', {
-		month: 'short',
-		day: 'numeric',
-		hour: 'numeric',
-		minute: '2-digit'
-	});
+	let { chart }: Props = $props();
 </script>
 
 <section class="chart-section" aria-labelledby="speed-chart-title">
@@ -95,47 +21,45 @@
 	</div>
 
 	<div class="chart-frame">
-		<svg viewBox={`0 0 ${width} ${height}`} role="img" aria-labelledby="chart-title chart-desc">
+		<svg
+			viewBox={`0 0 ${chart.width} ${chart.height}`}
+			role="img"
+			aria-labelledby="chart-title chart-desc"
+		>
 			<title id="chart-title">Download speed results and 7-day rolling average</title>
 			<desc id="chart-desc">
 				Every speed test is plotted as a dot in megabits per second. The line shows the 7-day
 				rolling average.
 			</desc>
-			{#each yTicks as tick}
+			{#each chart.yTicks as tick}
 				<line
 					class="grid-line"
-					x1={margin.left}
-					x2={width - margin.right}
-					y1={yScale(tick)}
-					y2={yScale(tick)}
+					x1={chart.margin.left}
+					x2={chart.width - chart.margin.right}
+					y1={tick.y}
+					y2={tick.y}
 				/>
-				<text class="axis-label y-label" x={margin.left - 12} y={yScale(tick) + 4}
-					>{Math.round(tick)}</text
-				>
-			{/each}
-			<text class="axis-title" x={margin.left} y={margin.top - 10}>Mbps</text>
-			<line
-				class="axis-line"
-				x1={margin.left}
-				x2={width - margin.right}
-				y1={height - margin.bottom}
-				y2={height - margin.bottom}
-			/>
-			{#each xTicks as test}
-				{@const date = +parseSpeedTestDate(test.timestamp)}
-				<text class="axis-label x-label" x={xScale(date)} y={height - margin.bottom + 28}>
-					{formatDate.format(date)}
+				<text class="axis-label y-label" x={chart.margin.left - 12} y={(tick.y ?? 0) + 4}>
+					{tick.label}
 				</text>
 			{/each}
-			<path class="average-line" d={averagePath} />
-			{#each points as point}
+			<text class="axis-title" x={chart.margin.left} y={chart.margin.top - 10}>Mbps</text>
+			<line
+				class="axis-line"
+				x1={chart.margin.left}
+				x2={chart.width - chart.margin.right}
+				y1={chart.height - chart.margin.bottom}
+				y2={chart.height - chart.margin.bottom}
+			/>
+			{#each chart.xTicks as tick}
+				<text class="axis-label x-label" x={tick.x} y={chart.height - chart.margin.bottom + 28}>
+					{tick.label}
+				</text>
+			{/each}
+			<path class="average-line" d={chart.averagePath} />
+			{#each chart.points as point}
 				<circle class="test-dot" cx={point.x} cy={point.y} r="4.8">
-					<title>
-						{formatTimestamp.format(parseSpeedTestDate(point.test.timestamp))}: {point.test.downloadMbps.toFixed(
-							2
-						)}
-						Mbps
-					</title>
+					<title>{point.title}</title>
 				</circle>
 			{/each}
 		</svg>

@@ -6,6 +6,13 @@
 	import SpeedChart from '$lib/SpeedChart.svelte';
 	import SpeedTestTable from '$lib/SpeedTestTable.svelte';
 	import { parseSpeedTestDate, speedTests } from '$lib/speedTests';
+	import type { PageData } from './$types';
+
+	type Props = {
+		data: PageData;
+	};
+
+	let { data }: Props = $props();
 
 	const sortedTests = [...speedTests].sort(
 		(a, b) => +parseSpeedTestDate(a.timestamp) - +parseSpeedTestDate(b.timestamp)
@@ -59,7 +66,7 @@
 		</div>
 	</section>
 
-	<SpeedChart tests={speedTests} />
+	<SpeedChart chart={data.chart} />
 	<SpeedTestTable tests={speedTests} />
 </main>
 

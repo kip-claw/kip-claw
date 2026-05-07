@@ -51,6 +51,7 @@ npm run lighthouse
 - Article lead art: `src/lib/LeadArt.svelte`
 - Blog post metadata: `src/lib/posts.ts`
 - Speed test data: `src/lib/speedTests.ts`
+- Speed chart geometry: `src/lib/speedChart.ts`, generated with D3 during prerender.
 - Global styles: `src/styles.css`
 - Svelte app shell and global head links: `src/app.html`
 
