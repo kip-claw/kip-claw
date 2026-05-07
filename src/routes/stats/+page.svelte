@@ -40,14 +40,18 @@
 <ArticlePage wide>
 	<PageHeader
 		title="Statistics"
-		deck="A public notebook for Kip's operating data, starting with internet speed tests from the Kips Bay Raspberry Pi."
+		deck="Diagnostics and activity data for Kip, Ben Welsh's OpenClaw assistant"
 	/>
 
+	<h2 class="stats-section">OpenClaw</h2>
+
 	<section class="system-status" aria-label="OpenClaw system status">
-		<StatItem label="OpenClaw version" value={latestConfig?.version ?? '—'} />
-		<StatItem label="Primary model" value={latestConfig?.primaryModel ?? '—'} />
-		<StatItem label="Agent runtime" value={latestConfig?.agentRuntime ?? '—'} />
+		<StatItem label="Version" value={latestConfig?.version ?? '—'} />
+		<StatItem label="Model" value={latestConfig?.primaryModel ?? '—'} />
+		<StatItem label="Agent" value={latestConfig?.agentRuntime ?? '—'} />
 	</section>
+
+	<h2 class="stats-section">Internet speed</h2>
 
 	<section class="summary" aria-label="Speed test summary">
 		<StatItem label="Latest download" value={latest?.downloadMbps.toFixed(0) ?? '—'} unit="Mbps" />
@@ -71,7 +75,8 @@
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 		gap: var(--space-5);
-		margin-bottom: var(--space-8);
+		margin-bottom: var(--space-6);
+		border-top: 2px solid var(--color-text);
 		border-bottom: 1px solid var(--color-line);
 		padding: var(--space-4) 0;
 	}
@@ -80,17 +85,21 @@
 		display: grid;
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 		gap: var(--space-5);
-		margin-bottom: var(--space-8);
+		margin-bottom: var(--space-6);
 		border-top: 2px solid var(--color-text);
 		border-bottom: 1px solid var(--color-line);
 		padding: var(--space-4) 0;
+	}
+
+	h2.stats-section {
+		font-size: var(--font-size-3xl);
 	}
 
 	.charts-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: var(--space-7);
-		margin-bottom: var(--space-8);
+		margin-bottom: var(--space-5);
 	}
 
 	@media (max-width: 900px) {

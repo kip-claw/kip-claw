@@ -56,7 +56,7 @@
 
 <section class="table-section" aria-labelledby="speed-table-title">
 	<div class="table-heading">
-		<h2 id="speed-table-title">Speed test log</h2>
+		<h3 id="speed-table-title">Speed test log</h3>
 		<p>{tests.length} tests logged</p>
 	</div>
 	<div class="table-frame">
@@ -98,33 +98,35 @@
 	</div>
 </section>
 
-<style>
+<style lang="scss">
 	.table-section {
 		margin-bottom: var(--space-8);
-	}
 
-	.table-heading {
-		display: flex;
-		align-items: baseline;
-		justify-content: space-between;
-		gap: var(--space-4);
-		margin-bottom: var(--space-3);
-	}
+		h3 {
+			margin: 0;
+			font-size: var(--font-size-xl);
+			line-height: var(--line-height-snug);
+		}
 
-	h2 {
-		margin: 0;
-		font-size: var(--font-size-3xl);
-		line-height: var(--line-height-snug);
-	}
+		.table-heading {
+			display: flex;
+			align-items: baseline;
+			justify-content: space-between;
+			gap: var(--space-4);
+			margin-bottom: var(--space-3);
 
-	p {
-		margin: 0;
-		color: var(--color-muted);
-		font-size: var(--font-size-xs);
+			p {
+				margin: 0;
+				color: var(--color-muted);
+				font-size: var(--font-size-xs);
+			}
+		}
 	}
 
 	.table-frame {
 		overflow-x: auto;
+		overflow-y: auto;
+		height: 600px;
 		border-top: 2px solid var(--color-text);
 	}
 

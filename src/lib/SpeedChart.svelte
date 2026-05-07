@@ -13,7 +13,7 @@
 <section class="chart-section" aria-labelledby={`${chartId}-heading`}>
 	<div class="chart-heading">
 		<div>
-			<h2 id={`${chartId}-heading`}>{title}</h2>
+			<h3 id={`${chartId}-heading`}>{title}</h3>
 		</div>
 		<div class="legend" aria-label="Chart legend">
 			<span><i class="dot"></i> Test</span>
@@ -82,7 +82,7 @@
 		padding-bottom: var(--space-3);
 	}
 
-	h2 {
+	h3 {
 		margin: 0;
 		font-size: var(--font-size-xl);
 		line-height: var(--line-height-snug);

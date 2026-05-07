@@ -18,30 +18,29 @@
 	</p>
 </div>
 
-<style>
+<style lang="scss">
 	.stat-item {
 		min-width: 0;
-	}
 
-	p.label {
-		margin: 0 0 var(--space-1);
-		color: var(--color-muted);
-		font-size: var(--font-size-2xs);
-		font-weight: var(--font-weight-bold);
-		text-transform: uppercase;
-	}
+		p.label {
+			margin: 0 0 var(--space-1);
+			color: var(--color-muted);
+			font-size: var(--font-size-xs);
+			text-transform: uppercase;
+		}
 
-	p.value {
-		margin: 0;
-		font-size: var(--font-size-2xl);
-		font-weight: var(--font-weight-bold);
-		line-height: var(--line-height-snug);
-		font-variant-numeric: tabular-nums;
-	}
+		p.value {
+			margin: 0;
+			font-size: var(--font-size-xl);
+			font-weight: var(--font-weight-bold);
+			line-height: var(--line-height-snug);
+			font-variant-numeric: tabular-nums;
+		}
 
-	p.value span {
-		color: var(--color-muted);
-		font-size: var(--font-size-sm);
-		font-weight: 600;
+		p.value span {
+			color: var(--color-muted);
+			font-size: var(--font-size-xs);
+			font-weight: 300;
+		}
 	}
 </style>
