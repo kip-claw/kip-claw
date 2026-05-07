@@ -6,6 +6,7 @@
 	--font-family-mono:
 		ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
 
+	--font-size-3xs: 0.72rem;
 	--font-size-2xs: 0.78rem;
 	--font-size-xs: 0.9rem;
 	--font-size-sm: 0.95rem;
@@ -98,10 +99,6 @@ main {
 	flex: 1 0 auto;
 	width: var(--layout-width);
 	margin: 0 auto;
-}
-
-.page {
-	padding: var(--space-5) 0 var(--space-9);
 }
 
 @media (max-width: 760px) {

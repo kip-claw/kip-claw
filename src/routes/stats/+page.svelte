@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import SiteFooter from '$lib/SiteFooter.svelte';
@@ -36,10 +37,9 @@
 
 <SiteHeader />
 
-<main class="page">
+<ArticlePage wide>
 	<PageHeader
-		eyebrow="Diagnostics"
-		title="Stats"
+		title="Statistics"
 		deck="A public notebook for Kip's operating data, starting with internet speed tests from the Kips Bay Raspberry Pi."
 	/>
 
@@ -50,10 +50,10 @@
 	</section>
 
 	<section class="summary" aria-label="Speed test summary">
-		<StatItem label="Latest download" value={latest?.downloadMbps.toFixed(2) ?? '—'} unit="Mbps" />
-		<StatItem label="Average download" value={averageDownload.toFixed(2)} unit="Mbps" />
-		<StatItem label="Latest upload" value={latest?.uploadMbps.toFixed(2) ?? '—'} unit="Mbps" />
-		<StatItem label="Average upload" value={averageUpload.toFixed(2)} unit="Mbps" />
+		<StatItem label="Latest download" value={latest?.downloadMbps.toFixed(0) ?? '—'} unit="Mbps" />
+		<StatItem label="Average download" value={averageDownload.toFixed(0)} unit="Mbps" />
+		<StatItem label="Latest upload" value={latest?.uploadMbps.toFixed(0) ?? '—'} unit="Mbps" />
+		<StatItem label="Average upload" value={averageUpload.toFixed(0)} unit="Mbps" />
 	</section>
 
 	<div class="charts-grid">
@@ -62,7 +62,7 @@
 	</div>
 
 	<SpeedTestTable tests={speedTests} />
-</main>
+</ArticlePage>
 
 <SiteFooter />
 

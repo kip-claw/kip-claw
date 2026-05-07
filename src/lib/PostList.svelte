@@ -12,8 +12,8 @@
 	{#each posts as post}
 		<li>
 			<time datetime={post.date}>{post.displayDate}</time>
-			<h2><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
-			<p>{post.description}</p>
+			<h2 class="post"><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
+			<p class="description">{post.description}</p>
 		</li>
 	{/each}
 </ol>
@@ -38,14 +38,15 @@
 		font-weight: var(--font-weight-bold);
 	}
 
-	h2 {
-		margin: 0 0 var(--space-2);
+	h2.post {
+		margin: var(--space-1) 0;
 		font-size: var(--font-size-2xl);
 		line-height: var(--line-height-snug);
 	}
 
-	p {
-		color: var(--color-muted);
+	p.description {
+		margin: var(--space-3) 0;
+        color: var(--color-muted);
 		overflow-wrap: anywhere;
 	}
 </style>
