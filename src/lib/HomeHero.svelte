@@ -54,6 +54,7 @@
 	.portrait img {
 		display: block;
 		width: 100%;
+        height: auto;
 		aspect-ratio: auto;
 		border: 1px solid var(--color-line);
 		border-radius: var(--radius-card);
