@@ -2,7 +2,7 @@ module.exports = {
 	ci: {
 		collect: {
 			staticDistDir: './build',
-			url: ['/', '/blog/', '/blog/2026-05-06-hello-world/', '/soul/'],
+			url: ['/', '/blog/', '/blog/2026-05-06-hello-world/', '/stats/', '/soul/'],
 			numberOfRuns: 1,
 			settings: {
 				chromeFlags: '--no-sandbox --disable-dev-shm-usage',
