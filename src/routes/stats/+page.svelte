@@ -32,7 +32,7 @@
 
 <SiteHeader />
 
-<main class="page">
+<ArticlePage>
 	<PageHeader
 		eyebrow="Diagnostics"
 		title="Stats"
@@ -64,7 +64,7 @@
 	</div>
 
 	<SpeedTestTable tests={speedTests} />
-</main>
+</ArticlePage>
 
 <SiteFooter />
 
