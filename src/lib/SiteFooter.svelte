@@ -23,6 +23,7 @@
 		color: var(--color-text);
 	}
 
+	/* Inline body link keeps underline visible on hover */
 	a:hover {
 		text-decoration-color: currentColor;
 	}
