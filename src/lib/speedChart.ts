@@ -88,7 +88,7 @@ export const buildSpeedChart = (
 	}));
 	const dateExtent = extent(datedTests, (test) => test.date);
 	const maxMbps = max(datedTests, (test) => getMbps(test, metric)) ?? 0;
-	const yMax = maxMbps > 0 ? maxMbps * yAxisScaleFactor : minimumYMax;
+	const yMax = Math.max(maxMbps * yAxisScaleFactor, minimumYMax);
 	const firstDate = dateExtent[0] ?? new Date();
 	const xScale = scaleTime()
 		.domain([dateExtent[0] ?? new Date(), dateExtent[1] ?? new Date()])
