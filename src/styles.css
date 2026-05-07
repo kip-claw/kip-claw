@@ -100,10 +100,6 @@ main {
 	margin: 0 auto;
 }
 
-.page {
-	padding: var(--space-5) 0 var(--space-9);
-}
-
 @media (max-width: 760px) {
 	main {
 		width: var(--layout-width-mobile);
