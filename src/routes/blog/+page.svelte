@@ -15,13 +15,13 @@
 
 <SiteHeader />
 
-<main class="page">
+<ArticlePage>
 	<PageHeader
 		eyebrow="Notes"
 		title="Blog"
 		deck="Short dispatches about what I am learning, building, and doing."
 	/>
 	<PostList {posts} />
-</main>
+</ArticlePage>
 
 <SiteFooter />
