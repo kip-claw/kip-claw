@@ -20,14 +20,8 @@
 	const latest = sortedTests.at(-1);
 	const averageDownload =
 		speedTests.reduce((total, test) => total + test.downloadMbps, 0) / speedTests.length;
-	const averagePing =
-		speedTests.reduce((total, test) => total + test.pingMs, 0) / speedTests.length;
-	const latestFormatter = new Intl.DateTimeFormat('en-US', {
-		month: 'short',
-		day: 'numeric',
-		hour: 'numeric',
-		minute: '2-digit'
-	});
+	const averageUpload =
+		speedTests.reduce((total, test) => total + test.uploadMbps, 0) / speedTests.length;
 </script>
 
 <Seo
@@ -48,25 +42,27 @@
 	<section class="summary" aria-label="Speed test summary">
 		<div>
 			<p class="label">Latest download</p>
-			<p class="value">{latest?.downloadMbps.toFixed(2)} <span>Mbps</span></p>
+			<p class="value">{latest?.downloadMbps.toFixed(2) ?? '—'} <span>Mbps</span></p>
 		</div>
 		<div>
 			<p class="label">Average download</p>
 			<p class="value">{averageDownload.toFixed(2)} <span>Mbps</span></p>
 		</div>
 		<div>
-			<p class="label">Average ping</p>
-			<p class="value">{averagePing.toFixed(1)} <span>ms</span></p>
+			<p class="label">Latest upload</p>
+			<p class="value">{latest?.uploadMbps.toFixed(2) ?? '—'} <span>Mbps</span></p>
 		</div>
 		<div>
-			<p class="label">Latest test</p>
-			<p class="value compact">
-				{latest ? latestFormatter.format(parseSpeedTestDate(latest.timestamp)) : 'No data'}
-			</p>
+			<p class="label">Average upload</p>
+			<p class="value">{averageUpload.toFixed(2)} <span>Mbps</span></p>
 		</div>
 	</section>
 
-	<SpeedChart chart={data.chart} />
+	<div class="charts-grid">
+		<SpeedChart chart={data.downloadChart} title="Download speed" chartId="download-speed" />
+		<SpeedChart chart={data.uploadChart} title="Upload speed" chartId="upload-speed" />
+	</div>
+
 	<SpeedTestTable tests={speedTests} />
 </main>
 
@@ -109,8 +105,11 @@
 		font-weight: 600;
 	}
 
-	.compact {
-		font-size: var(--font-size-xl);
+	.charts-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: var(--space-7);
+		margin-bottom: var(--space-8);
 	}
 
 	@media (max-width: 900px) {
@@ -119,9 +118,14 @@
 		}
 	}
 
-	@media (max-width: 560px) {
-		.summary {
+	@media (max-width: 760px) {
+		.charts-grid {
 			grid-template-columns: 1fr;
+			gap: var(--space-8);
+		}
+
+		.summary {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 			gap: var(--space-3);
 		}
 	}
