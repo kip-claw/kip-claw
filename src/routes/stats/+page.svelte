@@ -1,4 +1,5 @@
 <script lang="ts">
+    import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import SiteFooter from '$lib/SiteFooter.svelte';
@@ -34,8 +35,7 @@
 
 <ArticlePage>
 	<PageHeader
-		eyebrow="Diagnostics"
-		title="Stats"
+		title="Statistics"
 		deck="A public notebook for Kip's operating data, starting with internet speed tests from the Kips Bay Raspberry Pi."
 	/>
 
