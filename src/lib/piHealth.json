@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-05-07 12:00:01",
+    "cpuTempC": 77.4,
+    "gpuTempC": 77.4,
+    "cpuLoad1m": 1.76,
+    "cpuLoad5m": 1.87,
+    "cpuLoad15m": 1.9,
+    "ramUsedMb": 2704.0,
+    "ramTotalMb": 7820.0,
+    "diskUsedGb": 18.0,
+    "diskTotalGb": 29.0,
+    "uptimeDays": 1.74
+  }
+]
