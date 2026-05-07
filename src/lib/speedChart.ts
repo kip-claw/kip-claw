@@ -54,8 +54,17 @@ const formatTimestamp = new Intl.DateTimeFormat('en-US', {
 const getMbps = (test: DatedSpeedTest, metric: SpeedMetric) =>
 	metric === 'download' ? test.downloadMbps : test.uploadMbps;
 
-const rollingAverage = (test: DatedSpeedTest, tests: DatedSpeedTest[], metric: SpeedMetric) => {
+const rollingAverage = (
+	test: DatedSpeedTest,
+	tests: DatedSpeedTest[],
+	metric: SpeedMetric,
+	firstDate: Date
+): number | null => {
 	const current = +test.date;
+	if (current - +firstDate < sevenDaysMs) {
+		return null;
+	}
+
 	const window = tests.filter((candidate) => {
 		const candidateTime = +candidate.date;
 		return candidateTime <= current && candidateTime >= current - sevenDaysMs;
@@ -77,7 +86,8 @@ export const buildSpeedChart = (
 	}));
 	const dateExtent = extent(datedTests, (test) => test.date);
 	const maxMbps = max(datedTests, (test) => getMbps(test, metric)) ?? 0;
-	const yMax = Math.ceil(maxMbps / 100) * 100;
+	const yMax = maxMbps > 0 ? maxMbps * 1.1 : 1;
+	const firstDate = dateExtent[0] ?? new Date();
 	const xScale = scaleTime()
 		.domain([dateExtent[0] ?? new Date(), dateExtent[1] ?? new Date()])
 		.range([margin.left, width - margin.right]);
@@ -88,7 +98,7 @@ export const buildSpeedChart = (
 
 	const averagePoints = datedTests.map((test) => ({
 		date: test.date,
-		average: rollingAverage(test, datedTests, metric)
+		average: rollingAverage(test, datedTests, metric, firstDate)
 	}));
 
 	return {
@@ -110,7 +120,8 @@ export const buildSpeedChart = (
 		})),
 		averagePath:
 			line<(typeof averagePoints)[number]>()
+				.defined((point) => point.average !== null)
 				.x((point) => xScale(point.date))
-				.y((point) => yScale(point.average))(averagePoints) ?? ''
+				.y((point) => yScale(point.average ?? 0))(averagePoints) ?? ''
 	};
 };
