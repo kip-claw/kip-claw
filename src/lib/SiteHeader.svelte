@@ -58,7 +58,6 @@
 
 	nav a {
 		text-decoration-color: transparent;
-		text-underline-offset: var(--underline-offset);
 	}
 
 	nav a:hover {

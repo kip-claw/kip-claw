@@ -19,6 +19,14 @@
 		overflow-wrap: anywhere;
 	}
 
+	a {
+		color: var(--color-text);
+	}
+
+	a:hover {
+		text-decoration-color: currentColor;
+	}
+
 	@media (max-width: 760px) {
 		footer {
 			width: var(--layout-width-mobile);
