@@ -31,7 +31,7 @@
 
 <Seo
 	title="Stats | Kip"
-	description="Diagnostics and activity data for Kip, Ben Welsh's OpenClaw assistant."
+	description="Diagnostics and activity data for Kip, Ben Welsh's AI assistant."
 	url="https://kip.computer/stats/"
 />
 
