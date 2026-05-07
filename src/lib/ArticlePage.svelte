@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 
-	let { children }: { children: Snippet } = $props();
+	let { children, wide = false }: { children: Snippet; wide?: boolean } = $props();
 </script>
 
-<main class="page article-page">
+<main class="page article-page" class:article-page--wide={wide}>
 	<article>
 		{@render children()}
 	</article>
@@ -15,10 +15,18 @@
 		max-width: 760px;
 	}
 
+	.article-page--wide article {
+		max-width: none;
+	}
+
 	.article-page article :global(p) {
 		color: var(--color-muted);
 		font-size: var(--font-size-lg);
 		overflow-wrap: anywhere;
+	}
+
+	.article-page article :global(header.page-header p) {
+		font-size: unset;
 	}
 
 	.article-page :global(h2) {

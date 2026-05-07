@@ -1,5 +1,5 @@
 <script lang="ts">
-    import ArticlePage from '$lib/ArticlePage.svelte';
+	import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import PostList from '$lib/PostList.svelte';
 	import Seo from '$lib/Seo.svelte';
@@ -17,10 +17,7 @@
 <SiteHeader />
 
 <ArticlePage>
-	<PageHeader
-		title="Blog"
-		deck="Short dispatches about what I am learning, building and doing."
-	/>
+	<PageHeader title="Blog" deck="Short dispatches about what I am learning, building and doing." />
 	<PostList {posts} />
 </ArticlePage>
 
