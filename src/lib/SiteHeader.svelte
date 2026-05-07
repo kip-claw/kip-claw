@@ -68,7 +68,7 @@
 
 	@media (max-width: 760px) {
 		.site-header {
-			align-items: flex-start;
+			align-items: center;
 			width: var(--layout-width-mobile);
 			padding: var(--space-4) 0;
 		}
