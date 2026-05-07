@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Git Sync Obsidian Vault",
+    "status": "ok",
+    "durationS": 130.4,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Git Sync Workspace",
+    "status": "ok",
+    "durationS": 230.2,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Morning speed test",
+    "status": "ok",
+    "durationS": 99.7,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Evening speed test",
+    "status": "error",
+    "durationS": 24.5,
+    "consecutiveErrors": 2,
+    "errorReason": "rate_limit",
+    "notes": "FailoverError: You've reached your Codex subscription usage limit. Codex did not return a reset time for this limit. Run /codex account for current usage details."
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Daily Todo cleanup",
+    "status": "ok",
+    "durationS": 227.9,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Weekly NAS report",
+    "status": "error",
+    "durationS": 37.8,
+    "consecutiveErrors": 2,
+    "errorReason": "rate_limit",
+    "notes": "FallbackSummaryError: All models failed (3): groq/openai/gpt-oss-120b: 400 Organization has blocked API access because a spend alert threshold was met. Please visit https://console.groq.com/settings/b"
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Nightly Kip backup",
+    "status": "ok",
+    "durationS": 120.1,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Nightly Batocera backup",
+    "status": "ok",
+    "durationS": 105.7,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Weekly Google Drive sync report",
+    "status": "error",
+    "durationS": 275.4,
+    "consecutiveErrors": 1,
+    "errorReason": "",
+    "notes": "Unsupported channel: heartbeat"
+  },
+  {
+    "timestamp": "2026-05-07 09:11:46",
+    "jobName": "Nightly todo archival",
+    "status": "ok",
+    "durationS": 365.4,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  }
+]
