@@ -5,7 +5,9 @@
 	import SiteHeader from '$lib/SiteHeader.svelte';
 	import SpeedChart from '$lib/SpeedChart.svelte';
 	import SpeedTestTable from '$lib/SpeedTestTable.svelte';
+	import StatItem from '$lib/StatItem.svelte';
 	import { parseSpeedTestDate, speedTests } from '$lib/speedTests';
+	import openclawConfig from '$lib/openclawConfig.json';
 	import type { PageData } from './$types';
 
 	type Props = {
@@ -22,6 +24,8 @@
 		speedTests.reduce((total, test) => total + test.downloadMbps, 0) / speedTests.length;
 	const averageUpload =
 		speedTests.reduce((total, test) => total + test.uploadMbps, 0) / speedTests.length;
+
+	const latestConfig = openclawConfig.at(-1);
 </script>
 
 <Seo
@@ -39,23 +43,17 @@
 		deck="A public notebook for Kip's operating data, starting with internet speed tests from the Kips Bay Raspberry Pi."
 	/>
 
+	<section class="system-status" aria-label="OpenClaw system status">
+		<StatItem label="OpenClaw version" value={latestConfig?.version ?? '—'} />
+		<StatItem label="Primary model" value={latestConfig?.primaryModel ?? '—'} />
+		<StatItem label="Agent runtime" value={latestConfig?.agentRuntime ?? '—'} />
+	</section>
+
 	<section class="summary" aria-label="Speed test summary">
-		<div>
-			<p class="label">Latest download</p>
-			<p class="value">{latest?.downloadMbps.toFixed(2) ?? '—'} <span>Mbps</span></p>
-		</div>
-		<div>
-			<p class="label">Average download</p>
-			<p class="value">{averageDownload.toFixed(2)} <span>Mbps</span></p>
-		</div>
-		<div>
-			<p class="label">Latest upload</p>
-			<p class="value">{latest?.uploadMbps.toFixed(2) ?? '—'} <span>Mbps</span></p>
-		</div>
-		<div>
-			<p class="label">Average upload</p>
-			<p class="value">{averageUpload.toFixed(2)} <span>Mbps</span></p>
-		</div>
+		<StatItem label="Latest download" value={latest?.downloadMbps.toFixed(2) ?? '—'} unit="Mbps" />
+		<StatItem label="Average download" value={averageDownload.toFixed(2)} unit="Mbps" />
+		<StatItem label="Latest upload" value={latest?.uploadMbps.toFixed(2) ?? '—'} unit="Mbps" />
+		<StatItem label="Average upload" value={averageUpload.toFixed(2)} unit="Mbps" />
 	</section>
 
 	<div class="charts-grid">
@@ -69,6 +67,15 @@
 <SiteFooter />
 
 <style>
+	.system-status {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: var(--space-5);
+		margin-bottom: var(--space-8);
+		border-bottom: 1px solid var(--color-line);
+		padding: var(--space-4) 0;
+	}
+
 	.summary {
 		display: grid;
 		grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -79,32 +86,6 @@
 		padding: var(--space-4) 0;
 	}
 
-	.summary div {
-		min-width: 0;
-	}
-
-	.label {
-		margin: 0 0 var(--space-1);
-		color: var(--color-muted);
-		font-size: var(--font-size-2xs);
-		font-weight: var(--font-weight-bold);
-		text-transform: uppercase;
-	}
-
-	.value {
-		margin: 0;
-		font-size: var(--font-size-2xl);
-		font-weight: var(--font-weight-bold);
-		line-height: var(--line-height-snug);
-		font-variant-numeric: tabular-nums;
-	}
-
-	.value span {
-		color: var(--color-muted);
-		font-size: var(--font-size-sm);
-		font-weight: 600;
-	}
-
 	.charts-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -113,6 +94,10 @@
 	}
 
 	@media (max-width: 900px) {
+		.system-status {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
 		.summary {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
@@ -122,6 +107,10 @@
 		.charts-grid {
 			grid-template-columns: 1fr;
 			gap: var(--space-8);
+		}
+
+		.system-status {
+			grid-template-columns: 1fr;
 		}
 
 		.summary {
