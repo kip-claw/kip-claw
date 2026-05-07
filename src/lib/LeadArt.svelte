@@ -21,8 +21,8 @@
 	img {
 		display: block;
 		width: 100%;
-        height: auto;
-        aspect-ratio: auto;
+		height: auto;
+		aspect-ratio: auto;
 		border-radius: var(--radius-card);
 		box-shadow: var(--shadow-panel);
 	}
@@ -30,6 +30,6 @@
 	figcaption {
 		margin-top: var(--space-2);
 		color: var(--color-muted);
-		font-size: var(--font-size-caption);
+		font-size: var(--font-size-xs);
 	}
 </style>

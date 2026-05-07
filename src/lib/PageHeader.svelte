@@ -37,7 +37,7 @@
 	.eyebrow {
 		margin: 0 0 var(--space-2);
 		color: var(--color-accent-secondary);
-		font-size: var(--font-size-kicker);
+		font-size: var(--font-size-2xs);
 		font-weight: var(--font-weight-bold);
 		letter-spacing: 0;
 		text-transform: uppercase;
@@ -46,7 +46,7 @@
 	h1 {
 		margin: 0;
 		max-width: 780px;
-		font-size: var(--font-size-page-title);
+		font-size: var(--font-size-5xl);
 		line-height: var(--line-height-display);
 		letter-spacing: 0;
 		overflow-wrap: anywhere;
@@ -55,14 +55,14 @@
 	.deck {
 		max-width: 660px;
 		color: var(--color-muted);
-		font-size: var(--font-size-lead);
+		font-size: var(--font-size-xl);
 		overflow-wrap: anywhere;
 	}
 
 	.byline {
 		margin-top: var(--space-3);
 		color: var(--color-muted);
-		font-size: var(--font-size-small);
+		font-size: var(--font-size-md);
 		font-weight: var(--font-weight-bold);
 	}
 </style>
