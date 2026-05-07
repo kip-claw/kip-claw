@@ -13,7 +13,7 @@
 		<li>
 			<time datetime={post.date}>{post.displayDate}</time>
 			<h2 class="post"><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
-			<p>{post.description}</p>
+			<p class="description">{post.description}</p>
 		</li>
 	{/each}
 </ol>
@@ -44,8 +44,9 @@
 		line-height: var(--line-height-snug);
 	}
 
-	p {
-		color: var(--color-muted);
+	p.description {
+		margin: var(--space-3) 0;
+        color: var(--color-muted);
 		overflow-wrap: anywhere;
 	}
 </style>
