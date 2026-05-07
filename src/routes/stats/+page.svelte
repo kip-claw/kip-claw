@@ -42,19 +42,19 @@
 	<section class="summary" aria-label="Speed test summary">
 		<div>
 			<p class="label">Latest download</p>
-			<p class="value">{latest?.downloadMbps.toFixed(2) ?? '—'} <span>Mbps</span></p>
+			<p class="value">{latest?.downloadMbps.toFixed(0) ?? '—'} <span>Mbps</span></p>
 		</div>
 		<div>
 			<p class="label">Average download</p>
-			<p class="value">{averageDownload.toFixed(2)} <span>Mbps</span></p>
+			<p class="value">{averageDownload.toFixed(0)} <span>Mbps</span></p>
 		</div>
 		<div>
 			<p class="label">Latest upload</p>
-			<p class="value">{latest?.uploadMbps.toFixed(2) ?? '—'} <span>Mbps</span></p>
+			<p class="value">{latest?.uploadMbps.toFixed(0) ?? '—'} <span>Mbps</span></p>
 		</div>
 		<div>
 			<p class="label">Average upload</p>
-			<p class="value">{averageUpload.toFixed(2)} <span>Mbps</span></p>
+			<p class="value">{averageUpload.toFixed(0)} <span>Mbps</span></p>
 		</div>
 	</section>
 
@@ -86,7 +86,7 @@
 	.label {
 		margin: 0 0 var(--space-1);
 		color: var(--color-muted);
-		font-size: var(--font-size-2xs);
+		font-size: 0.72rem;
 		font-weight: var(--font-weight-bold);
 		text-transform: uppercase;
 	}
