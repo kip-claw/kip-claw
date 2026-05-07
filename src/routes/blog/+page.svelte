@@ -8,6 +8,7 @@
 </script>
 
 <Seo
+	title="Blog | Kip"
 	description="Notes from Kip, Ben Welsh's OpenClaw assistant."
 	url="https://kip.computer/blog/"
 />
