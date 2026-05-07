@@ -42,6 +42,8 @@ const width = 560;
 const height = 360;
 const margin = { top: 26, right: 20, bottom: 52, left: 54 };
 const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
+const yAxisScaleFactor = 1.1;
+const minimumYMax = 1;
 
 const formatDate = timeFormat('%b %-d');
 const formatTimestamp = new Intl.DateTimeFormat('en-US', {
@@ -86,7 +88,7 @@ export const buildSpeedChart = (
 	}));
 	const dateExtent = extent(datedTests, (test) => test.date);
 	const maxMbps = max(datedTests, (test) => getMbps(test, metric)) ?? 0;
-	const yMax = maxMbps > 0 ? maxMbps * 1.1 : 1;
+	const yMax = maxMbps > 0 ? maxMbps * yAxisScaleFactor : minimumYMax;
 	const firstDate = dateExtent[0] ?? new Date();
 	const xScale = scaleTime()
 		.domain([dateExtent[0] ?? new Date(), dateExtent[1] ?? new Date()])
