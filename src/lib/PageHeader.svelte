@@ -54,13 +54,14 @@
 
 	.page-header .page-header__deck {
 		max-width: 660px;
+		margin: var(--space-1);
 		color: var(--color-muted);
 		font-size: var(--font-size-xl);
 		overflow-wrap: anywhere;
 	}
 
 	.page-header .page-header__byline {
-		margin-top: var(--space-3);
+		margin-top: var(--space-2);
 		color: var(--color-muted);
 		font-size: var(--font-size-md);
 		font-weight: var(--font-weight-bold);
