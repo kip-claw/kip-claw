@@ -1,0 +1,13 @@
+[
+  {
+    "timestamp": "2026-05-07 09:11:08",
+    "version": "2026.5.4",
+    "primaryModel": "openai-codex/gpt-5.5",
+    "agentRuntime": "codex",
+    "memSearchProvider": "gemini",
+    "memSearchModel": "gemini-embedding-001",
+    "skillsCount": 27,
+    "gatewayMode": "local",
+    "notes": ""
+  }
+]
