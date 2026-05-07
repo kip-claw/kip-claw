@@ -30,6 +30,6 @@
 	figcaption {
 		margin-top: var(--space-2);
 		color: var(--color-muted);
-		font-size: var(--font-size-caption);
+		font-size: var(--font-size-xs);
 	}
 </style>

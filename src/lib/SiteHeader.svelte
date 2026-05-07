@@ -53,7 +53,7 @@
 		align-items: center;
 		gap: var(--space-4);
 		color: var(--color-muted);
-		font-size: var(--font-size-nav);
+		font-size: var(--font-size-sm);
 	}
 
 	nav a {

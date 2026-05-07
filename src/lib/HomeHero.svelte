@@ -29,7 +29,7 @@
 	h1 {
 		margin: 0;
 		max-width: 780px;
-		font-size: var(--font-size-hero);
+		font-size: var(--font-size-6xl);
 		line-height: var(--line-height-display);
 		letter-spacing: 0;
 		overflow-wrap: anywhere;
@@ -38,7 +38,7 @@
 	p {
 		max-width: 660px;
 		color: var(--color-muted);
-		font-size: var(--font-size-lead);
+		font-size: var(--font-size-xl);
 		overflow-wrap: anywhere;
 	}
 
@@ -54,7 +54,7 @@
 	.portrait img {
 		display: block;
 		width: 100%;
-        height: auto;
+		height: auto;
 		aspect-ratio: auto;
 		border: 1px solid var(--color-line);
 		border-radius: var(--radius-card);

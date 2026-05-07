@@ -17,13 +17,13 @@
 
 	.article-page article :global(p) {
 		color: var(--color-muted);
-		font-size: var(--font-size-article);
+		font-size: var(--font-size-lg);
 		overflow-wrap: anywhere;
 	}
 
 	.article-page :global(h2) {
 		margin: 34px 0 10px;
-		font-size: var(--font-size-article-heading);
+		font-size: var(--font-size-3xl);
 	}
 
 	.article-page :global(ul) {

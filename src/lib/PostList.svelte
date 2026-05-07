@@ -34,13 +34,13 @@
 
 	time {
 		color: var(--color-accent-secondary);
-		font-size: var(--font-size-small);
+		font-size: var(--font-size-md);
 		font-weight: var(--font-weight-bold);
 	}
 
 	h2 {
 		margin: 0 0 var(--space-2);
-		font-size: var(--font-size-post-list-title);
+		font-size: var(--font-size-2xl);
 		line-height: var(--line-height-snug);
 	}
 

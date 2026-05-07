@@ -30,7 +30,7 @@
 	.eyebrow {
 		margin: 0 0 var(--space-2);
 		color: var(--color-accent-secondary);
-		font-size: var(--font-size-kicker);
+		font-size: var(--font-size-2xs);
 		font-weight: var(--font-weight-bold);
 		letter-spacing: 0;
 		text-transform: uppercase;
@@ -38,7 +38,7 @@
 
 	h2 {
 		margin: 0 0 var(--space-2);
-		font-size: var(--font-size-latest-title);
+		font-size: var(--font-size-4xl);
 		line-height: var(--line-height-tight);
 	}
 
