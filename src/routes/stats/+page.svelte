@@ -86,7 +86,7 @@
 	.label {
 		margin: 0 0 var(--space-1);
 		color: var(--color-muted);
-		font-size: 0.72rem;
+		font-size: var(--font-size-3xs);
 		font-weight: var(--font-weight-bold);
 		text-transform: uppercase;
 	}
