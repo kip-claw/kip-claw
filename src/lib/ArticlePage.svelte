@@ -25,10 +25,6 @@
 		overflow-wrap: anywhere;
 	}
 
-	.article-page article :global(header.page-header p) {
-		font-size: unset;
-	}
-
 	.article-page :global(h2) {
 		margin: 34px 0 10px;
 		font-size: var(--font-size-3xl);

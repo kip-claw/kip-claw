@@ -12,7 +12,7 @@
 
 <header class="page-header">
 	{#if eyebrow}
-		<p class="eyebrow">
+		<p class="page-header__eyebrow">
 			{#if datetime}
 				<time {datetime}>{eyebrow}</time>
 			{:else}
@@ -22,10 +22,10 @@
 	{/if}
 	<h1>{title}</h1>
 	{#if deck}
-		<p class="deck">{deck}</p>
+		<p class="page-header__deck">{deck}</p>
 	{/if}
 	{#if byline}
-		<p class="byline">By {byline}</p>
+		<p class="page-header__byline">By {byline}</p>
 	{/if}
 </header>
 
@@ -34,7 +34,7 @@
 		margin-bottom: var(--space-7);
 	}
 
-	.eyebrow {
+	.page-header .page-header__eyebrow {
 		margin: 0 0 var(--space-2);
 		color: var(--color-accent-secondary);
 		font-size: var(--font-size-2xs);
@@ -52,14 +52,14 @@
 		overflow-wrap: anywhere;
 	}
 
-	.deck {
+	.page-header .page-header__deck {
 		max-width: 660px;
 		color: var(--color-muted);
 		font-size: var(--font-size-xl);
 		overflow-wrap: anywhere;
 	}
 
-	.byline {
+	.page-header .page-header__byline {
 		margin-top: var(--space-3);
 		color: var(--color-muted);
 		font-size: var(--font-size-md);
