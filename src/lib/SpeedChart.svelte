@@ -3,16 +3,17 @@
 
 	type Props = {
 		chart: SpeedChartModel;
+		title: string;
+		chartId: string;
 	};
 
-	let { chart }: Props = $props();
+	let { chart, title, chartId }: Props = $props();
 </script>
 
-<section class="chart-section" aria-labelledby="speed-chart-title">
+<section class="chart-section" aria-labelledby={`${chartId}-heading`}>
 	<div class="chart-heading">
 		<div>
-			<p class="eyebrow">Speed tests</p>
-			<h2 id="speed-chart-title">Download speed over time</h2>
+			<h2 id={`${chartId}-heading`}>{title}</h2>
 		</div>
 		<div class="legend" aria-label="Chart legend">
 			<span><i class="dot"></i> Test</span>
@@ -24,10 +25,10 @@
 		<svg
 			viewBox={`0 0 ${chart.width} ${chart.height}`}
 			role="img"
-			aria-labelledby="chart-title chart-desc"
+			aria-labelledby={`${chartId}-title ${chartId}-desc`}
 		>
-			<title id="chart-title">Download speed results and 7-day rolling average</title>
-			<desc id="chart-desc">
+			<title id={`${chartId}-title`}>{title} results and 7-day rolling average</title>
+			<desc id={`${chartId}-desc`}>
 				Every speed test is plotted as a dot in megabits per second. The line shows the 7-day
 				rolling average.
 			</desc>
@@ -56,19 +57,19 @@
 					{tick.label}
 				</text>
 			{/each}
-			<path class="average-line" d={chart.averagePath} />
 			{#each chart.points as point}
-				<circle class="test-dot" cx={point.x} cy={point.y} r="4.8">
+				<circle class="test-dot" cx={point.x} cy={point.y} r="3.5">
 					<title>{point.title}</title>
 				</circle>
 			{/each}
+			<path class="average-line" d={chart.averagePath} />
 		</svg>
 	</div>
 </section>
 
 <style>
 	.chart-section {
-		margin-bottom: var(--space-8);
+		min-width: 0;
 	}
 
 	.chart-heading {
@@ -81,17 +82,9 @@
 		padding-bottom: var(--space-3);
 	}
 
-	.eyebrow {
-		margin: 0 0 var(--space-1);
-		color: var(--color-accent-secondary);
-		font-size: var(--font-size-2xs);
-		font-weight: var(--font-weight-bold);
-		text-transform: uppercase;
-	}
-
 	h2 {
 		margin: 0;
-		font-size: var(--font-size-3xl);
+		font-size: var(--font-size-xl);
 		line-height: var(--line-height-snug);
 	}
 
@@ -110,10 +103,11 @@
 	}
 
 	.dot {
-		width: 9px;
-		height: 9px;
+		width: 8px;
+		height: 8px;
 		border-radius: 999px;
 		background: var(--color-accent);
+		opacity: 0.6;
 	}
 
 	.line {
@@ -123,14 +117,12 @@
 	}
 
 	.chart-frame {
-		overflow-x: auto;
 		border-bottom: 1px solid var(--color-line);
 		padding-bottom: var(--space-2);
 	}
 
 	svg {
 		display: block;
-		min-width: 760px;
 		width: 100%;
 		height: auto;
 	}
@@ -159,19 +151,19 @@
 		text-anchor: middle;
 	}
 
+	.test-dot {
+		fill: var(--color-accent);
+		fill-opacity: 0.45;
+		stroke: var(--color-background);
+		stroke-width: 1;
+	}
+
 	.average-line {
 		fill: none;
 		stroke: var(--color-text);
-		stroke-width: 3;
+		stroke-width: 2.5;
 		stroke-linecap: round;
 		stroke-linejoin: round;
-	}
-
-	.test-dot {
-		fill: var(--color-accent);
-		fill-opacity: 0.76;
-		stroke: var(--color-background);
-		stroke-width: 1.4;
 	}
 
 	@media (max-width: 760px) {

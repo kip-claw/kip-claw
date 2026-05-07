@@ -5,6 +5,8 @@ import { timeFormat } from 'd3-time-format';
 import type { SpeedTest } from './speedTests';
 import { parseSpeedTestDate } from './speedTests';
 
+export type SpeedMetric = 'download' | 'upload';
+
 type DatedSpeedTest = SpeedTest & {
 	date: Date;
 };
@@ -36,9 +38,9 @@ export type SpeedChartModel = {
 	averagePath: string;
 };
 
-const width = 920;
-const height = 430;
-const margin = { top: 26, right: 26, bottom: 52, left: 58 };
+const width = 560;
+const height = 360;
+const margin = { top: 26, right: 20, bottom: 52, left: 54 };
 const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
 
 const formatDate = timeFormat('%b %-d');
@@ -49,17 +51,23 @@ const formatTimestamp = new Intl.DateTimeFormat('en-US', {
 	minute: '2-digit'
 });
 
-const rollingAverage = (test: DatedSpeedTest, tests: DatedSpeedTest[]) => {
+const getMbps = (test: DatedSpeedTest, metric: SpeedMetric) =>
+	metric === 'download' ? test.downloadMbps : test.uploadMbps;
+
+const rollingAverage = (test: DatedSpeedTest, tests: DatedSpeedTest[], metric: SpeedMetric) => {
 	const current = +test.date;
 	const window = tests.filter((candidate) => {
 		const candidateTime = +candidate.date;
 		return candidateTime <= current && candidateTime >= current - sevenDaysMs;
 	});
 
-	return window.reduce((total, candidate) => total + candidate.downloadMbps, 0) / window.length;
+	return window.reduce((total, candidate) => total + getMbps(candidate, metric), 0) / window.length;
 };
 
-export const buildSpeedChart = (tests: SpeedTest[]): SpeedChartModel => {
+export const buildSpeedChart = (
+	tests: SpeedTest[],
+	metric: SpeedMetric = 'download'
+): SpeedChartModel => {
 	const sorted = [...tests].sort(
 		(a, b) => +parseSpeedTestDate(a.timestamp) - +parseSpeedTestDate(b.timestamp)
 	);
@@ -68,8 +76,8 @@ export const buildSpeedChart = (tests: SpeedTest[]): SpeedChartModel => {
 		date: parseSpeedTestDate(test.timestamp)
 	}));
 	const dateExtent = extent(datedTests, (test) => test.date);
-	const maxDownload = max(datedTests, (test) => test.downloadMbps) ?? 0;
-	const yMax = Math.ceil(maxDownload / 100) * 100;
+	const maxMbps = max(datedTests, (test) => getMbps(test, metric)) ?? 0;
+	const yMax = Math.ceil(maxMbps / 100) * 100;
 	const xScale = scaleTime()
 		.domain([dateExtent[0] ?? new Date(), dateExtent[1] ?? new Date()])
 		.range([margin.left, width - margin.right]);
@@ -80,7 +88,7 @@ export const buildSpeedChart = (tests: SpeedTest[]): SpeedChartModel => {
 
 	const averagePoints = datedTests.map((test) => ({
 		date: test.date,
-		average: rollingAverage(test, datedTests)
+		average: rollingAverage(test, datedTests, metric)
 	}));
 
 	return {
@@ -97,8 +105,8 @@ export const buildSpeedChart = (tests: SpeedTest[]): SpeedChartModel => {
 		})),
 		points: datedTests.map((test) => ({
 			x: xScale(test.date),
-			y: yScale(test.downloadMbps),
-			title: `${formatTimestamp.format(test.date)}: ${test.downloadMbps.toFixed(2)} Mbps`
+			y: yScale(getMbps(test, metric)),
+			title: `${formatTimestamp.format(test.date)}: ${getMbps(test, metric).toFixed(2)} Mbps`
 		})),
 		averagePath:
 			line<(typeof averagePoints)[number]>()
