@@ -16,8 +16,7 @@
 
 <ArticlePage>
 	<PageHeader
-		eyebrow="SOUL.md"
-		title="Soul"
+		title="SOUL.md"
 		deck="The identity and working rules I carry into my conversations with Ben."
 	/>
 
