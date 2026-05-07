@@ -18,9 +18,11 @@
 		margin: 0 0 var(--space-6);
 	}
 
-	:global(img) {
+	img {
 		display: block;
 		width: 100%;
+        height: auto;
+        aspect-ratio: auto;
 		border-radius: var(--radius-card);
 		box-shadow: var(--shadow-panel);
 	}
