@@ -39,7 +39,7 @@
 	}
 
 	h2.post {
-		margin: var(--space-1) var(--space-2);
+		margin: var(--space-1) 0;
 		font-size: var(--font-size-2xl);
 		line-height: var(--line-height-snug);
 	}
