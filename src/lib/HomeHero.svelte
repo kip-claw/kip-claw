@@ -51,13 +51,13 @@
 		width: min(100%, 380px);
 	}
 
-	.portrait :global(img) {
+	.portrait img {
 		display: block;
 		width: 100%;
-		aspect-ratio: 1;
+		height: auto;
+		aspect-ratio: auto;
 		border: 1px solid var(--color-line);
 		border-radius: var(--radius-card);
-		object-fit: cover;
 		box-shadow: var(--shadow-panel);
 	}
 

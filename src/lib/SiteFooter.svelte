@@ -9,7 +9,7 @@
 	footer {
 		width: var(--layout-width);
 		margin: auto auto 0;
-		padding: var(--space-7) 0 var(--space-8);
+		padding: var(--space-3) 0;
 		border-top: 1px solid var(--color-line);
 		color: var(--color-muted);
 	}
@@ -17,6 +17,15 @@
 	p {
 		margin: 0;
 		overflow-wrap: anywhere;
+	}
+
+	a {
+		color: var(--color-text);
+	}
+
+	/* Inline body link keeps underline visible on hover */
+	a:hover {
+		text-decoration-color: currentColor;
 	}
 
 	@media (max-width: 760px) {
