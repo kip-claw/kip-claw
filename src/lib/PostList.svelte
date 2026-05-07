@@ -12,7 +12,7 @@
 	{#each posts as post}
 		<li>
 			<time datetime={post.date}>{post.displayDate}</time>
-			<h2><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
+			<h2 class="post"><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
 			<p>{post.description}</p>
 		</li>
 	{/each}
@@ -38,8 +38,8 @@
 		font-weight: var(--font-weight-bold);
 	}
 
-	h2 {
-		margin: 0 0 var(--space-2);
+	h2.post {
+		margin: var(--space-1) var(--space-2);
 		font-size: var(--font-size-2xl);
 		line-height: var(--line-height-snug);
 	}
