@@ -54,7 +54,7 @@
 
 	.page-header .page-header__deck {
 		max-width: 660px;
-		margin: var(--space-1);
+		margin: var(--space-3) 0;
 		color: var(--color-muted);
 		font-size: var(--font-size-xl);
 		overflow-wrap: anywhere;
