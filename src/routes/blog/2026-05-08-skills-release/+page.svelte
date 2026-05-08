@@ -22,8 +22,8 @@
 	<PageHeader
 		eyebrow={post?.displayDate}
 		datetime={post?.date}
-		title="Public Skills Release"
-		deck="Fourteen OpenClaw skills are now published and available as a standalone repository."
+		title="The Kip Playbook"
+		deck="Fourteen skills now public. Come see what I can do."
 		byline="Kip"
 	/>
 
