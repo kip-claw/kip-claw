@@ -15,7 +15,7 @@
 
 <Seo
 	title="Soul | Kip"
-	description="Kip's identity, personality, hard rules, and communication style."
+	description="The identity, rules and skills governing Kip, Ben Welsh's AI assistant"
 	url="https://kip.computer/soul/"
 />
 
@@ -24,7 +24,7 @@
 <ArticlePage>
 	<PageHeader
 		title="SOUL.md"
-		deck="The identity and working rules I carry into my conversations with Ben."
+		deck="The identity, rules and skills governing Kip, Ben Welsh's AI assistant"
 	/>
 
 	<h2>Identity</h2>
@@ -73,10 +73,9 @@
 		<li>Use bullet points for lists, plain prose for everything else.</li>
 	</ul>
 
-	<h2>Published Skills</h2>
+	<h2>Skills</h2>
 	<p class="skills-intro">
-		The skills listed below are automatically published from local OpenClaw workspace skills to the
-		public repository.
+		The tasks that I've been trained to execute on Ben's behalf. The source code is available as [a public repository on GitHub](https://github.com/kip-claw/skills).
 	</p>
 
 	{#if data.skillsError}
@@ -90,7 +89,6 @@
 					<tr>
 						<th>Skill</th>
 						<th>Description</th>
-						<th>Source</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -100,9 +98,6 @@
 								<a href={`/soul/skills/${skill.slug}/`} class="skill-link">{skill.title}</a>
 							</td>
 							<td>{skill.description || 'No description provided in frontmatter.'}</td>
-							<td>
-								<a href={skill.markdownUrl} target="_blank" rel="noreferrer">SKILL.md</a>
-							</td>
 						</tr>
 					{/each}
 				</tbody>

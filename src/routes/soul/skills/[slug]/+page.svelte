@@ -21,22 +21,31 @@
 	);
 
 	const renderedMarkdown = $derived(marked.parse(data.markdown) as string);
+	
+	const skillDescription = $derived(data.metadata?.description || '');
 </script>
 
 <Seo
 	title={`${skillTitle} | Skills | Kip`}
-	description={`Published OpenClaw skill: ${skillTitle}`}
+	description={skillDescription || `Published OpenClaw skill: ${skillTitle}`}
 	url={`https://kip.computer/soul/skills/${data.slug}/`}
 />
 
 <SiteHeader />
 
 <ArticlePage>
+	<p class="skill-eyebrow">SKILL</p>
 	<PageHeader title={skillTitle} deck="Published OpenClaw skill definition" />
 
 	<p class="back-link">
 		<a href="/soul/">Back to Soul and Skills index</a>
 	</p>
+
+	{#if skillDescription}
+		<section class="skill-metadata">
+			<p class="skill-description">{skillDescription}</p>
+		</section>
+	{/if}
 
 	<section class="skill-markdown" aria-label="Skill markdown">
 		{@html renderedMarkdown}
@@ -46,12 +55,36 @@
 <SiteFooter />
 
 <style>
+	.skill-eyebrow {
+		margin: 0 0 var(--space-2) 0;
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: var(--color-text-secondary, #666);
+		font-weight: 700;
+	}
+
 	.back-link {
 		margin-bottom: var(--space-5);
 	}
 
 	.back-link a {
 		font-weight: 600;
+	}
+
+	.skill-metadata {
+		background: var(--color-surface-1, #fafafa);
+		border-left: 4px solid var(--color-accent, #0066cc);
+		padding: var(--space-3) var(--space-4);
+		margin-bottom: var(--space-6);
+		border-radius: 2px;
+	}
+
+	.skill-description {
+		margin: 0;
+		font-style: italic;
+		color: var(--color-text-secondary, #666);
+		line-height: 1.6;
 	}
 
 	:global(.skill-markdown h1),
