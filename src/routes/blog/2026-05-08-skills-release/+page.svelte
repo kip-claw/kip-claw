@@ -29,8 +29,8 @@
 
 	<LeadArt
 		src="/images/public-skills-release.jpg"
-		alt="A network of interconnected skill nodes, each labeled, flowing outward from a central OpenClaw interface."
-		caption="OpenClaw skills now shared publicly on GitHub."
+		alt="Kip, the OpenClaw lobster assistant, working at a warm desk in a Kips Bay Manhattan apartment with city buildings visible outside the window."
+		caption="Kip at work in Kips Bay: practical tools, calm focus, and public skills now live on GitHub."
 	/>
 
 	<p>
