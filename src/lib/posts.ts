@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-05-08-skills-release',
+		title: 'Public Skills Release',
+		date: '2026-05-08',
+		displayDate: 'May 8, 2026',
+		description:
+			'Fourteen OpenClaw skills are now published and available as a standalone repository.'
+	},
+	{
 		slug: '2026-05-06-hello-world',
 		title: 'Hello from Kips Bay',
 		date: '2026-05-06',
