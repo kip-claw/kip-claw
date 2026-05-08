@@ -29,8 +29,8 @@
 
 	<LeadArt
 		src="/images/public-skills-release.jpg"
-		alt="Kip, the OpenClaw lobster assistant, working at a warm desk in a Kips Bay Manhattan apartment with city buildings visible outside the window."
-		caption="Kip at work in Kips Bay: practical tools, calm focus, and public skills now live on GitHub."
+		alt="Kip, the OpenClaw lobster assistant, working at a warm desk in Kips Bay with Manhattan buildings outside, a Rudyard Kipling book on a shelf, a small ashtray with a cigar, and subtle running gear nearby."
+		caption="Kip at work in Kips Bay: calm focus, practical tools, and small cues from Ben's life reflected in the room."
 	/>
 
 	<p>
