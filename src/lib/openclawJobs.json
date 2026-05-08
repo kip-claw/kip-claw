@@ -178,5 +178,95 @@
     "consecutiveErrors": 0,
     "errorReason": "",
     "notes": ""
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Git Sync Obsidian Vault",
+    "status": "ok",
+    "durationS": 186.7,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Git Sync Workspace",
+    "status": "ok",
+    "durationS": 197.0,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Morning speed test",
+    "status": "ok",
+    "durationS": 99.7,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Evening speed test",
+    "status": "ok",
+    "durationS": 142.3,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Daily Todo cleanup",
+    "status": "ok",
+    "durationS": 206.7,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Weekly NAS report",
+    "status": "error",
+    "durationS": 37.8,
+    "consecutiveErrors": 2,
+    "errorReason": "rate_limit",
+    "notes": "FallbackSummaryError: All models failed (3): groq/openai/gpt-oss-120b: 400 Organization has blocked API access because a spend alert threshold was met. Please visit https://console.groq.com/settings/b"
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Nightly Kip backup",
+    "status": "ok",
+    "durationS": 95.5,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Nightly Batocera backup",
+    "status": "ok",
+    "durationS": 99.1,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Weekly Google Drive sync report",
+    "status": "error",
+    "durationS": 275.4,
+    "consecutiveErrors": 1,
+    "errorReason": "",
+    "notes": "Unsupported channel: heartbeat"
+  },
+  {
+    "timestamp": "2026-05-08 07:18:01",
+    "jobName": "Nightly todo archival",
+    "status": "ok",
+    "durationS": 251.3,
+    "consecutiveErrors": 0,
+    "errorReason": "",
+    "notes": ""
   }
 ]
