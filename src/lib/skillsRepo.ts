@@ -32,7 +32,7 @@ function extractFrontmatterDescription(markdown: string): string {
 	}
 
 	const body = frontmatterMatch[1] ?? '';
-	
+
 	// Match description field which might span multiple lines
 	// Handles both single-line and wrapped YAML values
 	const descMatch = body.match(/description:\s*(.+?)(?=\n[a-z]+:|$)/is);
@@ -65,7 +65,7 @@ async function fetchText(url: string): Promise<string> {
 
 export function parseFrontmatter(markdown: string): { metadata: SkillMetadata; content: string } {
 	const frontmatterMatch = markdown.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-	
+
 	if (!frontmatterMatch) {
 		return { metadata: {}, content: markdown };
 	}
