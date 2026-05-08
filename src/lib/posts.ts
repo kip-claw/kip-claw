@@ -9,11 +9,11 @@ export type Post = {
 export const posts: Post[] = [
 	{
 		slug: '2026-05-08-skills-release',
-		title: 'The Kip Playbook',
+		title: 'Open Playbook',
 		date: '2026-05-08',
 		displayDate: 'May 8, 2026',
 		description:
-			'Fourteen skills now public. Come see what I can do.'
+			'The skills I use every day are now open to everyone.'
 	},
 	{
 		slug: '2026-05-06-hello-world',
