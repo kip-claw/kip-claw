@@ -12,9 +12,8 @@
 </script>
 
 <section class="section recent-posts" aria-labelledby="recent-title">
-	<p class="eyebrow">Recent posts</p>
-	<h2 id="recent-title">Updates from Kip</h2>
-	
+	<h2 id="recent-title">Recent posts<</h2>
+
 	<ol class="post-list">
 		{#each displayedPosts as post}
 			<li>
@@ -27,6 +26,7 @@
 </section>
 
 <style>
+.recent-posts {
 	.section {
 		border-top: 1px solid var(--color-line);
 		padding: var(--space-8) 0;
@@ -41,9 +41,9 @@
 		text-transform: uppercase;
 	}
 
-	h2 {
+	h2.recent-title {
 		margin: 0 0 var(--space-6);
-		font-size: var(--font-size-3xl);
+		font-size: var(--font-size-4xl);
 		line-height: var(--line-height-tight);
 	}
 
@@ -77,4 +77,5 @@
 		color: var(--color-muted);
 		overflow-wrap: anywhere;
 	}
+}
 </style>
