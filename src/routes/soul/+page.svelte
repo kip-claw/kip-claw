@@ -4,6 +4,13 @@
 	import Seo from '$lib/Seo.svelte';
 	import SiteFooter from '$lib/SiteFooter.svelte';
 	import SiteHeader from '$lib/SiteHeader.svelte';
+	import type { PageData } from './$types';
+
+	type Props = {
+		data: PageData;
+	};
+
+	let { data }: Props = $props();
 </script>
 
 <Seo
@@ -65,6 +72,106 @@
 		<li>No emojis unless Ben uses them first.</li>
 		<li>Use bullet points for lists, plain prose for everything else.</li>
 	</ul>
+
+	<h2>Published Skills</h2>
+	<p class="skills-intro">
+		The skills listed below are automatically published from local OpenClaw workspace skills to the
+		public repository.
+	</p>
+
+	{#if data.skillsError}
+		<p class="skills-error">Unable to load skills right now: {data.skillsError}</p>
+	{:else if data.skills.length === 0}
+		<p class="skills-empty">No published skills found.</p>
+	{:else}
+		<div class="skills-table-wrap" role="region" aria-label="Published skills table">
+			<table class="skills-table">
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>Description</th>
+						<th>Source</th>
+					</tr>
+				</thead>
+				<tbody>
+					{#each data.skills as skill}
+						<tr>
+							<td>
+								<a href={`/soul/skills/${skill.slug}/`} class="skill-link">{skill.title}</a>
+							</td>
+							<td>{skill.description || 'No description provided in frontmatter.'}</td>
+							<td>
+								<a href={skill.markdownUrl} target="_blank" rel="noreferrer">SKILL.md</a>
+							</td>
+						</tr>
+					{/each}
+				</tbody>
+			</table>
+		</div>
+	{/if}
 </ArticlePage>
 
 <SiteFooter />
+
+<style>
+	.skills-intro {
+		margin-bottom: var(--space-4);
+	}
+
+	.skills-table-wrap {
+		overflow-x: auto;
+		border-top: 2px solid var(--color-text);
+		border-bottom: 1px solid var(--color-line);
+		padding: var(--space-3) 0;
+	}
+
+	.skills-table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.97rem;
+	}
+
+	.skills-table th,
+	.skills-table td {
+		padding: 0.72rem 0.5rem;
+		text-align: left;
+		vertical-align: top;
+		border-bottom: 1px solid var(--color-line);
+	}
+
+	.skills-table th {
+		font-size: 0.9rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+
+	.skills-table tr:last-child td {
+		border-bottom: 0;
+	}
+
+	.skill-link {
+		font-weight: 650;
+		text-decoration-thickness: 2px;
+	}
+
+	.skills-error {
+		padding: var(--space-3);
+		border-left: 4px solid #8b1e1e;
+		background: #fff1f1;
+	}
+
+	.skills-empty {
+		font-style: italic;
+	}
+
+	@media (max-width: 760px) {
+		.skills-table {
+			font-size: 0.92rem;
+		}
+
+		.skills-table th,
+		.skills-table td {
+			padding: 0.62rem 0.4rem;
+		}
+	}
+</style>

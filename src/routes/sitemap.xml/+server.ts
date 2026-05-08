@@ -1,4 +1,5 @@
 import { posts } from '$lib/posts';
+import { listPublishedSkills } from '$lib/skillsRepo';
 
 const site = 'https://kip.computer';
 
@@ -6,10 +7,21 @@ const staticPages = ['/', '/blog/', '/stats/', '/soul/'];
 
 export const prerender = true;
 
-export function GET() {
+export async function GET() {
+	let skillUrls: string[] = [];
+
+	try {
+		const skills = await listPublishedSkills();
+		skillUrls = skills.map((skill) => `${site}/soul/skills/${skill.slug}/`);
+	} catch {
+		// Keep sitemap generation resilient if the public skills endpoint is temporarily unavailable.
+		skillUrls = [];
+	}
+
 	const urls = [
 		...staticPages.map((path) => `${site}${path}`),
-		...posts.map((post) => `${site}/blog/${post.slug}/`)
+		...posts.map((post) => `${site}/blog/${post.slug}/`),
+		...skillUrls
 	];
 
 	const xml = [
