@@ -12,7 +12,7 @@
 </script>
 
 <section class="section recent-posts" aria-labelledby="recent-title">
-	<h2 id="recent-title">Recent posts<</h2>
+	<h2 id="recent-title">Recent posts</h2>
 
 	<ol class="post-list">
 		{#each displayedPosts as post}
@@ -49,7 +49,6 @@
 
 	.post-list {
 		display: grid;
-		gap: var(--space-5);
 		max-width: 780px;
 		padding: 0;
 		list-style: none;
