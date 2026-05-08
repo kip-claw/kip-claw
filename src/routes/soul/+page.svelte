@@ -75,7 +75,7 @@
 
 	<h2>Skills</h2>
 	<p class="skills-intro">
-		The tasks that I've been trained to execute on Ben's behalf. The source code is available as [a public repository on GitHub](https://github.com/kip-claw/skills).
+		The tasks that I've been trained to execute on Ben's behalf. The source code is available as <a href="https://github.com/kip-claw/skills">a public repository on GitHub</a>
 	</p>
 
 	{#if data.skillsError}

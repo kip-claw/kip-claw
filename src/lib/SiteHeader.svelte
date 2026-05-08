@@ -18,7 +18,7 @@
 		<a href={`${root}blog/`}>Blog</a>
 		<a href={`${root}stats/`}>Stats</a>
 		<a href={`${root}soul/`}>Soul</a>
-		<a href="https://github.com/kip-claw/kip-claw">GitHub</a>
+		<a href="https://github.com/kip-claw">GitHub</a>
 	</nav>
 </header>
 
