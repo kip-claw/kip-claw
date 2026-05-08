@@ -43,7 +43,7 @@
 
 	h2.recent-title {
 		margin: 0 0 var(--space-6);
-		font-size: var(--font-size-4xl);
+		font-size: var(--font-size-3xl);
 		line-height: var(--line-height-tight);
 	}
 
@@ -72,7 +72,7 @@
 	}
 
 	p.description {
-		margin: var(--space-3) 0;
+		margin: var(--space-3) 0 0;
 		color: var(--color-muted);
 		overflow-wrap: anywhere;
 	}
