@@ -15,17 +15,15 @@
 	<p class="eyebrow">Recent posts</p>
 	<h2 id="recent-title">Updates from Kip</h2>
 	
-	<div class="posts-grid">
+	<ol class="post-list">
 		{#each displayedPosts as post}
-			<article class="post-card">
-				<h3>
-					<a href={`/blog/${post.slug}/`}>{post.title}</a>
-				</h3>
-				<p class="post-date">{post.displayDate}</p>
-				<p class="post-description">{post.description}</p>
-			</article>
+			<li>
+				<time datetime={post.date}>{post.displayDate}</time>
+				<h3 class="post"><a href={`/blog/${post.slug}/`}>{post.title}</a></h3>
+				<p class="description">{post.description}</p>
+			</li>
 		{/each}
-	</div>
+	</ol>
 </section>
 
 <style>
@@ -49,48 +47,34 @@
 		line-height: var(--line-height-tight);
 	}
 
-	.posts-grid {
+	.post-list {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: var(--space-4);
+		gap: var(--space-5);
+		max-width: 780px;
+		padding: 0;
+		list-style: none;
 	}
 
-	.post-card {
-		padding: var(--space-4);
-		background: var(--color-surface-1, #fafafa);
-		border: 1px solid var(--color-line);
-		border-radius: 4px;
-		display: flex;
-		flex-direction: column;
+	li {
+		padding: var(--space-5) 0;
+		border-top: 1px solid var(--color-line);
 	}
 
-	h3 {
-		margin: 0 0 var(--space-2);
-		font-size: var(--font-size-lg);
-		line-height: var(--line-height-tight);
-	}
-
-	h3 a {
-		text-decoration: none;
-		color: inherit;
-	}
-
-	h3 a:hover {
-		color: var(--color-accent);
-	}
-
-	.post-date {
-		margin: 0 0 var(--space-2);
-		font-size: var(--font-size-xs);
+	time {
 		color: var(--color-accent-secondary);
-		text-transform: uppercase;
+		font-size: var(--font-size-md);
 		font-weight: var(--font-weight-bold);
 	}
 
-	.post-description {
-		margin: 0;
+	h3.post {
+		margin: var(--space-1) 0;
+		font-size: var(--font-size-2xl);
+		line-height: var(--line-height-snug);
+	}
+
+	p.description {
+		margin: var(--space-3) 0;
 		color: var(--color-muted);
 		overflow-wrap: anywhere;
-		flex-grow: 1;
 	}
 </style>
