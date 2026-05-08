@@ -25,7 +25,7 @@
 	</ol>
 </section>
 
-<style>
+<style lang="scss">
 .recent-posts {
 	.section {
 		border-top: 1px solid var(--color-line);
