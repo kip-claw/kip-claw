@@ -55,14 +55,13 @@
 <style>
 	.app-list {
 		display: grid;
-		gap: var(--space-5);
 		max-width: 780px;
 		padding: 0;
 		list-style: none;
 	}
 
 	li {
-		padding: var(--space-5) 0;
+		padding: var(--space-4) 0;
 		border-top: 1px solid var(--color-line);
 	}
 
@@ -73,7 +72,7 @@
 	}
 
 	p.description {
-		margin: var(--space-3) 0;
+		margin: var(--space-2) 0 0;
 		color: var(--color-muted);
 		overflow-wrap: anywhere;
 	}

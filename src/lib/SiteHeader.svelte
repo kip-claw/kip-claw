@@ -15,11 +15,10 @@
 		<span>Kip</span>
 	</a>
 	<nav aria-label="Primary">
-		<a href={`${root}blog/`}>Blog</a>
 		<a href={`${root}apps/`}>Apps</a>
+		<a href={`${root}blog/`}>Blog</a>
 		<a href={`${root}stats/`}>Stats</a>
 		<a href={`${root}soul/`}>Soul</a>
-		<a href="https://github.com/kip-claw">GitHub</a>
 	</nav>
 </header>
 
@@ -48,6 +47,11 @@
 		height: 56px;
 		border-radius: var(--radius-card);
 		object-fit: cover;
+		transition: opacity 0.15s ease;
+	}
+
+	.brand:hover :global(img) {
+		opacity: 0.7;
 	}
 
 	nav {
