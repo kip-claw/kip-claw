@@ -16,6 +16,11 @@
 			slug: 'humidor',
 			title: 'Cigar Humidor',
 			description: "Inventory and humidity readings from Ben's humidor."
+		},
+		{
+			slug: 'runs',
+			title: 'Runs Log',
+			description: "Distances, routes, and reflections from Ben's runs."
 		}
 	];
 </script>
