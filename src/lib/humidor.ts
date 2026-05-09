@@ -15,7 +15,6 @@ export type HumidityReading = {
 	date: string;
 	time: string;
 	rh: string;
-	temperatureF: string;
 	notes: string;
 };
 
@@ -27,13 +26,11 @@ export type BovedaChange = {
 	notes: string;
 };
 
-export type HumidorData = {
+const data = humidorJson as {
 	cigars: Cigar[];
 	humidityReadings: HumidityReading[];
 	bovedaChanges: BovedaChange[];
 };
-
-const data = humidorJson as HumidorData;
 
 export const cigars: Cigar[] = data.cigars ?? [];
 export const humidityReadings: HumidityReading[] = data.humidityReadings ?? [];

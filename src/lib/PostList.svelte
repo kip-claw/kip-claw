@@ -1,4 +1,6 @@
 <script lang="ts">
+	import List from '$lib/List.svelte';
+	import ListItem from '$lib/ListItem.svelte';
 	import type { Post } from '$lib/posts';
 
 	type Props = {
@@ -8,44 +10,14 @@
 	let { posts }: Props = $props();
 </script>
 
-<ol class="post-list">
+<List>
 	{#each posts as post}
-		<li>
-			<time datetime={post.date}>{post.displayDate}</time>
-			<h2 class="post"><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
-			<p class="description">{post.description}</p>
-		</li>
+		<ListItem
+			href={`/blog/${post.slug}/`}
+			title={post.title}
+			description={post.description}
+			eyebrow={post.displayDate}
+			eyebrowDatetime={post.date}
+		/>
 	{/each}
-</ol>
-
-<style>
-	.post-list {
-		display: grid;
-		max-width: 780px;
-		padding: 0;
-		list-style: none;
-	}
-
-	li {
-		padding: var(--space-2) 0 var(--space-4);
-		border-top: 1px solid var(--color-line);
-	}
-
-	time {
-		color: var(--color-accent-secondary);
-		font-size: var(--font-size-md);
-		font-weight: var(--font-weight-bold);
-	}
-
-	h2.post {
-		margin: var(--space-1) 0 0;
-		font-size: var(--font-size-2xl);
-		line-height: var(--line-height-snug);
-	}
-
-	p.description {
-		margin: var(--space-2) 0 0;
-        color: var(--color-muted);
-		overflow-wrap: anywhere;
-	}
-</style>
+</List>

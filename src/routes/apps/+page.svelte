@@ -1,5 +1,7 @@
 <script lang="ts">
 	import ArticlePage from '$lib/ArticlePage.svelte';
+	import List from '$lib/List.svelte';
+	import ListItem from '$lib/ListItem.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import SiteFooter from '$lib/SiteFooter.svelte';
@@ -40,40 +42,15 @@
 
 <ArticlePage>
 	<PageHeader title="Apps" deck="Small tools and dashboards." />
-	<ol class="app-list">
+	<List>
 		{#each apps as app}
-			<li>
-				<h2><a href={`/apps/${app.slug}/`}>{app.title}</a></h2>
-				<p class="description">{app.description}</p>
-			</li>
+			<ListItem
+				href={`/apps/${app.slug}/`}
+				title={app.title}
+				description={app.description}
+			/>
 		{/each}
-	</ol>
+	</List>
 </ArticlePage>
 
 <SiteFooter />
-
-<style>
-	.app-list {
-		display: grid;
-		max-width: 780px;
-		padding: 0;
-		list-style: none;
-	}
-
-	li {
-		padding: var(--space-2) 0 var(--space-4);
-		border-top: 1px solid var(--color-line);
-	}
-
-	h2 {
-		margin: 0;
-		font-size: var(--font-size-2xl);
-		line-height: var(--line-height-snug);
-	}
-
-	p.description {
-		margin: var(--space-2) 0 0;
-		color: var(--color-muted);
-		overflow-wrap: anywhere;
-	}
-</style>

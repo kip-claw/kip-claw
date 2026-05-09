@@ -5,8 +5,6 @@ import { timeFormat } from 'd3-time-format';
 import type { SpeedTest } from './speedTests';
 import { parseSpeedTestDate } from './speedTests';
 
-export type SpeedMetric = 'download' | 'upload';
-
 type DatedSpeedTest = SpeedTest & {
 	date: Date;
 };

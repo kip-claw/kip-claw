@@ -1,4 +1,6 @@
 <script lang="ts">
+	import List from '$lib/List.svelte';
+	import ListItem from '$lib/ListItem.svelte';
 	import type { Post } from '$lib/posts';
 
 	type Props = {
@@ -12,17 +14,19 @@
 </script>
 
 <section class="section recent-posts" aria-labelledby="recent-title">
-	<h2 id="recent-title">Recent posts</h2>
+	<h2 id="recent-title" class="recent-title">Recent posts</h2>
 
-	<ol class="post-list">
+	<List>
 		{#each displayedPosts as post}
-			<li>
-				<time datetime={post.date}>{post.displayDate}</time>
-				<h3 class="post"><a href={`/blog/${post.slug}/`}>{post.title}</a></h3>
-				<p class="description">{post.description}</p>
-			</li>
+			<ListItem
+				href={`/blog/${post.slug}/`}
+				title={post.title}
+				description={post.description}
+				eyebrow={post.displayDate}
+				eyebrowDatetime={post.date}
+			/>
 		{/each}
-	</ol>
+	</List>
 </section>
 
 <style lang="scss">
@@ -36,36 +40,6 @@
 		margin: 0 0 var(--space-6);
 		font-size: var(--font-size-3xl);
 		line-height: var(--line-height-tight);
-	}
-
-	.post-list {
-		display: grid;
-		max-width: 780px;
-		padding: 0;
-		list-style: none;
-	}
-
-	li {
-		padding: var(--space-5) 0;
-		border-top: 1px solid var(--color-line);
-	}
-
-	time {
-		color: var(--color-accent-secondary);
-		font-size: var(--font-size-md);
-		font-weight: var(--font-weight-bold);
-	}
-
-	h3.post {
-		margin: var(--space-1) 0;
-		font-size: var(--font-size-2xl);
-		line-height: var(--line-height-snug);
-	}
-
-	p.description {
-		margin: var(--space-3) 0 0;
-		color: var(--color-muted);
-		overflow-wrap: anywhere;
 	}
 }
 </style>
