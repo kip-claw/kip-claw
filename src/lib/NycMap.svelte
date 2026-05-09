@@ -34,7 +34,7 @@
 		map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
 		map.on('load', () => {
-			addMarkers(maplibregl);
+			addMarkers(maplibregl, places);
 		});
 
 		return () => {
@@ -43,11 +43,11 @@
 		};
 	});
 
-	function addMarkers(maplibregl: any) {
+	function addMarkers(maplibregl: any, placesToRender: NycPlace[]) {
 		markers.forEach((m) => m.remove());
 		markers = [];
 
-		for (const place of places) {
+		for (const place of placesToRender) {
 			if (place.lat == null || place.lng == null) continue;
 
 			const tier = getPlaceTier(place);
@@ -104,9 +104,11 @@
 
 	// Re-render markers when filtered places change
 	$effect(() => {
+		// Read places to register as a dependency
+		const _places = places;
 		if (map && map.loaded()) {
 			import('maplibre-gl').then((maplibregl) => {
-				addMarkers(maplibregl);
+				addMarkers(maplibregl, _places);
 			});
 		}
 	});
