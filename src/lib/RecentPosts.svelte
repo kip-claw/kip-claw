@@ -32,15 +32,6 @@
 		padding: var(--space-8) 0;
 	}
 
-	.eyebrow {
-		margin: 0 0 var(--space-2);
-		color: var(--color-accent-secondary);
-		font-size: var(--font-size-2xs);
-		font-weight: var(--font-weight-bold);
-		letter-spacing: 0;
-		text-transform: uppercase;
-	}
-
 	h2.recent-title {
 		margin: 0 0 var(--space-6);
 		font-size: var(--font-size-3xl);

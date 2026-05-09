@@ -61,7 +61,7 @@
 	}
 
 	li {
-		padding: var(--space-3) 0 var(--space-4);
+		padding: var(--space-2) 0 var(--space-4);
 		border-top: 1px solid var(--color-line);
 	}
 

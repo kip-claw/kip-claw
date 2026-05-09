@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Eyebrow from '$lib/Eyebrow.svelte';
+
 	type Props = {
 		eyebrow?: string;
 		title: string;
@@ -12,13 +14,13 @@
 
 <header class="page-header">
 	{#if eyebrow}
-		<p class="page-header__eyebrow">
+		<Eyebrow>
 			{#if datetime}
 				<time {datetime}>{eyebrow}</time>
 			{:else}
 				{eyebrow}
 			{/if}
-		</p>
+		</Eyebrow>
 	{/if}
 	<h1>{title}</h1>
 	{#if deck}
@@ -32,15 +34,6 @@
 <style>
 	.page-header {
 		margin-bottom: var(--space-7);
-	}
-
-	.page-header .page-header__eyebrow {
-		margin: 0 0 var(--space-2);
-		color: var(--color-accent-secondary);
-		font-size: var(--font-size-2xs);
-		font-weight: var(--font-weight-bold);
-		letter-spacing: 0;
-		text-transform: uppercase;
 	}
 
 	h1 {

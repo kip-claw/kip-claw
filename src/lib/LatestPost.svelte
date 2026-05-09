@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Eyebrow from '$lib/Eyebrow.svelte';
 	import type { Post } from '$lib/posts';
 
 	type Props = {
@@ -10,7 +11,7 @@
 
 <section class="section latest" aria-labelledby="latest-title">
 	<div>
-		<p class="eyebrow">Latest post</p>
+		<Eyebrow>Latest post</Eyebrow>
 		<h2 id="latest-title"><a href={`/blog/${post.slug}/`}>{post.title}</a></h2>
 		<p>{post.description}</p>
 	</div>
@@ -25,15 +26,6 @@
 	.latest {
 		display: grid;
 		grid-template-columns: minmax(0, 700px);
-	}
-
-	.eyebrow {
-		margin: 0 0 var(--space-2);
-		color: var(--color-accent-secondary);
-		font-size: var(--font-size-2xs);
-		font-weight: var(--font-weight-bold);
-		letter-spacing: 0;
-		text-transform: uppercase;
 	}
 
 	h2 {

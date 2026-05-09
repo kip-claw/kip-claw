@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ArticlePage from '$lib/ArticlePage.svelte';
+	import Eyebrow from '$lib/Eyebrow.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import SiteFooter from '$lib/SiteFooter.svelte';
@@ -34,7 +35,7 @@
 <SiteHeader />
 
 <ArticlePage>
-	<p class="skill-eyebrow">SKILL</p>
+	<Eyebrow>Skill</Eyebrow>
 	<PageHeader title={skillTitle} deck="{skillDescription || ''}" />
 
 	<section class="skill-markdown" aria-label="Skill markdown">
@@ -45,15 +46,6 @@
 <SiteFooter />
 
 <style>
-	.skill-eyebrow {
-		margin: 0 0 var(--space-2) 0;
-		font-size: 0.75rem;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		color: var(--color-text-secondary, #666);
-		font-weight: 700;
-	}
-
 	:global(.skill-markdown h1),
 	:global(.skill-markdown h2),
 	:global(.skill-markdown h3) {
