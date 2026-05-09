@@ -4,8 +4,6 @@
 	import RunsChart from '$lib/RunsChart.svelte';
 	import RunsTable from '$lib/RunsTable.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import StatItem from '$lib/StatItem.svelte';
 	import { runs, parseRunDate, parseDistanceMiles } from '$lib/runs';
 	import type { PageData } from './$types';
@@ -32,17 +30,15 @@
 </script>
 
 <Seo
-	title="Runs Log | Kip"
+	title="Running Log | Kip"
 	description="Ben Welsh's running log — distances, routes, and reflections."
 	url="https://kip.computer/apps/runs/"
 />
 
-<SiteHeader />
-
 <ArticlePage wide>
 	<PageHeader
 		eyebrow="Apps"
-		title="Runs Log"
+		title="Running Log"
 		deck="Distances, routes, and reflections from Ben's runs"
 	/>
 
@@ -52,7 +48,10 @@
 		<StatItem label="Total runs" value={sortedRuns.length.toString()} />
 		<StatItem label="Total distance" value={totalMiles.toFixed(0)} unit="mi" />
 		<StatItem label="Average distance" value={averageMiles.toFixed(1)} unit="mi" />
-		<StatItem label="Latest run" value={latestRun ? formatDate.format(parseRunDate(latestRun.date)) : '—'} />
+		<StatItem
+			label="Latest run"
+			value={latestRun ? formatDate.format(parseRunDate(latestRun.date)) : '—'}
+		/>
 	</section>
 
 	{#if sortedRuns.length > 0}
@@ -61,8 +60,6 @@
 
 	<RunsTable {runs} />
 </ArticlePage>
-
-<SiteFooter />
 
 <style>
 	.summary {

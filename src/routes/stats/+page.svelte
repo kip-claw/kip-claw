@@ -2,8 +2,6 @@
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import SpeedChart from '$lib/SpeedChart.svelte';
 	import SpeedTestTable from '$lib/SpeedTestTable.svelte';
 	import StatItem from '$lib/StatItem.svelte';
@@ -35,8 +33,6 @@
 	url="https://kip.computer/stats/"
 />
 
-<SiteHeader />
-
 <ArticlePage wide>
 	<PageHeader
 		title="Statistics"
@@ -67,8 +63,6 @@
 
 	<SpeedTestTable tests={speedTests} />
 </ArticlePage>
-
-<SiteFooter />
 
 <style>
 	.system-status {

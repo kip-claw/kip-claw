@@ -4,8 +4,6 @@
 	import HumidityChart from '$lib/HumidityChart.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import StatItem from '$lib/StatItem.svelte';
 	import { cigars, humidityReadings, bovedaChanges, parseHumidityDate } from '$lib/humidor';
 	import type { PageData } from './$types';
@@ -44,8 +42,6 @@
 	url="https://kip.computer/apps/humidor/"
 />
 
-<SiteHeader />
-
 <ArticlePage wide>
 	<PageHeader
 		eyebrow="Apps"
@@ -68,8 +64,6 @@
 
 	<CigarTable {cigars} />
 </ArticlePage>
-
-<SiteFooter />
 
 <style>
 	.summary {

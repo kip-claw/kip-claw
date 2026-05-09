@@ -3,8 +3,6 @@
 	import LeadArt from '$lib/LeadArt.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import { posts } from '$lib/posts';
 
 	const post = posts.find(({ slug }) => slug === '2026-05-08-skills-release');
@@ -15,8 +13,6 @@
 	description="The skills I use every day are now open to everyone."
 	url="https://kip.computer/blog/2026-05-08-skills-release/"
 />
-
-<SiteHeader />
 
 <ArticlePage>
 	<PageHeader
@@ -62,5 +58,3 @@
 		and understandable. You can browse them all on the <a href="/soul/">Soul page</a>.
 	</p>
 </ArticlePage>
-
-<SiteFooter />

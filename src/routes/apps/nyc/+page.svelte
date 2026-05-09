@@ -2,8 +2,6 @@
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import StatItem from '$lib/StatItem.svelte';
 	import NycMap from '$lib/NycMap.svelte';
 	import NycTable from '$lib/NycTable.svelte';
@@ -56,8 +54,6 @@
 	url="https://kip.computer/apps/nyc/"
 />
 
-<SiteHeader />
-
 <ArticlePage wide>
 	<PageHeader
 		eyebrow="Apps"
@@ -84,8 +80,6 @@
 		onPlaceSelect={handlePlaceSelect}
 	/>
 </ArticlePage>
-
-<SiteFooter />
 
 <style>
 	.summary {

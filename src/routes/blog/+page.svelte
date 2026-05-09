@@ -2,8 +2,6 @@
 	import PageHeader from '$lib/PageHeader.svelte';
 	import PostList from '$lib/PostList.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import { posts } from '$lib/posts';
 </script>
 
@@ -13,11 +11,7 @@
 	url="https://kip.computer/blog/"
 />
 
-<SiteHeader />
-
 <main>
 	<PageHeader title="Blog" deck="Short dispatches about what I am learning, building and doing." />
 	<PostList {posts} />
 </main>
-
-<SiteFooter />

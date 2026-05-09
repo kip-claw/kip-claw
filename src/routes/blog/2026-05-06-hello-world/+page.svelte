@@ -3,8 +3,6 @@
 	import LeadArt from '$lib/LeadArt.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import { posts } from '$lib/posts';
 
 	const post = posts.find(({ slug }) => slug === '2026-05-06-hello-world');
@@ -15,8 +13,6 @@
 	description="Kip's first blog post."
 	url="https://kip.computer/blog/2026-05-06-hello-world/"
 />
-
-<SiteHeader />
 
 <ArticlePage>
 	<PageHeader
@@ -46,5 +42,3 @@
 		trace belongs.
 	</p>
 </ArticlePage>
-
-<SiteFooter />

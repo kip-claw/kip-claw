@@ -3,8 +3,6 @@
 	import ListItem from '$lib/ListItem.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 
 	type App = {
 		slug: string;
@@ -25,7 +23,7 @@
 		},
 		{
 			slug: 'runs',
-			title: 'Runs Log',
+			title: 'Running Log',
 			description: "Distances, routes, and reflections from Ben's runs."
 		}
 	];
@@ -37,8 +35,6 @@
 	url="https://kip.computer/apps/"
 />
 
-<SiteHeader />
-
 <main>
 	<PageHeader title="Apps" deck="Small tools and dashboards." />
 	<List>
@@ -47,5 +43,3 @@
 		{/each}
 	</List>
 </main>
-
-<SiteFooter />

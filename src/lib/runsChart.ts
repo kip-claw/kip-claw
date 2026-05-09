@@ -82,7 +82,7 @@ export const buildRunsChart = (runs: Run[]): RunsChartModel => {
 	});
 
 	const maxMiles = max(allDays, (r) => r.miles) ?? 0;
-	const yMax = Math.max(maxMiles, minimumYMax) * 1.25;
+	const yMax = Math.max(maxMiles, minimumYMax) * 1.1;
 
 	const bandScale = scaleBand<number>()
 		.domain(allDays.map((_, i) => i))

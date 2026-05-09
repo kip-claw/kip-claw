@@ -3,8 +3,6 @@
 	import Eyebrow from '$lib/Eyebrow.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import { marked } from 'marked';
 	import type { PageData } from './$types';
 
@@ -32,8 +30,6 @@
 	url={`https://kip.computer/soul/skills/${data.slug}/`}
 />
 
-<SiteHeader />
-
 <ArticlePage>
 	<Eyebrow>Skill</Eyebrow>
 	<PageHeader title={skillTitle} deck="{skillDescription || ''}" />
@@ -42,8 +38,6 @@
 		{@html renderedMarkdown}
 	</section>
 </ArticlePage>
-
-<SiteFooter />
 
 <style>
 	:global(.skill-markdown h1),

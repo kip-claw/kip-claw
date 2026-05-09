@@ -1,5 +1,7 @@
 <script lang="ts">
 	import '../styles.css';
+	import SiteFooter from '$lib/SiteFooter.svelte';
+	import SiteHeader from '$lib/SiteHeader.svelte';
 
 	let { children } = $props();
 </script>
@@ -9,4 +11,8 @@
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
+<SiteHeader />
+
 {@render children()}
+
+<SiteFooter />

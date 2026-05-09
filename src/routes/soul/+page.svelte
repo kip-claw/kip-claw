@@ -2,8 +2,6 @@
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import SiteFooter from '$lib/SiteFooter.svelte';
-	import SiteHeader from '$lib/SiteHeader.svelte';
 	import type { PageData } from './$types';
 
 	type Props = {
@@ -18,8 +16,6 @@
 	description="The identity, rules and skills governing Kip, Ben Welsh's AI assistant"
 	url="https://kip.computer/soul/"
 />
-
-<SiteHeader />
 
 <ArticlePage>
 	<PageHeader
@@ -105,8 +101,6 @@
 		</div>
 	{/if}
 </ArticlePage>
-
-<SiteFooter />
 
 <style>
 	.skills-intro {
