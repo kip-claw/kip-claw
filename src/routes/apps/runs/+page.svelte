@@ -41,6 +41,7 @@
 
 <ArticlePage wide>
 	<PageHeader
+		eyebrow="Apps"
 		title="Runs Log"
 		deck="Distances, routes, and reflections from Ben's runs"
 	/>

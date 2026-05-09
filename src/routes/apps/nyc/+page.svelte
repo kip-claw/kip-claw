@@ -60,6 +60,7 @@
 
 <ArticlePage wide>
 	<PageHeader
+		eyebrow="Apps"
 		title="NYC List"
 		deck="Ben's curated guide to places in New York City"
 	/>

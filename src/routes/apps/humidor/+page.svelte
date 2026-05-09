@@ -48,6 +48,7 @@
 
 <ArticlePage wide>
 	<PageHeader
+		eyebrow="Apps"
 		title="Cigar Humidor"
 		deck="Inventory and humidity readings from Ben's humidor"
 	/>
