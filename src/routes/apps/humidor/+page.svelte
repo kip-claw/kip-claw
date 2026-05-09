@@ -22,7 +22,7 @@
 
 	const latestReading = sortedReadings.at(-1);
 	const latestRh = latestReading ? parseFloat(latestReading.rh) : NaN;
-	const latestTemp = latestReading?.temperatureF ? parseFloat(latestReading.temperatureF) : NaN;
+	const cigarCount = cigars.length;
 
 	const averageRh =
 		sortedReadings.length > 0
@@ -57,7 +57,7 @@
 	<section class="summary" aria-label="Humidor conditions summary">
 		<StatItem label="Latest RH" value={isNaN(latestRh) ? '—' : latestRh.toFixed(0)} unit="%" />
 		<StatItem label="Average RH" value={isNaN(averageRh) ? '—' : averageRh.toFixed(0)} unit="%" />
-		<StatItem label="Latest temp" value={isNaN(latestTemp) ? '—' : latestTemp.toFixed(0)} unit="°F" />
+		<StatItem label="Cigars" value={cigarCount.toString()} />
 		<StatItem label="Boveda age" value={isNaN(daysSinceBoveda) ? '—' : daysSinceBoveda.toString()} unit="days" />
 	</section>
 

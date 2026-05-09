@@ -4,14 +4,15 @@
 
 	type Props = {
 		places: NycPlace[];
+		totalCount: number;
+		searchQuery: string;
+		showClosed: boolean;
+		tierFilter: string[];
 		onPlaceSelect?: (place: NycPlace) => void;
 	};
 
-	let { places, onPlaceSelect }: Props = $props();
+	let { places, totalCount, searchQuery = $bindable(''), showClosed = $bindable(false), tierFilter = $bindable([]), onPlaceSelect }: Props = $props();
 
-	let searchQuery = $state('');
-	let showClosed = $state(false);
-	let tierFilter = $state<string[]>([]);
 	let sortKey = $state<'name' | 'address'>('name');
 	let sortDirection = $state<'asc' | 'desc'>('asc');
 
@@ -22,37 +23,11 @@
 		{ key: 'other', label: 'Other' }
 	] as const;
 
-	const filteredPlaces = $derived(() => {
-		let result = places;
-
-		// Search filter
-		if (searchQuery.trim()) {
-			const q = searchQuery.trim().toLowerCase();
-			result = result.filter(
-				(p) =>
-					p.name.toLowerCase().includes(q) ||
-					p.address.toLowerCase().includes(q) ||
-					p.notes.toLowerCase().includes(q)
-			);
-		}
-
-		// Closed filter
-		if (!showClosed) {
-			result = result.filter((p) => !isYes(p.isClosed));
-		}
-
-		// Tier filter
-		if (tierFilter.length > 0) {
-			result = result.filter((p) => tierFilter.includes(getPlaceTier(p)));
-		}
-
-		// Sort
+	const sortedPlaces = $derived.by(() => {
 		const dir = sortDirection === 'asc' ? 1 : -1;
-		result = [...result].sort((a, b) => {
+		return [...places].sort((a, b) => {
 			return String(a[sortKey]).localeCompare(String(b[sortKey])) * dir;
 		});
-
-		return result;
 	});
 
 	const toggleTier = (tier: string) => {
@@ -80,7 +55,7 @@
 <section class="table-section" aria-labelledby="nyc-table-title">
 	<div class="table-heading">
 		<h3 id="nyc-table-title">Places</h3>
-		<p>{filteredPlaces().length} of {places.length} places</p>
+		<p>{places.length} of {totalCount} places</p>
 	</div>
 
 	<div class="controls">
@@ -135,7 +110,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				{#each filteredPlaces() as place}
+				{#each sortedPlaces as place}
 					<tr
 						class:closed={isYes(place.isClosed)}
 						class:clickable={place.lat != null}

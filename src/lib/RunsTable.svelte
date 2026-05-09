@@ -15,8 +15,7 @@
 	const headers: { key: SortKey; label: string }[] = [
 		{ key: 'date', label: 'Date' },
 		{ key: 'distance', label: 'Distance' },
-		{ key: 'route', label: 'Route' },
-		{ key: 'reflections', label: 'Reflections' }
+		{ key: 'route', label: 'Route' }
 	];
 
 	const sortedRuns = $derived(
@@ -79,7 +78,7 @@
 						<td class="no-wrap">{formatDate.format(parseRunDate(run.date))}</td>
 						<td class="no-wrap">{run.distance}</td>
 						<td>{run.route}</td>
-						<td>{run.reflections}</td>
+
 					</tr>
 				{/each}
 			</tbody>

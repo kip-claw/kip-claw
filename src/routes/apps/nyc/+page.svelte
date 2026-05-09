@@ -8,16 +8,44 @@
 	import NycMap from '$lib/NycMap.svelte';
 	import NycTable from '$lib/NycTable.svelte';
 	import { nycPlaces, isYes, getPlaceTier } from '$lib/nycList';
+	import type { NycPlace } from '$lib/nycList';
 	import 'maplibre-gl/dist/maplibre-gl.css';
 
-	let selectedPlace = $state<import('$lib/nycList').NycPlace | null>(null);
+	let selectedPlace = $state<NycPlace | null>(null);
+	let searchQuery = $state('');
+	let showClosed = $state(false);
+	let tierFilter = $state<string[]>([]);
+
+	const filteredPlaces = $derived.by(() => {
+		let result = nycPlaces;
+
+		if (searchQuery.trim()) {
+			const q = searchQuery.trim().toLowerCase();
+			result = result.filter(
+				(p) =>
+					p.name.toLowerCase().includes(q) ||
+					p.address.toLowerCase().includes(q) ||
+					p.notes.toLowerCase().includes(q)
+			);
+		}
+
+		if (!showClosed) {
+			result = result.filter((p) => !isYes(p.isClosed));
+		}
+
+		if (tierFilter.length > 0) {
+			result = result.filter((p) => tierFilter.includes(getPlaceTier(p)));
+		}
+
+		return result;
+	});
 
 	const openPlaces = nycPlaces.filter((p) => !isYes(p.isClosed));
 	const eliteCount = openPlaces.filter((p) => getPlaceTier(p) === 'elite').length;
 	const recommendedCount = openPlaces.filter((p) => getPlaceTier(p) === 'recommended').length;
 	const closedCount = nycPlaces.filter((p) => isYes(p.isClosed)).length;
 
-	const handlePlaceSelect = (place: import('$lib/nycList').NycPlace) => {
+	const handlePlaceSelect = (place: NycPlace) => {
 		selectedPlace = place;
 	};
 </script>
@@ -45,8 +73,15 @@
 		<StatItem label="Closed" value={closedCount.toString()} />
 	</section>
 
-	<NycMap places={nycPlaces} {selectedPlace} onPlaceSelect={handlePlaceSelect} />
-	<NycTable places={nycPlaces} onPlaceSelect={handlePlaceSelect} />
+	<NycMap places={filteredPlaces} {selectedPlace} onPlaceSelect={handlePlaceSelect} />
+	<NycTable
+		places={filteredPlaces}
+		totalCount={nycPlaces.length}
+		bind:searchQuery
+		bind:showClosed
+		bind:tierFilter
+		onPlaceSelect={handlePlaceSelect}
+	/>
 </ArticlePage>
 
 <SiteFooter />

@@ -1,4 +1,4 @@
-import { extent, max, mean } from 'd3-array';
+import { extent, max } from 'd3-array';
 import { scaleLinear, scaleTime } from 'd3-scale';
 import { area, line } from 'd3-shape';
 import { timeFormat } from 'd3-time-format';
@@ -34,7 +34,7 @@ export type HumidityChartModel = {
 	yTicks: ChartTick[];
 	xTicks: ChartTick[];
 	points: ChartPoint[];
-	averagePath: string;
+	linePath: string;
 	targetBandPath: string;
 	targetMin: number;
 	targetMax: number;
@@ -43,10 +43,6 @@ export type HumidityChartModel = {
 const width = 560;
 const height = 360;
 const margin = { top: 26, right: 20, bottom: 52, left: 54 };
-const ROLLING_WINDOW = 5;
-const TARGET_RH_MIN = 65;
-const TARGET_RH_MAX = 72;
-
 const formatDate = timeFormat('%b %-d');
 const formatTimestamp = new Intl.DateTimeFormat('en-US', {
 	month: 'short',
@@ -55,13 +51,8 @@ const formatTimestamp = new Intl.DateTimeFormat('en-US', {
 	minute: '2-digit'
 });
 
-const rollingAverage = (index: number, readings: DatedReading[]): number | null => {
-	if (index < ROLLING_WINDOW - 1) {
-		return null;
-	}
-	const windowSlice = readings.slice(index - ROLLING_WINDOW + 1, index + 1);
-	return mean(windowSlice, (r) => r.rhValue) ?? null;
-};
+const TARGET_RH_MIN = 65;
+const TARGET_RH_MAX = 72;
 
 export const buildHumidityChart = (readings: HumidityReading[]): HumidityChartModel => {
 	const dated: DatedReading[] = readings
@@ -87,10 +78,7 @@ export const buildHumidityChart = (readings: HumidityReading[]): HumidityChartMo
 		.nice()
 		.range([height - margin.bottom, margin.top]);
 
-	const averagePoints = dated.map((r, i) => ({
-		date: r.parsedDate,
-		average: rollingAverage(i, dated)
-	}));
+
 
 	// Target band area path
 	const bandPath =
@@ -121,11 +109,10 @@ export const buildHumidityChart = (readings: HumidityReading[]): HumidityChartMo
 			y: yScale(r.rhValue),
 			title: `${formatTimestamp.format(r.parsedDate)}: ${r.rhValue}% RH`
 		})),
-		averagePath:
-			line<(typeof averagePoints)[number]>()
-				.defined((p) => p.average !== null)
-				.x((p) => xScale(p.date))
-				.y((p) => yScale(p.average ?? 0))(averagePoints) ?? '',
+		linePath:
+			line<DatedReading>()
+				.x((r) => xScale(r.parsedDate))
+				.y((r) => yScale(r.rhValue))(dated) ?? '',
 		targetBandPath: bandPath
 	};
 };

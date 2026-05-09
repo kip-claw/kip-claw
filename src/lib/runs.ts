@@ -20,7 +20,10 @@ const isRun = (value: unknown): value is Run => {
 
 export const runs: Run[] = Array.isArray(runsJson) ? runsJson.filter(isRun) : [];
 
-export const parseRunDate = (date: string): Date => new Date(date);
+export const parseRunDate = (date: string): Date => {
+	const [y, m, d] = date.split('-').map(Number);
+	return new Date(y, m - 1, d);
+};
 
 /**
  * Parse a distance string like "7 miles", "5 mi", "10 km" into a numeric mile value.

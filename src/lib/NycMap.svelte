@@ -25,7 +25,7 @@
 			container: mapContainer,
 			style: '/nyc-map-style.json',
 			center: [-73.985, 40.748],
-			zoom: 12,
+			zoom: 11,
 			minZoom: 10,
 			maxZoom: 18,
 			attributionControl: false

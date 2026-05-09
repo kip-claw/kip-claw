@@ -16,7 +16,6 @@
 		<div class="legend" aria-label="Chart legend">
 			<span><i class="band"></i> Target range ({chart.targetMin}–{chart.targetMax}%)</span>
 			<span><i class="dot"></i> Reading</span>
-			<span><i class="line"></i> 5-reading average</span>
 		</div>
 	</div>
 
@@ -57,12 +56,12 @@
 					{tick.label}
 				</text>
 			{/each}
+			<path class="reading-line" d={chart.linePath} />
 			{#each chart.points as point}
 				<circle class="test-dot" cx={point.x} cy={point.y} r="3.5">
 					<title>{point.title}</title>
 				</circle>
 			{/each}
-			<path class="average-line" d={chart.averagePath} />
 		</svg>
 	</div>
 </section>
@@ -171,10 +170,11 @@
 		stroke-width: 1;
 	}
 
-	.average-line {
+	.reading-line {
 		fill: none;
-		stroke: var(--color-text);
-		stroke-width: 4;
+		stroke: var(--color-accent);
+		stroke-width: 2;
+		stroke-opacity: 0.4;
 		stroke-linecap: round;
 		stroke-linejoin: round;
 	}
