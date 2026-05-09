@@ -12,7 +12,7 @@
 
 <style>
 	.eyebrow {
-		margin: 0 0 var(--space-1);
+		margin: 0;
 		color: var(--color-accent-secondary);
 		font-size: var(--font-size-2xs);
 		font-weight: var(--font-weight-bold);
