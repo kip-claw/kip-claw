@@ -18,6 +18,11 @@
 			description: "Inventory and humidity readings from Ben's humidor."
 		},
 		{
+			slug: 'nyc',
+			title: 'NYC List',
+			description: "Ben's curated guide to places in New York City."
+		},
+		{
 			slug: 'runs',
 			title: 'Runs Log',
 			description: "Distances, routes, and reflections from Ben's runs."
