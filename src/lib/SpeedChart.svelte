@@ -161,7 +161,7 @@
 	.average-line {
 		fill: none;
 		stroke: var(--color-text);
-		stroke-width: 2.5;
+		stroke-width: 4;
 		stroke-linecap: round;
 		stroke-linejoin: round;
 	}
