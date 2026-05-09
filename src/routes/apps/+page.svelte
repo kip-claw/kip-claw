@@ -1,5 +1,4 @@
 <script lang="ts">
-	import ArticlePage from '$lib/ArticlePage.svelte';
 	import List from '$lib/List.svelte';
 	import ListItem from '$lib/ListItem.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
@@ -40,17 +39,13 @@
 
 <SiteHeader />
 
-<ArticlePage>
+<main>
 	<PageHeader title="Apps" deck="Small tools and dashboards." />
 	<List>
 		{#each apps as app}
-			<ListItem
-				href={`/apps/${app.slug}/`}
-				title={app.title}
-				description={app.description}
-			/>
+			<ListItem href={`/apps/${app.slug}/`} title={app.title} description={app.description} />
 		{/each}
 	</List>
-</ArticlePage>
+</main>
 
 <SiteFooter />

@@ -8,10 +8,10 @@
 	let { children }: Props = $props();
 </script>
 
-<p class="eyebrow">{@render children()}</p>
+<span class="eyebrow">{@render children()}</span>
 
 <style>
-	.eyebrow {
+	span.eyebrow {
 		margin: 0;
 		color: var(--color-accent-secondary);
 		font-size: var(--font-size-2xs);

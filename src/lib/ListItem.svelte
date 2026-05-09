@@ -12,7 +12,7 @@
 	let { href, title, description, eyebrow, eyebrowDatetime }: Props = $props();
 </script>
 
-<li>
+<li class="list-item">
 	{#if eyebrow}
 		<Eyebrow>
 			{#if eyebrowDatetime}
@@ -22,27 +22,27 @@
 			{/if}
 		</Eyebrow>
 	{/if}
-	<h2 class="list-item__title"><a {href}>{title}</a></h2>
+	<h2 class="title"><a {href}>{title}</a></h2>
 	{#if description}
-		<p class="list-item__description">{description}</p>
+		<div class="description">{description}</div>
 	{/if}
 </li>
 
-<style>
-	li {
-		padding: var(--space-3) 0;
+<style lang="scss">
+	li.list-item {
+		padding: var(--space-5) 0;
 		border-top: 1px solid var(--color-line);
-	}
 
-	.list-item__title {
-		margin: 0;
-		font-size: var(--font-size-2xl);
-		line-height: var(--line-height-snug);
-	}
+		h2.title {
+			margin: var(--space-1) 0 0;
+			font-size: var(--font-size-2xl);
+			line-height: var(--line-height-snug);
+		}
 
-	.list-item__description {
-		margin: var(--space-2) 0 0;
-		color: var(--color-muted);
-		overflow-wrap: anywhere;
+		div.description {
+			margin: var(--space-1) 0 0;
+			color: var(--color-muted);
+			overflow-wrap: anywhere;
+		}
 	}
 </style>

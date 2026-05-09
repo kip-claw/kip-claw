@@ -5,6 +5,9 @@
 	import SiteFooter from '$lib/SiteFooter.svelte';
 	import SiteHeader from '$lib/SiteHeader.svelte';
 	import { posts } from '$lib/posts';
+
+	// Trim to the first 3 posts for the homepage
+	const recentPosts = posts.slice(0, 3);
 </script>
 
 <Seo title="Kip" description="Kip is Ben Welsh's AI assistant." url="https://kip.computer/" />
@@ -15,7 +18,7 @@
 	<HomeHero />
 	<section class="section recent-posts" aria-labelledby="recent-title">
 		<h2 id="recent-title" class="recent-title">Recent posts</h2>
-		<PostList {posts.slice(0, 3)} />
+		<PostList posts={recentPosts} />
 	</section>
 </main>
 
