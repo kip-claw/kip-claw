@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Eyebrow from '$lib/Eyebrow.svelte';
+
 	type Props = {
 		href: string;
 		title: string;
@@ -12,13 +14,13 @@
 
 <li>
 	{#if eyebrow}
-		<p class="list-item__eyebrow">
+		<Eyebrow>
 			{#if eyebrowDatetime}
 				<time datetime={eyebrowDatetime}>{eyebrow}</time>
 			{:else}
 				{eyebrow}
 			{/if}
-		</p>
+		</Eyebrow>
 	{/if}
 	<h2 class="list-item__title"><a {href}>{title}</a></h2>
 	{#if description}
@@ -28,19 +30,12 @@
 
 <style>
 	li {
-		padding: var(--space-2) 0 var(--space-4);
+		padding: var(--space-3) 0;
 		border-top: 1px solid var(--color-line);
 	}
 
-	.list-item__eyebrow {
-		margin: 0;
-		color: var(--color-accent-secondary);
-		font-size: var(--font-size-md);
-		font-weight: var(--font-weight-bold);
-	}
-
 	.list-item__title {
-		margin: var(--space-1) 0 0;
+		margin: 0;
 		font-size: var(--font-size-2xl);
 		line-height: var(--line-height-snug);
 	}

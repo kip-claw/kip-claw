@@ -37,7 +37,7 @@
 	}
 
 	h2.recent-title {
-		margin: 0 0 var(--space-6);
+		margin: 0 0 var(--space-3);
 		font-size: var(--font-size-3xl);
 		line-height: var(--line-height-tight);
 	}
