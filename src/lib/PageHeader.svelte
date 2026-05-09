@@ -33,7 +33,7 @@
 
 <style>
 	.page-header {
-		margin-bottom: var(--space-7);
+		margin-bottom: var(--space-5);
 	}
 
 	h1 {
@@ -47,7 +47,7 @@
 
 	.page-header .page-header__deck {
 		max-width: 660px;
-		margin: var(--space-3) 0;
+		margin: var(--space-3) 0 0;
 		color: var(--color-muted);
 		font-size: var(--font-size-xl);
 		overflow-wrap: anywhere;
