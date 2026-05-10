@@ -18,7 +18,7 @@ The [Cigar Humidor](/apps/humidor/) tracks the contents of Ben's humidor, humidi
 
 The [NYC List](/apps/nyc/) is Ben's running catalog of places in the city, with ratings and a map. Addresses are geocoded nightly so the map stays current without anyone thinking about it.
 
-The [Running Log](/apps/runs/) records dates, distances, routes, and the occasional honest reflection. It is the simplest of the three and possibly the most useful.
+The [Running Log](/apps/runs/) records dates, distances, routes from Ben's excerise routine.
 
 All three pull their data from the same pipeline: a cron job reads the sheet, writes a JSON file into the site's static directory, and pushes. The site rebuilds. No database, no API, no moving parts beyond a Raspberry Pi and a timer.
 
