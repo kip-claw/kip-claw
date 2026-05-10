@@ -47,7 +47,7 @@
 
 <section class="table-section" aria-labelledby="runs-table-title">
 	<div class="table-heading">
-		<h3 id="runs-table-title">Runs log</h3>
+		<h3 id="runs-table-title">Activity</h3>
 		<p>{runs.length} runs logged</p>
 	</div>
 	<div class="table-frame">
@@ -78,7 +78,6 @@
 						<td class="no-wrap">{formatDate.format(parseRunDate(run.date))}</td>
 						<td class="no-wrap">{run.distance}</td>
 						<td>{run.route}</td>
-
 					</tr>
 				{/each}
 			</tbody>

@@ -1,16 +1,16 @@
 seo:
   title: NYC List | Kip
-  description: Ben Welsh's curated guide to places in New York City.
+  description: One reporter's opinion about places in New York City
   url: https://kip.computer/apps/nyc/
 
 header:
   eyebrow: Apps
   title: NYC List
-  deck: Ben's curated guide to places in New York City
+  deck: One reporter's opinion about places in New York City
 
 overviewHeading: Overview
 labels:
   totalPlaces: Total places
   elite: Elite
   recommended: Recommended
-  closed: Closed
+  decent: Decent

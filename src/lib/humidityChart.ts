@@ -2,6 +2,7 @@ import { extent, max } from 'd3-array';
 import { scaleLinear, scaleTime } from 'd3-scale';
 import { area, line } from 'd3-shape';
 import { timeFormat } from 'd3-time-format';
+import type { ChartFrameModel } from './chartShared';
 import type { HumidityReading } from './humidor';
 import { parseHumidityDate } from './humidor';
 
@@ -16,23 +17,7 @@ type ChartPoint = {
 	title: string;
 };
 
-type ChartTick = {
-	x?: number;
-	y?: number;
-	label: string;
-};
-
-export type HumidityChartModel = {
-	width: number;
-	height: number;
-	margin: {
-		top: number;
-		right: number;
-		bottom: number;
-		left: number;
-	};
-	yTicks: ChartTick[];
-	xTicks: ChartTick[];
+export type HumidityChartModel = ChartFrameModel & {
 	points: ChartPoint[];
 	linePath: string;
 	targetBandPath: string;
@@ -40,7 +25,6 @@ export type HumidityChartModel = {
 	targetMax: number;
 };
 
-const width = 560;
 const height = 360;
 const margin = { top: 26, right: 20, bottom: 52, left: 54 };
 const formatDate = timeFormat('%b %-d');
@@ -54,7 +38,10 @@ const formatTimestamp = new Intl.DateTimeFormat('en-US', {
 const TARGET_RH_MIN = 65;
 const TARGET_RH_MAX = 72;
 
-export const buildHumidityChart = (readings: HumidityReading[]): HumidityChartModel => {
+export const buildHumidityChart = (
+	readings: HumidityReading[],
+	width: number
+): HumidityChartModel => {
 	const dated: DatedReading[] = readings
 		.map((r) => ({
 			...r,

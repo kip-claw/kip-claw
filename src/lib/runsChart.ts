@@ -3,6 +3,7 @@ import { scaleBand, scaleLinear, scaleTime } from 'd3-scale';
 import { line } from 'd3-shape';
 import { timeDay } from 'd3-time';
 import { timeFormat } from 'd3-time-format';
+import type { ChartFrameModel } from './chartShared';
 import type { Run } from './runs';
 import { parseRunDate, parseDistanceMiles } from './runs';
 
@@ -20,28 +21,11 @@ type ChartBar = {
 	title: string;
 };
 
-type ChartTick = {
-	x?: number;
-	y?: number;
-	label: string;
-};
-
-export type RunsChartModel = {
-	width: number;
-	height: number;
-	margin: {
-		top: number;
-		right: number;
-		bottom: number;
-		left: number;
-	};
-	yTicks: ChartTick[];
-	xTicks: ChartTick[];
+export type RunsChartModel = ChartFrameModel & {
 	bars: ChartBar[];
 	averagePath: string;
 };
 
-const width = 780;
 const height = 360;
 const margin = { top: 26, right: 20, bottom: 52, left: 54 };
 const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
@@ -54,7 +38,7 @@ const formatTimestamp = new Intl.DateTimeFormat('en-US', {
 	year: 'numeric'
 });
 
-export const buildRunsChart = (runs: Run[]): RunsChartModel => {
+export const buildRunsChart = (runs: Run[], width: number): RunsChartModel => {
 	const dated = runs
 		.map((r) => ({
 			parsedDate: parseRunDate(r.date),

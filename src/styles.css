@@ -92,6 +92,10 @@ h3 a:hover {
 	text-decoration-color: currentColor;
 }
 
+h2.stats-section {
+	font-size: var(--font-size-3xl);
+}
+
 main {
 	flex: 1 0 auto;
 	width: var(--layout-width);

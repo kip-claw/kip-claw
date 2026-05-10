@@ -2,6 +2,7 @@
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
+	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
 	import NycMap from '$lib/NycMap.svelte';
 	import NycTable from '$lib/NycTable.svelte';
@@ -15,7 +16,7 @@
 		seo: SeoCopy;
 		header: HeaderCopy;
 		overviewHeading: string;
-		labels: { totalPlaces: string; elite: string; recommended: string; closed: string };
+		labels: { totalPlaces: string; elite: string; recommended: string; decent: string };
 	};
 
 	let selectedPlace = $state<NycPlace | null>(null);
@@ -50,7 +51,7 @@
 	const openPlaces = nycPlaces.filter((p) => !isYes(p.isClosed));
 	const eliteCount = openPlaces.filter((p) => getPlaceTier(p) === 'elite').length;
 	const recommendedCount = openPlaces.filter((p) => getPlaceTier(p) === 'recommended').length;
-	const closedCount = nycPlaces.filter((p) => isYes(p.isClosed)).length;
+	const decentCount = openPlaces.filter((p) => getPlaceTier(p) === 'decent').length;
 
 	const handlePlaceSelect = (place: NycPlace) => {
 		selectedPlace = place;
@@ -64,12 +65,12 @@
 
 	<h2 class="stats-section">{copy.overviewHeading}</h2>
 
-	<section class="summary" aria-label="NYC list summary">
+	<StatGrid label="NYC list summary">
 		<StatItem label={copy.labels.totalPlaces} value={nycPlaces.length.toString()} />
 		<StatItem label={copy.labels.elite} value={eliteCount.toString()} />
 		<StatItem label={copy.labels.recommended} value={recommendedCount.toString()} />
-		<StatItem label={copy.labels.closed} value={closedCount.toString()} />
-	</section>
+		<StatItem label={copy.labels.decent} value={decentCount.toString()} />
+	</StatGrid>
 
 	<NycMap places={filteredPlaces} {selectedPlace} onPlaceSelect={handlePlaceSelect} />
 	<NycTable
@@ -81,32 +82,3 @@
 		onPlaceSelect={handlePlaceSelect}
 	/>
 </ArticlePage>
-
-<style>
-	.summary {
-		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-		gap: var(--space-5);
-		margin-bottom: var(--space-6);
-		border-top: 2px solid var(--color-text);
-		border-bottom: 1px solid var(--color-line);
-		padding: var(--space-4) 0;
-	}
-
-	h2.stats-section {
-		font-size: var(--font-size-3xl);
-	}
-
-	@media (max-width: 900px) {
-		.summary {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-	}
-
-	@media (max-width: 760px) {
-		.summary {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-			gap: var(--space-3);
-		}
-	}
-</style>

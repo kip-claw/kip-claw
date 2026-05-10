@@ -89,7 +89,7 @@
 				<tbody>
 					{#each data.skills as skill}
 						<tr>
-							<td>
+							<td class="skill-name">
 								<a href={`/soul/skills/${skill.slug}/`} class="skill-link">{skill.title}</a>
 							</td>
 							<td>{skill.description || 'No description provided in frontmatter.'}</td>
@@ -135,6 +135,10 @@
 
 	.skills-table tr:last-child td {
 		border-bottom: 0;
+	}
+
+	td.skill-name {
+		min-width: 160px;
 	}
 
 	.skill-link {

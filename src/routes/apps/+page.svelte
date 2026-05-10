@@ -6,17 +6,23 @@
 	import type { HeaderCopy, SeoCopy } from '$lib/copy';
 	import copyData from './copy.yaml';
 
-	type App = {
-		slug: string;
-		title: string;
-		description: string;
-	};
-
 	const copy = copyData as {
 		seo: SeoCopy;
 		header: HeaderCopy;
-		apps: App[];
 	};
+
+	const childCopy = import.meta.glob<{ header: { title: string; deck: string } }>(
+		'./*/copy.yaml',
+		{ eager: true, import: 'default' }
+	);
+
+	const apps = Object.entries(childCopy)
+		.map(([path, data]) => ({
+			slug: path.split('/')[1],
+			title: data.header.title,
+			description: data.header.deck
+		}))
+		.sort((a, b) => a.title.localeCompare(b.title));
 </script>
 
 <Seo {...copy.seo} />
@@ -24,7 +30,7 @@
 <main>
 	<PageHeader {...copy.header} />
 	<List>
-		{#each copy.apps as app}
+		{#each apps as app}
 			<ListItem href={`/apps/${app.slug}/`} title={app.title} description={app.description} />
 		{/each}
 	</List>

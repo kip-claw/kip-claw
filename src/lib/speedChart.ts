@@ -2,6 +2,7 @@ import { extent, max } from 'd3-array';
 import { scaleLinear, scaleTime } from 'd3-scale';
 import { line } from 'd3-shape';
 import { timeFormat } from 'd3-time-format';
+import type { ChartFrameModel } from './chartShared';
 import type { SpeedTest } from './speedTests';
 import { parseSpeedTestDate } from './speedTests';
 
@@ -15,29 +16,14 @@ type ChartPoint = {
 	title: string;
 };
 
-type ChartTick = {
-	x?: number;
-	y?: number;
-	label: string;
-};
-
-export type SpeedChartModel = {
-	width: number;
-	height: number;
-	margin: {
-		top: number;
-		right: number;
-		bottom: number;
-		left: number;
-	};
-	yTicks: ChartTick[];
-	xTicks: ChartTick[];
+export type SpeedChartModel = ChartFrameModel & {
 	points: ChartPoint[];
 	averagePath: string;
 };
 
-const width = 560;
 const height = 360;
+
+type SpeedMetric = 'download' | 'upload';
 const margin = { top: 26, right: 20, bottom: 52, left: 54 };
 const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
 const minimumYMax = 1;
@@ -74,6 +60,7 @@ const rollingAverage = (
 
 export const buildSpeedChart = (
 	tests: SpeedTest[],
+	width: number,
 	metric: SpeedMetric = 'download'
 ): SpeedChartModel => {
 	const sorted = [...tests].sort(

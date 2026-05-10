@@ -4,11 +4,11 @@
 	import HumidityChart from '$lib/HumidityChart.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
+	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
 	import type { HeaderCopy, SeoCopy } from '$lib/copy';
 	import { cigars, humidityReadings, bovedaChanges, parseHumidityDate } from '$lib/humidor';
 	import copyData from './copy.yaml';
-	import type { PageData } from './$types';
 
 	const copy = copyData as {
 		seo: SeoCopy;
@@ -16,12 +16,6 @@
 		conditionsHeading: string;
 		labels: { latestRh: string; averageRh: string; cigars: string; bovedaAge: string };
 	};
-
-	type Props = {
-		data: PageData;
-	};
-
-	let { data }: Props = $props();
 
 	const sortedReadings = [...humidityReadings]
 		.filter((r) => !isNaN(parseFloat(r.rh)))
@@ -52,45 +46,17 @@
 
 	<h2 class="stats-section">{copy.conditionsHeading}</h2>
 
-	<section class="summary" aria-label="Humidor conditions summary">
+	<StatGrid label="Humidor conditions summary">
 		<StatItem label={copy.labels.latestRh} value={isNaN(latestRh) ? '—' : latestRh.toFixed(0)} unit="%" />
 		<StatItem label={copy.labels.averageRh} value={isNaN(averageRh) ? '—' : averageRh.toFixed(0)} unit="%" />
 		<StatItem label={copy.labels.cigars} value={cigarCount.toString()} />
 		<StatItem label={copy.labels.bovedaAge} value={isNaN(daysSinceBoveda) ? '—' : daysSinceBoveda.toString()} unit="days" />
-	</section>
+	</StatGrid>
 
 	{#if sortedReadings.length > 0}
-		<HumidityChart chart={data.humidityChart} />
+		<HumidityChart readings={humidityReadings} />
 	{/if}
 
 	<CigarTable {cigars} />
 </ArticlePage>
 
-<style>
-	.summary {
-		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-		gap: var(--space-5);
-		margin-bottom: var(--space-6);
-		border-top: 2px solid var(--color-text);
-		border-bottom: 1px solid var(--color-line);
-		padding: var(--space-4) 0;
-	}
-
-	h2.stats-section {
-		font-size: var(--font-size-3xl);
-	}
-
-	@media (max-width: 900px) {
-		.summary {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-	}
-
-	@media (max-width: 760px) {
-		.summary {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-			gap: var(--space-3);
-		}
-	}
-</style>

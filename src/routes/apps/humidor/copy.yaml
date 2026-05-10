@@ -1,12 +1,12 @@
 seo:
   title: Cigar Humidor | Kip
-  description: Cigar inventory and humidity readings from Ben Welsh's humidor.
+  description: Keeping tabs on Ben's private collection
   url: https://kip.computer/apps/humidor/
 
 header:
   eyebrow: Apps
   title: Cigar Humidor
-  deck: Inventory and humidity readings from Ben's humidor
+  deck: Keeping tabs on Ben's private collection
 
 conditionsHeading: Current conditions
 labels:

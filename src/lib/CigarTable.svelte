@@ -18,8 +18,7 @@
 		{ key: 'wrapper', label: 'Wrapper' },
 		{ key: 'origin', label: 'Origin' },
 		{ key: 'size', label: 'Size' },
-		{ key: 'gauge', label: 'Gauge' },
-		{ key: 'notes', label: 'Notes' }
+		{ key: 'gauge', label: 'Gauge' }
 	];
 
 	const sortedCigars = $derived(
@@ -44,8 +43,7 @@
 
 <section class="table-section" aria-labelledby="cigar-table-title">
 	<div class="table-heading">
-		<h3 id="cigar-table-title">Cigar inventory</h3>
-		<p>{cigars.length} cigars logged</p>
+		<h3 id="cigar-table-title">Inventory</h3>
 	</div>
 	<div class="table-frame">
 		<table>
@@ -79,7 +77,6 @@
 						<td>{cigar.origin}</td>
 						<td>{cigar.size}</td>
 						<td>{cigar.gauge}</td>
-						<td>{cigar.notes}</td>
 					</tr>
 				{/each}
 			</tbody>

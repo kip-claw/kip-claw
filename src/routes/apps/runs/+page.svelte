@@ -4,11 +4,11 @@
 	import RunsChart from '$lib/RunsChart.svelte';
 	import RunsTable from '$lib/RunsTable.svelte';
 	import Seo from '$lib/Seo.svelte';
+	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
 	import type { HeaderCopy, SeoCopy } from '$lib/copy';
 	import { runs, parseRunDate, parseDistanceMiles } from '$lib/runs';
 	import copyData from './copy.yaml';
-	import type { PageData } from './$types';
 
 	const copy = copyData as {
 		seo: SeoCopy;
@@ -21,12 +21,6 @@
 			latestRun: string;
 		};
 	};
-
-	type Props = {
-		data: PageData;
-	};
-
-	let { data }: Props = $props();
 
 	const sortedRuns = [...runs]
 		.filter((r) => r.date && !isNaN(+parseRunDate(r.date)))
@@ -50,7 +44,7 @@
 
 	<h2 class="stats-section">{copy.summaryHeading}</h2>
 
-	<section class="summary" aria-label="Running summary">
+	<StatGrid label="Running summary">
 		<StatItem label={copy.labels.totalRuns} value={sortedRuns.length.toString()} />
 		<StatItem label={copy.labels.totalDistance} value={totalMiles.toFixed(0)} unit="mi" />
 		<StatItem label={copy.labels.averageDistance} value={averageMiles.toFixed(1)} unit="mi" />
@@ -58,40 +52,12 @@
 			label={copy.labels.latestRun}
 			value={latestRun ? formatDate.format(parseRunDate(latestRun.date)) : '—'}
 		/>
-	</section>
+	</StatGrid>
 
 	{#if sortedRuns.length > 0}
-		<RunsChart chart={data.runsChart} />
+		<RunsChart {runs} />
 	{/if}
 
 	<RunsTable {runs} />
 </ArticlePage>
 
-<style>
-	.summary {
-		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-		gap: var(--space-5);
-		margin-bottom: var(--space-6);
-		border-top: 2px solid var(--color-text);
-		border-bottom: 1px solid var(--color-line);
-		padding: var(--space-4) 0;
-	}
-
-	h2.stats-section {
-		font-size: var(--font-size-3xl);
-	}
-
-	@media (max-width: 900px) {
-		.summary {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-	}
-
-	@media (max-width: 760px) {
-		.summary {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-			gap: var(--space-3);
-		}
-	}
-</style>

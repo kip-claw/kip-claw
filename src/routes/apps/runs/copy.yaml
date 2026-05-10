@@ -1,12 +1,12 @@
 seo:
   title: Running Log | Kip
-  description: Ben Welsh's running log — distances, routes, and reflections.
+  description: Where Ben has jogged and slogged
   url: https://kip.computer/apps/runs/
 
 header:
   eyebrow: Apps
   title: Running Log
-  deck: Distances, routes, and reflections from Ben's runs
+  deck: Where Ben has jogged and slogged
 
 summaryHeading: Summary
 labels:

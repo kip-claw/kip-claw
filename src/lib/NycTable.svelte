@@ -11,7 +11,14 @@
 		onPlaceSelect?: (place: NycPlace) => void;
 	};
 
-	let { places, totalCount, searchQuery = $bindable(''), showClosed = $bindable(false), tierFilter = $bindable([]), onPlaceSelect }: Props = $props();
+	let {
+		places,
+		totalCount,
+		searchQuery = $bindable(''),
+		showClosed = $bindable(false),
+		tierFilter = $bindable([]),
+		onPlaceSelect
+	}: Props = $props();
 
 	let sortKey = $state<'name' | 'address'>('name');
 	let sortDirection = $state<'asc' | 'desc'>('asc');
@@ -20,7 +27,7 @@
 		{ key: 'elite', label: 'Elite' },
 		{ key: 'recommended', label: 'Recommended' },
 		{ key: 'decent', label: 'Decent' },
-		{ key: 'other', label: 'Other' }
+		{ key: 'meh', label: 'Meh' }
 	] as const;
 
 	const sortedPlaces = $derived.by(() => {
@@ -305,7 +312,7 @@
 		background: #e3f2fd;
 		color: #1565c0;
 	}
-	.badge--other {
+	.badge--meh {
 		background: #f5f5f5;
 		color: #757575;
 	}

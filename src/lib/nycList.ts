@@ -24,18 +24,18 @@ export const nycPlaces: NycPlace[] = Array.isArray(nycListJson)
 
 export const isYes = (value: string): boolean => value.toUpperCase() === 'Y';
 
-export type PlaceTier = 'elite' | 'recommended' | 'decent' | 'other';
+export type PlaceTier = 'elite' | 'recommended' | 'decent' | 'meh';
 
 export const getPlaceTier = (place: NycPlace): PlaceTier => {
 	if (isYes(place.isElite)) return 'elite';
 	if (isYes(place.isRecommended)) return 'recommended';
 	if (isYes(place.isDecent)) return 'decent';
-	return 'other';
+	return 'meh';
 };
 
 export const tierColors: Record<PlaceTier, string> = {
 	elite: '#FFD700',
 	recommended: '#4CAF50',
 	decent: '#2196F3',
-	other: '#9E9E9E'
+	meh: '#9E9E9E'
 };

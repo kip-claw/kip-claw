@@ -120,7 +120,7 @@
 		<span><i class="legend-dot" style="background:{tierColors.elite}"></i> Elite</span>
 		<span><i class="legend-dot" style="background:{tierColors.recommended}"></i> Recommended</span>
 		<span><i class="legend-dot" style="background:{tierColors.decent}"></i> Decent</span>
-		<span><i class="legend-dot" style="background:{tierColors.other}"></i> Other</span>
+		<span><i class="legend-dot" style="background:{tierColors.meh}"></i> Meh</span>
 	</div>
 </div>
 
