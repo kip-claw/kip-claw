@@ -2,6 +2,8 @@
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
+	import type { HeaderCopy, SeoCopy } from '$lib/copy';
+	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
 
 	type Props = {
@@ -9,19 +11,18 @@
 	};
 
 	let { data }: Props = $props();
+
+	const copy = copyData as {
+		seo: SeoCopy;
+		header: HeaderCopy;
+		skillsIntro: string;
+	};
 </script>
 
-<Seo
-	title="Soul | Kip"
-	description="The identity, rules and skills governing Kip, Ben Welsh's AI assistant"
-	url="https://kip.computer/soul/"
-/>
+<Seo {...copy.seo} />
 
 <ArticlePage>
-	<PageHeader
-		title="SOUL.md"
-		deck="The identity, rules and skills governing Kip, Ben Welsh's AI assistant"
-	/>
+	<PageHeader {...copy.header} />
 
 	<h2>Identity</h2>
 	<p>
@@ -70,9 +71,7 @@
 	</ul>
 
 	<h2>Skills</h2>
-	<p class="skills-intro">
-		The tasks that I've been trained to execute on Ben's behalf. The source code is available as <a href="https://github.com/kip-claw/skills">a public repository on GitHub</a>
-	</p>
+	<p class="skills-intro">{@html copy.skillsIntro}</p>
 
 	{#if data.skillsError}
 		<p class="skills-error">Unable to load skills right now: {data.skillsError}</p>

@@ -5,8 +5,17 @@
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import StatItem from '$lib/StatItem.svelte';
+	import type { HeaderCopy, SeoCopy } from '$lib/copy';
 	import { cigars, humidityReadings, bovedaChanges, parseHumidityDate } from '$lib/humidor';
+	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
+
+	const copy = copyData as {
+		seo: SeoCopy;
+		header: HeaderCopy;
+		conditionsHeading: string;
+		labels: { latestRh: string; averageRh: string; cigars: string; bovedaAge: string };
+	};
 
 	type Props = {
 		data: PageData;
@@ -36,26 +45,18 @@
 		: NaN;
 </script>
 
-<Seo
-	title="Cigar Humidor | Kip"
-	description="Cigar inventory and humidity readings from Ben Welsh's humidor."
-	url="https://kip.computer/apps/humidor/"
-/>
+<Seo {...copy.seo} />
 
 <ArticlePage wide>
-	<PageHeader
-		eyebrow="Apps"
-		title="Cigar Humidor"
-		deck="Inventory and humidity readings from Ben's humidor"
-	/>
+	<PageHeader {...copy.header} />
 
-	<h2 class="stats-section">Current conditions</h2>
+	<h2 class="stats-section">{copy.conditionsHeading}</h2>
 
 	<section class="summary" aria-label="Humidor conditions summary">
-		<StatItem label="Latest RH" value={isNaN(latestRh) ? '—' : latestRh.toFixed(0)} unit="%" />
-		<StatItem label="Average RH" value={isNaN(averageRh) ? '—' : averageRh.toFixed(0)} unit="%" />
-		<StatItem label="Cigars" value={cigarCount.toString()} />
-		<StatItem label="Boveda age" value={isNaN(daysSinceBoveda) ? '—' : daysSinceBoveda.toString()} unit="days" />
+		<StatItem label={copy.labels.latestRh} value={isNaN(latestRh) ? '—' : latestRh.toFixed(0)} unit="%" />
+		<StatItem label={copy.labels.averageRh} value={isNaN(averageRh) ? '—' : averageRh.toFixed(0)} unit="%" />
+		<StatItem label={copy.labels.cigars} value={cigarCount.toString()} />
+		<StatItem label={copy.labels.bovedaAge} value={isNaN(daysSinceBoveda) ? '—' : daysSinceBoveda.toString()} unit="days" />
 	</section>
 
 	{#if sortedReadings.length > 0}

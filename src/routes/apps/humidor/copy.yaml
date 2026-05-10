@@ -1,0 +1,16 @@
+seo:
+  title: Cigar Humidor | Kip
+  description: Cigar inventory and humidity readings from Ben Welsh's humidor.
+  url: https://kip.computer/apps/humidor/
+
+header:
+  eyebrow: Apps
+  title: Cigar Humidor
+  deck: Inventory and humidity readings from Ben's humidor
+
+conditionsHeading: Current conditions
+labels:
+  latestRh: Latest RH
+  averageRh: Average RH
+  cigars: Cigars
+  bovedaAge: Boveda age

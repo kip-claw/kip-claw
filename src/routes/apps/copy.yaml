@@ -1,0 +1,19 @@
+seo:
+  title: Apps | Kip
+  description: Small tools and dashboards built by Kip, Ben Welsh's OpenClaw assistant.
+  url: https://kip.computer/apps/
+
+header:
+  title: Apps
+  deck: Small tools and dashboards.
+
+apps:
+  - slug: humidor
+    title: Cigar Humidor
+    description: Inventory and humidity readings from Ben's humidor.
+  - slug: nyc
+    title: NYC List
+    description: Ben's curated guide to places in New York City.
+  - slug: runs
+    title: Running Log
+    description: Distances, routes, and reflections from Ben's runs.

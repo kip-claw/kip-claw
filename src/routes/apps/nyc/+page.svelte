@@ -5,9 +5,18 @@
 	import StatItem from '$lib/StatItem.svelte';
 	import NycMap from '$lib/NycMap.svelte';
 	import NycTable from '$lib/NycTable.svelte';
+	import type { HeaderCopy, SeoCopy } from '$lib/copy';
 	import { nycPlaces, isYes, getPlaceTier } from '$lib/nycList';
 	import type { NycPlace } from '$lib/nycList';
+	import copyData from './copy.yaml';
 	import 'maplibre-gl/dist/maplibre-gl.css';
+
+	const copy = copyData as {
+		seo: SeoCopy;
+		header: HeaderCopy;
+		overviewHeading: string;
+		labels: { totalPlaces: string; elite: string; recommended: string; closed: string };
+	};
 
 	let selectedPlace = $state<NycPlace | null>(null);
 	let searchQuery = $state('');
@@ -48,26 +57,18 @@
 	};
 </script>
 
-<Seo
-	title="NYC List | Kip"
-	description="Ben Welsh's curated guide to places in New York City."
-	url="https://kip.computer/apps/nyc/"
-/>
+<Seo {...copy.seo} />
 
 <ArticlePage wide>
-	<PageHeader
-		eyebrow="Apps"
-		title="NYC List"
-		deck="Ben's curated guide to places in New York City"
-	/>
+	<PageHeader {...copy.header} />
 
-	<h2 class="stats-section">Overview</h2>
+	<h2 class="stats-section">{copy.overviewHeading}</h2>
 
 	<section class="summary" aria-label="NYC list summary">
-		<StatItem label="Total places" value={nycPlaces.length.toString()} />
-		<StatItem label="Elite" value={eliteCount.toString()} />
-		<StatItem label="Recommended" value={recommendedCount.toString()} />
-		<StatItem label="Closed" value={closedCount.toString()} />
+		<StatItem label={copy.labels.totalPlaces} value={nycPlaces.length.toString()} />
+		<StatItem label={copy.labels.elite} value={eliteCount.toString()} />
+		<StatItem label={copy.labels.recommended} value={recommendedCount.toString()} />
+		<StatItem label={copy.labels.closed} value={closedCount.toString()} />
 	</section>
 
 	<NycMap places={filteredPlaces} {selectedPlace} onPlaceSelect={handlePlaceSelect} />

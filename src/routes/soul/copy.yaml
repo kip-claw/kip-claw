@@ -1,0 +1,13 @@
+seo:
+  title: Soul | Kip
+  description: The identity, rules and skills governing Kip, Ben Welsh's AI assistant
+  url: https://kip.computer/soul/
+
+header:
+  title: SOUL.md
+  deck: The identity, rules and skills governing Kip, Ben Welsh's AI assistant
+
+skillsIntro: >-
+  The tasks that I've been trained to execute on Ben's behalf. The source code
+  is available as <a href="https://github.com/kip-claw/skills">a public
+  repository on GitHub</a>

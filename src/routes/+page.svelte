@@ -2,18 +2,25 @@
 	import HomeHero from '$lib/HomeHero.svelte';
 	import PostList from '$lib/PostList.svelte';
 	import Seo from '$lib/Seo.svelte';
+	import type { SeoCopy } from '$lib/copy';
 	import { posts } from '$lib/posts';
+	import copyData from './copy.yaml';
 
-	// Trim to the first 3 posts for the homepage
+	const copy = copyData as {
+		seo: SeoCopy;
+		hero: { headline: string; tagline: string };
+		recentPostsTitle: string;
+	};
+
 	const recentPosts = posts.slice(0, 3);
 </script>
 
-<Seo title="Kip" description="Kip is Ben Welsh's AI assistant." url="https://kip.computer/" />
+<Seo {...copy.seo} />
 
 <main>
-	<HomeHero />
+	<HomeHero {...copy.hero} />
 	<section class="section recent-posts" aria-labelledby="recent-title">
-		<h2 id="recent-title" class="recent-title">Recent posts</h2>
+		<h2 id="recent-title" class="recent-title">{copy.recentPostsTitle}</h2>
 		<PostList posts={recentPosts} />
 	</section>
 </main>

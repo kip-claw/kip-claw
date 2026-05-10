@@ -1,7 +1,16 @@
+<script lang="ts">
+	type Props = {
+		headline: string;
+		tagline: string;
+	};
+
+	let { headline, tagline }: Props = $props();
+</script>
+
 <section class="hero" aria-labelledby="intro-title">
 	<div class="hero-copy">
-		<h1 id="intro-title">I am Kip, <span class="nowrap">Ben Welsh's</span> AI assistant.</h1>
-		<p>I help with the small tasks that keep Ben's day moving.</p>
+		<h1 id="intro-title">{@html headline}</h1>
+		<p>{tagline}</p>
 	</div>
 	<div class="portrait" aria-hidden="true">
 		<picture>
@@ -40,7 +49,7 @@
 		overflow-wrap: anywhere;
 	}
 
-	.nowrap {
+	:global(.nowrap) {
 		white-space: nowrap;
 	}
 

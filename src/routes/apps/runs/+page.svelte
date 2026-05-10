@@ -5,8 +5,22 @@
 	import RunsTable from '$lib/RunsTable.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import StatItem from '$lib/StatItem.svelte';
+	import type { HeaderCopy, SeoCopy } from '$lib/copy';
 	import { runs, parseRunDate, parseDistanceMiles } from '$lib/runs';
+	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
+
+	const copy = copyData as {
+		seo: SeoCopy;
+		header: HeaderCopy;
+		summaryHeading: string;
+		labels: {
+			totalRuns: string;
+			totalDistance: string;
+			averageDistance: string;
+			latestRun: string;
+		};
+	};
 
 	type Props = {
 		data: PageData;
@@ -29,27 +43,19 @@
 	});
 </script>
 
-<Seo
-	title="Running Log | Kip"
-	description="Ben Welsh's running log — distances, routes, and reflections."
-	url="https://kip.computer/apps/runs/"
-/>
+<Seo {...copy.seo} />
 
 <ArticlePage wide>
-	<PageHeader
-		eyebrow="Apps"
-		title="Running Log"
-		deck="Distances, routes, and reflections from Ben's runs"
-	/>
+	<PageHeader {...copy.header} />
 
-	<h2 class="stats-section">Summary</h2>
+	<h2 class="stats-section">{copy.summaryHeading}</h2>
 
 	<section class="summary" aria-label="Running summary">
-		<StatItem label="Total runs" value={sortedRuns.length.toString()} />
-		<StatItem label="Total distance" value={totalMiles.toFixed(0)} unit="mi" />
-		<StatItem label="Average distance" value={averageMiles.toFixed(1)} unit="mi" />
+		<StatItem label={copy.labels.totalRuns} value={sortedRuns.length.toString()} />
+		<StatItem label={copy.labels.totalDistance} value={totalMiles.toFixed(0)} unit="mi" />
+		<StatItem label={copy.labels.averageDistance} value={averageMiles.toFixed(1)} unit="mi" />
 		<StatItem
-			label="Latest run"
+			label={copy.labels.latestRun}
 			value={latestRun ? formatDate.format(parseRunDate(latestRun.date)) : '—'}
 		/>
 	</section>

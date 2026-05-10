@@ -3,6 +3,8 @@
 	import ListItem from '$lib/ListItem.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
+	import type { HeaderCopy, SeoCopy } from '$lib/copy';
+	import copyData from './copy.yaml';
 
 	type App = {
 		slug: string;
@@ -10,35 +12,19 @@
 		description: string;
 	};
 
-	const apps: App[] = [
-		{
-			slug: 'humidor',
-			title: 'Cigar Humidor',
-			description: "Inventory and humidity readings from Ben's humidor."
-		},
-		{
-			slug: 'nyc',
-			title: 'NYC List',
-			description: "Ben's curated guide to places in New York City."
-		},
-		{
-			slug: 'runs',
-			title: 'Running Log',
-			description: "Distances, routes, and reflections from Ben's runs."
-		}
-	];
+	const copy = copyData as {
+		seo: SeoCopy;
+		header: HeaderCopy;
+		apps: App[];
+	};
 </script>
 
-<Seo
-	title="Apps | Kip"
-	description="Small tools and dashboards built by Kip, Ben Welsh's OpenClaw assistant."
-	url="https://kip.computer/apps/"
-/>
+<Seo {...copy.seo} />
 
 <main>
-	<PageHeader title="Apps" deck="Small tools and dashboards." />
+	<PageHeader {...copy.header} />
 	<List>
-		{#each apps as app}
+		{#each copy.apps as app}
 			<ListItem href={`/apps/${app.slug}/`} title={app.title} description={app.description} />
 		{/each}
 	</List>

@@ -5,9 +5,28 @@
 	import SpeedChart from '$lib/SpeedChart.svelte';
 	import SpeedTestTable from '$lib/SpeedTestTable.svelte';
 	import StatItem from '$lib/StatItem.svelte';
+	import type { HeaderCopy, SeoCopy } from '$lib/copy';
 	import { parseSpeedTestDate, speedTests } from '$lib/speedTests';
 	import openclawConfig from '$lib/openclawConfig.json';
+	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
+
+	const copy = copyData as {
+		seo: SeoCopy;
+		header: HeaderCopy;
+		openClawHeading: string;
+		speedHeading: string;
+		labels: {
+			version: string;
+			model: string;
+			agent: string;
+			latestDownload: string;
+			averageDownload: string;
+			latestUpload: string;
+			averageUpload: string;
+		};
+		charts: { download: string; upload: string };
+	};
 
 	type Props = {
 		data: PageData;
@@ -27,38 +46,31 @@
 	const latestConfig = openclawConfig.at(-1);
 </script>
 
-<Seo
-	title="Stats | Kip"
-	description="Diagnostic data for Kip, Ben Welsh's AI assistant."
-	url="https://kip.computer/stats/"
-/>
+<Seo {...copy.seo} />
 
 <ArticlePage wide>
-	<PageHeader
-		title="Statistics"
-		deck="Diagnostic data for Kip, Ben Welsh's OpenClaw assistant"
-	/>
+	<PageHeader {...copy.header} />
 
-	<h2 class="stats-section">OpenClaw</h2>
+	<h2 class="stats-section">{copy.openClawHeading}</h2>
 
 	<section class="system-status" aria-label="OpenClaw system status">
-		<StatItem label="Version" value={latestConfig?.version ?? '—'} />
-		<StatItem label="Model" value={latestConfig?.primaryModel ?? '—'} />
-		<StatItem label="Agent" value={latestConfig?.agentRuntime ?? '—'} />
+		<StatItem label={copy.labels.version} value={latestConfig?.version ?? '—'} />
+		<StatItem label={copy.labels.model} value={latestConfig?.primaryModel ?? '—'} />
+		<StatItem label={copy.labels.agent} value={latestConfig?.agentRuntime ?? '—'} />
 	</section>
 
-	<h2 class="stats-section">Internet speed</h2>
+	<h2 class="stats-section">{copy.speedHeading}</h2>
 
 	<section class="summary" aria-label="Speed test summary">
-		<StatItem label="Latest download" value={latest?.downloadMbps.toFixed(0) ?? '—'} unit="Mbps" />
-		<StatItem label="Average download" value={averageDownload.toFixed(0)} unit="Mbps" />
-		<StatItem label="Latest upload" value={latest?.uploadMbps.toFixed(0) ?? '—'} unit="Mbps" />
-		<StatItem label="Average upload" value={averageUpload.toFixed(0)} unit="Mbps" />
+		<StatItem label={copy.labels.latestDownload} value={latest?.downloadMbps.toFixed(0) ?? '—'} unit="Mbps" />
+		<StatItem label={copy.labels.averageDownload} value={averageDownload.toFixed(0)} unit="Mbps" />
+		<StatItem label={copy.labels.latestUpload} value={latest?.uploadMbps.toFixed(0) ?? '—'} unit="Mbps" />
+		<StatItem label={copy.labels.averageUpload} value={averageUpload.toFixed(0)} unit="Mbps" />
 	</section>
 
 	<div class="charts-grid">
-		<SpeedChart chart={data.downloadChart} title="Download speed" chartId="download-speed" />
-		<SpeedChart chart={data.uploadChart} title="Upload speed" chartId="upload-speed" />
+		<SpeedChart chart={data.downloadChart} title={copy.charts.download} chartId="download-speed" />
+		<SpeedChart chart={data.uploadChart} title={copy.charts.upload} chartId="upload-speed" />
 	</div>
 
 	<SpeedTestTable tests={speedTests} />

@@ -1,0 +1,24 @@
+seo:
+  title: Stats | Kip
+  description: Diagnostic data for Kip, Ben Welsh's AI assistant.
+  url: https://kip.computer/stats/
+
+header:
+  title: Statistics
+  deck: Diagnostic data for Kip, Ben Welsh's OpenClaw assistant
+
+openClawHeading: OpenClaw
+speedHeading: Internet speed
+
+labels:
+  version: Version
+  model: Model
+  agent: Agent
+  latestDownload: Latest download
+  averageDownload: Average download
+  latestUpload: Latest upload
+  averageUpload: Average upload
+
+charts:
+  download: Download speed
+  upload: Upload speed

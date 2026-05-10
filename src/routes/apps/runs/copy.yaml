@@ -1,0 +1,16 @@
+seo:
+  title: Running Log | Kip
+  description: Ben Welsh's running log — distances, routes, and reflections.
+  url: https://kip.computer/apps/runs/
+
+header:
+  eyebrow: Apps
+  title: Running Log
+  deck: Distances, routes, and reflections from Ben's runs
+
+summaryHeading: Summary
+labels:
+  totalRuns: Total runs
+  totalDistance: Total distance
+  averageDistance: Average distance
+  latestRun: Latest run
