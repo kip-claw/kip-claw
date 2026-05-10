@@ -6,13 +6,18 @@
 	import Seo from '$lib/Seo.svelte';
 	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
-	import type { HeaderCopy, SeoCopy } from '$lib/copy';
-	import { runs, parseRunDate, parseDistanceMiles } from '$lib/runs';
+	import type { PageCopy } from '$lib/copy';
+	import { getRunsSummary, parseRunDate } from '$lib/runs';
 	import copyData from './copy.yaml';
+	import type { PageData } from './$types';
 
-	const copy = copyData as {
-		seo: SeoCopy;
-		header: HeaderCopy;
+	type Props = {
+		data: PageData;
+	};
+
+	let { data }: Props = $props();
+
+	const copy = copyData as PageCopy<{
 		summaryHeading: string;
 		labels: {
 			totalRuns: string;
@@ -20,15 +25,9 @@
 			averageDistance: string;
 			latestRun: string;
 		};
-	};
+	}>;
 
-	const sortedRuns = [...runs]
-		.filter((r) => r.date && !isNaN(+parseRunDate(r.date)))
-		.sort((a, b) => +parseRunDate(a.date) - +parseRunDate(b.date));
-
-	const totalMiles = sortedRuns.reduce((sum, r) => sum + parseDistanceMiles(r.distance), 0);
-	const averageMiles = sortedRuns.length > 0 ? totalMiles / sortedRuns.length : 0;
-	const latestRun = sortedRuns.at(-1);
+	const summary = $derived(getRunsSummary(data.runs));
 
 	const formatDate = new Intl.DateTimeFormat('en-US', {
 		month: 'short',
@@ -40,24 +39,27 @@
 <Seo {...copy.seo} />
 
 <ArticlePage wide>
-	<PageHeader {...copy.header} />
+	<PageHeader {...copy.header!} />
 
 	<h2 class="stats-section">{copy.summaryHeading}</h2>
 
 	<StatGrid label="Running summary">
-		<StatItem label={copy.labels.totalRuns} value={sortedRuns.length.toString()} />
-		<StatItem label={copy.labels.totalDistance} value={totalMiles.toFixed(0)} unit="mi" />
-		<StatItem label={copy.labels.averageDistance} value={averageMiles.toFixed(1)} unit="mi" />
+		<StatItem label={copy.labels.totalRuns} value={summary.sortedRuns.length.toString()} />
+		<StatItem label={copy.labels.totalDistance} value={summary.totalMiles.toFixed(0)} unit="mi" />
+		<StatItem
+			label={copy.labels.averageDistance}
+			value={summary.averageMiles.toFixed(1)}
+			unit="mi"
+		/>
 		<StatItem
 			label={copy.labels.latestRun}
-			value={latestRun ? formatDate.format(parseRunDate(latestRun.date)) : '—'}
+			value={summary.latestRun ? formatDate.format(parseRunDate(summary.latestRun.date)) : '—'}
 		/>
 	</StatGrid>
 
-	{#if sortedRuns.length > 0}
-		<RunsChart {runs} />
+	{#if summary.sortedRuns.length > 0}
+		<RunsChart runs={data.runs} />
 	{/if}
 
-	<RunsTable {runs} />
+	<RunsTable runs={data.runs} />
 </ArticlePage>
-

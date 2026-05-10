@@ -1,0 +1,100 @@
+{
+	"cigars": [
+		{
+			"dateAdded": "2026-04-10",
+			"maker": "Martinez",
+			"model": "654",
+			"wrapper": "Unknown",
+			"origin": "USA",
+			"size": "Toro",
+			"gauge": "54",
+			"notes": "NYC cigar, first cigar in humidor"
+		},
+		{
+			"dateAdded": "2026-04-10",
+			"maker": "Arturo Fuente",
+			"model": "Magnum R Gran Reserva",
+			"wrapper": "Ecuadorian Habano",
+			"origin": "Dominican Republic",
+			"size": "Robusto",
+			"gauge": "",
+			"notes": ""
+		},
+		{
+			"dateAdded": "2026-04-11",
+			"maker": "H. Upmann",
+			"model": "The Banker",
+			"wrapper": "Ecuadorian Habano",
+			"origin": "Dominican Republic",
+			"size": "Robusto",
+			"gauge": "",
+			"notes": ""
+		},
+		{
+			"dateAdded": "2026-04-27",
+			"maker": "H. Upmann by AJ Fernandez",
+			"model": "Heritage",
+			"wrapper": "Brazil",
+			"origin": "Nicaragua",
+			"size": "Toro",
+			"gauge": "",
+			"notes": ""
+		},
+		{
+			"dateAdded": "2026-05-01",
+			"maker": "Arturo Fuente",
+			"model": "Reserva Don Carlos",
+			"wrapper": "Cameroon",
+			"origin": "Dominican Republic",
+			"size": "Belicoso",
+			"gauge": "52",
+			"notes": ""
+		}
+	],
+	"humidityReadings": [
+		{
+			"date": "2026-04-08",
+			"time": "",
+			"rh": "64",
+			"temperatureF": "",
+			"notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
+		},
+		{
+			"date": "2026-04-10",
+			"time": "21:01",
+			"rh": "62",
+			"temperatureF": "",
+			"notes": "Fresh reading"
+		},
+		{
+			"date": "2026-04-18",
+			"time": "19:00",
+			"rh": "71",
+			"temperatureF": "",
+			"notes": "First reading over 70. Boveda packs still squishy."
+		},
+		{
+			"date": "2026-04-27",
+			"time": "",
+			"rh": "71",
+			"temperatureF": "",
+			"notes": ""
+		},
+		{
+			"date": "2026-05-01",
+			"time": "",
+			"rh": "70",
+			"temperatureF": "",
+			"notes": "Recorded via Kip"
+		}
+	],
+	"bovedaChanges": [
+		{
+			"dateChanged": "2026-04-08",
+			"packType": "72\u00b0",
+			"rh": "2",
+			"packCount": "",
+			"notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
+		}
+	]
+}

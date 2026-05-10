@@ -3,18 +3,15 @@
 	import ListItem from '$lib/ListItem.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import type { HeaderCopy, SeoCopy } from '$lib/copy';
+	import type { PageCopy } from '$lib/copy';
 	import copyData from './copy.yaml';
 
-	const copy = copyData as {
-		seo: SeoCopy;
-		header: HeaderCopy;
-	};
+	const copy = copyData as PageCopy;
 
-	const childCopy = import.meta.glob<{ header: { title: string; deck: string } }>(
-		'./*/copy.yaml',
-		{ eager: true, import: 'default' }
-	);
+	const childCopy = import.meta.glob<{ header: { title: string; deck: string } }>('./*/copy.yaml', {
+		eager: true,
+		import: 'default'
+	});
 
 	const apps = Object.entries(childCopy)
 		.map(([path, data]) => ({
@@ -28,7 +25,7 @@
 <Seo {...copy.seo} />
 
 <main>
-	<PageHeader {...copy.header} />
+	<PageHeader {...copy.header!} />
 	<List>
 		{#each apps as app}
 			<ListItem href={`/apps/${app.slug}/`} title={app.title} description={app.description} />

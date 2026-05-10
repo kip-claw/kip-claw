@@ -1,4 +1,5 @@
 <script lang="ts">
+	import DataTable, { type DataTableColumn } from './DataTable.svelte';
 	import type { NycPlace } from './nycList';
 	import { isYes, getPlaceTier } from './nycList';
 
@@ -20,9 +21,6 @@
 		onPlaceSelect
 	}: Props = $props();
 
-	let sortKey = $state<'name' | 'address'>('name');
-	let sortDirection = $state<'asc' | 'desc'>('asc');
-
 	const tiers = [
 		{ key: 'elite', label: 'Elite' },
 		{ key: 'recommended', label: 'Recommended' },
@@ -30,12 +28,12 @@
 		{ key: 'meh', label: 'Meh' }
 	] as const;
 
-	const sortedPlaces = $derived.by(() => {
-		const dir = sortDirection === 'asc' ? 1 : -1;
-		return [...places].sort((a, b) => {
-			return String(a[sortKey]).localeCompare(String(b[sortKey])) * dir;
-		});
-	});
+	const columns: DataTableColumn<NycPlace>[] = [
+		{ key: 'name', label: 'Name', sortable: true },
+		{ key: 'address', label: 'Address', sortable: true },
+		{ key: 'tier', label: 'Tier' },
+		{ key: 'notes', label: 'Notes' }
+	];
 
 	const toggleTier = (tier: string) => {
 		if (tierFilter.includes(tier)) {
@@ -45,27 +43,22 @@
 		}
 	};
 
-	const sortBy = (key: 'name' | 'address') => {
-		if (sortKey === key) {
-			sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
-		} else {
-			sortKey = key;
-			sortDirection = 'asc';
-		}
-	};
-
-	const tierBadgeClass = (place: NycPlace): string => {
-		return `badge badge--${getPlaceTier(place)}`;
-	};
+	const rowClass = (place: NycPlace) => (isYes(place.isClosed) ? 'closed' : undefined);
+	const handleRowClick = onPlaceSelect ? (p: NycPlace) => onPlaceSelect(p) : undefined;
 </script>
 
-<section class="table-section" aria-labelledby="nyc-table-title">
-	<div class="table-heading">
-		<h3 id="nyc-table-title">Places</h3>
-		<p>{places.length} of {totalCount} places</p>
-	</div>
-
-	<div class="controls">
+<DataTable
+	rows={places}
+	{columns}
+	heading="Places"
+	headingId="nyc-table-title"
+	countText="{places.length} of {totalCount} places"
+	initialSortKey="name"
+	initialSortDirection="asc"
+	onRowClick={handleRowClick}
+	{rowClass}
+>
+	{#snippet controls()}
 		<input
 			type="search"
 			placeholder="Search by name, address, or notes…"
@@ -90,79 +83,17 @@
 				Show closed
 			</label>
 		</div>
-	</div>
+	{/snippet}
 
-	<div class="table-frame">
-		<table>
-			<thead>
-				<tr>
-					<th>
-						<button type="button" onclick={() => sortBy('name')}>
-							<span>Name</span>
-							<span class="sort-mark" aria-hidden="true">
-								{sortKey === 'name' ? (sortDirection === 'asc' ? '↑' : '↓') : '↕'}
-							</span>
-						</button>
-					</th>
-					<th>
-						<button type="button" onclick={() => sortBy('address')}>
-							<span>Address</span>
-							<span class="sort-mark" aria-hidden="true">
-								{sortKey === 'address' ? (sortDirection === 'asc' ? '↑' : '↓') : '↕'}
-							</span>
-						</button>
-					</th>
-					<th>Tier</th>
-					<th>Notes</th>
-				</tr>
-			</thead>
-			<tbody>
-				{#each sortedPlaces as place}
-					<tr
-						class:closed={isYes(place.isClosed)}
-						class:clickable={place.lat != null}
-						onclick={() => onPlaceSelect?.(place)}
-					>
-						<td class="no-wrap">{place.name}</td>
-						<td>{place.address}</td>
-						<td><span class={tierBadgeClass(place)}>{getPlaceTier(place)}</span></td>
-						<td>{place.notes}</td>
-					</tr>
-				{/each}
-			</tbody>
-		</table>
-	</div>
-</section>
+	{#snippet row(place: NycPlace)}
+		<td class="no-wrap">{place.name}</td>
+		<td>{place.address}</td>
+		<td><span class="badge badge--{getPlaceTier(place)}">{getPlaceTier(place)}</span></td>
+		<td>{place.notes}</td>
+	{/snippet}
+</DataTable>
 
-<style lang="scss">
-	.table-section {
-		margin-bottom: var(--space-8);
-
-		h3 {
-			margin: 0;
-			font-size: var(--font-size-xl);
-			line-height: var(--line-height-snug);
-		}
-
-		.table-heading {
-			display: flex;
-			align-items: baseline;
-			justify-content: space-between;
-			gap: var(--space-4);
-			margin-bottom: var(--space-3);
-
-			p {
-				margin: 0;
-				color: var(--color-muted);
-				font-size: var(--font-size-xs);
-			}
-		}
-	}
-
-	.controls {
-		margin-bottom: var(--space-4);
-	}
-
+<style>
 	.search-input {
 		width: 100%;
 		padding: var(--space-3);
@@ -219,78 +150,11 @@
 		cursor: pointer;
 	}
 
-	.table-frame {
-		overflow-x: auto;
-		overflow-y: auto;
-		max-height: 600px;
-		border-top: 2px solid var(--color-text);
-	}
-
-	table {
-		width: 100%;
-		min-width: 700px;
-		border-collapse: collapse;
-		font-size: var(--font-size-sm);
-	}
-
-	th,
-	td {
-		border-bottom: 1px solid var(--color-line);
-		padding: var(--space-3) var(--space-2);
-		text-align: left;
-		vertical-align: top;
-	}
-
-	th {
-		position: sticky;
-		top: 0;
-		background: var(--color-background);
-		color: var(--color-muted);
-		font-size: var(--font-size-2xs);
-		font-weight: var(--font-weight-bold);
-		text-transform: uppercase;
-	}
-
-	th button {
-		display: inline-flex;
-		align-items: center;
-		gap: var(--space-1);
-		padding: 0;
-		border: 0;
-		background: transparent;
-		color: inherit;
-		font: inherit;
-		text-align: inherit;
-		text-transform: inherit;
-		cursor: pointer;
-	}
-
-	th button:hover {
-		color: var(--color-text);
-	}
-
-	.no-wrap {
-		white-space: nowrap;
-	}
-
-	.sort-mark {
-		color: var(--color-accent);
-		font-size: var(--font-size-xs);
-	}
-
-	tr.closed {
+	:global(.table-section tr.closed) {
 		opacity: 0.5;
 	}
 
-	tr.clickable {
-		cursor: pointer;
-	}
-
-	tr.clickable:hover td {
-		background: rgba(0, 0, 0, 0.03);
-	}
-
-	.badge {
+	:global(.table-section .badge) {
 		display: inline-block;
 		padding: 1px 8px;
 		border-radius: 999px;
@@ -300,30 +164,24 @@
 		white-space: nowrap;
 	}
 
-	.badge--elite {
+	:global(.table-section .badge--elite) {
 		background: #fff8e1;
 		color: #f9a825;
 	}
-	.badge--recommended {
+	:global(.table-section .badge--recommended) {
 		background: #e8f5e9;
 		color: #2e7d32;
 	}
-	.badge--decent {
+	:global(.table-section .badge--decent) {
 		background: #e3f2fd;
 		color: #1565c0;
 	}
-	.badge--meh {
+	:global(.table-section .badge--meh) {
 		background: #f5f5f5;
 		color: #757575;
 	}
 
 	@media (max-width: 760px) {
-		.table-heading {
-			align-items: flex-start;
-			flex-direction: column;
-			gap: var(--space-1);
-		}
-
 		.filter-row {
 			flex-direction: column;
 			align-items: flex-start;

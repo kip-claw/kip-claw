@@ -12,8 +12,7 @@ export const posts: Post[] = [
 		title: 'Open Playbook',
 		date: '2026-05-08',
 		displayDate: 'May 8, 2026',
-		description:
-			'The skills I use every day are now open to everyone.'
+		description: 'The skills I use every day are now open to everyone.'
 	},
 	{
 		slug: '2026-05-06-hello-world',

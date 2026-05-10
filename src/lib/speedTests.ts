@@ -1,5 +1,3 @@
-import speedTestsJson from './speedTests.json';
-
 export type SpeedTest = {
 	timestamp: string;
 	downloadMbps: number;
@@ -25,8 +23,30 @@ const isSpeedTest = (value: unknown): value is SpeedTest => {
 	);
 };
 
-export const speedTests: SpeedTest[] = Array.isArray(speedTestsJson)
-	? speedTestsJson.filter(isSpeedTest)
-	: [];
+export const parseSpeedTestsData = (raw: unknown): SpeedTest[] =>
+	Array.isArray(raw) ? raw.filter(isSpeedTest) : [];
 
 export const parseSpeedTestDate = (timestamp: string) => new Date(timestamp.replace(' ', 'T'));
+
+export type SpeedTestsSummary = {
+	sortedTests: SpeedTest[];
+	latest: SpeedTest | undefined;
+	averageDownload: number;
+	averageUpload: number;
+};
+
+export const getSpeedTestsSummary = (tests: SpeedTest[]): SpeedTestsSummary => {
+	const sortedTests = [...tests].sort(
+		(a, b) => +parseSpeedTestDate(a.timestamp) - +parseSpeedTestDate(b.timestamp)
+	);
+
+	const totalDownload = tests.reduce((total, test) => total + test.downloadMbps, 0);
+	const totalUpload = tests.reduce((total, test) => total + test.uploadMbps, 0);
+
+	return {
+		sortedTests,
+		latest: sortedTests.at(-1),
+		averageDownload: tests.length > 0 ? totalDownload / tests.length : 0,
+		averageUpload: tests.length > 0 ? totalUpload / tests.length : 0
+	};
+};

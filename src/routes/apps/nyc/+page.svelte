@@ -6,18 +6,23 @@
 	import StatItem from '$lib/StatItem.svelte';
 	import NycMap from '$lib/NycMap.svelte';
 	import NycTable from '$lib/NycTable.svelte';
-	import type { HeaderCopy, SeoCopy } from '$lib/copy';
-	import { nycPlaces, isYes, getPlaceTier } from '$lib/nycList';
+	import type { PageCopy } from '$lib/copy';
+	import { isYes, getPlaceTier } from '$lib/nycList';
 	import type { NycPlace } from '$lib/nycList';
 	import copyData from './copy.yaml';
 	import 'maplibre-gl/dist/maplibre-gl.css';
+	import type { PageData } from './$types';
 
-	const copy = copyData as {
-		seo: SeoCopy;
-		header: HeaderCopy;
+	type Props = {
+		data: PageData;
+	};
+
+	let { data }: Props = $props();
+
+	const copy = copyData as PageCopy<{
 		overviewHeading: string;
 		labels: { totalPlaces: string; elite: string; recommended: string; decent: string };
-	};
+	}>;
 
 	let selectedPlace = $state<NycPlace | null>(null);
 	let searchQuery = $state('');
@@ -25,7 +30,7 @@
 	let tierFilter = $state<string[]>([]);
 
 	const filteredPlaces = $derived.by(() => {
-		let result = nycPlaces;
+		let result = data.places;
 
 		if (searchQuery.trim()) {
 			const q = searchQuery.trim().toLowerCase();
@@ -48,10 +53,12 @@
 		return result;
 	});
 
-	const openPlaces = nycPlaces.filter((p) => !isYes(p.isClosed));
-	const eliteCount = openPlaces.filter((p) => getPlaceTier(p) === 'elite').length;
-	const recommendedCount = openPlaces.filter((p) => getPlaceTier(p) === 'recommended').length;
-	const decentCount = openPlaces.filter((p) => getPlaceTier(p) === 'decent').length;
+	const openPlaces = $derived(data.places.filter((p) => !isYes(p.isClosed)));
+	const eliteCount = $derived(openPlaces.filter((p) => getPlaceTier(p) === 'elite').length);
+	const recommendedCount = $derived(
+		openPlaces.filter((p) => getPlaceTier(p) === 'recommended').length
+	);
+	const decentCount = $derived(openPlaces.filter((p) => getPlaceTier(p) === 'decent').length);
 
 	const handlePlaceSelect = (place: NycPlace) => {
 		selectedPlace = place;
@@ -61,12 +68,12 @@
 <Seo {...copy.seo} />
 
 <ArticlePage wide>
-	<PageHeader {...copy.header} />
+	<PageHeader {...copy.header!} />
 
 	<h2 class="stats-section">{copy.overviewHeading}</h2>
 
 	<StatGrid label="NYC list summary">
-		<StatItem label={copy.labels.totalPlaces} value={nycPlaces.length.toString()} />
+		<StatItem label={copy.labels.totalPlaces} value={data.places.length.toString()} />
 		<StatItem label={copy.labels.elite} value={eliteCount.toString()} />
 		<StatItem label={copy.labels.recommended} value={recommendedCount.toString()} />
 		<StatItem label={copy.labels.decent} value={decentCount.toString()} />
@@ -75,7 +82,7 @@
 	<NycMap places={filteredPlaces} {selectedPlace} onPlaceSelect={handlePlaceSelect} />
 	<NycTable
 		places={filteredPlaces}
-		totalCount={nycPlaces.length}
+		totalCount={data.places.length}
 		bind:searchQuery
 		bind:showClosed
 		bind:tierFilter

@@ -14,30 +14,37 @@
 	let map: any;
 	let markers: any[] = [];
 
-	onMount(async () => {
-		const maplibregl = await import('maplibre-gl');
-		const { Protocol } = await import('pmtiles');
+	onMount(() => {
+		let cleanedUp = false;
 
-		const protocol = new Protocol();
-		maplibregl.addProtocol('pmtiles', protocol.tile);
+		(async () => {
+			const maplibregl = await import('maplibre-gl');
+			const { Protocol } = await import('pmtiles');
 
-		map = new maplibregl.Map({
-			container: mapContainer,
-			style: '/nyc-map-style.json',
-			center: [-73.985, 40.748],
-			zoom: 11,
-			minZoom: 10,
-			maxZoom: 18,
-			attributionControl: false
-		});
+			if (cleanedUp) return;
 
-		map.addControl(new maplibregl.NavigationControl(), 'top-right');
+			const protocol = new Protocol();
+			maplibregl.addProtocol('pmtiles', protocol.tile);
 
-		map.on('load', () => {
-			addMarkers(maplibregl, places);
-		});
+			map = new maplibregl.Map({
+				container: mapContainer,
+				style: '/nyc-map-style.json',
+				center: [-73.985, 40.748],
+				zoom: 11,
+				minZoom: 10,
+				maxZoom: 18,
+				attributionControl: false
+			});
+
+			map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+			map.on('load', () => {
+				addMarkers(maplibregl, places);
+			});
+		})();
 
 		return () => {
+			cleanedUp = true;
 			markers.forEach((m) => m.remove());
 			map?.remove();
 		};

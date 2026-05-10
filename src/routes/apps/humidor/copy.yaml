@@ -1,12 +1,12 @@
 seo:
   title: Cigar Humidor | Kip
-  description: Keeping tabs on Ben's private collection
+  description: Ben's private collection
   url: https://kip.computer/apps/humidor/
 
 header:
   eyebrow: Apps
   title: Cigar Humidor
-  deck: Keeping tabs on Ben's private collection
+  deck: Ben's private collection
 
 conditionsHeading: Current conditions
 labels:

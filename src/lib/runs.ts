@@ -1,5 +1,3 @@
-import runsJson from './runs.json';
-
 export type Run = {
 	date: string;
 	distance: string;
@@ -18,7 +16,7 @@ const isRun = (value: unknown): value is Run => {
 	);
 };
 
-export const runs: Run[] = Array.isArray(runsJson) ? runsJson.filter(isRun) : [];
+export const parseRunsData = (raw: unknown): Run[] => (Array.isArray(raw) ? raw.filter(isRun) : []);
 
 export const parseRunDate = (date: string): Date => {
 	const [y, m, d] = date.split('-').map(Number);
@@ -38,4 +36,27 @@ export const parseDistanceMiles = (distance: string): number => {
 		return value * 0.621371;
 	}
 	return value;
+};
+
+export type RunsSummary = {
+	sortedRuns: Run[];
+	totalMiles: number;
+	averageMiles: number;
+	latestRun: Run | undefined;
+};
+
+export const getRunsSummary = (runs: Run[]): RunsSummary => {
+	const sortedRuns = [...runs]
+		.filter((r) => r.date && !isNaN(+parseRunDate(r.date)))
+		.sort((a, b) => +parseRunDate(a.date) - +parseRunDate(b.date));
+
+	const totalMiles = sortedRuns.reduce((sum, r) => sum + parseDistanceMiles(r.distance), 0);
+	const averageMiles = sortedRuns.length > 0 ? totalMiles / sortedRuns.length : 0;
+
+	return {
+		sortedRuns,
+		totalMiles,
+		averageMiles,
+		latestRun: sortedRuns.at(-1)
+	};
 };

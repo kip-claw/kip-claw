@@ -11,7 +11,7 @@ export type HeaderCopy = {
 	byline?: string;
 };
 
-export type PageCopy = {
+export type PageCopy<TExtras = Record<string, never>> = {
 	seo: SeoCopy;
 	header?: HeaderCopy;
-};
+} & TExtras;

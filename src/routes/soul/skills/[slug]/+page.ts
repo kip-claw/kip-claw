@@ -1,6 +1,10 @@
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageLoad } from './$types';
-import { fetchPublishedSkillMarkdown, listPublishedSkills, parseFrontmatter } from '$lib/skillsRepo';
+import {
+	fetchPublishedSkillMarkdown,
+	listPublishedSkills,
+	parseFrontmatter
+} from '$lib/skillsRepo';
 
 export const prerender = true;
 

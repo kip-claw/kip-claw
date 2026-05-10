@@ -1,79 +1,79 @@
 [
-  {
-    "timestamp": "2026-05-07 09:11:08",
-    "version": "2026.5.4",
-    "primaryModel": "openai-codex/gpt-5.5",
-    "agentRuntime": "codex",
-    "memSearchProvider": "gemini",
-    "memSearchModel": "gemini-embedding-001",
-    "skillsCount": 27,
-    "gatewayMode": "local",
-    "notes": ""
-  },
-  {
-    "timestamp": "2026-05-07 09:11:53",
-    "version": "2026.5.4",
-    "primaryModel": "openai-codex/gpt-5.5",
-    "agentRuntime": "codex",
-    "memSearchProvider": "gemini",
-    "memSearchModel": "gemini-embedding-001",
-    "skillsCount": 27,
-    "gatewayMode": "local",
-    "notes": ""
-  },
-  {
-    "timestamp": "2026-05-08 04:15:01",
-    "version": "2026.5.4",
-    "primaryModel": "openai-codex/gpt-5.5",
-    "agentRuntime": "codex",
-    "memSearchProvider": "gemini",
-    "memSearchModel": "gemini-embedding-001",
-    "skillsCount": 27,
-    "gatewayMode": "local",
-    "notes": ""
-  },
-  {
-    "timestamp": "2026-05-08 07:18:13",
-    "version": "2026.5.4",
-    "primaryModel": "openai-codex/gpt-5.5",
-    "agentRuntime": "codex",
-    "memSearchProvider": "gemini",
-    "memSearchModel": "gemini-embedding-001",
-    "skillsCount": 27,
-    "gatewayMode": "local",
-    "notes": ""
-  },
-  {
-    "timestamp": "2026-05-08 07:35:24",
-    "version": "2026.5.6",
-    "primaryModel": "openai-codex/gpt-5.5",
-    "agentRuntime": "codex",
-    "memSearchProvider": "gemini",
-    "memSearchModel": "gemini-embedding-001",
-    "skillsCount": 27,
-    "gatewayMode": "local",
-    "notes": ""
-  },
-  {
-    "timestamp": "2026-05-09 04:15:01",
-    "version": "2026.5.6",
-    "primaryModel": "openai-codex/gpt-5.5",
-    "agentRuntime": "codex",
-    "memSearchProvider": "gemini",
-    "memSearchModel": "gemini-embedding-001",
-    "skillsCount": 27,
-    "gatewayMode": "local",
-    "notes": ""
-  },
-  {
-    "timestamp": "2026-05-10 04:15:01",
-    "version": "2026.5.6",
-    "primaryModel": "openai-codex/gpt-5.5",
-    "agentRuntime": "codex",
-    "memSearchProvider": "gemini",
-    "memSearchModel": "gemini-embedding-001",
-    "skillsCount": 27,
-    "gatewayMode": "local",
-    "notes": ""
-  }
+	{
+		"timestamp": "2026-05-07 09:11:08",
+		"version": "2026.5.4",
+		"primaryModel": "openai-codex/gpt-5.5",
+		"agentRuntime": "codex",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 27,
+		"gatewayMode": "local",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-07 09:11:53",
+		"version": "2026.5.4",
+		"primaryModel": "openai-codex/gpt-5.5",
+		"agentRuntime": "codex",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 27,
+		"gatewayMode": "local",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-08 04:15:01",
+		"version": "2026.5.4",
+		"primaryModel": "openai-codex/gpt-5.5",
+		"agentRuntime": "codex",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 27,
+		"gatewayMode": "local",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-08 07:18:13",
+		"version": "2026.5.4",
+		"primaryModel": "openai-codex/gpt-5.5",
+		"agentRuntime": "codex",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 27,
+		"gatewayMode": "local",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-08 07:35:24",
+		"version": "2026.5.6",
+		"primaryModel": "openai-codex/gpt-5.5",
+		"agentRuntime": "codex",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 27,
+		"gatewayMode": "local",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-09 04:15:01",
+		"version": "2026.5.6",
+		"primaryModel": "openai-codex/gpt-5.5",
+		"agentRuntime": "codex",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 27,
+		"gatewayMode": "local",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-10 04:15:01",
+		"version": "2026.5.6",
+		"primaryModel": "openai-codex/gpt-5.5",
+		"agentRuntime": "codex",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 27,
+		"gatewayMode": "local",
+		"notes": ""
+	}
 ]

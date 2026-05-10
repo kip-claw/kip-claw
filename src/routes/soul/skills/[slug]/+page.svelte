@@ -32,7 +32,7 @@
 
 <ArticlePage>
 	<Eyebrow>Skill</Eyebrow>
-	<PageHeader title={skillTitle} deck="{skillDescription || ''}" />
+	<PageHeader title={skillTitle} deck={skillDescription || ''} />
 
 	<section class="skill-markdown" aria-label="Skill markdown">
 		{@html renderedMarkdown}

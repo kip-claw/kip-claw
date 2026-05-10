@@ -6,57 +6,54 @@
 	import Seo from '$lib/Seo.svelte';
 	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
-	import type { HeaderCopy, SeoCopy } from '$lib/copy';
-	import { cigars, humidityReadings, bovedaChanges, parseHumidityDate } from '$lib/humidor';
+	import type { PageCopy } from '$lib/copy';
+	import { getHumidorSummary } from '$lib/humidor';
 	import copyData from './copy.yaml';
+	import type { PageData } from './$types';
 
-	const copy = copyData as {
-		seo: SeoCopy;
-		header: HeaderCopy;
-		conditionsHeading: string;
-		labels: { latestRh: string; averageRh: string; cigars: string; bovedaAge: string };
+	type Props = {
+		data: PageData;
 	};
 
-	const sortedReadings = [...humidityReadings]
-		.filter((r) => !isNaN(parseFloat(r.rh)))
-		.sort((a, b) => +parseHumidityDate(a.date, a.time || undefined) - +parseHumidityDate(b.date, b.time || undefined));
+	let { data }: Props = $props();
 
-	const latestReading = sortedReadings.at(-1);
-	const latestRh = latestReading ? parseFloat(latestReading.rh) : NaN;
-	const cigarCount = cigars.length;
+	const copy = copyData as PageCopy<{
+		conditionsHeading: string;
+		labels: { latestRh: string; averageRh: string; cigars: string; bovedaAge: string };
+	}>;
 
-	const averageRh =
-		sortedReadings.length > 0
-			? sortedReadings.reduce((sum, r) => sum + parseFloat(r.rh), 0) / sortedReadings.length
-			: NaN;
-
-	const sortedBoveda = [...bovedaChanges]
-		.filter((b) => b.dateChanged)
-		.sort((a, b) => a.dateChanged.localeCompare(b.dateChanged));
-	const latestBoveda = sortedBoveda.at(-1);
-	const daysSinceBoveda = latestBoveda
-		? Math.floor((Date.now() - +new Date(latestBoveda.dateChanged)) / (1000 * 60 * 60 * 24))
-		: NaN;
+	const summary = $derived(getHumidorSummary(data.humidor));
 </script>
 
 <Seo {...copy.seo} />
 
 <ArticlePage wide>
-	<PageHeader {...copy.header} />
+	<PageHeader {...copy.header!} />
 
 	<h2 class="stats-section">{copy.conditionsHeading}</h2>
 
 	<StatGrid label="Humidor conditions summary">
-		<StatItem label={copy.labels.latestRh} value={isNaN(latestRh) ? '—' : latestRh.toFixed(0)} unit="%" />
-		<StatItem label={copy.labels.averageRh} value={isNaN(averageRh) ? '—' : averageRh.toFixed(0)} unit="%" />
-		<StatItem label={copy.labels.cigars} value={cigarCount.toString()} />
-		<StatItem label={copy.labels.bovedaAge} value={isNaN(daysSinceBoveda) ? '—' : daysSinceBoveda.toString()} unit="days" />
+		<StatItem
+			label={copy.labels.latestRh}
+			value={isNaN(summary.latestRh) ? '—' : summary.latestRh.toFixed(0)}
+			unit="%"
+		/>
+		<StatItem
+			label={copy.labels.averageRh}
+			value={isNaN(summary.averageRh) ? '—' : summary.averageRh.toFixed(0)}
+			unit="%"
+		/>
+		<StatItem label={copy.labels.cigars} value={summary.cigarCount.toString()} />
+		<StatItem
+			label={copy.labels.bovedaAge}
+			value={isNaN(summary.daysSinceBoveda) ? '—' : summary.daysSinceBoveda.toString()}
+			unit="days"
+		/>
 	</StatGrid>
 
-	{#if sortedReadings.length > 0}
-		<HumidityChart readings={humidityReadings} />
+	{#if summary.sortedReadings.length > 0}
+		<HumidityChart readings={data.humidor.humidityReadings} />
 	{/if}
 
-	<CigarTable {cigars} />
+	<CigarTable cigars={data.humidor.cigars} />
 </ArticlePage>
-

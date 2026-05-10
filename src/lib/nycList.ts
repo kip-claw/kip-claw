@@ -1,5 +1,3 @@
-import nycListJson from './nycList.json';
-
 export type NycPlace = {
 	name: string;
 	address: string;
@@ -18,9 +16,8 @@ const isNycPlace = (value: unknown): value is NycPlace => {
 	return typeof c.name === 'string' && typeof c.address === 'string';
 };
 
-export const nycPlaces: NycPlace[] = Array.isArray(nycListJson)
-	? nycListJson.filter(isNycPlace)
-	: [];
+export const parseNycListData = (raw: unknown): NycPlace[] =>
+	Array.isArray(raw) ? raw.filter(isNycPlace) : [];
 
 export const isYes = (value: string): boolean => value.toUpperCase() === 'Y';
 

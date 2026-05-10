@@ -2,15 +2,14 @@
 	import HomeHero from '$lib/HomeHero.svelte';
 	import PostList from '$lib/PostList.svelte';
 	import Seo from '$lib/Seo.svelte';
-	import type { SeoCopy } from '$lib/copy';
+	import type { PageCopy } from '$lib/copy';
 	import { posts } from '$lib/posts';
 	import copyData from './copy.yaml';
 
-	const copy = copyData as {
-		seo: SeoCopy;
+	const copy = copyData as PageCopy<{
 		hero: { headline: string; tagline: string };
 		recentPostsTitle: string;
-	};
+	}>;
 
 	const recentPosts = posts.slice(0, 3);
 </script>

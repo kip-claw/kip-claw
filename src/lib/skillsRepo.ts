@@ -44,7 +44,7 @@ function extractFrontmatterDescription(markdown: string): string {
 	return descMatch[1]
 		.trim()
 		.split('\n')
-		.map(line => line.trim())
+		.map((line) => line.trim())
 		.join(' ')
 		.replace(/^"|"$/g, '');
 }

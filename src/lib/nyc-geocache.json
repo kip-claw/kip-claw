@@ -1,1206 +1,1206 @@
 {
-  "25 Avenue A, New York, NY 10009": {
-    "lat": 40.7230015,
-    "lng": -73.9860613
-  },
-  "162 E 33rd St, New York, NY 10016": {
-    "lat": 40.7451359,
-    "lng": -73.9792289
-  },
-  "363 3rd Ave, New York, NY 10016": {
-    "lat": 40.7407645,
-    "lng": -73.98114670000001
-  },
-  "59 W 44th St, New York, NY 10036": {
-    "lat": 40.756008,
-    "lng": -73.9822798
-  },
-  "1450 Broadway, New York, NY 10018": {
-    "lat": 40.754691,
-    "lng": -73.9863611
-  },
-  "18 W Houston St, New York, NY 10012": {
-    "lat": 40.7259146,
-    "lng": -73.9972615
-  },
-  "1050 6th Ave, New York, NY 10018": {
-    "lat": 40.753166,
-    "lng": -73.98500729999999
-  },
-  "106 W Houston St, New York, NY 10012": {
-    "lat": 40.7274407,
-    "lng": -74.00036879999999
-  },
-  "110 Waverly Pl, New York, NY 10011": {
-    "lat": 40.732292,
-    "lng": -73.9992887
-  },
-  "116 E 28th St, New York, NY 10016": {
-    "lat": 40.7427995,
-    "lng": -73.983339
-  },
-  "544 3rd Ave, New York, NY 10016": {
-    "lat": 40.7472618,
-    "lng": -73.9773273
-  },
-  "875 10th Ave, New York, NY 10019": {
-    "lat": 40.7693748,
-    "lng": -73.988709
-  },
-  "202 Mott St, New York, NY 10012": {
-    "lat": 40.7214012,
-    "lng": -73.9953814
-  },
-  "431 3rd Ave, New York, NY 10016": {
-    "lat": 40.7432415,
-    "lng": -73.97964929999999
-  },
-  "214 W 39th St Retail 101, New York, NY 10018": {
-    "lat": 40.75433080000001,
-    "lng": -73.9892929
-  },
-  "610 Lexington Ave 2nd floor, New York, NY 10022": {
-    "lat": 40.7583107,
-    "lng": -73.9713452
-  },
-  "324 W 46th St, New York, NY 10036": {
-    "lat": 40.760072,
-    "lng": -73.98903779999999
-  },
-  "125 E 17th St, New York, NY 10003": {
-    "lat": 40.7358627,
-    "lng": -73.9870171
-  },
-  "128 W Houston St, New York, NY 10012": {
-    "lat": 40.72787,
-    "lng": -74.00106699999999
-  },
-  "43 W 32nd St, New York, NY 10001": {
-    "lat": 40.7481818,
-    "lng": -73.98747639999999
-  },
-  "126 Pearl St, New York, NY 10005": {
-    "lat": 40.7047611,
-    "lng": -74.0085519
-  },
-  "816 6th Ave, New York, NY 10001": {
-    "lat": 40.74607109999999,
-    "lng": -73.9902233
-  },
-  "822 6th Ave, New York, NY 10001": {
-    "lat": 40.7461702,
-    "lng": -73.9899779
-  },
-  "67 Irving Place, New York, NY": {
-    "lat": 40.7367235,
-    "lng": -73.9870297
-  },
-  "92 Beekman Ave, Sleepy Hollow, NY 10591": {
-    "lat": 41.0840944,
-    "lng": -73.8622847
-  },
-  "328 W 45th St, New York, NY 10036": {
-    "lat": 40.7595062,
-    "lng": -73.98972909999999
-  },
-  "225 W 35th St A, New York, NY 10001": {
-    "lat": 40.7522252,
-    "lng": -73.99110990000001
-  },
-  "100 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7422279,
-    "lng": -73.9830928
-  },
-  "332 9th Ave, New York, NY 10001": {
-    "lat": 40.7502716,
-    "lng": -73.9983182
-  },
-  "315 W 44th St #5402, New York, NY 10036": {
-    "lat": 40.7590167,
-    "lng": -73.9896861
-  },
-  "884 6th Ave, New York, NY 10001": {
-    "lat": 40.7481123,
-    "lng": -73.9887048
-  },
-  "555 8th Ave, New York, NY 10018": {
-    "lat": 40.7545977,
-    "lng": -73.99193819999999
-  },
-  "60 W 56th St, New York, NY 10019": {
-    "lat": 40.7633386,
-    "lng": -73.97709139999999
-  },
-  "225 Liberty St, New York, NY 10080": {
-    "lat": 40.7123948,
-    "lng": -74.01693709999999
-  },
-  "1188 Broadway, New York, NY 10001": {
-    "lat": 40.74573030000001,
-    "lng": -73.98845179999999
-  },
-  "170 Elizabeth St, New York, NY 10012": {
-    "lat": 40.7209471,
-    "lng": -73.99468159999999
-  },
-  "131 W 3rd St, New York, NY 10012": {
-    "lat": 40.7309083,
-    "lng": -74.0006557
-  },
-  "1293 Lexington Ave, New York, NY 10128": {
-    "lat": 40.7802464,
-    "lng": -73.9548496
-  },
-  "53 W 19th St, New York, NY 10011": {
-    "lat": 40.7402671,
-    "lng": -73.9937391
-  },
-  "260 W 40th St, New York, NY 10018": {
-    "lat": 40.7554316,
-    "lng": -73.9900633
-  },
-  "124 E 27th St, New York, NY 10016": {
-    "lat": 40.74212199999999,
-    "lng": -73.98357639999999
-  },
-  "47 E Houston St, New York, NY 10012": {
-    "lat": 40.7246192,
-    "lng": -73.99476779999999
-  },
-  "99 7th Ave S, New York, NY 10014": {
-    "lat": 40.733047,
-    "lng": -74.0028772
-  },
-  "6 E 42nd St, New York, NY 10017": {
-    "lat": 40.7532198,
-    "lng": -73.980764
-  },
-  "877 8th Ave, New York, NY 10019": {
-    "lat": 40.7638811,
-    "lng": -73.9852942
-  },
-  "1080 - 1090 6th Ave, New York, NY 10036": {
-    "lat": 40.7545688,
-    "lng": -73.984036
-  },
-  "52 W 33rd St, New York, NY 10001": {
-    "lat": 40.7486859,
-    "lng": -73.9875332
-  },
-  "513 E 6th St, New York, NY 10009": {
-    "lat": 40.72535389999999,
-    "lng": -73.9830167
-  },
-  "120 Mulberry St, New York, NY 10013": {
-    "lat": 40.7177353,
-    "lng": -73.9979123
-  },
-  "42 Grove St, New York, NY 10014": {
-    "lat": 40.7326259,
-    "lng": -74.00432839999999
-  },
-  "125 W 43rd St, New York, NY 10036": {
-    "lat": 40.7561809,
-    "lng": -73.98462479999999
-  },
-  "5 Bleecker St, New York, NY 10012": {
-    "lat": 40.7255118,
-    "lng": -73.99269149999999
-  },
-  "59 W 37th St, New York, NY 10018": {
-    "lat": 40.7517544,
-    "lng": -73.98568879999999
-  },
-  "242 Mott St, New York, NY 10012": {
-    "lat": 40.7231566,
-    "lng": -73.9947334
-  },
-  "17 Prince St, New York, NY 10012": {
-    "lat": 40.722933,
-    "lng": -73.994193
-  },
-  "101 St Marks Pl, New York, NY 10009": {
-    "lat": 40.727439,
-    "lng": -73.9843281
-  },
-  "424 Amsterdam Ave, New York, NY 10024": {
-    "lat": 40.7841697,
-    "lng": -73.97792849999999
-  },
-  "15 Vanderbilt Ave, New York, NY 10017": {
-    "lat": 40.75264019999999,
-    "lng": -73.9777917
-  },
-  "156 W 56th St, New York City, NY 10019-3800": {
-    "lat": 40.7643121,
-    "lng": -73.9796886
-  },
-  "200 W 41st St, New York City, NY 10036": {
-    "lat": 40.7553548,
-    "lng": -73.98789649999999
-  },
-  "1016 2nd Ave, New York, NY 10022": {
-    "lat": 40.7565616,
-    "lng": -73.9661194
-  },
-  "94 Chambers St #1, New York, NY 10007": {
-    "lat": 40.7145903,
-    "lng": -74.0075468
-  },
-  "5 King St, New York, NY 10012": {
-    "lat": 40.7277841,
-    "lng": -74.00285939999999
-  },
-  "62 E 34th St, New York, NY 10016": {
-    "lat": 40.7471646,
-    "lng": -73.98212240000001
-  },
-  "368 W 23rd St, New York, NY 10011": {
-    "lat": 40.7462101,
-    "lng": -74.0012555
-  },
-  "492 9th Ave, New York, NY 10018": {
-    "lat": 40.7554594,
-    "lng": -73.9944725
-  },
-  "415 3rd Ave, New York, NY 10016": {
-    "lat": 40.7425885,
-    "lng": -73.9800928
-  },
-  "55 W 35th St, New York, NY 10001": {
-    "lat": 40.7502469,
-    "lng": -73.986246
-  },
-  "115 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7424531,
-    "lng": -73.98226509999999
-  },
-  "45 E 28th St, New York, NY 10016": {
-    "lat": 40.7436309,
-    "lng": -73.9844164
-  },
-  "362 2nd Ave, New York, NY 10010": {
-    "lat": 40.73668079999999,
-    "lng": -73.9815635
-  },
-  "1 Bleecker St, New York, NY 10012": {
-    "lat": 40.7254247,
-    "lng": -73.9924838
-  },
-  "23 Lexington Ave, Freehand Hotel, New York City, NY 10010-3727": {
-    "lat": 40.7397388,
-    "lng": -73.9843389
-  },
-  "600 11th Ave, at 45th Street, New York City, NY 10036-2102": {
-    "lat": 40.7623433,
-    "lng": -73.9967631
-  },
-  "108 W 40th St, New York, NY 10018": {
-    "lat": 40.7536651,
-    "lng": -73.9858266
-  },
-  "119 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7426842,
-    "lng": -73.98223569999999
-  },
-  "103 E 19th St, New York, NY 10003": {
-    "lat": 40.7376631,
-    "lng": -73.9876085
-  },
-  "375 Amsterdam Ave, New York, NY 10024": {
-    "lat": 40.782244,
-    "lng": -73.9786351
-  },
-  "101 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7420854,
-    "lng": -73.9825255
-  },
-  "1633 Broadway, New York, NY 10022": {
-    "lat": 40.7620022,
-    "lng": -73.98420999999999
-  },
-  "10 Columbus Cir, New York, NY 10019": {
-    "lat": 40.7685526,
-    "lng": -73.9831866
-  },
-  "17 E 27th St, New York, NY 10016": {
-    "lat": 40.7437775,
-    "lng": -73.9865172
-  },
-  "343 W 46th St, New York, NY 10036": {
-    "lat": 40.76063370000001,
-    "lng": -73.9894851
-  },
-  "14 Avenue A, New York, NY 10009": {
-    "lat": 40.722516,
-    "lng": -73.98574099999999
-  },
-  "99 St Marks Pl, New York, NY 10009": {
-    "lat": 40.7274614,
-    "lng": -73.9844641
-  },
-  "200 5th Ave, New York, NY 10010": {
-    "lat": 40.7419668,
-    "lng": -73.9895296
-  },
-  "200 Mott St, New York, NY 10012": {
-    "lat": 40.72120049999999,
-    "lng": -73.99539330000002
-  },
-  "108 W 32nd St New York, NY 10001": {
-    "lat": 40.7486316,
-    "lng": -73.9895501
-  },
-  "324 1st Ave., New York, NY 10009": {
-    "lat": 40.7342604,
-    "lng": -73.98004019999999
-  },
-  "1616 George St, Queens, NY 11385": {
-    "lat": 40.6962278,
-    "lng": -73.904108
-  },
-  "209 W Houston St, New York, NY 10014": {
-    "lat": 40.728379,
-    "lng": -74.0043348
-  },
-  "55 Bond St, New York, NY 10012": {
-    "lat": 40.7256763,
-    "lng": -73.99268219999999
-  },
-  "111 South St, New York, NY 10038": {
-    "lat": 40.7071602,
-    "lng": -74.0019062
-  },
-  "54 Pearl St, New York, NY 10004": {
-    "lat": 40.7033808,
-    "lng": -74.01135219999999
-  },
-  "132 W 31st St, New York, NY 10001": {
-    "lat": 40.7485018,
-    "lng": -73.9906963
-  },
-  "77 Irving Pl, New York, NY 10003": {
-    "lat": 40.7369089,
-    "lng": -73.98684159999999
-  },
-  "425 3rd Ave, New York, NY 10016": {
-    "lat": 40.742857,
-    "lng": -73.9800054
-  },
-  "149 West 4th Street # 2, New York, NY 10012": {
-    "lat": 40.7316328,
-    "lng": -74.0004759
-  },
-  "57 Stone St, New York, NY 10004": {
-    "lat": 40.70452,
-    "lng": -74.0102668
-  },
-  "89 E. 42nd Street, New York, NY 10017": {
-    "lat": 40.7527277,
-    "lng": -73.97723529999999
-  },
-  "43 W 26th St, New York, NY 10010": {
-    "lat": 40.7446069,
-    "lng": -73.9906322
-  },
-  "200 E 30th St, New York, NY 10016": {
-    "lat": 40.7429159,
-    "lng": -73.9796796
-  },
-  "135 W 50th St New York, NY 10020": {
-    "lat": 40.7610525,
-    "lng": -73.9824613
-  },
-  "56 E 34th St, New York, NY 10016": {
-    "lat": 40.7472167,
-    "lng": -73.9822463
-  },
-  "155 W Houston St, New York, NY 10012": {
-    "lat": 40.7280142,
-    "lng": -74.00257669999999
-  },
-  "1 Hanover Square, New York, NY 10004": {
-    "lat": 40.7046211,
-    "lng": -74.0097455
-  },
-  "109 E 22nd St, New York, NY 10010": {
-    "lat": 40.7395356,
-    "lng": -73.9863884
-  },
-  "403 E 12th St, New York, NY 10009": {
-    "lat": 40.7300263,
-    "lng": -73.9831883
-  },
-  "48 9th Ave, New York, NY 10011": {
-    "lat": 40.7411128,
-    "lng": -74.0048746
-  },
-  "8 W 40th St, New York, NY 10018": {
-    "lat": 40.7522652,
-    "lng": -73.9826166
-  },
-  "30 W 26th St, New York, NY 10010": {
-    "lat": 40.7442648,
-    "lng": -73.9903597
-  },
-  "37 W 24th St, New York, NY 10010": {
-    "lat": 40.74328209999999,
-    "lng": -73.9910274
-  },
-  "334 Lexington Ave, New York, NY 10016": {
-    "lat": 40.749723,
-    "lng": -73.9775349
-  },
-  "636 Hudson St, New York, NY 10014": {
-    "lat": 40.7385812,
-    "lng": -74.0053039
-  },
-  "1030 Amsterdam Ave, New York, NY 10025": {
-    "lat": 40.8035598,
-    "lng": -73.9639459
-  },
-  "77 Irving Pl Cafe, New York, NY 10003": {
-    "lat": 40.7369089,
-    "lng": -73.98684159999999
-  },
-  "331 W Broadway, New York, NY 10013": {
-    "lat": 40.7221361,
-    "lng": -74.00382019999999
-  },
-  "578 9th Ave, New York, NY 10036": {
-    "lat": 40.758197,
-    "lng": -73.9925523
-  },
-  "38 W 26th St, New York, NY 10010": {
-    "lat": 40.7442721,
-    "lng": -73.9907621
-  },
-  "140 E 27th St, New York, NY 10016": {
-    "lat": 40.7416021,
-    "lng": -73.9825436
-  },
-  "226 Lafayette St, New York, NY 10012": {
-    "lat": 40.7222538,
-    "lng": -73.9974579
-  },
-  "1158 Broadway 5th floor, New York, NY 10001": {
-    "lat": 40.7445736,
-    "lng": -73.98863109999999
-  },
-  "140 W 44th St, New York City, NY 10036-4046": {
-    "lat": 40.7565989,
-    "lng": -73.98484340000002
-  },
-  "124 W 25th St, New York, NY 10001": {
-    "lat": 40.7445723,
-    "lng": -73.9929836
-  },
-  "520 E 6th St, New York, NY 10009": {
-    "lat": 40.7248339,
-    "lng": -73.9829455
-  },
-  "159 W 10th St, New York, NY 10014": {
-    "lat": 40.7345329,
-    "lng": -74.0017116
-  },
-  "1070 2nd Ave, New York, NY 10022": {
-    "lat": 40.75872,
-    "lng": -73.965369
-  },
-  "386 Flatbush Ave Ext, Brooklyn, NY 11201": {
-    "lat": 40.6901486,
-    "lng": -73.9818793
-  },
-  "1412 Broadway, New York, NY 10018": {
-    "lat": 40.753615,
-    "lng": -73.9865612
-  },
-  "478 9th Ave, New York, NY 10018": {
-    "lat": 40.75499,
-    "lng": -73.9948704
-  },
-  "205 E Houston St, New York, NY 10002": {
-    "lat": 40.7221844,
-    "lng": -73.98746670000001
-  },
-  "72 West 36th Street, New York City, NY 10018-8025": {
-    "lat": 40.7506178,
-    "lng": -73.9865212
-  },
-  "129 W 56th St, New York, NY 10019": {
-    "lat": 40.7644317,
-    "lng": -73.9789821
-  },
-  "Two E 55th St, New York, NY 10022": {
-    "lat": 40.758719,
-    "lng": -73.9678999
-  },
-  "1027 Flatbush Ave, Brooklyn, NY 11226": {
-    "lat": 40.6459265,
-    "lng": -73.9578191
-  },
-  "570 2nd Ave, New York, NY 10016": {
-    "lat": 40.7428738,
-    "lng": -73.9768627
-  },
-  "610 8th Ave, New York, NY 10018": {
-    "lat": 40.7555531,
-    "lng": -73.9906529
-  },
-  "28 Eighth Ave, New York, NY 10014, United States": {
-    "lat": 40.7377602,
-    "lng": -74.0043464
-  },
-  "145 W 53rd St, New York, NY 10019": {
-    "lat": 40.7630013,
-    "lng": -73.9802753
-  },
-  "132 W 44th St New York, NY 10036": {
-    "lat": 40.7565111,
-    "lng": -73.9846401
-  },
-  "227 Centre St, New York, NY 10013": {
-    "lat": 40.7200169,
-    "lng": -73.9985671
-  },
-  "1099 2nd Ave, New York, NY 10022": {
-    "lat": 40.7599439,
-    "lng": -73.96513259999999
-  },
-  "154 E 33rd St, New York, NY 10016": {
-    "lat": 40.7452905,
-    "lng": -73.9794651
-  },
-  "20 E 60th St New York, NY 10022": {
-    "lat": 40.7639519,
-    "lng": -73.9705449
-  },
-  "37 Canal St, New York, NY 10002": {
-    "lat": 40.71476,
-    "lng": -73.99094339999999
-  },
-  "3 Hanover Square, New York, NY 10004": {
-    "lat": 40.7048233,
-    "lng": -74.00910449999999
-  },
-  "108 W 74th St New York, NY 10023": {
-    "lat": 40.7787684,
-    "lng": -73.978385
-  },
-  "260 W 35th St, New York City, NY 10001-2503": {
-    "lat": 40.75248970000001,
-    "lng": -73.992538
-  },
-  "550 3rd Ave, New York City, NY 10016-3538": {
-    "lat": 40.7474242,
-    "lng": -73.97723119999999
-  },
-  "111 W 40th St, New York, NY 10018": {
-    "lat": 40.7543899,
-    "lng": -73.98644639999999
-  },
-  "20 7th Ave S, New York, NY 10014": {
-    "lat": 40.73056690000001,
-    "lng": -74.00468169999999
-  },
-  "55 W 45th St, New York, NY 10036": {
-    "lat": 40.7564841,
-    "lng": -73.98147039999999
-  },
-  "62 W 48th St, New York, NY 10036": {
-    "lat": 40.7581141,
-    "lng": -73.98068219999999
-  },
-  "671 8th Ave, New York, NY 10036": {
-    "lat": 40.7577517,
-    "lng": -73.9897893
-  },
-  "222 W. 23rd Street, New York, NY": {
-    "lat": 40.744479,
-    "lng": -73.9968973
-  },
-  "229 W 43rd St, New York, NY": {
-    "lat": 40.7575024,
-    "lng": -73.9873721
-  },
-  "642 9th Ave, New York, NY 10036": {
-    "lat": 40.7603697,
-    "lng": -73.9909505
-  },
-  "73 E 19th St, New York, NY 10003": {
-    "lat": 40.7380018,
-    "lng": -73.98828449999999
-  },
-  "156 E 33rd St, New York, NY 10016": {
-    "lat": 40.7452646,
-    "lng": -73.9794045
-  },
-  "311 Church St, New York, NY 10013": {
-    "lat": 40.7196312,
-    "lng": -74.0039152
-  },
-  "122 MacDougal St, New York, NY 10012": {
-    "lat": 40.7298668,
-    "lng": -74.0003198
-  },
-  "35 W 8th St, New York, NY 10011": {
-    "lat": 40.7331526,
-    "lng": -73.99806219999999
-  },
-  "512 7th Ave, New York, NY 10018": {
-    "lat": 40.75319,
-    "lng": -73.9889371
-  },
-  "28 Liberty St 60th floor, New York, NY 10005": {
-    "lat": 40.7079257,
-    "lng": -74.0089318
-  },
-  "40 Central Park S.": {
-    "lat": 40.7650765,
-    "lng": -73.975516
-  },
-  "136 W 46th St, New York, NY 10036": {
-    "lat": 40.757875,
-    "lng": -73.9839825
-  },
-  "171 W 29th St New York, NY 10001": {
-    "lat": 40.7478469,
-    "lng": -73.9925686
-  },
-  "121 E 17th St, New York, NY 10003": {
-    "lat": 40.7361286,
-    "lng": -73.9876467
-  },
-  "15 E 7th St, New York, NY 10003": {
-    "lat": 40.7288115,
-    "lng": -73.9896832
-  },
-  "10 Hudson Yards, New York, NY 10001": {
-    "lat": 40.7526964,
-    "lng": -74.0011033
-  },
-  "1125 1st Ave., New York, NY 10065": {
-    "lat": 40.7614741,
-    "lng": -73.9611074
-  },
-  "7 Ludlow St, New York, NY 10002": {
-    "lat": 40.7151142,
-    "lng": -73.9911829
-  },
-  "24 W 55th St, New York, NY 10019": {
-    "lat": 40.7620797,
-    "lng": -73.97644380000001
-  },
-  "44 E 32nd St, New York, NY 10016": {
-    "lat": 40.7458692,
-    "lng": -73.9829669
-  },
-  "601 Lexington Ave, New York, NY 10022": {
-    "lat": 40.7583546,
-    "lng": -73.9699827
-  },
-  "1410 Broadway, New York, NY 10018": {
-    "lat": 40.7533723,
-    "lng": -73.98697539999999
-  },
-  "224 Avenue B Unit 14, New York, NY 10009": {
-    "lat": 40.7291995,
-    "lng": -73.97848789999999
-  },
-  "250 E 58th St, New York, NY 10022": {
-    "lat": 40.7600557,
-    "lng": -73.9651882
-  },
-  "W 112th St and Manhattan Ave New York, NY 10026": {
-    "lat": 40.8024713,
-    "lng": -73.9587141
-  },
-  "222 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7460816,
-    "lng": -73.9803616
-  },
-  "1310 Surf Ave, Brooklyn, NY 11224": {
-    "lat": 40.57529450000001,
-    "lng": -73.9814419
-  },
-  "1400 Broadway, New York, NY 10018": {
-    "lat": 40.7530157,
-    "lng": -73.9870633
-  },
-  "413 8th Ave, New York, NY 10001": {
-    "lat": 40.7501778,
-    "lng": -73.99527379999999
-  },
-  "333 Douglass St, Brooklyn, NY 11217": {
-    "lat": 40.6797432,
-    "lng": -73.9822062
-  },
-  "438 3rd Ave, New York, NY 10016": {
-    "lat": 40.7435872,
-    "lng": -73.97999109999999
-  },
-  "390 3rd Ave, New York, NY 10016": {
-    "lat": 40.741977,
-    "lng": -73.9811015
-  },
-  "647 9th Ave, New York City, NY 10036-3661": {
-    "lat": 40.760659,
-    "lng": -73.9913333
-  },
-  "45 E 18th St, New York, NY 10003": {
-    "lat": 40.7375717,
-    "lng": -73.9892162
-  },
-  "5 W 31st St #8, New York, NY 10001": {
-    "lat": 40.7469611,
-    "lng": -73.98640929999999
-  },
-  "45 W 27th St, New York, NY 10001": {
-    "lat": 40.7451715,
-    "lng": -73.9900275
-  },
-  "142 W 44th St New York, NY 10036": {
-    "lat": 40.7566272,
-    "lng": -73.98491369999999
-  },
-  "455 Hudson St, New York, NY 10014": {
-    "lat": 40.7313554,
-    "lng": -74.00684439999999
-  },
-  "70 Pine St 64th Floor, New York, NY 10005": {
-    "lat": 40.7065047,
-    "lng": -74.00777149999999
-  },
-  "135 W 50th St, New York, NY 10020": {
-    "lat": 40.7610525,
-    "lng": -73.9824613
-  },
-  "163 E 33rd St, New York, NY 10016": {
-    "lat": 40.7454586,
-    "lng": -73.97912529999999
-  },
-  "99 Park Ave, New York, NY 10016": {
-    "lat": 40.7504946,
-    "lng": -73.9784316
-  },
-  "231 W 46th St, New York, NY 10036": {
-    "lat": 40.7594789,
-    "lng": -73.9867615
-  },
-  "301 Park Ave, New York, NY 10022": {
-    "lat": 40.7564821,
-    "lng": -73.97341329999999
-  },
-  "145 Bleecker St, New York, NY 10012": {
-    "lat": 40.7284357,
-    "lng": -73.99903730000001
-  },
-  "66 W 39th St, New York, NY 10018": {
-    "lat": 40.75261709999999,
-    "lng": -73.9851723
-  },
-  "Inside Greeley Square Park, 97 W 32nd St, New York, NY 10001": {
-    "lat": 40.7487058,
-    "lng": -73.9883382
-  },
-  "210 W 55th St, New York, NY 10019": {
-    "lat": 40.76440230000001,
-    "lng": -73.9819469
-  },
-  "31 W 46th St, New York, NY 10036": {
-    "lat": 40.7567881,
-    "lng": -73.98023490000001
-  },
-  "27 W 35th St, New York, NY 10018": {
-    "lat": 40.749843,
-    "lng": -73.9853837
-  },
-  "110 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7424779,
-    "lng": -73.9827959
-  },
-  "301 W 57th St Ground floor, New York, NY 10019": {
-    "lat": 40.7670953,
-    "lng": -73.98307989999999
-  },
-  "271 11th Ave, New York, NY 10001": {
-    "lat": 40.75188989999999,
-    "lng": -74.00510059999999
-  },
-  "27 Prince St A, New York, NY 10012": {
-    "lat": 40.723088,
-    "lng": -73.99452529999999
-  },
-  "215 W 40th St, New York, NY 10018": {
-    "lat": 40.7553432,
-    "lng": -73.98863109999999
-  },
-  "81 Hudson St, New York, NY 10013": {
-    "lat": 40.7185494,
-    "lng": -74.00911260000001
-  },
-  "82-84 Broadway Elmhurst, NY 11373": {
-    "lat": 40.74113810000001,
-    "lng": -73.8813581
-  },
-  "48 W 17th St": {
-    "lat": 40.66045769999999,
-    "lng": -74.1239076
-  },
-  "2017 Emmons Ave, Brooklyn, NY 11235": {
-    "lat": 40.5839855,
-    "lng": -73.94763400000001
-  },
-  "158 8th Ave, New York, NY 10011": {
-    "lat": 40.7420181,
-    "lng": -74.00060789999999
-  },
-  "853 Onderdonk Ave, Queens, NY 11385": {
-    "lat": 40.7019459,
-    "lng": -73.90350029999999
-  },
-  "489 3rd Ave, New York, NY 10016": {
-    "lat": 40.7450621,
-    "lng": -73.978273
-  },
-  "1385 Broadway, New York, NY 10018": {
-    "lat": 40.7526152,
-    "lng": -73.9875699
-  },
-  "627 9th Ave, Between 44th And 45th, New York City, NY 10036": {
-    "lat": 40.7600262,
-    "lng": -73.9917899
-  },
-  "228 W 47th St, New York, NY 10036": {
-    "lat": 40.7596507,
-    "lng": -73.9862204
-  },
-  "502 W 34th St., New York, NY 10001": {
-    "lat": 40.7544987,
-    "lng": -73.9995268
-  },
-  "127 Orchard St | NYC 10002": {
-    "lat": 40.71971509999999,
-    "lng": -73.9898074
-  },
-  "179 E Houston St,  New York, NY": {
-    "lat": 40.7225307,
-    "lng": -73.9883282
-  },
-  "104 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7423152,
-    "lng": -73.98298059999999
-  },
-  "129 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7428737,
-    "lng": -73.98203360000001
-  },
-  "234 W 44th St #808, New York, NY 10036": {
-    "lat": 40.7578047,
-    "lng": -73.9876152
-  },
-  "548 3rd Ave, New York, NY 10016": {
-    "lat": 40.7473605,
-    "lng": -73.977255
-  },
-  "212 Washington St, Jersey City, NJ 07302": {
-    "lat": 40.7143841,
-    "lng": -74.0375846
-  },
-  "58 Park Ave, New York, NY 10016": {
-    "lat": 40.749454,
-    "lng": -73.980048
-  },
-  "109 Washington St, New York, NY 10006": {
-    "lat": 40.7085849,
-    "lng": -74.0140262
-  },
-  "33 E 61st St": {
-    "lat": 40.7647613,
-    "lng": -73.9698154
-  },
-  "456 9th Ave New York, NY 10018": {
-    "lat": 40.7542202,
-    "lng": -73.99532839999999
-  },
-  "273 W 38th St, New York, NY 10018": {
-    "lat": 40.7546846,
-    "lng": -73.99110639999999
-  },
-  "648 Prospect Ave, West Orange, NJ 07052": {
-    "lat": 40.7794203,
-    "lng": -74.2612596
-  },
-  "259 W 19th St, New York, NY 10011": {
-    "lat": 40.7426877,
-    "lng": -73.9995394
-  },
-  "300 W 44th St, New York, NY 10036": {
-    "lat": 40.7585997,
-    "lng": -73.9894116
-  },
-  "630 Bedford Rd, Tarrytown, NY 10591": {
-    "lat": 41.1040723,
-    "lng": -73.8289592
-  },
-  "133 W 33rd St, New York, NY 10001": {
-    "lat": 40.749973,
-    "lng": -73.98987009999999
-  },
-  "828 Broadway, New York, NY 10003": {
-    "lat": 40.7332185,
-    "lng": -73.9906822
-  },
-  "1154 2nd Ave #8504, New York, NY 10065": {
-    "lat": 40.7615776,
-    "lng": -73.9633396
-  },
-  "21 W 39th St New York, NY 10018": {
-    "lat": 40.7523744,
-    "lng": -73.9835309
-  },
-  "377 Amsterdam Ave, New York, NY 10024": {
-    "lat": 40.7826187,
-    "lng": -73.97846030000001
-  },
-  "226 Front St, New York, NY 10038": {
-    "lat": 40.7077386,
-    "lng": -74.00224709999999
-  },
-  "1372 Broadway, New York, NY 10018": {
-    "lat": 40.7523725,
-    "lng": -73.9871436
-  },
-  "357 1st Ave., New York, NY 10010": {
-    "lat": 40.7355662,
-    "lng": -73.9797542
-  },
-  "253 W 11th St New York, NY 10014": {
-    "lat": 40.7363901,
-    "lng": -74.0034518
-  },
-  "W 67th St, New York, NY 10023": {
-    "lat": 40.7747354,
-    "lng": -73.9823119
-  },
-  "144 W 37th St, New York, NY 10018": {
-    "lat": 40.7524546,
-    "lng": -73.988719
-  },
-  "159 E 55th St, New York, NY 10022": {
-    "lat": 40.75928890000001,
-    "lng": -73.9687818
-  },
-  "149 Bleecker St, New York, NY 10012": {
-    "lat": 40.7284984,
-    "lng": -73.9991726
-  },
-  "24 Harrison St, New York, NY 10013": {
-    "lat": 40.7189062,
-    "lng": -74.0099419
-  },
-  "55 Stone St, New York, NY 10004": {
-    "lat": 40.7044435,
-    "lng": -74.0103646
-  },
-  "7 West 43rd Street, near Fifth Avenue, Midtown Manhattan, New York City": {
-    "lat": 40.7546304,
-    "lng": -73.9810342
-  },
-  "131 Sullivan St, New York, NY 10012": {
-    "lat": 40.7265479,
-    "lng": -74.0021666
-  },
-  "242 W 16th St, New York, NY 10011": {
-    "lat": 40.7404766,
-    "lng": -74.0008466
-  },
-  "99 E 52nd St, New York, NY 10022": {
-    "lat": 40.7583245,
-    "lng": -73.97187269999999
-  },
-  "1271 Broadway New York, NY 10001": {
-    "lat": 40.7482483,
-    "lng": -73.9884671
-  },
-  "157 E 53rd St, New York, NY 10022": {
-    "lat": 40.7580782,
-    "lng": -73.9700009
-  },
-  "1634 York Ave, New York, NY 10028": {
-    "lat": 40.7759621,
-    "lng": -73.9467767
-  },
-  "265 Elizabeth St, New York, NY 10012": {
-    "lat": 40.72392869999999,
-    "lng": -73.9938299
-  },
-  "250 Fifth Avenue, New York City, NY 10001": {
-    "lat": 40.7448746,
-    "lng": -73.98737109999999
-  },
-  "102 Bayard St, New York, NY 10013": {
-    "lat": 40.7162093,
-    "lng": -73.9996973
-  },
-  "3406 73rd St, Jackson Heights, NY 11372": {
-    "lat": 40.7522567,
-    "lng": -73.8935351
-  },
-  "75-26 37th Ave, Queens, NY 11372": {
-    "lat": 40.7489812,
-    "lng": -73.8901401
-  },
-  "138 Valley Rd, Montclair, NJ 07042": {
-    "lat": 40.8225034,
-    "lng": -74.2198032
-  },
-  "96 South St, New York, NY 10038": {
-    "lat": 40.70619500000001,
-    "lng": -74.00226909999999
-  },
-  "940 3rd Ave, New York, NY 10022": {
-    "lat": 40.7599776,
-    "lng": -73.9680769
-  },
-  "288 Elizabeth St, New York, NY 10012": {
-    "lat": 40.7245458,
-    "lng": -73.9930985
-  },
-  "184 2nd Ave, New York, NY 10003": {
-    "lat": 40.7306424,
-    "lng": -73.9857669
-  },
-  "55 Carmine St, New York, NY 10014": {
-    "lat": 40.7299671,
-    "lng": -74.0042673
-  },
-  "271 W 23 St, New York, NY 10011": {
-    "lat": 40.74532749999999,
-    "lng": -73.9978245
-  },
-  "301 South End Ave, New York, NY 10280": {
-    "lat": 40.7103436,
-    "lng": -74.016542
-  },
-  "132 E 28th St, New York, NY 10016": {
-    "lat": 40.7422985,
-    "lng": -73.9822788
-  },
-  "119 E 27th St, New York, NY 10016": {
-    "lat": 40.7425105,
-    "lng": -73.9836198
-  },
-  "4 W 28th St, New York, NY 10001": {
-    "lat": 40.744774,
-    "lng": -73.9880094
-  },
-  "152a 2nd Ave, Ste A, New York City, NY 10003": {
-    "lat": 40.7293472,
-    "lng": -73.9866141
-  },
-  "58 Stone St, New York, NY 10004": {
-    "lat": 40.7044541,
-    "lng": -74.0100116
-  },
-  "101 E 19th St, New York City, NY 10003-3104": {
-    "lat": 40.7377702,
-    "lng": -73.9878767
-  },
-  "14 E 37th St, New York, NY 10016": {
-    "lat": 40.7497671,
-    "lng": -73.9822757
-  },
-  "598 8th Ave, New York, NY 10018": {
-    "lat": 40.7551355,
-    "lng": -73.9910487
-  },
-  "120 E 34th St, New York, NY 10016": {
-    "lat": 40.7463656,
-    "lng": -73.9803215
-  },
-  "234 E 4th St New York, NY 1000": {
-    "lat": 40.7233621,
-    "lng": -73.9831177
-  },
-  "144 2nd Avenue, at East 9th St., New York City, NY 10003": {
-    "lat": 40.7289226,
-    "lng": -73.98692849999999
-  },
-  "178 Lexington Ave, New York, NY 10016": {
-    "lat": 40.7445147,
-    "lng": -73.98142469999999
-  },
-  "181-189 2nd Ave, New York, NY 10003": {
-    "lat": 40.73095550000001,
-    "lng": -73.98621170000001
-  },
-  "178 7th Ave S New York, NY 10014": {
-    "lat": 40.7360334,
-    "lng": -74.0016548
-  },
-  "1140 Broadway, New York, NY 10001": {
-    "lat": 40.74336720000001,
-    "lng": -73.98896760000001
-  },
-  "192 7th Ave S, New York, NY 10014": {
-    "lat": 40.7363455,
-    "lng": -74.0015123
-  },
-  "3 Bleecker St, New York, NY 10012": {
-    "lat": 40.7254936,
-    "lng": -73.9926188
-  },
-  "210 5th Avenue at, W 26th St, New York, NY 10010": {
-    "lat": 40.7433574,
-    "lng": -73.98877110000001
-  },
-  "16 N Moore St, New York, NY 10013": {
-    "lat": 40.7196857,
-    "lng": -74.007032
-  },
-  "385 6th Ave, New York, NY 10014": {
-    "lat": 40.7331111,
-    "lng": -74.00017009999999
-  },
-  "96 8th Ave, New York, NY 10011": {
-    "lat": 40.7401615,
-    "lng": -74.0019196
-  },
-  "24 W 45th St, New York City, NY 10036-4205": {
-    "lat": 40.755764,
-    "lng": -73.9808335
-  },
-  "2245 Broadway, New York, NY 10024": {
-    "lat": 40.7849102,
-    "lng": -73.97962079999999
-  },
-  "1065 6th Ave, New York, NY 10018": {
-    "lat": 40.754043,
-    "lng": -73.985355
-  },
-  "125 Fulton St, New York, NY 10038": {
-    "lat": 40.7102112,
-    "lng": -74.007182
-  },
-  "370 Lexington Ave, New York, NY 10017": {
-    "lat": 40.7507644,
-    "lng": -73.9767968
-  },
-  "340 3rd Ave, New York, NY 10010": {
-    "lat": 40.7403718,
-    "lng": -73.9822989
-  },
-  "125 East 11th Street, New York, NY 10003": {
-    "lat": 40.7317691,
-    "lng": -73.98911389999999
-  },
-  "55 Irving Place, New York, NY 10003": {
-    "lat": 40.7362117,
-    "lng": -73.98745439999999
-  },
-  "84 East 10th Street, New York, NY 10003": {
-    "lat": 40.7308683,
-    "lng": -73.9899468
-  }
+	"25 Avenue A, New York, NY 10009": {
+		"lat": 40.7230015,
+		"lng": -73.9860613
+	},
+	"162 E 33rd St, New York, NY 10016": {
+		"lat": 40.7451359,
+		"lng": -73.9792289
+	},
+	"363 3rd Ave, New York, NY 10016": {
+		"lat": 40.7407645,
+		"lng": -73.98114670000001
+	},
+	"59 W 44th St, New York, NY 10036": {
+		"lat": 40.756008,
+		"lng": -73.9822798
+	},
+	"1450 Broadway, New York, NY 10018": {
+		"lat": 40.754691,
+		"lng": -73.9863611
+	},
+	"18 W Houston St, New York, NY 10012": {
+		"lat": 40.7259146,
+		"lng": -73.9972615
+	},
+	"1050 6th Ave, New York, NY 10018": {
+		"lat": 40.753166,
+		"lng": -73.98500729999999
+	},
+	"106 W Houston St, New York, NY 10012": {
+		"lat": 40.7274407,
+		"lng": -74.00036879999999
+	},
+	"110 Waverly Pl, New York, NY 10011": {
+		"lat": 40.732292,
+		"lng": -73.9992887
+	},
+	"116 E 28th St, New York, NY 10016": {
+		"lat": 40.7427995,
+		"lng": -73.983339
+	},
+	"544 3rd Ave, New York, NY 10016": {
+		"lat": 40.7472618,
+		"lng": -73.9773273
+	},
+	"875 10th Ave, New York, NY 10019": {
+		"lat": 40.7693748,
+		"lng": -73.988709
+	},
+	"202 Mott St, New York, NY 10012": {
+		"lat": 40.7214012,
+		"lng": -73.9953814
+	},
+	"431 3rd Ave, New York, NY 10016": {
+		"lat": 40.7432415,
+		"lng": -73.97964929999999
+	},
+	"214 W 39th St Retail 101, New York, NY 10018": {
+		"lat": 40.75433080000001,
+		"lng": -73.9892929
+	},
+	"610 Lexington Ave 2nd floor, New York, NY 10022": {
+		"lat": 40.7583107,
+		"lng": -73.9713452
+	},
+	"324 W 46th St, New York, NY 10036": {
+		"lat": 40.760072,
+		"lng": -73.98903779999999
+	},
+	"125 E 17th St, New York, NY 10003": {
+		"lat": 40.7358627,
+		"lng": -73.9870171
+	},
+	"128 W Houston St, New York, NY 10012": {
+		"lat": 40.72787,
+		"lng": -74.00106699999999
+	},
+	"43 W 32nd St, New York, NY 10001": {
+		"lat": 40.7481818,
+		"lng": -73.98747639999999
+	},
+	"126 Pearl St, New York, NY 10005": {
+		"lat": 40.7047611,
+		"lng": -74.0085519
+	},
+	"816 6th Ave, New York, NY 10001": {
+		"lat": 40.74607109999999,
+		"lng": -73.9902233
+	},
+	"822 6th Ave, New York, NY 10001": {
+		"lat": 40.7461702,
+		"lng": -73.9899779
+	},
+	"67 Irving Place, New York, NY": {
+		"lat": 40.7367235,
+		"lng": -73.9870297
+	},
+	"92 Beekman Ave, Sleepy Hollow, NY 10591": {
+		"lat": 41.0840944,
+		"lng": -73.8622847
+	},
+	"328 W 45th St, New York, NY 10036": {
+		"lat": 40.7595062,
+		"lng": -73.98972909999999
+	},
+	"225 W 35th St A, New York, NY 10001": {
+		"lat": 40.7522252,
+		"lng": -73.99110990000001
+	},
+	"100 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7422279,
+		"lng": -73.9830928
+	},
+	"332 9th Ave, New York, NY 10001": {
+		"lat": 40.7502716,
+		"lng": -73.9983182
+	},
+	"315 W 44th St #5402, New York, NY 10036": {
+		"lat": 40.7590167,
+		"lng": -73.9896861
+	},
+	"884 6th Ave, New York, NY 10001": {
+		"lat": 40.7481123,
+		"lng": -73.9887048
+	},
+	"555 8th Ave, New York, NY 10018": {
+		"lat": 40.7545977,
+		"lng": -73.99193819999999
+	},
+	"60 W 56th St, New York, NY 10019": {
+		"lat": 40.7633386,
+		"lng": -73.97709139999999
+	},
+	"225 Liberty St, New York, NY 10080": {
+		"lat": 40.7123948,
+		"lng": -74.01693709999999
+	},
+	"1188 Broadway, New York, NY 10001": {
+		"lat": 40.74573030000001,
+		"lng": -73.98845179999999
+	},
+	"170 Elizabeth St, New York, NY 10012": {
+		"lat": 40.7209471,
+		"lng": -73.99468159999999
+	},
+	"131 W 3rd St, New York, NY 10012": {
+		"lat": 40.7309083,
+		"lng": -74.0006557
+	},
+	"1293 Lexington Ave, New York, NY 10128": {
+		"lat": 40.7802464,
+		"lng": -73.9548496
+	},
+	"53 W 19th St, New York, NY 10011": {
+		"lat": 40.7402671,
+		"lng": -73.9937391
+	},
+	"260 W 40th St, New York, NY 10018": {
+		"lat": 40.7554316,
+		"lng": -73.9900633
+	},
+	"124 E 27th St, New York, NY 10016": {
+		"lat": 40.74212199999999,
+		"lng": -73.98357639999999
+	},
+	"47 E Houston St, New York, NY 10012": {
+		"lat": 40.7246192,
+		"lng": -73.99476779999999
+	},
+	"99 7th Ave S, New York, NY 10014": {
+		"lat": 40.733047,
+		"lng": -74.0028772
+	},
+	"6 E 42nd St, New York, NY 10017": {
+		"lat": 40.7532198,
+		"lng": -73.980764
+	},
+	"877 8th Ave, New York, NY 10019": {
+		"lat": 40.7638811,
+		"lng": -73.9852942
+	},
+	"1080 - 1090 6th Ave, New York, NY 10036": {
+		"lat": 40.7545688,
+		"lng": -73.984036
+	},
+	"52 W 33rd St, New York, NY 10001": {
+		"lat": 40.7486859,
+		"lng": -73.9875332
+	},
+	"513 E 6th St, New York, NY 10009": {
+		"lat": 40.72535389999999,
+		"lng": -73.9830167
+	},
+	"120 Mulberry St, New York, NY 10013": {
+		"lat": 40.7177353,
+		"lng": -73.9979123
+	},
+	"42 Grove St, New York, NY 10014": {
+		"lat": 40.7326259,
+		"lng": -74.00432839999999
+	},
+	"125 W 43rd St, New York, NY 10036": {
+		"lat": 40.7561809,
+		"lng": -73.98462479999999
+	},
+	"5 Bleecker St, New York, NY 10012": {
+		"lat": 40.7255118,
+		"lng": -73.99269149999999
+	},
+	"59 W 37th St, New York, NY 10018": {
+		"lat": 40.7517544,
+		"lng": -73.98568879999999
+	},
+	"242 Mott St, New York, NY 10012": {
+		"lat": 40.7231566,
+		"lng": -73.9947334
+	},
+	"17 Prince St, New York, NY 10012": {
+		"lat": 40.722933,
+		"lng": -73.994193
+	},
+	"101 St Marks Pl, New York, NY 10009": {
+		"lat": 40.727439,
+		"lng": -73.9843281
+	},
+	"424 Amsterdam Ave, New York, NY 10024": {
+		"lat": 40.7841697,
+		"lng": -73.97792849999999
+	},
+	"15 Vanderbilt Ave, New York, NY 10017": {
+		"lat": 40.75264019999999,
+		"lng": -73.9777917
+	},
+	"156 W 56th St, New York City, NY 10019-3800": {
+		"lat": 40.7643121,
+		"lng": -73.9796886
+	},
+	"200 W 41st St, New York City, NY 10036": {
+		"lat": 40.7553548,
+		"lng": -73.98789649999999
+	},
+	"1016 2nd Ave, New York, NY 10022": {
+		"lat": 40.7565616,
+		"lng": -73.9661194
+	},
+	"94 Chambers St #1, New York, NY 10007": {
+		"lat": 40.7145903,
+		"lng": -74.0075468
+	},
+	"5 King St, New York, NY 10012": {
+		"lat": 40.7277841,
+		"lng": -74.00285939999999
+	},
+	"62 E 34th St, New York, NY 10016": {
+		"lat": 40.7471646,
+		"lng": -73.98212240000001
+	},
+	"368 W 23rd St, New York, NY 10011": {
+		"lat": 40.7462101,
+		"lng": -74.0012555
+	},
+	"492 9th Ave, New York, NY 10018": {
+		"lat": 40.7554594,
+		"lng": -73.9944725
+	},
+	"415 3rd Ave, New York, NY 10016": {
+		"lat": 40.7425885,
+		"lng": -73.9800928
+	},
+	"55 W 35th St, New York, NY 10001": {
+		"lat": 40.7502469,
+		"lng": -73.986246
+	},
+	"115 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7424531,
+		"lng": -73.98226509999999
+	},
+	"45 E 28th St, New York, NY 10016": {
+		"lat": 40.7436309,
+		"lng": -73.9844164
+	},
+	"362 2nd Ave, New York, NY 10010": {
+		"lat": 40.73668079999999,
+		"lng": -73.9815635
+	},
+	"1 Bleecker St, New York, NY 10012": {
+		"lat": 40.7254247,
+		"lng": -73.9924838
+	},
+	"23 Lexington Ave, Freehand Hotel, New York City, NY 10010-3727": {
+		"lat": 40.7397388,
+		"lng": -73.9843389
+	},
+	"600 11th Ave, at 45th Street, New York City, NY 10036-2102": {
+		"lat": 40.7623433,
+		"lng": -73.9967631
+	},
+	"108 W 40th St, New York, NY 10018": {
+		"lat": 40.7536651,
+		"lng": -73.9858266
+	},
+	"119 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7426842,
+		"lng": -73.98223569999999
+	},
+	"103 E 19th St, New York, NY 10003": {
+		"lat": 40.7376631,
+		"lng": -73.9876085
+	},
+	"375 Amsterdam Ave, New York, NY 10024": {
+		"lat": 40.782244,
+		"lng": -73.9786351
+	},
+	"101 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7420854,
+		"lng": -73.9825255
+	},
+	"1633 Broadway, New York, NY 10022": {
+		"lat": 40.7620022,
+		"lng": -73.98420999999999
+	},
+	"10 Columbus Cir, New York, NY 10019": {
+		"lat": 40.7685526,
+		"lng": -73.9831866
+	},
+	"17 E 27th St, New York, NY 10016": {
+		"lat": 40.7437775,
+		"lng": -73.9865172
+	},
+	"343 W 46th St, New York, NY 10036": {
+		"lat": 40.76063370000001,
+		"lng": -73.9894851
+	},
+	"14 Avenue A, New York, NY 10009": {
+		"lat": 40.722516,
+		"lng": -73.98574099999999
+	},
+	"99 St Marks Pl, New York, NY 10009": {
+		"lat": 40.7274614,
+		"lng": -73.9844641
+	},
+	"200 5th Ave, New York, NY 10010": {
+		"lat": 40.7419668,
+		"lng": -73.9895296
+	},
+	"200 Mott St, New York, NY 10012": {
+		"lat": 40.72120049999999,
+		"lng": -73.99539330000002
+	},
+	"108 W 32nd St New York, NY 10001": {
+		"lat": 40.7486316,
+		"lng": -73.9895501
+	},
+	"324 1st Ave., New York, NY 10009": {
+		"lat": 40.7342604,
+		"lng": -73.98004019999999
+	},
+	"1616 George St, Queens, NY 11385": {
+		"lat": 40.6962278,
+		"lng": -73.904108
+	},
+	"209 W Houston St, New York, NY 10014": {
+		"lat": 40.728379,
+		"lng": -74.0043348
+	},
+	"55 Bond St, New York, NY 10012": {
+		"lat": 40.7256763,
+		"lng": -73.99268219999999
+	},
+	"111 South St, New York, NY 10038": {
+		"lat": 40.7071602,
+		"lng": -74.0019062
+	},
+	"54 Pearl St, New York, NY 10004": {
+		"lat": 40.7033808,
+		"lng": -74.01135219999999
+	},
+	"132 W 31st St, New York, NY 10001": {
+		"lat": 40.7485018,
+		"lng": -73.9906963
+	},
+	"77 Irving Pl, New York, NY 10003": {
+		"lat": 40.7369089,
+		"lng": -73.98684159999999
+	},
+	"425 3rd Ave, New York, NY 10016": {
+		"lat": 40.742857,
+		"lng": -73.9800054
+	},
+	"149 West 4th Street # 2, New York, NY 10012": {
+		"lat": 40.7316328,
+		"lng": -74.0004759
+	},
+	"57 Stone St, New York, NY 10004": {
+		"lat": 40.70452,
+		"lng": -74.0102668
+	},
+	"89 E. 42nd Street, New York, NY 10017": {
+		"lat": 40.7527277,
+		"lng": -73.97723529999999
+	},
+	"43 W 26th St, New York, NY 10010": {
+		"lat": 40.7446069,
+		"lng": -73.9906322
+	},
+	"200 E 30th St, New York, NY 10016": {
+		"lat": 40.7429159,
+		"lng": -73.9796796
+	},
+	"135 W 50th St New York, NY 10020": {
+		"lat": 40.7610525,
+		"lng": -73.9824613
+	},
+	"56 E 34th St, New York, NY 10016": {
+		"lat": 40.7472167,
+		"lng": -73.9822463
+	},
+	"155 W Houston St, New York, NY 10012": {
+		"lat": 40.7280142,
+		"lng": -74.00257669999999
+	},
+	"1 Hanover Square, New York, NY 10004": {
+		"lat": 40.7046211,
+		"lng": -74.0097455
+	},
+	"109 E 22nd St, New York, NY 10010": {
+		"lat": 40.7395356,
+		"lng": -73.9863884
+	},
+	"403 E 12th St, New York, NY 10009": {
+		"lat": 40.7300263,
+		"lng": -73.9831883
+	},
+	"48 9th Ave, New York, NY 10011": {
+		"lat": 40.7411128,
+		"lng": -74.0048746
+	},
+	"8 W 40th St, New York, NY 10018": {
+		"lat": 40.7522652,
+		"lng": -73.9826166
+	},
+	"30 W 26th St, New York, NY 10010": {
+		"lat": 40.7442648,
+		"lng": -73.9903597
+	},
+	"37 W 24th St, New York, NY 10010": {
+		"lat": 40.74328209999999,
+		"lng": -73.9910274
+	},
+	"334 Lexington Ave, New York, NY 10016": {
+		"lat": 40.749723,
+		"lng": -73.9775349
+	},
+	"636 Hudson St, New York, NY 10014": {
+		"lat": 40.7385812,
+		"lng": -74.0053039
+	},
+	"1030 Amsterdam Ave, New York, NY 10025": {
+		"lat": 40.8035598,
+		"lng": -73.9639459
+	},
+	"77 Irving Pl Cafe, New York, NY 10003": {
+		"lat": 40.7369089,
+		"lng": -73.98684159999999
+	},
+	"331 W Broadway, New York, NY 10013": {
+		"lat": 40.7221361,
+		"lng": -74.00382019999999
+	},
+	"578 9th Ave, New York, NY 10036": {
+		"lat": 40.758197,
+		"lng": -73.9925523
+	},
+	"38 W 26th St, New York, NY 10010": {
+		"lat": 40.7442721,
+		"lng": -73.9907621
+	},
+	"140 E 27th St, New York, NY 10016": {
+		"lat": 40.7416021,
+		"lng": -73.9825436
+	},
+	"226 Lafayette St, New York, NY 10012": {
+		"lat": 40.7222538,
+		"lng": -73.9974579
+	},
+	"1158 Broadway 5th floor, New York, NY 10001": {
+		"lat": 40.7445736,
+		"lng": -73.98863109999999
+	},
+	"140 W 44th St, New York City, NY 10036-4046": {
+		"lat": 40.7565989,
+		"lng": -73.98484340000002
+	},
+	"124 W 25th St, New York, NY 10001": {
+		"lat": 40.7445723,
+		"lng": -73.9929836
+	},
+	"520 E 6th St, New York, NY 10009": {
+		"lat": 40.7248339,
+		"lng": -73.9829455
+	},
+	"159 W 10th St, New York, NY 10014": {
+		"lat": 40.7345329,
+		"lng": -74.0017116
+	},
+	"1070 2nd Ave, New York, NY 10022": {
+		"lat": 40.75872,
+		"lng": -73.965369
+	},
+	"386 Flatbush Ave Ext, Brooklyn, NY 11201": {
+		"lat": 40.6901486,
+		"lng": -73.9818793
+	},
+	"1412 Broadway, New York, NY 10018": {
+		"lat": 40.753615,
+		"lng": -73.9865612
+	},
+	"478 9th Ave, New York, NY 10018": {
+		"lat": 40.75499,
+		"lng": -73.9948704
+	},
+	"205 E Houston St, New York, NY 10002": {
+		"lat": 40.7221844,
+		"lng": -73.98746670000001
+	},
+	"72 West 36th Street, New York City, NY 10018-8025": {
+		"lat": 40.7506178,
+		"lng": -73.9865212
+	},
+	"129 W 56th St, New York, NY 10019": {
+		"lat": 40.7644317,
+		"lng": -73.9789821
+	},
+	"Two E 55th St, New York, NY 10022": {
+		"lat": 40.758719,
+		"lng": -73.9678999
+	},
+	"1027 Flatbush Ave, Brooklyn, NY 11226": {
+		"lat": 40.6459265,
+		"lng": -73.9578191
+	},
+	"570 2nd Ave, New York, NY 10016": {
+		"lat": 40.7428738,
+		"lng": -73.9768627
+	},
+	"610 8th Ave, New York, NY 10018": {
+		"lat": 40.7555531,
+		"lng": -73.9906529
+	},
+	"28 Eighth Ave, New York, NY 10014, United States": {
+		"lat": 40.7377602,
+		"lng": -74.0043464
+	},
+	"145 W 53rd St, New York, NY 10019": {
+		"lat": 40.7630013,
+		"lng": -73.9802753
+	},
+	"132 W 44th St New York, NY 10036": {
+		"lat": 40.7565111,
+		"lng": -73.9846401
+	},
+	"227 Centre St, New York, NY 10013": {
+		"lat": 40.7200169,
+		"lng": -73.9985671
+	},
+	"1099 2nd Ave, New York, NY 10022": {
+		"lat": 40.7599439,
+		"lng": -73.96513259999999
+	},
+	"154 E 33rd St, New York, NY 10016": {
+		"lat": 40.7452905,
+		"lng": -73.9794651
+	},
+	"20 E 60th St New York, NY 10022": {
+		"lat": 40.7639519,
+		"lng": -73.9705449
+	},
+	"37 Canal St, New York, NY 10002": {
+		"lat": 40.71476,
+		"lng": -73.99094339999999
+	},
+	"3 Hanover Square, New York, NY 10004": {
+		"lat": 40.7048233,
+		"lng": -74.00910449999999
+	},
+	"108 W 74th St New York, NY 10023": {
+		"lat": 40.7787684,
+		"lng": -73.978385
+	},
+	"260 W 35th St, New York City, NY 10001-2503": {
+		"lat": 40.75248970000001,
+		"lng": -73.992538
+	},
+	"550 3rd Ave, New York City, NY 10016-3538": {
+		"lat": 40.7474242,
+		"lng": -73.97723119999999
+	},
+	"111 W 40th St, New York, NY 10018": {
+		"lat": 40.7543899,
+		"lng": -73.98644639999999
+	},
+	"20 7th Ave S, New York, NY 10014": {
+		"lat": 40.73056690000001,
+		"lng": -74.00468169999999
+	},
+	"55 W 45th St, New York, NY 10036": {
+		"lat": 40.7564841,
+		"lng": -73.98147039999999
+	},
+	"62 W 48th St, New York, NY 10036": {
+		"lat": 40.7581141,
+		"lng": -73.98068219999999
+	},
+	"671 8th Ave, New York, NY 10036": {
+		"lat": 40.7577517,
+		"lng": -73.9897893
+	},
+	"222 W. 23rd Street, New York, NY": {
+		"lat": 40.744479,
+		"lng": -73.9968973
+	},
+	"229 W 43rd St, New York, NY": {
+		"lat": 40.7575024,
+		"lng": -73.9873721
+	},
+	"642 9th Ave, New York, NY 10036": {
+		"lat": 40.7603697,
+		"lng": -73.9909505
+	},
+	"73 E 19th St, New York, NY 10003": {
+		"lat": 40.7380018,
+		"lng": -73.98828449999999
+	},
+	"156 E 33rd St, New York, NY 10016": {
+		"lat": 40.7452646,
+		"lng": -73.9794045
+	},
+	"311 Church St, New York, NY 10013": {
+		"lat": 40.7196312,
+		"lng": -74.0039152
+	},
+	"122 MacDougal St, New York, NY 10012": {
+		"lat": 40.7298668,
+		"lng": -74.0003198
+	},
+	"35 W 8th St, New York, NY 10011": {
+		"lat": 40.7331526,
+		"lng": -73.99806219999999
+	},
+	"512 7th Ave, New York, NY 10018": {
+		"lat": 40.75319,
+		"lng": -73.9889371
+	},
+	"28 Liberty St 60th floor, New York, NY 10005": {
+		"lat": 40.7079257,
+		"lng": -74.0089318
+	},
+	"40 Central Park S.": {
+		"lat": 40.7650765,
+		"lng": -73.975516
+	},
+	"136 W 46th St, New York, NY 10036": {
+		"lat": 40.757875,
+		"lng": -73.9839825
+	},
+	"171 W 29th St New York, NY 10001": {
+		"lat": 40.7478469,
+		"lng": -73.9925686
+	},
+	"121 E 17th St, New York, NY 10003": {
+		"lat": 40.7361286,
+		"lng": -73.9876467
+	},
+	"15 E 7th St, New York, NY 10003": {
+		"lat": 40.7288115,
+		"lng": -73.9896832
+	},
+	"10 Hudson Yards, New York, NY 10001": {
+		"lat": 40.7526964,
+		"lng": -74.0011033
+	},
+	"1125 1st Ave., New York, NY 10065": {
+		"lat": 40.7614741,
+		"lng": -73.9611074
+	},
+	"7 Ludlow St, New York, NY 10002": {
+		"lat": 40.7151142,
+		"lng": -73.9911829
+	},
+	"24 W 55th St, New York, NY 10019": {
+		"lat": 40.7620797,
+		"lng": -73.97644380000001
+	},
+	"44 E 32nd St, New York, NY 10016": {
+		"lat": 40.7458692,
+		"lng": -73.9829669
+	},
+	"601 Lexington Ave, New York, NY 10022": {
+		"lat": 40.7583546,
+		"lng": -73.9699827
+	},
+	"1410 Broadway, New York, NY 10018": {
+		"lat": 40.7533723,
+		"lng": -73.98697539999999
+	},
+	"224 Avenue B Unit 14, New York, NY 10009": {
+		"lat": 40.7291995,
+		"lng": -73.97848789999999
+	},
+	"250 E 58th St, New York, NY 10022": {
+		"lat": 40.7600557,
+		"lng": -73.9651882
+	},
+	"W 112th St and Manhattan Ave New York, NY 10026": {
+		"lat": 40.8024713,
+		"lng": -73.9587141
+	},
+	"222 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7460816,
+		"lng": -73.9803616
+	},
+	"1310 Surf Ave, Brooklyn, NY 11224": {
+		"lat": 40.57529450000001,
+		"lng": -73.9814419
+	},
+	"1400 Broadway, New York, NY 10018": {
+		"lat": 40.7530157,
+		"lng": -73.9870633
+	},
+	"413 8th Ave, New York, NY 10001": {
+		"lat": 40.7501778,
+		"lng": -73.99527379999999
+	},
+	"333 Douglass St, Brooklyn, NY 11217": {
+		"lat": 40.6797432,
+		"lng": -73.9822062
+	},
+	"438 3rd Ave, New York, NY 10016": {
+		"lat": 40.7435872,
+		"lng": -73.97999109999999
+	},
+	"390 3rd Ave, New York, NY 10016": {
+		"lat": 40.741977,
+		"lng": -73.9811015
+	},
+	"647 9th Ave, New York City, NY 10036-3661": {
+		"lat": 40.760659,
+		"lng": -73.9913333
+	},
+	"45 E 18th St, New York, NY 10003": {
+		"lat": 40.7375717,
+		"lng": -73.9892162
+	},
+	"5 W 31st St #8, New York, NY 10001": {
+		"lat": 40.7469611,
+		"lng": -73.98640929999999
+	},
+	"45 W 27th St, New York, NY 10001": {
+		"lat": 40.7451715,
+		"lng": -73.9900275
+	},
+	"142 W 44th St New York, NY 10036": {
+		"lat": 40.7566272,
+		"lng": -73.98491369999999
+	},
+	"455 Hudson St, New York, NY 10014": {
+		"lat": 40.7313554,
+		"lng": -74.00684439999999
+	},
+	"70 Pine St 64th Floor, New York, NY 10005": {
+		"lat": 40.7065047,
+		"lng": -74.00777149999999
+	},
+	"135 W 50th St, New York, NY 10020": {
+		"lat": 40.7610525,
+		"lng": -73.9824613
+	},
+	"163 E 33rd St, New York, NY 10016": {
+		"lat": 40.7454586,
+		"lng": -73.97912529999999
+	},
+	"99 Park Ave, New York, NY 10016": {
+		"lat": 40.7504946,
+		"lng": -73.9784316
+	},
+	"231 W 46th St, New York, NY 10036": {
+		"lat": 40.7594789,
+		"lng": -73.9867615
+	},
+	"301 Park Ave, New York, NY 10022": {
+		"lat": 40.7564821,
+		"lng": -73.97341329999999
+	},
+	"145 Bleecker St, New York, NY 10012": {
+		"lat": 40.7284357,
+		"lng": -73.99903730000001
+	},
+	"66 W 39th St, New York, NY 10018": {
+		"lat": 40.75261709999999,
+		"lng": -73.9851723
+	},
+	"Inside Greeley Square Park, 97 W 32nd St, New York, NY 10001": {
+		"lat": 40.7487058,
+		"lng": -73.9883382
+	},
+	"210 W 55th St, New York, NY 10019": {
+		"lat": 40.76440230000001,
+		"lng": -73.9819469
+	},
+	"31 W 46th St, New York, NY 10036": {
+		"lat": 40.7567881,
+		"lng": -73.98023490000001
+	},
+	"27 W 35th St, New York, NY 10018": {
+		"lat": 40.749843,
+		"lng": -73.9853837
+	},
+	"110 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7424779,
+		"lng": -73.9827959
+	},
+	"301 W 57th St Ground floor, New York, NY 10019": {
+		"lat": 40.7670953,
+		"lng": -73.98307989999999
+	},
+	"271 11th Ave, New York, NY 10001": {
+		"lat": 40.75188989999999,
+		"lng": -74.00510059999999
+	},
+	"27 Prince St A, New York, NY 10012": {
+		"lat": 40.723088,
+		"lng": -73.99452529999999
+	},
+	"215 W 40th St, New York, NY 10018": {
+		"lat": 40.7553432,
+		"lng": -73.98863109999999
+	},
+	"81 Hudson St, New York, NY 10013": {
+		"lat": 40.7185494,
+		"lng": -74.00911260000001
+	},
+	"82-84 Broadway Elmhurst, NY 11373": {
+		"lat": 40.74113810000001,
+		"lng": -73.8813581
+	},
+	"48 W 17th St": {
+		"lat": 40.66045769999999,
+		"lng": -74.1239076
+	},
+	"2017 Emmons Ave, Brooklyn, NY 11235": {
+		"lat": 40.5839855,
+		"lng": -73.94763400000001
+	},
+	"158 8th Ave, New York, NY 10011": {
+		"lat": 40.7420181,
+		"lng": -74.00060789999999
+	},
+	"853 Onderdonk Ave, Queens, NY 11385": {
+		"lat": 40.7019459,
+		"lng": -73.90350029999999
+	},
+	"489 3rd Ave, New York, NY 10016": {
+		"lat": 40.7450621,
+		"lng": -73.978273
+	},
+	"1385 Broadway, New York, NY 10018": {
+		"lat": 40.7526152,
+		"lng": -73.9875699
+	},
+	"627 9th Ave, Between 44th And 45th, New York City, NY 10036": {
+		"lat": 40.7600262,
+		"lng": -73.9917899
+	},
+	"228 W 47th St, New York, NY 10036": {
+		"lat": 40.7596507,
+		"lng": -73.9862204
+	},
+	"502 W 34th St., New York, NY 10001": {
+		"lat": 40.7544987,
+		"lng": -73.9995268
+	},
+	"127 Orchard St | NYC 10002": {
+		"lat": 40.71971509999999,
+		"lng": -73.9898074
+	},
+	"179 E Houston St,  New York, NY": {
+		"lat": 40.7225307,
+		"lng": -73.9883282
+	},
+	"104 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7423152,
+		"lng": -73.98298059999999
+	},
+	"129 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7428737,
+		"lng": -73.98203360000001
+	},
+	"234 W 44th St #808, New York, NY 10036": {
+		"lat": 40.7578047,
+		"lng": -73.9876152
+	},
+	"548 3rd Ave, New York, NY 10016": {
+		"lat": 40.7473605,
+		"lng": -73.977255
+	},
+	"212 Washington St, Jersey City, NJ 07302": {
+		"lat": 40.7143841,
+		"lng": -74.0375846
+	},
+	"58 Park Ave, New York, NY 10016": {
+		"lat": 40.749454,
+		"lng": -73.980048
+	},
+	"109 Washington St, New York, NY 10006": {
+		"lat": 40.7085849,
+		"lng": -74.0140262
+	},
+	"33 E 61st St": {
+		"lat": 40.7647613,
+		"lng": -73.9698154
+	},
+	"456 9th Ave New York, NY 10018": {
+		"lat": 40.7542202,
+		"lng": -73.99532839999999
+	},
+	"273 W 38th St, New York, NY 10018": {
+		"lat": 40.7546846,
+		"lng": -73.99110639999999
+	},
+	"648 Prospect Ave, West Orange, NJ 07052": {
+		"lat": 40.7794203,
+		"lng": -74.2612596
+	},
+	"259 W 19th St, New York, NY 10011": {
+		"lat": 40.7426877,
+		"lng": -73.9995394
+	},
+	"300 W 44th St, New York, NY 10036": {
+		"lat": 40.7585997,
+		"lng": -73.9894116
+	},
+	"630 Bedford Rd, Tarrytown, NY 10591": {
+		"lat": 41.1040723,
+		"lng": -73.8289592
+	},
+	"133 W 33rd St, New York, NY 10001": {
+		"lat": 40.749973,
+		"lng": -73.98987009999999
+	},
+	"828 Broadway, New York, NY 10003": {
+		"lat": 40.7332185,
+		"lng": -73.9906822
+	},
+	"1154 2nd Ave #8504, New York, NY 10065": {
+		"lat": 40.7615776,
+		"lng": -73.9633396
+	},
+	"21 W 39th St New York, NY 10018": {
+		"lat": 40.7523744,
+		"lng": -73.9835309
+	},
+	"377 Amsterdam Ave, New York, NY 10024": {
+		"lat": 40.7826187,
+		"lng": -73.97846030000001
+	},
+	"226 Front St, New York, NY 10038": {
+		"lat": 40.7077386,
+		"lng": -74.00224709999999
+	},
+	"1372 Broadway, New York, NY 10018": {
+		"lat": 40.7523725,
+		"lng": -73.9871436
+	},
+	"357 1st Ave., New York, NY 10010": {
+		"lat": 40.7355662,
+		"lng": -73.9797542
+	},
+	"253 W 11th St New York, NY 10014": {
+		"lat": 40.7363901,
+		"lng": -74.0034518
+	},
+	"W 67th St, New York, NY 10023": {
+		"lat": 40.7747354,
+		"lng": -73.9823119
+	},
+	"144 W 37th St, New York, NY 10018": {
+		"lat": 40.7524546,
+		"lng": -73.988719
+	},
+	"159 E 55th St, New York, NY 10022": {
+		"lat": 40.75928890000001,
+		"lng": -73.9687818
+	},
+	"149 Bleecker St, New York, NY 10012": {
+		"lat": 40.7284984,
+		"lng": -73.9991726
+	},
+	"24 Harrison St, New York, NY 10013": {
+		"lat": 40.7189062,
+		"lng": -74.0099419
+	},
+	"55 Stone St, New York, NY 10004": {
+		"lat": 40.7044435,
+		"lng": -74.0103646
+	},
+	"7 West 43rd Street, near Fifth Avenue, Midtown Manhattan, New York City": {
+		"lat": 40.7546304,
+		"lng": -73.9810342
+	},
+	"131 Sullivan St, New York, NY 10012": {
+		"lat": 40.7265479,
+		"lng": -74.0021666
+	},
+	"242 W 16th St, New York, NY 10011": {
+		"lat": 40.7404766,
+		"lng": -74.0008466
+	},
+	"99 E 52nd St, New York, NY 10022": {
+		"lat": 40.7583245,
+		"lng": -73.97187269999999
+	},
+	"1271 Broadway New York, NY 10001": {
+		"lat": 40.7482483,
+		"lng": -73.9884671
+	},
+	"157 E 53rd St, New York, NY 10022": {
+		"lat": 40.7580782,
+		"lng": -73.9700009
+	},
+	"1634 York Ave, New York, NY 10028": {
+		"lat": 40.7759621,
+		"lng": -73.9467767
+	},
+	"265 Elizabeth St, New York, NY 10012": {
+		"lat": 40.72392869999999,
+		"lng": -73.9938299
+	},
+	"250 Fifth Avenue, New York City, NY 10001": {
+		"lat": 40.7448746,
+		"lng": -73.98737109999999
+	},
+	"102 Bayard St, New York, NY 10013": {
+		"lat": 40.7162093,
+		"lng": -73.9996973
+	},
+	"3406 73rd St, Jackson Heights, NY 11372": {
+		"lat": 40.7522567,
+		"lng": -73.8935351
+	},
+	"75-26 37th Ave, Queens, NY 11372": {
+		"lat": 40.7489812,
+		"lng": -73.8901401
+	},
+	"138 Valley Rd, Montclair, NJ 07042": {
+		"lat": 40.8225034,
+		"lng": -74.2198032
+	},
+	"96 South St, New York, NY 10038": {
+		"lat": 40.70619500000001,
+		"lng": -74.00226909999999
+	},
+	"940 3rd Ave, New York, NY 10022": {
+		"lat": 40.7599776,
+		"lng": -73.9680769
+	},
+	"288 Elizabeth St, New York, NY 10012": {
+		"lat": 40.7245458,
+		"lng": -73.9930985
+	},
+	"184 2nd Ave, New York, NY 10003": {
+		"lat": 40.7306424,
+		"lng": -73.9857669
+	},
+	"55 Carmine St, New York, NY 10014": {
+		"lat": 40.7299671,
+		"lng": -74.0042673
+	},
+	"271 W 23 St, New York, NY 10011": {
+		"lat": 40.74532749999999,
+		"lng": -73.9978245
+	},
+	"301 South End Ave, New York, NY 10280": {
+		"lat": 40.7103436,
+		"lng": -74.016542
+	},
+	"132 E 28th St, New York, NY 10016": {
+		"lat": 40.7422985,
+		"lng": -73.9822788
+	},
+	"119 E 27th St, New York, NY 10016": {
+		"lat": 40.7425105,
+		"lng": -73.9836198
+	},
+	"4 W 28th St, New York, NY 10001": {
+		"lat": 40.744774,
+		"lng": -73.9880094
+	},
+	"152a 2nd Ave, Ste A, New York City, NY 10003": {
+		"lat": 40.7293472,
+		"lng": -73.9866141
+	},
+	"58 Stone St, New York, NY 10004": {
+		"lat": 40.7044541,
+		"lng": -74.0100116
+	},
+	"101 E 19th St, New York City, NY 10003-3104": {
+		"lat": 40.7377702,
+		"lng": -73.9878767
+	},
+	"14 E 37th St, New York, NY 10016": {
+		"lat": 40.7497671,
+		"lng": -73.9822757
+	},
+	"598 8th Ave, New York, NY 10018": {
+		"lat": 40.7551355,
+		"lng": -73.9910487
+	},
+	"120 E 34th St, New York, NY 10016": {
+		"lat": 40.7463656,
+		"lng": -73.9803215
+	},
+	"234 E 4th St New York, NY 1000": {
+		"lat": 40.7233621,
+		"lng": -73.9831177
+	},
+	"144 2nd Avenue, at East 9th St., New York City, NY 10003": {
+		"lat": 40.7289226,
+		"lng": -73.98692849999999
+	},
+	"178 Lexington Ave, New York, NY 10016": {
+		"lat": 40.7445147,
+		"lng": -73.98142469999999
+	},
+	"181-189 2nd Ave, New York, NY 10003": {
+		"lat": 40.73095550000001,
+		"lng": -73.98621170000001
+	},
+	"178 7th Ave S New York, NY 10014": {
+		"lat": 40.7360334,
+		"lng": -74.0016548
+	},
+	"1140 Broadway, New York, NY 10001": {
+		"lat": 40.74336720000001,
+		"lng": -73.98896760000001
+	},
+	"192 7th Ave S, New York, NY 10014": {
+		"lat": 40.7363455,
+		"lng": -74.0015123
+	},
+	"3 Bleecker St, New York, NY 10012": {
+		"lat": 40.7254936,
+		"lng": -73.9926188
+	},
+	"210 5th Avenue at, W 26th St, New York, NY 10010": {
+		"lat": 40.7433574,
+		"lng": -73.98877110000001
+	},
+	"16 N Moore St, New York, NY 10013": {
+		"lat": 40.7196857,
+		"lng": -74.007032
+	},
+	"385 6th Ave, New York, NY 10014": {
+		"lat": 40.7331111,
+		"lng": -74.00017009999999
+	},
+	"96 8th Ave, New York, NY 10011": {
+		"lat": 40.7401615,
+		"lng": -74.0019196
+	},
+	"24 W 45th St, New York City, NY 10036-4205": {
+		"lat": 40.755764,
+		"lng": -73.9808335
+	},
+	"2245 Broadway, New York, NY 10024": {
+		"lat": 40.7849102,
+		"lng": -73.97962079999999
+	},
+	"1065 6th Ave, New York, NY 10018": {
+		"lat": 40.754043,
+		"lng": -73.985355
+	},
+	"125 Fulton St, New York, NY 10038": {
+		"lat": 40.7102112,
+		"lng": -74.007182
+	},
+	"370 Lexington Ave, New York, NY 10017": {
+		"lat": 40.7507644,
+		"lng": -73.9767968
+	},
+	"340 3rd Ave, New York, NY 10010": {
+		"lat": 40.7403718,
+		"lng": -73.9822989
+	},
+	"125 East 11th Street, New York, NY 10003": {
+		"lat": 40.7317691,
+		"lng": -73.98911389999999
+	},
+	"55 Irving Place, New York, NY 10003": {
+		"lat": 40.7362117,
+		"lng": -73.98745439999999
+	},
+	"84 East 10th Street, New York, NY 10003": {
+		"lat": 40.7308683,
+		"lng": -73.9899468
+	}
 }

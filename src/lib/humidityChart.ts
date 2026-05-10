@@ -65,8 +65,6 @@ export const buildHumidityChart = (
 		.nice()
 		.range([height - margin.bottom, margin.top]);
 
-
-
 	// Target band area path
 	const bandPath =
 		area<Date>()
