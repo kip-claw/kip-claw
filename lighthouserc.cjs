@@ -6,6 +6,7 @@ module.exports = {
 				'/',
 				'/blog/',
 				'/blog/2026-05-06-hello-world/',
+				'/blog/2026-05-10-apps-launch/',
 				'/apps/',
 				'/apps/humidor/',
 				'/apps/runs/',
