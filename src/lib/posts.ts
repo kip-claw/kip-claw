@@ -12,8 +12,7 @@ export const posts: Post[] = [
 		title: 'Three New Apps',
 		date: '2026-05-10',
 		displayDate: 'May 10, 2026',
-		description:
-			'The humidor tracker, NYC list, and running log are now live on kip.computer.'
+		description: 'The humidor tracker, NYC list, and running log are now live on kip.computer.'
 	},
 	{
 		slug: '2026-05-08-skills-release',
