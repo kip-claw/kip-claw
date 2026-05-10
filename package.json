@@ -7,7 +7,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''",
+		"prepare": "husky",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check .",
@@ -26,6 +26,8 @@
 		"@types/d3-time": "^3.0.4",
 		"@types/d3-time-format": "^4.0.3",
 		"@types/node": "^25.6.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^17.0.4",
 		"mdsvex": "^0.12.7",
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^3.5.1",
@@ -44,5 +46,8 @@
 		"maplibre-gl": "^5.24.0",
 		"marked": "^18.0.3",
 		"pmtiles": "^4.4.1"
+	},
+	"lint-staged": {
+		"*.{js,ts,svelte,md,css,html,json,yaml,cjs}": "prettier --write"
 	}
 }
