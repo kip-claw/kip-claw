@@ -294,5 +294,13 @@
     "pingMs": 24.9,
     "server": "New York NY",
     "provider": "OceanHost"
+  },
+  {
+    "timestamp": "2026-05-11 09:00:14",
+    "downloadMbps": 452.05,
+    "uploadMbps": 22.65,
+    "pingMs": 23.0,
+    "server": "New York NY",
+    "provider": "Wnet"
   }
 ]
