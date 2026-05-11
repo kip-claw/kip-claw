@@ -493,5 +493,131 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Git Sync Obsidian Vault",
+		"status": "error",
+		"durationS": 64.9,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Git Sync Workspace",
+		"status": "error",
+		"durationS": 64.8,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 50.9,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): google/gemini-3.1-flash-lite-preview: An unknown error occurred (timeout) | groq/openai/gpt-oss-120b: 400 Organization has blocked API access because a spe"
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Evening speed test",
+		"status": "error",
+		"durationS": 61.9,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f Agent couldn't generate a response. Note: some tool actions may have already been executed \u2014 please verify before retrying."
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Daily Todo cleanup",
+		"status": "ok",
+		"durationS": 40.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Weekly NAS report",
+		"status": "error",
+		"durationS": 37.8,
+		"consecutiveErrors": 2,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): groq/openai/gpt-oss-120b: 400 Organization has blocked API access because a spend alert threshold was met. Please visit https://console.groq.com/settings/b"
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Nightly Kip backup",
+		"status": "error",
+		"durationS": 38.9,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f Agent couldn't generate a response. Note: some tool actions may have already been executed \u2014 please verify before retrying."
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Nightly Batocera backup",
+		"status": "error",
+		"durationS": 35.7,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): google/gemini-3.1-flash-lite-preview: An unknown error occurred (timeout) | groq/openai/gpt-oss-120b: 400 Organization has blocked API access because a spe"
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Weekly Google Drive sync report",
+		"status": "error",
+		"durationS": 3605.0,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Nightly todo archival",
+		"status": "error",
+		"durationS": 3604.4,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Nightly skills publish",
+		"status": "error",
+		"durationS": 66.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "CodexAppServerRpcError: failed to load configuration: Model provider `groq` not found"
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Nightly humidor export",
+		"status": "error",
+		"durationS": 82.0,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "{\"type\":\"error\",\"status\":400,\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The 'openai/gpt-oss-120b' model is not supported when using Codex with a ChatGPT account.\"}}"
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Nightly runs export",
+		"status": "error",
+		"durationS": 81.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "{\"type\":\"error\",\"status\":400,\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The 'openai/gpt-oss-120b' model is not supported when using Codex with a ChatGPT account.\"}}"
+	},
+	{
+		"timestamp": "2026-05-11 04:00:01",
+		"jobName": "Nightly NYC list export",
+		"status": "error",
+		"durationS": 71.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "{\"type\":\"error\",\"status\":400,\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The 'openai/gpt-oss-120b' model is not supported when using Codex with a ChatGPT account.\"}}"
 	}
 ]
