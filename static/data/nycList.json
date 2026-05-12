@@ -1463,6 +1463,17 @@
     "lng": -73.9829455
   },
   {
+    "name": "Juliana\u2019s",
+    "address": "19 Old Fulton St, Brooklyn, NY 11201",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Coal fired pizza place in a great location next to Brooklyn Bridge Park. Good spot for dinner before a sunset walk to the water.",
+    "lat": 40.7026891,
+    "lng": -73.9934957
+  },
+  {
     "name": "Julius'",
     "address": "159 W 10th St, New York, NY 10014",
     "isDecent": "Y",
