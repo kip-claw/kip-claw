@@ -619,5 +619,131 @@
 		"consecutiveErrors": 1,
 		"errorReason": "",
 		"notes": "{\"type\":\"error\",\"status\":400,\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The 'openai/gpt-oss-120b' model is not supported when using Codex with a ChatGPT account.\"}}"
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Git Sync Obsidian Vault",
+		"status": "ok",
+		"durationS": 36.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Git Sync Workspace",
+		"status": "error",
+		"durationS": 3604.1,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 40.8,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f Agent couldn't generate a response. Note: some tool actions may have already been executed \u2014 please verify before retrying."
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 45.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Daily Todo cleanup",
+		"status": "ok",
+		"durationS": 40.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Weekly NAS report",
+		"status": "error",
+		"durationS": 17.7,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Nightly Kip backup",
+		"status": "ok",
+		"durationS": 25.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Nightly Batocera backup",
+		"status": "error",
+		"durationS": 3604.0,
+		"consecutiveErrors": 3,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Weekly Google Drive sync report",
+		"status": "error",
+		"durationS": 3605.0,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Nightly todo archival",
+		"status": "error",
+		"durationS": 3604.4,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Nightly skills publish",
+		"status": "error",
+		"durationS": 3604.1,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Nightly humidor export",
+		"status": "error",
+		"durationS": 58.3,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Nightly runs export",
+		"status": "error",
+		"durationS": 38.2,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-12 04:00:01",
+		"jobName": "Nightly NYC list export",
+		"status": "error",
+		"durationS": 306.9,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
 	}
 ]
