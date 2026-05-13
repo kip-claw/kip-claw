@@ -318,5 +318,13 @@
     "pingMs": 25.1,
     "server": "New York NY",
     "provider": "Spectrum"
+  },
+  {
+    "timestamp": "2026-05-13 09:00:39",
+    "downloadMbps": 306.4,
+    "uploadMbps": 10.17,
+    "pingMs": 20.9,
+    "server": "New York NY",
+    "provider": "OceanHost"
   }
 ]
