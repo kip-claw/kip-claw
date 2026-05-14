@@ -907,5 +907,176 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Git Sync Obsidian Vault",
+		"status": "ok",
+		"durationS": 89.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Git Sync Workspace",
+		"status": "ok",
+		"durationS": 137.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 101.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 167.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Weekly NAS report",
+		"status": "error",
+		"durationS": 17.7,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Nightly Kip backup",
+		"status": "ok",
+		"durationS": 79.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Nightly Batocera backup",
+		"status": "ok",
+		"durationS": 73.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Weekly Google Drive sync report",
+		"status": "error",
+		"durationS": 3605.0,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Nightly todo archival",
+		"status": "ok",
+		"durationS": 213.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Nightly skills publish",
+		"status": "ok",
+		"durationS": 76.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Nightly humidor export",
+		"status": "error",
+		"durationS": 98.0,
+		"consecutiveErrors": 4,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Nightly runs export",
+		"status": "error",
+		"durationS": 77.3,
+		"consecutiveErrors": 4,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Nightly NYC list export",
+		"status": "error",
+		"durationS": 73.2,
+		"consecutiveErrors": 4,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Weekly R2 offsite backup",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Pi hardware health check",
+		"status": "ok",
+		"durationS": 72.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "OpenClaw job status snapshot",
+		"status": "ok",
+		"durationS": 107.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "OpenClaw config snapshot",
+		"status": "ok",
+		"durationS": 81.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "Morning top stories",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-14 04:01:57",
+		"jobName": "openclaw-release-check",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
