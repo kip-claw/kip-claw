@@ -326,5 +326,13 @@
     "pingMs": 20.9,
     "server": "New York NY",
     "provider": "OceanHost"
+  },
+  {
+    "timestamp": "2026-05-13 21:00:34",
+    "downloadMbps": 485.21,
+    "uploadMbps": 15.61,
+    "pingMs": 18.3,
+    "server": "New York NY",
+    "provider": "Pilot Fiber"
   }
 ]
