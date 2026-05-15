@@ -342,5 +342,13 @@
     "pingMs": 23.1,
     "server": "New York NY",
     "provider": "UnlimitedFiber"
+  },
+  {
+    "timestamp": "2026-05-14 21:00:52",
+    "downloadMbps": 447.67,
+    "uploadMbps": 15.45,
+    "pingMs": 24.0,
+    "server": "New York NY",
+    "provider": "MIRHosting"
   }
 ]
