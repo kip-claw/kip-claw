@@ -1078,5 +1078,176 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Git Sync Obsidian Vault",
+		"status": "error",
+		"durationS": 61.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Git Sync Workspace",
+		"status": "error",
+		"durationS": 61.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 319.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 108.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Weekly NAS report",
+		"status": "error",
+		"durationS": 17.7,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Nightly Kip backup",
+		"status": "error",
+		"durationS": 61.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Nightly Batocera backup",
+		"status": "ok",
+		"durationS": 33.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Weekly Google Drive sync report",
+		"status": "error",
+		"durationS": 3605.0,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Nightly todo archival",
+		"status": "error",
+		"durationS": 61.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Nightly skills publish",
+		"status": "ok",
+		"durationS": 69.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Nightly humidor export",
+		"status": "error",
+		"durationS": 65.9,
+		"consecutiveErrors": 5,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Nightly runs export",
+		"status": "error",
+		"durationS": 47.9,
+		"consecutiveErrors": 5,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Nightly NYC list export",
+		"status": "error",
+		"durationS": 66.9,
+		"consecutiveErrors": 5,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Weekly R2 offsite backup",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Pi hardware health check",
+		"status": "error",
+		"durationS": 62.1,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "OpenClaw job status snapshot",
+		"status": "ok",
+		"durationS": 108.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "OpenClaw config snapshot",
+		"status": "ok",
+		"durationS": 71.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 54.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:01:31",
+		"jobName": "openclaw-release-check",
+		"status": "error",
+		"durationS": 61.0,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
 	}
 ]
