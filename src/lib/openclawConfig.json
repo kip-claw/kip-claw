@@ -108,5 +108,16 @@
 		"skillsCount": 28,
 		"gatewayMode": "local",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-15 04:15:30",
+		"version": "2026.5.12",
+		"primaryModel": "openai/gpt-5.4-mini",
+		"agentRuntime": "",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 29,
+		"gatewayMode": "local",
+		"notes": ""
 	}
 ]
