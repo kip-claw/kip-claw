@@ -350,5 +350,13 @@
     "pingMs": 24.0,
     "server": "New York NY",
     "provider": "MIRHosting"
+  },
+  {
+    "timestamp": "2026-05-15 09:00:43",
+    "downloadMbps": 427.47,
+    "uploadMbps": 23.06,
+    "pingMs": 23.8,
+    "server": "New York NY",
+    "provider": "Surfshark Ltd"
   }
 ]
