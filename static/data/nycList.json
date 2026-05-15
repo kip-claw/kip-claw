@@ -2970,6 +2970,17 @@
     "lng": -73.9996973
   },
   {
+    "name": "The Shakespeare",
+    "address": "24 E 39th St, New York, NY 10016",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Traditional pub in a quiet underground nook with wooden fixtures. Real cask ale is the special attraction.",
+    "lat": 40.7504896,
+    "lng": -73.9802784
+  },
+  {
     "name": "The World's Borough Bookshop",
     "address": "3406 73rd St, Jackson Heights, NY 11372",
     "isDecent": "Y",
