@@ -1,6 +1,16 @@
 {
   "cigars": [
     {
+      "dateAdded": "2026-05-15",
+      "maker": "Oliva",
+      "model": "Serie V Melanio Figurado",
+      "wrapper": "",
+      "origin": "",
+      "size": "",
+      "gauge": "",
+      "notes": ""
+    },
+    {
       "dateAdded": "2026-04-10",
       "maker": "Martinez",
       "model": "654",
@@ -37,7 +47,7 @@
       "wrapper": "Brazil",
       "origin": "Nicaragua",
       "size": "Toro",
-      "gauge": "",
+      "gauge": "52",
       "notes": ""
     },
     {
@@ -53,11 +63,18 @@
   ],
   "humidityReadings": [
     {
+      "date": "2026-05-15",
+      "time": "",
+      "rh": "62",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
       "date": "2026-05-09",
       "time": "15:54",
       "rh": "64",
       "temperatureF": "",
-      "notes": ""
+      "notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
     },
     {
       "date": "2026-04-08",
@@ -85,7 +102,7 @@
       "time": "",
       "rh": "71",
       "temperatureF": "",
-      "notes": ""
+      "notes": "Recorded via Kip"
     },
     {
       "date": "2026-05-01",
