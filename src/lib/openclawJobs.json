@@ -1249,5 +1249,176 @@
 		"consecutiveErrors": 1,
 		"errorReason": "",
 		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Git Sync Obsidian Vault",
+		"status": "error",
+		"durationS": 61.8,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Git Sync Workspace",
+		"status": "error",
+		"durationS": 61.7,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 61.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Evening speed test",
+		"status": "error",
+		"durationS": 61.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Weekly NAS report",
+		"status": "error",
+		"durationS": 17.7,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Nightly Kip backup",
+		"status": "error",
+		"durationS": 62.3,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Nightly Batocera backup",
+		"status": "error",
+		"durationS": 61.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Weekly Google Drive sync report",
+		"status": "error",
+		"durationS": 3605.0,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Nightly todo archival",
+		"status": "error",
+		"durationS": 61.9,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Nightly skills publish",
+		"status": "error",
+		"durationS": 61.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Nightly humidor export",
+		"status": "error",
+		"durationS": 62.0,
+		"consecutiveErrors": 6,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Nightly runs export",
+		"status": "error",
+		"durationS": 61.7,
+		"consecutiveErrors": 6,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Nightly NYC list export",
+		"status": "error",
+		"durationS": 62.0,
+		"consecutiveErrors": 6,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Weekly R2 offsite backup",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Pi hardware health check",
+		"status": "error",
+		"durationS": 61.8,
+		"consecutiveErrors": 5,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "OpenClaw job status snapshot",
+		"status": "error",
+		"durationS": 62.2,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "OpenClaw config snapshot",
+		"status": "error",
+		"durationS": 61.8,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 48.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-16 04:01:53",
+		"jobName": "openclaw-release-check",
+		"status": "error",
+		"durationS": 32.0,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
 	}
 ]
