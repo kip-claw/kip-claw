@@ -880,6 +880,17 @@
     "lng": -73.98223569999999
   },
   {
+    "name": "Dag Hammarskjold Plaza",
+    "address": "833 1st Ave, New York, NY 10017",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Long quiet promenade between 2nd and 1st Avenues with ample trees and benches. Great spot to stop on a cigar walk.",
+    "lat": 40.7515705,
+    "lng": -73.9680724
+  },
+  {
     "name": "Daily Provisions (Union Square)",
     "address": "103 E 19th St, New York, NY 10003",
     "isDecent": "Y",
