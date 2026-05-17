@@ -1,5 +1,7 @@
 <script lang="ts">
 	import ArticlePage from '$lib/ArticlePage.svelte';
+	import CronHeatmap from '$lib/CronHeatmap.svelte';
+	import CronJobTable from '$lib/CronJobTable.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import SpeedChart from '$lib/SpeedChart.svelte';
@@ -7,8 +9,11 @@
 	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
 	import type { PageCopy } from '$lib/copy';
+	import { getLatestSnapshot, buildHeatmap, getCronSummary } from '$lib/cronJobs';
+	import type { CronJobSnapshot } from '$lib/cronJobs';
 	import { getSpeedTestsSummary } from '$lib/speedTests';
 	import openclawConfig from '$lib/openclawConfig.json';
+	import openclawJobs from '$lib/openclawJobs.json';
 	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
 
@@ -20,11 +25,15 @@
 
 	const copy = copyData as PageCopy<{
 		openClawHeading: string;
+		cronHeading: string;
 		speedHeading: string;
 		labels: {
 			version: string;
 			model: string;
 			agent: string;
+			cronOk: string;
+			cronErrored: string;
+			cronAvgDuration: string;
 			latestDownload: string;
 			averageDownload: string;
 			latestUpload: string;
@@ -35,6 +44,9 @@
 
 	const summary = $derived(getSpeedTestsSummary(data.speedTests));
 	const latestConfig = openclawConfig.at(-1);
+	const cronLatest = getLatestSnapshot(openclawJobs as CronJobSnapshot[]);
+	const cronHeatmap = buildHeatmap(openclawJobs as CronJobSnapshot[]);
+	const cronSummary = getCronSummary(cronLatest);
 </script>
 
 <Seo {...copy.seo} />
@@ -49,6 +61,20 @@
 		<StatItem label={copy.labels.model} value={latestConfig?.primaryModel ?? '—'} />
 		<StatItem label={copy.labels.agent} value={latestConfig?.agentRuntime ?? '—'} />
 	</StatGrid>
+
+	<h2 class="stats-section">{copy.cronHeading}</h2>
+
+	<StatGrid label="Cron job summary" columns={3}>
+		<StatItem label={copy.labels.cronOk} value={cronSummary.ok} />
+		<StatItem label={copy.labels.cronErrored} value={cronSummary.errored} />
+		<StatItem
+			label={copy.labels.cronAvgDuration}
+			value={`${cronSummary.avgDuration.toFixed(0)}s`}
+		/>
+	</StatGrid>
+
+	<CronHeatmap rows={cronHeatmap.rows} dates={cronHeatmap.dates} />
+	<CronJobTable jobs={cronLatest} />
 
 	<h2 class="stats-section">{copy.speedHeading}</h2>
 
