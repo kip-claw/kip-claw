@@ -366,5 +366,13 @@
     "pingMs": 25.9,
     "server": "Secaucus NJ",
     "provider": "Interserver.Net"
+  },
+  {
+    "timestamp": "2026-05-17 07:06:49",
+    "downloadMbps": 400.27,
+    "uploadMbps": 21.67,
+    "pingMs": 18.2,
+    "server": "New York NY",
+    "provider": "Wnet"
   }
 ]
