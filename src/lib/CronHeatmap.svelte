@@ -15,7 +15,12 @@
 </script>
 
 <section class="heatmap-section" aria-labelledby="cron-heatmap-heading">
-	<h3 id="cron-heatmap-heading">Job history</h3>
+	<h3 id="cron-heatmap-heading">Last 7 days</h3>
+	<div class="legend" aria-label="Heatmap legend">
+		<span><i class="dot-legend" data-status="ok"></i> OK</span>
+		<span><i class="dot-legend" data-status="error"></i> Error</span>
+		<span><i class="dot-legend" data-status="idle"></i> Idle</span>
+	</div>
 	<div class="heatmap-scroll">
 		<table class="heatmap" role="grid" aria-label="Cron job status over time">
 			<thead>
@@ -39,11 +44,6 @@
 				{/each}
 			</tbody>
 		</table>
-	</div>
-	<div class="legend" aria-label="Heatmap legend">
-		<span><i class="dot-legend" data-status="ok"></i> OK</span>
-		<span><i class="dot-legend" data-status="error"></i> Error</span>
-		<span><i class="dot-legend" data-status="idle"></i> Idle</span>
 	</div>
 </section>
 
@@ -125,7 +125,8 @@
 	.legend {
 		display: flex;
 		gap: var(--space-4);
-		margin-top: var(--space-2);
+		margin-top: 0;
+		margin-bottom: var(--space-2);
 		font-size: var(--font-size-xs);
 		color: var(--color-muted);
 	}

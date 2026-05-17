@@ -8,13 +8,13 @@ header:
   deck: Diagnostic data for Kip, Ben Welsh's OpenClaw assistant
 
 openClawHeading: OpenClaw
-cronHeading: Cron jobs
+cronHeading: Scheduled tasks
 speedHeading: Internet speed
 
 labels:
   version: Version
   model: Model
-  agent: Agent
+  skills: Skills
   cronOk: Jobs OK
   cronErrored: Jobs errored
   cronAvgDuration: Avg duration

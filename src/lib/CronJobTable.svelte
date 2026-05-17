@@ -16,14 +16,7 @@
 			label: 'Duration',
 			sortable: true,
 			numeric: true
-		},
-		{
-			key: 'consecutiveErrors',
-			label: 'Streak',
-			sortable: true,
-			numeric: true
-		},
-		{ key: 'errorReason', label: 'Error', sortable: true }
+		}
 	];
 
 	const formatDuration = (s: number): string => {
@@ -38,11 +31,11 @@
 <DataTable
 	rows={jobs}
 	{columns}
-	heading="Cron jobs"
+	heading="Latest results"
 	headingId="cron-table-title"
 	countText="{jobs.length} jobs"
-	initialSortKey="status"
-	initialSortDirection="desc"
+	initialSortKey="jobName"
+	initialSortDirection="asc"
 	rowClass={(job) => (job.status === 'error' ? 'row-error' : undefined)}
 >
 	{#snippet row(job: CronJobLatest)}
@@ -51,8 +44,6 @@
 			<span class="status-badge" data-status={job.status}>{job.status}</span>
 		</td>
 		<td class="numeric">{formatDuration(job.durationS)}</td>
-		<td class="numeric">{job.consecutiveErrors || '—'}</td>
-		<td class="error-reason">{job.errorReason || '—'}</td>
 	{/snippet}
 </DataTable>
 
@@ -80,15 +71,6 @@
 	.status-badge[data-status='idle'] {
 		background: #e2e3e5;
 		color: #383d41;
-	}
-
-	.error-reason {
-		max-width: 200px;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		font-size: var(--font-size-xs);
-		color: var(--color-muted);
 	}
 
 	:global(.row-error) {

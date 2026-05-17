@@ -36,29 +36,44 @@ export function getLatestSnapshot(data: CronJobSnapshot[]): CronJobLatest[] {
 		.sort((a, b) => a.jobName.localeCompare(b.jobName));
 }
 
-export function buildHeatmap(data: CronJobSnapshot[]): {
+export function buildHeatmap(
+	data: CronJobSnapshot[],
+	maxDays = 7
+): {
 	rows: CronHeatmapRow[];
 	dates: string[];
 } {
-	const timestamps = [...new Set(data.map((r) => r.timestamp))].sort();
-	const dates = timestamps.map((ts) => ts.split(' ')[0]);
-	const jobNames = [...new Set(data.map((r) => r.jobName))].sort();
-
-	const lookup = new Map<string, CronJobSnapshot>();
+	// Group snapshots by date, keeping only the latest snapshot per day
+	const byDate = new Map<string, CronJobSnapshot[]>();
 	for (const r of data) {
-		lookup.set(`${r.timestamp}|${r.jobName}`, r);
+		const date = r.timestamp.split(' ')[0];
+		const existing = byDate.get(date);
+		if (!existing) {
+			byDate.set(date, [r]);
+		} else {
+			// If this timestamp is newer than what we have, replace
+			if (r.timestamp > existing[0].timestamp) {
+				byDate.set(date, [r]);
+			} else if (r.timestamp === existing[0].timestamp) {
+				existing.push(r);
+			}
+		}
 	}
+
+	const dates = [...byDate.keys()].sort().slice(-maxDays);
+	const jobNames = [...new Set(data.map((r) => r.jobName))].sort();
 
 	const rows: CronHeatmapRow[] = jobNames.map((jobName) => ({
 		jobName,
-		cells: timestamps.map((ts, i) => {
-			const record = lookup.get(`${ts}|${jobName}`);
+		cells: dates.map((date) => {
+			const snapshot = byDate.get(date) ?? [];
+			const record = snapshot.find((r) => r.jobName === jobName);
 			const status = record ? (record.status === '' ? 'idle' : record.status) : 'idle';
-			return { date: dates[i], status };
+			return { date, status };
 		})
 	}));
 
-	return { rows, dates: [...new Set(dates)] };
+	return { rows, dates };
 }
 
 export function getCronSummary(latest: CronJobLatest[]) {

@@ -30,7 +30,7 @@
 		labels: {
 			version: string;
 			model: string;
-			agent: string;
+			skills: string;
 			cronOk: string;
 			cronErrored: string;
 			cronAvgDuration: string;
@@ -59,7 +59,7 @@
 	<StatGrid label="OpenClaw system status" columns={3}>
 		<StatItem label={copy.labels.version} value={latestConfig?.version ?? '—'} />
 		<StatItem label={copy.labels.model} value={latestConfig?.primaryModel ?? '—'} />
-		<StatItem label={copy.labels.agent} value={latestConfig?.agentRuntime ?? '—'} />
+		<StatItem label={copy.labels.skills} value={latestConfig?.skillsCount ?? '—'} />
 	</StatGrid>
 
 	<h2 class="stats-section">{copy.cronHeading}</h2>
