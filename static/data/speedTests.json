@@ -358,5 +358,13 @@
     "pingMs": 23.8,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-05-16 21:00:44",
+    "downloadMbps": 377.0,
+    "uploadMbps": 22.75,
+    "pingMs": 25.9,
+    "server": "Secaucus NJ",
+    "provider": "Interserver.Net"
   }
 ]
