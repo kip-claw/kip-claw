@@ -110,6 +110,13 @@
       "rh": "70",
       "temperatureF": "",
       "notes": "Recorded via Kip"
+    },
+    {
+      "date": "2026-05-17",
+      "time": "16:36",
+      "rh": "65",
+      "temperatureF": "",
+      "notes": ""
     }
   ],
   "bovedaChanges": [
@@ -119,6 +126,13 @@
       "rh": "2",
       "packCount": "",
       "notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
+    },
+    {
+      "dateChanged": "2026-05-17",
+      "packType": "72\u00b0",
+      "rh": "72",
+      "packCount": "3",
+      "notes": "Removed 2 old packs and added 3 new ones"
     }
   ]
 }
