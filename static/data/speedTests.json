@@ -390,5 +390,13 @@
     "pingMs": 23.8,
     "server": "New York NY",
     "provider": "Starry Inc."
+  },
+  {
+    "timestamp": "2026-05-18 09:00:41",
+    "downloadMbps": 428.53,
+    "uploadMbps": 22.37,
+    "pingMs": 23.3,
+    "server": "Piscataway NJ",
+    "provider": "ReliableSite Hosting"
   }
 ]
