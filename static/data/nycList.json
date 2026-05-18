@@ -1452,6 +1452,28 @@
     "lng": -73.98484340000002
   },
   {
+    "name": "Joe's Pizza",
+    "address": "150 E 14th St, New York, NY 10003",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "My neighborhood outpost of the famous pizza purveyor. Decent and reliably recommended for a slice nearby.",
+    "lat": 40.7332353,
+    "lng": -73.98766309999999
+  },
+  {
+    "name": "Joe's Pizza (Carmine Street)",
+    "address": "7 Carmine St, New York, NY 10014",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "Y",
+    "isClosed": "N",
+    "notes": "The most famous location of one of New York's signature pizza chains. A great place to stop on any walk through the Village.",
+    "lat": 40.7306597,
+    "lng": -74.0021707
+  },
+  {
     "name": "Johny's Lunchette",
     "address": "124 W 25th St, New York, NY 10001",
     "isDecent": "Y",
