@@ -1933,5 +1933,176 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Git Sync Obsidian Vault",
+		"status": "ok",
+		"durationS": 129.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Git Sync Workspace",
+		"status": "ok",
+		"durationS": 135.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 151.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 151.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Daily Todo cleanup",
+		"status": "ok",
+		"durationS": 169.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Weekly NAS report",
+		"status": "ok",
+		"durationS": 82.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Nightly Kip backup",
+		"status": "ok",
+		"durationS": 118.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Nightly Batocera backup",
+		"status": "ok",
+		"durationS": 96.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Weekly Google Drive sync report",
+		"status": "ok",
+		"durationS": 180.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Nightly todo archival",
+		"status": "ok",
+		"durationS": 253.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Nightly skills publish",
+		"status": "ok",
+		"durationS": 79.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Nightly humidor export",
+		"status": "error",
+		"durationS": 110.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Nightly runs export",
+		"status": "ok",
+		"durationS": 75.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Nightly NYC list export",
+		"status": "ok",
+		"durationS": 114.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Weekly R2 offsite backup",
+		"status": "ok",
+		"durationS": 760.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Pi hardware health check",
+		"status": "ok",
+		"durationS": 116.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "OpenClaw job status snapshot",
+		"status": "ok",
+		"durationS": 128.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "OpenClaw config snapshot",
+		"status": "ok",
+		"durationS": 106.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-19 04:02:12",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 66.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
