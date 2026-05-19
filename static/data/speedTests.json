@@ -398,5 +398,13 @@
     "pingMs": 23.3,
     "server": "Piscataway NJ",
     "provider": "ReliableSite Hosting"
+  },
+  {
+    "timestamp": "2026-05-18 21:00:50",
+    "downloadMbps": 399.35,
+    "uploadMbps": 22.32,
+    "pingMs": 24.5,
+    "server": "New York NY",
+    "provider": "PVDataNet"
   }
 ]
