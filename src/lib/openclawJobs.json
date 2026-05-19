@@ -1071,15 +1071,6 @@
 		"notes": ""
 	},
 	{
-		"timestamp": "2026-05-14 04:01:57",
-		"jobName": "openclaw-release-check",
-		"status": "",
-		"durationS": 0.0,
-		"consecutiveErrors": 0,
-		"errorReason": "",
-		"notes": ""
-	},
-	{
 		"timestamp": "2026-05-15 04:01:31",
 		"jobName": "Git Sync Obsidian Vault",
 		"status": "error",
@@ -1240,15 +1231,6 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
-	},
-	{
-		"timestamp": "2026-05-15 04:01:31",
-		"jobName": "openclaw-release-check",
-		"status": "error",
-		"durationS": 61.0,
-		"consecutiveErrors": 1,
-		"errorReason": "",
-		"notes": "Delivering to Telegram requires target <chatId>"
 	},
 	{
 		"timestamp": "2026-05-16 04:01:53",
@@ -1413,15 +1395,6 @@
 		"notes": ""
 	},
 	{
-		"timestamp": "2026-05-16 04:01:53",
-		"jobName": "openclaw-release-check",
-		"status": "error",
-		"durationS": 32.0,
-		"consecutiveErrors": 2,
-		"errorReason": "",
-		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
-	},
-	{
 		"timestamp": "2026-05-17 04:01:38",
 		"jobName": "Git Sync Obsidian Vault",
 		"status": "error",
@@ -1580,15 +1553,6 @@
 		"status": "error",
 		"durationS": 62.4,
 		"consecutiveErrors": 1,
-		"errorReason": "",
-		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
-	},
-	{
-		"timestamp": "2026-05-17 04:01:38",
-		"jobName": "openclaw-release-check",
-		"status": "error",
-		"durationS": 61.9,
-		"consecutiveErrors": 3,
 		"errorReason": "",
 		"notes": "cron: isolated agent run stalled before execution start (last phase: attempt-dispatch)"
 	},
