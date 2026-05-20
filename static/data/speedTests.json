@@ -406,5 +406,13 @@
     "pingMs": 24.5,
     "server": "New York NY",
     "provider": "PVDataNet"
+  },
+  {
+    "timestamp": "2026-05-19 21:01:13",
+    "downloadMbps": 429.91,
+    "uploadMbps": 20.12,
+    "pingMs": 22.0,
+    "server": "New York NY",
+    "provider": "Surfshark Ltd"
   }
 ]
