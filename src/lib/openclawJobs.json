@@ -2068,5 +2068,212 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Git Sync Obsidian Vault",
+		"status": "ok",
+		"durationS": 188.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Git Sync Workspace",
+		"status": "ok",
+		"durationS": 133.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 23.9,
+		"consecutiveErrors": 1,
+		"errorReason": "auth",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.4: No API key found for provider \"openai-codex\". Auth store: /home/kip/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /home/kip/.op"
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 187.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Daily Todo cleanup",
+		"status": "ok",
+		"durationS": 270.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Weekly NAS report",
+		"status": "ok",
+		"durationS": 82.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Nightly Kip backup",
+		"status": "ok",
+		"durationS": 140.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Nightly Batocera backup",
+		"status": "ok",
+		"durationS": 94.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Weekly Google Drive sync report",
+		"status": "ok",
+		"durationS": 180.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Nightly todo archival",
+		"status": "ok",
+		"durationS": 271.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Nightly skills publish",
+		"status": "ok",
+		"durationS": 95.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Nightly humidor export",
+		"status": "error",
+		"durationS": 123.1,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Nightly runs export",
+		"status": "ok",
+		"durationS": 87.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Nightly NYC list export",
+		"status": "ok",
+		"durationS": 127.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Weekly R2 offsite backup",
+		"status": "error",
+		"durationS": 1803.1,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Pi hardware health check",
+		"status": "ok",
+		"durationS": 134.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "OpenClaw job status snapshot",
+		"status": "ok",
+		"durationS": 108.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "OpenClaw config snapshot",
+		"status": "ok",
+		"durationS": 95.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 77.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "OpenClaw release check",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Daily wiki maintenance",
+		"status": "error",
+		"durationS": 123.2,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Weekly wiki compile and lint",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-20 04:02:48",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 45.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
