@@ -1540,6 +1540,17 @@
     "lng": -73.9818793
   },
   {
+    "name": "Jury Duty",
+    "address": "31 St Andrews Plaza, New York, NY 10013",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Outdoor bar in the shade between the two famous courthouses. Not cheap, but what better place to celebrate getting sprung from voir dire.",
+    "lat": 40.7136627,
+    "lng": -74.0029878
+  },
+  {
     "name": "Just Salad",
     "address": "1412 Broadway, New York, NY 10018",
     "isDecent": "N",
@@ -3254,6 +3265,17 @@
     "notes": "Thin crust pizza in neighborhoody vibe",
     "lat": 40.7445147,
     "lng": -73.98142469999999
+  },
+  {
+    "name": "Vietspot",
+    "address": "99 Nassau St, New York, NY 10038",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Simple counter with a textbook banh mi loaded with pate that comes warm and fast.",
+    "lat": 40.710538,
+    "lng": -74.0076287
   },
   {
     "name": "Village East by Angelika",

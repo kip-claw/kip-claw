@@ -1230,5 +1230,13 @@
 	"7 Carmine St, New York, NY 10014": {
 		"lat": 40.7306597,
 		"lng": -74.0021707
+	},
+	"31 St Andrews Plaza, New York, NY 10013": {
+		"lat": 40.7136627,
+		"lng": -74.0029878
+	},
+	"99 Nassau St, New York, NY 10038": {
+		"lat": 40.710538,
+		"lng": -74.0076287
 	}
 }
