@@ -422,5 +422,13 @@
     "pingMs": 22.1,
     "server": "New York NY",
     "provider": "UnlimitedFiber"
+  },
+  {
+    "timestamp": "2026-05-20 21:00:54",
+    "downloadMbps": 471.16,
+    "uploadMbps": 22.24,
+    "pingMs": 23.9,
+    "server": "New York NY",
+    "provider": "WebNX Inc"
   }
 ]
