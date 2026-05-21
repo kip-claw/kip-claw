@@ -430,5 +430,13 @@
     "pingMs": 23.9,
     "server": "New York NY",
     "provider": "WebNX Inc"
+  },
+  {
+    "timestamp": "2026-05-21 09:01:12",
+    "downloadMbps": 405.87,
+    "uploadMbps": 22.0,
+    "pingMs": 21.8,
+    "server": "Hicksville NY",
+    "provider": "Optimum Online"
   }
 ]
