@@ -446,5 +446,13 @@
     "pingMs": 24.0,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-05-22 09:01:04",
+    "downloadMbps": 443.7,
+    "uploadMbps": 17.9,
+    "pingMs": 23.4,
+    "server": "New York NY",
+    "provider": "ServerRoom.net"
   }
 ]
