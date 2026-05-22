@@ -438,5 +438,13 @@
     "pingMs": 21.8,
     "server": "Hicksville NY",
     "provider": "Optimum Online"
+  },
+  {
+    "timestamp": "2026-05-21 21:00:57",
+    "downloadMbps": 477.79,
+    "uploadMbps": 21.3,
+    "pingMs": 24.0,
+    "server": "New York NY",
+    "provider": "Surfshark Ltd"
   }
 ]
