@@ -308,6 +308,17 @@
     "lng": -73.98972909999999
   },
   {
+    "name": "Bellevue South Park",
+    "address": "Mt. Carmel Pl. & E 27th St, New York, NY 10016",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Peaceful pocket park near Bellevue, good for smoking a cigar under a canopy of trees.",
+    "lat": 40.7398587,
+    "lng": -73.9777526
+  },
+  {
     "name": "Best Bagel and Coffee",
     "address": "225 W 35th St A, New York, NY 10001",
     "isDecent": "Y",
@@ -1034,6 +1045,17 @@
     "lng": -73.9895296
   },
   {
+    "name": "Eli's at Grand Central Market",
+    "address": "89 E 42nd St, New York, NY 10017",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Convenient outpost of the Eli Zabar archipelago in Grand Central Market, and a great place to pick up a peanut butter and jelly sandwich.",
+    "lat": 40.7527277,
+    "lng": -73.97723529999999
+  },
+  {
     "name": "Epistrophy",
     "address": "200 Mott St, New York, NY 10012",
     "isDecent": "Y",
@@ -1736,6 +1758,17 @@
     "notes": "Open air bar at the corner of Ludlow and Canal. Has a rundown Mediterranian style. New Yorky views of the gritty city corner.",
     "lat": 40.71476,
     "lng": -73.99094339999999
+  },
+  {
+    "name": "Leather Spa at Grand Central Terminal",
+    "address": "89 East 42nd Street, Lower Level Dining Concourse, New York, NY 10017",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Real shoeshine stand in Grand Central where you sit up high and watch people milling in the food court beneath the busy terminal.",
+    "lat": 40.7523861,
+    "lng": -73.9774315
   },
   {
     "name": "Leo's Bagels",

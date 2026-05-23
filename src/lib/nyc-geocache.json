@@ -1238,5 +1238,17 @@
 	"99 Nassau St, New York, NY 10038": {
 		"lat": 40.710538,
 		"lng": -74.0076287
+	},
+	"Mt. Carmel Pl. & E 27th St, New York, NY 10016": {
+		"lat": 40.7398587,
+		"lng": -73.9777526
+	},
+	"89 E 42nd St, New York, NY 10017": {
+		"lat": 40.7527277,
+		"lng": -73.97723529999999
+	},
+	"89 East 42nd Street, Lower Level Dining Concourse, New York, NY 10017": {
+		"lat": 40.7523861,
+		"lng": -73.9774315
 	}
 }
