@@ -1,20 +1,30 @@
 {
   "cigars": [
     {
+      "dateAdded": "2026-05-22",
+      "maker": "AJ Fernandez",
+      "model": "New World Gordo",
+      "wrapper": "Cameroon",
+      "origin": "Nicaragua",
+      "size": "Gordo",
+      "gauge": "60",
+      "notes": "New cigar placed in the humidor."
+    },
+    {
       "dateAdded": "2026-05-15",
       "maker": "Oliva",
       "model": "Serie V Melanio Figurado",
-      "wrapper": "",
-      "origin": "",
-      "size": "",
-      "gauge": "",
-      "notes": ""
+      "wrapper": "Ecuadorian Sumatra",
+      "origin": "Nicaragua",
+      "size": "Figurado",
+      "gauge": "52",
+      "notes": "NYC cigar, first cigar in humidor"
     },
     {
       "dateAdded": "2026-04-10",
       "maker": "Martinez",
       "model": "654",
-      "wrapper": "Unknown",
+      "wrapper": "Nicaraguan",
       "origin": "USA",
       "size": "Toro",
       "gauge": "54",
@@ -24,11 +34,11 @@
       "dateAdded": "2026-04-10",
       "maker": "Arturo Fuente",
       "model": "Magnum R Gran Reserva",
-      "wrapper": "Ecuadorian Habano",
+      "wrapper": "Ecuadorian Rosado Sungrown",
       "origin": "Dominican Republic",
       "size": "Robusto",
-      "gauge": "",
-      "notes": ""
+      "gauge": "52",
+      "notes": "Magnum R 52 is a 5 x 52 robusto in Fuente Rosado Sungrown line."
     },
     {
       "dateAdded": "2026-04-11",
@@ -37,37 +47,44 @@
       "wrapper": "Ecuadorian Habano",
       "origin": "Dominican Republic",
       "size": "Robusto",
-      "gauge": "",
-      "notes": ""
+      "gauge": "52",
+      "notes": "Ecuadorian Habano wrapper with Nicaraguan binder and Dominican/Nicaraguan filler."
     },
     {
       "dateAdded": "2026-04-27",
       "maker": "H. Upmann by AJ Fernandez",
       "model": "Heritage",
-      "wrapper": "Brazil",
+      "wrapper": "Brazilian Mata Fina",
       "origin": "Nicaragua",
       "size": "Toro",
-      "gauge": "52",
-      "notes": ""
+      "gauge": "54",
+      "notes": "Heritage Toro is 6 x 54 with Brazilian Mata Fina wrapper, Nicaraguan binder, and Nicaraguan/Brazilian filler."
     },
     {
       "dateAdded": "2026-05-01",
       "maker": "Arturo Fuente",
       "model": "Reserva Don Carlos",
-      "wrapper": "Cameroon",
+      "wrapper": "African Cameroon",
       "origin": "Dominican Republic",
       "size": "Belicoso",
       "gauge": "52",
-      "notes": ""
+      "notes": "Don Carlos Belicoso is 5 3/8 x 52 with Cameroon wrapper and Dominican filler."
     }
   ],
   "humidityReadings": [
+    {
+      "date": "2026-05-22",
+      "time": "18:35",
+      "rh": "67",
+      "temperatureF": "",
+      "notes": ""
+    },
     {
       "date": "2026-05-15",
       "time": "",
       "rh": "62",
       "temperatureF": "",
-      "notes": ""
+      "notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
     },
     {
       "date": "2026-05-09",
