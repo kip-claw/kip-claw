@@ -3,7 +3,17 @@ import { listPublishedSkills } from '$lib/skillsRepo';
 
 const site = 'https://kip.computer';
 
-const staticPages = ['/', '/blog/', '/stats/', '/soul/'];
+const staticPages = [
+	'/',
+	'/blog/',
+	'/stats/',
+	'/soul/',
+	'/apps/',
+	'/apps/domains/',
+	'/apps/humidor/',
+	'/apps/nyc/',
+	'/apps/runs/'
+];
 
 export const prerender = true;
 

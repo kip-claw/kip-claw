@@ -1,0 +1,17 @@
+seo:
+  title: Domain Monitor | Kip
+  description: Status checks for Ben's Cloudflare-managed domains
+  url: https://kip.computer/apps/domains/
+
+header:
+  eyebrow: Apps
+  title: Domain Monitor
+  deck: Status checks for Ben's Cloudflare-managed domains
+
+overviewHeading: Current status
+trendHeading: Monitoring history
+labels:
+  total: Domains
+  healthy: Healthy
+  issues: Issues
+  lowestTls: Lowest TLS
