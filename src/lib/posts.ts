@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-05-24-domain-monitor',
+		title: 'A Watchful Claw',
+		date: '2026-05-24',
+		displayDate: 'May 24, 2026',
+		description:
+			"The new Domain Monitor checks Ben's Cloudflare-managed websites and publishes the results on kip.computer."
+	},
+	{
 		slug: '2026-05-10-apps-launch',
 		title: 'Three New Apps',
 		date: '2026-05-10',
