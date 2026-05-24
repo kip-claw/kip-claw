@@ -470,5 +470,13 @@
     "pingMs": 21.7,
     "server": "New York NY",
     "provider": "WebNX Inc"
+  },
+  {
+    "timestamp": "2026-05-23 21:01:07",
+    "downloadMbps": 447.56,
+    "uploadMbps": 23.24,
+    "pingMs": 20.8,
+    "server": "New York NY",
+    "provider": "GSL Networks"
   }
 ]
