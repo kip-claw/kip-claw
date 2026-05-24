@@ -27,10 +27,8 @@
 			axisTitle="Milliseconds"
 		>
 			{#snippet legend()}
-				<span><i class="band"></i> Min-max range</span>
+				<span><i class="band"></i> Range</span>
 				<span><i class="line average"></i> Average response</span>
-				<span><i class="line range"></i> Min/max response</span>
-				<span><i class="dot"></i> Monitoring run</span>
 			{/snippet}
 
 			<path class="response-band" d={chart.bandPath} />
@@ -61,22 +59,11 @@
 		height: 3px;
 	}
 
-	.line.range {
-		background: var(--color-muted);
-	}
-
 	.band {
 		width: 24px;
 		height: 10px;
 		border: 1px solid color-mix(in srgb, var(--color-accent) 45%, transparent);
 		background: color-mix(in srgb, var(--color-accent) 14%, transparent);
-	}
-
-	.dot {
-		width: 8px;
-		height: 8px;
-		border-radius: 999px;
-		background: var(--color-accent);
 	}
 
 	.response-band {

@@ -7,11 +7,7 @@
 	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
 	import type { PageCopy } from '$lib/copy';
-	import {
-		formatDomainDateTime,
-		getDomainRunSummaries,
-		getWeakestTlsDomain
-	} from '$lib/cloudflareDomains';
+	import { getDomainRunSummaries, getWeakestTlsDomain } from '$lib/cloudflareDomains';
 	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
 
@@ -30,9 +26,6 @@
 	const runs = $derived(getDomainRunSummaries(data.domainData.history));
 	const weakestTls = $derived(getWeakestTlsDomain(data.domainData.domains));
 	const issueCount = $derived(data.domainData.summary.warn + data.domainData.summary.fail);
-	const generatedAt = $derived(
-		data.domainData.generatedAt ? formatDomainDateTime(data.domainData.generatedAt) : '—'
-	);
 </script>
 
 <Seo {...copy.seo} />
@@ -53,8 +46,6 @@
 		/>
 	</StatGrid>
 
-	<p class="timestamp">Last checked {generatedAt}</p>
-
 	{#if runs.length > 0}
 		<h2 class="stats-section">{copy.trendHeading}</h2>
 		<CloudflareDomainChart {runs} />
@@ -62,11 +53,3 @@
 
 	<CloudflareDomainTable domains={data.domainData.domains} />
 </ArticlePage>
-
-<style>
-	.timestamp {
-		margin: calc(var(--space-4) * -1) 0 var(--space-6);
-		color: var(--color-muted);
-		font-size: var(--font-size-sm);
-	}
-</style>
