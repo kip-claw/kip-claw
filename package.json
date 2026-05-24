@@ -18,7 +18,7 @@
 		"@lhci/cli": "^0.15.1",
 		"@rollup/plugin-yaml": "^4.1.2",
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.57.0",
+		"@sveltejs/kit": "^2.60.1",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@types/d3-array": "^3.2.2",
 		"@types/d3-scale": "^4.0.9",
