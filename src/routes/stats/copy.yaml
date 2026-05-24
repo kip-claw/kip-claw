@@ -14,7 +14,7 @@ speedHeading: Internet speed
 labels:
   version: Version
   model: Model
-  skills: Skills
+  memSearch: Memory search
   cronOk: Jobs OK
   cronErrored: Jobs errored
   cronAvgDuration: Avg duration
