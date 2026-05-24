@@ -1,20 +1,13 @@
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageLoad } from './$types';
-import {
-	fetchPublishedSkillMarkdown,
-	listPublishedSkills,
-	parseFrontmatter
-} from '$lib/skillsRepo';
+import { fetchPublishedSkillMarkdown, parseFrontmatter } from '$lib/skillsRepo';
+import type { PublishedSkill } from '$lib/skillsRepo';
+import publishedSkills from '$lib/publishedSkills.json';
 
 export const prerender = true;
 
 export const entries: EntryGenerator = async () => {
-	try {
-		const skills = await listPublishedSkills();
-		return skills.map((skill) => ({ slug: skill.slug }));
-	} catch {
-		return [];
-	}
+	return (publishedSkills as PublishedSkill[]).map((skill) => ({ slug: skill.slug }));
 };
 
 export const load: PageLoad = async ({ params }) => {

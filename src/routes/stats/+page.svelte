@@ -45,7 +45,7 @@
 	const summary = $derived(getSpeedTestsSummary(data.speedTests));
 	const latestConfig = openclawConfig.at(-1);
 	const cronLatest = getLatestSnapshot(openclawJobs as CronJobSnapshot[]);
-	const cronHeatmap = buildHeatmap(openclawJobs as CronJobSnapshot[]);
+	const cronHeatmap = buildHeatmap(openclawJobs as CronJobSnapshot[], 30);
 	const cronSummary = getCronSummary(cronLatest);
 </script>
 

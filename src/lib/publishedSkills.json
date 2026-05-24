@@ -1,0 +1,128 @@
+[
+	{
+		"slug": "chartbeat",
+		"title": "Chartbeat",
+		"description": "Fetches real-time top headlines and traffic data from Chartbeat for reuters.com.",
+		"path": "chartbeat/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/chartbeat/SKILL.md"
+	},
+	{
+		"slug": "cigar-humidor",
+		"title": "Cigar Humidor",
+		"description": "Log humidity readings, Boveda pack changes, and cigar additions to Ben's humidor Google Sheets. Use when asked to log humidity, add cigars, update humidor readings, or record Boveda pack changes.",
+		"path": "cigar-humidor/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/cigar-humidor/SKILL.md"
+	},
+	{
+		"slug": "homepage-charts",
+		"title": "Homepage Charts",
+		"description": "Log Reuters homepage chart appearances to Ben's Google Sheet. Use when asked to add a homepage chart entry, log a chart that made the reuters.com homepage, or record a homepage graphic.",
+		"path": "homepage-charts/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/homepage-charts/SKILL.md"
+	},
+	{
+		"slug": "morning-message",
+		"title": "Morning Message",
+		"description": "Generate Ben's daily good-morning message for the Reuters News Applications Desk Teams channel. Combines location, time, Chartbeat top story, news pegs, schedule, and optional run info.",
+		"path": "morning-message/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/morning-message/SKILL.md"
+	},
+	{
+		"slug": "movie-list",
+		"title": "Movie List",
+		"description": "Maintain Ben's movie list Google Sheet. Add movies to Watched or Wishlist, update viewing info, and query the sheet.",
+		"path": "movie-list/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/movie-list/SKILL.md"
+	},
+	{
+		"slug": "music-import",
+		"title": "Music Import",
+		"description": "Imports new albums into the NAS beets library and guides staging, duplicate checks, cleanup, and Kodi rescan.",
+		"path": "music-import/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/music-import/SKILL.md"
+	},
+	{
+		"slug": "nas-storage",
+		"title": "Nas Storage",
+		"description": "Manages NAS storage, file transfers, disk usage checks, drive health, and Google Drive sync operations.",
+		"path": "nas-storage/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/nas-storage/SKILL.md"
+	},
+	{
+		"slug": "nyc-list",
+		"title": "Nyc List",
+		"description": "Maintain Ben's NYC list Google Sheet. Add places, update status flags, and query the sheet.",
+		"path": "nyc-list/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/nyc-list/SKILL.md"
+	},
+	{
+		"slug": "obsidian-vault",
+		"title": "Obsidian Vault",
+		"description": "Works with the Obsidian vault knowledge base to read, create, edit, and search notes.",
+		"path": "obsidian-vault/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/obsidian-vault/SKILL.md"
+	},
+	{
+		"slug": "openclaw-releases",
+		"title": "Openclaw Releases",
+		"description": "Check for new OpenClaw package releases and notify the user when an update is available.",
+		"path": "openclaw-releases/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/openclaw-releases/SKILL.md"
+	},
+	{
+		"slug": "openclaw-upstream-pr",
+		"title": "Openclaw Upstream Pr",
+		"description": "Guide for submitting pull requests to the openclaw/openclaw upstream repository. Use when proposing bug fixes, features, or patches to OpenClaw maintainers.",
+		"path": "openclaw-upstream-pr/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/openclaw-upstream-pr/SKILL.md"
+	},
+	{
+		"slug": "pi-diagnostics",
+		"title": "Pi Diagnostics",
+		"description": "Query, review, or run Pi and OpenClaw diagnostics. Use when asked about Pi health, system temperatures, disk usage, cron job status, OpenClaw job history, or OpenClaw config snapshots.",
+		"path": "pi-diagnostics/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/pi-diagnostics/SKILL.md"
+	},
+	{
+		"slug": "reading-list",
+		"title": "Reading List",
+		"description": "Maintain Ben's reading list Google Sheet. Add books to Finished or Wishlist, update reading status, and query the sheet.",
+		"path": "reading-list/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/reading-list/SKILL.md"
+	},
+	{
+		"slug": "runs-log",
+		"title": "Runs Log",
+		"description": "Update Ben's runs log in Google Sheets. Use when asked to add a run or log date, distance, route description, and reflections for a workout.",
+		"path": "runs-log/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/runs-log/SKILL.md"
+	},
+	{
+		"slug": "speed-tests",
+		"title": "Speed Tests",
+		"description": "Runs an internet speed test, logs to Google Sheets, and updates kip-claw speedTests.json for public stats.",
+		"path": "speed-tests/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/speed-tests/SKILL.md"
+	},
+	{
+		"slug": "todo-archival",
+		"title": "Todo Archival",
+		"description": "Archives completed Todo.md items into Archive/Done-Items.md to keep the active task list clean.",
+		"path": "todo-archival/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/todo-archival/SKILL.md"
+	},
+	{
+		"slug": "tv-control",
+		"title": "Tv Control",
+		"description": "Controls TV, Yamaha receiver, and Kodi playback for music, video, photos, announcements, and power actions.",
+		"path": "tv-control/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/tv-control/SKILL.md"
+	},
+	{
+		"slug": "voice-transcribe",
+		"title": "Voice Transcribe",
+		"description": "Transcribes Telegram voice messages locally with whisper.cpp and returns text for downstream actions.",
+		"path": "voice-transcribe/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/voice-transcribe/SKILL.md"
+	}
+]
