@@ -478,5 +478,13 @@
     "pingMs": 20.8,
     "server": "New York NY",
     "provider": "GSL Networks"
+  },
+  {
+    "timestamp": "2026-05-24 09:01:21",
+    "downloadMbps": 480.63,
+    "uploadMbps": 22.12,
+    "pingMs": 19.8,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
