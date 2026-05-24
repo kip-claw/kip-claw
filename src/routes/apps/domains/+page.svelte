@@ -19,7 +19,6 @@
 
 	const copy = copyData as PageCopy<{
 		overviewHeading: string;
-		trendHeading: string;
 		labels: { total: string; healthy: string; issues: string; lowestTls: string };
 	}>;
 
@@ -47,7 +46,6 @@
 	</StatGrid>
 
 	{#if runs.length > 0}
-		<h2 class="stats-section">{copy.trendHeading}</h2>
 		<CloudflareDomainChart {runs} />
 	{/if}
 

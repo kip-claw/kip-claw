@@ -9,7 +9,6 @@ header:
   deck: How Ben's websites are holding up
 
 overviewHeading: Current status
-trendHeading: Monitoring history
 labels:
   total: Domains
   healthy: Healthy
