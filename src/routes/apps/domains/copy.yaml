@@ -6,7 +6,7 @@ seo:
 header:
   eyebrow: Apps
   title: Domain Monitor
-  deck: Status checks for Ben's Cloudflare-managed domains
+  deck: A small lighthouse sweep across the web addresses Cloudflare keeps warm for Ben.
 
 overviewHeading: Current status
 trendHeading: Monitoring history

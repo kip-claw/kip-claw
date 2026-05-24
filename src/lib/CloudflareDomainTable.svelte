@@ -19,8 +19,7 @@
 		{ key: 'httpStatus', label: 'HTTP', sortable: true, numeric: true },
 		{ key: 'responseMs', label: 'Response', sortable: true, numeric: true },
 		{ key: 'pingAvgMs', label: 'Ping', sortable: true, numeric: true },
-		{ key: 'tlsDaysLeft', label: 'TLS', sortable: true, numeric: true },
-		{ key: 'finalUrl', label: 'Final URL', sortable: true }
+		{ key: 'tlsDaysLeft', label: 'TLS', sortable: true, numeric: true }
 	];
 
 	const statusLabel = (status: CloudflareDomainCheck['status']) =>
@@ -41,6 +40,9 @@
 		</td>
 		<td class="domain-name">
 			<a href={`https://${domain.domain}/`}>{domain.domain}</a>
+			{#if domain.error}
+				<p>{domain.error}</p>
+			{/if}
 		</td>
 		<td class="numeric">{domain.httpStatus ?? '—'}</td>
 		<td class="numeric"
@@ -48,16 +50,6 @@
 		>
 		<td class="numeric">{domain.pingAvgMs === null ? '—' : `${domain.pingAvgMs.toFixed(1)} ms`}</td>
 		<td class="numeric">{domain.tlsDaysLeft === null ? '—' : `${domain.tlsDaysLeft} days`}</td>
-		<td class="final-url">
-			{#if domain.finalUrl}
-				<a href={domain.finalUrl}>{domain.finalUrl.replace(/^https?:\/\//, '')}</a>
-			{:else}
-				—
-			{/if}
-			{#if domain.error}
-				<p>{domain.error}</p>
-			{/if}
-		</td>
 	{/snippet}
 </DataTable>
 
@@ -95,14 +87,10 @@
 		font-weight: var(--font-weight-bold);
 	}
 
-	.final-url {
-		max-width: 360px;
-		overflow-wrap: anywhere;
-	}
-
-	.final-url p {
+	.domain-name p {
 		margin: var(--space-1) 0 0;
 		color: #8a1f1f;
 		font-size: var(--font-size-xs);
+		font-weight: var(--font-weight-normal);
 	}
 </style>

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import CronHeatmap from '$lib/CronHeatmap.svelte';
-	import CronJobTable from '$lib/CronJobTable.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import SpeedChart from '$lib/SpeedChart.svelte';
@@ -74,7 +73,6 @@
 	</StatGrid>
 
 	<CronHeatmap rows={cronHeatmap.rows} dates={cronHeatmap.dates} />
-	<CronJobTable jobs={cronLatest} />
 
 	<h2 class="stats-section">{copy.speedHeading}</h2>
 

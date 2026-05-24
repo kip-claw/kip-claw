@@ -10,7 +10,10 @@ export type DomainChartPoint = {
 };
 
 export type DomainChartModel = ChartFrameModel & {
-	linePath: string;
+	averageLinePath: string;
+	minLinePath: string;
+	maxLinePath: string;
+	bandPath: string;
 	points: DomainChartPoint[];
 };
 
@@ -31,7 +34,12 @@ export const buildCloudflareDomainChart = (
 	runs: DomainRunSummary[],
 	containerWidth: number
 ): DomainChartModel | null => {
-	const rows = runs.filter((run) => Number.isFinite(run.averageResponseMs));
+	const rows = runs.filter(
+		(run) =>
+			Number.isFinite(run.averageResponseMs) &&
+			Number.isFinite(run.minResponseMs) &&
+			Number.isFinite(run.maxResponseMs)
+	);
 	if (rows.length === 0) return null;
 
 	const width = Math.max(640, Math.round(containerWidth));
@@ -39,7 +47,7 @@ export const buildCloudflareDomainChart = (
 	const margin = { top: 44, right: 26, bottom: 56, left: 58 };
 	const innerWidth = width - margin.left - margin.right;
 	const innerHeight = height - margin.top - margin.bottom;
-	const maxResponse = niceCeil(Math.max(...rows.map((run) => run.averageResponseMs), 100));
+	const maxResponse = niceCeil(Math.max(...rows.map((run) => run.maxResponseMs), 100));
 	const minTime = +parseDomainCheckDate(rows[0].timestamp);
 	const maxTime = +parseDomainCheckDate(rows.at(-1)!.timestamp);
 	const timeSpan = Math.max(1, maxTime - minTime);
@@ -52,12 +60,24 @@ export const buildCloudflareDomainChart = (
 		x: xFor(run.timestamp),
 		y: yFor(run.averageResponseMs),
 		r: run.fail > 0 ? 6 : run.warn > 0 ? 5 : 4,
-		title: `${formatTickDate.format(parseDomainCheckDate(run.timestamp))}: ${run.averageResponseMs.toFixed(0)} ms average, ${run.fail} failing`
+		title: `${formatTickDate.format(parseDomainCheckDate(run.timestamp))}: ${run.minResponseMs.toFixed(0)}-${run.maxResponseMs.toFixed(0)} ms, ${run.averageResponseMs.toFixed(0)} ms average, ${run.fail} failing`
 	}));
 
-	const linePath = points
-		.map((point, index) => `${index === 0 ? 'M' : 'L'}${point.x},${point.y}`)
+	const pathFor = (valueFor: (run: DomainRunSummary) => number) =>
+		rows
+			.map(
+				(row, index) => `${index === 0 ? 'M' : 'L'}${xFor(row.timestamp)},${yFor(valueFor(row))}`
+			)
+			.join(' ');
+
+	const averageLinePath = pathFor((run) => run.averageResponseMs);
+	const minLinePath = pathFor((run) => run.minResponseMs);
+	const maxLinePath = pathFor((run) => run.maxResponseMs);
+	const lowerBandPoints = [...rows]
+		.reverse()
+		.map((row) => `L${xFor(row.timestamp)},${yFor(row.minResponseMs)}`)
 		.join(' ');
+	const bandPath = `${maxLinePath} ${lowerBandPoints} Z`;
 
 	const yTicks = [0, maxResponse / 2, maxResponse].map((value) => ({
 		y: yFor(value),
@@ -83,7 +103,10 @@ export const buildCloudflareDomainChart = (
 		margin,
 		xTicks,
 		yTicks,
-		linePath,
+		averageLinePath,
+		minLinePath,
+		maxLinePath,
+		bandPath,
 		points
 	};
 };

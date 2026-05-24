@@ -22,16 +22,21 @@
 			{chart}
 			chartId="domain-response-chart"
 			heading="Response trend"
-			title="Average HTTPS response time across monitored domains"
-			desc="Each dot shows one monitoring run. The line tracks average HTTPS response time across all Cloudflare-managed domains."
+			title="HTTPS response time range across monitored domains"
+			desc="Each run shows minimum, average, and maximum HTTPS response times across all Cloudflare-managed domains."
 			axisTitle="Milliseconds"
 		>
 			{#snippet legend()}
-				<span><i class="line"></i> Average response</span>
+				<span><i class="band"></i> Min-max range</span>
+				<span><i class="line average"></i> Average response</span>
+				<span><i class="line range"></i> Min/max response</span>
 				<span><i class="dot"></i> Monitoring run</span>
 			{/snippet}
 
-			<path class="response-line" d={chart.linePath} />
+			<path class="response-band" d={chart.bandPath} />
+			<path class="range-line" d={chart.maxLinePath} />
+			<path class="range-line" d={chart.minLinePath} />
+			<path class="response-line" d={chart.averageLinePath} />
 			{#each chart.points as point}
 				<circle class="run-dot" cx={point.x} cy={point.y} r={point.r}>
 					<title>{point.title}</title>
@@ -52,6 +57,21 @@
 		background: var(--color-text);
 	}
 
+	.line.average {
+		height: 3px;
+	}
+
+	.line.range {
+		background: var(--color-muted);
+	}
+
+	.band {
+		width: 24px;
+		height: 10px;
+		border: 1px solid color-mix(in srgb, var(--color-accent) 45%, transparent);
+		background: color-mix(in srgb, var(--color-accent) 14%, transparent);
+	}
+
 	.dot {
 		width: 8px;
 		height: 8px;
@@ -59,10 +79,24 @@
 		background: var(--color-accent);
 	}
 
+	.response-band {
+		fill: color-mix(in srgb, var(--color-accent) 13%, transparent);
+		stroke: none;
+	}
+
+	.range-line {
+		fill: none;
+		stroke: var(--color-muted);
+		stroke-width: 1.5;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		stroke-dasharray: 4 5;
+	}
+
 	.response-line {
 		fill: none;
 		stroke: var(--color-text);
-		stroke-width: 3;
+		stroke-width: 3.5;
 		stroke-linecap: round;
 		stroke-linejoin: round;
 	}

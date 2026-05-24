@@ -119,7 +119,9 @@ export type DomainRunSummary = {
 	ok: number;
 	warn: number;
 	fail: number;
+	minResponseMs: number;
 	averageResponseMs: number;
+	maxResponseMs: number;
 };
 
 export const getDomainRunSummaries = (history: CloudflareDomainCheck[]): DomainRunSummary[] => {
@@ -134,13 +136,16 @@ export const getDomainRunSummaries = (history: CloudflareDomainCheck[]): DomainR
 		.map(([timestamp, rows]) => {
 			const responseRows = rows.filter((row) => typeof row.responseMs === 'number');
 			const responseTotal = responseRows.reduce((total, row) => total + (row.responseMs ?? 0), 0);
+			const responseValues = responseRows.map((row) => row.responseMs ?? 0);
 			return {
 				timestamp,
 				total: rows.length,
 				ok: rows.filter((row) => row.status === 'ok').length,
 				warn: rows.filter((row) => row.status === 'warn').length,
 				fail: rows.filter((row) => row.status === 'fail').length,
-				averageResponseMs: responseRows.length > 0 ? responseTotal / responseRows.length : 0
+				minResponseMs: responseValues.length > 0 ? Math.min(...responseValues) : 0,
+				averageResponseMs: responseRows.length > 0 ? responseTotal / responseRows.length : 0,
+				maxResponseMs: responseValues.length > 0 ? Math.max(...responseValues) : 0
 			};
 		})
 		.sort((a, b) => +parseDomainCheckDate(a.timestamp) - +parseDomainCheckDate(b.timestamp));
