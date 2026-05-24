@@ -24,31 +24,33 @@
 		<span><i class="dot-legend" data-status="error"></i> Error</span>
 		<span><i class="dot-legend" data-status="idle"></i> Idle</span>
 	</div>
-	<div class="heatmap-grid">
-		<div class="heatmap-header">
-			<div class="job-name-col"></div>
-			<div class="dates-row">
-				{#each dates as date, i}
-					<span class="date-label" class:visible={i % labelInterval === 0}>
-						{formatDate(date)}
-					</span>
-				{/each}
-			</div>
-		</div>
-		{#each rows as row}
-			<div class="heatmap-row">
-				<div class="job-name" title={row.jobName}>{row.jobName}</div>
-				<div class="cells-row">
-					{#each row.cells as cell}
-						<span
-							class="cell"
-							data-status={cell.status}
-							title="{row.jobName} on {cell.date}: {cell.status}"
-						></span>
+	<div class="heatmap-container">
+		<div class="heatmap-grid" style={`--day-count: ${dates.length}`}>
+			<div class="heatmap-header">
+				<div class="job-name-col"></div>
+				<div class="dates-row" aria-hidden="true">
+					{#each dates as date, i}
+						<span class="date-label" class:visible={i % labelInterval === 0}>
+							{formatDate(date)}
+						</span>
 					{/each}
 				</div>
 			</div>
-		{/each}
+			{#each rows as row}
+				<div class="heatmap-row">
+					<div class="job-name" title={row.jobName}>{row.jobName}</div>
+					<div class="cells-row">
+						{#each row.cells as cell}
+							<span
+								class="cell"
+								data-status={cell.status}
+								title="{row.jobName} on {cell.date}: {cell.status}"
+							></span>
+						{/each}
+					</div>
+				</div>
+			{/each}
+		</div>
 	</div>
 </section>
 
@@ -61,29 +63,43 @@
 		margin: 0 0 var(--space-3);
 	}
 
-	.heatmap-grid {
+	.heatmap-container {
+		width: 100%;
 		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
+	}
+
+	.heatmap-grid {
+		--job-col: 180px;
+		--cell-size: 14px;
+		min-width: 600px;
+	}
+
+	.heatmap-header,
+	.heatmap-row {
+		display: grid;
+		grid-template-columns: var(--job-col) minmax(0, 1fr);
+		align-items: center;
+		gap: 0;
 	}
 
 	.heatmap-header {
-		display: flex;
-		align-items: flex-end;
 		margin-bottom: 2px;
+		align-items: end;
 	}
 
-	.dates-row {
-		display: flex;
-		flex: 1;
+	.dates-row,
+	.cells-row {
+		display: grid;
+		grid-template-columns: repeat(var(--day-count), minmax(0, 1fr));
 		gap: 1px;
 	}
 
 	.date-label {
-		flex: 1;
 		text-align: center;
 		font-size: 10px;
 		color: var(--color-muted);
 		visibility: hidden;
+		min-width: 0;
 	}
 
 	.date-label.visible {
@@ -91,37 +107,20 @@
 	}
 
 	.job-name-col {
-		width: 180px;
-		min-width: 180px;
-		flex-shrink: 0;
-	}
-
-	.heatmap-row {
-		display: flex;
-		align-items: center;
-		gap: 0;
+		min-height: 12px;
 	}
 
 	.job-name {
-		width: 180px;
-		min-width: 180px;
-		flex-shrink: 0;
 		font-size: var(--font-size-xs);
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		padding-right: var(--space-2);
-	}
-
-	.cells-row {
-		display: flex;
-		flex: 1;
-		gap: 1px;
+		line-height: 14px;
 	}
 
 	.cell {
-		flex: 1;
-		height: 14px;
+		height: var(--cell-size);
 		border-radius: 2px;
 		min-width: 0;
 	}
@@ -173,14 +172,9 @@
 	}
 
 	@media (max-width: 600px) {
-		.job-name-col {
-			width: 120px;
-			min-width: 120px;
-		}
-
-		.job-name {
-			width: 120px;
-			min-width: 120px;
+		.heatmap-grid {
+			--cell-size: 10px;
+			min-width: 450px;
 		}
 	}
 </style>
