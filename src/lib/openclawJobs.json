@@ -2896,5 +2896,212 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Git Sync Obsidian Vault",
+		"status": "ok",
+		"durationS": 163.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Git Sync Workspace",
+		"status": "ok",
+		"durationS": 194.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 155.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 173.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Daily Todo cleanup",
+		"status": "ok",
+		"durationS": 235.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Weekly NAS report",
+		"status": "ok",
+		"durationS": 82.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Nightly Kip backup",
+		"status": "ok",
+		"durationS": 162.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Nightly Batocera backup",
+		"status": "ok",
+		"durationS": 121.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Weekly Google Drive sync report",
+		"status": "ok",
+		"durationS": 180.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Nightly todo archival",
+		"status": "ok",
+		"durationS": 283.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Nightly skills publish",
+		"status": "ok",
+		"durationS": 108.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Nightly humidor export",
+		"status": "ok",
+		"durationS": 141.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Nightly runs export",
+		"status": "ok",
+		"durationS": 142.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Nightly NYC list export",
+		"status": "ok",
+		"durationS": 170.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Weekly R2 offsite backup",
+		"status": "error",
+		"durationS": 1803.1,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Pi hardware health check",
+		"status": "ok",
+		"durationS": 155.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "OpenClaw job status snapshot",
+		"status": "ok",
+		"durationS": 153.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "OpenClaw config snapshot",
+		"status": "ok",
+		"durationS": 149.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 128.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 109.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Daily wiki maintenance",
+		"status": "ok",
+		"durationS": 212.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Weekly wiki compile and lint",
+		"status": "error",
+		"durationS": 66.2,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-24 04:02:39",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 69.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
