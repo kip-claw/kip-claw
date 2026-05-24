@@ -113,6 +113,12 @@ export const parseCloudflareDomainData = (raw: unknown): CloudflareDomainData =>
 
 export const parseDomainCheckDate = (timestamp: string) => new Date(timestamp);
 
+const domainRunBucket = (timestamp: string) => {
+	const date = parseDomainCheckDate(timestamp);
+	date.setUTCMinutes(0, 0, 0);
+	return date.toISOString().replace('.000Z', 'Z');
+};
+
 export type DomainRunSummary = {
 	timestamp: string;
 	total: number;
@@ -127,9 +133,10 @@ export type DomainRunSummary = {
 export const getDomainRunSummaries = (history: CloudflareDomainCheck[]): DomainRunSummary[] => {
 	const grouped = new Map<string, CloudflareDomainCheck[]>();
 	for (const row of history) {
-		const group = grouped.get(row.timestamp) ?? [];
+		const bucket = domainRunBucket(row.timestamp);
+		const group = grouped.get(bucket) ?? [];
 		group.push(row);
-		grouped.set(row.timestamp, group);
+		grouped.set(bucket, group);
 	}
 
 	return [...grouped.entries()]
