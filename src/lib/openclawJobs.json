@@ -3319,5 +3319,221 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 244.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 245.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 195.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 174.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 196.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 82.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 176.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 127.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 328.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 278.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 163.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 141.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 153.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 144.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 1803.1,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 151.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 168.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 134.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 162.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 122.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 188.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 118.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "OpenClaw dreaming",
+		"status": "ok",
+		"durationS": 68.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-25 06:00:54",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 183.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
