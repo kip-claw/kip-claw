@@ -1250,5 +1250,9 @@
 	"89 East 42nd Street, Lower Level Dining Concourse, New York, NY 10017": {
 		"lat": 40.7523861,
 		"lng": -73.9774315
+	},
+	"1435 Broadway, New York, NY 10018": {
+		"lat": 40.7546767,
+		"lng": -73.9870266
 	}
 }

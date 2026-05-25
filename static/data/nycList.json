@@ -1496,6 +1496,17 @@
     "lng": -74.0021707
   },
   {
+    "name": "Joe\u2019s Pizza (Times Square)",
+    "address": "1435 Broadway, New York, NY 10018",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Just as good as the other Joe\u2019s Pizza locations, but the Times Square placement means the lines are too long and the prices are a little too high.",
+    "lat": 40.7546767,
+    "lng": -73.9870266
+  },
+  {
     "name": "Johny's Lunchette",
     "address": "124 W 25th St, New York, NY 10001",
     "isDecent": "Y",
