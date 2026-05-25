@@ -502,5 +502,13 @@
     "pingMs": 21.5,
     "server": "New York NY",
     "provider": "UnlimitedFiber"
+  },
+  {
+    "timestamp": "2026-05-25 09:01:15",
+    "downloadMbps": 529.32,
+    "uploadMbps": 22.52,
+    "pingMs": 21.3,
+    "server": "New York NY",
+    "provider": "Surfshark Ltd"
   }
 ]
