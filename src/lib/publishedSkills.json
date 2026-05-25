@@ -14,6 +14,13 @@
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/cigar-humidor/SKILL.md"
 	},
 	{
+		"slug": "cloudflare-domain-monitor",
+		"title": "Cloudflare Domain Monitor",
+		"description": "Monitor Ben's Cloudflare-managed domains, log DNS/ping/HTTPS/TLS status to Google Sheets, and update kip-claw domain status JSON for a public app tracker.",
+		"path": "cloudflare-domain-monitor/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/cloudflare-domain-monitor/SKILL.md"
+	},
+	{
 		"slug": "homepage-charts",
 		"title": "Homepage Charts",
 		"description": "Log Reuters homepage chart appearances to Ben's Google Sheet. Use when asked to add a homepage chart entry, log a chart that made the reuters.com homepage, or record a homepage graphic.",
