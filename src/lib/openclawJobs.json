@@ -3535,5 +3535,230 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 188.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 326.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 204.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 214.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 259.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 154.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 202.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 115.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 328.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 286.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 163.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 141.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 153.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 144.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 1803.1,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: attempt-dispatch)"
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 136.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 168.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 134.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 154.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 110.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 171.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 118.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "OpenClaw dreaming",
+		"status": "ok",
+		"durationS": 76.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 198.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-26 04:04:09",
+		"jobName": "Twitter archive sync",
+		"status": "error",
+		"durationS": 350.4,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>"
 	}
 ]
