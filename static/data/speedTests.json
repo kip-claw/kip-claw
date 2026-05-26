@@ -510,5 +510,13 @@
     "pingMs": 21.3,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-05-25 21:01:34",
+    "downloadMbps": 352.52,
+    "uploadMbps": 20.45,
+    "pingMs": 26.8,
+    "server": "New Jersey NJ",
+    "provider": "KamaTera Inc."
   }
 ]
