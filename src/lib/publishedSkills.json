@@ -126,6 +126,13 @@
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/tv-control/SKILL.md"
 	},
 	{
+		"slug": "twitter-archive",
+		"title": "Twitter Archive",
+		"description": "Search and query Ben's @palewire Twitter/X archive (tweets, likes, bookmarks, DMs, follower graph) via birdclaw on the NAS.",
+		"path": "twitter-archive/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/twitter-archive/SKILL.md"
+	},
+	{
 		"slug": "voice-transcribe",
 		"title": "Voice Transcribe",
 		"description": "Transcribes Telegram voice messages locally with whisper.cpp and returns text for downstream actions.",
