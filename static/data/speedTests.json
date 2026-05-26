@@ -518,5 +518,13 @@
     "pingMs": 26.8,
     "server": "New Jersey NJ",
     "provider": "KamaTera Inc."
+  },
+  {
+    "timestamp": "2026-05-26 09:01:15",
+    "downloadMbps": 352.64,
+    "uploadMbps": 22.41,
+    "pingMs": 18.6,
+    "server": "New York NY",
+    "provider": "UnlimitedFiber"
   }
 ]
