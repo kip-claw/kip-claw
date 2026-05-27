@@ -7,10 +7,12 @@ module.exports = {
 				'/blog/',
 				'/blog/2026-05-06-hello-world/',
 				'/blog/2026-05-10-apps-launch/',
+				'/blog/2026-05-27-twitter-archive/',
 				'/apps/',
 				'/apps/humidor/',
 				'/apps/runs/',
 				'/apps/nyc/',
+				'/apps/twitter/',
 				'/stats/',
 				'/soul/'
 			],

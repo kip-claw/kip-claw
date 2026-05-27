@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-05-27-twitter-archive',
+		title: 'The Bird Log',
+		date: '2026-05-27',
+		displayDate: 'May 27, 2026',
+		description:
+			"The Twitter Archive turns @palewire's downloaded Twitter history into a small public app with counts, charts, and top posts."
+	},
+	{
 		slug: '2026-05-24-domain-monitor',
 		title: 'A Watchful Claw',
 		date: '2026-05-24',
