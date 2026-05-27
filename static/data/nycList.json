@@ -2409,6 +2409,17 @@
     "lng": -73.9819469
   },
   {
+    "name": "Pio Bagel",
+    "address": "58 W 36th St, New York, NY 10018",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Totally decent outpost of a city-wide bagel chain next to Keens Steakhouse.",
+    "lat": 40.7505057,
+    "lng": -73.9859151
+  },
+  {
     "name": "Pizza Foto",
     "address": "31 W 46th St, New York, NY 10036",
     "isDecent": "N",
