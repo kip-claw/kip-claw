@@ -1,0 +1,974 @@
+{
+  "summary": {
+    "totalTweets": 74171,
+    "totalLikes": 133713,
+    "originalTweets": 38245,
+    "replies": 35926,
+    "firstTweet": "1994-05-30T03:17:12.000Z",
+    "lastTweet": "2026-05-25T10:06:55.000Z"
+  },
+  "monthlyTweets": [
+    {
+      "month": "1994-05",
+      "count": 1
+    },
+    {
+      "month": "1995-06",
+      "count": 1
+    },
+    {
+      "month": "2008-04",
+      "count": 62
+    },
+    {
+      "month": "2008-05",
+      "count": 480
+    },
+    {
+      "month": "2008-06",
+      "count": 177
+    },
+    {
+      "month": "2008-07",
+      "count": 233
+    },
+    {
+      "month": "2008-08",
+      "count": 142
+    },
+    {
+      "month": "2008-09",
+      "count": 232
+    },
+    {
+      "month": "2008-10",
+      "count": 236
+    },
+    {
+      "month": "2008-11",
+      "count": 295
+    },
+    {
+      "month": "2008-12",
+      "count": 241
+    },
+    {
+      "month": "2009-01",
+      "count": 200
+    },
+    {
+      "month": "2009-02",
+      "count": 278
+    },
+    {
+      "month": "2009-03",
+      "count": 322
+    },
+    {
+      "month": "2009-04",
+      "count": 316
+    },
+    {
+      "month": "2009-05",
+      "count": 266
+    },
+    {
+      "month": "2009-06",
+      "count": 331
+    },
+    {
+      "month": "2009-07",
+      "count": 288
+    },
+    {
+      "month": "2009-08",
+      "count": 269
+    },
+    {
+      "month": "2009-09",
+      "count": 238
+    },
+    {
+      "month": "2009-10",
+      "count": 246
+    },
+    {
+      "month": "2009-11",
+      "count": 230
+    },
+    {
+      "month": "2009-12",
+      "count": 224
+    },
+    {
+      "month": "2010-01",
+      "count": 211
+    },
+    {
+      "month": "2010-02",
+      "count": 149
+    },
+    {
+      "month": "2010-03",
+      "count": 165
+    },
+    {
+      "month": "2010-04",
+      "count": 182
+    },
+    {
+      "month": "2010-05",
+      "count": 155
+    },
+    {
+      "month": "2010-06",
+      "count": 177
+    },
+    {
+      "month": "2010-07",
+      "count": 257
+    },
+    {
+      "month": "2010-08",
+      "count": 267
+    },
+    {
+      "month": "2010-09",
+      "count": 197
+    },
+    {
+      "month": "2010-10",
+      "count": 183
+    },
+    {
+      "month": "2010-11",
+      "count": 229
+    },
+    {
+      "month": "2010-12",
+      "count": 225
+    },
+    {
+      "month": "2011-01",
+      "count": 250
+    },
+    {
+      "month": "2011-02",
+      "count": 209
+    },
+    {
+      "month": "2011-03",
+      "count": 255
+    },
+    {
+      "month": "2011-04",
+      "count": 197
+    },
+    {
+      "month": "2011-05",
+      "count": 204
+    },
+    {
+      "month": "2011-06",
+      "count": 140
+    },
+    {
+      "month": "2011-07",
+      "count": 235
+    },
+    {
+      "month": "2011-08",
+      "count": 216
+    },
+    {
+      "month": "2011-09",
+      "count": 311
+    },
+    {
+      "month": "2011-10",
+      "count": 433
+    },
+    {
+      "month": "2011-11",
+      "count": 311
+    },
+    {
+      "month": "2011-12",
+      "count": 348
+    },
+    {
+      "month": "2012-01",
+      "count": 565
+    },
+    {
+      "month": "2012-02",
+      "count": 409
+    },
+    {
+      "month": "2012-03",
+      "count": 522
+    },
+    {
+      "month": "2012-04",
+      "count": 433
+    },
+    {
+      "month": "2012-05",
+      "count": 550
+    },
+    {
+      "month": "2012-06",
+      "count": 570
+    },
+    {
+      "month": "2012-07",
+      "count": 505
+    },
+    {
+      "month": "2012-08",
+      "count": 331
+    },
+    {
+      "month": "2012-09",
+      "count": 327
+    },
+    {
+      "month": "2012-10",
+      "count": 391
+    },
+    {
+      "month": "2012-11",
+      "count": 429
+    },
+    {
+      "month": "2012-12",
+      "count": 409
+    },
+    {
+      "month": "2013-01",
+      "count": 598
+    },
+    {
+      "month": "2013-02",
+      "count": 487
+    },
+    {
+      "month": "2013-03",
+      "count": 520
+    },
+    {
+      "month": "2013-04",
+      "count": 449
+    },
+    {
+      "month": "2013-05",
+      "count": 524
+    },
+    {
+      "month": "2013-06",
+      "count": 668
+    },
+    {
+      "month": "2013-07",
+      "count": 638
+    },
+    {
+      "month": "2013-08",
+      "count": 492
+    },
+    {
+      "month": "2013-09",
+      "count": 544
+    },
+    {
+      "month": "2013-10",
+      "count": 473
+    },
+    {
+      "month": "2013-11",
+      "count": 280
+    },
+    {
+      "month": "2013-12",
+      "count": 410
+    },
+    {
+      "month": "2014-01",
+      "count": 347
+    },
+    {
+      "month": "2014-02",
+      "count": 271
+    },
+    {
+      "month": "2014-03",
+      "count": 402
+    },
+    {
+      "month": "2014-04",
+      "count": 614
+    },
+    {
+      "month": "2014-05",
+      "count": 551
+    },
+    {
+      "month": "2014-06",
+      "count": 473
+    },
+    {
+      "month": "2014-07",
+      "count": 354
+    },
+    {
+      "month": "2014-08",
+      "count": 449
+    },
+    {
+      "month": "2014-09",
+      "count": 453
+    },
+    {
+      "month": "2014-10",
+      "count": 566
+    },
+    {
+      "month": "2014-11",
+      "count": 569
+    },
+    {
+      "month": "2014-12",
+      "count": 435
+    },
+    {
+      "month": "2015-01",
+      "count": 588
+    },
+    {
+      "month": "2015-02",
+      "count": 566
+    },
+    {
+      "month": "2015-03",
+      "count": 678
+    },
+    {
+      "month": "2015-04",
+      "count": 656
+    },
+    {
+      "month": "2015-05",
+      "count": 517
+    },
+    {
+      "month": "2015-06",
+      "count": 505
+    },
+    {
+      "month": "2015-07",
+      "count": 763
+    },
+    {
+      "month": "2015-08",
+      "count": 560
+    },
+    {
+      "month": "2015-09",
+      "count": 496
+    },
+    {
+      "month": "2015-10",
+      "count": 552
+    },
+    {
+      "month": "2015-11",
+      "count": 442
+    },
+    {
+      "month": "2015-12",
+      "count": 362
+    },
+    {
+      "month": "2016-01",
+      "count": 366
+    },
+    {
+      "month": "2016-02",
+      "count": 543
+    },
+    {
+      "month": "2016-03",
+      "count": 479
+    },
+    {
+      "month": "2016-04",
+      "count": 569
+    },
+    {
+      "month": "2016-05",
+      "count": 555
+    },
+    {
+      "month": "2016-06",
+      "count": 401
+    },
+    {
+      "month": "2016-07",
+      "count": 363
+    },
+    {
+      "month": "2016-08",
+      "count": 347
+    },
+    {
+      "month": "2016-09",
+      "count": 504
+    },
+    {
+      "month": "2016-10",
+      "count": 632
+    },
+    {
+      "month": "2016-11",
+      "count": 550
+    },
+    {
+      "month": "2016-12",
+      "count": 390
+    },
+    {
+      "month": "2017-01",
+      "count": 416
+    },
+    {
+      "month": "2017-02",
+      "count": 414
+    },
+    {
+      "month": "2017-03",
+      "count": 361
+    },
+    {
+      "month": "2017-04",
+      "count": 452
+    },
+    {
+      "month": "2017-05",
+      "count": 598
+    },
+    {
+      "month": "2017-06",
+      "count": 708
+    },
+    {
+      "month": "2017-07",
+      "count": 669
+    },
+    {
+      "month": "2017-08",
+      "count": 551
+    },
+    {
+      "month": "2017-09",
+      "count": 473
+    },
+    {
+      "month": "2017-10",
+      "count": 628
+    },
+    {
+      "month": "2017-11",
+      "count": 541
+    },
+    {
+      "month": "2017-12",
+      "count": 426
+    },
+    {
+      "month": "2018-01",
+      "count": 376
+    },
+    {
+      "month": "2018-02",
+      "count": 355
+    },
+    {
+      "month": "2018-03",
+      "count": 464
+    },
+    {
+      "month": "2018-04",
+      "count": 946
+    },
+    {
+      "month": "2018-05",
+      "count": 453
+    },
+    {
+      "month": "2018-06",
+      "count": 482
+    },
+    {
+      "month": "2018-07",
+      "count": 405
+    },
+    {
+      "month": "2018-08",
+      "count": 339
+    },
+    {
+      "month": "2018-09",
+      "count": 326
+    },
+    {
+      "month": "2018-10",
+      "count": 438
+    },
+    {
+      "month": "2018-11",
+      "count": 389
+    },
+    {
+      "month": "2018-12",
+      "count": 488
+    },
+    {
+      "month": "2019-01",
+      "count": 425
+    },
+    {
+      "month": "2019-02",
+      "count": 224
+    },
+    {
+      "month": "2019-03",
+      "count": 350
+    },
+    {
+      "month": "2019-04",
+      "count": 340
+    },
+    {
+      "month": "2019-05",
+      "count": 264
+    },
+    {
+      "month": "2019-06",
+      "count": 241
+    },
+    {
+      "month": "2019-07",
+      "count": 286
+    },
+    {
+      "month": "2019-08",
+      "count": 239
+    },
+    {
+      "month": "2019-09",
+      "count": 265
+    },
+    {
+      "month": "2019-10",
+      "count": 348
+    },
+    {
+      "month": "2019-11",
+      "count": 303
+    },
+    {
+      "month": "2019-12",
+      "count": 240
+    },
+    {
+      "month": "2020-01",
+      "count": 262
+    },
+    {
+      "month": "2020-02",
+      "count": 342
+    },
+    {
+      "month": "2020-03",
+      "count": 386
+    },
+    {
+      "month": "2020-04",
+      "count": 484
+    },
+    {
+      "month": "2020-05",
+      "count": 388
+    },
+    {
+      "month": "2020-06",
+      "count": 323
+    },
+    {
+      "month": "2020-07",
+      "count": 371
+    },
+    {
+      "month": "2020-08",
+      "count": 419
+    },
+    {
+      "month": "2020-09",
+      "count": 381
+    },
+    {
+      "month": "2020-10",
+      "count": 479
+    },
+    {
+      "month": "2020-11",
+      "count": 644
+    },
+    {
+      "month": "2020-12",
+      "count": 501
+    },
+    {
+      "month": "2021-01",
+      "count": 428
+    },
+    {
+      "month": "2021-02",
+      "count": 424
+    },
+    {
+      "month": "2021-03",
+      "count": 382
+    },
+    {
+      "month": "2021-04",
+      "count": 280
+    },
+    {
+      "month": "2021-05",
+      "count": 474
+    },
+    {
+      "month": "2021-06",
+      "count": 298
+    },
+    {
+      "month": "2021-07",
+      "count": 252
+    },
+    {
+      "month": "2021-08",
+      "count": 303
+    },
+    {
+      "month": "2021-09",
+      "count": 414
+    },
+    {
+      "month": "2021-10",
+      "count": 567
+    },
+    {
+      "month": "2021-11",
+      "count": 395
+    },
+    {
+      "month": "2021-12",
+      "count": 348
+    },
+    {
+      "month": "2022-01",
+      "count": 327
+    },
+    {
+      "month": "2022-02",
+      "count": 352
+    },
+    {
+      "month": "2022-03",
+      "count": 506
+    },
+    {
+      "month": "2022-04",
+      "count": 341
+    },
+    {
+      "month": "2022-05",
+      "count": 257
+    },
+    {
+      "month": "2022-06",
+      "count": 310
+    },
+    {
+      "month": "2022-07",
+      "count": 315
+    },
+    {
+      "month": "2022-08",
+      "count": 340
+    },
+    {
+      "month": "2022-09",
+      "count": 445
+    },
+    {
+      "month": "2022-10",
+      "count": 327
+    },
+    {
+      "month": "2022-11",
+      "count": 474
+    },
+    {
+      "month": "2022-12",
+      "count": 342
+    },
+    {
+      "month": "2023-01",
+      "count": 246
+    },
+    {
+      "month": "2023-02",
+      "count": 155
+    },
+    {
+      "month": "2023-03",
+      "count": 173
+    },
+    {
+      "month": "2023-04",
+      "count": 190
+    },
+    {
+      "month": "2023-05",
+      "count": 175
+    },
+    {
+      "month": "2023-06",
+      "count": 166
+    },
+    {
+      "month": "2023-07",
+      "count": 177
+    },
+    {
+      "month": "2023-08",
+      "count": 146
+    },
+    {
+      "month": "2023-09",
+      "count": 137
+    },
+    {
+      "month": "2023-10",
+      "count": 160
+    },
+    {
+      "month": "2023-11",
+      "count": 166
+    },
+    {
+      "month": "2023-12",
+      "count": 122
+    },
+    {
+      "month": "2024-01",
+      "count": 189
+    },
+    {
+      "month": "2024-02",
+      "count": 182
+    },
+    {
+      "month": "2024-03",
+      "count": 180
+    },
+    {
+      "month": "2024-04",
+      "count": 170
+    },
+    {
+      "month": "2024-05",
+      "count": 215
+    },
+    {
+      "month": "2024-06",
+      "count": 138
+    },
+    {
+      "month": "2024-07",
+      "count": 179
+    },
+    {
+      "month": "2024-08",
+      "count": 194
+    },
+    {
+      "month": "2024-09",
+      "count": 118
+    },
+    {
+      "month": "2024-10",
+      "count": 131
+    },
+    {
+      "month": "2024-11",
+      "count": 87
+    },
+    {
+      "month": "2024-12",
+      "count": 67
+    },
+    {
+      "month": "2025-01",
+      "count": 57
+    },
+    {
+      "month": "2025-02",
+      "count": 95
+    },
+    {
+      "month": "2025-03",
+      "count": 48
+    },
+    {
+      "month": "2025-04",
+      "count": 63
+    },
+    {
+      "month": "2025-05",
+      "count": 77
+    },
+    {
+      "month": "2025-06",
+      "count": 44
+    },
+    {
+      "month": "2025-07",
+      "count": 37
+    },
+    {
+      "month": "2025-08",
+      "count": 42
+    },
+    {
+      "month": "2025-09",
+      "count": 50
+    },
+    {
+      "month": "2025-10",
+      "count": 78
+    },
+    {
+      "month": "2025-11",
+      "count": 72
+    },
+    {
+      "month": "2025-12",
+      "count": 66
+    },
+    {
+      "month": "2026-01",
+      "count": 65
+    },
+    {
+      "month": "2026-02",
+      "count": 63
+    },
+    {
+      "month": "2026-03",
+      "count": 54
+    },
+    {
+      "month": "2026-04",
+      "count": 37
+    },
+    {
+      "month": "2026-05",
+      "count": 50
+    }
+  ],
+  "topTweets": [
+    {
+      "id": "1181611182882353152",
+      "text": "Alright, nerds\n\nI filed a FOIA appeal and won the infamous NROL-39 surveillance satellite logo as a PDF.\n\nhttps://t.co/GypoZPnwsu\n\nThis ain't a scanned powerpoint. This is a resizable vector. You know what you must do. Unleash the swag. https://t.co/WZJXeBdHPi",
+      "createdAt": "2019-10-08T16:43:53.000Z",
+      "likeCount": 2195,
+      "mediaCount": 1,
+      "isReply": false
+    },
+    {
+      "id": "985179795771211776",
+      "text": "The new @latimes owner is moving the newsroom from its historic HQ to El Segundo.\n\nI've been lucky enough to inhabit and explore the interlocking buildings at 1st and Spring for over a decade.\n\nI'd like to share it with you. It's a beautiful day in #DTLA. Shall we take a wander? https://t.co/PYnRwVraHf",
+      "createdAt": "2018-04-14T15:35:41.000Z",
+      "likeCount": 1534,
+      "mediaCount": 1,
+      "isReply": false
+    },
+    {
+      "id": "1288995784826871808",
+      "text": "In 1894, the @latimes launched a carrier pigeon service that ferried news back and forth between downtown LA and Catalina Island.\n\nThe byline included the pigeon. https://t.co/KuWqkG1u37",
+      "createdAt": "2020-07-31T00:31:58.000Z",
+      "likeCount": 1203,
+      "mediaCount": 4,
+      "isReply": false
+    },
+    {
+      "id": "1221536823203094528",
+      "text": "Every shot in @kobebryant's iconic career. All 30,699 of them. \n\nhttps://t.co/hJnDxUnE5W",
+      "createdAt": "2020-01-26T20:54:08.000Z",
+      "likeCount": 1016,
+      "mediaCount": 0,
+      "isReply": false
+    },
+    {
+      "id": "1307209050774405121",
+      "text": "Quakebot never sleeps\n\nhttps://t.co/ndNobxENHk",
+      "createdAt": "2020-09-19T06:44:59.000Z",
+      "likeCount": 603,
+      "mediaCount": 0,
+      "isReply": false
+    },
+    {
+      "id": "682986043839127552",
+      "text": "Anti @realDonaldTrump skywriting above the #RoseParade reads: \"America is great. Trump is disgusting.\" https://t.co/0tuz94PN6v",
+      "createdAt": "2016-01-01T18:05:36.000Z",
+      "likeCount": 501,
+      "mediaCount": 1,
+      "isReply": false
+    },
+    {
+      "id": "2029516566983798819",
+      "text": "\ud83d\udd0d I'm pleased to announce the launch of https://t.co/L2kNFuvXmC, a new AI-powered search engine unlocking the collective knowledge of Investigative Reporters and Editors members. https://t.co/rMidy73t1N",
+      "createdAt": "2026-03-05T11:17:10.000Z",
+      "likeCount": 501,
+      "mediaCount": 1,
+      "isReply": false
+    },
+    {
+      "id": "985184285589032961",
+      "text": "The lobby at 2nd and Spring with it's beautiful fixtures, including -30-, the traditional newspaper code for a story's end, hung over the exit. https://t.co/h8QR0PU5Vt",
+      "createdAt": "2018-04-14T15:53:32.000Z",
+      "likeCount": 364,
+      "mediaCount": 4,
+      "isReply": true
+    },
+    {
+      "id": "1021085888997048321",
+      "text": "Our editors want everyone to be able to appreciate @thejgold today. \n\nAt their instruction, I've taken down the paywall on Gold's 2017 list of LA's best restaurants. Dig in!\n\nhttps://t.co/BFtrgdxTBS",
+      "createdAt": "2018-07-22T17:33:41.000Z",
+      "likeCount": 345,
+      "mediaCount": 0,
+      "isReply": false
+    },
+    {
+      "id": "1252857472332652548",
+      "text": "Quakebot don't sleep https://t.co/YsPSUvXq0n",
+      "createdAt": "2020-04-22T07:11:13.000Z",
+      "likeCount": 340,
+      "mediaCount": 0,
+      "isReply": false
+    }
+  ]
+}

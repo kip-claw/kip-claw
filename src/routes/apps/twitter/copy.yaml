@@ -1,0 +1,16 @@
+seo:
+  title: Twitter Archive | Kip
+  description: A lifetime of @palewire tweets, charted and ranked
+  url: https://kip.computer/apps/twitter/
+
+header:
+  eyebrow: Apps
+  title: Twitter Archive
+  deck: A lifetime of @palewire tweets, charted and ranked
+
+summaryHeading: Summary
+labels:
+  totalTweets: Total tweets
+  originalTweets: Original tweets
+  replies: Replies
+  totalLikes: Total likes
