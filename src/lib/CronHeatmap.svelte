@@ -82,6 +82,10 @@
 		gap: 0;
 	}
 
+	.heatmap-row {
+		border-top: 1px solid var(--color-line);
+	}
+
 	.heatmap-header {
 		margin-bottom: 2px;
 		align-items: end;
