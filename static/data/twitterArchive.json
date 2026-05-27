@@ -896,7 +896,10 @@
       "createdAt": "2019-10-08T16:43:53.000Z",
       "likeCount": 2195,
       "mediaCount": 1,
-      "isReply": false
+      "isReply": false,
+      "media": [
+        "https://pbs.twimg.com/media/EGXs53VUcAA3qa0.jpg"
+      ]
     },
     {
       "id": "985179795771211776",
@@ -904,7 +907,10 @@
       "createdAt": "2018-04-14T15:35:41.000Z",
       "likeCount": 1534,
       "mediaCount": 1,
-      "isReply": false
+      "isReply": false,
+      "media": [
+        "https://pbs.twimg.com/media/DawPy1PUMAARPJ4.jpg"
+      ]
     },
     {
       "id": "1288995784826871808",
@@ -912,7 +918,13 @@
       "createdAt": "2020-07-31T00:31:58.000Z",
       "likeCount": 1203,
       "mediaCount": 4,
-      "isReply": false
+      "isReply": false,
+      "media": [
+        "https://pbs.twimg.com/media/EeNuuNXUMAADGEP.png",
+        "https://pbs.twimg.com/media/EeNuvePUEAAR1X9.png",
+        "https://pbs.twimg.com/media/EeNuwX5VoAAF5dO.png",
+        "https://pbs.twimg.com/media/EeNuy2mUMAYj36r.png"
+      ]
     },
     {
       "id": "1221536823203094528",
@@ -920,7 +932,8 @@
       "createdAt": "2020-01-26T20:54:08.000Z",
       "likeCount": 1016,
       "mediaCount": 0,
-      "isReply": false
+      "isReply": false,
+      "media": []
     },
     {
       "id": "1307209050774405121",
@@ -928,7 +941,8 @@
       "createdAt": "2020-09-19T06:44:59.000Z",
       "likeCount": 603,
       "mediaCount": 0,
-      "isReply": false
+      "isReply": false,
+      "media": []
     },
     {
       "id": "682986043839127552",
@@ -936,7 +950,10 @@
       "createdAt": "2016-01-01T18:05:36.000Z",
       "likeCount": 501,
       "mediaCount": 1,
-      "isReply": false
+      "isReply": false,
+      "media": [
+        "https://pbs.twimg.com/media/CXpzkwoUEAE4ILS.jpg"
+      ]
     },
     {
       "id": "2029516566983798819",
@@ -944,7 +961,10 @@
       "createdAt": "2026-03-05T11:17:10.000Z",
       "likeCount": 501,
       "mediaCount": 1,
-      "isReply": false
+      "isReply": false,
+      "media": [
+        "https://pbs.twimg.com/media/HCpKj7bXwAEENQr.png"
+      ]
     },
     {
       "id": "985184285589032961",
@@ -952,7 +972,13 @@
       "createdAt": "2018-04-14T15:53:32.000Z",
       "likeCount": 364,
       "mediaCount": 4,
-      "isReply": true
+      "isReply": true,
+      "media": [
+        "https://pbs.twimg.com/media/DawTzI9U8AErCUb.jpg",
+        "https://pbs.twimg.com/media/DawT0J3VwAED5Hg.jpg",
+        "https://pbs.twimg.com/media/DawT13DVwAQCB5S.jpg",
+        "https://pbs.twimg.com/media/DawT3fwU8AA7s9y.jpg"
+      ]
     },
     {
       "id": "1021085888997048321",
@@ -960,7 +986,8 @@
       "createdAt": "2018-07-22T17:33:41.000Z",
       "likeCount": 345,
       "mediaCount": 0,
-      "isReply": false
+      "isReply": false,
+      "media": []
     },
     {
       "id": "1252857472332652548",
@@ -968,7 +995,8 @@
       "createdAt": "2020-04-22T07:11:13.000Z",
       "likeCount": 340,
       "mediaCount": 0,
-      "isReply": false
+      "isReply": false,
+      "media": []
     }
   ]
 }

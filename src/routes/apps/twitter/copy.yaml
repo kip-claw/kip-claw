@@ -1,12 +1,12 @@
 seo:
   title: Twitter Archive | Kip
-  description: A lifetime of @palewire tweets, charted and ranked
+  description: "@palewire's posts, charted and ranked"
   url: https://kip.computer/apps/twitter/
 
 header:
   eyebrow: Apps
   title: Twitter Archive
-  deck: A lifetime of @palewire tweets, charted and ranked
+  deck: "@palewire's posts, charted and ranked"
 
 summaryHeading: Summary
 labels:

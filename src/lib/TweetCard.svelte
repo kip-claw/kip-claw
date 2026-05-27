@@ -19,15 +19,29 @@
 	<ol class="tweet-cards">
 		{#each tweets as tweet, i}
 			<li class="tweet-card">
-				<div class="tweet-rank">#{i + 1}</div>
-				<div class="tweet-body">
-					<p class="tweet-text">{tweet.text}</p>
-					<div class="tweet-meta">
-						<span class="tweet-likes">{tweet.likeCount.toLocaleString()} likes</span>
-						<span class="tweet-date">{formatDate.format(new Date(tweet.createdAt))}</span>
-						{#if tweet.isReply}<span class="tweet-reply">Reply</span>{/if}
+				<a
+					class="tweet-link"
+					href="https://x.com/palewire/status/{tweet.id}"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<div class="tweet-rank">#{i + 1}</div>
+					<div class="tweet-body">
+						<p class="tweet-text">{tweet.text}</p>
+						{#if tweet.media.length > 0}
+							<div class="tweet-media">
+								{#each tweet.media as url}
+									<img src={url} alt="" loading="lazy" />
+								{/each}
+							</div>
+						{/if}
+						<div class="tweet-meta">
+							<span class="tweet-likes">{tweet.likeCount.toLocaleString()} likes</span>
+							<span class="tweet-date">{formatDate.format(new Date(tweet.createdAt))}</span>
+							{#if tweet.isReply}<span class="tweet-badge">Reply</span>{/if}
+						</div>
 					</div>
-				</div>
+				</a>
 			</li>
 		{/each}
 	</ol>
@@ -46,25 +60,42 @@
 		list-style: none;
 		padding: 0;
 		margin: 0;
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		grid-template-columns: 1fr;
 		gap: var(--space-3);
+	}
+
+	@media (min-width: 768px) {
+		.tweet-cards {
+			grid-template-columns: 1fr 1fr;
+		}
 	}
 
 	.tweet-card {
-		display: grid;
-		grid-template-columns: 40px 1fr;
-		gap: var(--space-3);
-		padding: var(--space-3) var(--space-4);
-		border: 1px solid var(--color-line);
+		border: 2px solid var(--color-accent);
 		border-radius: 8px;
 		background: var(--color-bg);
+		overflow: hidden;
+	}
+
+	.tweet-link {
+		display: grid;
+		grid-template-columns: 44px 1fr;
+		gap: var(--space-3);
+		padding: var(--space-3) var(--space-4);
+		text-decoration: none;
+		color: inherit;
+		height: 100%;
+	}
+
+	.tweet-link:hover {
+		background: rgba(0, 0, 0, 0.02);
 	}
 
 	.tweet-rank {
-		font-size: var(--font-size-lg);
+		font-size: var(--font-size-xl);
 		font-weight: 700;
-		color: var(--color-muted);
+		color: var(--color-accent);
 		align-self: start;
 		padding-top: 2px;
 	}
@@ -77,8 +108,24 @@
 		word-break: break-word;
 	}
 
+	.tweet-media {
+		display: flex;
+		gap: var(--space-2);
+		margin-bottom: var(--space-2);
+		overflow: hidden;
+		border-radius: 6px;
+	}
+
+	.tweet-media img {
+		width: 100%;
+		max-height: 200px;
+		object-fit: cover;
+		border-radius: 6px;
+	}
+
 	.tweet-meta {
 		display: flex;
+		flex-wrap: wrap;
 		gap: var(--space-3);
 		font-size: var(--font-size-xs);
 		color: var(--color-muted);
@@ -89,7 +136,7 @@
 		color: var(--color-accent);
 	}
 
-	.tweet-reply {
+	.tweet-badge {
 		background: var(--color-line);
 		padding: 0 6px;
 		border-radius: 4px;

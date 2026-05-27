@@ -23,6 +23,7 @@ export type TopTweet = {
 	likeCount: number;
 	mediaCount: number;
 	isReply: boolean;
+	media: string[];
 };
 
 export function parseTwitterArchiveData(raw: unknown): TwitterArchiveData {
