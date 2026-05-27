@@ -13,6 +13,7 @@
 	import { getSpeedTestsSummary } from '$lib/speedTests';
 	import openclawConfig from '$lib/openclawConfig.json';
 	import openclawJobs from '$lib/openclawJobs.json';
+	import cronJobNames from '$lib/cronJobNames.json';
 	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
 
@@ -43,8 +44,12 @@
 
 	const summary = $derived(getSpeedTestsSummary(data.speedTests));
 	const latestConfig = openclawConfig.at(-1);
-	const cronLatest = getLatestSnapshot(openclawJobs as CronJobSnapshot[]);
-	const cronHeatmap = buildHeatmap(openclawJobs as CronJobSnapshot[], 30);
+	const activeJobSet = new Set(cronJobNames as string[]);
+	const filteredJobs = (openclawJobs as CronJobSnapshot[]).filter((r) =>
+		activeJobSet.has(r.jobName)
+	);
+	const cronLatest = getLatestSnapshot(filteredJobs);
+	const cronHeatmap = buildHeatmap(filteredJobs, 30);
 	const cronSummary = getCronSummary(cronLatest);
 </script>
 
