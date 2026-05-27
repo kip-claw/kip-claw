@@ -534,5 +534,13 @@
     "pingMs": 41.1,
     "server": "Oxford MA",
     "provider": "Spectrum"
+  },
+  {
+    "timestamp": "2026-05-27 09:02:11",
+    "downloadMbps": 456.87,
+    "uploadMbps": 23.23,
+    "pingMs": 26.0,
+    "server": "White Plains NY",
+    "provider": "Optimum Online"
   }
 ]
