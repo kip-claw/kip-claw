@@ -70,7 +70,8 @@
 
 	.heatmap-grid {
 		--job-col: 180px;
-		--cell-size: 14px;
+		--cell-size: 18px;
+		--row-gap: 3px;
 		min-width: 600px;
 	}
 
@@ -84,6 +85,7 @@
 
 	.heatmap-row {
 		border-top: 1px solid var(--color-line);
+		padding: var(--row-gap) 0;
 	}
 
 	.heatmap-header {
@@ -119,8 +121,8 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		padding-right: var(--space-2);
-		line-height: 14px;
+		padding-right: var(--space-3);
+		line-height: 1.4;
 	}
 
 	.cell {
