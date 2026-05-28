@@ -550,5 +550,13 @@
     "pingMs": 27.7,
     "server": "Kingston NY",
     "provider": "Archtop Fiber"
+  },
+  {
+    "timestamp": "2026-05-28 09:00:52",
+    "downloadMbps": 415.49,
+    "uploadMbps": 23.47,
+    "pingMs": 24.8,
+    "server": "White Plains NY",
+    "provider": "Optimum Online"
   }
 ]
