@@ -566,5 +566,13 @@
     "pingMs": 27.5,
     "server": "New York NY",
     "provider": "PVDataNet"
+  },
+  {
+    "timestamp": "2026-05-29 09:00:58",
+    "downloadMbps": 389.32,
+    "uploadMbps": 22.26,
+    "pingMs": 30.4,
+    "server": "Kingston NY",
+    "provider": "Archtop Fiber"
   }
 ]
