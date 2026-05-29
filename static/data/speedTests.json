@@ -558,5 +558,13 @@
     "pingMs": 24.8,
     "server": "White Plains NY",
     "provider": "Optimum Online"
+  },
+  {
+    "timestamp": "2026-05-28 21:00:51",
+    "downloadMbps": 491.82,
+    "uploadMbps": 22.37,
+    "pingMs": 27.5,
+    "server": "New York NY",
+    "provider": "PVDataNet"
   }
 ]
