@@ -273,5 +273,16 @@
 		"skillsCount": 29,
 		"gatewayMode": "local",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-29 04:15:45",
+		"version": "2026.5.27",
+		"primaryModel": "codex/gpt-5.5",
+		"agentRuntime": "",
+		"memSearchProvider": "gemini",
+		"memSearchModel": "gemini-embedding-001",
+		"skillsCount": 29,
+		"gatewayMode": "local",
+		"notes": ""
 	}
 ]
