@@ -574,5 +574,13 @@
     "pingMs": 30.4,
     "server": "Kingston NY",
     "provider": "Archtop Fiber"
+  },
+  {
+    "timestamp": "2026-05-30 09:00:15",
+    "downloadMbps": 467.16,
+    "uploadMbps": 22.81,
+    "pingMs": 23.7,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
