@@ -114,7 +114,7 @@
 	{
 		"slug": "todo-archival",
 		"title": "Todo Archival",
-		"description": "Archives completed Todo.md items into Archive/Done-Items.md to keep the active task list clean.",
+		"description": "Move checked items in Todo.md's `## Done` section into the `## Since Last Digest` buffer. The buffer stays in Todo.md until the news-apps-digest skill (or Ben) sweeps it to Archive/Done-Items.md after a digest is sent.",
 		"path": "todo-archival/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/todo-archival/SKILL.md"
 	},
