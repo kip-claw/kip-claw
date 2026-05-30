@@ -69,6 +69,26 @@
       "size": "Belicoso",
       "gauge": "52",
       "notes": "Don Carlos Belicoso is 5 3/8 x 52 with Cameroon wrapper and Dominican filler."
+    },
+    {
+      "dateAdded": "2026-05-29",
+      "maker": "AJ Fernandez",
+      "model": "New World Oscuro",
+      "wrapper": "Dark Nicaragua",
+      "origin": "Nicaragua",
+      "size": "Toro",
+      "gauge": "55",
+      "notes": ""
+    },
+    {
+      "dateAdded": "2026-05-29",
+      "maker": "Dona Flor",
+      "model": "Gran Corona",
+      "wrapper": "Sumatra",
+      "origin": "Brazil",
+      "size": "Gran Corona",
+      "gauge": "56",
+      "notes": ""
     }
   ],
   "humidityReadings": [
@@ -132,6 +152,13 @@
       "date": "2026-05-17",
       "time": "16:36",
       "rh": "65",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
+      "date": "2026-05-29",
+      "time": "21:30",
+      "rh": "71",
       "temperatureF": "",
       "notes": ""
     }
