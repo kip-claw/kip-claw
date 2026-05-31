@@ -590,5 +590,13 @@
     "pingMs": 24.0,
     "server": "New York NY",
     "provider": "Wnet"
+  },
+  {
+    "timestamp": "2026-05-30 21:07:34",
+    "downloadMbps": 415.15,
+    "uploadMbps": 18.02,
+    "pingMs": 23.1,
+    "server": "New York NY",
+    "provider": "Nitel"
   }
 ]
