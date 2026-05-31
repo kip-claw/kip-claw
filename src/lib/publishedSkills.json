@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "audiobook",
+		"title": "Audiobook",
+		"description": "Convert a long-form article, essay, speech, blog post, PDF, or public document URL into a narrated MP3/M4A audiobook using a pluggable TTS provider (OpenAI / ElevenLabs / Piper / Kokoro). Caches per-chunk audio so repeated runs only re-render changed sections.",
+		"path": "audiobook/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/audiobook/SKILL.md"
+	},
+	{
 		"slug": "chartbeat",
 		"title": "Chartbeat",
 		"description": "Fetches real-time top headlines and traffic data from Chartbeat for reuters.com.",

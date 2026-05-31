@@ -4696,5 +4696,248 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 144.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 226.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 36.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 137.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 154.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 154.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 124.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 56.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 328.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 302.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 44.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 14.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 11.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 9.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "R2 offsite backup",
+		"status": "ok",
+		"durationS": 972.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 75.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "OpenClaw job report",
+		"status": "error",
+		"durationS": 41.8,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 45.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 76.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 47.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 185.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 62.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 25.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 92.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Twitter archive sync",
+		"status": "error",
+		"durationS": 111.7,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: Requested agent harness \"codex\" does not support openai/gpt-5.5 (provider is not one of: codex). (unknown) | openai/gpt-5.4-mini: Requested"
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 100.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-05-31 04:00:33",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 146.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
