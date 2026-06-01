@@ -4939,5 +4939,266 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 189.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 181.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Sync SOUL page",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Dependabot PR triage",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 32.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \u2709\ufe0f Message failed"
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 108.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 259.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 154.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 43.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 49.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 133.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 54.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 85.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 67.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 68.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 62.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "R2 offsite backup",
+		"status": "ok",
+		"durationS": 972.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 82.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 98.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 93.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Morning top stories",
+		"status": "ok",
+		"durationS": 67.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 85.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 208.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 62.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 12.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 92.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 251.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 101.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-01 04:00:47",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 146.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
