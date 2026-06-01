@@ -1,1 +1,1 @@
-<a href="https://kip.computer"><img width="1640" height="959" alt="ChatGPT Image May 20, 2026, 03_32_50 PM" src="https://github.com/user-attachments/assets/e7efd071-d85d-44d7-9c14-59cf073d38e1" /></a>
+<a href="https://kip.computer"><img width="1640" height="959" alt="ChatGPT Image May 20, 2026, 03_32_50 PM" src="https://github.com/user-attachments/assets/7f04a67a-b6f2-4c37-9758-0b64323bbbdc" /></a>
