@@ -2442,6 +2442,17 @@
     "lng": -73.9853837
   },
   {
+    "name": "Please Don\u2019t Tell",
+    "address": "113 St Marks Pl, New York, NY 10009",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Decent, tightly packed basement cocktail bar with extreme mixology concoctions the staff said are \u201cbased on memories.\u201d The big gimmick is entering through a hidden door inside a phone booth at Crif Dogs, not from the street.",
+    "lat": 40.727125,
+    "lng": -73.9837531
+  },
+  {
     "name": "Pongol",
     "address": "110 Lexington Ave, New York, NY 10016",
     "isDecent": "Y",
