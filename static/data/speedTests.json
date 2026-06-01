@@ -598,5 +598,13 @@
     "pingMs": 23.1,
     "server": "New York NY",
     "provider": "Nitel"
+  },
+  {
+    "timestamp": "2026-05-31 21:00:32",
+    "downloadMbps": 335.2,
+    "uploadMbps": 22.49,
+    "pingMs": 28.3,
+    "server": "New York NY",
+    "provider": "GSL Networks"
   }
 ]
