@@ -606,5 +606,13 @@
     "pingMs": 28.3,
     "server": "New York NY",
     "provider": "GSL Networks"
+  },
+  {
+    "timestamp": "2026-06-01 09:00:48",
+    "downloadMbps": 459.26,
+    "uploadMbps": 23.14,
+    "pingMs": 20.1,
+    "server": "Carlstadt NJ",
+    "provider": "Contabo"
   }
 ]
