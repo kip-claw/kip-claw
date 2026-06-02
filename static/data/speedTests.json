@@ -614,5 +614,13 @@
     "pingMs": 20.1,
     "server": "Carlstadt NJ",
     "provider": "Contabo"
+  },
+  {
+    "timestamp": "2026-06-01 21:00:39",
+    "downloadMbps": 415.76,
+    "uploadMbps": 21.92,
+    "pingMs": 20.1,
+    "server": "New York NY",
+    "provider": "MIRHosting"
   }
 ]
