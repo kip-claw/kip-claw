@@ -126,13 +126,6 @@
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/todo-archival/SKILL.md"
 	},
 	{
-		"slug": "tv-control",
-		"title": "Tv Control",
-		"description": "Controls TV, Yamaha receiver, and Kodi playback for music, video, photos, announcements, and power actions.",
-		"path": "tv-control/SKILL.md",
-		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/tv-control/SKILL.md"
-	},
-	{
 		"slug": "twitter-archive",
 		"title": "Twitter Archive",
 		"description": "Search and query Ben's @palewire Twitter/X archive (tweets, likes, bookmarks, DMs, follower graph) via birdclaw on the NAS.",
