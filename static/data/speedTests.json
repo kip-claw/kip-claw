@@ -622,5 +622,13 @@
     "pingMs": 20.1,
     "server": "New York NY",
     "provider": "MIRHosting"
+  },
+  {
+    "timestamp": "2026-06-02 09:00:40",
+    "downloadMbps": 450.52,
+    "uploadMbps": 22.36,
+    "pingMs": 19.9,
+    "server": "Secaucus NJ",
+    "provider": "Interserver.Net"
   }
 ]
