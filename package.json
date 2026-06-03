@@ -17,7 +17,7 @@
 	},
 	"devDependencies": {
 		"@lhci/cli": "^0.15.1",
-		"@rollup/plugin-yaml": "^4.1.2",
+		"@rollup/plugin-yaml": "^5.0.0",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.61.1",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
