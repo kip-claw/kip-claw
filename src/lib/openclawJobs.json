@@ -5722,5 +5722,266 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 102.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 158.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 60.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 206.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 126.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 134.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 232.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 95.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 123.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 56.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 276.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 130.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 64.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 58.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 45.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 105.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "R2 offsite backup",
+		"status": "ok",
+		"durationS": 644.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 73.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 105.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 90.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 88.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 141.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 22.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 9.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 98.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Twitter archive sync",
+		"status": "error",
+		"durationS": 93.5,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \u23f0 Cron: `29b81ff5-216c-40a4-ae47-029c4998db31` failed"
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 54.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Disk cleanup",
+		"status": "error",
+		"durationS": 310.1,
+		"consecutiveErrors": 1,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (5): codex/gpt-5.5: You've reached your Codex subscription usage limit. Codex did not return a reset time for this limit. Run /codex account for current usage d"
+	},
+	{
+		"timestamp": "2026-06-04 04:00:40",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 549.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
