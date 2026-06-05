@@ -638,5 +638,13 @@
     "pingMs": 22.5,
     "server": "New York NY",
     "provider": "x99.cloud"
+  },
+  {
+    "timestamp": "2026-06-05 06:50:19",
+    "downloadMbps": 336.07,
+    "uploadMbps": 23.13,
+    "pingMs": 14.9,
+    "server": "New York NY",
+    "provider": "UnlimitedFiber"
   }
 ]
