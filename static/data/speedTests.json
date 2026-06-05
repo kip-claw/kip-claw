@@ -646,5 +646,13 @@
     "pingMs": 14.9,
     "server": "New York NY",
     "provider": "UnlimitedFiber"
+  },
+  {
+    "timestamp": "2026-06-05 09:00:38",
+    "downloadMbps": 234.52,
+    "uploadMbps": 22.81,
+    "pingMs": 18.5,
+    "server": "New York NY",
+    "provider": "Starry Inc."
   }
 ]
