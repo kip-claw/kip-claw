@@ -1584,5 +1584,44 @@
 		"diskUsedGb": 23.0,
 		"diskTotalGb": 29.0,
 		"uptimeDays": 0.97
+	},
+	{
+		"timestamp": "2026-06-04 18:02:28",
+		"cpuTempC": 74.0,
+		"gpuTempC": 73.5,
+		"cpuLoad1m": 0.61,
+		"cpuLoad5m": 0.44,
+		"cpuLoad15m": 0.4,
+		"ramUsedMb": 1313.0,
+		"ramTotalMb": 7819.0,
+		"diskUsedGb": 23.0,
+		"diskTotalGb": 29.0,
+		"uptimeDays": 1.22
+	},
+	{
+		"timestamp": "2026-06-05 00:02:28",
+		"cpuTempC": 71.5,
+		"gpuTempC": 72.5,
+		"cpuLoad1m": 0.62,
+		"cpuLoad5m": 0.46,
+		"cpuLoad15m": 0.43,
+		"ramUsedMb": 1297.0,
+		"ramTotalMb": 7819.0,
+		"diskUsedGb": 23.0,
+		"diskTotalGb": 29.0,
+		"uptimeDays": 1.47
+	},
+	{
+		"timestamp": "2026-06-05 00:02:36",
+		"cpuTempC": 70.1,
+		"gpuTempC": 70.1,
+		"cpuLoad1m": 0.57,
+		"cpuLoad5m": 0.45,
+		"cpuLoad15m": 0.43,
+		"ramUsedMb": 1305.0,
+		"ramTotalMb": 7819.0,
+		"diskUsedGb": 23.0,
+		"diskTotalGb": 29.0,
+		"uptimeDays": 1.47
 	}
 ]
