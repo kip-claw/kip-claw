@@ -89,6 +89,16 @@
       "size": "Gran Corona",
       "gauge": "56",
       "notes": ""
+    },
+    {
+      "dateAdded": "2026-06-04",
+      "maker": "Martinez",
+      "model": "654",
+      "wrapper": "",
+      "origin": "",
+      "size": "",
+      "gauge": "",
+      "notes": ""
     }
   ],
   "humidityReadings": [
@@ -159,6 +169,13 @@
       "date": "2026-05-29",
       "time": "21:30",
       "rh": "71",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-04",
+      "time": "21:38",
+      "rh": "70",
       "temperatureF": "",
       "notes": ""
     }
