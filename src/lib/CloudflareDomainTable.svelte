@@ -15,7 +15,8 @@
 			sortable: true,
 			sortValue: (domain) => (domain.status === 'fail' ? 0 : domain.status === 'warn' ? 1 : 2)
 		},
-		{ key: 'domain', label: 'Domain', sortable: true },
+		{ key: 'target', label: 'Target', sortable: true },
+		{ key: 'source', label: 'Source', sortable: true },
 		{ key: 'httpStatus', label: 'HTTP', sortable: true, numeric: true },
 		{ key: 'responseMs', label: 'Response', sortable: true, numeric: true },
 		{ key: 'pingAvgMs', label: 'Ping', sortable: true, numeric: true },
@@ -29,7 +30,7 @@
 <DataTable
 	rows={domains}
 	{columns}
-	heading="Domains"
+	heading="Monitored domains"
 	headingId="domain-table-title"
 	countText="{domains.length} domains checked"
 	initialSortKey="status"
@@ -39,11 +40,15 @@
 			<span class="status-pill" data-status={domain.status}>{statusLabel(domain.status)}</span>
 		</td>
 		<td class="domain-name">
-			<a href={`https://${domain.domain}/`}>{domain.domain}</a>
+			<a href={domain.target}>{domain.label || domain.target}</a>
+			{#if domain.label && domain.label !== domain.target}
+				<p>{domain.target}</p>
+			{/if}
 			{#if domain.error}
 				<p>{domain.error}</p>
 			{/if}
 		</td>
+		<td>{domain.source === 'manual' ? `Manual (${domain.provider})` : 'Cloudflare'}</td>
 		<td class="numeric">{domain.httpStatus ?? '—'}</td>
 		<td class="numeric"
 			>{domain.responseMs === null ? '—' : `${domain.responseMs.toFixed(0)} ms`}</td

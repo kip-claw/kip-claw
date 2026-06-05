@@ -3,6 +3,10 @@ export type DomainCheckStatus = 'ok' | 'warn' | 'fail';
 export type CloudflareDomainCheck = {
 	timestamp: string;
 	domain: string;
+	target: string;
+	label: string;
+	source: string;
+	provider: string;
 	zoneStatus: string;
 	paused: boolean;
 	plan: string;
@@ -64,6 +68,22 @@ const parseCheck = (value: unknown): CloudflareDomainCheck | null => {
 	return {
 		timestamp: candidate.timestamp,
 		domain: candidate.domain,
+		target:
+			typeof candidate.target === 'string' && candidate.target
+				? candidate.target
+				: `https://${candidate.domain}/`,
+		label:
+			typeof candidate.label === 'string' && candidate.label
+				? candidate.label
+				: typeof candidate.target === 'string' && candidate.target
+					? candidate.target
+					: candidate.domain,
+		source:
+			typeof candidate.source === 'string' && candidate.source ? candidate.source : 'cloudflare',
+		provider:
+			typeof candidate.provider === 'string' && candidate.provider
+				? candidate.provider
+				: 'cloudflare',
 		zoneStatus: candidate.zoneStatus,
 		paused: candidate.paused,
 		plan: candidate.plan,

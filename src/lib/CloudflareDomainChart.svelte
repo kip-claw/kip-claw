@@ -23,7 +23,7 @@
 			chartId="domain-response-chart"
 			heading="Response trend"
 			title="HTTPS response time range across monitored domains"
-			desc="Each run shows minimum, average, and maximum HTTPS response times across all Cloudflare-managed domains."
+			desc="Each run shows minimum, average, and maximum HTTPS response times across all monitored domains."
 			axisTitle="Milliseconds"
 		>
 			{#snippet legend()}
