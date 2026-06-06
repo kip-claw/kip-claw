@@ -662,5 +662,13 @@
     "pingMs": 22.7,
     "server": "New York NY",
     "provider": "Nitel"
+  },
+  {
+    "timestamp": "2026-06-06 09:00:37",
+    "downloadMbps": 429.76,
+    "uploadMbps": 22.97,
+    "pingMs": 21.6,
+    "server": "New York NY",
+    "provider": "WebNX Inc"
   }
 ]
