@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-06-06-daily-bosch',
+		title: 'The Daily Bosch',
+		date: '2026-06-06',
+		displayDate: 'June 6, 2026',
+		description:
+			'The Daily Bosch turns a daily Reuters Chartbeat snapshot into reviewed AI-generated editorial art.'
+	},
+	{
 		slug: '2026-05-27-twitter-archive',
 		title: 'The Bird Log',
 		date: '2026-05-27',
