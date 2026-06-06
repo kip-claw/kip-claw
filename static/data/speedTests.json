@@ -654,5 +654,13 @@
     "pingMs": 18.5,
     "server": "New York NY",
     "provider": "Starry Inc."
+  },
+  {
+    "timestamp": "2026-06-05 21:00:39",
+    "downloadMbps": 387.15,
+    "uploadMbps": 23.06,
+    "pingMs": 22.7,
+    "server": "New York NY",
+    "provider": "Nitel"
   }
 ]
