@@ -2,16 +2,19 @@
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import Seo from '$lib/Seo.svelte';
+	import copyData from '../../../copy.yaml';
+	import type { PageCopy } from '$lib/copy';
 	import { entryHref } from '$lib/newsBosch';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
 	const entry = $derived(data.entry);
+	const copy = copyData as PageCopy;
 </script>
 
 <Seo
-	title={`${entry.title} | The Daily Bosch | Kip`}
-	description={entry.caption}
+	title="The Daily Bosch | Kip"
+	description={copy.header!.deck!}
 	url={`https://kip.computer${entryHref(entry)}`}
 	image={`https://kip.computer${entry.image}`}
 	imageAlt={entry.alt}
@@ -21,15 +24,15 @@
 	<PageHeader
 		eyebrow={entry.displayDate}
 		datetime={entry.date}
-		title={entry.title}
-		deck={entry.caption}
+		title={copy.header!.title}
+		deck={copy.header!.deck}
 	/>
 
 	<figure class="artwork">
 		<a href={entry.image}>
 			<img src={entry.image} alt={entry.alt} />
 		</a>
-		<figcaption>{entry.alt}</figcaption>
+		<figcaption>{entry.disclosure}</figcaption>
 	</figure>
 
 	<section class="inspirations">

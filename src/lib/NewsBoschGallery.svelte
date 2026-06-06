@@ -11,9 +11,9 @@
 			<a class="image-link" href={entryHref(entry)}>
 				<img src={entry.image} alt={entry.alt} loading="lazy" />
 			</a>
-			<p class="date"><time datetime={entry.date}>{entry.displayDate}</time></p>
-			<h2><a href={entryHref(entry)}>{entry.title}</a></h2>
-			<p class="caption">{entry.caption}</p>
+			<p class="date">
+				<a href={entryHref(entry)}><time datetime={entry.date}>{entry.displayDate}</time></a>
+			</p>
 		</article>
 	{/each}
 </div>
@@ -61,15 +61,12 @@
 		letter-spacing: 0.08em;
 	}
 
-	h2 {
-		margin: var(--space-1) 0 0;
-		font-size: var(--font-size-2xl);
-		line-height: var(--line-height-snug);
+	.date a {
+		text-decoration-color: transparent;
 	}
 
-	.caption {
-		margin: var(--space-2) 0 0;
-		color: var(--color-muted);
+	.date a:hover {
+		text-decoration-color: currentColor;
 	}
 
 	@media (max-width: 760px) {

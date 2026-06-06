@@ -2,10 +2,11 @@
 	{
 		"date": "2026-06-06",
 		"displayDate": "June 6, 2026",
-		"title": "The Daily Bosch: June 6, 2026",
 		"image": "/images/news-bosch/2026/06/06.webp",
 		"alt": "A wide three-panel Northern Renaissance-style fantasy landscape. At left, a crowned wedding pavilion glitters above a guarded gate where workers wait. In the crowded center, a border divides abundant cattle markets from empty troughs while clerks rearrange ballots, scales, keys, law books, and a glass enclosure holding a desert lizard. At right, mechanical birds cross a smoky gulf toward distant burning towers as two generic rulers tug a fraying banner. Repeated gates, vessels, and strange organic buildings connect the panels.",
-		"caption": "An AI-generated editorial allegory based on Reuters stories drawing the most concurrent readers at 1:05 p.m. EDT on June 6, 2026. Royal ceremony, guarded borders, livestock disease, political rulemaking, environmental protection, and conflict across the Gulf are recast as an original Northern Renaissance triptych inspired by the visual language of Hieronymus Bosch. Reader counts are a point-in-time measure of attention, not a judgment of lasting importance.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
 		"generatedAt": "2026-06-06T17:09:33.031773Z",
 		"sourceRetrievedAt": "2026-06-06T17:05:04.343903Z",
 		"themes": [

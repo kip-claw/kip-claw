@@ -24,10 +24,11 @@ export type NewsBoschDirection = {
 export type NewsBoschEntry = {
 	date: string;
 	displayDate: string;
-	title: string;
 	image: string;
 	alt: string;
-	caption: string;
+	disclosure: string;
+	aiModel: string;
+	skill: string;
 	generatedAt: string;
 	sourceRetrievedAt: string;
 	themes: NewsBoschTheme[];
