@@ -105,6 +105,13 @@
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/reading-list/SKILL.md"
 	},
 	{
+		"slug": "reuters-news-bosch",
+		"title": "Reuters News Bosch",
+		"description": "Generate sourced Bosch-inspired editorial images from Reuters Chartbeat most-read stories.",
+		"path": "reuters-news-bosch/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/reuters-news-bosch/SKILL.md"
+	},
+	{
 		"slug": "runs-log",
 		"title": "Runs Log",
 		"description": "Update Ben's runs log in Google Sheets. Use when asked to add a run or log date, distance, route description, and reflections for a workout.",
