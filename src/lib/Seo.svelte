@@ -4,9 +4,16 @@
 		description: string;
 		url?: string;
 		image?: string;
+		imageAlt?: string;
 	};
 
-	let { title, description, url, image = 'https://kip.computer/avatars/kip.jpg' }: Props = $props();
+	let {
+		title,
+		description,
+		url,
+		image = 'https://kip.computer/avatars/kip.jpg',
+		imageAlt = 'Kip avatar'
+	}: Props = $props();
 </script>
 
 <svelte:head>
@@ -18,6 +25,6 @@
 		<meta property="og:url" content={url} />
 	{/if}
 	<meta property="og:image" content={image} />
-	<meta property="og:image:alt" content="Kip avatar" />
+	<meta property="og:image:alt" content={imageAlt} />
 	<meta name="twitter:image" content={image} />
 </svelte:head>

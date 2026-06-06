@@ -1,0 +1,89 @@
+[
+	{
+		"date": "2026-06-06",
+		"displayDate": "June 6, 2026",
+		"title": "The Daily Bosch: June 6, 2026",
+		"image": "/images/news-bosch/2026/06/06.webp",
+		"alt": "A wide three-panel Northern Renaissance-style fantasy landscape. At left, a crowned wedding pavilion glitters above a guarded gate where workers wait. In the crowded center, a border divides abundant cattle markets from empty troughs while clerks rearrange ballots, scales, keys, law books, and a glass enclosure holding a desert lizard. At right, mechanical birds cross a smoky gulf toward distant burning towers as two generic rulers tug a fraying banner. Repeated gates, vessels, and strange organic buildings connect the panels.",
+		"caption": "An AI-generated editorial allegory based on Reuters stories drawing the most concurrent readers at 1:05 p.m. EDT on June 6, 2026. Royal ceremony, guarded borders, livestock disease, political rulemaking, environmental protection, and conflict across the Gulf are recast as an original Northern Renaissance triptych inspired by the visual language of Hieronymus Bosch. Reader counts are a point-in-time measure of attention, not a judgment of lasting importance.",
+		"generatedAt": "2026-06-06T17:09:33.031773Z",
+		"sourceRetrievedAt": "2026-06-06T17:05:04.343903Z",
+		"themes": [
+			{
+				"name": "Ceremony above the threshold",
+				"interpretation": "An elevated royal wedding spectacle contrasts with guarded borders and people waiting below.",
+				"storyRanks": [1, 3]
+			},
+			{
+				"name": "Prosperity divided by a gate",
+				"interpretation": "A sealed cattle crossing creates abundance on one side and scarcity on the other while a tiny parasitic threat moves beneath notice.",
+				"storyRanks": [2, 5]
+			},
+			{
+				"name": "Power remakes the rules",
+				"interpretation": "Elections, pardons, ideological warnings, and environmental deregulation appear as officials rearranging scales, keys, ballots, and protective enclosures.",
+				"storyRanks": [6, 7, 8, 10]
+			},
+			{
+				"name": "Fire across the gulf",
+				"interpretation": "Drones, coastal strikes, and unstable alliances become distant mechanical birds, burning towers, and rulers pulling against a shared banner.",
+				"storyRanks": [4, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "British royals gather for wedding of Princess Anne's son",
+				"url": "https://reuters.com/world/uk/british-royals-gather-wedding-princess-annes-son-2026-06-06/"
+			},
+			{
+				"title": "Screwworm border closure fuels beef boom in Mexico, gloom in Texas",
+				"url": "https://reuters.com/world/americas/screwworm-border-closure-fuels-beef-boom-mexico-gloom-texas-2026-06-06/"
+			},
+			{
+				"title": "Hungary to stop issuing worker visas to people from three countries starting Friday",
+				"url": "https://reuters.com/business/world-at-work/hungary-stop-issuing-worker-visas-people-three-countries-starting-friday-2026-06-05/"
+			},
+			{
+				"title": "US strikes Iranian sites after Iran launches drones, in latest Gulf flare-up",
+				"url": "https://reuters.com/world/middle-east/us-attacks-iranian-coastal-sites-after-iran-launches-drones-latest-flare-up-2026-06-06/"
+			},
+			{
+				"title": "Second Texas screwworm case confirmed as outbreak fears grow",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/second-case-screwworm-parasite-confirmed-texas-sources-say-2026-06-05/"
+			},
+			{
+				"title": "Leftist Sanchez gains traction ahead of Peru runoff vote, Ipsos poll shows",
+				"url": "https://reuters.com/world/americas/leftist-sanchez-gains-traction-ahead-peru-runoff-vote-ipsos-poll-shows-2026-06-05/"
+			},
+			{
+				"title": "Trump pardons former US congressman convicted of securities fraud",
+				"url": "https://reuters.com/world/trump-grants-pardon-former-us-congressman-convicted-insider-trading-2026-06-06/"
+			},
+			{
+				"title": "Hegseth, at D-Day event, says Europe faces 'invasion' of dangerous ideologies",
+				"url": "https://reuters.com/business/aerospace-defense/hegseth-d-day-event-says-europe-faces-invasion-dangerous-ideologies-2026-06-06/"
+			},
+			{
+				"title": "Trump's 'crazy' rebuke undercuts Netanyahu at a critical moment",
+				"url": "https://reuters.com/world/middle-east/trumps-crazy-rebuke-undercuts-netanyahu-critical-moment-2026-06-05/"
+			},
+			{
+				"title": "U.S. revokes endangered species listing for Permian Basin lizard, resolves Texas attorney general lawsuit",
+				"url": "https://reuters.com/legal/litigation/us-revokes-endangered-species-listing-permian-basin-lizard-resolves-texas-2026-06-04/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and guarded travelers", "masked clerks and generic rulers"],
+			"symbolFamilies": [
+				"gates, thresholds, and divided landscapes",
+				"markets, cattle, scales, and keys",
+				"mechanical birds, towers, and fraying banners"
+			],
+			"composition": "three balanced panels with a crowded central marketplace",
+			"atmosphere": "ceremonial dawn shifting through uncanny midday to smoky twilight",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, soot black, and restrained gold",
+			"scale": "miniature crowds arranged around oversized symbolic architecture",
+			"narrativeMotion": "several stories colliding simultaneously across a left-to-right darkening triptych"
+		}
+	}
+]

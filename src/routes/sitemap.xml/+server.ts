@@ -1,5 +1,6 @@
 import { posts } from '$lib/posts';
 import { listPublishedSkills } from '$lib/skillsRepo';
+import { entryHref, getNewsBoschMonths, getNewsBoschYears, newsBoschEntries } from '$lib/newsBosch';
 
 const site = 'https://kip.computer';
 
@@ -10,6 +11,7 @@ const staticPages = [
 	'/soul/',
 	'/apps/',
 	'/apps/domains/',
+	'/apps/news-bosch/',
 	'/apps/humidor/',
 	'/apps/nyc/',
 	'/apps/runs/'
@@ -31,6 +33,9 @@ export async function GET() {
 	const urls = [
 		...staticPages.map((path) => `${site}${path}`),
 		...posts.map((post) => `${site}/blog/${post.slug}/`),
+		...getNewsBoschYears().map((year) => `${site}${year.href}`),
+		...getNewsBoschMonths().map((month) => `${site}${month.href}`),
+		...newsBoschEntries.map((entry) => `${site}${entryHref(entry)}`),
 		...skillUrls
 	];
 
