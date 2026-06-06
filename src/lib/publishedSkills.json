@@ -23,7 +23,7 @@
 	{
 		"slug": "cloudflare-domain-monitor",
 		"title": "Cloudflare Domain Monitor",
-		"description": "Monitor Ben's Cloudflare-managed domains, log DNS/ping/HTTPS/TLS status to Google Sheets, and update kip-claw domain status JSON for a public app tracker.",
+		"description": "Monitor Ben's internet domains (Cloudflare-managed plus manual external domains), log DNS/ping/HTTPS/TLS status to Google Sheets, and update kip-claw domain status JSON for a public app tracker.",
 		"path": "cloudflare-domain-monitor/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/cloudflare-domain-monitor/SKILL.md"
 	},
