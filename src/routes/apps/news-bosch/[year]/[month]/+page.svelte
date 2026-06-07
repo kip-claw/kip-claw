@@ -46,7 +46,6 @@
 		gap: var(--space-5);
 		margin-top: var(--space-8);
 		padding-top: var(--space-5);
-		border-top: 1px solid var(--color-line);
 		font-weight: var(--font-weight-bold);
 	}
 </style>
