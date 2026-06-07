@@ -678,5 +678,13 @@
     "pingMs": 20.6,
     "server": "New York NY",
     "provider": "Nitel"
+  },
+  {
+    "timestamp": "2026-06-07 09:00:24",
+    "downloadMbps": 508.11,
+    "uploadMbps": 21.67,
+    "pingMs": 23.8,
+    "server": "New York NY",
+    "provider": "Natural Wireless"
   }
 ]
