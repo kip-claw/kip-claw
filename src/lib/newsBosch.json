@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-06-07",
+		"displayDate": "June 7, 2026",
+		"image": "/images/news-bosch/2026/06/07.webp",
+		"alt": "An intricate panoramic triptych painting in the style of Hieronymus Bosch, rendered in oil on oak panels under a cold, dark sky with swirling aurora-like veils of pale cyan and plum.\nIn the left panel, tiny field workers and gardeners navigate a strange, organic stone structure resembling a hollow shell with pulsing red veins. On one side, healthy cattle graze in lush green pastures, while on the other side of a dividing wall, empty stone paths lead into dark tunnels. Gardeners measure golden cooking oil into standardized rectangular stone blocks.\nIn the center panel, a wide, dark river or canal cuts through the landscape. Tiny sailors on wooden vessels dredge old gold coins from the plum-colored waters, using them to construct a sprawling, organic stone bridge. In the background, a theatrical procession of actors in oversized, expressive wooden masks marches across a winding, multi-tiered wooden stage under heavy curtains.\nIn the right panel, a dark, soot-stained region where tiny figures carry heavy stones into underground tunnels. These tunnels visibly loop beneath the earth and connect back to the left panel's entrance. Families watch from hollow chambers carved into the rock, looking up at the cold, starry sky.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-07T10:42:06.744733Z",
+		"sourceRetrievedAt": "2026-06-07T10:38:07.482252Z",
+		"themes": [
+			{
+				"name": "The Silted Threshold",
+				"interpretation": "Sealed land frontiers and restricted worker passages appear as field workers blocked from tunnels and labyrinths, while cattle herds are kept on opposite sides of a divided path, causing isolated booms and gluts.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "The Reclaimed Anchor",
+				"interpretation": "Seizing assets of foreign adversaries to rebuild structures is represented by sailors and navigators dredging old gold coins from a flooded canal and using them to construct massive stone bridges while military families keep watch in hidden chambers.",
+				"storyRanks": [2, 8]
+			},
+			{
+				"name": "The Puppet Stage of Alliance",
+				"interpretation": "Grand shows of geopolitical confidence and internal political fractures become a theatrical puppet procession where actors wear heavy masks and navigate winding, unstable staircases.",
+				"storyRanks": [6, 9, 3]
+			},
+			{
+				"name": "The Measured Flow",
+				"interpretation": "Fluctuating oil quotas and standardized food portions appear as gardeners measuring cooking oil and soot into stone vessels from a labyrinthine network of tubes and living canals.",
+				"storyRanks": [5, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Hungary to stop issuing worker visas to people from three countries starting Friday",
+				"url": "https://reuters.com/business/world-at-work/hungary-stop-issuing-worker-visas-people-three-countries-starting-friday-2026-06-05/"
+			},
+			{
+				"title": "US eyes Iranian assets for Gulf allies' reconstruction, source says",
+				"url": "https://reuters.com/world/asia-pacific/us-eyes-iranian-assets-gulf-allies-reconstruction-source-says-2026-06-06/"
+			},
+			{
+				"title": "British royals gather for wedding of Princess Anne's son",
+				"url": "https://reuters.com/world/uk/british-royals-gather-wedding-princess-annes-son-2026-06-06/"
+			},
+			{
+				"title": "Missing US student found dead near Kyoto, Japan, mother says",
+				"url": "https://reuters.com/world/us/missing-us-student-found-dead-near-kyoto-japan-mother-says-2026-06-06/"
+			},
+			{
+				"title": "OPEC+ set for fourth oil quota\u00a0hike since Hormuz closure, sources say",
+				"url": "https://reuters.com/business/energy/opec-set-fourth-oil-quota-hike-since-hormuz-closure-sources-say-2026-06-07/"
+			},
+			{
+				"title": "With China's Xi in North Korea, Kim to project confidence, defiance",
+				"url": "https://reuters.com/world/china/with-chinas-xi-north-korea-kim-project-confidence-defiance-2026-06-07/"
+			},
+			{
+				"title": "Screwworm border closure fuels beef boom in Mexico, gloom in Texas",
+				"url": "https://reuters.com/world/americas/screwworm-border-closure-fuels-beef-boom-mexico-gloom-texas-2026-06-06/"
+			},
+			{
+				"title": "US troops, families adjust\u00a0to new normal of Iran war",
+				"url": "https://reuters.com/business/aerospace-defense/us-troops-families-adjust-to-new-normal-iran-war-2026-06-07/"
+			},
+			{
+				"title": "Trump faces new Republican resistance in Congress as midterm pressures build",
+				"url": "https://reuters.com/legal/government/trump-faces-new-republican-resistance-congress-midterm-pressures-build-2026-06-06/"
+			},
+			{
+				"title": "India sets standard pack sizes for cooking oils to help shoppers compare prices",
+				"url": "https://reuters.com/world/india/india-sets-standard-pack-sizes-cooking-oils-help-shoppers-compare-prices-2026-06-06/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "sailors and navigators"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"vessels, canals, wells, floods, and bridges",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-06-06",
 		"displayDate": "June 6, 2026",
 		"image": "/images/news-bosch/2026/06/06.webp",
