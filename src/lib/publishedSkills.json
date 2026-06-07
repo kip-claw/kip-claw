@@ -145,5 +145,12 @@
 		"description": "Transcribes Telegram voice messages locally with whisper.cpp and returns text for downstream actions.",
 		"path": "voice-transcribe/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/voice-transcribe/SKILL.md"
+	},
+	{
+		"slug": "web-archive",
+		"title": "Web Archive",
+		"description": "> Archives a URL to the local ArchiveBox instance on the NAS. Use when the user asks to \"save\", \"archive\", \"preserve\", or \"capture\" a web page or URL. Also use when saving sources, references, or articles for later.",
+		"path": "web-archive/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/web-archive/SKILL.md"
 	}
 ]
