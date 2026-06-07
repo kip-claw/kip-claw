@@ -54,6 +54,7 @@
 		justify-content: space-between;
 		gap: var(--space-5);
 		margin-top: var(--space-8);
+		margin-bottom: var(--space-8);
 		padding-top: var(--space-5);
 		font-weight: var(--font-weight-bold);
 	}
