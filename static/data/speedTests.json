@@ -686,5 +686,13 @@
     "pingMs": 23.8,
     "server": "New York NY",
     "provider": "Natural Wireless"
+  },
+  {
+    "timestamp": "2026-06-07 21:00:14",
+    "downloadMbps": 448.78,
+    "uploadMbps": 22.7,
+    "pingMs": 28.9,
+    "server": "New York NY",
+    "provider": "WebNX Inc"
   }
 ]
