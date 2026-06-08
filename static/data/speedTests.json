@@ -694,5 +694,21 @@
     "pingMs": 28.9,
     "server": "New York NY",
     "provider": "WebNX Inc"
+  },
+  {
+    "timestamp": "2026-06-08 05:17:51",
+    "downloadMbps": 332.51,
+    "uploadMbps": 23.21,
+    "pingMs": 15.2,
+    "server": "New York NY",
+    "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-06-08 09:00:22",
+    "downloadMbps": 479.56,
+    "uploadMbps": 22.94,
+    "pingMs": 22.0,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
