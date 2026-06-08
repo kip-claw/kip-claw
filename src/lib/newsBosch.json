@@ -1,5 +1,97 @@
 [
 	{
+		"date": "2026-06-08",
+		"displayDate": "June 8, 2026",
+		"image": "/images/news-bosch/2026/06/08.webp",
+		"alt": "A wide three-panel Bosch-style allegorical oil painting in pearl gray, faded rose, malachite, saffron, and ink black. Left panel: a teetering town of impossible towers, scaffolds, and arches built on cracked, splitting earth; a large shaggy beast wanders empty doorways while small hooded attendants flee a pale segmented worm across tilled fields. Center panel: on a curtained theatrical stage, two armored half-mechanical knights freeze mid-strike with crossed swords, weapons raised but halted; masked attendants in robes tug a saffron thread from the wings while a workshop of gears and a great spindle of golden thread sits beneath the stage. Right panel: a towering loom and ruined mill rise toward a black solar eclipse; tiny figures climb ladders of thread toward a rocket-shaped reliquary as golden coins spill down a ramp into a sheltered workshop below, where small figures are sorted inside and outside its walls. A single unspooling saffron thread runs continuously across all three panels, binding them together.",
+		"disclosure": "Generated with AI using openrouter/openai/gpt-5.4-image-2-20260421 and the reuters-news-bosch skill.",
+		"aiModel": "openrouter/openai/gpt-5.4-image-2-20260421",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-08T16:55:22.702285Z",
+		"sourceRetrievedAt": "2026-06-08T16:29:00.623469Z",
+		"themes": [
+			{
+				"name": "Trembling Ground",
+				"interpretation": "The earth itself refuses to hold still beneath human settlement: a deadly Philippine quake, a first-ever bear loose among shuttered schools, and a flesh-eating screwworm testing whether institutions can contain nature. Origins and foundations are unsteady; what was built is shown to rest on shifting ground.",
+				"storyRanks": [1, 9, 7],
+				"panel": "left"
+			},
+			{
+				"name": "The Halted Strike",
+				"interpretation": "A war pauses without ending. Iran and Israel say they have stopped striking but leave the door open; Israel maneuvers for sway over the peace talks while a joint Franco-German fighter project collapses. The most-watched conflict is a suspended motion, alliances fracturing even as the guns fall briefly silent.",
+				"storyRanks": [2, 5, 6],
+				"panel": "center"
+			},
+			{
+				"name": "Speculative Heavens",
+				"interpretation": "Attention reaches upward toward fortune and uncertainty: retail investors chase shares in a rocket company's IPO while a tightening Peruvian vote sends stocks dipping. Promises of ascent and wealth are weighed against the wobble of counting and markets.",
+				"storyRanks": [3, 8],
+				"panel": "right"
+			},
+			{
+				"name": "Contested Belonging",
+				"interpretation": "The state decides who is held and who is cast out. Epstein's exposed victims are attacked by hate, while the Justice Department moves to strip citizenship from naturalized people. The aftermath panel asks who is protected by the machinery of justice and who is unmade by it.",
+				"storyRanks": [4, 10],
+				"panel": "right"
+			}
+		],
+		"stories": [
+			{
+				"title": "Powerful Philippine quake leaves at least 32 feared dead, survivors recount fear",
+				"url": "https://reuters.com/business/environment/earthquake-magnitude-73-strikes-mindanao-philippines-gfz-says-2026-06-07/"
+			},
+			{
+				"title": "Iran war live: Iran and Israel say they have halted strikes, but leave door open to resume",
+				"url": "https://reuters.com/world/iran-war-live-israel-iran-strike-each-other-first-time-since-ceasefire-2026-06-08/"
+			},
+			{
+				"title": "How can retail investors buy shares in SpaceX's IPO?",
+				"url": "https://reuters.com/legal/transactional/how-can-retail-investors-buy-shares-spacexs-ipo-2026-06-07/"
+			},
+			{
+				"title": "Epstein abused them. The Justice Department exposed them. Now they\u2019re under attack by haters",
+				"url": "https://reuters.com/investigations/epstein-abused-them-justice-department-exposed-them-now-theyre-under-attack-by-2026-06-08/"
+			},
+			{
+				"title": "Defying Trump with brief Iran fight, Israel seeks sway over peace talks",
+				"url": "https://reuters.com/business/aerospace-defense/defying-trump-with-brief-iran-fight-israel-seeks-sway-over-peace-talks-2026-06-08/"
+			},
+			{
+				"title": "Germany and France drop joint fighter jet project",
+				"url": "https://reuters.com/business/aerospace-defense/german-french-leaders-unable-resolve-fcas-fighter-jet-dispute-sources-say-2026-06-08/"
+			},
+			{
+				"title": "In Texas cattle country, ranchers question if USDA can contain flesh-eating screwworm",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/theyre-betting-our-herd-texas-ranchers-question-usda-screwworm-returns-2026-06-08/"
+			},
+			{
+				"title": "Peru's presidential vote tightens, stocks dip, as count enters second day",
+				"url": "https://reuters.com/world/americas/perus-conservative-fujimori-leads-presidential-vote-with-90-votes-counted-2026-06-08/"
+			},
+			{
+				"title": "Japanese city suspends 94 schools after first-ever bear sighting",
+				"url": "https://reuters.com/business/environment/japanese-city-suspends-94-schools-after-first-ever-bear-sighting-2026-06-08/"
+			},
+			{
+				"title": "US Justice Department says it moved to strip citizenship from 17 naturalized people",
+				"url": "https://reuters.com/world/us-justice-department-says-it-moved-strip-citizenship-17-naturalized-people-2026-06-08/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-06-07",
 		"displayDate": "June 7, 2026",
 		"image": "/images/news-bosch/2026/06/07.webp",
