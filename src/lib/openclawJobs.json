@@ -6514,5 +6514,302 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 104.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 65.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Reminder: Lunch with Christine Zhang",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 59.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 45.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 43.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 27.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 263.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 363.5,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "Delivering to Telegram requires target <chatId>; the agent used the message tool, but OpenClaw could not verify that message matched the cron delivery target"
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "error",
+		"durationS": 504.5,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \ud83c\udfaf Update Goal: `complete` failed"
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 37.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 21.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 17.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 95.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 17.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 67.0,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \ud83d\udee0\ufe0f `speedtest-cli --json --secure` failed"
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Reminder: Happy hour with Matt Ericson",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Evening speed test",
+		"status": "error",
+		"durationS": 50.8,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \u2709\ufe0f Message failed"
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 89.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 6.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 15.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 10.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 30.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 10.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 5.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 15.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "R2 offsite backup",
+		"status": "ok",
+		"durationS": 644.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Reminder: Lunch with Allison McCartney",
+		"status": "",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 75.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 134.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 29.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 58.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-08 04:00:07",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 49.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
