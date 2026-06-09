@@ -7090,5 +7090,284 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 53.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 10.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 20.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 9.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 8.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 9.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 14.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 232.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 810.8,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.4-mini: Requested agent harness \"codex\" does not support openai/gpt-5.4-mini (provider is not one of: codex). (unknown) | google/gemini-3.1-fl"
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 250.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 29.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 38.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 29.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 27.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 69.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 56.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 38.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 31.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 28.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 25.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 41.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "R2 offsite backup",
+		"status": "ok",
+		"durationS": 644.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 40.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 24.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 19.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 75.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 134.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 29.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 58.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 49.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-09 04:00:29",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 73.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
