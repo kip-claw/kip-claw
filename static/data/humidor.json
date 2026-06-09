@@ -99,6 +99,16 @@
       "size": "Toro",
       "gauge": "54",
       "notes": ""
+    },
+    {
+      "dateAdded": "2026-06-08",
+      "maker": "Oliva",
+      "model": "Series V Melanio Torpedo",
+      "wrapper": "",
+      "origin": "",
+      "size": "Torpedo",
+      "gauge": "52",
+      "notes": ""
     }
   ],
   "humidityReadings": [
@@ -176,6 +186,13 @@
       "date": "2026-06-04",
       "time": "21:38",
       "rh": "70",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-08",
+      "time": "22:57",
+      "rh": "71",
       "temperatureF": "",
       "notes": ""
     }
