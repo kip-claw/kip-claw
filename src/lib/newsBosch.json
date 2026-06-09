@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-06-09",
+		"displayDate": "June 9, 2026",
+		"image": "/images/news-bosch/2026/06/09.webp",
+		"alt": "Panoramic allegorical triptych: left panel shows institutional thresholds and constrained movement; center panel depicts concentrated struggle around power and resources; right panel shows unstable aftermath under dim, auroral light with tiny figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-09T12:50:42.194716Z",
+		"sourceRetrievedAt": "2026-06-09T12:46:12.681725Z",
+		"themes": [
+			{
+				"name": "Tightening Borders, Strained Labor",
+				"interpretation": "Institutions harden access and movement while workers and families absorb the shock.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "Power Through Assets and Leverage",
+				"interpretation": "States and firms turn ownership, finance, and infrastructure into instruments of pressure.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "Crowded Spectacle, Fragile Consensus",
+				"interpretation": "Public theater, markets, and sport amplify conflict while masking unresolved risk.",
+				"storyRanks": [3, 4, 5]
+			}
+		],
+		"stories": [
+			{
+				"title": "Under the Trump crypto playbook, the family always wins. Investors don\u2019t",
+				"url": "https://reuters.com/investigations/under-trump-crypto-playbook-family-always-wins-investors-dont-2026-06-09/"
+			},
+			{
+				"title": "Israel kills eight in strike on Lebanon; US rescues helicopter crew from Hormuz",
+				"url": "https://reuters.com/world/middle-east/trump-says-us-helicopter-pilots-who-went-down-strait-hormuz-are-fine-2026-06-09/"
+			},
+			{
+				"title": "Trump greeted with boos at NBA Finals in Madison Square Garden",
+				"url": "https://reuters.com/world/us/pedestrian-traffic-restricted-midtown-manhattan-trumps-nba-finals-trip-spurs-2026-06-08/"
+			},
+			{
+				"title": "Iran says ticket allocation for World Cup withdrawn days before tournament",
+				"url": "https://reuters.com/sports/soccer/iran-says-ticket-allocation-world-cup-withdrawn-days-before-tournament-2026-06-09/"
+			},
+			{
+				"title": "US says BYD, Baidu, Alibaba and other tech giants are aiding China's military",
+				"url": "https://reuters.com/world/asia-pacific/pentagon-lists-entities-designated-chinese-military-company-2026-06-08/"
+			},
+			{
+				"title": "EU to propose 21st package of sanctions targeting Russia's banks",
+				"url": "https://reuters.com/business/finance/eu-propose-21st-package-sanctions-targeting-russias-banks-2026-06-09/"
+			},
+			{
+				"title": "OpenAI files for US IPO after Anthropic as AI giants head to public markets",
+				"url": "https://reuters.com/technology/openai-files-us-ipo-after-anthropic-ai-giants-head-public-markets-2026-06-08/"
+			},
+			{
+				"title": "India\u2019s TCS chair says AI agents may equal headcount, dampen hiring",
+				"url": "https://reuters.com/world/india/indias-tcs-chairman-expects-ai-agents-equal-employee-count-2026-06-09/"
+			},
+			{
+				"title": "Maine sex scandal, Trump\u2019s sway: What to watch in Tuesday's US primaries",
+				"url": "https://reuters.com/legal/government/maine-sex-scandal-trumps-sway-what-watch-tuesdays-us-primaries-2026-06-09/"
+			},
+			{
+				"title": "How Honda\u2019s old guard tried, and failed, to oust its CEO",
+				"url": "https://reuters.com/world/asia-pacific/how-hondas-old-guard-tried-failed-oust-its-ceo-2026-06-09/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "gardeners and field workers"],
+			"symbolFamilies": [
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-06-08",
 		"displayDate": "June 8, 2026",
 		"image": "/images/news-bosch/2026/06/08.webp",
