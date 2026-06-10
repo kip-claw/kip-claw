@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-06-10",
+		"displayDate": "June 10, 2026",
+		"image": "/images/news-bosch/2026/06/10.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-10T19:51:44.072995Z",
+		"sourceRetrievedAt": "2026-06-10T19:47:33.524245Z",
+		"themes": [
+			{
+				"name": "The Eclipse of Martial Hubris",
+				"interpretation": "The march toward war is fueled by calculated threats and economic volatility, casting a dark shadow over the stability of global markets.",
+				"storyRanks": [1, 4, 5, 8, 9]
+			},
+			{
+				"name": "Grafting Peace onto Thorny Roots",
+				"interpretation": "A procession of public mourning is halted by local unrest, forcing a desperate effort to plant seeds of calm in a garden of thorns.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "The Setting of Old Constellations",
+				"interpretation": "The steady cycle of legacy is interrupted by ghosts of the past and the inevitable slowing of an aging clock.",
+				"storyRanks": [3, 7, 10]
+			},
+			{
+				"name": "The Silver Comet's Defiant Ascent",
+				"interpretation": "A vertical streak of technological progress races ahead of terrestrial concerns, fueled by a frenzy of speculative investment.",
+				"storyRanks": [6]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran war live: Trump says Iran 'will pay the price' for taking too long to negotiate a deal ",
+				"url": "https://reuters.com/world/iran-war-live-us-strikes-iran-after-its-helicopter-was-shot-down-2026-06-10/"
+			},
+			{
+				"title": "Knife attack victim's family calls for calm after anti-immigrant violence in Belfast",
+				"url": "https://reuters.com/world/uk/anti-immigrant-violence-erupts-across-belfast-after-knife-attack-2026-06-10/"
+			},
+			{
+				"title": "Bill Gates testifies Epstein pressured him using knowledge of his affairs",
+				"url": "https://reuters.com/legal/government/bill-gates-face-us-lawmakers-probe-epstein-case-handling-2026-06-10/"
+			},
+			{
+				"title": "Trump threatens to attack Iran 'very hard' following latest hostilities",
+				"url": "https://reuters.com/world/middle-east/iran-targets-us-bases-jordan-gulf-after-trump-orders-strikes-near-hormuz-2026-06-10/"
+			},
+			{
+				"title": "'I love the inflation,' Trump says as prices rise amid Iran war",
+				"url": "https://reuters.com/world/i-love-inflation-trump-says-prices-rise-amid-iran-war-2026-06-10/"
+			},
+			{
+				"title": "SpaceX IPO demand is approaching four times oversubscribed, source says",
+				"url": "https://reuters.com/world/spacex-ipo-demand-is-approaching-four-times-oversubscribed-source-says-2026-06-09/"
+			},
+			{
+				"title": "Trump setbacks fuel lame-duck talk as he turns 80",
+				"url": "https://reuters.com/world/us/trump-setbacks-fuel-lame-duck-talk-he-turns-80-2026-06-10/"
+			},
+			{
+				"title": "US consumer inflation vaults above 4% as Iran war boosts energy prices",
+				"url": "https://reuters.com/world/us/us-consumer-prices-increase-expected-may-2026-06-10/"
+			},
+			{
+				"title": "Trump says US will attack Iran 'very hard' and has taken oil through Hormuz",
+				"url": "https://reuters.com/world/middle-east/trump-iran-were-going-be-attacking-them-very-hard-2026-06-10/"
+			},
+			{
+				"title": "Exclusive: Nick Bilton has hired consultant to help revamp '60 Minutes,' sources say",
+				"url": "https://reuters.com/business/media-telecom/nick-bilton-has-hired-consultant-help-revamp-60-minutes-sources-say-2026-06-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "scholars and alchemists"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-06-09",
 		"displayDate": "June 9, 2026",
 		"image": "/images/news-bosch/2026/06/09.webp",
