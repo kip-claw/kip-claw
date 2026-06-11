@@ -750,5 +750,13 @@
     "pingMs": 25.1,
     "server": "Secaucus NJ",
     "provider": "Interserver.Net"
+  },
+  {
+    "timestamp": "2026-06-11 09:00:55",
+    "downloadMbps": 30.72,
+    "uploadMbps": 18.28,
+    "pingMs": 131.1,
+    "server": "Botosani",
+    "provider": "Device Systems SRL"
   }
 ]
