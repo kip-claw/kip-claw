@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-06-11",
+		"displayDate": "June 11, 2026",
+		"image": "/images/news-bosch/2026/06/11.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-11T11:41:31.665938Z",
+		"sourceRetrievedAt": "2026-06-11T11:35:26.924804Z",
+		"themes": [
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [1, 2, 4, 5, 6, 7]
+			},
+			{
+				"name": "Law, Judgment, and Accountability",
+				"interpretation": "Courts, investigators, and rules test who is held responsible and who escapes scrutiny.",
+				"storyRanks": [9]
+			},
+			{
+				"name": "Culture, Attention, and Appetite",
+				"interpretation": "Audiences chase novelty and meaning as culture and commerce compete for limited attention.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "US and Iranian attacks dent ceasefire, Iranian sources say talks intensify",
+				"url": "https://reuters.com/world/middle-east/us-iran-trade-attacks-second-day-undermining-shaky-ceasefire-2026-06-11/"
+			},
+			{
+				"title": "India demands end to US attacks on ships after three sailors killed",
+				"url": "https://reuters.com/world/india/all-three-missing-indian-seafarers-dead-after-us-strike-tanker-off-oman-coast-2026-06-11/"
+			},
+			{
+				"title": "British defence minister Healey quits over defence spending",
+				"url": "https://reuters.com/world/uk/british-defence-minister-healey-resigns-over-defence-spending-2026-06-11/"
+			},
+			{
+				"title": "US offers to loan up to 40 million barrels of oil from Strategic Petroleum Reserve",
+				"url": "https://reuters.com/business/energy/us-offers-loan-up-40-million-barrels-oil-strategic-petroleum-reserve-2026-06-10/"
+			},
+			{
+				"title": "Iran announces closure of Strait of Hormuz after US attacks",
+				"url": "https://reuters.com/world/middle-east/iran-announces-closure-strait-hormuz-after-us-attacks-2026-06-10/"
+			},
+			{
+				"title": "US and Iran wrangle over frozen funds as they edge toward interim deal, Iranian sources say",
+				"url": "https://reuters.com/business/finance/iran-seeks-funds-us-talks-edge-interim-deal-sources-say-2026-06-11/"
+			},
+			{
+				"title": "'I love the inflation,' Trump says as prices rise amid Iran war",
+				"url": "https://reuters.com/world/i-love-inflation-trump-says-prices-rise-amid-iran-war-2026-06-10/"
+			},
+			{
+				"title": "A cracked coffin, a funeral and the hunt for Ebola's patient zero",
+				"url": "https://reuters.com/world/africa/cracked-coffin-funeral-hunt-ebolas-patient-zero-2026-06-11/"
+			},
+			{
+				"title": "Forget the DOJ. For a Trump pardon, call \u201cBobby\u201d and other influencers",
+				"url": "https://reuters.com/investigations/forget-doj-trump-pardon-call-bobby-other-influencers-2026-06-11/"
+			},
+			{
+				"title": "Rivals, soulmates and survivors, Chris and Martina together again in New York",
+				"url": "https://reuters.com/business/media-telecom/rivals-soulmates-survivors-chris-martina-together-again-new-york-2026-06-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"theaters, masks, puppets, curtains, and processions",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-06-10",
 		"displayDate": "June 10, 2026",
 		"image": "/images/news-bosch/2026/06/10.webp",
