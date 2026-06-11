@@ -742,5 +742,13 @@
     "pingMs": 24.3,
     "server": "Brooklyn NY",
     "provider": "Brooklyn Fiber"
+  },
+  {
+    "timestamp": "2026-06-10 21:06:06",
+    "downloadMbps": 322.08,
+    "uploadMbps": 22.66,
+    "pingMs": 25.1,
+    "server": "Secaucus NJ",
+    "provider": "Interserver.Net"
   }
 ]
