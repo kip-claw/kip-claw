@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-06-12",
+		"displayDate": "June 12, 2026",
+		"image": "/images/news-bosch/2026/06/12.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-12T20:26:15.507847Z",
+		"sourceRetrievedAt": "2026-06-12T20:22:25.895977Z",
+		"themes": [
+			{
+				"name": "Unlocked Eastern Treasury",
+				"interpretation": "Frozen money and tentative diplomacy become a threshold where a sealed chamber opens toward a possible peace passage.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "Rocket Ladder Feast",
+				"interpretation": "The market turns a space venture into a towering banquet of valuation, wealth, and speculative ascent.",
+				"storyRanks": [3, 6, 7, 9]
+			},
+			{
+				"name": "Borrowed Return Bridge",
+				"interpretation": "A disrupted papal journey becomes a symbolic crossing home by borrowed vessel after machinery fails.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Media Rooms Rearranged",
+				"interpretation": "Entertainment and device empires appear as chambers being detached, sold, or joined through hidden corridors.",
+				"storyRanks": [5, 8]
+			},
+			{
+				"name": "Subpoena Well Sealed",
+				"interpretation": "A court ruling narrows an attempted nationwide shield, leaving contested health records at the bottom of a legal well.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Exclusive: UAE to unlock billions of dollars for Iran, sources say",
+				"url": "https://reuters.com/world/middle-east/uae-unlock-billions-dollars-iran-sources-say-2026-06-12/"
+			},
+			{
+				"title": "US and Iran signal a peace deal is close",
+				"url": "https://reuters.com/world/middle-east/trump-says-iran-war-deal-close-strait-hormuz-tensions-linger-2026-06-12/"
+			},
+			{
+				"title": "SpaceX IPO makes Elon Musk the world's first trillionaire",
+				"url": "https://reuters.com/business/media-telecom/spacex-ipo-makes-elon-musk-worlds-first-trillionaire-2026-06-11/"
+			},
+			{
+				"title": "Pope borrows King of Spain's jet to return to Vatican after technical issue",
+				"url": "https://reuters.com/world/popes-return-home-spain-delayed-plane-suffers-technical-issue-2026-06-12/"
+			},
+			{
+				"title": "Microsoft has considered spinning off Xbox, the Information reports",
+				"url": "https://reuters.com/business/microsoft-has-considered-spinning-out-xbox-information-reports-2026-06-12/"
+			},
+			{
+				"title": "Live: Shares in Elon Musk's SpaceX surge after world's biggest IPO",
+				"url": "https://reuters.com/world/us/live-elon-musks-spacex-set-stock-market-trading-after-worlds-biggest-ipo-2026-06-12/"
+			},
+			{
+				"title": "SpaceX value surges past $2 trillion\u00a0in historic IPO debut",
+				"url": "https://reuters.com/legal/transactional/after-record-ipo-musks-spacex-faces-next-test-market-debut-2026-06-12/"
+			},
+			{
+				"title": "Roku said to be in sale talks, including likely media tie-up, Bloomberg News reports",
+				"url": "https://reuters.com/business/media-telecom/roku-said-be-sale-talks-including-likely-media-tie-up-bloomberg-news-reports-2026-06-12/"
+			},
+			{
+				"title": "Explainer: SpaceX's IPO includes a \"greenshoe\" option \u2013 here's what that means",
+				"url": "https://reuters.com/legal/transactional/spacexs-ipo-includes-greenshoe-option-heres-what-that-means-2026-06-12/"
+			},
+			{
+				"title": "US judge rejects 'unprecedented' bid to block DOJ transgender health subpoenas nationwide",
+				"url": "https://reuters.com/legal/government/us-judge-rejects-unprecedented-bid-block-doj-transgender-health-subpoenas-2026-06-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "merchants and market keepers"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"vessels, canals, wells, floods, and bridges",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-06-11",
 		"displayDate": "June 11, 2026",
 		"image": "/images/news-bosch/2026/06/11.webp",
