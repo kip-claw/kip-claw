@@ -7648,5 +7648,284 @@
 		"consecutiveErrors": 4,
 		"errorReason": "rate_limit",
 		"notes": "FallbackSummaryError: All models failed (5): openai/gpt-5.4-mini: Connection error. (timeout) | google/gemini-3.1-flash-lite: Google Generative AI API error (429): Your prepayment credits are depleted"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "OpenClaw job report",
+		"status": "error",
+		"durationS": 8.4,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Publish skills",
+		"status": "error",
+		"durationS": 8.8,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "OpenClaw config report",
+		"status": "error",
+		"durationS": 7.5,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Humidor export",
+		"status": "error",
+		"durationS": 7.2,
+		"consecutiveErrors": 6,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Runs export",
+		"status": "error",
+		"durationS": 6.8,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "NYC list export",
+		"status": "error",
+		"durationS": 12.1,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "OpenAI limits report",
+		"status": "error",
+		"durationS": 6.3,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): google/gemini-3.1-flash-lite: Google Generative AI API error (429): Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/proje"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Twitter archive sync",
+		"status": "error",
+		"durationS": 8.1,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 6.1,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): google/gemini-3.1-flash-lite: Google Generative AI API error (429): Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/proje"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "error",
+		"durationS": 22.3,
+		"consecutiveErrors": 6,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Twitter archive export",
+		"status": "error",
+		"durationS": 7.7,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 26.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 7.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "OpenClaw release check",
+		"status": "error",
+		"durationS": 8.9,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 7.7,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (3): openai/gpt-5.5: 401 Unauthorized - Invalid access token (auth) | openai/gpt-5.4-mini: 401 Unauthorized - Invalid access token (auth) | google/gemini-3-flas"
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 54.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 67.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 18.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 75.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 73.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 24.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 12.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 18.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 8.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 134.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 82.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 29.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 58.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 49.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 73.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-13 04:00:09",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 48.8,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (5): openai/gpt-5.4-mini: Connection error. (timeout) | google/gemini-3.1-flash-lite: Google Generative AI API error (429): Your prepayment credits are depleted"
 	}
 ]
