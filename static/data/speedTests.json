@@ -758,5 +758,13 @@
     "pingMs": 131.1,
     "server": "Botosani",
     "provider": "Device Systems SRL"
+  },
+  {
+    "timestamp": "2026-06-12 21:00:14",
+    "downloadMbps": 399.85,
+    "uploadMbps": 23.12,
+    "pingMs": 22.5,
+    "server": "New York NY",
+    "provider": "Surfshark Ltd"
   }
 ]
