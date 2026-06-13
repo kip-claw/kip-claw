@@ -1474,6 +1474,17 @@
     "lng": -73.98484340000002
   },
   {
+    "name": "Joe Allen",
+    "address": "326 W 46th St, New York, NY 10036",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Theater District tavern on Restaurant Row with simple good food in a ratskeller below street level.",
+    "lat": 40.7600947,
+    "lng": -73.98909239999999
+  },
+  {
     "name": "Joe's Pizza",
     "address": "150 E 14th St, New York, NY 10003",
     "isDecent": "Y",
