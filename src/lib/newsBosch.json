@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-06-13",
+		"displayDate": "June 13, 2026",
+		"image": "/images/news-bosch/2026/06/13.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-13T10:04:56.062307Z",
+		"sourceRetrievedAt": "2026-06-13T10:00:09.492596Z",
+		"themes": [
+			{
+				"name": "Hormuz Overture Fractures",
+				"interpretation": "Diplomatic promises and military violence collide around Iran, turning a possible peace score into a broken maritime anthem.",
+				"storyRanks": [1, 3, 8]
+			},
+			{
+				"name": "Silenced Machine Choir",
+				"interpretation": "The AI industry\u2019s confidence falters as workforce mistakes and access restrictions make once-loud models sing behind locked doors.",
+				"storyRanks": [2, 4]
+			},
+			{
+				"name": "Borrowed Wings Procession",
+				"interpretation": "Power travels uneasily through borrowed vehicles and improvised routes when institutions meant to appear seamless reveal technical fragility.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Courthouse Curtain Drop",
+				"interpretation": "Legal authority interrupts political theater, halting a contested fund before it can become another instrument onstage.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Trillionaire Rocket Mirror",
+				"interpretation": "A speculative leap into public markets reflects wealth concentration as a dazzling rocket performance in a distorted mirror.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "Disputed Map Puppets",
+				"interpretation": "Territory under pressure becomes a stage where villagers, developers, and militants redraw authority with uneasy restraint.",
+				"storyRanks": [9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran peace deal looms while new military action flares near Strait of Hormuz",
+				"url": "https://reuters.com/world/asia-pacific/iran-peace-deal-looms-while-new-military-action-flares-near-strait-hormuz-2026-06-13/"
+			},
+			{
+				"title": "Zuckerberg says Meta made 'mistakes' in AI workforce shift",
+				"url": "https://reuters.com/business/metas-zuckerberg-admits-mistakes-made-ai-transformation-2026-06-12/"
+			},
+			{
+				"title": "Exclusive: UAE to unlock billions of dollars for Iran, sources say",
+				"url": "https://reuters.com/world/middle-east/uae-unlock-billions-dollars-iran-sources-say-2026-06-12/"
+			},
+			{
+				"title": "Anthropic disables top-tier AI models after US order limiting foreign access",
+				"url": "https://reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/"
+			},
+			{
+				"title": "Pope borrows King of Spain's jet to return to Vatican after technical issue",
+				"url": "https://reuters.com/world/popes-return-home-spain-delayed-plane-suffers-technical-issue-2026-06-12/"
+			},
+			{
+				"title": "US judge indefinitely blocks Trump's 'anti-weaponization' fund",
+				"url": "https://reuters.com/world/us-judge-indefinitely-blocks-trumps-anti-weaponization-fund-2026-06-12/"
+			},
+			{
+				"title": "SpaceX IPO makes Elon Musk the world's first trillionaire",
+				"url": "https://reuters.com/business/media-telecom/spacex-ipo-makes-elon-musk-worlds-first-trillionaire-2026-06-11/"
+			},
+			{
+				"title": "Indians grieve\u00a0and call for action after US strike kills sailors",
+				"url": "https://reuters.com/world/india/india-summons-top-us-diplomat-second-time-protest-strikes-ships-off-oman-source-2026-06-12/"
+			},
+			{
+				"title": "Kushner project being developed on disputed land, Albanian villagers say",
+				"url": "https://reuters.com/world/europe/kushner-project-being-developed-disputed-land-albanian-villagers-say-2026-06-13/"
+			},
+			{
+				"title": "Al Qaeda-linked militants curb their brutality in seized Malian territory",
+				"url": "https://reuters.com/world/africa/militants-mali-linked-al-qaeda-curb-brutality-they-tighten-control-2026-06-13/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"theaters, masks, puppets, curtains, and processions",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-06-12",
 		"displayDate": "June 12, 2026",
 		"image": "/images/news-bosch/2026/06/12.webp",
