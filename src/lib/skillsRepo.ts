@@ -2,6 +2,7 @@ export type PublishedSkill = {
 	slug: string;
 	title: string;
 	description: string;
+	tag: string;
 	path: string;
 	markdownUrl: string;
 };
@@ -23,6 +24,17 @@ function slugToTitle(slug: string): string {
 		.split('-')
 		.map((part) => part.charAt(0).toUpperCase() + part.slice(1))
 		.join(' ');
+}
+
+function extractFrontmatterTitle(markdown: string): string {
+	const frontmatterMatch = markdown.match(/^---\n([\s\S]*?)\n---/);
+	if (!frontmatterMatch) {
+		return '';
+	}
+
+	const body = frontmatterMatch[1] ?? '';
+	const titleMatch = body.match(/^title:\s*(.+)$/im);
+	return titleMatch ? titleMatch[1].trim().replace(/^"|"$/g, '') : '';
 }
 
 function extractFrontmatterDescription(markdown: string): string {
@@ -47,6 +59,17 @@ function extractFrontmatterDescription(markdown: string): string {
 		.map((line) => line.trim())
 		.join(' ')
 		.replace(/^"|"$/g, '');
+}
+
+function extractFrontmatterTag(markdown: string): string {
+	const frontmatterMatch = markdown.match(/^---\n([\s\S]*?)\n---/);
+	if (!frontmatterMatch) {
+		return '';
+	}
+
+	const body = frontmatterMatch[1] ?? '';
+	const tagMatch = body.match(/^tag:\s*(.+)$/im);
+	return tagMatch ? tagMatch[1].trim().replace(/^"|"$/g, '') : '';
 }
 
 async function fetchText(url: string): Promise<string> {
@@ -126,12 +149,16 @@ export async function listPublishedSkills(): Promise<PublishedSkill[]> {
 	const skills = await Promise.all(
 		dirs.map(async (slug) => {
 			const markdownUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${slug}/SKILL.md`;
-			const description = extractFrontmatterDescription(await fetchText(markdownUrl));
+			const markdown = await fetchText(markdownUrl);
+			const description = extractFrontmatterDescription(markdown);
+			const tag = extractFrontmatterTag(markdown);
+			const title = extractFrontmatterTitle(markdown) || slugToTitle(slug);
 
 			return {
 				slug,
-				title: slugToTitle(slug),
+				title,
 				description,
+				tag,
 				path: `${slug}/SKILL.md`,
 				markdownUrl
 			} satisfies PublishedSkill;
