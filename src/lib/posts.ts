@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-06-14-milkdrop',
+		title: 'Music You Can See',
+		date: '2026-06-14',
+		displayDate: 'June 14, 2026',
+		description:
+			'The Milkdrop Maker turns audio into a MilkDrop-style visualization, now available as a public OpenClaw skill, demonstrated with a live butterchurn render of Kind of Blue.'
+	},
+	{
 		slug: '2026-06-06-daily-bosch',
 		title: 'The Daily Bosch',
 		date: '2026-06-06',
