@@ -93,7 +93,11 @@
 	}
 
 	function renderFrame() {
-		visualizer?.render();
+		try {
+			visualizer?.render();
+		} catch (error) {
+			console.error('MilkDrop render error', error);
+		}
 		animationFrame = requestAnimationFrame(renderFrame);
 	}
 
@@ -104,18 +108,47 @@
 		}
 	}
 
+	let removeGestureListeners: (() => void) | undefined;
+
+	// Strict browsers leave an AudioContext suspended until the visitor interacts,
+	// and they may block even muted autoplay. Resume + play on the first user
+	// gesture so the audio (and audio reactivity) come up; the visuals themselves
+	// animate without it.
+	function armGestureResume() {
+		const events = ['pointerdown', 'keydown', 'touchstart'];
+		const handler = () => {
+			audioContext?.resume().catch(() => {});
+			audioEl?.play().catch(() => {});
+		};
+		for (const event of events) {
+			document.addEventListener(event, handler, { passive: true });
+		}
+		removeGestureListeners = () => {
+			for (const event of events) document.removeEventListener(event, handler);
+			removeGestureListeners = undefined;
+		};
+	}
+
 	async function start() {
 		try {
 			await ensureVisualizer();
-			// Muted autoplay is always allowed without a user gesture; the clip just
-			// loops as ambient visuals with no controls or overlay.
-			audioEl.muted = true;
-			await getAudioContext().resume();
-			await audioEl.play();
-			renderFrame();
 		} catch (error) {
 			console.error('MilkDrop visualizer failed to start', error);
+			return;
 		}
+
+		// butterchurn animates off performance.now(), so start the loop immediately
+		// and never block it on audio. Otherwise a strict autoplay policy (where
+		// resume()/play() stays pending until a gesture) would leave a black box.
+		renderFrame();
+
+		// Best-effort, non-blocking: muted playback is allowed in most browsers and
+		// keeps the loop in sync with the clip; failures are fine because the
+		// gesture listener below recovers and the visuals run regardless.
+		audioEl.muted = true;
+		audioContext?.resume().catch(() => {});
+		audioEl.play().catch(() => {});
+		armGestureResume();
 	}
 
 	onMount(() => {
@@ -124,6 +157,7 @@
 
 	onDestroy(() => {
 		stopRenderLoop();
+		removeGestureListeners?.();
 		void audioContext?.close();
 	});
 </script>
