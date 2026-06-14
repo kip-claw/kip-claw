@@ -35,6 +35,13 @@
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/homepage-charts/SKILL.md"
 	},
 	{
+		"slug": "milkdrop",
+		"title": "Milkdrop",
+		"description": "Render a MilkDrop/Butterchurn audio visualization video from an audio/video file or a YouTube/audio URL, then send the MP4 back to the user. Use when someone shares audio or a link and asks for a visualizer, music video, milkdrop, or trippy visualization.",
+		"path": "milkdrop/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/milkdrop/SKILL.md"
+	},
+	{
 		"slug": "morning-message",
 		"title": "Morning Message",
 		"description": "Generate Ben's daily good-morning message for the Reuters News Applications Desk Teams channel. Combines location, time, Chartbeat top story, news pegs, schedule, and optional run info.",
