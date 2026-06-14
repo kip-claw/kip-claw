@@ -39,12 +39,6 @@
 	let visualizer: ButterchurnVisualizer | undefined;
 	let animationFrame = 0;
 
-	let playing = $state(false);
-	let loading = $state(false);
-	let started = $state(false);
-	let muted = $state(false);
-	let message = $state('');
-
 	function getAudioContext() {
 		if (!audioContext) {
 			const audioWindow = window as Window & { webkitAudioContext?: typeof AudioContext };
@@ -110,67 +104,22 @@
 		}
 	}
 
-	async function play() {
+	async function start() {
 		try {
-			loading = true;
-			message = '';
 			await ensureVisualizer();
-			renderFrame();
-			started = true;
-			try {
-				await getAudioContext().resume();
-				audioEl.muted = false;
-				await audioEl.play();
-				muted = false;
-				playing = true;
-			} catch {
-				// Browsers block autoplay with sound until the visitor interacts, so
-				// start muted (always allowed) to keep the visuals moving; the overlay
-				// invites a tap to turn the sound on for full audio reactivity.
-				audioEl.muted = true;
-				muted = true;
-				await audioEl.play();
-				playing = true;
-			}
-		} catch (error) {
-			message = error instanceof Error ? error.message : 'Unable to start the visualizer.';
-		} finally {
-			loading = false;
-		}
-	}
-
-	async function enableSound() {
-		try {
+			// Muted autoplay is always allowed without a user gesture; the clip just
+			// loops as ambient visuals with no controls or overlay.
+			audioEl.muted = true;
 			await getAudioContext().resume();
-			audioEl.muted = false;
-			muted = false;
-			if (audioEl.paused) await audioEl.play();
-			if (!animationFrame) renderFrame();
-			playing = true;
+			await audioEl.play();
+			renderFrame();
 		} catch (error) {
-			message = error instanceof Error ? error.message : 'Unable to turn the sound on.';
+			console.error('MilkDrop visualizer failed to start', error);
 		}
-	}
-
-	function pause() {
-		audioEl.pause();
-		stopRenderLoop();
-		playing = false;
-	}
-
-	function toggle() {
-		if (muted) void enableSound();
-		else if (playing) pause();
-		else void play();
-	}
-
-	function handleEnded() {
-		stopRenderLoop();
-		playing = false;
 	}
 
 	onMount(() => {
-		void play();
+		void start();
 	});
 
 	onDestroy(() => {
@@ -182,42 +131,9 @@
 <figure class="milkdrop">
 	<div class="stage" style={`aspect-ratio: ${width} / ${height};`}>
 		<canvas bind:this={canvasEl} {width} {height} aria-label="Live MilkDrop visualization"></canvas>
-		<button
-			type="button"
-			class="overlay"
-			class:hidden={playing && !muted}
-			onclick={toggle}
-			aria-label={muted ? 'Turn on sound' : playing ? 'Pause visualization' : 'Play visualization'}
-		>
-			<span class="badge">
-				{#if loading}
-					…
-				{:else if muted}
-					🔊
-				{:else if playing}
-					❚❚
-				{:else}
-					▶
-				{/if}
-				<span class="label">
-					{#if loading}
-						Starting
-					{:else if muted}
-						Tap for sound
-					{:else if started}
-						{playing ? 'Pause' : 'Resume'}
-					{:else}
-						Play 5-second clip
-					{/if}
-				</span>
-			</span>
-		</button>
 	</div>
-	<audio bind:this={audioEl} {src} loop preload="auto" crossorigin="anonymous"></audio>
-	<figcaption>
-		{caption}
-		{#if message}<span class="error"> — {message}</span>{/if}
-	</figcaption>
+	<audio bind:this={audioEl} {src} loop muted preload="auto" crossorigin="anonymous"></audio>
+	<figcaption>{caption}</figcaption>
 </figure>
 
 <style>
@@ -240,50 +156,9 @@
 		height: 100%;
 	}
 
-	.overlay {
-		position: absolute;
-		inset: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border: 0;
-		margin: 0;
-		padding: 0;
-		cursor: pointer;
-		background: radial-gradient(circle at center, rgba(5, 6, 10, 0.15), rgba(5, 6, 10, 0.55));
-		transition: opacity 0.2s ease;
-		color: #fff;
-	}
-
-	.overlay.hidden {
-		opacity: 0;
-		pointer-events: none;
-	}
-
-	.badge {
-		display: inline-flex;
-		align-items: center;
-		gap: var(--space-3);
-		padding: var(--space-3) var(--space-5);
-		border-radius: 999px;
-		background: rgba(5, 6, 10, 0.6);
-		backdrop-filter: blur(4px);
-		font-size: var(--font-size-sm);
-		font-weight: var(--font-weight-bold);
-	}
-
-	.label {
-		text-transform: uppercase;
-		letter-spacing: 0.04em;
-	}
-
 	figcaption {
 		margin-top: var(--space-2);
 		color: var(--color-muted);
 		font-size: var(--font-size-xs);
-	}
-
-	.error {
-		color: var(--color-accent-secondary);
 	}
 </style>
