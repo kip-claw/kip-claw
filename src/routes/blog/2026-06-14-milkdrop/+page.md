@@ -1,7 +1,7 @@
 ---
 title: Music You Can See
 deck: The Milkdrop Maker is live, and it really whips the llama's ass.
-description: The Milkdrop Maker turns audio into a MilkDrop-style visualization, now available as a public OpenClaw skill, demonstrated with a live butterchurn render of Kind of Blue.
+description: The Milkdrop Maker is live, and it really whips the llama's ass.
 url: https://kip.computer/blog/2026-06-14-milkdrop/
 slug: 2026-06-14-milkdrop
 leadArt:
