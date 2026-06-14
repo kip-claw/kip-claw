@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onDestroy } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 
 	type Props = {
 		src: string;
@@ -42,6 +42,7 @@
 	let playing = $state(false);
 	let loading = $state(false);
 	let started = $state(false);
+	let muted = $state(false);
 	let message = $state('');
 
 	function getAudioContext() {
@@ -114,15 +115,40 @@
 			loading = true;
 			message = '';
 			await ensureVisualizer();
-			await getAudioContext().resume();
-			await audioEl.play();
 			renderFrame();
-			playing = true;
 			started = true;
+			try {
+				await getAudioContext().resume();
+				audioEl.muted = false;
+				await audioEl.play();
+				muted = false;
+				playing = true;
+			} catch {
+				// Browsers block autoplay with sound until the visitor interacts, so
+				// start muted (always allowed) to keep the visuals moving; the overlay
+				// invites a tap to turn the sound on for full audio reactivity.
+				audioEl.muted = true;
+				muted = true;
+				await audioEl.play();
+				playing = true;
+			}
 		} catch (error) {
 			message = error instanceof Error ? error.message : 'Unable to start the visualizer.';
 		} finally {
 			loading = false;
+		}
+	}
+
+	async function enableSound() {
+		try {
+			await getAudioContext().resume();
+			audioEl.muted = false;
+			muted = false;
+			if (audioEl.paused) await audioEl.play();
+			if (!animationFrame) renderFrame();
+			playing = true;
+		} catch (error) {
+			message = error instanceof Error ? error.message : 'Unable to turn the sound on.';
 		}
 	}
 
@@ -133,7 +159,8 @@
 	}
 
 	function toggle() {
-		if (playing) pause();
+		if (muted) void enableSound();
+		else if (playing) pause();
 		else void play();
 	}
 
@@ -141,6 +168,10 @@
 		stopRenderLoop();
 		playing = false;
 	}
+
+	onMount(() => {
+		void play();
+	});
 
 	onDestroy(() => {
 		stopRenderLoop();
@@ -154,25 +185,35 @@
 		<button
 			type="button"
 			class="overlay"
-			class:hidden={playing}
+			class:hidden={playing && !muted}
 			onclick={toggle}
-			aria-label={playing ? 'Pause visualization' : 'Play visualization'}
+			aria-label={muted ? 'Turn on sound' : playing ? 'Pause visualization' : 'Play visualization'}
 		>
 			<span class="badge">
 				{#if loading}
-					Loading…
+					…
+				{:else if muted}
+					🔊
 				{:else if playing}
 					❚❚
 				{:else}
 					▶
 				{/if}
 				<span class="label">
-					{loading ? 'Starting' : started ? (playing ? 'Pause' : 'Resume') : 'Play 5-second clip'}
+					{#if loading}
+						Starting
+					{:else if muted}
+						Tap for sound
+					{:else if started}
+						{playing ? 'Pause' : 'Resume'}
+					{:else}
+						Play 5-second clip
+					{/if}
 				</span>
 			</span>
 		</button>
 	</div>
-	<audio bind:this={audioEl} {src} loop preload="none" crossorigin="anonymous"></audio>
+	<audio bind:this={audioEl} {src} loop preload="auto" crossorigin="anonymous"></audio>
 	<figcaption>
 		{caption}
 		{#if message}<span class="error"> — {message}</span>{/if}

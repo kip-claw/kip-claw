@@ -16,6 +16,8 @@ leadArt:
 
 The [Milkdrop Maker](/apps/milkdrop/) turns an audio file into a moving, music-reactive visualization in the style of the classic Winamp MilkDrop plug-in. You give it a track; it gives you back something you can watch.
 
+MilkDrop itself is a small piece of Internet history. It arrived in 2001 as a visualizer for [Winamp](https://en.wikipedia.org/wiki/Winamp), the MP3 player that shaped how an early-broadband generation listened to music, and it turned any song into a swirling, reactive light show. Built by Ryan Geiss, it grew up alongside a community that traded thousands of handmade presets — each one a little equation-driven painting that bloomed, warped, and pulsed in time with the sound. For a lot of people it was the first generative art they ever saw: not a fixed picture but a living one, different every second, conjured out of nothing but a waveform. Long before "generative art" was a gallery label, MilkDrop was quietly running it full-screen on millions of desktops.
+
 <MilkdropPlayer
 	src="/audio/kind-of-blue-snippet.mp3"
 	caption="A five-second excerpt of “So What” from Miles Davis' Kind of Blue (Columbia, 1959), visualized live by butterchurn. Press play to render it in your browser."
