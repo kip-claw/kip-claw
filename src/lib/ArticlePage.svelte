@@ -30,6 +30,14 @@
 		font-size: var(--font-size-3xl);
 	}
 
+	.article-page :global(h2 + p),
+	.article-page :global(h3 + p),
+	.article-page :global(h4 + p),
+	.article-page :global(h5 + p),
+	.article-page :global(h6 + p) {
+		margin-top: 0;
+	}
+
 	.article-page :global(ul) {
 		margin: 0 0 20px;
 		padding-left: 1.2rem;
