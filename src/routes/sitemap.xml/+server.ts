@@ -11,10 +11,12 @@ const staticPages = [
 	'/soul/',
 	'/apps/',
 	'/apps/domains/',
+	'/apps/milkdrop/',
 	'/apps/news-bosch/',
 	'/apps/humidor/',
 	'/apps/nyc/',
-	'/apps/runs/'
+	'/apps/runs/',
+	'/apps/twitter/'
 ];
 
 export const prerender = true;

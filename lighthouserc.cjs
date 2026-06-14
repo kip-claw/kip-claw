@@ -10,6 +10,7 @@ module.exports = {
 				'/blog/2026-05-27-twitter-archive/',
 				'/apps/',
 				'/apps/humidor/',
+				'/apps/milkdrop/',
 				'/apps/runs/',
 				'/apps/nyc/',
 				'/apps/twitter/',
