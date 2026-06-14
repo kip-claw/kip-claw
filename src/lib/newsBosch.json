@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-06-14",
+		"displayDate": "June 14, 2026",
+		"image": "/images/news-bosch/2026/06/14.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-14T10:04:18.113200Z",
+		"sourceRetrievedAt": "2026-06-14T10:00:09.851022Z",
+		"themes": [
+			{
+				"name": "Curtain Over Negotiations",
+				"interpretation": "Diplomacy advances in half-light, with promised timing and strategic restraint still hidden behind the stage curtain.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Channels And Iron Screens",
+				"interpretation": "Borders are being policed both at sea and online, while citizens and states improvise ways around surveillance and secrecy.",
+				"storyRanks": [2, 3, 4]
+			},
+			{
+				"name": "Procession Turns Chaotic",
+				"interpretation": "Public institutions and mass gatherings move like a parade repeatedly disrupted by fire, malfunction, and improvised detours.",
+				"storyRanks": [5, 7]
+			},
+			{
+				"name": "The Disputed Table",
+				"interpretation": "Land, population, and development are contested like seats at an overcrowded feast where maps and bowls decide belonging.",
+				"storyRanks": [8, 9]
+			},
+			{
+				"name": "Machines Behind Masks",
+				"interpretation": "The AI industry is reshaping its labor and access rules under pressure, exposing fragile human choices behind automated power.",
+				"storyRanks": [6, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "US, Iran inch closer to deal, Trump says Sunday but timing remains unclear",
+				"url": "https://reuters.com/world/asia-pacific/us-iran-inch-closer-deal-timing-remains-unclear-2026-06-14/"
+			},
+			{
+				"title": "British forces intercept Russian shadow fleet tanker in the Channel",
+				"url": "https://reuters.com/world/europe/uks-starmer-says-armed-forces-intercepted-russian-shadow-fleet-oil-tanker-2026-06-14/"
+			},
+			{
+				"title": "Two phones and an app: How Russians skirt Putin's digital iron curtain",
+				"url": "https://reuters.com/world/europe/two-phones-an-app-how-russians-skirt-putins-digital-iron-curtain-2026-06-13/"
+			},
+			{
+				"title": "Taiwan launches website for Chinese nationals to report intelligence",
+				"url": "https://reuters.com/world/china/taiwan-launches-website-chinese-nationals-report-intelligence-2026-06-14/"
+			},
+			{
+				"title": "World Cup bus set alight as chaotic celebrations erupt in Manhattan after Knicks win",
+				"url": "https://reuters.com/sports/world-cup-bus-set-alight-chaotic-celebrations-erupt-manhattan-after-knicks-win-2026-06-14/"
+			},
+			{
+				"title": "Zuckerberg says Meta made 'mistakes' in AI workforce shift",
+				"url": "https://reuters.com/business/metas-zuckerberg-admits-mistakes-made-ai-transformation-2026-06-12/"
+			},
+			{
+				"title": "Pope borrows King of Spain's jet to return to Vatican after technical issue",
+				"url": "https://reuters.com/world/popes-return-home-spain-delayed-plane-suffers-technical-issue-2026-06-12/"
+			},
+			{
+				"title": "Insight: Kushner project being developed on disputed land, Albanian villagers say",
+				"url": "https://reuters.com/world/europe/kushner-project-being-developed-disputed-land-albanian-villagers-say-2026-06-13/"
+			},
+			{
+				"title": "Switzerland votes on proposal to cap population at 10 million",
+				"url": "https://reuters.com/world/europe/switzerland-votes-proposal-cap-population-10-million-2026-06-14/"
+			},
+			{
+				"title": "Anthropic disables top-tier AI models after US order limiting foreign access",
+				"url": "https://reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "sailors and navigators"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-06-13",
 		"displayDate": "June 13, 2026",
 		"image": "/images/news-bosch/2026/06/13.webp",
