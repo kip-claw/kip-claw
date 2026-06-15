@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-06-15",
+		"displayDate": "June 15, 2026",
+		"image": "/images/news-bosch/2026/06/15.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-15T11:36:26.195858Z",
+		"sourceRetrievedAt": "2026-06-15T11:31:36.828339Z",
+		"themes": [
+			{
+				"name": "Hormuz Peace Loom",
+				"interpretation": "The day's central story is a tentative US-Iran truce that reopens the Strait of Hormuz, links war's end to nuclear limits and asset releases, and sends oil prices downward.",
+				"storyRanks": [1, 2, 3, 4, 9]
+			},
+			{
+				"name": "Sanctions Key Mill",
+				"interpretation": "The proposed memorandum turns diplomacy into machinery, with sanctions waivers, nuclear restraints, and frozen assets feeding the same fragile mill.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "Monastery Under Scaffold",
+				"interpretation": "Russia's strikes on Ukraine bring the war back into view as sacred architecture and civilian lives are damaged amid the larger diplomatic cycle.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Screens Behind Gates",
+				"interpretation": "Media power and digital access are being rebuilt through a giant streaming acquisition and a proposed under-16 social media ban.",
+				"storyRanks": [6, 7]
+			},
+			{
+				"name": "Tariff Banquet Tower",
+				"interpretation": "Global elites gather while tariff threats and private space ambitions suggest a feast where commerce, politics, and capital climb into unstable towers.",
+				"storyRanks": [8, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran, US agree to halt war and reopen Hormuz, sending oil prices tumbling",
+				"url": "https://reuters.com/world/asia-pacific/iran-us-agree-halt-war-reopen-hormuz-sending-oil-prices-tumbling-2026-06-15/"
+			},
+			{
+				"title": "What the US and Iran say they have agreed in the memorandum to end the war",
+				"url": "https://reuters.com/world/asia-pacific/what-us-iran-say-they-have-agreed-memorandum-end-war-2026-06-15/"
+			},
+			{
+				"title": "Iran says draft US deal includes oil sanctions waiver, nuclear limits and asset release",
+				"url": "https://reuters.com/business/energy/iran-says-draft-us-deal-includes-oil-sanctions-waiver-nuclear-limits-asset-2026-06-14/"
+			},
+			{
+				"title": "Iran war live: Trump says US and Tehran have reached a tentative peace deal and will sign Friday",
+				"url": "https://reuters.com/world/iran-war-live-trump-says-us-tehran-have-reached-peace-deal-2026-06-15/"
+			},
+			{
+				"title": "Historic Kyiv monastery damaged, 10 people killed in Russian attacks on Ukraine",
+				"url": "https://reuters.com/world/europe/one-injured-ukraine-repels-air-attacks-over-kyiv-local-authorities-say-2026-06-14/"
+			},
+			{
+				"title": "Fox to buy Roku in $22 billion deal to accelerate shift to digital",
+				"url": "https://reuters.com/business/media-telecom/fox-buy-roku-22-billion-deal-2026-06-15/"
+			},
+			{
+				"title": "Britain announces sweeping social media ban for under-16s",
+				"url": "https://reuters.com/business/media-telecom/britain-expected-set-out-under-16s-social-media-restrictions-2026-06-14/"
+			},
+			{
+				"title": "G7 leaders meet in France with Trump tariff threat looming",
+				"url": "https://reuters.com/world/china/g7-leaders-meet-france-after-us-iran-declare-agreement-end-war-2026-06-15/"
+			},
+			{
+				"title": "US, Iran reach preliminary agreement to end war, signing set for Friday",
+				"url": "https://reuters.com/world/asia-pacific/us-iran-reach-peace-deal-signing-set-friday-pakistan-says-2026-06-14/"
+			},
+			{
+				"title": "Australia's richest person Rinehart takes $1 billion stake in SpaceX IPO, WSJ reports",
+				"url": "https://reuters.com/business/media-telecom/australias-richest-person-rinehart-takes-1-billion-stake-spacex-ipo-wsj-reports-2026-06-15/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "scholars and alchemists"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-06-14",
 		"displayDate": "June 14, 2026",
 		"image": "/images/news-bosch/2026/06/14.webp",
