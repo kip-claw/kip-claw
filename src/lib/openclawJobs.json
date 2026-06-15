@@ -8215,5 +8215,293 @@
 		"consecutiveErrors": 1,
 		"errorReason": "",
 		"notes": "FailoverError: Request was aborted."
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 19.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 17.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 10.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 16.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 19.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 8.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "NYC list export",
+		"status": "error",
+		"durationS": 8.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f Agent couldn't generate a response. Note: some tool actions may have already been executed \u2014 please verify before retrying."
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 9.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Twitter archive sync",
+		"status": "error",
+		"durationS": 7.6,
+		"consecutiveErrors": 6,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f Agent couldn't generate a response. Note: some tool actions may have already been executed \u2014 please verify before retrying."
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Daily Bosch generation",
+		"status": "ok",
+		"durationS": 24.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 259.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 22.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 33.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 28.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 73.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 23.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 16.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 8.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 25.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 7.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 48.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 24.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 15.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 27.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 10.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 55.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 48.8,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (5): openai/gpt-5.4-mini: Connection error. (timeout) | google/gemini-3.1-flash-lite: Google Generative AI API error (429): Your prepayment credits are depleted"
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 17.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Sync SOUL page",
+		"status": "error",
+		"durationS": 31.0,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \u2709\ufe0f Message failed"
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 9.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Dependabot PR triage",
+		"status": "error",
+		"durationS": 305.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "FailoverError: Request was aborted."
+	},
+	{
+		"timestamp": "2026-06-15 04:00:08",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 55.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
