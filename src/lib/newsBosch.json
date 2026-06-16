@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-06-16",
+		"displayDate": "June 16, 2026",
+		"image": "/images/news-bosch/2026/06/16.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-16T10:04:10.906821Z",
+		"sourceRetrievedAt": "2026-06-16T10:00:10.803431Z",
+		"themes": [
+			{
+				"name": "Smuggled Overtures",
+				"interpretation": "A promised halt to conflict is conducted through covert moves and ambiguous choreography, making peace look like a tune played backward.",
+				"storyRanks": [1, 2, 5]
+			},
+			{
+				"name": "Summit Balancing Act",
+				"interpretation": "World leaders gather like acrobats on a wobbling stage where Iran and Ukraine pull the same rope in opposite directions.",
+				"storyRanks": [3, 7]
+			},
+			{
+				"name": "Broken Exam Chorus",
+				"interpretation": "Trust in institutions fractures as private channels, corporate claims, and professional audits are tested for hidden false notes.",
+				"storyRanks": [4, 6, 10]
+			},
+			{
+				"name": "Falling Engines, Rising Rates",
+				"interpretation": "Disaster and tightening money mark a day of descent and ascent, like a race wheel spinning one panel into flames and the next into higher rungs.",
+				"storyRanks": [8, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Exclusive: The US is using an Iranian smuggling tactic to sneak oil out of the Gulf",
+				"url": "https://reuters.com/business/energy/us-is-using-an-iranian-smuggling-tactic-sneak-oil-out-gulf-2026-06-16/"
+			},
+			{
+				"title": "US-Iran deal promises end to war but how it will work remains unclear",
+				"url": "https://reuters.com/world/middle-east/us-iran-deal-promises-end-war-how-it-will-work-remains-unclear-2026-06-16/"
+			},
+			{
+				"title": "G7 summit 2026 live: Trump to discuss Iran and Ukraine with world leaders",
+				"url": "https://reuters.com/world/g7-summit-2026-live-trump-discuss-iran-ukraine-with-world-leaders-2026-06-16/"
+			},
+			{
+				"title": "India curbs Telegram use over medical exam fraud concerns",
+				"url": "https://reuters.com/world/india/india-blocks-telegram-messaging-app-until-june-22-government-says-2026-06-16/"
+			},
+			{
+				"title": "Netanyahu and Trump on collision course as US, Iran agree to halt war",
+				"url": "https://reuters.com/world/middle-east/netanyahu-trump-collision-course-us-iran-agree-halt-war-2026-06-15/"
+			},
+			{
+				"title": "Dannon parent sues Chobani over yogurt protein claims",
+				"url": "https://reuters.com/legal/litigation/dannon-parent-sues-chobani-over-yogurt-protein-claims-2026-06-15/"
+			},
+			{
+				"title": "Zelenskiy seeks to convince Trump at G7 that Russia now on the defensive",
+				"url": "https://reuters.com/world/china/europeans-test-trump-iran-deal-risks-urge-ukraine-rethink-g7-2026-06-16/"
+			},
+			{
+				"title": "US Air Force B-52 bomber crashes in flames in California, killing all 8 crew aboard",
+				"url": "https://reuters.com/business/aerospace-defense/us-air-force-b-52-bomber-crashes-after-takeoff-edwards-air-force-base-says-2026-06-15/"
+			},
+			{
+				"title": "Bank of Japan raises interest rates to 31-year high",
+				"url": "https://reuters.com/world/asia-pacific/bank-japan-set-raise-rates-31-year-high-vow-further-increases-2026-06-15/"
+			},
+			{
+				"title": "KPMG scandal deepens Big Four accounting firms' woes in Australia",
+				"url": "https://reuters.com/sustainability/boards-policy-regulation/kpmg-scandal-deepens-big-four-accounting-firms-woes-australia-2026-06-16/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "merchants and market keepers"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"games, dice, wheels, races, and balancing acts",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-06-15",
 		"displayDate": "June 15, 2026",
 		"image": "/images/news-bosch/2026/06/15.webp",
