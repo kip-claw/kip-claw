@@ -154,7 +154,7 @@
 	{
 		"slug": "todo-archival",
 		"title": "Todo Cleanup",
-		"description": "Moves completed to-do items into an archive buffer for the next digest.",
+		"description": "Cleans Todo.md by keeping completed items in one Done section until digest sweep.",
 		"tag": "Work",
 		"path": "todo-archival/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/todo-archival/SKILL.md"
