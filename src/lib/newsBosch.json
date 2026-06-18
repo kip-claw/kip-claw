@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-06-18",
+		"displayDate": "June 18, 2026",
+		"image": "/images/news-bosch/2026/06/18.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-18T01:24:28.610152Z",
+		"sourceRetrievedAt": "2026-06-18T01:20:57.858409Z",
+		"themes": [
+			{
+				"name": "Ceasefire At The Oven",
+				"interpretation": "A fragile U.S.-Iran bargain dominates the day, promising peace while keeping the furnace of attack visibly lit.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "Fund Beneath The Table",
+				"interpretation": "The diplomatic feast is underwritten by an immense money pot whose contents are already partly claimed before the guests sit down.",
+				"storyRanks": [3, 1, 2]
+			},
+			{
+				"name": "Bosses Behind Curtains",
+				"interpretation": "Power is staged as theater, with leaders asserting command while central bankers rearrange the machinery behind the curtain.",
+				"storyRanks": [4, 5]
+			},
+			{
+				"name": "Mineral Map Cabinet",
+				"interpretation": "Strategic rivalry spreads through supply chains, blacklists, chips, and mineral alliances as states sort the world into useful and risky drawers.",
+				"storyRanks": [6, 7, 9]
+			},
+			{
+				"name": "Empty Bowls Of Compliance",
+				"interpretation": "Public image and regulatory discipline collide as athletes refuse the media table and health companies are summoned for questionable claims.",
+				"storyRanks": [8, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "The 14-point U.S.-Iran pact as read by U.S. official\u00a0",
+				"url": "https://reuters.com/world/middle-east/14-point-draft-us-iran-deal-2026-06-17/"
+			},
+			{
+				"title": "US and Iran presidents sign ceasefire agreement, but Trump says he could still resume attacks",
+				"url": "https://reuters.com/world/middle-east/g7-leaders-demand-ceasefire-lebanon-welcome-iran-deal-2026-06-17/"
+			},
+			{
+				"title": "Exclusive: Iran deal includes $300 billion fund, more than half of which already committed, source says",
+				"url": "https://reuters.com/business/finance/iran-deal-includes-300-billion-fund-more-than-half-which-already-committed-2026-06-16/"
+			},
+			{
+				"title": "Warsh kicks off Fed chief era with sweeping review as rates remain unchanged",
+				"url": "https://reuters.com/business/warsh-led-fed-expected-hold-interest-rates-steady-2026-06-17/"
+			},
+			{
+				"title": "'I'm the boss', Trump says at G7, as he warms to Ukraine's war aims",
+				"url": "https://reuters.com/world/china/g7-leaders-tackle-reliance-china-critical-minerals-2026-06-17/"
+			},
+			{
+				"title": "G7 sets up critical minerals alliance, platform to cut reliance on China",
+				"url": "https://reuters.com/world/europe/g7-sets-up-critical-minerals-alliance-crisis-platform-2026-06-17/"
+			},
+			{
+				"title": "Exclusive: US holds off\u00a0blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say",
+				"url": "https://reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/"
+			},
+			{
+				"title": "South Korea players shun media duties after remarks about Son's military service",
+				"url": "https://reuters.com/sports/soccer/south-korea-players-shun-media-duties-after-remarks-about-sons-military-service-2026-06-16/"
+			},
+			{
+				"title": "Apple to raise prices due to memory chip shortage, CEO Cook tells WSJ",
+				"url": "https://reuters.com/business/apple-raise-prices-due-memory-chip-shortage-ceo-tells-wsj-2026-06-17/"
+			},
+			{
+				"title": "US FDA sends 25 letters to telehealth companies over claims on compounded weight-loss drugs",
+				"url": "https://reuters.com/legal/litigation/us-fda-sends-25-letters-telehealth-companies-over-claims-compounded-weight-loss-2026-06-16/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"theaters, masks, puppets, curtains, and processions",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-06-16",
 		"displayDate": "June 16, 2026",
 		"image": "/images/news-bosch/2026/06/16.webp",
