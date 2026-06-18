@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-06-18-ask-kip',
+		title: 'Say the Word',
+		date: '2026-06-18',
+		displayDate: 'June 18, 2026',
+		description:
+			'ask-kip is a new open source tool that binds a hotkey to a spoken query, transcribed locally with whisper.cpp and sent straight to Kip on Telegram.'
+	},
+	{
 		slug: '2026-06-14-milkdrop',
 		title: 'Music You Can See',
 		date: '2026-06-14',
