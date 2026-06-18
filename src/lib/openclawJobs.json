@@ -8791,5 +8791,293 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "OpenClaw job report",
+		"status": "error",
+		"durationS": 4.4,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Publish skills",
+		"status": "error",
+		"durationS": 2.9,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 14.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "OpenClaw config report",
+		"status": "error",
+		"durationS": 4.6,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | openai/gpt-5.4-mini: 429 The usage limit has been reached (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Humidor export",
+		"status": "error",
+		"durationS": 3.5,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | openai/gpt-5.4-mini: 429 The usage limit has been reached (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Runs export",
+		"status": "error",
+		"durationS": 3.7,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FailoverError: \u26a0\ufe0f API rate limit reached. Please try again later."
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "NYC list export",
+		"status": "error",
+		"durationS": 3.2,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FailoverError: \u26a0\ufe0f API rate limit reached. Please try again later."
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "OpenAI limits report",
+		"status": "error",
+		"durationS": 1.8,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (1): openai/gpt-5.4-mini: Provider openai is in cooldown (suspending lanes) (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Twitter archive sync",
+		"status": "error",
+		"durationS": 5.0,
+		"consecutiveErrors": 9,
+		"errorReason": "rate_limit",
+		"notes": "FailoverError: \u26a0\ufe0f API rate limit reached. Please try again later."
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 4.0,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | openai/gpt-5.4-mini: 429 The usage limit has been reached (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "error",
+		"durationS": 3.0,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | openai/gpt-5.4-mini: 429 The usage limit has been reached (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Twitter archive export",
+		"status": "error",
+		"durationS": 3.6,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FailoverError: \u26a0\ufe0f API rate limit reached. Please try again later."
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 24.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 24.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "OpenClaw release check",
+		"status": "error",
+		"durationS": 3.0,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | openai/gpt-5.4-mini: 429 The usage limit has been reached (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 4.9,
+		"consecutiveErrors": 5,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | openai/gpt-5.4-mini: 429 The usage limit has been reached (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 14.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 7.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 16.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 20.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Todo archival",
+		"status": "error",
+		"durationS": 87.1,
+		"consecutiveErrors": 5,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \ud83d\udcdd Edit: `in ~/obsidian-vault/Todo.md` failed"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 55.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 17.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 9.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 124.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 17.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Sync SOUL page",
+		"status": "error",
+		"durationS": 31.0,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \u2709\ufe0f Message failed"
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 9.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Dependabot PR triage",
+		"status": "error",
+		"durationS": 305.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "FailoverError: Request was aborted."
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 55.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 32.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-18 04:00:07",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 6.2,
+		"consecutiveErrors": 5,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | openai/gpt-5.4-mini: 429 The usage limit has been reached (rate_limit)"
 	}
 ]
