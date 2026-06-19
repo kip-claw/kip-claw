@@ -40,6 +40,14 @@
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/homepage-charts/SKILL.md"
 	},
 	{
+		"slug": "kip-blog-post",
+		"title": "Kip Blog Post",
+		"description": "Authors and publishes a new blog post on kip.computer, including lead art generation.",
+		"tag": "Work",
+		"path": "kip-blog-post/SKILL.md",
+		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/kip-blog-post/SKILL.md"
+	},
+	{
 		"slug": "milkdrop",
 		"title": "Milkdrop",
 		"description": "Renders a MilkDrop visualization video from an audio file or link.",
