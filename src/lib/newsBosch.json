@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-06-19",
+		"displayDate": "June 19, 2026",
+		"image": "/images/news-bosch/2026/06/19.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-19T10:06:56.659784Z",
+		"sourceRetrievedAt": "2026-06-19T10:00:10.470765Z",
+		"themes": [
+			{
+				"name": "Curtain Over the Truce",
+				"interpretation": "The day\u2019s central drama is a promised US-Iran peace process losing its stage as cancelled Swiss talks and regional escalation make any truce feel provisional.",
+				"storyRanks": [1, 2, 3, 5]
+			},
+			{
+				"name": "Peeling Pool of Promise",
+				"interpretation": "Domestic spectacle turns allegorical as a renovated civic mirror already flakes, suggesting grand announcements meeting visible decay.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Northern Mask Procession",
+				"interpretation": "A regional political vision gathers force as electoral success becomes a march toward national leadership challenge.",
+				"storyRanks": [6, 8]
+			},
+			{
+				"name": "Dice of Appetite",
+				"interpretation": "Markets and companies gamble on the consequences of diplomacy, oil losses, and industrial restructuring while uncertainty rolls through the board.",
+				"storyRanks": [9, 10]
+			},
+			{
+				"name": "Long Flight Garden",
+				"interpretation": "Technology and biology are being staged as a balancing act, with sleep and light cultivated to make extreme travel bearable.",
+				"storyRanks": [7]
+			}
+		],
+		"stories": [
+			{
+				"title": "Uncertainty hangs over timing of US-Iran peace talks as Switzerland meeting scrapped",
+				"url": "https://reuters.com/world/europe/us-iran-peace-talks-postponed-clouding-prospects-lasting-truce-2026-06-19/"
+			},
+			{
+				"title": "US-Iran peace talks in Switzerland called off, clouding prospects for lasting truce",
+				"url": "https://reuters.com/world/asia-pacific/us-iran-peace-talks-geneva-called-off-clouding-prospects-lasting-truce-2026-06-19/"
+			},
+			{
+				"title": "Iran's Revolutionary Guards set up covert Iraqi cells to attack Gulf neighbors, sources say",
+				"url": "https://reuters.com/world/middle-east/irans-revolutionary-guards-set-up-covert-iraqi-cells-attack-gulf-neighbors-2026-06-19/"
+			},
+			{
+				"title": "The paint is already peeling in Trump's renovated Washington Reflecting Pool",
+				"url": "https://reuters.com/world/us/paint-is-already-peeling-trumps-renovated-washington-reflecting-pool-2026-06-18/"
+			},
+			{
+				"title": "Lebanon hostilities escalate, weighing on US-Iran deal",
+				"url": "https://reuters.com/world/middle-east/israel-steps-up-lebanon-attacks-with-strikes-that-kill-15-2026-06-19/"
+			},
+			{
+				"title": "What is Andy Burnham's \"Manchesterism\" vision for the UK?",
+				"url": "https://reuters.com/world/uk/what-is-andy-burnhams-manchesterism-vision-uk-2026-06-19/"
+			},
+			{
+				"title": "Sleep and light: the science behind Qantas' bet on 20-hour flights",
+				"url": "https://reuters.com/business/aerospace-defense/sleep-light-science-behind-qantas-bet-20-hour-flights-2026-06-19/"
+			},
+			{
+				"title": "Andy Burnham's election win paves way for bid to oust UK PM Starmer",
+				"url": "https://reuters.com/world/uk/uk-labours-andy-burnham-wins-election-clears-path-challenge-pm-starmer-2026-06-19/"
+			},
+			{
+				"title": "Siemens Energy weighs spin-off of 'Transformation of Industry' unit, Manager Magazin reports",
+				"url": "https://reuters.com/business/siemens-energy-weighs-spin-off-transformation-industry-unit-manager-magazin-2026-06-18/"
+			},
+			{
+				"title": "Brent heading for over 8% weekly loss as traders weigh US-Iran truce outlook",
+				"url": "https://reuters.com/business/energy/oil-falls-supply-starts-moving-through-strait-hormuz-2026-06-19/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "scholars and alchemists"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-06-18",
 		"displayDate": "June 18, 2026",
 		"image": "/images/news-bosch/2026/06/18.webp",
