@@ -2904,6 +2904,17 @@
     "lng": -73.9797542
   },
   {
+    "name": "Tal Bagels (Upper East Side)",
+    "address": "1228 Lexington Ave, New York, NY 10028",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Classic Upper East Side bagel spot at 83rd and Lex. I like the sable fish.",
+    "lat": 40.777724,
+    "lng": -73.957075
+  },
+  {
     "name": "Tartine",
     "address": "253 W 11th St New York, NY 10014",
     "isDecent": "Y",
