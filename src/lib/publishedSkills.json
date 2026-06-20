@@ -98,7 +98,7 @@
 	{
 		"slug": "obsidian-vault",
 		"title": "Obsidian Vault",
-		"description": "Reads, writes, edits, and searches notes in Ben's Obsidian vault.",
+		"description": "Deterministic Obsidian vault edits without approval-prone shell/Python by default.",
 		"tag": "Work",
 		"path": "obsidian-vault/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/obsidian-vault/SKILL.md"
