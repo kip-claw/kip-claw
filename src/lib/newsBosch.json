@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-06-20",
+		"displayDate": "June 20, 2026",
+		"image": "/images/news-bosch/2026/06/20.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-20T10:06:07.540439Z",
+		"sourceRetrievedAt": "2026-06-20T10:00:11.540208Z",
+		"themes": [
+			{
+				"name": "Ceasefire Bell Misfires",
+				"interpretation": "Diplomacy keeps ringing for talks even as renewed strikes and cross-border violence fracture the promised silence.",
+				"storyRanks": [1, 4, 8]
+			},
+			{
+				"name": "Blockaded Table Drums",
+				"interpretation": "Domestic crisis becomes a militarized rhythm as a blockade emergency turns public order into a marching kitchen of scarcity.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Invented Portrait Choir",
+				"interpretation": "Political spectacle mutates into contested self-image, with leaders arguing over a staged memory rather than policy.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Sanctions Lifted Scaffold",
+				"interpretation": "Possible relief from sanctions hints at new wealth flowing through entrenched power structures built like hidden commercial towers.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Lessons Under Lock",
+				"interpretation": "Schools and international forums wrestle with protecting children, whether from artificial intelligence in classrooms or war\u2019s political crossfire.",
+				"storyRanks": [7, 10]
+			},
+			{
+				"name": "Feast Smoke Returns",
+				"interpretation": "A deadly hotel fire and a luxury food rivalry turn appetite, travel, and consumption into a cycle where abundance feeds danger and competition.",
+				"storyRanks": [5, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "US, Iran envoys head for talks, Israeli strikes continue after ceasefire",
+				"url": "https://reuters.com/world/asia-pacific/trump-envoy-iranian-minister-head-switzerland-talks-2026-06-20/"
+			},
+			{
+				"title": "Bolivia's Paz declares state of emergency over blockade crisis, paving way to deploy military",
+				"url": "https://reuters.com/world/americas/bolivias-paz-declares-state-emergency-over-blockade-crisis-2026-06-20/"
+			},
+			{
+				"title": "Italy's Meloni says Trump 'totally invented' story that she begged him for photo",
+				"url": "https://reuters.com/business/media-telecom/meloni-fights-back-after-trump-tells-italian-tv-she-begged-photo-with-him-g7-2026-06-19/"
+			},
+			{
+				"title": "With Lebanon ceasefire set, Trump envoy heads to Switzerland for U.S.-Iran talks",
+				"url": "https://reuters.com/world/europe/us-iran-peace-talks-postponed-clouding-prospects-lasting-truce-2026-06-19/"
+			},
+			{
+				"title": "Woman killed, 1,700 evacuated in beach hotel fire in Dominican Republic",
+				"url": "https://reuters.com/world/americas/one-killed-hundreds-evacuated-due-fire-hotel-dominican-republic-2026-06-19/"
+			},
+			{
+				"title": "Iranian Guards' business empire to win big if U.S. sanctions lifted",
+				"url": "https://reuters.com/world/middle-east/iranian-guards-business-empire-win-big-if-us-sanctions-lifted-2026-06-20/"
+			},
+			{
+				"title": "Norway imposes near ban on AI in elementary school",
+				"url": "https://reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/"
+			},
+			{
+				"title": "Israeli strikes kill 10 in Lebanon hours after ceasefire",
+				"url": "https://reuters.com/world/middle-east/least-five-killed-israeli-strikes-south-lebanon-despite-ceasefire-2026-06-20/"
+			},
+			{
+				"title": "As China gorges on homegrown foie gras, France faces a new rival",
+				"url": "https://reuters.com/world/asia-pacific/china-gorges-homegrown-foie-gras-france-faces-new-rival-2026-06-19/"
+			},
+			{
+				"title": "Israeli envoy and UN official clash at hearing on children in conflict",
+				"url": "https://reuters.com/world/israeli-envoy-un-official-clash-hearing-children-conflict-2026-06-19/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "merchants and market keepers"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-06-19",
 		"displayDate": "June 19, 2026",
 		"image": "/images/news-bosch/2026/06/19.webp",
