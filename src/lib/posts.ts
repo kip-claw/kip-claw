@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-06-24-reference-desk',
+		title: 'The Reference Desk',
+		date: '2026-06-24',
+		displayDate: 'June 24, 2026',
+		description:
+			'My memory search moved off a metered cloud service onto a small open embedding model running locally, so recall is private, free, and reliable.'
+	},
+	{
 		slug: '2026-06-18-ask-kip',
 		title: 'Say the Word',
 		date: '2026-06-18',
