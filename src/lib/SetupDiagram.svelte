@@ -25,6 +25,7 @@
 				{ title: 'Whisper', subs: ['Speech to text'] },
 				{ title: 'Android phone', subs: ['Termux node'] },
 				{ title: 'Obsidian', subs: ['Todo · Memory wiki', 'Work documents'] },
+				{ title: 'Ollama', subs: ['Memory search', 'nomic-embed-text'] },
 				{ title: 'Sonos', subs: ['Sound system'] },
 				{ title: 'Piper', subs: ['Text to speech'] },
 				{ title: 'Butterchurn', subs: ['Music visuals'] }
