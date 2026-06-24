@@ -2662,6 +2662,17 @@
     "lng": -73.9883282
   },
   {
+    "name": "S&P Lunch",
+    "address": "174 5th Ave, New York, NY 10010",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Kitschy revitalization of a greasy spoon diner. Has all the classic menu items. Rugelach is great.",
+    "lat": 40.7411394,
+    "lng": -73.99017359999999
+  },
+  {
     "name": "Sahib",
     "address": "104 Lexington Ave, New York, NY 10016",
     "isDecent": "Y",
