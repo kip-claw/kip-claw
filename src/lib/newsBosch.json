@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-06-25",
+		"displayDate": "June 25, 2026",
+		"image": "/images/news-bosch/2026/06/25.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-25T10:04:55.095136Z",
+		"sourceRetrievedAt": "2026-06-25T10:00:09.674078Z",
+		"themes": [
+			{
+				"name": "Collapsed City Curtains",
+				"interpretation": "The day's foremost anxiety is a civic stage suddenly giving way, with catastrophe in Venezuela echoed by repeated counts of the dead and injured.",
+				"storyRanks": [1, 5]
+			},
+			{
+				"name": "Stolen Puppet Script",
+				"interpretation": "Technology power is cast as a backstage theft, where one actor is accused of extracting another's hidden capabilities.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "War Room Shouting",
+				"interpretation": "Political conflict over Iran becomes a mirrored performance of authority and defiance, amplified by diplomacy promising protection for Gulf allies.",
+				"storyRanks": [3, 10]
+			},
+			{
+				"name": "Grafted Body Garden",
+				"interpretation": "Medical and scientific hope appears as cultivation, from a transplant drug outperforming standard care to centenarian sisters offering clues to longevity.",
+				"storyRanks": [4, 8]
+			},
+			{
+				"name": "Media Threshold Procession",
+				"interpretation": "Corporate and national gatekeeping shape who may enter the public stage, whether through a broadcast acquisition or a ban on nationals from four countries.",
+				"storyRanks": [6, 9]
+			},
+			{
+				"name": "Oil Quota Labyrinth",
+				"interpretation": "Energy politics becomes a maze of bargaining, with Iraq weighing drastic exits if its production limits are not raised.",
+				"storyRanks": [7]
+			}
+		],
+		"stories": [
+			{
+				"title": "Venezuela earthquakes live: More than 30 dead after buildings collapse in Caracas and elsewhere",
+				"url": "https://reuters.com/world/venezuela-earthquake-live-high-casualties-likely-after-two-strong-quakes-2026-06-25/"
+			},
+			{
+				"title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+				"url": "https://reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
+			},
+			{
+				"title": "Trump, Republican senator engage in shouting match over Iran war",
+				"url": "https://reuters.com/world/europe/israel-stands-firm-troops-southern-lebanon-rubio-seeks-sell-peace-deal-middle-2026-06-24/"
+			},
+			{
+				"title": "Drug to prevent organ rejection after kidney transplant tops standard treatment in trial",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/drug-prevent-organ-rejection-after-kidney-transplant-tops-standard-treatment-2026-06-24/"
+			},
+			{
+				"title": "Two major earthquakes strike Venezuela, killing at least 32 and injuring hundreds",
+				"url": "https://reuters.com/world/americas/earthquakes-shake-venezuela-capital-2026-06-24/"
+			},
+			{
+				"title": "Comcast-owned Sky reaches terms to buy ITV's broadcast unit, sources say",
+				"url": "https://reuters.com/world/comcast-owned-sky-reaches-terms-buy-itvs-broadcast-unit-sources-say-2026-06-24/"
+			},
+			{
+				"title": "Iraq to consider all options if OPEC quota not raised, has weighed exit, sources say",
+				"url": "https://reuters.com/business/energy/iraq-consider-all-options-if-opec-quota-is-not-raised-has-weighed-exit-sources-2026-06-25/"
+			},
+			{
+				"title": "Scientists seek clues to longevity from three Brazilian sisters over 100\u00a0",
+				"url": "https://reuters.com/science/scientists-seek-clues-longevity-three-brazilian-sisters-over-100-2026-06-24/"
+			},
+			{
+				"title": "Libya's eastern government bans entry of nationals from four African countries",
+				"url": "https://reuters.com/world/africa/libyas-eastern-government-bans-entry-nationals-four-african-countries-2026-06-23/"
+			},
+			{
+				"title": "Rubio in Middle East tour says any Iran deal will ensure security of Gulf allies",
+				"url": "https://reuters.com/world/middle-east/rubio-visits-bahrain-seeking-gulf-backing-iran-deal-2026-06-25/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-06-20",
 		"displayDate": "June 20, 2026",
 		"image": "/images/news-bosch/2026/06/20.webp",
