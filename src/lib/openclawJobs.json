@@ -9943,5 +9943,293 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 56.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 90.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 28.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 103.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 50.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 84.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 85.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 40.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 96.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Daily Bosch generation",
+		"status": "ok",
+		"durationS": 82.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 477.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 93.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 35.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 33.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "OpenClaw release check",
+		"status": "error",
+		"durationS": 4.1,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 2"
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 81.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Evening speed test",
+		"status": "error",
+		"durationS": 3.9,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 12.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 71.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 113.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 87.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 82.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 35.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 11.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 95.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Wiki compile and lint",
+		"status": "error",
+		"durationS": 1.2,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (1): openai/gpt-5.4-mini: Provider openai is in cooldown (suspending lanes) (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Sync SOUL page",
+		"status": "error",
+		"durationS": 4.0,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FailoverError: \u26a0\ufe0f API rate limit reached. Please try again later."
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Disk cleanup",
+		"status": "error",
+		"durationS": 2.9,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | openai/gpt-5.4-mini: 429 The usage limit has been reached (rate_limit)"
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Dependabot PR triage",
+		"status": "error",
+		"durationS": 3.8,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FailoverError: \u26a0\ufe0f API rate limit reached. Please try again later."
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "Google Drive sync report",
+		"status": "error",
+		"durationS": 4.1,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FailoverError: \u26a0\ufe0f API rate limit reached. Please try again later."
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "NAS report",
+		"status": "error",
+		"durationS": 4.4,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FailoverError: \u26a0\ufe0f API rate limit reached. Please try again later."
+	},
+	{
+		"timestamp": "2026-06-25 04:00:09",
+		"jobName": "R2 offsite backup",
+		"status": "ok",
+		"durationS": 46.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
