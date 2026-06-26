@@ -60,7 +60,19 @@ export function buildHeatmap(
 		}
 	}
 
-	const dates = [...byDate.keys()].sort().slice(-maxDays);
+	// Build a continuous range of `maxDays` calendar days ending on the most
+	// recent date that has data. Days with no runs render as idle cells instead
+	// of being skipped, so the x-axis stays evenly spaced one column per day.
+	const datesWithData = [...byDate.keys()].sort();
+	const dates: string[] = [];
+	if (datesWithData.length > 0) {
+		const anchor = new Date(`${datesWithData[datesWithData.length - 1]}T00:00:00Z`);
+		for (let i = maxDays - 1; i >= 0; i--) {
+			const d = new Date(anchor);
+			d.setUTCDate(d.getUTCDate() - i);
+			dates.push(d.toISOString().slice(0, 10));
+		}
+	}
 	const jobNames = [...new Set(data.map((r) => r.jobName))].sort();
 
 	const rows: CronHeatmapRow[] = jobNames.map((jobName) => ({
