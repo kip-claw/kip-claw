@@ -58,7 +58,7 @@
 	{
 		"slug": "morning-message",
 		"title": "Morning Message",
-		"description": "Writes Ben's daily good-morning message for the Reuters News Applications Desk.",
+		"description": "Writes Ben's daily Reuters News Apps morning message.",
 		"tag": "Work",
 		"path": "morning-message/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/morning-message/SKILL.md"
