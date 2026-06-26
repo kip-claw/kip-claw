@@ -798,5 +798,13 @@
     "pingMs": 18.9,
     "server": "Carlstadt NJ",
     "provider": "Contabo"
+  },
+  {
+    "timestamp": "2026-06-26 09:43:09",
+    "downloadMbps": 561.92,
+    "uploadMbps": 22.49,
+    "pingMs": 16.7,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
