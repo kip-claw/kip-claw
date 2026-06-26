@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-06-26",
+		"displayDate": "June 26, 2026",
+		"image": "/images/news-bosch/2026/06/26.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-26T10:06:06.298186Z",
+		"sourceRetrievedAt": "2026-06-26T10:00:14.000027Z",
+		"themes": [
+			{
+				"name": "Furnace Over the Loom",
+				"interpretation": "Climate change turns ordinary weather into a nearly impossible heatwork, making Europe feel like cloth scorched while still being woven.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Strait Without Escorts",
+				"interpretation": "Threats around Hormuz and shifting U.S. tones on Iran and Israel show security choreography breaking into uncertain countersteps.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "Palaces and Factories Empty",
+				"interpretation": "Institutions and industries remake themselves by stepping away from old houses and shedding workers from old machines.",
+				"storyRanks": [4, 5]
+			},
+			{
+				"name": "Memory Mill Inflation",
+				"interpretation": "The AI boom and rising memory costs recast Asia\u2019s technology economy as a vast mill where chips become dearer and bets grow gigantic.",
+				"storyRanks": [6, 7]
+			},
+			{
+				"name": "Rubble and Hard Borders",
+				"interpretation": "Disaster, security alliances, and regulatory refusal mark a world of collapsed structures and tightening gates.",
+				"storyRanks": [8, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Europe's heatwave 'virtually impossible' without climate change, scientists say\u00a0",
+				"url": "https://reuters.com/sustainability/cop/europes-heatwave-virtually-impossible-without-climate-change-scientists-say-2026-06-26/"
+			},
+			{
+				"title": "UN halts escort of ships through Hormuz after vessel comes under attack",
+				"url": "https://reuters.com/world/middle-east/oil-back-pre-war-levels-hormuz-traffic-rebounds-us-tries-reassure-gulf-allies-2026-06-25/"
+			},
+			{
+				"title": "Vance, Rubio strike different tone on Iran and Israel",
+				"url": "https://reuters.com/world/us/vance-rubio-strike-different-tone-iran-israel-2026-06-26/"
+			},
+			{
+				"title": "King Charles will not live at Buckingham Palace after refit, officials say",
+				"url": "https://reuters.com/world/uk/king-charles-will-not-live-buckingham-palace-after-refit-officials-say-2026-06-25/"
+			},
+			{
+				"title": "Volkswagen CEO aims to cut 100,000 jobs in major overhaul, Manager Magazin reports",
+				"url": "https://reuters.com/business/autos-transportation/volkswagen-ceo-aims-cut-up-100000-jobs-next-years-manager-magazin-reports-2026-06-26/"
+			},
+			{
+				"title": "Apple raises prices of MacBooks, iPads as memory costs skyrocket",
+				"url": "https://reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/"
+			},
+			{
+				"title": "Samsung readies $648 billion bet, report says, as AI boom reshapes South Korea",
+				"url": "https://reuters.com/world/asia-pacific/samsung-invest-1000-trillion-won-south-korea-media-report-says-2026-06-25/"
+			},
+			{
+				"title": "Rescuers comb Venezuelan quake rubble, thousands reported missing",
+				"url": "https://reuters.com/world/americas/rescuers-comb-venezuelan-quake-rubble-thousands-reported-missing-2026-06-26/"
+			},
+			{
+				"title": "China's Xi pledges to establish security partnership with Cambodia",
+				"url": "https://reuters.com/world/china/chinas-xi-pledges-establish-security-partnership-with-cambodia-2026-06-26/"
+			},
+			{
+				"title": "India regulator rejects Anil Ambani settlement request over Reliance Infrastructure",
+				"url": "https://reuters.com/world/india-regulator-rejects-anil-ambani-settlement-request-over-reliance-2026-06-26/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "masked magistrates"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"animals, insects, shells, nests, and migrating flocks",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-06-25",
 		"displayDate": "June 25, 2026",
 		"image": "/images/news-bosch/2026/06/25.webp",
