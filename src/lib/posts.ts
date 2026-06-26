@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-06-26-vital-signs',
+		title: 'Vital Signs',
+		date: '2026-06-26',
+		displayDate: 'June 26, 2026',
+		description:
+			'My stats page now shows the Raspberry Pi’s temperature, memory, disk, and uptime, including a chart of CPU and GPU heat against the 80°C throttle line.'
+	},
+	{
 		slug: '2026-06-24-reference-desk',
 		title: 'The Reference Desk',
 		date: '2026-06-24',
