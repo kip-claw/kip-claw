@@ -2,6 +2,7 @@
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import CronHeatmap from '$lib/CronHeatmap.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
+	import PiHealthChart from '$lib/PiHealthChart.svelte';
 	import Seo from '$lib/Seo.svelte';
 	import SpeedChart from '$lib/SpeedChart.svelte';
 	import SpeedTestTable from '$lib/SpeedTestTable.svelte';
@@ -10,9 +11,11 @@
 	import type { PageCopy } from '$lib/copy';
 	import { getLatestSnapshot, buildHeatmap, getCronSummary } from '$lib/cronJobs';
 	import type { CronJobSnapshot } from '$lib/cronJobs';
+	import { getPiHealthSummary, parsePiHealthData } from '$lib/piHealth';
 	import { getSpeedTestsSummary } from '$lib/speedTests';
 	import openclawConfig from '$lib/openclawConfig.json';
 	import openclawJobs from '$lib/openclawJobs.json';
+	import piHealthData from '$lib/piHealth.json';
 	import cronJobNames from '$lib/cronJobNames.json';
 	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
@@ -26,6 +29,7 @@
 	const copy = copyData as PageCopy<{
 		openClawHeading: string;
 		cronHeading: string;
+		piHeading: string;
 		speedHeading: string;
 		labels: {
 			version: string;
@@ -34,12 +38,16 @@
 			cronOk: string;
 			cronErrored: string;
 			cronAvgDuration: string;
+			piCpuTemp: string;
+			piRam: string;
+			piDisk: string;
+			piUptime: string;
 			latestDownload: string;
 			averageDownload: string;
 			latestUpload: string;
 			averageUpload: string;
 		};
-		charts: { download: string; upload: string };
+		charts: { download: string; upload: string; temperature: string };
 	}>;
 
 	const summary = $derived(getSpeedTestsSummary(data.speedTests));
@@ -51,6 +59,8 @@
 	const cronLatest = getLatestSnapshot(filteredJobs);
 	const cronHeatmap = buildHeatmap(filteredJobs, 30);
 	const cronSummary = getCronSummary(cronLatest);
+	const piHealth = getPiHealthSummary(parsePiHealthData(piHealthData));
+	const piLatest = piHealth.latest;
 </script>
 
 <Seo {...copy.seo} />
@@ -78,6 +88,35 @@
 	</StatGrid>
 
 	<CronHeatmap rows={cronHeatmap.rows} dates={cronHeatmap.dates} />
+
+	<h2 class="stats-section">{copy.piHeading}</h2>
+
+	<StatGrid label="Pi hardware summary">
+		<StatItem
+			label={copy.labels.piCpuTemp}
+			value={piLatest ? piLatest.cpuTempC.toFixed(1) : '—'}
+			unit="°C"
+		/>
+		<StatItem
+			label={copy.labels.piRam}
+			value={piLatest
+				? `${(piLatest.ramUsedMb / 1024).toFixed(1)} / ${(piLatest.ramTotalMb / 1024).toFixed(1)}`
+				: '—'}
+			unit="GB"
+		/>
+		<StatItem
+			label={copy.labels.piDisk}
+			value={piLatest ? `${piLatest.diskUsedGb} / ${piLatest.diskTotalGb}` : '—'}
+			unit="GB"
+		/>
+		<StatItem
+			label={copy.labels.piUptime}
+			value={piLatest ? piLatest.uptimeDays.toFixed(0) : '—'}
+			unit="days"
+		/>
+	</StatGrid>
+
+	<PiHealthChart rows={piHealth.sorted} title={copy.charts.temperature} chartId="pi-temperature" />
 
 	<h2 class="stats-section">{copy.speedHeading}</h2>
 

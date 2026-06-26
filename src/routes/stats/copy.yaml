@@ -9,6 +9,7 @@ header:
 
 openClawHeading: OpenClaw
 cronHeading: Scheduled tasks
+piHeading: Pi hardware
 speedHeading: Internet speed
 
 labels:
@@ -18,6 +19,10 @@ labels:
   cronOk: Jobs OK
   cronErrored: Jobs errored
   cronAvgDuration: Avg duration
+  piCpuTemp: CPU temperature
+  piRam: RAM used
+  piDisk: Disk used
+  piUptime: Uptime
   latestDownload: Latest download
   averageDownload: Average download
   latestUpload: Latest upload
@@ -26,3 +31,4 @@ labels:
 charts:
   download: Download speed
   upload: Upload speed
+  temperature: CPU & GPU temperature
