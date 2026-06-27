@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-06-27",
+		"displayDate": "June 27, 2026",
+		"image": "/images/news-bosch/2026/06/27.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-27T16:07:12.365442Z",
+		"sourceRetrievedAt": "2026-06-27T16:02:53.812149Z",
+		"themes": [
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [1, 3, 4, 5, 6, 8, 9]
+			},
+			{
+				"name": "Origins and Promises",
+				"interpretation": "Institutions and actors set events in motion with pledges, plans, and unspoken costs.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Conflict Drawing the Crowd",
+				"interpretation": "A central struggle pulls the most attention as competing interests collide in the open.",
+				"storyRanks": [3]
+			}
+		],
+		"stories": [
+			{
+				"title": "Tanker struck in Hormuz as Iran, US trade attacks in worst escalation since peace deal",
+				"url": "https://reuters.com/world/asia-pacific/iran-says-it-hits-us-linked-targets-bahrain-reports-drone-attack-2026-06-27/"
+			},
+			{
+				"title": "Beijing investigating rare light aircraft crash which killed pilot, injured 13",
+				"url": "https://reuters.com/world/china/small-aircraft-crash-beijing-kills-one-person-injures-13-local-govt-says-2026-06-27/"
+			},
+			{
+				"title": "Germany, Denmark gripped by record temperatures as European heatwave moves east",
+				"url": "https://reuters.com/business/environment/germany-poland-poised-soaring-temperatures-heatwave-moves-east-2026-06-27/"
+			},
+			{
+				"title": "Strong earthquake hits Hindu Kush, shaking Afghanistan and Pakistan",
+				"url": "https://reuters.com/business/environment/strong-earthquake-hits-hindu-kush-shaking-afghanistan-pakistan-2026-06-27/"
+			},
+			{
+				"title": "Hezbollah rejects US-brokered Israel-Lebanon security deal as 'surrender'",
+				"url": "https://reuters.com/world/middle-east/israeli-drone-strike-hits-southern-lebanon-day-after-security-deal-2026-06-27/"
+			},
+			{
+				"title": "US CDC raises Ebola outbreak response to highest level",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/cdc-raises-response-ebola-outbreak-highest-level-says-risk-spread-us-is-low-2026-06-26/"
+			},
+			{
+				"title": "France considers measures after Burkina Faso breaks off relations",
+				"url": "https://reuters.com/world/africa/france-considers-measures-after-burkina-faso-breaks-off-relations-2026-06-27/"
+			},
+			{
+				"title": "FIFA World Cup 2026: Fixture schedule and kick-off times",
+				"url": "https://reuters.com/graphics/SOCCER-WORLDCUP/mopaoglqkpa/schedule/"
+			},
+			{
+				"title": "Iran wait on World Cup progress after late goal disallowed in Egypt draw",
+				"url": "https://reuters.com/sports/soccer/iran-wait-world-cup-progress-after-draw-with-egypt-who-move-into-last-32-2026-06-27/"
+			},
+			{
+				"title": "Venezuela welcomes 1,600 foreign rescuers in urgent search for quake survivors",
+				"url": "https://reuters.com/world/americas/venezuela-welcomes-1600-foreign-rescuers-urgent-search-quake-survivors-2026-06-27/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"vessels, canals, wells, floods, and bridges",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-06-26",
 		"displayDate": "June 26, 2026",
 		"image": "/images/news-bosch/2026/06/26.webp",
