@@ -2468,5 +2468,18 @@
 		"diskUsedGb": 20.0,
 		"diskTotalGb": 29.0,
 		"uptimeDays": 19.01
+	},
+	{
+		"timestamp": "2026-06-27 16:02:24",
+		"cpuTempC": 74.0,
+		"gpuTempC": 74.0,
+		"cpuLoad1m": 1.35,
+		"cpuLoad5m": 1.45,
+		"cpuLoad15m": 1.51,
+		"ramUsedMb": 2794.0,
+		"ramTotalMb": 7819.0,
+		"diskUsedGb": 20.0,
+		"diskTotalGb": 29.0,
+		"uptimeDays": 19.34
 	}
 ]
