@@ -30,7 +30,7 @@
 		"butterchurn": "^2.6.7",
 		"butterchurn-presets": "^2.4.7",
 		"husky": "^9.1.7",
-		"lint-staged": "^17.0.7",
+		"lint-staged": "^17.0.8",
 		"mdsvex": "^0.12.7",
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^4.0.1",
