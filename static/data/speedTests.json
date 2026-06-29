@@ -838,5 +838,13 @@
     "pingMs": 14.8,
     "server": "New York NY",
     "provider": "Tata Communications"
+  },
+  {
+    "timestamp": "2026-06-28 21:00:00",
+    "downloadMbps": 423.88,
+    "uploadMbps": 22.16,
+    "pingMs": 12.8,
+    "server": "New York NY",
+    "provider": "Surfshark Ltd"
   }
 ]
