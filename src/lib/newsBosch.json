@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-01",
+		"displayDate": "July 1, 2026",
+		"image": "/images/news-bosch/2026/07/01.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openclaw infer image generate (openai/gpt-image-2 (oauth)) and the reuters-news-bosch skill.",
+		"aiModel": "openclaw infer image generate (openai/gpt-image-2 (oauth))",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-01T10:04:36.338666Z",
+		"sourceRetrievedAt": "2026-07-01T10:00:08.664825Z",
+		"themes": [
+			{
+				"name": "Bank Moon Tightens Tide",
+				"interpretation": "Central banks and bond buyers are redrawing the gravity of money, trying to lower losses and borrowing costs while reserves and debt orbit in uneasy balance.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "Secret Drills Under Comets",
+				"interpretation": "Military secrecy and stalled diplomacy darken the sky, with hidden training paths and refused talks bending conflict back toward itself.",
+				"storyRanks": [2, 6]
+			},
+			{
+				"name": "Golden Crypto Chimera",
+				"interpretation": "Private fortunes and loosened artificial-intelligence limits suggest a new mythic marketplace where wealth, models, and influence mutate quickly.",
+				"storyRanks": [3, 10]
+			},
+			{
+				"name": "False Notes, Real Fire",
+				"interpretation": "Fabricated threats and volcanic spectacle turn the news into a broken choir, where illusion collapses as natural force lights the night.",
+				"storyRanks": [4, 5]
+			},
+			{
+				"name": "Small Parcels, Light Wings",
+				"interpretation": "Consumers are being sorted by what they carry and what crosses borders, as bargain travel and cheap imports face new tolls.",
+				"storyRanks": [8, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "ECB considers lifting banks' minimum reserves to lessen own losses, sources say",
+				"url": "https://reuters.com/business/finance/ecb-considers-lifting-banks-minimum-reserves-lessen-own-losses-sources-say-2026-06-30/"
+			},
+			{
+				"title": "Russia approved secret China military training at top level, sources say",
+				"url": "https://reuters.com/business/aerospace-defense/russia-approved-secret-china-military-training-top-level-sources-say-2026-07-01/"
+			},
+			{
+				"title": "Trump reports over $1.4 billion in income from crypto ventures",
+				"url": "https://reuters.com/world/us/trump-reports-more-than-14-billion-income-crypto-ventures-2026-06-30/"
+			},
+			{
+				"title": "FBI determines Nancy Guthrie kidnapping notes to be fakes, source says",
+				"url": "https://reuters.com/business/media-telecom/fbi-determines-nancy-guthrie-kidnapping-notes-be-fakes-source-says-2026-07-01/"
+			},
+			{
+				"title": "Lava illuminates night sky as Sicily's Mount Etna erupts",
+				"url": "https://reuters.com/pictures/lava-illuminates-night-sky-sicilys-mount-etna-erupts-2026-06-30/"
+			},
+			{
+				"title": "Iran says it won't meet with U.S. envoys, clouding prospects for peace deal",
+				"url": "https://reuters.com/world/middle-east/uncertainty-over-qatar-diplomacy-clouds-prospects-us-iran-deal-2026-06-30/"
+			},
+			{
+				"title": "Foreign investors buy record amounts of Canadian government debt, lowering Carney's\u00a0borrowing costs",
+				"url": "https://reuters.com/business/foreign-investors-buy-record-amounts-canadian-government-debt-lowering-carneys-2026-06-30/"
+			},
+			{
+				"title": "India's IndiGo launches cheaper tickets for passengers with cabin baggage only",
+				"url": "https://reuters.com/world/india/indias-indigo-launches-cheaper-tickets-passengers-with-cabin-baggage-only-2026-07-01/"
+			},
+			{
+				"title": "EU slaps \u20ac3 fee on cheap ecommerce parcels in blow to Shein, Temu, AliExpress",
+				"url": "https://reuters.com/business/retail-consumer/eu-slaps-3-fee-cheap-ecommerce-parcels-blow-shein-temu-aliexpress-2026-07-01/"
+			},
+			{
+				"title": "US removes curbs on Anthropic's latest Fable and Mythos AI models",
+				"url": "https://reuters.com/business/us-lift-export-controls-anthropics-fable-ai-model-tuesday-source-says-2026-06-30/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "gardeners and field workers"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"animals, insects, shells, nests, and migrating flocks",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "dry clay, straw yellow, olive, turquoise, and dark crimson",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-06-30",
 		"displayDate": "June 30, 2026",
 		"image": "/images/news-bosch/2026/06/30.webp",
