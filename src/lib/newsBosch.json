@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-06-29",
+		"displayDate": "June 29, 2026",
+		"image": "/images/news-bosch/2026/06/29.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openclaw infer image generate (openai/gpt-image-2 (oauth)) and the reuters-news-bosch skill.",
+		"aiModel": "openclaw infer image generate (openai/gpt-image-2 (oauth))",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-29T10:04:30.983785Z",
+		"sourceRetrievedAt": "2026-06-29T10:00:05.303630Z",
+		"themes": [
+			{
+				"name": "Ceasefire Under Broken Stars",
+				"interpretation": "Fragile diplomacy emerges from war damage, with talks resuming even as monuments and memories remain cracked.",
+				"storyRanks": [1, 10]
+			},
+			{
+				"name": "Europe\u2019s Fevered Garden",
+				"interpretation": "Extreme heat turns climate from a distant chart into a deadly, daily disruption across the continent.",
+				"storyRanks": [2, 7]
+			},
+			{
+				"name": "Roots Beneath Rubble",
+				"interpretation": "Venezuela\u2019s earthquakes reveal both miraculous survival and widening loss as rescuers dig through collapsed ground.",
+				"storyRanks": [3, 8]
+			},
+			{
+				"name": "Fortress Gates and Factories",
+				"interpretation": "Power is being contested through military pressure, industrial cuts, and national technology bets.",
+				"storyRanks": [4, 5, 6]
+			},
+			{
+				"name": "Return Through the Mirror",
+				"interpretation": "Political exile and promised comeback become a reversed reflection of authority, absence, and unfinished rule.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran and US agree to halt attacks and renew talks, US official says",
+				"url": "https://reuters.com/world/asia-pacific/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-hormuz-escalating-2026-06-27/"
+			},
+			{
+				"title": "Record heatwave disrupts Europe as France warns death toll to rise",
+				"url": "https://reuters.com/business/environment/france-records-1000-excess-deaths-during-record-breaking-heatwave-2026-06-28/"
+			},
+			{
+				"title": "Father and son rescued after four days buried under rubble of Venezuela's earthquakes",
+				"url": "https://reuters.com/world/americas/father-son-rescued-after-four-days-buried-under-rubble-venezuelas-earthquakes-2026-06-29/"
+			},
+			{
+				"title": "British American Tobacco cost cutting hits 9,000 roles",
+				"url": "https://reuters.com/business/world-at-work/british-american-tobacco-cuts-5500-jobs-globally-2026-06-29/"
+			},
+			{
+				"title": "Korea taps Samsung, SK Hynix in $576 billion AI-chip drive to cement global leadership",
+				"url": "https://reuters.com/world/asia-pacific/south-korean-president-unveil-massive-ai-chip-investment-drive-2026-06-29/"
+			},
+			{
+				"title": "Russia pounds on the gates of Ukraine's 'fortress belt'",
+				"url": "https://reuters.com/world/europe/russia-pounds-gates-ukraines-fortress-belt-2026-06-29/"
+			},
+			{
+				"title": "Reuters Climate Monitor",
+				"url": "https://reuters.com/graphics/CLIMATE-AUTOMATED/MONITOR/akpeykqqapr/"
+			},
+			{
+				"title": "Venezuela quake death toll nears 1,500 as rescue work goes on",
+				"url": "https://reuters.com/business/environment/thirty-three-people-rescued-thousands-still-missing-after-venezuela-quakes-2026-06-28/"
+			},
+			{
+				"title": "Ousted Bangladesh PM Hasina vows to return home this year",
+				"url": "https://reuters.com/world/asia-pacific/ousted-bangladesh-pm-hasina-vows-return-home-this-year-2026-06-29/"
+			},
+			{
+				"title": "How 5 weeks of war shattered some of Iran\u2019s cherished monuments",
+				"url": "https://reuters.com/investigates/special-report/iran-crisis-cultural-heritage/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"celestial bodies, eclipses, comets, clocks, and constellations"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-06-27",
 		"displayDate": "June 27, 2026",
 		"image": "/images/news-bosch/2026/06/27.webp",
