@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-06-30",
+		"displayDate": "June 30, 2026",
+		"image": "/images/news-bosch/2026/06/30.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openclaw infer image generate (openai/gpt-image-2 (oauth)) and the reuters-news-bosch skill.",
+		"aiModel": "openclaw infer image generate (openai/gpt-image-2 (oauth))",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-06-30T10:05:03.922603Z",
+		"sourceRetrievedAt": "2026-06-30T10:00:07.428867Z",
+		"themes": [
+			{
+				"name": "Leaked Kitchen Blueprints",
+				"interpretation": "Private supply chains and future devices become public ingredients laid out on the table before anyone is ready to serve them.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Thresholds Without Handshakes",
+				"interpretation": "Diplomacy and alliances hover at doorways where entry, exit, and commitment remain uncertain.",
+				"storyRanks": [2, 10, 6]
+			},
+			{
+				"name": "Empty Bowls Of Industry",
+				"interpretation": "Factories, metals, and monetary policy show economies trying to substitute cheaper materials while old promises fail to fill workers\u2019 bowls.",
+				"storyRanks": [3, 5, 7, 9]
+			},
+			{
+				"name": "Shuttered City Table",
+				"interpretation": "Anti-migrant unrest turns urban streets into barred dining rooms where fear decides who may sit and who is kept outside.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Towers Buying Wings",
+				"interpretation": "Transport giants answer uncertainty with vast investments and redesigned machinery, building aerial exits from the maze.",
+				"storyRanks": [8, 5, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Apple iPhone 18 Pro supplier list, parts and photos exposed in Tata data leak",
+				"url": "https://reuters.com/business/media-telecom/apple-iphone-18-pro-supplier-list-parts-photos-exposed-tata-data-leak-2026-06-29/"
+			},
+			{
+				"title": "US and Iran negotiators head to Doha, but meeting uncertain",
+				"url": "https://reuters.com/world/middle-east/mediators-set-up-de-escalation-channels-ahead-us-iran-talks-source-says-2026-06-29/"
+			},
+			{
+				"title": "Gold set for biggest quarterly fall since 2013 on hawkish Fed stance",
+				"url": "https://reuters.com/business/gold-set-fourth-monthly-fall-bets-fed-rate-hikes-2026-06-30/"
+			},
+			{
+				"title": "South African cities shuttered as anti-migrant protests spark fear",
+				"url": "https://reuters.com/world/africa/south-african-cities-shuttered-ahead-anti-migrant-protests-2026-06-30/"
+			},
+			{
+				"title": "Ferrari and BMW join Tesla, China in switch from copper to cheaper aluminium",
+				"url": "https://reuters.com/business/autos-transportation/ferrari-bmw-join-tesla-china-switch-copper-cheaper-aluminium-2026-06-30/"
+			},
+			{
+				"title": "AfD leader vows to restore German-Russian ties as she eyes chancellery",
+				"url": "https://reuters.com/world/afd-leader-vows-restore-german-russian-ties-she-eyes-chancellery-2026-06-30/"
+			},
+			{
+				"title": "Trump\u2019s tariffs aren\u2019t saving jobs at Whirlpool\u2019s Iowa refrigerator plant",
+				"url": "https://reuters.com/business/world-at-work/trumps-tariffs-arent-saving-jobs-whirlpools-iowa-refrigerator-plant-2026-06-29/"
+			},
+			{
+				"title": "Airline SAS orders Airbus jets for more than $10 billion in biggest ever investment",
+				"url": "https://reuters.com/business/sas-orders-airbus-widebody-aircraft-more-than-10-billion-2026-06-30/"
+			},
+			{
+				"title": "Why companies are swapping copper for aluminium",
+				"url": "https://reuters.com/business/autos-transportation/why-companies-are-swapping-copper-aluminium-2026-06-30/"
+			},
+			{
+				"title": "Turkey says NATO adjusting to security landscape, US not withdrawing",
+				"url": "https://reuters.com/business/aerospace-defense/turkey-says-nato-adjusting-security-landscape-us-not-withdrawing-2026-06-30/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "sailors and navigators"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-06-29",
 		"displayDate": "June 29, 2026",
 		"image": "/images/news-bosch/2026/06/29.webp",
