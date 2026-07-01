@@ -11383,5 +11383,293 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "OpenClaw job report",
+		"status": "error",
+		"durationS": 16.9,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 1.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 1800.7,
+		"consecutiveErrors": 2,
+		"errorReason": "timeout",
+		"notes": "command produced no output before noOutputTimeoutSeconds"
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 18.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 4.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 3.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 4.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 15.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 229.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 17.9,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 430.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 21.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 3.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 15.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 17.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 43.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 43.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 43.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 15.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 1.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Todo cleanup",
+		"status": "error",
+		"durationS": 4.5,
+		"consecutiveErrors": 4,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \ud83d\udcd6 Read: `first 200 lines of Todo.md` failed"
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Todo archival",
+		"status": "ok",
+		"durationS": 36.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Wiki maintenance",
+		"status": "error",
+		"durationS": 11.1,
+		"consecutiveErrors": 4,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 3.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 1.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 61.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Wiki compile and lint",
+		"status": "error",
+		"durationS": 16.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 1.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 5.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Dependabot PR triage",
+		"status": "error",
+		"durationS": 16.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 12.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-01 04:01:10",
+		"jobName": "NAS report",
+		"status": "error",
+		"durationS": 10.2,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "LLM request failed."
 	}
 ]
