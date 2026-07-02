@@ -11671,5 +11671,284 @@
 		"consecutiveErrors": 1,
 		"errorReason": "",
 		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 47.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 2.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 18.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 4.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 24.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 5.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 22.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 62.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 126.1,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 457.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Twitter archive export",
+		"status": "error",
+		"durationS": 302.1,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 124"
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 26.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 15.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 18.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 45.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 57.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 54.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 720.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 1.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 81.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Wiki maintenance",
+		"status": "error",
+		"durationS": 601.5,
+		"consecutiveErrors": 5,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: tool-execution-started)"
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 11.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 1.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 42.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Wiki compile and lint",
+		"status": "error",
+		"durationS": 16.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 1.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 5.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Dependabot PR triage",
+		"status": "error",
+		"durationS": 16.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 12.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "NAS report",
+		"status": "error",
+		"durationS": 10.2,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-02 04:00:00",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 1800.5,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "command produced no output before noOutputTimeoutSeconds"
 	}
 ]
