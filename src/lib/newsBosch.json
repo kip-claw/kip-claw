@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-07-02",
+		"displayDate": "July 2, 2026",
+		"image": "/images/news-bosch/2026/07/02.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-02T10:04:59.172219Z",
+		"sourceRetrievedAt": "2026-07-02T10:00:11.739995Z",
+		"themes": [
+			{
+				"name": "Currency Ambush Theater",
+				"interpretation": "Markets and regulators are staged as hunters and decoys, with Japan\u2019s yen defense turning financial pressure into a masked tactical drama.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Schism Behind Curtains",
+				"interpretation": "Religious authority and dissent appear as a split stage where exile, ritual, and forbidden membership are performed before a divided audience.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Strait Of Warning",
+				"interpretation": "Diplomacy, threats, and procession politics converge around Iran, the US, Israel, and the narrow maritime passage that could choke global movement.",
+				"storyRanks": [3, 8]
+			},
+			{
+				"name": "Engines In The Cabinet",
+				"interpretation": "Technological rivalry and regulatory punishment are framed as strange specimens in a cabinet, where low-cost AI advances while entrenched digital power is fined.",
+				"storyRanks": [4, 6]
+			},
+			{
+				"name": "Kyiv Under Night Flock",
+				"interpretation": "War returns as a cycle of aerial swarms and shattered cities, with missiles and drones feeding fear, damage, and renewed bombardment.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "Fuel And Skyline Stunts",
+				"interpretation": "Russian pressures spill outward from shortages at home to symbolic acts abroad, turning scarcity and spectacle into a restless procession.",
+				"storyRanks": [7, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Japan shifts to ambush intervention tactics against yen short sellers, sources say",
+				"url": "https://reuters.com/world/asia-pacific/japan-shifts-ambush-intervention-tactics-against-yen-short-sellers-sources-say-2026-07-02/"
+			},
+			{
+				"title": "Members of rebel Catholic group in schism, excommunicated, Vatican says",
+				"url": "https://reuters.com/world/europe/members-rebel-catholic-group-schism-excommunicated-vatican-says-2026-07-02/"
+			},
+			{
+				"title": "US, Iran talks conclude in Doha, focused on Strait of Hormuz",
+				"url": "https://reuters.com/world/asia-pacific/us-iran-enter-technical-talks-secure-peace-deal-restart-shipping-2026-07-01/"
+			},
+			{
+				"title": "A\u00a0new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
+				"url": "https://reuters.com/world/china/a-new-inexpensive-chinese-ai-model-is-catching-up-with-anthropic-openai-their-2026-07-02/"
+			},
+			{
+				"title": "Ukraine war live: Explosions rock Kyiv overnight as Russia carries out missile and drone attack",
+				"url": "https://reuters.com/world/ukraine-russia-war/live-russia-attacks-ukraines-kyiv-with-drones-missiles-2026-07-02/"
+			},
+			{
+				"title": "Google loses fight against record \u20ac4.1 billion EU antitrust fine",
+				"url": "https://reuters.com/world/eu-top-court-dismisses-google-fight-against-record-41-billion-eu-antitrust-fine-2026-07-02/"
+			},
+			{
+				"title": "Russian fuel frustration rises as crisis bites",
+				"url": "https://reuters.com/business/energy/russian-frustration-rises-fuel-crisis-bites-2026-07-02/"
+			},
+			{
+				"title": "Iran warns US, Israel against attacks ahead of funeral processions for Khamenei",
+				"url": "https://reuters.com/world/middle-east/iran-warns-us-israel-against-attacks-ahead-funeral-processions-khamenei-2026-07-02/"
+			},
+			{
+				"title": "Russian daredevils unfurl banner atop New York's Empire State Building in proposal stunt",
+				"url": "https://reuters.com/world/two-people-unfurl-peace-banner-new-yorks-empire-state-building-spire-2026-07-01/"
+			},
+			{
+				"title": "Russia bombards Kyiv in major strike, at least 13 people killed",
+				"url": "https://reuters.com/world/russian-drones-attack-ukrainian-capital-set-central-district-hotel-fire-2026-07-01/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-07-01",
 		"displayDate": "July 1, 2026",
 		"image": "/images/news-bosch/2026/07/01.webp",
