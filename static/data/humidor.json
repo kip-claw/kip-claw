@@ -22,16 +22,6 @@
     },
     {
       "dateAdded": "2026-04-10",
-      "maker": "Martinez",
-      "model": "654",
-      "wrapper": "Nicaraguan",
-      "origin": "USA",
-      "size": "Toro",
-      "gauge": "54",
-      "notes": "NYC cigar, first cigar in humidor"
-    },
-    {
-      "dateAdded": "2026-04-10",
       "maker": "Arturo Fuente",
       "model": "Magnum R Gran Reserva",
       "wrapper": "Ecuadorian Rosado Sungrown",
@@ -193,6 +183,20 @@
       "date": "2026-06-08",
       "time": "22:57",
       "rh": "71",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-26",
+      "time": "",
+      "rh": "67",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-28",
+      "time": "",
+      "rh": "69",
       "temperatureF": "",
       "notes": ""
     }
