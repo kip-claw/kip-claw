@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-03",
+		"displayDate": "July 3, 2026",
+		"image": "/images/news-bosch/2026/07/03.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-03T10:04:40.695056Z",
+		"sourceRetrievedAt": "2026-07-03T10:00:08.926030Z",
+		"themes": [
+			{
+				"name": "Wedding Eclipse Over Mourning",
+				"interpretation": "Public attention swings between spectacle and grief as celebration and state funeral rites become rival celestial events.",
+				"storyRanks": [1, 2, 9]
+			},
+			{
+				"name": "Islands Behind Dice",
+				"interpretation": "Taiwan\u2019s imagined crisis turns geopolitics into a stacked game of chance, where blockade, quake, sabotage, and invasion reverse safety into peril.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Digital Gates And Bans",
+				"interpretation": "The internet\u2019s open pathways are being narrowed by crackdowns, workplace prohibitions, and fast-rising AI challengers.",
+				"storyRanks": [5, 7, 10]
+			},
+			{
+				"name": "Firm Hands On Scales",
+				"interpretation": "Institutions signal authority through decisive exclusions and strategic pacts, balancing doctrine, technology, metals, and energy.",
+				"storyRanks": [3, 6]
+			},
+			{
+				"name": "Couriers In The Mirror",
+				"interpretation": "Recruitment networks turn ordinary travel and social media into a reversible race between opportunity and exploitation.",
+				"storyRanks": [8]
+			}
+		],
+		"stories": [
+			{
+				"title": "Taylor Swift and Travis Kelce married ahead of NY celebration, report says\u00a0",
+				"url": "https://reuters.com/lifestyle/welcome-new-york-city-buzzes-likely-taylor-swift-wedding-weekend-2026-07-02/"
+			},
+			{
+				"title": "Iran's slain leader Khamenei laid in state in Tehran for week of mass funeral events",
+				"url": "https://reuters.com/world/middle-east/irans-slain-leader-khamenei-laid-state-tehran-week-mass-funeral-events-2026-07-03/"
+			},
+			{
+				"title": "Excommunications show a Pope Leo unafraid of making firm decisions",
+				"url": "https://reuters.com/world/excommunications-show-pope-leo-unafraid-making-firm-decisions-2026-07-02/"
+			},
+			{
+				"title": "Inside Taiwan's nightmare scenario: Chinese blockade, earthquake, sabotage and invasion",
+				"url": "https://reuters.com/world/china/inside-taiwans-nightmare-scenario-chinese-blockade-earthquake-sabotage-invasion-2026-07-03/"
+			},
+			{
+				"title": "World's biggest domain seller fears India's fake site crackdown could damage internet",
+				"url": "https://reuters.com/world/worlds-biggest-domain-seller-fears-indias-fake-site-crackdown-could-damage-2026-07-03/"
+			},
+			{
+				"title": "India, Japan sign pacts on AI, metals and energy after Modi-Takaichi talks",
+				"url": "https://reuters.com/world/asia-pacific/india-japan-sign-pacts-boost-cooperation-ai-metals-energy-2026-07-02/"
+			},
+			{
+				"title": "Alibaba to ban employees from using Anthropic's coding tool, source says",
+				"url": "https://reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/"
+			},
+			{
+				"title": "How drug gangs use social media to recruit Thai air crew as couriers",
+				"url": "https://reuters.com/world/asia-pacific/how-drug-gangs-use-social-media-recruit-thai-air-crew-couriers-2026-07-03/"
+			},
+			{
+				"title": "Iran prepares to bury slain supreme leader with week of mass mourning",
+				"url": "https://reuters.com/world/middle-east/iran-prepares-bury-slain-supreme-leader-with-week-mass-mourning-2026-07-02/"
+			},
+			{
+				"title": "A\u00a0new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
+				"url": "https://reuters.com/world/china/a-new-inexpensive-chinese-ai-model-is-catching-up-with-anthropic-openai-their-2026-07-02/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"vessels, canals, wells, floods, and bridges"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-07-02",
 		"displayDate": "July 2, 2026",
 		"image": "/images/news-bosch/2026/07/02.webp",
