@@ -902,5 +902,13 @@
     "pingMs": 18.6,
     "server": "New York NY",
     "provider": "Optimum Online"
+  },
+  {
+    "timestamp": "2026-07-02 21:00:00",
+    "downloadMbps": 550.37,
+    "uploadMbps": 11.9,
+    "pingMs": 36.2,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
