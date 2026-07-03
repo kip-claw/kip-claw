@@ -869,6 +869,17 @@
     "lng": -73.9967631
   },
   {
+    "name": "Cowgirl SeaHorse",
+    "address": "259 Front St, New York, NY 10038",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Neighborhood bar in Seaport. Lively trivia night.",
+    "lat": 40.70810180000001,
+    "lng": -74.0004592
+  },
+  {
     "name": "Croton Reservoir Tavern",
     "address": "108 W 40th St, New York, NY 10018",
     "isDecent": "N",
