@@ -918,5 +918,13 @@
     "pingMs": 13.9,
     "server": "New York NY",
     "provider": "Natural Wireless"
+  },
+  {
+    "timestamp": "2026-07-04 09:00:00",
+    "downloadMbps": 566.23,
+    "uploadMbps": 21.31,
+    "pingMs": 19.7,
+    "server": "New York NY",
+    "provider": "MIRHosting"
   }
 ]
