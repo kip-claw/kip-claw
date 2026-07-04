@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-04",
+		"displayDate": "July 4, 2026",
+		"image": "/images/news-bosch/2026/07/04.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-04T10:04:35.024416Z",
+		"sourceRetrievedAt": "2026-07-04T10:00:11.351944Z",
+		"themes": [
+			{
+				"name": "Jubilee Under Scorch",
+				"interpretation": "A national birthday pageant promises unity while heat and overloaded power turn celebration into a test of endurance.",
+				"storyRanks": [1, 2, 6]
+			},
+			{
+				"name": "Roots Against Dark Grafts",
+				"interpretation": "Public resistance and ideological warning signs show democracies trying to prune extremist growth before it hardens into rule.",
+				"storyRanks": [1, 3]
+			},
+			{
+				"name": "Funeral Wells And Frontiers",
+				"interpretation": "Ritual mourning and territorial conquest reveal power passing through grief, soil, and contested borders.",
+				"storyRanks": [4, 5, 10]
+			},
+			{
+				"name": "Appetite For Altered Fuel",
+				"interpretation": "States and consumers wrestle over engineered consumption, from ethanol-mixed fuel to emergency curbs on energy demand.",
+				"storyRanks": [6, 8]
+			},
+			{
+				"name": "Strange Fruit Of Spectacle",
+				"interpretation": "Romance and fashion become soft-power harvests, offering escape and ornament amid harsher public reckonings.",
+				"storyRanks": [7, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump extols America, rails at communism in US 250th celebration",
+				"url": "https://reuters.com/world/us/trump-extols-america-rails-communism-us-250th-celebration-2026-07-04/"
+			},
+			{
+				"title": "Heat wave disrupts Fourth of July events across US, strains power grids",
+				"url": "https://reuters.com/world/us/heat-wave-disrupts-fourth-july-events-across-eastern-us-2026-07-03/"
+			},
+			{
+				"title": "Thousands protest in Germany against far-right AfD",
+				"url": "https://reuters.com/world/thousands-protest-germany-against-far-right-afd-2026-07-04/"
+			},
+			{
+				"title": "Iranians flock to week-long funeral rites for Khamenei",
+				"url": "https://reuters.com/business/media-telecom/iranians-flock-week-long-funeral-rites-khamenei-2026-07-04/"
+			},
+			{
+				"title": "Russian defence ministry says its forces captured Kostiantynivka in eastern Ukraine",
+				"url": "https://reuters.com/business/aerospace-defense/russian-defence-ministry-says-its-forces-captured-kostiantynivka-eastern-ukraine-2026-07-03/"
+			},
+			{
+				"title": "Eastern US power grid operator orders emergency curbs as electricity use nears record",
+				"url": "https://reuters.com/business/energy/largest-us-power-grid-pjm-says-it-is-no-longer-able-provide-expected-energy-2026-07-03/"
+			},
+			{
+				"title": "It's a love story: Taylor Swift and Travis Kelce are married",
+				"url": "https://reuters.com/lifestyle/taylor-swift-travis-kelce-wedding-celebration-light-up-new-york-2026-07-03/"
+			},
+			{
+				"title": "India seeks to quell public backlash on ethanol-mixed fuel after 'experiment' remark",
+				"url": "https://reuters.com/world/india/india-seeks-quell-public-backlash-ethanol-mixed-fuel-after-experiment-remark-2026-07-03/"
+			},
+			{
+				"title": "Male players following Osaka's lead on Wimbledon's fashion runway",
+				"url": "https://reuters.com/sports/tennis/male-players-following-osakas-lead-wimbledons-fashion-runway-2026-07-03/"
+			},
+			{
+				"title": "Insurgents stage attacks across Mali, army says",
+				"url": "https://reuters.com/world/africa/insurgents-attack-multiple-towns-northern-central-mali-sources-say-2026-07-04/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "sailors and navigators"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"vessels, canals, wells, floods, and bridges",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-07-03",
 		"displayDate": "July 3, 2026",
 		"image": "/images/news-bosch/2026/07/03.webp",
