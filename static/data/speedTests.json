@@ -910,5 +910,13 @@
     "pingMs": 36.2,
     "server": "New York NY",
     "provider": "Spectrum"
+  },
+  {
+    "timestamp": "2026-07-03 21:00:00",
+    "downloadMbps": 555.67,
+    "uploadMbps": 9.8,
+    "pingMs": 13.9,
+    "server": "New York NY",
+    "provider": "Natural Wireless"
   }
 ]
