@@ -62,31 +62,37 @@
 		</ChartFrame>
 
 		<div class="cluster-summary" aria-label="Semantic cluster summary">
-			<table>
-				<thead>
-					<tr>
-						<th>Cluster</th>
-						<th>Summary</th>
-						<th>Points</th>
-						<th>Share</th>
-					</tr>
-				</thead>
-				<tbody>
-					{#each chart.clusters as cluster}
+			<div class="table-heading">
+				<h3 id={`${chartId}-cluster-summary-heading`}>Log</h3>
+				<p class="count-text">{chart.clusters.length} clusters</p>
+			</div>
+			<div class="table-frame">
+				<table>
+					<thead>
 						<tr>
-							<td>
-								<span class="cluster-pill">
-									<i class="swatch" style={`background:${cluster.color}`}></i>
-									{cluster.label}
-								</span>
-							</td>
-							<td>{cluster.description}</td>
-							<td>{cluster.size}</td>
-							<td>{cluster.sharePct.toFixed(1)}%</td>
+							<th>Cluster</th>
+							<th>Summary</th>
+							<th>Points</th>
+							<th>Share</th>
 						</tr>
-					{/each}
-				</tbody>
-			</table>
+					</thead>
+					<tbody>
+						{#each chart.clusters as cluster}
+							<tr>
+								<td>
+									<span class="cluster-pill">
+										<i class="swatch" style={`background:${cluster.color}`}></i>
+										{cluster.label}
+									</span>
+								</td>
+								<td>{cluster.description}</td>
+								<td>{cluster.size}</td>
+								<td>{cluster.sharePct.toFixed(1)}%</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
 		</div>
 	{/if}
 </div>
@@ -118,7 +124,31 @@
 	.cluster-summary {
 		margin-top: var(--space-3);
 		margin-bottom: var(--space-6);
+	}
+
+	.table-heading {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: var(--space-4);
+		margin-bottom: var(--space-3);
+	}
+
+	h3 {
+		margin: 0;
+		font-size: var(--font-size-xl);
+		line-height: var(--line-height-snug);
+	}
+
+	.count-text {
+		margin: 0;
+		color: var(--color-muted);
+		font-size: var(--font-size-xs);
+	}
+
+	.table-frame {
 		overflow-x: auto;
+		border-top: 2px solid var(--color-text);
 	}
 
 	table {
@@ -145,5 +175,13 @@
 		display: inline-flex;
 		align-items: center;
 		gap: var(--space-2);
+	}
+
+	@media (max-width: 760px) {
+		.table-heading {
+			align-items: flex-start;
+			flex-direction: column;
+			gap: var(--space-1);
+		}
 	}
 </style>
