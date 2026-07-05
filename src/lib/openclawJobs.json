@@ -12544,5 +12544,302 @@
 		"consecutiveErrors": 4,
 		"errorReason": "timeout",
 		"notes": "command produced no output before noOutputTimeoutSeconds"
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 46.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 2.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Heartbeat cleanup",
+		"status": "ok",
+		"durationS": 1.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 18.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 4.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 3.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 5.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "OpenAI limits report",
+		"status": "error",
+		"durationS": 13.8,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 61.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Daily Bosch generation",
+		"status": "ok",
+		"durationS": 152.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 280.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Twitter archive export",
+		"status": "error",
+		"durationS": 301.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 124"
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Disk space check",
+		"status": "ok",
+		"durationS": 1.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 12.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 3.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 15.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 16.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 73.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 49.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 41.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 850.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 1.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 258.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 192.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 3.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 1.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 73.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "NAS report",
+		"status": "error",
+		"durationS": 10.2,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 1800.5,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "command produced no output before noOutputTimeoutSeconds"
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 22.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 0.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 4.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-05 04:00:00",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 28.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
