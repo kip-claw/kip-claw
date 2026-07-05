@@ -926,5 +926,13 @@
     "pingMs": 19.7,
     "server": "New York NY",
     "provider": "MIRHosting"
+  },
+  {
+    "timestamp": "2026-07-04 21:00:00",
+    "downloadMbps": 560.53,
+    "uploadMbps": 22.36,
+    "pingMs": 15.0,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
