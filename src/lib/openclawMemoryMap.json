@@ -1,37 +1,38 @@
 {
-	"timestamp": "2026-07-05 11:53:11",
+	"timestamp": "2026-07-05 12:09:39",
 	"method": "pca2+kmeans",
 	"pointCount": 700,
 	"clusterCount": 6,
+	"excludedCronChunks": 0,
 	"clusters": [
 		{
 			"id": 0,
-			"label": "memory / status",
+			"label": "Staged \u2022 Confidence \u2022 Evidence",
 			"size": 263
 		},
 		{
 			"id": 3,
-			"label": "memory / confidence",
+			"label": "Confidence \u2022 Staged \u2022 Evidence",
 			"size": 110
 		},
 		{
 			"id": 5,
-			"label": "sender / welsh",
+			"label": "Json \u2022 Telegram \u2022 Your",
 			"size": 92
 		},
 		{
 			"id": 1,
-			"label": "cron / home",
+			"label": "Health \u2022 Confidence \u2022 Evidence",
 			"size": 92
 		},
 		{
 			"id": 4,
-			"label": "cron / health",
+			"label": "Health \u2022 Svelte \u2022 Telegram",
 			"size": 72
 		},
 		{
 			"id": 2,
-			"label": "user / memory",
+			"label": "Confidence \u2022 Evidence \u2022 Recalls",
 			"size": 71
 		}
 	],

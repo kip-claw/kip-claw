@@ -3,14 +3,15 @@
 		label: string;
 		value: string | number;
 		unit?: string;
+		nowrap?: boolean;
 	};
 
-	let { label, value, unit }: Props = $props();
+	let { label, value, unit, nowrap = false }: Props = $props();
 </script>
 
 <div class="stat-item">
 	<p class="label">{label}</p>
-	<p class="value">
+	<p class={`value${nowrap ? ' nowrap' : ''}`}>
 		{value}
 		{#if unit}
 			<span>{unit}</span>
@@ -35,6 +36,10 @@
 			font-weight: var(--font-weight-bold);
 			line-height: var(--line-height-snug);
 			font-variant-numeric: tabular-nums;
+		}
+
+		p.value.nowrap {
+			white-space: nowrap;
 		}
 
 		p.value span {

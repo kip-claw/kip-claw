@@ -101,18 +101,19 @@
 		<StatItem
 			label={copy.labels.memoryModel}
 			value={memoryMain ? `${memoryMain.provider}/${memoryMain.model}` : '—'}
+			nowrap={true}
 		/>
 		<StatItem label={copy.labels.memoryChunks} value={memoryMain?.indexedChunks ?? '—'} />
 		<StatItem label={copy.labels.memoryRecall} value={memoryMain?.recallEntries ?? '—'} />
 	</StatGrid>
-
-	<MemoryChart rows={memoryMainRows} title={copy.charts.memoryTrend} chartId="memory-trend" />
 
 	<MemorySemanticMapChart
 		snapshot={memoryMap}
 		title={copy.charts.memorySemanticMap}
 		chartId="memory-semantic-map"
 	/>
+
+	<MemoryChart rows={memoryMainRows} title={copy.charts.memoryTrend} chartId="memory-trend" />
 
 	<h2 class="stats-section">{copy.cronHeading}</h2>
 

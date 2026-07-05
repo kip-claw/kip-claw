@@ -60,6 +60,34 @@
 				</circle>
 			{/each}
 		</ChartFrame>
+
+		<div class="cluster-summary" aria-label="Semantic cluster summary">
+			<table>
+				<thead>
+					<tr>
+						<th>Cluster</th>
+						<th>Points</th>
+						<th>Share</th>
+						<th>Example path</th>
+					</tr>
+				</thead>
+				<tbody>
+					{#each chart.clusters as cluster}
+						<tr>
+							<td>
+								<span class="cluster-pill">
+									<i class="swatch" style={`background:${cluster.color}`}></i>
+									{cluster.label}
+								</span>
+							</td>
+							<td>{cluster.size}</td>
+							<td>{cluster.sharePct.toFixed(1)}%</td>
+							<td class="path">{cluster.samplePath}</td>
+						</tr>
+					{/each}
+				</tbody>
+			</table>
+		</div>
 	{/if}
 </div>
 
@@ -85,5 +113,43 @@
 		opacity: 0.7;
 		stroke: var(--color-background);
 		stroke-width: 0.6;
+	}
+
+	.cluster-summary {
+		margin-top: var(--space-3);
+		overflow-x: auto;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: var(--font-size-xs);
+	}
+
+	th,
+	td {
+		padding: 0.4rem 0.45rem;
+		border-top: 1px solid var(--color-line);
+		text-align: left;
+		vertical-align: top;
+	}
+
+	thead th {
+		color: var(--color-muted);
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	.cluster-pill {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-2);
+	}
+
+	td.path {
+		max-width: 34ch;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 </style>
