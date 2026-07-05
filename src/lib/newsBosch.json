@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-05",
+		"displayDate": "July 5, 2026",
+		"image": "/images/news-bosch/2026/07/05.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-05T10:04:15.202294Z",
+		"sourceRetrievedAt": "2026-07-05T10:00:11.189001Z",
+		"themes": [
+			{
+				"name": "Funeral Without Crown",
+				"interpretation": "Public succession is staged as a solemn procession where lineage appears prominently but power withholds its chosen heir.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Parade Of Reversed Banners",
+				"interpretation": "National celebration becomes a contested theater in which ships, speeches, and masked marches turn pageantry into confrontation.",
+				"storyRanks": [3, 4, 5, 6]
+			},
+			{
+				"name": "Children In The Crossfire",
+				"interpretation": "Civic festivity is shadowed by sudden violence, with the smallest figures bearing the heaviest symbolic weight.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Oil Wheel Opens",
+				"interpretation": "The machinery of global energy turns another notch toward greater output, balancing abundance against instability.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "Heat Race Endures",
+				"interpretation": "Sport becomes an ordeal of composure, injury, and survival as athletes and coaches move through furnace-like pressure.",
+				"storyRanks": [8, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Three sons of Iran's slain leader Khamenei appear at funeral, not his successor",
+				"url": "https://reuters.com/world/middle-east/three-sons-irans-slain-leader-khamenei-appear-funeral-not-his-successor-2026-07-05/"
+			},
+			{
+				"title": "At least eight shot, including four children, in New York, ABC News reports",
+				"url": "https://reuters.com/world/us/least-8-shot-including-4-children-coney-island-abc-news-reports-2026-07-05/"
+			},
+			{
+				"title": "Vessel forced out of New York ship parade over 'politically charged' banners",
+				"url": "https://reuters.com/world/us/vessel-forced-out-new-york-ship-parade-over-politically-charged-banners-2026-07-05/"
+			},
+			{
+				"title": "Trump gives campaign-style July 4 speech on National Mall for US 250th anniversary",
+				"url": "https://reuters.com/world/us/trump-mark-us-250th-anniversary-with-campaign-style-rally-national-mall-2026-07-04/"
+			},
+			{
+				"title": "Masked Patriot Front white nationalists stage July 4 march through DC",
+				"url": "https://reuters.com/world/us/masked-patriot-front-white-nationalists-stage-july-4-march-through-dc-2026-07-04/"
+			},
+			{
+				"title": "Photos show hundreds of masked Patriot Front white nationalists marching in DC",
+				"url": "https://reuters.com/pictures/photos-show-hundreds-masked-patriot-front-white-nationalists-marching-dc-2026-07-04/"
+			},
+			{
+				"title": "OPEC+ set to approve another oil output increase, sources say",
+				"url": "https://reuters.com/business/energy/opec-set-clear-another-oil-output-increase-sources-say-2026-07-05/"
+			},
+			{
+				"title": "Report: FBI arrests former West Virginia, Kentucky player Kerr Kriisa",
+				"url": "https://reuters.com/sports/report-fbi-arrests-former-west-virginia-kentucky-player-kerr-kriisa--flm-2026-07-05/"
+			},
+			{
+				"title": "Mbappe keeps cool as France survive furnace against Paraguay",
+				"url": "https://reuters.com/sports/soccer/mbappe-penalty-sends-france-past-paraguay-into-world-cup-quarter-finals-2026-07-04/"
+			},
+			{
+				"title": "No complaints but open wounds for Paraguay coach",
+				"url": "https://reuters.com/sports/soccer/no-complaints-open-wounds-paraguay-coach-2026-07-05/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-07-04",
 		"displayDate": "July 4, 2026",
 		"image": "/images/news-bosch/2026/07/04.webp",
