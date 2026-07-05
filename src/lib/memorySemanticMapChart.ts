@@ -13,9 +13,9 @@ type PointRender = {
 type ClusterLegend = {
 	id: number;
 	label: string;
+	description: string;
 	size: number;
 	sharePct: number;
-	samplePath: string;
 	color: string;
 };
 
@@ -66,13 +66,6 @@ export const buildMemorySemanticMapChart = (
 		clusterColor.set(cluster.id, palette[idx % palette.length]);
 	}
 
-	const pointsByCluster = new Map<number, typeof points>();
-	for (const point of points) {
-		const prior = pointsByCluster.get(point.cluster) ?? [];
-		prior.push(point);
-		pointsByCluster.set(point.cluster, prior);
-	}
-
 	return {
 		width,
 		height,
@@ -96,9 +89,9 @@ export const buildMemorySemanticMapChart = (
 		clusters: (snapshot.clusters ?? []).map((cluster, idx) => ({
 			id: cluster.id,
 			label: cluster.label,
+			description: cluster.description ?? 'General memory topics',
 			size: cluster.size,
 			sharePct: points.length ? (cluster.size / points.length) * 100 : 0,
-			samplePath: pointsByCluster.get(cluster.id)?.[0]?.path ?? '—',
 			color: palette[idx % palette.length]
 		}))
 	};

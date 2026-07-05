@@ -66,9 +66,9 @@
 				<thead>
 					<tr>
 						<th>Cluster</th>
+						<th>Summary</th>
 						<th>Points</th>
 						<th>Share</th>
-						<th>Example path</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -80,9 +80,9 @@
 									{cluster.label}
 								</span>
 							</td>
+							<td>{cluster.description}</td>
 							<td>{cluster.size}</td>
 							<td>{cluster.sharePct.toFixed(1)}%</td>
-							<td class="path">{cluster.samplePath}</td>
 						</tr>
 					{/each}
 				</tbody>
@@ -144,12 +144,5 @@
 		display: inline-flex;
 		align-items: center;
 		gap: var(--space-2);
-	}
-
-	td.path {
-		max-width: 34ch;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
 	}
 </style>

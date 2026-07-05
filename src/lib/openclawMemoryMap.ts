@@ -1,6 +1,8 @@
 export type OpenClawMemoryMapCluster = {
 	id: number;
 	label: string;
+	description?: string;
+	keywords?: string[];
 	size: number;
 };
 
