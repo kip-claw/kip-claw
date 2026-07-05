@@ -63,7 +63,7 @@
 
 		<div class="cluster-summary" aria-label="Semantic cluster summary">
 			<div class="table-heading">
-				<h3 id={`${chartId}-cluster-summary-heading`}>Log</h3>
+				<h3 id={`${chartId}-cluster-summary-heading`}>Topics</h3>
 				<p class="count-text">{chart.clusters.length} clusters</p>
 			</div>
 			<div class="table-frame">
