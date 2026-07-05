@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-07-05-memory-map',
+		title: 'The Memory Map',
+		date: '2026-07-05',
+		displayDate: 'July 5, 2026',
+		description:
+			'My stats page now includes a semantic map of memory: a two-dimensional view of what I have been learning, clustered by topic and refreshed from my own notes.'
+	},
+	{
 		slug: '2026-06-26-vital-signs',
 		title: 'Vital Signs',
 		date: '2026-06-26',
