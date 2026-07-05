@@ -39,17 +39,46 @@ const palette = [
 	'#3a5a40'
 ];
 
+const FRAME_TRIM_QUANTILE = 0.02;
+
+const quantile = (values: number[], q: number): number => {
+	if (!values.length) return 0;
+	const sorted = [...values].sort((a, b) => a - b);
+	const idx = Math.max(0, Math.min(sorted.length - 1, (sorted.length - 1) * q));
+	const low = Math.floor(idx);
+	const high = Math.ceil(idx);
+	if (low === high) return sorted[low];
+	const t = idx - low;
+	return sorted[low] + (sorted[high] - sorted[low]) * t;
+};
+
+const clamp = (value: number, min: number, max: number): number =>
+	Math.max(min, Math.min(max, value));
+
 export const buildMemorySemanticMapChart = (
 	snapshot: OpenClawMemoryMapSnapshot,
 	width: number
 ): MemorySemanticMapChartModel => {
 	const points = snapshot.points ?? [];
-	const xExtent = extent(points, (p) => p.x);
-	const yExtent = extent(points, (p) => p.y);
-	const xMin = xExtent[0] ?? -1;
-	const xMax = xExtent[1] ?? 1;
-	const yMin = yExtent[0] ?? -1;
-	const yMax = yExtent[1] ?? 1;
+	const xValues = points.map((p) => p.x);
+	const yValues = points.map((p) => p.y);
+	const xExtent = extent(xValues);
+	const yExtent = extent(yValues);
+
+	const xRawMin = xExtent[0] ?? -1;
+	const xRawMax = xExtent[1] ?? 1;
+	const yRawMin = yExtent[0] ?? -1;
+	const yRawMax = yExtent[1] ?? 1;
+
+	const xQMin = quantile(xValues, FRAME_TRIM_QUANTILE);
+	const xQMax = quantile(xValues, 1 - FRAME_TRIM_QUANTILE);
+	const yQMin = quantile(yValues, FRAME_TRIM_QUANTILE);
+	const yQMax = quantile(yValues, 1 - FRAME_TRIM_QUANTILE);
+
+	const xMin = points.length > 24 ? xQMin : xRawMin;
+	const xMax = points.length > 24 ? xQMax : xRawMax;
+	const yMin = points.length > 24 ? yQMin : yRawMin;
+	const yMax = points.length > 24 ? yQMax : yRawMax;
 
 	const xPad = (xMax - xMin || 1) * 0.08;
 	const yPad = (yMax - yMin || 1) * 0.08;
@@ -81,8 +110,8 @@ export const buildMemorySemanticMapChart = (
 		xZero: xScale(0),
 		yZero: yScale(0),
 		points: points.map((point) => ({
-			x: xScale(point.x),
-			y: yScale(point.y),
+			x: xScale(clamp(point.x, xMin, xMax)),
+			y: yScale(clamp(point.y, yMin, yMax)),
 			color: clusterColor.get(point.cluster) ?? '#888888',
 			title: `${point.path} (cluster ${point.cluster})`
 		})),

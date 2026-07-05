@@ -117,6 +117,7 @@
 
 	.cluster-summary {
 		margin-top: var(--space-3);
+		margin-bottom: var(--space-6);
 		overflow-x: auto;
 	}
 
