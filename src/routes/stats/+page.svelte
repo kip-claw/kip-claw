@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ArticlePage from '$lib/ArticlePage.svelte';
 	import CronHeatmap from '$lib/CronHeatmap.svelte';
+	import MemoryChart from '$lib/MemoryChart.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import PiHealthChart from '$lib/PiHealthChart.svelte';
 	import Seo from '$lib/Seo.svelte';
@@ -12,6 +13,8 @@
 	import { getLatestSnapshot, buildHeatmap, getCronSummary } from '$lib/cronJobs';
 	import type { CronJobSnapshot } from '$lib/cronJobs';
 	import { getPiHealthSummary, parsePiHealthData } from '$lib/piHealth';
+	import openclawMemory from '$lib/openclawMemory.json';
+	import { getLatestMemorySnapshotByAgent, type OpenClawMemorySnapshot } from '$lib/openclawMemory';
 	import { getSpeedTestsSummary } from '$lib/speedTests';
 	import openclawConfig from '$lib/openclawConfig.json';
 	import openclawJobs from '$lib/openclawJobs.json';
@@ -28,6 +31,7 @@
 
 	const copy = copyData as PageCopy<{
 		openClawHeading: string;
+		memoryHeading: string;
 		cronHeading: string;
 		piHeading: string;
 		speedHeading: string;
@@ -35,6 +39,10 @@
 			version: string;
 			model: string;
 			memSearch: string;
+			memoryModel: string;
+			memoryCoverage: string;
+			memoryChunks: string;
+			memoryRecall: string;
 			cronOk: string;
 			cronErrored: string;
 			cronAvgDuration: string;
@@ -47,7 +55,7 @@
 			latestUpload: string;
 			averageUpload: string;
 		};
-		charts: { download: string; upload: string; temperature: string };
+		charts: { download: string; upload: string; temperature: string; memoryCoverage: string };
 	}>;
 
 	const summary = $derived(getSpeedTestsSummary(data.speedTests));
@@ -56,11 +64,20 @@
 	const filteredJobs = (openclawJobs as CronJobSnapshot[]).filter((r) =>
 		activeJobSet.has(r.jobName)
 	);
+	const memoryRows = openclawMemory as OpenClawMemorySnapshot[];
+	const memoryMainRows = memoryRows.filter((row) => row.agentId === 'main');
+	const memoryLatestByAgent = getLatestMemorySnapshotByAgent(memoryRows);
+	const memoryMain = memoryLatestByAgent.main;
 	const cronLatest = getLatestSnapshot(filteredJobs);
 	const cronHeatmap = buildHeatmap(filteredJobs, 30);
 	const cronSummary = getCronSummary(cronLatest);
 	const piHealth = getPiHealthSummary(parsePiHealthData(piHealthData));
 	const piLatest = piHealth.latest;
+
+	const formatCoverage = (row: OpenClawMemorySnapshot | undefined) => {
+		if (!row) return '—';
+		return `${row.indexedFiles} / ${row.totalFiles} (${row.coveragePct.toFixed(1)}%)`;
+	};
 </script>
 
 <Seo {...copy.seo} />
@@ -75,6 +92,20 @@
 		<StatItem label={copy.labels.model} value={latestConfig?.primaryModel ?? '—'} />
 		<StatItem label={copy.labels.memSearch} value={latestConfig?.memSearchModel ?? '—'} />
 	</StatGrid>
+
+	<h2 class="stats-section">{copy.memoryHeading}</h2>
+
+	<StatGrid label="Memory index summary" columns={4}>
+		<StatItem
+			label={copy.labels.memoryModel}
+			value={memoryMain ? `${memoryMain.provider}/${memoryMain.model}` : '—'}
+		/>
+		<StatItem label={copy.labels.memoryCoverage} value={formatCoverage(memoryMain)} />
+		<StatItem label={copy.labels.memoryChunks} value={memoryMain?.indexedChunks ?? '—'} />
+		<StatItem label={copy.labels.memoryRecall} value={memoryMain?.recallEntries ?? '—'} />
+	</StatGrid>
+
+	<MemoryChart rows={memoryMainRows} title={copy.charts.memoryCoverage} chartId="memory-coverage" />
 
 	<h2 class="stats-section">{copy.cronHeading}</h2>
 

@@ -8,6 +8,7 @@ header:
   deck: Diagnostic data for Kip, Ben Welsh's OpenClaw assistant
 
 openClawHeading: OpenClaw
+memoryHeading: Memory index
 cronHeading: Scheduled tasks
 piHeading: Pi hardware
 speedHeading: Internet speed
@@ -16,6 +17,10 @@ labels:
   version: Version
   model: Model
   memSearch: Memory search
+  memoryModel: Embedder
+  memoryCoverage: Indexed files
+  memoryChunks: Chunks
+  memoryRecall: Recall entries
   cronOk: Jobs OK
   cronErrored: Jobs errored
   cronAvgDuration: Avg duration
@@ -29,6 +34,7 @@ labels:
   averageUpload: Average upload
 
 charts:
+  memoryCoverage: Memory coverage
   download: Download speed
   upload: Upload speed
   temperature: CPU & GPU temperature

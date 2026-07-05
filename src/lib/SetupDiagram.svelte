@@ -21,6 +21,7 @@
 			label: 'Local network',
 			items: [
 				{ title: 'NAS', subs: ['Backups · ArchiveBox', 'FileBrowser · Birdclaw'] },
+				{ title: 'Batocera', subs: ['Retro gaming'] },
 				{ title: 'Kodi', subs: ['Media center'] },
 				{ title: 'Whisper', subs: ['Speech to text'] },
 				{ title: 'Android phone', subs: ['Termux node'] },
