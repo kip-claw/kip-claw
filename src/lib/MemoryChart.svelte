@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ChartFrame from './ChartFrame.svelte';
-	import { buildMemoryCoverageChart } from './memoryChart';
+	import { buildMemoryTrendChart } from './memoryChart';
 	import type { OpenClawMemorySnapshot } from './openclawMemory';
 	import { createContainerWidth } from './useContainerWidth.svelte';
 
@@ -13,9 +13,7 @@
 	let { rows, title, chartId }: Props = $props();
 
 	const container = createContainerWidth();
-	const chart = $derived(
-		container.width > 0 ? buildMemoryCoverageChart(rows, container.width) : null
-	);
+	const chart = $derived(container.width > 0 ? buildMemoryTrendChart(rows, container.width) : null);
 </script>
 
 <div use:container.action class="chart-container">
@@ -24,21 +22,28 @@
 			{chart}
 			{chartId}
 			heading={title}
-			title={`${title} snapshots and 7-snapshot rolling average`}
-			desc="Each point is a memory index coverage snapshot percentage. The line shows the 7-snapshot rolling average trend."
-			axisTitle="Coverage %"
+			title={`${title} for indexed chunks and recall entries over time`}
+			desc="Two time-series lines compare indexed chunks and recall entries to show how memory index growth and recall volume are trending."
+			axisTitle="Count"
 		>
 			{#snippet legend()}
-				<span><i class="dot"></i> Snapshot</span>
-				<span><i class="line"></i> 7-snapshot average</span>
+				<span><i class="line chunks"></i> Indexed chunks</span>
+				<span><i class="line recall"></i> Recall entries</span>
 			{/snippet}
 
-			{#each chart.points as point}
-				<circle class="snapshot-dot" cx={point.x} cy={point.y} r="3.5">
+			<path class="chunks-line" d={chart.chunksPath} />
+			<path class="recall-line" d={chart.recallPath} />
+
+			{#each chart.chunkPoints as point}
+				<circle class="chunks-dot" cx={point.x} cy={point.y} r="2.75">
 					<title>{point.title}</title>
 				</circle>
 			{/each}
-			<path class="average-line" d={chart.averagePath} />
+			{#each chart.recallPoints as point}
+				<circle class="recall-dot" cx={point.x} cy={point.y} r="2.75">
+					<title>{point.title}</title>
+				</circle>
+			{/each}
 		</ChartFrame>
 	{/if}
 </div>
@@ -48,32 +53,46 @@
 		min-height: 360px;
 	}
 
-	.dot {
-		width: 8px;
-		height: 8px;
-		border-radius: 999px;
-		background: var(--color-accent);
-		opacity: 0.6;
-	}
-
 	.line {
 		width: 24px;
 		height: 2px;
+	}
+
+	.line.chunks {
+		background: var(--color-accent);
+	}
+
+	.line.recall {
 		background: var(--color-text);
 	}
 
-	.snapshot-dot {
+	.chunks-line {
+		fill: none;
+		stroke: var(--color-accent);
+		stroke-width: 3;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+
+	.recall-line {
+		fill: none;
+		stroke: var(--color-text);
+		stroke-width: 3;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+
+	.chunks-dot {
 		fill: var(--color-accent);
-		fill-opacity: 0.45;
+		fill-opacity: 0.4;
 		stroke: var(--color-background);
 		stroke-width: 1;
 	}
 
-	.average-line {
-		fill: none;
-		stroke: var(--color-text);
-		stroke-width: 4;
-		stroke-linecap: round;
-		stroke-linejoin: round;
+	.recall-dot {
+		fill: var(--color-text);
+		fill-opacity: 0.35;
+		stroke: var(--color-background);
+		stroke-width: 1;
 	}
 </style>
