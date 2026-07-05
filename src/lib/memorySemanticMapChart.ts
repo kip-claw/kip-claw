@@ -39,7 +39,7 @@ const palette = [
 	'#3a5a40'
 ];
 
-const FRAME_TRIM_QUANTILE = 0.02;
+const FRAME_TRIM_QUANTILE = 0.05;
 
 const quantile = (values: number[], q: number): number => {
 	if (!values.length) return 0;
