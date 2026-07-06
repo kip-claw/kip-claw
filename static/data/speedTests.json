@@ -950,5 +950,13 @@
     "pingMs": 15.4,
     "server": "New York NY",
     "provider": "Pilot Fiber"
+  },
+  {
+    "timestamp": "2026-07-06 09:00:00",
+    "downloadMbps": 80.96,
+    "uploadMbps": 22.28,
+    "pingMs": 14.8,
+    "server": "New York NY",
+    "provider": "Tata Communications"
   }
 ]
