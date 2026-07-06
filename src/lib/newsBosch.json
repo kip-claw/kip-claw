@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-07-06",
+		"displayDate": "July 6, 2026",
+		"image": "/images/news-bosch/2026/07/06.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 1792x1024) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 1792x1024)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-06T10:04:34.252987Z",
+		"sourceRetrievedAt": "2026-07-06T10:00:11.355274Z",
+		"themes": [
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [1, 3, 6, 7, 9, 10]
+			},
+			{
+				"name": "Nature, Risk, and Discovery",
+				"interpretation": "Bodies, ecosystems, and frontiers strain under pressure as discovery and hazard advance together.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Spectacle and Public Contest",
+				"interpretation": "Public theater and competition amplify rivalry while masking unresolved stakes beneath the crowd.",
+				"storyRanks": [5]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump intervention causes World Cup storm as FIFA clears US striker Balogun to face Belgium",
+				"url": "https://reuters.com/sports/soccer/trump-intervention-sparks-world-cup-storm-fifa-clears-balogun-face-belgium-2026-07-06/"
+			},
+			{
+				"title": "China test fires missile into Pacific, alarming regional powers",
+				"url": "https://reuters.com/world/china/china-test-fires-missile-into-pacific-alarming-regional-powers-2026-07-06/"
+			},
+			{
+				"title": "Racist commentary about Black players comes under scrutiny at World Cup",
+				"url": "https://reuters.com/sports/soccer/racist-commentary-about-black-players-comes-under-scrutiny-world-cup-2026-07-06/"
+			},
+			{
+				"title": "NATO Ankara summit: who's going and what to expect\u00a0",
+				"url": "https://reuters.com/business/aerospace-defense/nato-ankara-summit-whos-going-what-expect-2026-07-06/"
+			},
+			{
+				"title": "What is Article 27 of FIFA's Disciplinary Code that allows red-carded Balogun to play?",
+				"url": "https://reuters.com/sports/soccer/what-is-article-27-fifas-disciplinary-code-that-allows-red-carded-balogun-play-2026-07-06/"
+			},
+			{
+				"title": "Russian strikes kill 12 in Kyiv as Ukraine runs low on air defences",
+				"url": "https://reuters.com/world/ukrainian-capital-kyiv-under-missile-attack-officials-say-2026-07-05/"
+			},
+			{
+				"title": "Khamenei funeral live: Iran's Supreme Leader Mojtaba absent as crowds gather to mourn slain ayatollah",
+				"url": "https://reuters.com/world/khamenei-funeral-live-irans-supreme-leader-mojtaba-absent-crowds-gather-mourn-2026-07-06/"
+			},
+			{
+				"title": "Three sons of Iran's slain leader Khamenei appear at funeral, not his successor",
+				"url": "https://reuters.com/world/middle-east/three-sons-irans-slain-leader-khamenei-appear-funeral-not-his-successor-2026-07-05/"
+			},
+			{
+				"title": "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks",
+				"url": "https://reuters.com/business/energy/world-absorbs-historic-iran-war-oil-supply-loss-depleted-stocks-bring-risks-2026-07-06/"
+			},
+			{
+				"title": "South Korea's SK Hynix launches $28 billion US listing to ride global AI wave",
+				"url": "https://reuters.com/world/asia-pacific/south-koreas-sk-hynix-launch-28-billion-us-listing-ride-global-ai-wave-2026-07-06/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"games, dice, wheels, races, and balancing acts",
+				"celestial bodies, eclipses, comets, clocks, and constellations"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-07-05",
 		"displayDate": "July 5, 2026",
 		"image": "/images/news-bosch/2026/07/05.webp",
