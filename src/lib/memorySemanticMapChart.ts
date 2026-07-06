@@ -1,14 +1,24 @@
-import { hierarchy, treemap, type HierarchyRectangularNode } from 'd3-hierarchy';
+import { hierarchy, treemap, treemapResquarify, type HierarchyRectangularNode } from 'd3-hierarchy';
 import type { OpenClawMemoryMapSnapshot, OpenClawMemoryMapTreeNode } from './openclawMemoryMap';
 
 type ClusterLegend = {
 	id: number;
+	family: string;
 	label: string;
 	description: string;
 	size: number;
 	sharePct: number;
 	color: string;
 	keywords: string[];
+};
+
+type FamilyRect = {
+	id: string;
+	label: string;
+	x: number;
+	y: number;
+	width: number;
+	height: number;
 };
 
 type ClusterRect = {
@@ -49,12 +59,13 @@ export type MemorySemanticMapChartModel = {
 	height: number;
 	margin: { top: number; right: number; bottom: number; left: number };
 	clusters: ClusterLegend[];
+	familyRects: FamilyRect[];
 	clusterRects: ClusterRect[];
 	keywordRects: KeywordRect[];
 };
 
 const height = 360;
-const margin = { top: 20, right: 20, bottom: 18, left: 20 };
+const margin = { top: 16, right: 8, bottom: 12, left: 8 };
 const palette = [
 	'#cb2a2f',
 	'#1f7a8c',
@@ -93,13 +104,19 @@ const buildKeywordChildren = (cluster: ClusterLegend): TreemapDatum[] => {
 const treeFromClusters = (clusters: ClusterLegend[]): TreemapDatum => ({
 	id: 'root',
 	label: 'Memory',
-	children: clusters.map((cluster) => ({
-		id: `cluster:${cluster.id}`,
-		clusterId: cluster.id,
-		label: cluster.label,
-		description: cluster.description,
-		children: buildKeywordChildren(cluster)
-	}))
+	children: [
+		{
+			id: 'family:all',
+			label: 'Topics',
+			children: clusters.map((cluster) => ({
+				id: `cluster:${cluster.id}`,
+				clusterId: cluster.id,
+				label: cluster.label,
+				description: cluster.description,
+				children: buildKeywordChildren(cluster)
+			}))
+		}
+	]
 });
 
 const parseClusterIdFromNode = (node: OpenClawMemoryMapTreeNode): number | undefined => {
@@ -136,13 +153,37 @@ const treeFromSnapshot = (
 	return convert(inputTree);
 };
 
+const collectClusterFamilies = (tree?: OpenClawMemoryMapTreeNode): Map<number, string> => {
+	const families = new Map<number, string>();
+	if (!tree?.children?.length) {
+		return families;
+	}
+
+	for (const familyNode of tree.children) {
+		const familyLabel = familyNode.label || 'General';
+		for (const clusterNode of familyNode.children ?? []) {
+			const clusterId =
+				typeof clusterNode.clusterId === 'number'
+					? clusterNode.clusterId
+					: parseClusterIdFromNode(clusterNode);
+			if (typeof clusterId === 'number') {
+				families.set(clusterId, familyLabel);
+			}
+		}
+	}
+
+	return families;
+};
+
 export const buildMemorySemanticMapChart = (
 	snapshot: OpenClawMemoryMapSnapshot,
 	width: number
 ): MemorySemanticMapChartModel => {
 	const points = snapshot.points ?? [];
+	const familyByClusterId = collectClusterFamilies(snapshot.tree);
 	const clusters: ClusterLegend[] = (snapshot.clusters ?? []).map((cluster, idx) => ({
 		id: cluster.id,
+		family: familyByClusterId.get(cluster.id) ?? 'General',
 		label: cluster.label,
 		description: cluster.description ?? 'General memory topics',
 		size: cluster.size,
@@ -159,18 +200,32 @@ export const buildMemorySemanticMapChart = (
 		.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
 
 	const treemapRoot = treemap<TreemapDatum>()
+		.tile(treemapResquarify)
 		.size([
 			Math.max(1, width - margin.left - margin.right),
 			Math.max(1, height - margin.top - margin.bottom)
 		])
-		.paddingOuter(4)
-		.paddingTop(22)
+		.round(true)
+		.paddingOuter(2)
+		.paddingTop((node) => (node.depth === 1 ? 18 : node.depth === 2 ? 14 : 0))
 		.paddingInner(2)(root);
 
+	const familyRects: FamilyRect[] = [];
 	const clusterRects: ClusterRect[] = [];
 	const keywordRects: KeywordRect[] = [];
 
 	for (const node of treemapRoot.descendants() as HierarchyRectangularNode<TreemapDatum>[]) {
+		if (node.depth === 1) {
+			familyRects.push({
+				id: node.data.id,
+				label: node.data.label,
+				x: node.x0 + margin.left,
+				y: node.y0 + margin.top,
+				width: Math.max(0, node.x1 - node.x0),
+				height: Math.max(0, node.y1 - node.y0)
+			});
+		}
+
 		const isClusterNode = typeof node.data.clusterId === 'number';
 		if (isClusterNode) {
 			const data = node.data;
@@ -223,6 +278,7 @@ export const buildMemorySemanticMapChart = (
 		height,
 		margin,
 		clusters,
+		familyRects,
 		clusterRects,
 		keywordRects
 	};

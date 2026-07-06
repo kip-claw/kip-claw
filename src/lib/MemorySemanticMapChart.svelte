@@ -46,6 +46,19 @@
 						block.</desc
 					>
 
+					{#each chart.familyRects as family}
+						<rect
+							class="family-rect"
+							x={family.x}
+							y={family.y}
+							width={family.width}
+							height={family.height}
+						/>
+						{#if family.width > 112 && family.height > 22}
+							<text class="family-label" x={family.x + 6} y={family.y + 13}>{family.label}</text>
+						{/if}
+					{/each}
+
 					{#each chart.clusterRects as cluster}
 						<rect
 							class="cluster-rect"
@@ -56,7 +69,7 @@
 							style={`fill:${cluster.color}`}
 						/>
 						{#if cluster.width > 90 && cluster.height > 30}
-							<text class="cluster-label" x={cluster.x + 6} y={cluster.y + 14}>{cluster.label}</text
+							<text class="cluster-label" x={cluster.x + 6} y={cluster.y + 12}>{cluster.label}</text
 							>
 						{/if}
 					{/each}
@@ -90,6 +103,7 @@
 					<thead>
 						<tr>
 							<th>Cluster</th>
+							<th>Group</th>
 							<th>Summary</th>
 							<th>Points</th>
 							<th>Share</th>
@@ -104,6 +118,7 @@
 										{cluster.label}
 									</span>
 								</td>
+								<td>{cluster.family}</td>
 								<td>{cluster.description}</td>
 								<td>{cluster.size}</td>
 								<td>{cluster.sharePct.toFixed(1)}%</td>
@@ -174,9 +189,15 @@
 		height: auto;
 	}
 
-	.cluster-rect {
-		fill-opacity: 0.2;
+	.family-rect {
+		fill: transparent;
 		stroke: var(--color-line);
+		stroke-width: 1;
+	}
+
+	.cluster-rect {
+		fill-opacity: 0.18;
+		stroke: rgba(0, 0, 0, 0.18);
 		stroke-width: 1;
 	}
 
@@ -186,11 +207,19 @@
 		stroke-width: 0.8;
 	}
 
+	.family-label,
 	.cluster-label,
 	.keyword-label {
 		fill: var(--color-text);
 		font-size: 11px;
 		pointer-events: none;
+	}
+
+	.family-label {
+		font-size: 10px;
+		font-weight: 600;
+		fill: var(--color-muted);
+		text-transform: uppercase;
 	}
 
 	.keyword-label {
