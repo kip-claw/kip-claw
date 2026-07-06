@@ -98,8 +98,8 @@
 							<th>Cluster</th>
 							<th>Group</th>
 							<th>Summary</th>
-							<th>Points</th>
-							<th>Share</th>
+							<th class="numeric">Points</th>
+							<th class="numeric">Share</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -113,8 +113,8 @@
 								</td>
 								<td>{cluster.family}</td>
 								<td>{cluster.description}</td>
-								<td>{cluster.size}</td>
-								<td>{cluster.sharePct.toFixed(1)}%</td>
+								<td class="numeric">{cluster.size}</td>
+								<td class="numeric">{cluster.sharePct.toFixed(1)}%</td>
 							</tr>
 						{/each}
 					</tbody>
@@ -139,7 +139,7 @@
 		align-items: flex-end;
 		justify-content: space-between;
 		gap: var(--space-5);
-		margin-bottom: var(--space-4);
+		margin-bottom: var(--space-2);
 		padding-bottom: 0;
 	}
 
@@ -258,6 +258,11 @@
 		display: inline-flex;
 		align-items: center;
 		gap: var(--space-2);
+	}
+
+	.numeric {
+		text-align: right;
+		font-variant-numeric: tabular-nums;
 	}
 
 	@media (max-width: 760px) {
