@@ -15,6 +15,7 @@
 		heading: string;
 		headingId: string;
 		countText?: string;
+		constrainBodyHeight?: boolean;
 		initialSortKey?: string;
 		initialSortDirection?: 'asc' | 'desc';
 		onRowClick?: (row: T) => void;
@@ -29,6 +30,7 @@
 		heading,
 		headingId,
 		countText,
+		constrainBodyHeight = true,
 		initialSortKey,
 		initialSortDirection = 'asc',
 		onRowClick,
@@ -89,7 +91,7 @@
 		</div>
 	{/if}
 
-	<div class="table-frame">
+	<div class="table-frame" class:table-frame--unconstrained={!constrainBodyHeight}>
 		<table>
 			<thead>
 				<tr>
@@ -161,6 +163,11 @@
 		overflow-y: auto;
 		max-height: 600px;
 		border-top: 2px solid var(--color-text);
+	}
+
+	.table-frame--unconstrained {
+		overflow-y: visible;
+		max-height: none;
 	}
 
 	table {

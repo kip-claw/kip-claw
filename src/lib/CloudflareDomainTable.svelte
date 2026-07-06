@@ -33,6 +33,7 @@
 	heading="Monitored domains"
 	headingId="domain-table-title"
 	countText="{domains.length} domains checked"
+	constrainBodyHeight={false}
 	initialSortKey="status"
 >
 	{#snippet row(domain: CloudflareDomainCheck)}
@@ -41,9 +42,6 @@
 		</td>
 		<td class="domain-name">
 			<a href={domain.target}>{domain.label || domain.target}</a>
-			{#if domain.error}
-				<p>{domain.error}</p>
-			{/if}
 		</td>
 		<td>{domain.source === 'manual' ? `Manual (${domain.provider})` : 'Cloudflare'}</td>
 		<td class="numeric">{domain.httpStatus ?? '—'}</td>
@@ -87,12 +85,5 @@
 
 	.domain-name {
 		font-weight: var(--font-weight-bold);
-	}
-
-	.domain-name p {
-		margin: var(--space-1) 0 0;
-		color: #8a1f1f;
-		font-size: var(--font-size-xs);
-		font-weight: var(--font-weight-normal);
 	}
 </style>
