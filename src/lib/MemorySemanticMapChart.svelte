@@ -23,6 +23,14 @@
 		if (maxChars <= 1) return '';
 		return `${text.slice(0, Math.max(1, maxChars - 1))}…`;
 	};
+
+	const showKeywordLabel = (
+		node: { width: number; height: number },
+		chartWidth: number
+	): boolean => {
+		const minWidth = chartWidth < 700 ? 88 : chartWidth < 980 ? 74 : 62;
+		return node.width >= minWidth && node.height >= 18;
+	};
 </script>
 
 <div use:container.action class="chart-container">
@@ -96,7 +104,7 @@
 						>
 							<title>{node.title}</title>
 						</rect>
-						{#if node.width > 52 && node.height > 16}
+						{#if showKeywordLabel(node, chart.width)}
 							{@const keywordText = fitLabel(node.keyword, node.width, 10, 5.6)}
 							{#if keywordText}
 								<text class="keyword-label" x={node.x + 5} y={node.y + 13}>{keywordText}</text>
