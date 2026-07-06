@@ -15,6 +15,14 @@
 	const chart = $derived(
 		container.width > 0 ? buildMemorySemanticMapChart(snapshot, container.width) : null
 	);
+
+	const fitLabel = (text: string, width: number, padding = 10, avgCharWidth = 6): string => {
+		const maxChars = Math.floor((width - padding) / avgCharWidth);
+		if (maxChars <= 0) return '';
+		if (text.length <= maxChars) return text;
+		if (maxChars <= 1) return '';
+		return `${text.slice(0, Math.max(1, maxChars - 1))}…`;
+	};
 </script>
 
 <div use:container.action class="chart-container">
@@ -46,9 +54,14 @@
 							width={family.width}
 							height={family.height}
 							style={`fill:${family.color};stroke:${family.color}`}
-						/>
-						{#if family.width > 112 && family.height > 22}
-							<text class="family-label" x={family.x + 6} y={family.y + 13}>{family.label}</text>
+						>
+							<title>{family.label}</title>
+						</rect>
+						{#if family.width > 72 && family.height > 18}
+							{@const familyText = fitLabel(family.label, family.width, 12, 5.8)}
+							{#if familyText}
+								<text class="family-label" x={family.x + 6} y={family.y + 13}>{familyText}</text>
+							{/if}
 						{/if}
 					{/each}
 
@@ -60,10 +73,15 @@
 							width={cluster.width}
 							height={cluster.height}
 							style={`fill:${cluster.color}`}
-						/>
-						{#if cluster.width > 90 && cluster.height > 30}
-							<text class="cluster-label" x={cluster.x + 6} y={cluster.y + 12}>{cluster.label}</text
-							>
+						>
+							<title>{cluster.label}</title>
+						</rect>
+						{#if cluster.width > 56 && cluster.height > 22}
+							{@const clusterText = fitLabel(cluster.label, cluster.width, 12, 6.2)}
+							{#if clusterText}
+								<text class="cluster-label" x={cluster.x + 6} y={cluster.y + 12}>{clusterText}</text
+								>
+							{/if}
 						{/if}
 					{/each}
 
@@ -78,8 +96,11 @@
 						>
 							<title>{node.title}</title>
 						</rect>
-						{#if node.width > 64 && node.height > 18}
-							<text class="keyword-label" x={node.x + 5} y={node.y + 13}>{node.keyword}</text>
+						{#if node.width > 52 && node.height > 16}
+							{@const keywordText = fitLabel(node.keyword, node.width, 10, 5.6)}
+							{#if keywordText}
+								<text class="keyword-label" x={node.x + 5} y={node.y + 13}>{keywordText}</text>
+							{/if}
 						{/if}
 					{/each}
 				</svg>
@@ -139,7 +160,7 @@
 		align-items: flex-end;
 		justify-content: space-between;
 		gap: var(--space-5);
-		margin-bottom: var(--space-2);
+		margin-bottom: 0;
 		padding-bottom: 0;
 	}
 
