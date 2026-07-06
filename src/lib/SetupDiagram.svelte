@@ -12,7 +12,8 @@
 
 	const interfaces: Interface[] = [
 		{ title: 'Telegram', sub: 'Chat · Commands' },
-		{ title: 'kip.computer', sub: 'Public site · Apps' }
+		{ title: 'kip.computer', sub: 'Public site · Apps' },
+		{ title: 'Android app', sub: 'Mobile app' }
 	];
 
 	const groups: { id: GroupId; label: string; items: Service[] }[] = [
@@ -91,19 +92,30 @@
 		const benW = Math.min(180, W - 2 * PAD);
 		const ben: Box = { x: cx - benW / 2, y: PAD, w: benW, h: BEN_H, cx };
 
-		// Interfaces — always paired, width responsive
-		const ifGap = 16;
-		const ifW = Math.min(190, (W - ifGap - 2 * PAD) / 2);
-		const ifLeft = cx - (ifW * 2 + ifGap) / 2;
-		const ifY = ben.y + ben.h + 36;
+		// Interfaces — responsive row that can hold 2-3 nodes.
+		const ifaceCols =
+			W >= 860 ? Math.min(interfaces.length, 3) : W >= 560 ? Math.min(interfaces.length, 2) : 1;
+		const ifaceBand = scaleBand<number>()
+			.domain(range(ifaceCols))
+			.range([PAD, W - PAD])
+			.paddingInner(ifaceCols > 1 ? 0.12 : 0)
+			.paddingOuter(0.04);
+		const ifW = Math.min(210, ifaceBand.bandwidth());
+		const ifaceRowGap = 12;
+		const ifY = ben.y + ben.h + 32;
 		const ifaces = interfaces.map((d, i) => {
-			const x = ifLeft + i * (ifW + ifGap);
-			return { ...d, x, y: ifY, w: ifW, h: IF_H, cx: x + ifW / 2 };
+			const col = i % ifaceCols;
+			const row = Math.floor(i / ifaceCols);
+			const bandX = ifaceBand(col) ?? PAD;
+			const x = bandX + (ifaceBand.bandwidth() - ifW) / 2;
+			const y = ifY + row * (IF_H + ifaceRowGap);
+			return { ...d, x, y, w: ifW, h: IF_H, cx: x + ifW / 2 };
 		});
+		const ifaceRows = Math.ceil(interfaces.length / ifaceCols);
 
 		// Core runtime
 		const coreW = Math.min(520, W - 2 * PAD);
-		const coreY = ifY + IF_H + 38;
+		const coreY = ifY + ifaceRows * IF_H + (ifaceRows - 1) * ifaceRowGap + 34;
 		const core: Box = { x: cx - coreW / 2, y: coreY, w: coreW, h: CORE_H, cx };
 
 		// Reasoning model node, on the spine just below the core.
