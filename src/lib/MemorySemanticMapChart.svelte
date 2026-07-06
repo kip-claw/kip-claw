@@ -28,7 +28,7 @@
 					{#each chart.clusters.slice(0, 5) as cluster}
 						<span>
 							<i class="swatch" style={`background:${cluster.color}`}></i>
-							{cluster.label} ({cluster.size})
+							{cluster.displayLabel} ({cluster.size})
 						</span>
 					{/each}
 				</div>
@@ -115,10 +115,10 @@
 								<td>
 									<span class="cluster-pill">
 										<i class="swatch" style={`background:${cluster.color}`}></i>
-										{cluster.label}
+										{cluster.displayLabel}
 									</span>
 								</td>
-								<td>{cluster.family}</td>
+								<td>{cluster.groupLabel}</td>
 								<td>{cluster.description}</td>
 								<td>{cluster.size}</td>
 								<td>{cluster.sharePct.toFixed(1)}%</td>
@@ -133,7 +133,7 @@
 
 <style>
 	.chart-container {
-		min-height: 360px;
+		min-height: 0;
 	}
 
 	.chart-section {

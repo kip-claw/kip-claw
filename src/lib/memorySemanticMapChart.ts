@@ -4,7 +4,9 @@ import type { OpenClawMemoryMapSnapshot, OpenClawMemoryMapTreeNode } from './ope
 type ClusterLegend = {
 	id: number;
 	family: string;
+	groupLabel: string;
 	label: string;
+	displayLabel: string;
 	description: string;
 	size: number;
 	sharePct: number;
@@ -64,7 +66,6 @@ export type MemorySemanticMapChartModel = {
 	keywordRects: KeywordRect[];
 };
 
-const height = 360;
 const margin = { top: 16, right: 8, bottom: 12, left: 8 };
 const palette = [
 	'#cb2a2f',
@@ -78,6 +79,19 @@ const palette = [
 ];
 
 const minimumTileValue = 1;
+
+const clamp = (value: number, min: number, max: number): number =>
+	Math.max(min, Math.min(max, value));
+
+const computeChartHeight = (width: number): number => {
+	if (width <= 520) {
+		return clamp(Math.round(width * 1.28), 420, 760);
+	}
+	if (width <= 840) {
+		return clamp(Math.round(width * 0.88), 380, 620);
+	}
+	return clamp(Math.round(width * 0.58), 360, 560);
+};
 
 const buildKeywordChildren = (cluster: ClusterLegend): TreemapDatum[] => {
 	const keywords = (cluster.keywords ?? []).slice(0, 5).filter((k) => k.trim().length > 0);
@@ -181,16 +195,49 @@ export const buildMemorySemanticMapChart = (
 ): MemorySemanticMapChartModel => {
 	const points = snapshot.points ?? [];
 	const familyByClusterId = collectClusterFamilies(snapshot.tree);
-	const clusters: ClusterLegend[] = (snapshot.clusters ?? []).map((cluster, idx) => ({
+	const rawClusters: ClusterLegend[] = (snapshot.clusters ?? []).map((cluster, idx) => ({
 		id: cluster.id,
 		family: familyByClusterId.get(cluster.id) ?? 'General',
+		groupLabel: familyByClusterId.get(cluster.id) ?? 'General',
 		label: cluster.label,
+		displayLabel: cluster.label,
 		description: cluster.description ?? 'General memory topics',
 		size: cluster.size,
 		sharePct: points.length ? (cluster.size / points.length) * 100 : 0,
 		color: palette[idx % palette.length],
 		keywords: cluster.keywords ?? []
 	}));
+
+	const labelCounts = new Map<string, number>();
+	for (const cluster of rawClusters) {
+		labelCounts.set(cluster.label, (labelCounts.get(cluster.label) ?? 0) + 1);
+	}
+
+	const labelIndex = new Map<string, number>();
+	const clusters: ClusterLegend[] = rawClusters.map((cluster) => {
+		const occurrence = (labelIndex.get(cluster.label) ?? 0) + 1;
+		labelIndex.set(cluster.label, occurrence);
+
+		const isDuplicate = (labelCounts.get(cluster.label) ?? 0) > 1;
+		const keywordHint =
+			cluster.keywords.find((keyword) => {
+				const normalizedKeyword = keyword.trim().toLowerCase();
+				const normalizedLabel = cluster.label.trim().toLowerCase();
+				return normalizedKeyword.length >= 3 && normalizedKeyword !== normalizedLabel;
+			}) ?? `topic ${occurrence}`;
+
+		const displayLabel = isDuplicate ? `${cluster.label} · ${keywordHint}` : cluster.label;
+		const groupLabel =
+			cluster.family === cluster.label && !isDuplicate ? 'General' : cluster.family;
+
+		return {
+			...cluster,
+			displayLabel,
+			groupLabel
+		};
+	});
+
+	const chartHeight = computeChartHeight(width);
 
 	const clusterById = new Map(clusters.map((cluster) => [cluster.id, cluster]));
 	const rootData = treeFromSnapshot(snapshot, clusterById);
@@ -203,7 +250,7 @@ export const buildMemorySemanticMapChart = (
 		.tile(treemapResquarify)
 		.size([
 			Math.max(1, width - margin.left - margin.right),
-			Math.max(1, height - margin.top - margin.bottom)
+			Math.max(1, chartHeight - margin.top - margin.bottom)
 		])
 		.round(true)
 		.paddingOuter(2)
@@ -236,7 +283,7 @@ export const buildMemorySemanticMapChart = (
 			const cluster = clusterById.get(clusterId);
 			clusterRects.push({
 				id: clusterId,
-				label: data.label,
+				label: cluster?.displayLabel ?? data.label,
 				description: data.description ?? cluster?.description ?? 'General memory topics',
 				size: Math.round(node.value ?? 0),
 				color: data.color ?? cluster?.color ?? '#888888',
@@ -257,7 +304,7 @@ export const buildMemorySemanticMapChart = (
 				continue;
 			}
 			const cluster = clusterById.get(clusterId);
-			const clusterLabel = clusterNode.data.label;
+			const clusterLabel = cluster?.displayLabel ?? clusterNode.data.label;
 			const clusterColor = clusterNode.data.color ?? cluster?.color ?? '#888888';
 			const keyword = node.data.label;
 			keywordRects.push({
@@ -275,7 +322,7 @@ export const buildMemorySemanticMapChart = (
 
 	return {
 		width,
-		height,
+		height: chartHeight,
 		margin,
 		clusters,
 		familyRects,
