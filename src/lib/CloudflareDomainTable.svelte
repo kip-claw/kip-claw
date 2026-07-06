@@ -41,9 +41,6 @@
 		</td>
 		<td class="domain-name">
 			<a href={domain.target}>{domain.label || domain.target}</a>
-			{#if domain.label && domain.label !== domain.target}
-				<p>{domain.target}</p>
-			{/if}
 			{#if domain.error}
 				<p>{domain.error}</p>
 			{/if}
