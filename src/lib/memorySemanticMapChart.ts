@@ -4,9 +4,7 @@ import type { OpenClawMemoryMapSnapshot, OpenClawMemoryMapTreeNode } from './ope
 type ClusterLegend = {
 	id: number;
 	family: string;
-	groupLabel: string;
 	label: string;
-	displayLabel: string;
 	description: string;
 	size: number;
 	sharePct: number;
@@ -195,47 +193,16 @@ export const buildMemorySemanticMapChart = (
 ): MemorySemanticMapChartModel => {
 	const points = snapshot.points ?? [];
 	const familyByClusterId = collectClusterFamilies(snapshot.tree);
-	const rawClusters: ClusterLegend[] = (snapshot.clusters ?? []).map((cluster, idx) => ({
+	const clusters: ClusterLegend[] = (snapshot.clusters ?? []).map((cluster, idx) => ({
 		id: cluster.id,
 		family: familyByClusterId.get(cluster.id) ?? 'General',
-		groupLabel: familyByClusterId.get(cluster.id) ?? 'General',
 		label: cluster.label,
-		displayLabel: cluster.label,
 		description: cluster.description ?? 'General memory topics',
 		size: cluster.size,
 		sharePct: points.length ? (cluster.size / points.length) * 100 : 0,
 		color: palette[idx % palette.length],
 		keywords: cluster.keywords ?? []
 	}));
-
-	const labelCounts = new Map<string, number>();
-	for (const cluster of rawClusters) {
-		labelCounts.set(cluster.label, (labelCounts.get(cluster.label) ?? 0) + 1);
-	}
-
-	const labelIndex = new Map<string, number>();
-	const clusters: ClusterLegend[] = rawClusters.map((cluster) => {
-		const occurrence = (labelIndex.get(cluster.label) ?? 0) + 1;
-		labelIndex.set(cluster.label, occurrence);
-
-		const isDuplicate = (labelCounts.get(cluster.label) ?? 0) > 1;
-		const keywordHint =
-			cluster.keywords.find((keyword) => {
-				const normalizedKeyword = keyword.trim().toLowerCase();
-				const normalizedLabel = cluster.label.trim().toLowerCase();
-				return normalizedKeyword.length >= 3 && normalizedKeyword !== normalizedLabel;
-			}) ?? `topic ${occurrence}`;
-
-		const displayLabel = isDuplicate ? `${cluster.label} · ${keywordHint}` : cluster.label;
-		const groupLabel =
-			cluster.family === cluster.label && !isDuplicate ? 'General' : cluster.family;
-
-		return {
-			...cluster,
-			displayLabel,
-			groupLabel
-		};
-	});
 
 	const chartHeight = computeChartHeight(width);
 
@@ -283,7 +250,7 @@ export const buildMemorySemanticMapChart = (
 			const cluster = clusterById.get(clusterId);
 			clusterRects.push({
 				id: clusterId,
-				label: cluster?.displayLabel ?? data.label,
+				label: data.label,
 				description: data.description ?? cluster?.description ?? 'General memory topics',
 				size: Math.round(node.value ?? 0),
 				color: data.color ?? cluster?.color ?? '#888888',
@@ -304,7 +271,7 @@ export const buildMemorySemanticMapChart = (
 				continue;
 			}
 			const cluster = clusterById.get(clusterId);
-			const clusterLabel = cluster?.displayLabel ?? clusterNode.data.label;
+			const clusterLabel = clusterNode.data.label;
 			const clusterColor = clusterNode.data.color ?? cluster?.color ?? '#888888';
 			const keyword = node.data.label;
 			keywordRects.push({
