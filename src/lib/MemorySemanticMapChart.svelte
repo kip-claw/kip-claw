@@ -1,5 +1,4 @@
 <script lang="ts">
-	import ChartFrame from './ChartFrame.svelte';
 	import { buildMemorySemanticMapChart } from './memorySemanticMapChart';
 	import type { OpenClawMemoryMapSnapshot } from './openclawMemoryMap';
 	import { createContainerWidth } from './useContainerWidth.svelte';
@@ -20,46 +19,66 @@
 
 <div use:container.action class="chart-container">
 	{#if chart}
-		<ChartFrame
-			{chart}
-			{chartId}
-			heading={title}
-			title={`${title} projected to 2D semantic space`}
-			desc="Each dot is a memory chunk embedding projected into 2D and colored by cluster. Nearby points are semantically similar in local neighborhoods."
-			axisTitle="Projected dimensions"
-		>
-			{#snippet legend()}
-				{#each chart.clusters.slice(0, 5) as cluster}
-					<span>
-						<i class="swatch" style={`background:${cluster.color}`}></i>
-						{cluster.label} ({cluster.size})
-					</span>
-				{/each}
-			{/snippet}
+		<section class="chart-section" aria-labelledby={`${chartId}-heading`}>
+			<div class="chart-heading">
+				<div>
+					<h3 id={`${chartId}-heading`}>{title}</h3>
+				</div>
+				<div class="legend" aria-label="Chart legend">
+					{#each chart.clusters.slice(0, 5) as cluster}
+						<span>
+							<i class="swatch" style={`background:${cluster.color}`}></i>
+							{cluster.label} ({cluster.size})
+						</span>
+					{/each}
+				</div>
+			</div>
 
-			{#snippet background()}
-				<line
-					class="cross-axis"
-					x1={chart.xZero}
-					x2={chart.xZero}
-					y1={chart.margin.top}
-					y2={chart.height - chart.margin.bottom}
-				/>
-				<line
-					class="cross-axis"
-					x1={chart.margin.left}
-					x2={chart.width - chart.margin.right}
-					y1={chart.yZero}
-					y2={chart.yZero}
-				/>
-			{/snippet}
+			<div class="chart-frame">
+				<svg
+					viewBox={`0 0 ${chart.width} ${chart.height}`}
+					role="img"
+					aria-labelledby={`${chartId}-title ${chartId}-desc`}
+				>
+					<title id={`${chartId}-title`}>{title} shown as a hierarchical treemap</title>
+					<desc id={`${chartId}-desc`}
+						>Topic clusters are shown as large blocks, with subtopic keywords nested inside each
+						block.</desc
+					>
 
-			{#each chart.points as point}
-				<circle class="map-point" cx={point.x} cy={point.y} r="3" style={`fill:${point.color}`}>
-					<title>{point.title}</title>
-				</circle>
-			{/each}
-		</ChartFrame>
+					{#each chart.clusterRects as cluster}
+						<rect
+							class="cluster-rect"
+							x={cluster.x}
+							y={cluster.y}
+							width={cluster.width}
+							height={cluster.height}
+							style={`fill:${cluster.color}`}
+						/>
+						{#if cluster.width > 90 && cluster.height > 30}
+							<text class="cluster-label" x={cluster.x + 6} y={cluster.y + 14}>{cluster.label}</text
+							>
+						{/if}
+					{/each}
+
+					{#each chart.keywordRects as node}
+						<rect
+							class="keyword-rect"
+							x={node.x}
+							y={node.y}
+							width={node.width}
+							height={node.height}
+							style={`fill:${node.color}`}
+						>
+							<title>{node.title}</title>
+						</rect>
+						{#if node.width > 64 && node.height > 18}
+							<text class="keyword-label" x={node.x + 5} y={node.y + 13}>{node.keyword}</text>
+						{/if}
+					{/each}
+				</svg>
+			</div>
+		</section>
 
 		<div class="cluster-summary" aria-label="Semantic cluster summary">
 			<div class="table-heading">
@@ -102,6 +121,21 @@
 		min-height: 360px;
 	}
 
+	.chart-section {
+		min-width: 0;
+		margin-bottom: var(--space-6);
+	}
+
+	.chart-heading {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		gap: var(--space-5);
+		margin-bottom: var(--space-4);
+		border-bottom: 1px solid var(--color-line);
+		padding-bottom: var(--space-3);
+	}
+
 	.swatch {
 		width: 10px;
 		height: 10px;
@@ -109,16 +143,59 @@
 		display: inline-block;
 	}
 
-	.cross-axis {
-		stroke: var(--color-line);
-		stroke-width: 1;
-		stroke-dasharray: 3 3;
+	h3 {
+		margin: 0;
+		font-size: var(--font-size-xl);
+		line-height: var(--line-height-snug);
 	}
 
-	.map-point {
-		opacity: 0.7;
+	.legend {
+		display: flex;
+		gap: var(--space-4);
+		color: var(--color-muted);
+		font-size: var(--font-size-xs);
+		white-space: nowrap;
+	}
+
+	.legend span {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-2);
+	}
+
+	.chart-frame {
+		border-bottom: 1px solid var(--color-line);
+		padding-bottom: var(--space-2);
+	}
+
+	svg {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.cluster-rect {
+		fill-opacity: 0.2;
+		stroke: var(--color-line);
+		stroke-width: 1;
+	}
+
+	.keyword-rect {
+		fill-opacity: 0.85;
 		stroke: var(--color-background);
-		stroke-width: 0.6;
+		stroke-width: 0.8;
+	}
+
+	.cluster-label,
+	.keyword-label {
+		fill: var(--color-text);
+		font-size: 11px;
+		pointer-events: none;
+	}
+
+	.keyword-label {
+		fill: white;
+		font-size: 10px;
 	}
 
 	.cluster-summary {
@@ -178,6 +255,17 @@
 	}
 
 	@media (max-width: 760px) {
+		.chart-heading {
+			align-items: flex-start;
+			flex-direction: column;
+			gap: var(--space-3);
+		}
+
+		.legend {
+			flex-wrap: wrap;
+			white-space: normal;
+		}
+
 		.table-heading {
 			align-items: flex-start;
 			flex-direction: column;
