@@ -24,14 +24,6 @@
 				<div>
 					<h3 id={`${chartId}-heading`}>{title}</h3>
 				</div>
-				<div class="legend" aria-label="Chart legend">
-					{#each chart.clusters.slice(0, 5) as cluster}
-						<span>
-							<i class="swatch" style={`background:${cluster.color}`}></i>
-							{cluster.label} ({cluster.size})
-						</span>
-					{/each}
-				</div>
 			</div>
 
 			<div class="chart-frame">
@@ -53,6 +45,7 @@
 							y={family.y}
 							width={family.width}
 							height={family.height}
+							style={`fill:${family.color};stroke:${family.color}`}
 						/>
 						{#if family.width > 112 && family.height > 22}
 							<text class="family-label" x={family.x + 6} y={family.y + 13}>{family.label}</text>
@@ -164,20 +157,6 @@
 		line-height: var(--line-height-snug);
 	}
 
-	.legend {
-		display: flex;
-		gap: var(--space-4);
-		color: var(--color-muted);
-		font-size: var(--font-size-xs);
-		white-space: nowrap;
-	}
-
-	.legend span {
-		display: inline-flex;
-		align-items: center;
-		gap: var(--space-2);
-	}
-
 	.chart-frame {
 		border-bottom: 1px solid var(--color-line);
 		padding-bottom: var(--space-2);
@@ -190,8 +169,8 @@
 	}
 
 	.family-rect {
-		fill: transparent;
-		stroke: var(--color-line);
+		fill-opacity: 0.08;
+		stroke-opacity: 0.38;
 		stroke-width: 1;
 	}
 
@@ -288,11 +267,6 @@
 			align-items: flex-start;
 			flex-direction: column;
 			gap: var(--space-3);
-		}
-
-		.legend {
-			flex-wrap: wrap;
-			white-space: normal;
 		}
 
 		.table-heading {

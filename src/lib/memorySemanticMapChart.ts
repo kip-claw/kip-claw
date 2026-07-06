@@ -15,6 +15,7 @@ type ClusterLegend = {
 type FamilyRect = {
 	id: string;
 	label: string;
+	color: string;
 	x: number;
 	y: number;
 	width: number;
@@ -65,7 +66,7 @@ export type MemorySemanticMapChartModel = {
 };
 
 const margin = { top: 16, right: 8, bottom: 12, left: 8 };
-const palette = [
+const familyPalette = [
 	'#cb2a2f',
 	'#1f7a8c',
 	'#f18f01',
@@ -77,6 +78,34 @@ const palette = [
 ];
 
 const minimumTileValue = 1;
+
+const hexToRgb = (hex: string): [number, number, number] => {
+	const clean = hex.replace('#', '');
+	const expanded =
+		clean.length === 3
+			? clean
+					.split('')
+					.map((c) => c + c)
+					.join('')
+			: clean;
+	const int = Number.parseInt(expanded, 16);
+	return [(int >> 16) & 255, (int >> 8) & 255, int & 255];
+};
+
+const rgbToHex = (r: number, g: number, b: number): string =>
+	`#${[r, g, b]
+		.map((v) =>
+			Math.max(0, Math.min(255, Math.round(v)))
+				.toString(16)
+				.padStart(2, '0')
+		)
+		.join('')}`;
+
+const tintHex = (hex: string, amount: number): string => {
+	const [r, g, b] = hexToRgb(hex);
+	const mix = (channel: number) => channel + (255 - channel) * amount;
+	return rgbToHex(mix(r), mix(g), mix(b));
+};
 
 const clamp = (value: number, min: number, max: number): number =>
 	Math.max(min, Math.min(max, value));
@@ -187,22 +216,57 @@ const collectClusterFamilies = (tree?: OpenClawMemoryMapTreeNode): Map<number, s
 	return families;
 };
 
+const collectFamilyOrder = (tree?: OpenClawMemoryMapTreeNode): string[] => {
+	if (!tree?.children?.length) {
+		return [];
+	}
+	return tree.children.map((child) => child.label || 'General');
+};
+
 export const buildMemorySemanticMapChart = (
 	snapshot: OpenClawMemoryMapSnapshot,
 	width: number
 ): MemorySemanticMapChartModel => {
 	const points = snapshot.points ?? [];
 	const familyByClusterId = collectClusterFamilies(snapshot.tree);
-	const clusters: ClusterLegend[] = (snapshot.clusters ?? []).map((cluster, idx) => ({
+	const rawClusters: Omit<ClusterLegend, 'color'>[] = (snapshot.clusters ?? []).map((cluster) => ({
 		id: cluster.id,
 		family: familyByClusterId.get(cluster.id) ?? 'General',
 		label: cluster.label,
 		description: cluster.description ?? 'General memory topics',
 		size: cluster.size,
 		sharePct: points.length ? (cluster.size / points.length) * 100 : 0,
-		color: palette[idx % palette.length],
 		keywords: cluster.keywords ?? []
 	}));
+
+	const familyOrder = collectFamilyOrder(snapshot.tree);
+	for (const cluster of rawClusters) {
+		if (!familyOrder.includes(cluster.family)) {
+			familyOrder.push(cluster.family);
+		}
+	}
+
+	const familyColor = new Map(
+		familyOrder.map((family, idx) => [family, familyPalette[idx % familyPalette.length]])
+	);
+
+	const familyCounts = new Map<string, number>();
+	for (const cluster of rawClusters) {
+		familyCounts.set(cluster.family, (familyCounts.get(cluster.family) ?? 0) + 1);
+	}
+
+	const familySeen = new Map<string, number>();
+	const clusters: ClusterLegend[] = rawClusters.map((cluster) => {
+		const seen = (familySeen.get(cluster.family) ?? 0) + 1;
+		familySeen.set(cluster.family, seen);
+		const total = familyCounts.get(cluster.family) ?? 1;
+		const base = familyColor.get(cluster.family) ?? '#888888';
+		const tint = total <= 1 ? 0.1 : 0.06 + ((seen - 1) / Math.max(1, total - 1)) * 0.28;
+		return {
+			...cluster,
+			color: tintHex(base, tint)
+		};
+	});
 
 	const chartHeight = computeChartHeight(width);
 
@@ -230,9 +294,11 @@ export const buildMemorySemanticMapChart = (
 
 	for (const node of treemapRoot.descendants() as HierarchyRectangularNode<TreemapDatum>[]) {
 		if (node.depth === 1) {
+			const familyColorValue = familyColor.get(node.data.label) ?? '#999999';
 			familyRects.push({
 				id: node.data.id,
 				label: node.data.label,
+				color: familyColorValue,
 				x: node.x0 + margin.left,
 				y: node.y0 + margin.top,
 				width: Math.max(0, node.x1 - node.x0),
