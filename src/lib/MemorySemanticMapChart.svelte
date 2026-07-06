@@ -140,8 +140,7 @@
 		justify-content: space-between;
 		gap: var(--space-5);
 		margin-bottom: var(--space-4);
-		border-bottom: 1px solid var(--color-line);
-		padding-bottom: var(--space-3);
+		padding-bottom: 0;
 	}
 
 	.swatch {
@@ -158,8 +157,7 @@
 	}
 
 	.chart-frame {
-		border-bottom: 1px solid var(--color-line);
-		padding-bottom: var(--space-2);
+		padding-bottom: 0;
 	}
 
 	svg {
