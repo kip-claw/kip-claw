@@ -17,6 +17,7 @@
 	"OpenAI limits report",
 	"OpenClaw config report",
 	"OpenClaw job report",
+	"OpenClaw memory report",
 	"OpenClaw release check",
 	"Pi health report",
 	"Publish skills",
