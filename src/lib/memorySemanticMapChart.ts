@@ -65,7 +65,7 @@ export type MemorySemanticMapChartModel = {
 	keywordRects: KeywordRect[];
 };
 
-const margin = { top: 16, right: 8, bottom: 12, left: 8 };
+const margin = { top: 16, right: 0, bottom: 12, left: 0 };
 const familyPalette = [
 	'#cb2a2f',
 	'#1f7a8c',
@@ -261,7 +261,7 @@ export const buildMemorySemanticMapChart = (
 		familySeen.set(cluster.family, seen);
 		const total = familyCounts.get(cluster.family) ?? 1;
 		const base = familyColor.get(cluster.family) ?? '#888888';
-		const tint = total <= 1 ? 0.1 : 0.06 + ((seen - 1) / Math.max(1, total - 1)) * 0.28;
+		const tint = total <= 1 ? 0.12 : 0.1 + ((seen - 1) / Math.max(1, total - 1)) * 0.14;
 		return {
 			...cluster,
 			color: tintHex(base, tint)
@@ -284,7 +284,7 @@ export const buildMemorySemanticMapChart = (
 			Math.max(1, chartHeight - margin.top - margin.bottom)
 		])
 		.round(true)
-		.paddingOuter(2)
+		.paddingOuter(0)
 		.paddingTop((node) => (node.depth === 1 ? 18 : node.depth === 2 ? 14 : 0))
 		.paddingInner(2)(root);
 
