@@ -13147,5 +13147,311 @@
 		"consecutiveErrors": 1,
 		"errorReason": "",
 		"notes": "cron isolated agent run aborted"
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 64.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 5.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Heartbeat cleanup",
+		"status": "ok",
+		"durationS": 1.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "OpenClaw config report",
+		"status": "error",
+		"durationS": 18.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 4.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "OpenClaw memory report",
+		"status": "ok",
+		"durationS": 76.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Runs export",
+		"status": "error",
+		"durationS": 32.0,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 124"
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 4.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 19.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 221.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Daily Bosch generation",
+		"status": "ok",
+		"durationS": 5.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 44.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 20.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Disk space check",
+		"status": "ok",
+		"durationS": 1.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 3.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 6.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 17.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 43.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 44.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 46.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 19.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 1.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Todo cleanup",
+		"status": "error",
+		"durationS": 1.5,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (4): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | groq/openai/gpt-oss-120b: Couldn't sign in to groq. Your saved login looks"
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Wiki maintenance",
+		"status": "error",
+		"durationS": 1.5,
+		"consecutiveErrors": 4,
+		"errorReason": "rate_limit",
+		"notes": "FallbackSummaryError: All models failed (4): openai/gpt-5.5: Provider openai is in cooldown (suspending lanes) (rate_limit) | groq/openai/gpt-oss-120b: Couldn't sign in to groq. Your saved login looks"
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "R2 offsite backup",
+		"status": "ok",
+		"durationS": 25185.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 3.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 1.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 90.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 22.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 0.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 4.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 28.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "Google Drive sync report",
+		"status": "error",
+		"durationS": 905.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron isolated agent run aborted"
+	},
+	{
+		"timestamp": "2026-07-07 04:00:00",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 23.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
