@@ -1,5 +1,5 @@
 {
-	"timestamp": "2026-07-07 04:30:00",
+	"timestamp": "2026-07-08 10:34:54",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v3",
 	"pointCount": 700,
 	"clusterCount": 9,
@@ -10,21 +10,21 @@
 			"id": 0,
 			"label": "Operational State",
 			"description": "System health, run status, and operational evidence from recent activity.",
-			"size": 309,
+			"size": 307,
 			"keywords": ["staged", "confidence", "recalls", "evidence"]
 		},
 		{
 			"id": 1,
 			"label": "Automation",
 			"description": "Scheduled and automated jobs, including routine monitoring tasks.",
-			"size": 97,
+			"size": 98,
 			"keywords": ["cron", "exited", "data", "edt"]
 		},
 		{
 			"id": 2,
 			"label": "Vault",
 			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-			"size": 85,
+			"size": 84,
 			"keywords": ["cron", "todo", "edt", "done"]
 		},
 		{
@@ -32,27 +32,27 @@
 			"label": "Dialogue",
 			"description": "User and assistant planning conversations, requests, and responses.",
 			"size": 48,
-			"keywords": ["ben"]
-		},
-		{
-			"id": 5,
-			"label": "Chartbeat",
-			"description": "Topics related to and, to, chartbeat.",
-			"size": 40,
-			"keywords": ["reuters", "daily", "news"]
+			"keywords": ["ben", "your"]
 		},
 		{
 			"id": 4,
+			"label": "Chartbeat",
+			"description": "Topics related to and, to, chartbeat.",
+			"size": 41,
+			"keywords": ["reuters", "daily", "news"]
+		},
+		{
+			"id": 5,
 			"label": "Session",
 			"description": "Session metadata and timing context tied to recent interactions.",
-			"size": 39,
+			"size": 37,
 			"keywords": ["your", "utc"]
 		},
 		{
 			"id": 6,
 			"label": "Follow-up",
 			"description": "Ongoing follow-up work and continuation of active tasks.",
-			"size": 33,
+			"size": 36,
 			"keywords": ["continue", "task"]
 		},
 		{
@@ -65,7 +65,7 @@
 		{
 			"id": 8,
 			"label": "Strong",
-			"description": "Topics related to strong, truths, surfaced.",
+			"description": "Topics related to strong, truths, and.",
 			"size": 24,
 			"keywords": ["truths", "surfaced", "cron", "patterns", "rem", "possible"]
 		}
@@ -74,14 +74,14 @@
 		{
 			"x": 9.1877,
 			"y": 8.7419,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-09-0930.md",
 			"source": "memory"
 		},
 		{
 			"x": 10.6748,
 			"y": 7.1206,
-			"cluster": 3,
+			"cluster": 6,
 			"path": "memory/2026-04-09-0930.md",
 			"source": "memory"
 		},
@@ -102,14 +102,14 @@
 		{
 			"x": 9.3913,
 			"y": 8.86,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1021.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.2792,
 			"y": 8.802,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1111.md",
 			"source": "memory"
 		},
@@ -130,7 +130,7 @@
 		{
 			"x": 9.2691,
 			"y": 8.6809,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1459.md",
 			"source": "memory"
 		},
@@ -144,7 +144,7 @@
 		{
 			"x": 9.2124,
 			"y": 8.3315,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
@@ -172,14 +172,14 @@
 		{
 			"x": 9.4151,
 			"y": 8.8129,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1740.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.6186,
 			"y": 8.3959,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
@@ -200,7 +200,7 @@
 		{
 			"x": 9.1703,
 			"y": 8.7753,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
@@ -214,7 +214,7 @@
 		{
 			"x": 9.2891,
 			"y": 8.7441,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-09-vault-permissions-test.md",
 			"source": "memory"
 		},
@@ -235,7 +235,7 @@
 		{
 			"x": 10.0066,
 			"y": 8.162,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
@@ -256,7 +256,7 @@
 		{
 			"x": 9.3765,
 			"y": 8.969,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-10-whisper-task.md",
 			"source": "memory"
 		},
@@ -284,7 +284,7 @@
 		{
 			"x": 9.6228,
 			"y": 8.7424,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
@@ -319,7 +319,7 @@
 		{
 			"x": 9.1014,
 			"y": 8.4303,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-11-email-permissions.md",
 			"source": "memory"
 		},
@@ -361,7 +361,7 @@
 		{
 			"x": 9.1235,
 			"y": 8.6543,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-11-sent-email-sync.md",
 			"source": "memory"
 		},
@@ -417,7 +417,7 @@
 		{
 			"x": 9.1349,
 			"y": 8.3067,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-12-email-allowlist.md",
 			"source": "memory"
 		},
@@ -445,7 +445,7 @@
 		{
 			"x": 9.0417,
 			"y": 8.4084,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-12-inbox-check.md",
 			"source": "memory"
 		},
@@ -466,21 +466,21 @@
 		{
 			"x": 7.0355,
 			"y": 0.7737,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-04-13.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.2923,
 			"y": 8.8414,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-14-1209.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.4325,
 			"y": 8.7099,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-16-1025.md",
 			"source": "memory"
 		},
@@ -501,21 +501,21 @@
 		{
 			"x": 9.4793,
 			"y": 9.1652,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-16-1030.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.4634,
 			"y": 9.1755,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-16-1033.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.4921,
 			"y": 9.1736,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-16-1039.md",
 			"source": "memory"
 		},
@@ -543,14 +543,14 @@
 		{
 			"x": 9.677,
 			"y": 9.1885,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-1041.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.3939,
 			"y": 8.6477,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-1328.md",
 			"source": "memory"
 		},
@@ -578,14 +578,14 @@
 		{
 			"x": 9.4908,
 			"y": 9.2199,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-first-meeting.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.4674,
 			"y": 9.0334,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-hello-again.md",
 			"source": "memory"
 		},
@@ -606,21 +606,21 @@
 		{
 			"x": 9.4929,
 			"y": 9.1594,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-kip-intro.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.5551,
 			"y": 9.1888,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-kip-startup.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.5854,
 			"y": 8.9654,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-model-switch.md",
 			"source": "memory"
 		},
@@ -641,21 +641,21 @@
 		{
 			"x": 7.388,
 			"y": 1.1781,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-04-18-obama-cubs-2026-townhall.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.5163,
 			"y": 9.1769,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-session-start.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.4871,
 			"y": 8.9047,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-18-session-startup.md",
 			"source": "memory"
 		},
@@ -697,7 +697,7 @@
 		{
 			"x": 9.4994,
 			"y": 9.0745,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-22-daily-summary.md",
 			"source": "memory"
 		},
@@ -711,7 +711,7 @@
 		{
 			"x": 9.2009,
 			"y": 8.5513,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-23-chart-log.md",
 			"source": "memory"
 		},
@@ -725,7 +725,7 @@
 		{
 			"x": 9.2159,
 			"y": 8.5797,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-23-run-log.md",
 			"source": "memory"
 		},
@@ -739,7 +739,7 @@
 		{
 			"x": 9.2171,
 			"y": 8.4939,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-24-1704.md",
 			"source": "memory"
 		},
@@ -767,7 +767,7 @@
 		{
 			"x": 9.4514,
 			"y": 9.1174,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-25-1357.md",
 			"source": "memory"
 		},
@@ -788,7 +788,7 @@
 		{
 			"x": 9.3971,
 			"y": 8.7575,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/2026-04-27-1359.md",
 			"source": "memory"
 		},
@@ -837,7 +837,7 @@
 		{
 			"x": 6.9898,
 			"y": 1.3737,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-05-13.md",
 			"source": "memory"
 		},
@@ -1131,56 +1131,56 @@
 		{
 			"x": 7.342,
 			"y": 0.9057,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-06-04.md",
 			"source": "memory"
 		},
 		{
 			"x": 10.687,
 			"y": -0.902,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-06-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.9639,
 			"y": 1.5313,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-06-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.0141,
 			"y": 1.6643,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.8263,
 			"y": 1.7083,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9865,
 			"y": 1.6497,
-			"cluster": 5,
+			"cluster": 8,
 			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.0977,
 			"y": 1.3213,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/automated-charts.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.2907,
 			"y": 1.2059,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/ceo-scorecard.md",
 			"source": "memory"
 		},
@@ -1516,7 +1516,7 @@
 		{
 			"x": 7.4969,
 			"y": 1.3706,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-05-22.md",
 			"source": "memory"
 		},
@@ -1845,7 +1845,7 @@
 		{
 			"x": 8.2009,
 			"y": 2.4399,
-			"cluster": 0,
+			"cluster": 1,
 			"path": "memory/dreaming/light/2026-05-26.md",
 			"source": "memory"
 		},
@@ -2363,14 +2363,14 @@
 		{
 			"x": 7.2251,
 			"y": 0.6047,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-02.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.0549,
 			"y": 0.3845,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-02.md",
 			"source": "memory"
 		},
@@ -2510,14 +2510,14 @@
 		{
 			"x": 7.1982,
 			"y": 0.5602,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-04.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6737,
 			"y": 0.6041,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-04.md",
 			"source": "memory"
 		},
@@ -2580,7 +2580,7 @@
 		{
 			"x": 7.5733,
 			"y": 0.57,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-04.md",
 			"source": "memory"
 		},
@@ -2622,28 +2622,28 @@
 		{
 			"x": 7.3106,
 			"y": 0.6581,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-05.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.4966,
 			"y": 0.6606,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-05.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.1665,
 			"y": 1.0568,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-05.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.4902,
 			"y": 1.3224,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-05.md",
 			"source": "memory"
 		},
@@ -2741,14 +2741,14 @@
 		{
 			"x": 7.2664,
 			"y": 0.6707,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.0837,
 			"y": 0.4236,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-06.md",
 			"source": "memory"
 		},
@@ -2776,7 +2776,7 @@
 		{
 			"x": 9.4016,
 			"y": 1.2253,
-			"cluster": 2,
+			"cluster": 0,
 			"path": "memory/dreaming/light/2026-06-06.md",
 			"source": "memory"
 		},
@@ -2881,14 +2881,14 @@
 		{
 			"x": 7.6114,
 			"y": 0.6046,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.4397,
 			"y": 0.7671,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-07.md",
 			"source": "memory"
 		},
@@ -3273,7 +3273,7 @@
 		{
 			"x": 7.161,
 			"y": 1.7193,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-16.md",
 			"source": "memory"
 		},
@@ -3315,7 +3315,7 @@
 		{
 			"x": 10.4987,
 			"y": 5.4014,
-			"cluster": 0,
+			"cluster": 6,
 			"path": "memory/dreaming/light/2026-06-17.md",
 			"source": "memory"
 		},
@@ -3371,7 +3371,7 @@
 		{
 			"x": 7.3467,
 			"y": 1.1942,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-18.md",
 			"source": "memory"
 		},
@@ -3420,7 +3420,7 @@
 		{
 			"x": 7.328,
 			"y": 1.1367,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-19.md",
 			"source": "memory"
 		},
@@ -3861,7 +3861,7 @@
 		{
 			"x": 7.6141,
 			"y": 1.3567,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/ire-archive.md",
 			"source": "memory"
 		},
@@ -3959,14 +3959,14 @@
 		{
 			"x": 7.3018,
 			"y": 1.8735,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.0852,
 			"y": 1.6072,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-26.md",
 			"source": "memory"
 		},
@@ -4008,14 +4008,14 @@
 		{
 			"x": 7.1382,
 			"y": 0.4783,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9987,
 			"y": 1.6903,
-			"cluster": 0,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-06-26.md",
 			"source": "memory"
 		},
@@ -4435,7 +4435,7 @@
 		{
 			"x": 6.6754,
 			"y": 1.5818,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/rem/2026-06-30.md",
 			"source": "memory"
 		},
@@ -4666,7 +4666,7 @@
 		{
 			"x": 5.9754,
 			"y": 1.6686,
-			"cluster": 8,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-07-05.md",
 			"source": "memory"
 		},
@@ -4827,7 +4827,7 @@
 		{
 			"x": 7.2443,
 			"y": 0.9213,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -4841,56 +4841,56 @@
 		{
 			"x": 7.3763,
 			"y": 0.9796,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8216,
 			"y": 1.1345,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.2363,
 			"y": 1.7707,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.1568,
 			"y": 1.7502,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.3074,
 			"y": 8.2943,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.2324,
 			"y": 8.2879,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.2395,
 			"y": 8.0982,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.2296,
 			"y": 8.2237,
-			"cluster": 4,
+			"cluster": 5,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
@@ -4953,7 +4953,7 @@
 		{
 			"x": 12.0367,
 			"y": 0.624,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/dreaming/light/2026-07-07.md",
 			"source": "memory"
 		},
@@ -4989,22 +4989,22 @@
 							{
 								"id": "keyword:0:0",
 								"label": "staged",
-								"value": 123.6
+								"value": 122.8
 							},
 							{
 								"id": "keyword:0:1",
 								"label": "confidence",
-								"value": 92.7
+								"value": 92.1
 							},
 							{
 								"id": "keyword:0:2",
 								"label": "recalls",
-								"value": 61.8
+								"value": 61.4
 							},
 							{
 								"id": "keyword:0:3",
 								"label": "evidence",
-								"value": 30.9
+								"value": 30.7
 							}
 						]
 					},
@@ -5017,25 +5017,30 @@
 							{
 								"id": "keyword:3:0",
 								"label": "ben",
-								"value": 48.0
+								"value": 32.0
+							},
+							{
+								"id": "keyword:3:1",
+								"label": "your",
+								"value": 16.0
 							}
 						]
 					},
 					{
-						"id": "cluster:4",
-						"clusterId": 4,
+						"id": "cluster:5",
+						"clusterId": 5,
 						"label": "Session",
 						"description": "Session metadata and timing context tied to recent interactions.",
 						"children": [
 							{
-								"id": "keyword:4:0",
+								"id": "keyword:5:0",
 								"label": "your",
-								"value": 26.0
+								"value": 24.67
 							},
 							{
-								"id": "keyword:4:1",
+								"id": "keyword:5:1",
 								"label": "utc",
-								"value": 13.0
+								"value": 12.33
 							}
 						]
 					},
@@ -5048,12 +5053,12 @@
 							{
 								"id": "keyword:6:0",
 								"label": "continue",
-								"value": 22.0
+								"value": 24.0
 							},
 							{
 								"id": "keyword:6:1",
 								"label": "task",
-								"value": 11.0
+								"value": 12.0
 							}
 						]
 					},
@@ -5094,7 +5099,7 @@
 						"id": "cluster:8",
 						"clusterId": 8,
 						"label": "Strong",
-						"description": "Topics related to strong, truths, surfaced.",
+						"description": "Topics related to strong, truths, and.",
 						"children": [
 							{
 								"id": "keyword:8:0",
@@ -5138,45 +5143,45 @@
 							{
 								"id": "keyword:1:0",
 								"label": "cron",
-								"value": 38.8
+								"value": 39.2
 							},
 							{
 								"id": "keyword:1:1",
 								"label": "exited",
-								"value": 29.1
+								"value": 29.4
 							},
 							{
 								"id": "keyword:1:2",
 								"label": "data",
-								"value": 19.4
+								"value": 19.6
 							},
 							{
 								"id": "keyword:1:3",
 								"label": "edt",
-								"value": 9.7
+								"value": 9.8
 							}
 						]
 					},
 					{
-						"id": "cluster:5",
-						"clusterId": 5,
+						"id": "cluster:4",
+						"clusterId": 4,
 						"label": "Chartbeat",
 						"description": "Topics related to and, to, chartbeat.",
 						"children": [
 							{
-								"id": "keyword:5:0",
+								"id": "keyword:4:0",
 								"label": "reuters",
-								"value": 20.0
+								"value": 20.5
 							},
 							{
-								"id": "keyword:5:1",
+								"id": "keyword:4:1",
 								"label": "daily",
-								"value": 13.33
+								"value": 13.67
 							},
 							{
-								"id": "keyword:5:2",
+								"id": "keyword:4:2",
 								"label": "news",
-								"value": 6.67
+								"value": 6.83
 							}
 						]
 					}
@@ -5195,22 +5200,22 @@
 							{
 								"id": "keyword:2:0",
 								"label": "cron",
-								"value": 34.0
+								"value": 33.6
 							},
 							{
 								"id": "keyword:2:1",
 								"label": "todo",
-								"value": 25.5
+								"value": 25.2
 							},
 							{
 								"id": "keyword:2:2",
 								"label": "edt",
-								"value": 17.0
+								"value": 16.8
 							},
 							{
 								"id": "keyword:2:3",
 								"label": "done",
-								"value": 8.5
+								"value": 8.4
 							}
 						]
 					}
