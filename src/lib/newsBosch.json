@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-07-08",
+		"displayDate": "July 8, 2026",
+		"image": "/images/news-bosch/2026/07/08.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-08T14:44:16.710230Z",
+		"sourceRetrievedAt": "2026-07-08T14:40:35.845872Z",
+		"themes": [
+			{
+				"name": "Alliance Drawbridge Reversed",
+				"interpretation": "The same alliance is pictured as both severed and reaffirmed, with trade, spending, and unity turning like a bridge that opens in one panel and closes in the next.",
+				"storyRanks": [1, 7, 8]
+			},
+			{
+				"name": "War Well Overflows",
+				"interpretation": "Claims that an Iran accord is finished collide with renewed strikes, making peace look like a capped well that bursts into floodwater.",
+				"storyRanks": [2, 5]
+			},
+			{
+				"name": "Midterm Dice Furnace",
+				"interpretation": "Domestic campaign messaging hardens into ideological theater, recasting elections as a risky game of loaded symbols.",
+				"storyRanks": [3, 6]
+			},
+			{
+				"name": "Referee Mirror Maze",
+				"interpretation": "A contested soccer defeat turns judgment itself into a mirrored mechanism where replay is meant to clarify but instead multiplies grievance.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Encrypted Floodgates Tremble",
+				"interpretation": "The approaching quantum threat makes digital defenses resemble canal locks under pressure, still closed but visibly straining.",
+				"storyRanks": [9]
+			},
+			{
+				"name": "Missile License Bridge",
+				"interpretation": "Support for Ukraine is framed less as direct delivery than as permission to build another defensive span across a war-torn gap.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump orders halt to US trade with Spain over NATO\u00a0spending, Iran",
+				"url": "https://reuters.com/world/trump-says-he-ordered-cutting-off-all-trade-with-spain-2026-07-08/"
+			},
+			{
+				"title": "Iran war live: US and Iran launch new strikes and Trump tells NATO deal with Tehran is 'over'",
+				"url": "https://reuters.com/world/iran-war-live-us-military-resumes-strikes-iran-after-attacks-hormuz-strait-2026-07-07/"
+			},
+			{
+				"title": "Trump team tests anti-communist message for midterms as rhetoric intensifies",
+				"url": "https://reuters.com/world/us/trump-team-tests-anti-communist-message-midterms-rhetoric-intensifies-2026-07-08/"
+			},
+			{
+				"title": "Egypt FA criticises VAR after dramatic World Cup defeat by Argentina",
+				"url": "https://reuters.com/sports/soccer/egypt-fa-criticises-var-after-dramatic-world-cup-defeat-by-argentina-2026-07-08/"
+			},
+			{
+				"title": "Trump says interim accord to end Iran war is 'over', warns of new US strikes",
+				"url": "https://reuters.com/world/middle-east/iran-targets-sites-bahrain-kuwait-after-wave-us-strikes-2026-07-08/"
+			},
+			{
+				"title": "UK Farage's election gamble could see him face one challenger... Count Binface",
+				"url": "https://reuters.com/world/uk/uk-farages-election-gamble-could-see-him-face-one-challenger-count-binface-2026-07-08/"
+			},
+			{
+				"title": "Trump told NATO leaders he wants to keep US in alliance, source says",
+				"url": "https://reuters.com/world/europe/trump-told-nato-leaders-he-wants-keep-us-alliance-source-says-2026-07-08/"
+			},
+			{
+				"title": "Trump says 'a lot of unity' at NATO summit after lashing allies",
+				"url": "https://reuters.com/business/aerospace-defense/nato-leaders-meet-ankara-after-trump-rekindles-disputes-over-iran-greenland-2026-07-08/"
+			},
+			{
+				"title": "Crypto firms prepare defenses as quantum threat to encryption draws nearer",
+				"url": "https://reuters.com/legal/government/crypto-firms-prepare-defenses-quantum-threat-encryption-draws-nearer-2026-07-08/"
+			},
+			{
+				"title": "Trump says US will give Patriot missile license to Ukraine",
+				"url": "https://reuters.com/world/europe/trump-says-both-sides-ukraine-war-want-settlement-2026-07-08/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "scholars and alchemists"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-07-07",
 		"displayDate": "July 7, 2026",
 		"image": "/images/news-bosch/2026/07/07.webp",
