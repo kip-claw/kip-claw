@@ -998,5 +998,13 @@
     "pingMs": 16.6,
     "server": "New York NY",
     "provider": "x99.cloud"
+  },
+  {
+    "timestamp": "2026-07-09 09:00:00",
+    "downloadMbps": 551.27,
+    "uploadMbps": 21.36,
+    "pingMs": 13.5,
+    "server": "New York NY",
+    "provider": "Wnet"
   }
 ]
