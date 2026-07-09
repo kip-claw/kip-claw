@@ -13453,5 +13453,311 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "OpenClaw job report",
+		"status": "error",
+		"durationS": 38.1,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 3.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Heartbeat cleanup",
+		"status": "ok",
+		"durationS": 14.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 50.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Humidor export",
+		"status": "error",
+		"durationS": 10.5,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "OpenClaw memory report",
+		"status": "ok",
+		"durationS": 100.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 53.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 11.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 48.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 239.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Daily Bosch generation",
+		"status": "ok",
+		"durationS": 139.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Reuters Most Popular Headlines",
+		"status": "ok",
+		"durationS": 241.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 41.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Disk space check",
+		"status": "ok",
+		"durationS": 14.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 8.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 8.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 17.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 48.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 53.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 41.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 16.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 1.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 82.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 74.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 3.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 1.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 48.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 22.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 0.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 4.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 28.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "Google Drive sync report",
+		"status": "error",
+		"durationS": 905.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron isolated agent run aborted"
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 23.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-09 04:00:00",
+		"jobName": "R2 offsite backup",
+		"status": "ok",
+		"durationS": 27223.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
