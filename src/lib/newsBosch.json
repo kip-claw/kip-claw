@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-10",
+		"displayDate": "July 10, 2026",
+		"image": "/images/news-bosch/2026/07/10.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-10T10:04:23.951604Z",
+		"sourceRetrievedAt": "2026-07-10T10:00:09.663208Z",
+		"themes": [
+			{
+				"name": "Exiles Returning To Soil",
+				"interpretation": "Political power appears as a cycle of departure, burial, surrender, and possible regrowth from disturbed ground.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "Atomic Roots Trade",
+				"interpretation": "Strategic bargains and deterrent technologies are being grafted into the underground root systems of regional power.",
+				"storyRanks": [4, 10]
+			},
+			{
+				"name": "Burning Weather Orchard",
+				"interpretation": "Climate disasters turn the landscape into a dangerous garden where fire and storm harvest lives and uncertainty.",
+				"storyRanks": [5, 6]
+			},
+			{
+				"name": "War Gears Keep Turning",
+				"interpretation": "Diplomacy and alliance rituals look like unfinished machines whose wheels may still drive escalation.",
+				"storyRanks": [7, 8]
+			},
+			{
+				"name": "Clockwork Market Loom",
+				"interpretation": "Capital and legislation tug at invisible threads, trying to reset who controls networks and time itself.",
+				"storyRanks": [3, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Bangladesh's Hasina plans December return with party colleagues to surrender",
+				"url": "https://reuters.com/world/asia-pacific/bangladeshs-hasina-plans-december-return-with-party-colleagues-surrender-2026-07-10/"
+			},
+			{
+				"title": "Iran says it hits U.S. military targets in Gulf, buries slain leader Khamenei",
+				"url": "https://reuters.com/world/middle-east/iran-says-it-hits-us-military-targets-gulf-prepares-bury-slain-leader-2026-07-09/"
+			},
+			{
+				"title": "French tycoon Niel becomes Vodafone's top shareholder in $6 billion deal",
+				"url": "https://reuters.com/business/media-telecom/uaes-e-sell-vodafone-stake-french-telecoms-tycoon-nearly-6-billion-2026-07-10/"
+			},
+			{
+				"title": "Australia, India strike deal on uranium exports during Modi visit",
+				"url": "https://reuters.com/world/asia-pacific/indias-modi-meet-australias-albanese-with-uranium-defence-agenda-2026-07-08/"
+			},
+			{
+				"title": "Eleven killed, 19 missing in one of Spain's deadliest wildfires",
+				"url": "https://reuters.com/business/environment/wildfires-southern-spain-kill-12-emergency-agency-says-2026-07-10/"
+			},
+			{
+				"title": "Japan's southwestern islands on high alert as powerful Typhoon Bavi approaches",
+				"url": "https://reuters.com/business/environment/japans-southwestern-islands-high-alert-powerful-typhoon-bavi-approaches-2026-07-10/"
+			},
+			{
+				"title": "Putin likely to escalate Ukraine war, despite Trump peace push, sources say",
+				"url": "https://reuters.com/world/europe/putin-likely-escalate-ukraine-war-despite-trump-peace-push-sources-say-2026-07-09/"
+			},
+			{
+				"title": "Turkey's Erdogan gives NATO leaders revolver conundrum after summit",
+				"url": "https://reuters.com/lifestyle/turkeys-erdogan-gives-nato-leaders-revolver-conundrum-after-summit-2026-07-09/"
+			},
+			{
+				"title": "US House to vote on bill to make daylight saving time permanent",
+				"url": "https://reuters.com/world/us/us-house-vote-bill-make-daylight-saving-time-permanent-2026-07-09/"
+			},
+			{
+				"title": "Missile test showcases sensitive Chinese submarine capabilities key to nuclear deterrent",
+				"url": "https://reuters.com/business/aerospace-defense/missile-test-showcases-sensitive-chinese-submarine-capabilities-key-nuclear-2026-07-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "gardeners and field workers"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-07-09",
 		"displayDate": "July 9, 2026",
 		"image": "/images/news-bosch/2026/07/09.webp",
