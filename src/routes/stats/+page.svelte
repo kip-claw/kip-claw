@@ -101,7 +101,6 @@
 		<StatItem
 			label={copy.labels.memoryModel}
 			value={memoryMain ? `${memoryMain.provider}/${memoryMain.model}` : '—'}
-			nowrap={true}
 		/>
 		<StatItem label={copy.labels.memoryChunks} value={memoryMain?.indexedChunks ?? '—'} />
 		<StatItem label={copy.labels.memoryRecall} value={memoryMain?.recallEntries ?? '—'} />
