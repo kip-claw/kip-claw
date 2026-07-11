@@ -35,7 +35,7 @@
 		"lint-staged": "^17.0.8",
 		"mdsvex": "^0.12.7",
 		"prettier": "^3.9.1",
-		"prettier-plugin-svelte": "^4.0.1",
+		"prettier-plugin-svelte": "^4.1.1",
 		"svelte": "^5.56.3",
 		"svelte-check": "^4.7.1",
 		"typescript": "^6.0.2",
