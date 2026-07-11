@@ -10,6 +10,7 @@
 	import SpeedTestTable from '$lib/SpeedTestTable.svelte';
 	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
+	import TokenUsageChart from '$lib/TokenUsageChart.svelte';
 	import TranscriptionChart from '$lib/TranscriptionChart.svelte';
 	import type { PageCopy } from '$lib/copy';
 	import { getLatestSnapshot, buildHeatmap, getCronSummary } from '$lib/cronJobs';
@@ -24,6 +25,7 @@
 		getTranscriptionSummary,
 		type TranscriptionDiagnostics
 	} from '$lib/transcriptionDiagnostics';
+	import { getTokenUsageSummary, tokenUsageData } from '$lib/tokenUsage';
 	import openclawConfig from '$lib/openclawConfig.json';
 	import openclawJobs from '$lib/openclawJobs.json';
 	import piHealthData from '$lib/piHealth.json';
@@ -48,6 +50,8 @@
 		labels: {
 			version: string;
 			model: string;
+			tokens30d: string;
+			avgTokensPerTurn: string;
 			memoryModel: string;
 			memoryChunks: string;
 			memoryRecall: string;
@@ -71,6 +75,7 @@
 			upload: string;
 			temperature: string;
 			transcriptionSpeed: string;
+			tokenUsage: string;
 			memoryTrend: string;
 			memorySemanticMap: string;
 		};
@@ -93,6 +98,9 @@
 	const piHealth = getPiHealthSummary(parsePiHealthData(piHealthData));
 	const piLatest = piHealth.latest;
 	const transcription = getTranscriptionSummary(transcriptionData as TranscriptionDiagnostics);
+	const tokenUsage = getTokenUsageSummary(tokenUsageData);
+	const formatTokens = (value: number) =>
+		value >= 1e6 ? `${(value / 1e6).toFixed(1)}M` : new Intl.NumberFormat('en-US').format(value);
 </script>
 
 <Seo {...copy.seo} />
@@ -105,7 +113,17 @@
 	<StatGrid label="OpenClaw system status" columns={3}>
 		<StatItem label={copy.labels.version} value={latestConfig?.version ?? '—'} />
 		<StatItem label={copy.labels.model} value={latestConfig?.primaryModel ?? '—'} />
+		<StatItem
+			label={copy.labels.tokens30d}
+			value={tokenUsage.days.length ? formatTokens(tokenUsage.tokens30d) : '—'}
+		/>
+		<StatItem
+			label={copy.labels.avgTokensPerTurn}
+			value={tokenUsage.calls30d ? formatTokens(tokenUsage.avgPerTurn) : '—'}
+		/>
 	</StatGrid>
+
+	<TokenUsageChart rows={tokenUsage.days} title={copy.charts.tokenUsage} chartId="token-usage" />
 
 	<h2 class="stats-section">{copy.piHeading}</h2>
 

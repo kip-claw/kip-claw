@@ -17,6 +17,8 @@ speedHeading: Internet speed
 labels:
   version: Version
   model: Model
+  tokens30d: Tokens, last 30 days
+  avgTokensPerTurn: Avg tokens per turn
   memoryModel: Embedder
   memoryChunks: Chunks
   memoryRecall: Recall entries
@@ -36,6 +38,7 @@ labels:
   averageUpload: Average upload
 
 charts:
+  tokenUsage: Token usage
   memoryTrend: Memory trend
   memorySemanticMap: Semantic map
   download: Download speed

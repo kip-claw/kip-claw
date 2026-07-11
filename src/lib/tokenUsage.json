@@ -1,0 +1,301 @@
+{
+	"generatedAt": "2026-07-11T16:03:30+00:00",
+	"days": [
+		{
+			"date": "2026-06-05",
+			"calls": 75,
+			"inputTokens": 2019949,
+			"outputTokens": 16263,
+			"cacheReadTokens": 19867962,
+			"totalTokens": 21904174
+		},
+		{
+			"date": "2026-06-06",
+			"calls": 135,
+			"inputTokens": 238834,
+			"outputTokens": 6431,
+			"cacheReadTokens": 14618417,
+			"totalTokens": 14863682
+		},
+		{
+			"date": "2026-06-07",
+			"calls": 130,
+			"inputTokens": 5137731,
+			"outputTokens": 135185,
+			"cacheReadTokens": 32954390,
+			"totalTokens": 38227306
+		},
+		{
+			"date": "2026-06-08",
+			"calls": 168,
+			"inputTokens": 6662809,
+			"outputTokens": 51329,
+			"cacheReadTokens": 46510424,
+			"totalTokens": 53224562
+		},
+		{
+			"date": "2026-06-09",
+			"calls": 147,
+			"inputTokens": 4235406,
+			"outputTokens": 60384,
+			"cacheReadTokens": 81319415,
+			"totalTokens": 85615205
+		},
+		{
+			"date": "2026-06-10",
+			"calls": 587,
+			"inputTokens": 3383123,
+			"outputTokens": 26145,
+			"cacheReadTokens": 14453093,
+			"totalTokens": 17862361
+		},
+		{
+			"date": "2026-06-11",
+			"calls": 224,
+			"inputTokens": 5545637,
+			"outputTokens": 70753,
+			"cacheReadTokens": 10013669,
+			"totalTokens": 15630059
+		},
+		{
+			"date": "2026-06-12",
+			"calls": 319,
+			"inputTokens": 3121243,
+			"outputTokens": 14578,
+			"cacheReadTokens": 1597099,
+			"totalTokens": 4732920
+		},
+		{
+			"date": "2026-06-13",
+			"calls": 100,
+			"inputTokens": 12896038,
+			"outputTokens": 48753,
+			"cacheReadTokens": 9092736,
+			"totalTokens": 22037527
+		},
+		{
+			"date": "2026-06-14",
+			"calls": 81,
+			"inputTokens": 13504248,
+			"outputTokens": 48094,
+			"cacheReadTokens": 4961920,
+			"totalTokens": 18514262
+		},
+		{
+			"date": "2026-06-15",
+			"calls": 59,
+			"inputTokens": 6091847,
+			"outputTokens": 37753,
+			"cacheReadTokens": 4540416,
+			"totalTokens": 10670016
+		},
+		{
+			"date": "2026-06-16",
+			"calls": 62,
+			"inputTokens": 4210541,
+			"outputTokens": 24698,
+			"cacheReadTokens": 1770752,
+			"totalTokens": 6005991
+		},
+		{
+			"date": "2026-06-17",
+			"calls": 90,
+			"inputTokens": 10701,
+			"outputTokens": 636,
+			"cacheReadTokens": 8704,
+			"totalTokens": 20041
+		},
+		{
+			"date": "2026-06-18",
+			"calls": 67,
+			"inputTokens": 5185766,
+			"outputTokens": 30896,
+			"cacheReadTokens": 3695104,
+			"totalTokens": 8911766
+		},
+		{
+			"date": "2026-06-19",
+			"calls": 46,
+			"inputTokens": 1937109,
+			"outputTokens": 27918,
+			"cacheReadTokens": 2296448,
+			"totalTokens": 4261475
+		},
+		{
+			"date": "2026-06-20",
+			"calls": 51,
+			"inputTokens": 699508,
+			"outputTokens": 13117,
+			"cacheReadTokens": 904704,
+			"totalTokens": 1617329
+		},
+		{
+			"date": "2026-06-21",
+			"calls": 101,
+			"inputTokens": 0,
+			"outputTokens": 0,
+			"cacheReadTokens": 0,
+			"totalTokens": 0
+		},
+		{
+			"date": "2026-06-22",
+			"calls": 38,
+			"inputTokens": 0,
+			"outputTokens": 0,
+			"cacheReadTokens": 0,
+			"totalTokens": 0
+		},
+		{
+			"date": "2026-06-23",
+			"calls": 34,
+			"inputTokens": 0,
+			"outputTokens": 0,
+			"cacheReadTokens": 0,
+			"totalTokens": 0
+		},
+		{
+			"date": "2026-06-24",
+			"calls": 146,
+			"inputTokens": 415987,
+			"outputTokens": 5621,
+			"cacheReadTokens": 241536,
+			"totalTokens": 663144
+		},
+		{
+			"date": "2026-06-25",
+			"calls": 48,
+			"inputTokens": 5257901,
+			"outputTokens": 27212,
+			"cacheReadTokens": 3106048,
+			"totalTokens": 8391161
+		},
+		{
+			"date": "2026-06-26",
+			"calls": 45,
+			"inputTokens": 2637919,
+			"outputTokens": 18963,
+			"cacheReadTokens": 1408384,
+			"totalTokens": 4065266
+		},
+		{
+			"date": "2026-06-27",
+			"calls": 25,
+			"inputTokens": 991889,
+			"outputTokens": 11368,
+			"cacheReadTokens": 209792,
+			"totalTokens": 1213049
+		},
+		{
+			"date": "2026-06-28",
+			"calls": 11,
+			"inputTokens": 335354,
+			"outputTokens": 3852,
+			"cacheReadTokens": 3840,
+			"totalTokens": 343046
+		},
+		{
+			"date": "2026-06-29",
+			"calls": 16,
+			"inputTokens": 612967,
+			"outputTokens": 10322,
+			"cacheReadTokens": 17664,
+			"totalTokens": 640953
+		},
+		{
+			"date": "2026-06-30",
+			"calls": 10,
+			"inputTokens": 381297,
+			"outputTokens": 3759,
+			"cacheReadTokens": 14336,
+			"totalTokens": 399392
+		},
+		{
+			"date": "2026-07-01",
+			"calls": 6,
+			"inputTokens": 255390,
+			"outputTokens": 14922,
+			"cacheReadTokens": 97536,
+			"totalTokens": 367848
+		},
+		{
+			"date": "2026-07-02",
+			"calls": 16,
+			"inputTokens": 1487939,
+			"outputTokens": 12716,
+			"cacheReadTokens": 1349760,
+			"totalTokens": 2850415
+		},
+		{
+			"date": "2026-07-03",
+			"calls": 25,
+			"inputTokens": 6078494,
+			"outputTokens": 23140,
+			"cacheReadTokens": 3694592,
+			"totalTokens": 9796226
+		},
+		{
+			"date": "2026-07-04",
+			"calls": 4,
+			"inputTokens": 351059,
+			"outputTokens": 4175,
+			"cacheReadTokens": 101376,
+			"totalTokens": 456610
+		},
+		{
+			"date": "2026-07-05",
+			"calls": 14,
+			"inputTokens": 1244792,
+			"outputTokens": 15217,
+			"cacheReadTokens": 1147904,
+			"totalTokens": 2407913
+		},
+		{
+			"date": "2026-07-06",
+			"calls": 34,
+			"inputTokens": 1668660,
+			"outputTokens": 20509,
+			"cacheReadTokens": 601984,
+			"totalTokens": 2291153
+		},
+		{
+			"date": "2026-07-07",
+			"calls": 14,
+			"inputTokens": 981349,
+			"outputTokens": 5793,
+			"cacheReadTokens": 355840,
+			"totalTokens": 1342982
+		},
+		{
+			"date": "2026-07-08",
+			"calls": 15,
+			"inputTokens": 3782918,
+			"outputTokens": 11863,
+			"cacheReadTokens": 2874624,
+			"totalTokens": 6669405
+		},
+		{
+			"date": "2026-07-09",
+			"calls": 23,
+			"inputTokens": 2602041,
+			"outputTokens": 11355,
+			"cacheReadTokens": 1487360,
+			"totalTokens": 4100756
+		},
+		{
+			"date": "2026-07-10",
+			"calls": 40,
+			"inputTokens": 4188189,
+			"outputTokens": 30081,
+			"cacheReadTokens": 10366720,
+			"totalTokens": 14584990
+		},
+		{
+			"date": "2026-07-11",
+			"calls": 44,
+			"inputTokens": 2699943,
+			"outputTokens": 68890,
+			"cacheReadTokens": 22948352,
+			"totalTokens": 25717185
+		}
+	]
+}
