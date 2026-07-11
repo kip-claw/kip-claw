@@ -4,8 +4,15 @@ import { timeFormat } from 'd3-time-format';
 import type { ChartFrameModel } from './chartShared';
 import type { TokenUsageDay } from './tokenUsage';
 
+export type TokenUsageSeries = 'input' | 'output';
+
 export type TokenUsageChartModel = ChartFrameModel & {
-	bars: Array<{ x: number; y: number; width: number; height: number; title: string }>;
+	bars: Array<{
+		x: number;
+		width: number;
+		segments: Array<{ y: number; height: number; series: TokenUsageSeries }>;
+		title: string;
+	}>;
 };
 
 const height = 360;
@@ -25,7 +32,7 @@ export const buildTokenUsageChart = (
 		.domain(sorted.map((day) => day.date))
 		.range([margin.left, width - margin.right])
 		.padding(0.2);
-	const maximum = max(sorted, (day) => day.totalTokens) ?? 0;
+	const maximum = max(sorted, (day) => day.inputTokens + day.outputTokens) ?? 0;
 	const yScale = scaleLinear()
 		.domain([0, maximum * 1.1 || 1])
 		.nice()
@@ -34,13 +41,16 @@ export const buildTokenUsageChart = (
 
 	const bars = sorted.map((day) => {
 		const x = xScale(day.date) ?? margin.left;
-		const y = yScale(day.totalTokens);
+		const inputY = yScale(day.inputTokens);
+		const stackedY = yScale(day.inputTokens + day.outputTokens);
 		return {
 			x,
-			y,
 			width: xScale.bandwidth(),
-			height: Math.max(0, baseline - y),
-			title: `${formatDate(parseDay(day.date))}: ${formatInt.format(day.totalTokens)} tokens (${formatInt.format(day.inputTokens)} in, ${formatInt.format(day.outputTokens)} out, ${formatInt.format(day.cacheReadTokens)} cache) · ${day.calls} turn${day.calls === 1 ? '' : 's'}`
+			segments: [
+				{ series: 'input' as const, y: inputY, height: Math.max(0, baseline - inputY) },
+				{ series: 'output' as const, y: stackedY, height: Math.max(0, inputY - stackedY) }
+			],
+			title: `${formatDate(parseDay(day.date))}: ${formatInt.format(day.inputTokens)} input + ${formatInt.format(day.outputTokens)} output tokens · ${day.calls} turn${day.calls === 1 ? '' : 's'}`
 		};
 	});
 

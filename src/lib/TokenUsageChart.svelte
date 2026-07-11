@@ -17,16 +17,25 @@
 			{chartId}
 			heading={title}
 			title={`${title} over time`}
-			desc="Total LLM tokens consumed per day across all of Kip's agent turns, including prompt input, generated output, and cached context reads."
+			desc="Daily LLM tokens consumed across all of Kip's agent turns, stacked as prompt input plus generated output."
 			axisTitle="Tokens per day"
 		>
 			{#snippet legend()}
-				<span><i class="swatch"></i> Total tokens</span>
+				<span><i class="swatch input"></i> Input</span>
+				<span><i class="swatch output"></i> Output</span>
 			{/snippet}
 			{#each chart.bars as bar}
-				<rect class="bar" x={bar.x} y={bar.y} width={bar.width} height={bar.height}>
-					<title>{bar.title}</title>
-				</rect>
+				{#each bar.segments as segment}
+					<rect
+						class="bar {segment.series}"
+						x={bar.x}
+						y={segment.y}
+						width={bar.width}
+						height={segment.height}
+					>
+						<title>{bar.title}</title>
+					</rect>
+				{/each}
 			{/each}
 		</ChartFrame>
 	{/if}
@@ -40,12 +49,20 @@
 		display: inline-block;
 		width: 12px;
 		height: 12px;
-		background: var(--color-accent);
 		border-radius: 2px;
 	}
-	.bar {
+	.swatch.input,
+	.bar.input {
 		fill: var(--color-accent);
-		opacity: 0.8;
+		background: var(--color-accent);
+	}
+	.swatch.output,
+	.bar.output {
+		fill: #2b6cb0;
+		background: #2b6cb0;
+	}
+	.bar {
+		opacity: 0.85;
 	}
 	.bar:hover {
 		opacity: 1;
