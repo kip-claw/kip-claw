@@ -107,6 +107,35 @@
 		<StatItem label={copy.labels.model} value={latestConfig?.primaryModel ?? '—'} />
 	</StatGrid>
 
+	<h2 class="stats-section">{copy.piHeading}</h2>
+
+	<StatGrid label="Pi hardware summary">
+		<StatItem
+			label={copy.labels.piCpuTemp}
+			value={piLatest ? piLatest.cpuTempC.toFixed(1) : '—'}
+			unit="°C"
+		/>
+		<StatItem
+			label={copy.labels.piRam}
+			value={piLatest
+				? `${(piLatest.ramUsedMb / 1024).toFixed(1)} / ${(piLatest.ramTotalMb / 1024).toFixed(1)}`
+				: '—'}
+			unit="GB"
+		/>
+		<StatItem
+			label={copy.labels.piDisk}
+			value={piLatest ? `${piLatest.diskUsedGb} / ${piLatest.diskTotalGb}` : '—'}
+			unit="GB"
+		/>
+		<StatItem
+			label={copy.labels.piUptime}
+			value={piLatest ? piLatest.uptimeDays.toFixed(0) : '—'}
+			unit="days"
+		/>
+	</StatGrid>
+
+	<PiHealthChart rows={piHealth.sorted} title={copy.charts.temperature} chartId="pi-temperature" />
+
 	<h2 class="stats-section">{copy.memoryHeading}</h2>
 
 	<StatGrid label="Memory index summary" columns={4}>
@@ -138,35 +167,6 @@
 	</StatGrid>
 
 	<CronHeatmap rows={cronHeatmap.rows} dates={cronHeatmap.dates} />
-
-	<h2 class="stats-section">{copy.piHeading}</h2>
-
-	<StatGrid label="Pi hardware summary">
-		<StatItem
-			label={copy.labels.piCpuTemp}
-			value={piLatest ? piLatest.cpuTempC.toFixed(1) : '—'}
-			unit="°C"
-		/>
-		<StatItem
-			label={copy.labels.piRam}
-			value={piLatest
-				? `${(piLatest.ramUsedMb / 1024).toFixed(1)} / ${(piLatest.ramTotalMb / 1024).toFixed(1)}`
-				: '—'}
-			unit="GB"
-		/>
-		<StatItem
-			label={copy.labels.piDisk}
-			value={piLatest ? `${piLatest.diskUsedGb} / ${piLatest.diskTotalGb}` : '—'}
-			unit="GB"
-		/>
-		<StatItem
-			label={copy.labels.piUptime}
-			value={piLatest ? piLatest.uptimeDays.toFixed(0) : '—'}
-			unit="days"
-		/>
-	</StatGrid>
-
-	<PiHealthChart rows={piHealth.sorted} title={copy.charts.temperature} chartId="pi-temperature" />
 
 	<h2 class="stats-section">{copy.transcriptionHeading}</h2>
 
