@@ -11,6 +11,7 @@ openClawHeading: OpenClaw
 memoryHeading: Memory index
 cronHeading: Scheduled tasks
 piHeading: Pi hardware
+transcriptionHeading: Voice transcription
 speedHeading: Internet speed
 
 labels:
@@ -26,6 +27,9 @@ labels:
   piRam: RAM used
   piDisk: Disk used
   piUptime: Uptime
+  transcriptionModel: Model
+  transcriptionReliability: 30-day success rate
+  transcriptionUsage: Audio, last 30 days
   latestDownload: Latest download
   averageDownload: Average download
   latestUpload: Latest upload
@@ -37,3 +41,4 @@ charts:
   download: Download speed
   upload: Upload speed
   temperature: CPU & GPU temperature
+  transcriptionSpeed: Transcription speed

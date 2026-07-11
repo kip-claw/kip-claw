@@ -10,6 +10,7 @@
 	import SpeedTestTable from '$lib/SpeedTestTable.svelte';
 	import StatGrid from '$lib/StatGrid.svelte';
 	import StatItem from '$lib/StatItem.svelte';
+	import TranscriptionChart from '$lib/TranscriptionChart.svelte';
 	import type { PageCopy } from '$lib/copy';
 	import { getLatestSnapshot, buildHeatmap, getCronSummary } from '$lib/cronJobs';
 	import type { CronJobSnapshot } from '$lib/cronJobs';
@@ -19,9 +20,14 @@
 	import { getLatestMemorySnapshotByAgent, type OpenClawMemorySnapshot } from '$lib/openclawMemory';
 	import { emptyMemoryMapSnapshot, type OpenClawMemoryMapSnapshot } from '$lib/openclawMemoryMap';
 	import { getSpeedTestsSummary } from '$lib/speedTests';
+	import {
+		getTranscriptionSummary,
+		type TranscriptionDiagnostics
+	} from '$lib/transcriptionDiagnostics';
 	import openclawConfig from '$lib/openclawConfig.json';
 	import openclawJobs from '$lib/openclawJobs.json';
 	import piHealthData from '$lib/piHealth.json';
+	import transcriptionData from '$lib/transcriptionDiagnostics.json';
 	import cronJobNames from '$lib/cronJobNames.json';
 	import copyData from './copy.yaml';
 	import type { PageData } from './$types';
@@ -37,6 +43,7 @@
 		memoryHeading: string;
 		cronHeading: string;
 		piHeading: string;
+		transcriptionHeading: string;
 		speedHeading: string;
 		labels: {
 			version: string;
@@ -51,6 +58,9 @@
 			piRam: string;
 			piDisk: string;
 			piUptime: string;
+			transcriptionModel: string;
+			transcriptionReliability: string;
+			transcriptionUsage: string;
 			latestDownload: string;
 			averageDownload: string;
 			latestUpload: string;
@@ -60,6 +70,7 @@
 			download: string;
 			upload: string;
 			temperature: string;
+			transcriptionSpeed: string;
 			memoryTrend: string;
 			memorySemanticMap: string;
 		};
@@ -81,6 +92,7 @@
 	const cronSummary = getCronSummary(cronLatest);
 	const piHealth = getPiHealthSummary(parsePiHealthData(piHealthData));
 	const piLatest = piHealth.latest;
+	const transcription = getTranscriptionSummary(transcriptionData as TranscriptionDiagnostics);
 </script>
 
 <Seo {...copy.seo} />
@@ -155,6 +167,28 @@
 	</StatGrid>
 
 	<PiHealthChart rows={piHealth.sorted} title={copy.charts.temperature} chartId="pi-temperature" />
+
+	<h2 class="stats-section">{copy.transcriptionHeading}</h2>
+
+	<StatGrid label="Voice transcription summary" columns={3}>
+		<StatItem label={copy.labels.transcriptionModel} value={transcription.model} />
+		<StatItem
+			label={copy.labels.transcriptionReliability}
+			value={transcription.requests.length ? transcription.successRate.toFixed(0) : '—'}
+			unit={transcription.requests.length ? '%' : undefined}
+		/>
+		<StatItem
+			label={copy.labels.transcriptionUsage}
+			value={transcription.audioMinutes.toFixed(1)}
+			unit="minutes"
+		/>
+	</StatGrid>
+
+	<TranscriptionChart
+		rows={transcription.requests}
+		title={copy.charts.transcriptionSpeed}
+		chartId="transcription-speed"
+	/>
 
 	<h2 class="stats-section">{copy.speedHeading}</h2>
 
