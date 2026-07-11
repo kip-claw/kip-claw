@@ -162,6 +162,19 @@
 
 	<PiHealthChart rows={piHealth.sorted} title={copy.charts.temperature} chartId="pi-temperature" />
 
+	<h2 class="stats-section">{copy.cronHeading}</h2>
+
+	<StatGrid label="Cron job summary" columns={3}>
+		<StatItem label={copy.labels.cronOk} value={cronSummary.ok} />
+		<StatItem label={copy.labels.cronErrored} value={cronSummary.errored} />
+		<StatItem
+			label={copy.labels.cronAvgDuration}
+			value={`${cronSummary.avgDuration.toFixed(0)}s`}
+		/>
+	</StatGrid>
+
+	<CronHeatmap rows={cronHeatmap.rows} dates={cronHeatmap.dates} />
+
 	<h2 class="stats-section">{copy.memoryHeading}</h2>
 
 	<StatGrid label="Memory index summary" columns={4}>
@@ -180,19 +193,6 @@
 	/>
 
 	<MemoryChart rows={memoryMainRows} title={copy.charts.memoryTrend} chartId="memory-trend" />
-
-	<h2 class="stats-section">{copy.cronHeading}</h2>
-
-	<StatGrid label="Cron job summary" columns={3}>
-		<StatItem label={copy.labels.cronOk} value={cronSummary.ok} />
-		<StatItem label={copy.labels.cronErrored} value={cronSummary.errored} />
-		<StatItem
-			label={copy.labels.cronAvgDuration}
-			value={`${cronSummary.avgDuration.toFixed(0)}s`}
-		/>
-	</StatGrid>
-
-	<CronHeatmap rows={cronHeatmap.rows} dates={cronHeatmap.dates} />
 
 	<h2 class="stats-section">{copy.transcriptionHeading}</h2>
 
