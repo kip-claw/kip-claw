@@ -1022,5 +1022,13 @@
     "pingMs": 10.0,
     "server": "New York NY",
     "provider": "x99.cloud"
+  },
+  {
+    "timestamp": "2026-07-10 21:00:00",
+    "downloadMbps": 567.32,
+    "uploadMbps": 17.66,
+    "pingMs": 17.9,
+    "server": "New York NY",
+    "provider": "Starry Inc."
   }
 ]
