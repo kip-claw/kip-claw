@@ -178,7 +178,7 @@
 	{
 		"slug": "voice-transcribe",
 		"title": "Voice Transcription",
-		"description": "Transcribes Telegram voice messages locally with whisper.cpp.",
+		"description": "Transcribes Telegram voice messages with a private whisper.cpp service on Ben's Latitude over Tailscale.",
 		"tag": "Media",
 		"path": "voice-transcribe/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/voice-transcribe/SKILL.md"
