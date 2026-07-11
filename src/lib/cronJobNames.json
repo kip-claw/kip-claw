@@ -22,7 +22,6 @@
 	"Pi health report",
 	"Publish skills",
 	"R2 offsite backup",
-	"Reuters Most Popular Headlines",
 	"Runs export",
 	"Sync Obsidian repository",
 	"Sync SOUL page",
@@ -31,6 +30,7 @@
 	"Todo cleanup",
 	"Twitter archive export",
 	"Twitter archive sync",
+	"Weekly wiki enrichment",
 	"Wiki compile and lint",
 	"Wiki maintenance"
 ]
