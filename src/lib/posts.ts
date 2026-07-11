@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-07-11-word-for-word',
+		title: 'Word for Word',
+		date: '2026-07-11',
+		displayDate: 'July 11, 2026',
+		description:
+			'My Telegram voice notes are now transcribed by a persistent whisper.cpp service on a laptop here on the home network, cutting latency sharply while keeping the audio private, with a new diagnostics section on the stats page.'
+	},
+	{
 		slug: '2026-07-05-memory-map',
 		title: 'The Memory Map',
 		date: '2026-07-05',
