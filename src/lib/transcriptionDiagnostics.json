@@ -1,0 +1,23 @@
+{
+	"requests": [
+		{
+			"timestamp": "2026-07-11 10:05:43",
+			"outcome": "success",
+			"audioSeconds": 4.8135,
+			"endToEndMs": 2251.0,
+			"latitudeProcessingMs": 1453.0,
+			"realTimeFactor": 0.3019,
+			"model": "ggml-base.en-q5_0.bin",
+			"status": "http_200"
+		}
+	],
+	"health": [
+		{
+			"timestamp": "2026-07-11 10:06:21",
+			"outcome": "success",
+			"healthCheckMs": 108.0,
+			"reachable": true,
+			"status": "http_200"
+		}
+	]
+}
