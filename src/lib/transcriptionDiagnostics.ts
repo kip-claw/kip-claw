@@ -16,6 +16,14 @@ export type TranscriptionDiagnostics = {
 
 export const parseTranscriptionDate = (timestamp: string) => new Date(timestamp.replace(' ', 'T'));
 
+const MODEL_LABELS: Record<string, string> = {
+	'ggml-base.en-q5_0.bin': 'Whisper base.en Q5_0',
+	'ggml-small.en-q5_1.bin': 'Whisper small.en Q5_1'
+};
+
+const friendlyModel = (raw: string | undefined) =>
+	raw ? (MODEL_LABELS[raw] ?? raw) : 'Whisper small.en Q5_1';
+
 export const getTranscriptionSummary = (raw: TranscriptionDiagnostics) => {
 	const requests = [...raw.requests].sort(
 		(a, b) => +parseTranscriptionDate(a.timestamp) - +parseTranscriptionDate(b.timestamp)
@@ -25,7 +33,7 @@ export const getTranscriptionSummary = (raw: TranscriptionDiagnostics) => {
 	const successful = recent.filter((request) => request.outcome === 'success');
 	return {
 		requests,
-		model: requests.at(-1)?.model ?? 'Whisper base.en Q5_0',
+		model: friendlyModel(requests.at(-1)?.model),
 		successRate: recent.length ? (successful.length / recent.length) * 100 : 0,
 		audioMinutes: successful.reduce((total, request) => total + request.audioSeconds, 0) / 60
 	};
