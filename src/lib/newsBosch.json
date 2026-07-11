@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-07-11",
+		"displayDate": "July 11, 2026",
+		"image": "/images/news-bosch/2026/07/11.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-11T10:03:42.706268Z",
+		"sourceRetrievedAt": "2026-07-11T10:00:05.975811Z",
+		"themes": [
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [1, 2, 4, 5, 6, 7, 8, 9]
+			},
+			{
+				"name": "Nature, Risk, and Discovery",
+				"interpretation": "Bodies, ecosystems, and frontiers strain under pressure as discovery and hazard advance together.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Origins and Promises",
+				"interpretation": "Institutions and actors set events in motion with pledges, plans, and unspoken costs.",
+				"storyRanks": [3]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump says US, Iran agree to continue talks but ceasefire over",
+				"url": "https://reuters.com/world/asia-pacific/trump-says-us-iran-agree-continue-talks-ceasefire-over-2026-07-11/"
+			},
+			{
+				"title": "Ryanair passenger partially sucked out of window on flight from Greece",
+				"url": "https://reuters.com/business/ryanair-plane-makes-emergency-landing-greece-after-window-dislodged-2026-07-10/"
+			},
+			{
+				"title": "China evacuates over one million as Typhoon Bavi nears",
+				"url": "https://reuters.com/business/environment/thousands-evacuated-taiwan-shuts-down-typhoon-bavi-2026-07-11/"
+			},
+			{
+				"title": "Businessman who sold land for Kushner resort in Albania suspected of faking the deeds",
+				"url": "https://reuters.com/world/europe/businessman-who-sold-land-kushner-resort-albania-suspected-faking-deeds-2026-07-11/"
+			},
+			{
+				"title": "Trump says missiles aimed at Iran if Tehran targets US president",
+				"url": "https://reuters.com/world/middle-east/trump-says-missiles-aimed-iran-if-tehran-targets-us-president-2026-07-11/"
+			},
+			{
+				"title": "How the absence of Iran's Mojtaba Khamenei is becoming a liability for the Islamic Republic",
+				"url": "https://reuters.com/world/how-absence-irans-new-supreme-leader-is-becoming-liability-islamic-republic-2026-07-10/"
+			},
+			{
+				"title": "Trump officials sought ways to sidestep election agency before firings, sources say",
+				"url": "https://reuters.com/legal/government/trump-officials-sought-ways-sidestep-election-agency-before-firings-sources-say-2026-07-11/"
+			},
+			{
+				"title": "North Korea condemns NATO summit, says denuclearisation should start with US allies",
+				"url": "https://reuters.com/world/china/north-korea-condemns-us-allies-after-nato-summit-vows-safeguard-sovereignty-2026-07-11/"
+			},
+			{
+				"title": "RPT Russia halts Don-Azov channel shipping, affecting grain trade, after Ukraine attacks",
+				"url": "https://reuters.com/business/rpt-russia-halts-don-azov-channel-shipping-affecting-grain-trade-after-ukraine-2026-07-10/"
+			},
+			{
+				"title": "King Charles meets Prince Harry's children for first time since 2022",
+				"url": "https://reuters.com/world/uk/king-charles-hosts-prince-harry-his-wife-meghan-their-two-children-itv-reports-2026-07-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "sailors and navigators"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-07-10",
 		"displayDate": "July 10, 2026",
 		"image": "/images/news-bosch/2026/07/10.webp",
