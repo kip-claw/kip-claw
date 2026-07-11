@@ -7,23 +7,33 @@
 		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
 		"aiModel": "openai/gpt-image-2 (oauth)",
 		"skill": "reuters-news-bosch",
-		"generatedAt": "2026-07-11T10:03:42.706268Z",
+		"generatedAt": "2026-07-11T12:52:41.825809Z",
 		"sourceRetrievedAt": "2026-07-11T10:00:05.975811Z",
 		"themes": [
 			{
-				"name": "Contested Power and Statecraft",
-				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
-				"storyRanks": [1, 2, 4, 5, 6, 7, 8, 9]
+				"name": "Curtain of Broken Truces",
+				"interpretation": "Diplomacy continues onstage while threats, ideological demands, and an empty succession role hollow out the promise of peace.",
+				"storyRanks": [1, 5, 6, 8]
 			},
 			{
-				"name": "Nature, Risk, and Discovery",
-				"interpretation": "Bodies, ecosystems, and frontiers strain under pressure as discovery and hazard advance together.",
-				"storyRanks": [3]
+				"name": "Appetite for Paper Kingdoms",
+				"interpretation": "Power is portrayed as a feast built from dubious deeds and institutions bent before they can count the guests.",
+				"storyRanks": [4, 7]
 			},
 			{
-				"name": "Origins and Promises",
-				"interpretation": "Institutions and actors set events in motion with pledges, plans, and unspoken costs.",
-				"storyRanks": [3]
+				"name": "Pilgrimage Through the Storm",
+				"interpretation": "Mass flight from an approaching typhoon is mirrored by a traveler violently pulled toward the open air.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "The Granary Gate Closes",
+				"interpretation": "War reaches the communal table when a damaged waterway stops grain from completing its journey.",
+				"storyRanks": [9]
+			},
+			{
+				"name": "Late Return to Nest",
+				"interpretation": "Amid public ruptures, a delayed family meeting offers a small, fragile image of repair.",
+				"storyRanks": [10]
 			}
 		],
 		"stories": [
