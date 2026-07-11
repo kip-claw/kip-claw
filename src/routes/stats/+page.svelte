@@ -50,7 +50,9 @@
 		labels: {
 			version: string;
 			model: string;
+			skills: string;
 			tokens30d: string;
+			turns30d: string;
 			avgTokensPerTurn: string;
 			memoryModel: string;
 			memoryChunks: string;
@@ -101,6 +103,7 @@
 	const tokenUsage = getTokenUsageSummary(tokenUsageData);
 	const formatTokens = (value: number) =>
 		value >= 1e6 ? `${(value / 1e6).toFixed(1)}M` : new Intl.NumberFormat('en-US').format(value);
+	const formatCount = (value: number) => new Intl.NumberFormat('en-US').format(value);
 </script>
 
 <Seo {...copy.seo} />
@@ -113,9 +116,14 @@
 	<StatGrid label="OpenClaw system status" columns={3}>
 		<StatItem label={copy.labels.version} value={latestConfig?.version ?? '—'} />
 		<StatItem label={copy.labels.model} value={latestConfig?.primaryModel ?? '—'} />
+		<StatItem label={copy.labels.skills} value={latestConfig?.skillsCount ?? '—'} />
 		<StatItem
 			label={copy.labels.tokens30d}
 			value={tokenUsage.days.length ? formatTokens(tokenUsage.tokens30d) : '—'}
+		/>
+		<StatItem
+			label={copy.labels.turns30d}
+			value={tokenUsage.days.length ? formatCount(tokenUsage.calls30d) : '—'}
 		/>
 		<StatItem
 			label={copy.labels.avgTokensPerTurn}

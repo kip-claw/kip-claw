@@ -17,7 +17,9 @@ speedHeading: Internet speed
 labels:
   version: Version
   model: Model
+  skills: Skills
   tokens30d: Tokens, last 30 days
+  turns30d: Turns, last 30 days
   avgTokensPerTurn: Avg tokens per turn
   memoryModel: Embedder
   memoryChunks: Chunks
