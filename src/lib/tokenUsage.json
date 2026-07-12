@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-07-11T16:08:54+00:00",
+	"generatedAt": "2026-07-12T10:30:08+00:00",
 	"days": [
 		{
 			"date": "2026-06-05",
@@ -296,6 +296,14 @@
 			"outputTokens": 68890,
 			"cacheReadTokens": 22948352,
 			"totalTokens": 25717185
+		},
+		{
+			"date": "2026-07-12",
+			"calls": 45,
+			"inputTokens": 2421944,
+			"outputTokens": 14838,
+			"cacheReadTokens": 4158336,
+			"totalTokens": 6595118
 		}
 	]
 }
