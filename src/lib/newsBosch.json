@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-12",
+		"displayDate": "July 12, 2026",
+		"image": "/images/news-bosch/2026/07/12.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-12T10:14:50.546364Z",
+		"sourceRetrievedAt": "2026-07-12T10:10:43.742414Z",
+		"themes": [
+			{
+				"name": "Inheritance Behind Sealed Doors",
+				"interpretation": "Sudden deaths and contested succession turn private chambers of power into echoing rooms whose keys have changed hands.",
+				"storyRanks": [2, 3, 6]
+			},
+			{
+				"name": "Maps Built on Sand",
+				"interpretation": "Disputed waters, suspect deeds and blocked passageways portray authority as a floor plan erased beneath its occupants.",
+				"storyRanks": [1, 8, 10]
+			},
+			{
+				"name": "Thresholds Under Siege",
+				"interpretation": "A detention at a settlement gate and a passenger pulled toward an open sky make every border feel like a dangerous unfinished doorway.",
+				"storyRanks": [4, 5]
+			},
+			{
+				"name": "Weather Enters the Workshop",
+				"interpretation": "The storm becomes a force that floods the machinery of daily life, while distant conflict makes the whole workshop shudder.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "Last Minute Collapse",
+				"interpretation": "A contest decided in extra time with one player missing supplies the final crowded image of momentum, imbalance and sudden descent.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "US strikes Iran, Tehran hits Gulf states, says Strait of Hormuz closed",
+				"url": "https://reuters.com/world/asia-pacific/iran-declares-strait-hormuz-closed-unauthorised-vessel-hit-2026-07-11/"
+			},
+			{
+				"title": "Lindsey Graham, pivotal US Republican senator, dies suddenly at 71",
+				"url": "https://reuters.com/world/us/us-senator-lindsey-graham-passes-away-2026-07-12/"
+			},
+			{
+				"title": "Former emir of Qatar, Sheikh Hamad bin Khalifa Al Thani, dies at 74",
+				"url": "https://reuters.com/world/middle-east/former-emir-qatar-sheikh-hamad-bin-khalifa-al-thani-dies-74-2026-07-12/"
+			},
+			{
+				"title": "Ryanair passenger partially sucked out of window on flight from Greece",
+				"url": "https://reuters.com/business/ryanair-plane-makes-emergency-landing-greece-after-window-dislodged-2026-07-10/"
+			},
+			{
+				"title": "US Democrat Ro Khanna detained by Israeli settlers during West Bank visit",
+				"url": "https://reuters.com/world/us/us-democrat-ro-khanna-detained-by-israeli-settlers-during-west-bank-visit-2026-07-11/"
+			},
+			{
+				"title": "Iran's supreme leader pledges revenge for slain father and predecessor",
+				"url": "https://reuters.com/world/middle-east/irans-supreme-leader-pledges-revenge-slain-father-predecessor-2026-07-11/"
+			},
+			{
+				"title": "Typhoon Bavi batters eastern China, threatens days of heavy rain",
+				"url": "https://reuters.com/business/environment/typhoon-bavi-batters-east-china-taiwan-reports-134-injured-2026-07-12/"
+			},
+			{
+				"title": "South China Sea joint statement says China's maritime claims have no basis",
+				"url": "https://reuters.com/world/china/south-china-sea-joint-statement-says-chinas-maritime-claims-have-no-basis-2026-07-12/"
+			},
+			{
+				"title": "Argentina strike late in extra time to sink 10-man Swiss and reach World Cup semis",
+				"url": "https://reuters.com/sports/soccer/argentina-beat-switzerland-3-1-after-extra-time-reach-world-cup-semi-finals-2026-07-12/"
+			},
+			{
+				"title": "Businessman who sold land for Kushner resort in Albania suspected of faking the deeds",
+				"url": "https://reuters.com/world/europe/businessman-who-sold-land-kushner-resort-albania-suspected-faking-deeds-2026-07-11/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "gardeners and field workers"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-07-11",
 		"displayDate": "July 11, 2026",
 		"image": "/images/news-bosch/2026/07/11.webp",
