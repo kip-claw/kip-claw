@@ -81,13 +81,13 @@
       "notes": ""
     },
     {
-      "dateAdded": "2026-06-04",
-      "maker": "Martinez",
-      "model": "654",
-      "wrapper": "Nicaraguan",
-      "origin": "USA",
-      "size": "Toro",
-      "gauge": "54",
+      "dateAdded": "",
+      "maker": "",
+      "model": "",
+      "wrapper": "",
+      "origin": "",
+      "size": "",
+      "gauge": "",
       "notes": ""
     },
     {
@@ -196,6 +196,13 @@
     {
       "date": "2026-06-28",
       "time": "",
+      "rh": "69",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
+      "date": "2026-07-12",
+      "time": "15:04",
       "rh": "69",
       "temperatureF": "",
       "notes": ""
