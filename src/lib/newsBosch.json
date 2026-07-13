@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-13",
+		"displayDate": "July 13, 2026",
+		"image": "/images/news-bosch/2026/07/13.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-13T10:15:49.768804Z",
+		"sourceRetrievedAt": "2026-07-13T10:10:44.039717Z",
+		"themes": [
+			{
+				"name": "The Patient Toll Bridge",
+				"interpretation": "Trade bargaining is cast as a quiet crossing where confidence allows one side to wait for a better price.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Curtain Call for Certainty",
+				"interpretation": "Loss, market doubt and threatened layoffs turn the economic stage into a theater whose supporting ropes are being cut.",
+				"storyRanks": [4, 5, 7]
+			},
+			{
+				"name": "Wells of Heat and Fire",
+				"interpretation": "Private negligence and continental heat become twin furnaces, transforming shelter into a vessel of collective grief.",
+				"storyRanks": [6, 8]
+			},
+			{
+				"name": "The Strait's Black Flood",
+				"interpretation": "Military escalation closes a vital waterway and sends conflict outward like oil-dark water breaching every canal gate.",
+				"storyRanks": [1, 2, 9]
+			},
+			{
+				"name": "Shields Under a Shifting Moon",
+				"interpretation": "As battlefield momentum moves, allies gather defensive instruments beneath an increasingly crowded and unstable sky.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran widens attacks on US bases in Gulf, Hormuz tensions lift oil prices",
+				"url": "https://reuters.com/world/middle-east/iran-escalates-attacks-us-bases-gulf-states-warns-more-incidents-strait-2026-07-13/"
+			},
+			{
+				"title": "Iran war live: Iran escalates attacks across the Gulf after more US strikes",
+				"url": "https://reuters.com/world/iran-war-live-sirens-bahrain-iran-escalates-after-more-us-strikes-2026-07-13/"
+			},
+			{
+				"title": "An emboldened India holds out for better terms in US trade talks",
+				"url": "https://reuters.com/world/india/an-emboldened-india-holds-out-better-terms-us-trade-talks-2026-07-13/"
+			},
+			{
+				"title": "Sam Neill, Jurassic Park star, dies at 78",
+				"url": "https://reuters.com/world/asia-pacific/sam-neill-jurassic-park-star-dies-78-2026-07-13/"
+			},
+			{
+				"title": "SK Hynix plunges after Nasdaq debut amid diminishing earnings optimism",
+				"url": "https://reuters.com/world/asia-pacific/sk-hynix-shares-fall-much-44-seoul-after-strong-nasdaq-debut-2026-07-13/"
+			},
+			{
+				"title": "Bangkok pub fire kills 27, police investigating possible negligence",
+				"url": "https://reuters.com/world/asia-pacific/bangkok-pub-fire-kills-least-27-people-ap-reports-2026-07-12/"
+			},
+			{
+				"title": "Volkswagen CEO says 50,000 more job cuts may be needed to close competitive gap",
+				"url": "https://reuters.com/business/world-at-work/volkswagen-ceo-threatens-50000-more-job-cuts-memo-staff-2026-07-13/"
+			},
+			{
+				"title": "Europe recorded 10,000 excess deaths during late-June heatwave, data show",
+				"url": "https://reuters.com/business/environment/europe-recorded-10000-excess-deaths-during-late-june-heatwave-data-show-2026-07-12/"
+			},
+			{
+				"title": "Iran expands attacks on Gulf states after US strikes, says Strait of Hormuz closed",
+				"url": "https://reuters.com/world/asia-pacific/iran-declares-strait-hormuz-closed-unauthorised-vessel-hit-2026-07-11/"
+			},
+			{
+				"title": "Allies to muster more air defence aid for Ukraine as battlefield momentum shifts",
+				"url": "https://reuters.com/business/aerospace-defense/allies-muster-more-air-defence-aid-ukraine-battlefield-momentum-shifts-2026-07-13/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "courtiers and heralds"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"theaters, masks, puppets, curtains, and processions",
+				"celestial bodies, eclipses, comets, clocks, and constellations"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-07-12",
 		"displayDate": "July 12, 2026",
 		"image": "/images/news-bosch/2026/07/12.webp",
