@@ -26,11 +26,14 @@ export const buildTranscriptionChart = (
 	rows: TranscriptionRequest[],
 	width: number
 ): TranscriptionChartModel => {
+	const datedRows = rows
+		.filter((row) => row.outcome === 'success' && row.realTimeFactor > 0)
+		.map((row) => ({ ...row, date: parseTranscriptionDate(row.timestamp) }))
+		.filter((row) => Number.isFinite(+row.date));
 	const groups = new Map<string, { date: Date; values: number[] }>();
-	for (const row of rows.filter((row) => row.outcome === 'success' && row.realTimeFactor > 0)) {
-		const date = parseTranscriptionDate(row.timestamp);
-		const key = date.toISOString().slice(0, 10);
-		const group = groups.get(key) ?? { date, values: [] };
+	for (const row of datedRows) {
+		const key = row.date.toISOString().slice(0, 10);
+		const group = groups.get(key) ?? { date: row.date, values: [] };
 		group.values.push(row.realTimeFactor);
 		groups.set(key, group);
 	}
