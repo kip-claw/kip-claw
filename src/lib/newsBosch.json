@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-07-14",
+		"displayDate": "July 14, 2026",
+		"image": "/images/news-bosch/2026/07/14.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-14T10:17:04.986143Z",
+		"sourceRetrievedAt": "2026-07-14T10:10:54.956653Z",
+		"themes": [
+			{
+				"name": "Blockaded Strait Procession",
+				"interpretation": "A maritime procession becomes a repeatedly halted ritual as rival powers turn a narrow waterway into the day\u2019s central choke point.",
+				"storyRanks": [1, 3, 8]
+			},
+			{
+				"name": "Calm Garden Under Fire",
+				"interpretation": "Long-cultivated regional calm is shown as a garden suddenly shattered by missiles and the threatened excavation of a mountain.",
+				"storyRanks": [2, 4]
+			},
+			{
+				"name": "Knowledge Behind Glass",
+				"interpretation": "Scientific inquiry and institutional labor appear fragile when knowledge is detained, examined, or quietly cut away.",
+				"storyRanks": [5, 6]
+			},
+			{
+				"name": "Markets of Bruised Fruit",
+				"interpretation": "Financial anxiety takes the form of battered harvests, as falling shares, refund-driven deficits, and revived bank bidding rearrange value.",
+				"storyRanks": [7, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Live: Iran hits tankers after third night of US attacks; Trump reimposes naval blockade",
+				"url": "https://reuters.com/world/iran-war-live-us-launches-new-strikes-iran-more-tankers-attacked-hormuz-2026-07-14/"
+			},
+			{
+				"title": "Houthis fire missiles at Saudi Arabia, breaking years of calm",
+				"url": "https://reuters.com/world/middle-east/yemeni-military-targets-sanaa-airport-runway-stop-iranian-plane-landing-defence-2026-07-13/"
+			},
+			{
+				"title": "Iran and US stage new attacks, battle over control of Strait of Hormuz",
+				"url": "https://reuters.com/world/middle-east/iran-says-it-struck-us-air-base-jordan-us-military-ends-five-hours-attacks-2026-07-14/"
+			},
+			{
+				"title": "Trump says the US will take out Pickaxe Mountain in Iran",
+				"url": "https://reuters.com/world/middle-east/trump-says-us-will-take-out-pickaxe-mountain-iran-2026-07-13/"
+			},
+			{
+				"title": "China detains US seismologist who has studied North Korean nuclear tests",
+				"url": "https://reuters.com/world/us/china-detains-us-seismologist-who-has-studied-north-korean-nuclear-tests-2026-07-13/"
+			},
+			{
+				"title": "Thomson Reuters to cut 'small number' of engineering jobs",
+				"url": "https://reuters.com/legal/litigation/thomson-reuters-cut-small-number-engineering-jobs-2026-07-13/"
+			},
+			{
+				"title": "Inside South Korea's world-beating bear market",
+				"url": "https://reuters.com/world/asia-pacific/inside-south-koreas-world-beating-bear-market-2026-07-14/"
+			},
+			{
+				"title": "UAE says Iranian missiles struck oil tankers in Strait of Hormuz, one sailor killed",
+				"url": "https://reuters.com/world/middle-east/uae-says-two-tankers-hit-by-iranian-cruise-missiles-strait-hormuz-one-crew-2026-07-13/"
+			},
+			{
+				"title": "Tariff refunds push US June budget deficit to $120 billion",
+				"url": "https://reuters.com/world/us/tariff-refunds-push-us-june-budget-deficit-120-billion-2026-07-13/"
+			},
+			{
+				"title": "New bids from Fairfax and Emirates revive stalled IDBI Bank sale, say sources",
+				"url": "https://reuters.com/world/india/india-gets-revised-bids-idbi-bank-stake-sale-fairfax-emirates-nbd-government-2026-07-14/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-07-13",
 		"displayDate": "July 13, 2026",
 		"image": "/images/news-bosch/2026/07/13.webp",
