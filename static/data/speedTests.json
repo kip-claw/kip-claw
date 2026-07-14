@@ -1086,5 +1086,13 @@
     "pingMs": 14.9,
     "server": "New York NY",
     "provider": "Spectrum"
+  },
+  {
+    "timestamp": "2026-07-13 21:00:14",
+    "downloadMbps": 512.56,
+    "uploadMbps": 21.23,
+    "pingMs": 15.3,
+    "server": "New York NY",
+    "provider": "Nitel"
   }
 ]
