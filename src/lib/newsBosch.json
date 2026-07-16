@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-07-16",
+		"displayDate": "July 16, 2026",
+		"image": "/images/news-bosch/2026/07/16.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-16T10:15:25.917120Z",
+		"sourceRetrievedAt": "2026-07-16T10:10:45.773137Z",
+		"themes": [
+			{
+				"name": "Red Line Supper",
+				"interpretation": "The confrontation around Iran becomes a table set at a narrow maritime choke point, where retaliation and restraint mirror each other across an increasingly dangerous course.",
+				"storyRanks": [1, 3, 8, 9]
+			},
+			{
+				"name": "The Leaking Nuclear Oven",
+				"interpretation": "A breach at a major power plant turns technological security into a cracked kitchen vessel whose hidden contents have spilled into public view.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Feast of Toll Gates",
+				"interpretation": "Commerce is recast as a banquet in which consolidation, import duties, and investor unease make every serving both an offering and a charge.",
+				"storyRanks": [4, 5, 6]
+			},
+			{
+				"name": "Final Curtain Tremor",
+				"interpretation": "A late sporting reversal and a sudden earthquake share the logic of a theater floor that shifts just as its actors think the ending is settled.",
+				"storyRanks": [7, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran war live: Iran says it targeted bases in Kuwait and Jordan after new wave of US strikes ",
+				"url": "https://reuters.com/world/iran-war-live-iran-says-it-targeted-bases-kuwait-jordan-after-new-wave-us-2026-07-16/"
+			},
+			{
+				"title": "Files relating to India\u2019s largest nuclear power plant Kudankulam exposed in data breach",
+				"url": "https://reuters.com/world/india/files-relating-indias-largest-nuclear-power-plant-kudankulam-exposed-data-breach-2026-07-15/"
+			},
+			{
+				"title": "Iran warns Strait of Hormuz is a 'red line' and will resist until the end",
+				"url": "https://reuters.com/world/iran-warns-strait-hormuz-is-red-line-will-resist-until-end-2026-07-16/"
+			},
+			{
+				"title": "Uber launches $15 billion bid for Delivery Hero to create global takeout giant",
+				"url": "https://reuters.com/business/uber-launches-148-billion-takeover-bid-delivery-hero-2026-07-16/"
+			},
+			{
+				"title": "SpaceX selloff an ominous sign as lockup expiry looms",
+				"url": "https://reuters.com/legal/transactional/spacex-selloff-an-ominous-sign-lockup-expiry-looms-2026-07-16/"
+			},
+			{
+				"title": "US launches new round of tariffs with 25% tax on most Brazil imports",
+				"url": "https://reuters.com/world/americas/us-imposes-25-tariff-some-goods-brazil-2026-07-16/"
+			},
+			{
+				"title": "Argentina late show sinks England and sets up World Cup final against Spain",
+				"url": "https://reuters.com/sports/soccer/holders-argentina-beat-england-2-1-set-up-world-cup-final-against-spain-2026-07-15/"
+			},
+			{
+				"title": "Vance says some in Israeli government sought to sway US on Iran deal",
+				"url": "https://reuters.com/business/aerospace-defense/vance-says-some-israeli-government-sought-sway-us-iran-deal-2026-07-16/"
+			},
+			{
+				"title": "New Delhi tells shipowners not to deploy Indian seafarers on Hormuz routes",
+				"url": "https://reuters.com/world/india/new-delhi-tells-shipowners-not-deploy-indian-seafarers-hormuz-routes-2026-07-16/"
+			},
+			{
+				"title": "Magnitude 6.3 earthquake strikes near tourist hotspot in New Zealand's South Island",
+				"url": "https://reuters.com/business/environment/earthquake-magnitude-562-strikes-south-island-new-zealand-gfz-says-2026-07-16/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"theaters, masks, puppets, curtains, and processions",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-07-14",
 		"displayDate": "July 14, 2026",
 		"image": "/images/news-bosch/2026/07/14.webp",
