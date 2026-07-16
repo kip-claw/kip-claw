@@ -15811,5 +15811,374 @@
 		"consecutiveErrors": 2,
 		"errorReason": "",
 		"notes": "command stopped by signal SIGTERM"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 66.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Heartbeat cleanup",
+		"status": "ok",
+		"durationS": 0.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Whisper transcription service health",
+		"status": "error",
+		"durationS": 18.2,
+		"consecutiveErrors": 17,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 41.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Humidor export",
+		"status": "error",
+		"durationS": 562.1,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "OpenClaw memory report",
+		"status": "error",
+		"durationS": 561.5,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Runs export",
+		"status": "error",
+		"durationS": 562.0,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "NYC list export",
+		"status": "error",
+		"durationS": 561.9,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "OpenAI limits report",
+		"status": "error",
+		"durationS": 561.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Twitter archive sync",
+		"status": "error",
+		"durationS": 561.8,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Lipitor reminder",
+		"status": "ok",
+		"durationS": 23.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Twitter archive export",
+		"status": "error",
+		"durationS": 561.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 138.3,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "LLM request failed."
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Token usage export",
+		"status": "error",
+		"durationS": 154.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Disk space check",
+		"status": "ok",
+		"durationS": 1.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Whisper transcription stats export",
+		"status": "ok",
+		"durationS": 334.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 3.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 19.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 37.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 46.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Email inbox check",
+		"status": "ok",
+		"durationS": 23.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 38.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Lipitor follow-up reminder",
+		"status": "ok",
+		"durationS": 37.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 40.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 25.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 71.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 209.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Wiki maintenance",
+		"status": "ok",
+		"durationS": 151.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Sync Obsidian repository",
+		"status": "error",
+		"durationS": 63.2,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 0.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Mail archive reindex",
+		"status": "error",
+		"durationS": 2.3,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "Refusing implicit isolated cron delivery: the target would be inherited from the shared agent-main session bucket's last recipient, which is ambiguous across conversations and can deliver to the wrong"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 50.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 2.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 15.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 0.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Weekly wiki enrichment",
+		"status": "ok",
+		"durationS": 181.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Dependabot PR triage",
+		"status": "error",
+		"durationS": 25.4,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f \u2709\ufe0f Message failed"
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 3.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 314.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 15.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-07-16 04:05:26",
+		"jobName": "R2 offsite backup",
+		"status": "error",
+		"durationS": 11957.7,
+		"consecutiveErrors": 2,
+		"errorReason": "",
+		"notes": "command stopped by signal SIGTERM"
 	}
 ]
