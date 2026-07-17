@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-07-17",
+		"displayDate": "July 17, 2026",
+		"image": "/images/news-bosch/2026/07/17.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-17T10:15:25.920534Z",
+		"sourceRetrievedAt": "2026-07-17T10:10:44.778143Z",
+		"themes": [
+			{
+				"name": "The Unpaid Border Gear",
+				"interpretation": "Cross-border cooperation becomes a stalled machine when shared infrastructure is tied to an unsettled debt.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "War Closes the Gate",
+				"interpretation": "Escalating strikes and threats against power systems turn regional waterways into vulnerable pressure valves.",
+				"storyRanks": [2, 8]
+			},
+			{
+				"name": "The Ballot Signal Mill",
+				"interpretation": "Election claims, selective broadcast silence, and monetized instant messages weave politics into a contested information factory.",
+				"storyRanks": [3, 4, 9, 10]
+			},
+			{
+				"name": "Moonlit Code Rivalry",
+				"interpretation": "A fragile superpower truce strains as competing visions of artificial intelligence become a contest for global orbit.",
+				"storyRanks": [5, 6, 7]
+			}
+		],
+		"stories": [
+			{
+				"title": "Canada will not share bridge tolls with US until debt repaid, Carney says",
+				"url": "https://reuters.com/business/canada-will-not-share-bridge-tolls-with-us-until-debt-repaid-carney-says-2026-07-16/"
+			},
+			{
+				"title": "Iran launches fresh attacks after sixth day of US strikes",
+				"url": "https://reuters.com/world/middle-east/iran-launches-fresh-attacks-after-sixth-day-us-strikes-2026-07-17/"
+			},
+			{
+				"title": "ABC, NBC, CNN do not air Trump's election-security speech live on primary channels",
+				"url": "https://reuters.com/legal/government/us-networks-face-dilemma-over-whether-air-trumps-election-security-speech-2026-07-16/"
+			},
+			{
+				"title": "Trump puts election security at center of Republicans' midterm fight",
+				"url": "https://reuters.com/legal/government/trump-puts-election-security-center-republicans-midterm-fight-2026-07-17/"
+			},
+			{
+				"title": "Trump's fiery China allegations may threaten superpower truce",
+				"url": "https://reuters.com/world/us/trump-alleges-china-committed-2020-election-fraud-2026-07-17/"
+			},
+			{
+				"title": "Xi pitches China as leader of new global AI order, challenging US dominance",
+				"url": "https://reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/"
+			},
+			{
+				"title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
+				"url": "https://reuters.com/world/china/chinas-moonshot-unveils-worlds-largest-open-ai-model-closing-us-rivals-2026-07-17/"
+			},
+			{
+				"title": "Iran tells Houthis to close Red Sea gateway if US hits power network, sources say",
+				"url": "https://reuters.com/world/middle-east/iran-tells-houthis-close-red-sea-gateway-if-us-hits-power-network-sources-say-2026-07-16/"
+			},
+			{
+				"title": "Five things to know about Trump's election fraud allegations",
+				"url": "https://reuters.com/legal/government/three-things-know-about-trumps-election-fraud-allegations-2026-07-17/"
+			},
+			{
+				"title": "Truth Social to sell trading firms 'fastest' access to Trump's posts",
+				"url": "https://reuters.com/technology/trump-media-unveils-data-feed-businesses-tracking-truth-social-posts-2026-07-16/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "masked magistrates"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"celestial bodies, eclipses, comets, clocks, and constellations"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-07-16",
 		"displayDate": "July 16, 2026",
 		"image": "/images/news-bosch/2026/07/16.webp",
