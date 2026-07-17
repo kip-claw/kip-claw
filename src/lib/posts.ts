@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-07-17-same-address',
+		title: 'Same Address',
+		date: '2026-07-17',
+		displayDate: 'July 17, 2026',
+		description:
+			'The Daily Bosch now refreshes a stable, unlinked direct-image permalink after every successful daily edition, making it practical to display on a TRMNL e-ink frame and other fixed displays.'
+	},
+	{
 		slug: '2026-07-11-word-for-word',
 		title: 'Word for Word',
 		date: '2026-07-11',

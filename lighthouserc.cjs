@@ -8,6 +8,7 @@ module.exports = {
 				'/blog/2026-05-06-hello-world/',
 				'/blog/2026-05-10-apps-launch/',
 				'/blog/2026-05-27-twitter-archive/',
+				'/blog/2026-07-17-same-address/',
 				'/apps/',
 				'/apps/humidor/',
 				'/apps/milkdrop/',
