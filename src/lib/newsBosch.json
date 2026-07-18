@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-18",
+		"displayDate": "July 18, 2026",
+		"image": "/images/news-bosch/2026/07/18.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-18T10:15:37.001668Z",
+		"sourceRetrievedAt": "2026-07-18T10:10:44.095346Z",
+		"themes": [
+			{
+				"name": "Seven Nights of Dissonance",
+				"interpretation": "Repeated strikes and retaliatory attacks turn the Gulf into a drumbeat whose escalating rhythm drowns out any pause.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "Arms Along the Loom",
+				"interpretation": "Military capacity and a widening defense pact suggest regional powers weaving protection into a fabric that can also bind them to conflict.",
+				"storyRanks": [3, 6]
+			},
+			{
+				"name": "Ascent Beside the Sickbed",
+				"interpretation": "A private rocket\u2019s upward leap is interrupted by the quieter removal of a fasting dissenter from the public square to a hospital room.",
+				"storyRanks": [4, 8]
+			},
+			{
+				"name": "The Weather's Burned Chorus",
+				"interpretation": "Deadly drone fire at an oil depot and simultaneous smoke, fire, and flood threats make catastrophe sound like overlapping, incompatible instruments.",
+				"storyRanks": [5, 9]
+			},
+			{
+				"name": "Bitter Fruit of Deals",
+				"interpretation": "A costly failed transaction and a customs challenge over nicotine pouches portray commerce as a grafted fruit whose hidden rot draws inspectors.",
+				"storyRanks": [7, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran renews attacks on Gulf states after another night of US strikes",
+				"url": "https://reuters.com/world/middle-east/iran-renews-attacks-gulf-states-after-another-night-us-strikes-2026-07-18/"
+			},
+			{
+				"title": "US military says it completed latest strikes on Iran, marking 7th consecutive night of attacks",
+				"url": "https://reuters.com/world/middle-east/us-military-says-it-completed-latest-strikes-iran-marking-7th-consecutive-night-2026-07-18/"
+			},
+			{
+				"title": "What is Pakistan military's strength and capability?",
+				"url": "https://reuters.com/world/asia-pacific/what-is-pakistan-militarys-strength-capability-2026-07-17/"
+			},
+			{
+				"title": "India's Skyroot launches Vikram-1 in first private orbital rocket mission",
+				"url": "https://reuters.com/science/indias-skyroot-launches-vikram-1-first-private-orbital-rocket-mission-2026-07-18/"
+			},
+			{
+				"title": "Ukrainian drone attacks kill seven warehouse workers in Russia, spark fire at Moscow region oil depot",
+				"url": "https://reuters.com/world/europe/ukrainian-drone-attacks-kill-seven-warehouse-workers-russia-spark-fire-moscow-2026-07-18/"
+			},
+			{
+				"title": "Pakistan and Kuwait discuss expanded defence pact, sources say",
+				"url": "https://reuters.com/world/asia-pacific/pakistan-kuwait-discuss-expanded-defence-pact-sources-say-2026-07-17/"
+			},
+			{
+				"title": "Law firm Ashurst Perkins Coie hit with $50 million legal malpractice suit over failed deal",
+				"url": "https://reuters.com/legal/litigation/law-firm-ashurst-perkins-coie-hit-with-50-million-legal-malpractice-suit-over-2026-07-17/"
+			},
+			{
+				"title": "Fasting Indian activist shifted to hospital, police say",
+				"url": "https://reuters.com/world/asia-pacific/india-moves-fasting-activist-hospital-police-say-2026-07-18/"
+			},
+			{
+				"title": "Smoke, fire, floods: US faces triple extreme summer weather threats",
+				"url": "https://reuters.com/business/environment/smoke-fire-floods-us-faces-triple-extreme-summer-weather-threats-2026-07-17/"
+			},
+			{
+				"title": "India customs becomes second agency to fight Adani over nicotine pouches",
+				"url": "https://reuters.com/world/india/india-customs-becomes-second-agency-fight-adani-over-nicotine-pouches-2026-07-16/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-07-17",
 		"displayDate": "July 17, 2026",
 		"image": "/images/news-bosch/2026/07/17.webp",
