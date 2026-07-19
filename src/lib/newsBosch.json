@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-19",
+		"displayDate": "July 19, 2026",
+		"image": "/images/news-bosch/2026/07/19.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-19T10:15:09.480208Z",
+		"sourceRetrievedAt": "2026-07-19T10:10:45.551963Z",
+		"themes": [
+			{
+				"name": "War's Returning Harvest",
+				"interpretation": "Retaliatory strikes, missile barrages, and calculations of military strength form a self-seeding cycle in which each act of violence grows the next.",
+				"storyRanks": [1, 6, 8, 10]
+			},
+			{
+				"name": "Contaminated Common Table",
+				"interpretation": "A parasite-tainted staple turns the shared meal into an allegory for public systems whose ordinary provisions can suddenly become suspect.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "The Body as Stage",
+				"interpretation": "Arrests, extradition demands, and contested hormone screening portray masculinity and bodily authority as a coercive public performance.",
+				"storyRanks": [3, 4]
+			},
+			{
+				"name": "Fraying Wires, Uprooted Workers",
+				"interpretation": "Job cuts, forced relocation, and platform outages suggest that the systems promising connection and mobility can pull away their own foundations.",
+				"storyRanks": [5, 7]
+			},
+			{
+				"name": "Care Behind Closed Curtains",
+				"interpretation": "The request to move a detained activist to private treatment frames care as something sought through legal gates and withheld from public view.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "US renews strikes on Iran after two military personnel killed by Iranian attack",
+				"url": "https://reuters.com/world/asia-pacific/us-renews-strikes-iran-after-two-military-personnel-were-killed-by-iranian-2026-07-18/"
+			},
+			{
+				"title": "FDA says sample of iceberg lettuce supplied by Taylor Farms tested positive for US parasite outbreak",
+				"url": "https://reuters.com/world/fda-says-sample-iceberg-lettuce-supplied-by-taylor-farms-tested-positive-2026-07-18/"
+			},
+			{
+				"title": "US Marshals arrest 'hypermasculine' social media stars Andrew and Tristan Tate, UK seeks extradition",
+				"url": "https://reuters.com/world/us/us-marshals-arrest-hypermasculine-social-media-stars-andrew-tristan-tate-uk-2026-07-19/"
+			},
+			{
+				"title": "Doctors question evidence behind Pentagon plan for testosterone screening",
+				"url": "https://reuters.com/legal/litigation/doctors-question-evidence-behind-pentagon-plan-testosterone-screening-2026-07-18/"
+			},
+			{
+				"title": "Samsung cuts US jobs, offers relocations ahead of HQ move",
+				"url": "https://reuters.com/business/samsung-electronics-america-reduce-workforce-by-739-new-jersey-us-warn-notice-2026-07-18/"
+			},
+			{
+				"title": "Russia pounds Kyiv in major ballistic missile attack",
+				"url": "https://reuters.com/world/europe/russian-ballistic-missiles-rock-kyiv-one-killed-officials-say-2026-07-19/"
+			},
+			{
+				"title": "Users of Meta's Facebook, Instagram report suffering some outages \u00a0",
+				"url": "https://reuters.com/world/asia-pacific/users-metas-facebook-instagram-report-suffering-some-outages-2026-07-19/"
+			},
+			{
+				"title": "What is Pakistan military's strength and capability?",
+				"url": "https://reuters.com/world/asia-pacific/what-is-pakistan-militarys-strength-capability-2026-07-17/"
+			},
+			{
+				"title": "Wife of Indian activist Wangchuk asks court to move him to private hospital",
+				"url": "https://reuters.com/world/asia-pacific/wife-indian-activist-wangchuk-asks-court-move-him-private-hospital-2026-07-19/"
+			},
+			{
+				"title": "Iran's Supreme Leader says US breaches show Trump's signature is 'worthless'",
+				"url": "https://reuters.com/world/middle-east/irans-supreme-leader-says-us-breaches-show-trumps-signature-is-worthless-2026-07-18/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-07-18",
 		"displayDate": "July 18, 2026",
 		"image": "/images/news-bosch/2026/07/18.webp",
