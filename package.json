@@ -11,6 +11,7 @@
 		"prepare": "husky",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"check:trmnl": "node scripts/verify-trmnl.mjs",
 		"lint": "prettier --check .",
 		"format": "prettier --write .",
 		"lighthouse": "lhci autorun"
