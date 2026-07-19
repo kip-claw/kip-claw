@@ -33,6 +33,7 @@ export type TrmnlDashboard = {
 	voice: {
 		status: 'online' | 'offline' | 'unknown';
 		success_rate_30d: number;
+		audio_minutes_30d: number;
 	} | null;
 };
 
@@ -224,7 +225,8 @@ export const buildTrmnlDashboard = ({
 		voice: health
 			? {
 					status: health.outcome === 'success' && health.reachable !== false ? 'online' : 'offline',
-					success_rate_30d: rounded(transcriptionSummary.successRate, 0)
+					success_rate_30d: rounded(transcriptionSummary.successRate, 0),
+					audio_minutes_30d: rounded(transcriptionSummary.audioMinutes, 0)
 				}
 			: null
 	};
