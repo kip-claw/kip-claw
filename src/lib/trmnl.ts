@@ -229,24 +229,3 @@ export const buildTrmnlDashboard = ({
 			: null
 	};
 };
-
-export const trmnlFixtures: Record<TrmnlStatusLevel, Partial<TrmnlDashboard>> = {
-	healthy: { status: { level: 'healthy', label: 'Healthy', notices: [] } },
-	warning: {
-		status: {
-			level: 'warning',
-			label: 'Needs attention',
-			notices: ['Pi temperature is elevated (81°C)']
-		}
-	},
-	critical: {
-		status: { level: 'critical', label: 'Critical', notices: ['R2 offsite backup failed'] }
-	},
-	unknown: {
-		status: {
-			level: 'unknown',
-			label: 'Unknown',
-			notices: ['Internet test is stale or unavailable']
-		}
-	}
-};
