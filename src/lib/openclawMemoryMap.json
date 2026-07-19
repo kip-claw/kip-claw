@@ -1,8 +1,8 @@
 {
-	"timestamp": "2026-07-19 12:17:05",
+	"timestamp": "2026-07-19 12:21:15",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
 	"pointCount": 425,
-	"clusterCount": 6,
+	"clusterCount": 5,
 	"excludedCronChunks": 0,
 	"excludedShortChunks": 0,
 	"excludedDreamingChunks": 1641,
@@ -11,7 +11,7 @@
 			"id": 0,
 			"label": "Collaboration",
 			"description": "Topics related to the, user, if.",
-			"size": 146,
+			"size": 171,
 			"keywords": ["the", "user", "if"]
 		},
 		{
@@ -37,13 +37,6 @@
 		},
 		{
 			"id": 4,
-			"label": "Face",
-			"description": "Topics related to the, face, hugging.",
-			"size": 25,
-			"keywords": ["hugging", "glm5", "model"]
-		},
-		{
-			"id": 5,
 			"label": "Sluggo",
 			"description": "Topics related to sluggo, and, is.",
 			"size": 15,
@@ -96,42 +89,42 @@
 		{
 			"x": 6.0894,
 			"y": 5.299,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0045,
 			"y": 5.3571,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0488,
 			"y": 5.3668,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.993,
 			"y": 5.3797,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9302,
 			"y": 5.3937,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.043,
 			"y": 5.3474,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -355,42 +348,42 @@
 		{
 			"x": 4.0792,
 			"y": 9.6569,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.7264,
 			"y": 9.4009,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3914,
 			"y": 9.1358,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4466,
 			"y": 9.1346,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.324,
 			"y": 9.2173,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3899,
 			"y": 9.1722,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
@@ -425,28 +418,28 @@
 		{
 			"x": 3.9592,
 			"y": 9.2805,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1786,
 			"y": 9.5518,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1432,
 			"y": 9.3607,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.9455,
 			"y": 9.3076,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
@@ -460,14 +453,14 @@
 		{
 			"x": 3.5647,
 			"y": 9.3496,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1559,
 			"y": 9.7488,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
@@ -495,14 +488,14 @@
 		{
 			"x": 3.6283,
 			"y": 9.2956,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.7397,
 			"y": 9.283,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
@@ -572,42 +565,42 @@
 		{
 			"x": 3.5255,
 			"y": 8.8786,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4863,
 			"y": 9.0507,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4102,
 			"y": 8.7903,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3703,
 			"y": 8.7821,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3656,
 			"y": 8.7684,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3746,
 			"y": 8.7681,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
@@ -761,21 +754,21 @@
 		{
 			"x": 4.1516,
 			"y": 9.2244,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.3679,
 			"y": 9.085,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.2179,
 			"y": 9.8971,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
@@ -1062,7 +1055,7 @@
 		{
 			"x": 4.2008,
 			"y": 8.0988,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-12-1606.md",
 			"source": "memory"
 		},
@@ -1615,7 +1608,7 @@
 		{
 			"x": 4.1205,
 			"y": 8.6726,
-			"cluster": 4,
+			"cluster": 0,
 			"path": "memory/2026-04-18-version-check.md",
 			"source": "memory"
 		},
@@ -2917,49 +2910,49 @@
 		{
 			"x": 6.1129,
 			"y": 5.3843,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0501,
 			"y": 5.4822,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9933,
 			"y": 5.4316,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.1143,
 			"y": 5.3746,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9657,
 			"y": 5.4118,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.984,
 			"y": 5.4493,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.1946,
 			"y": 5.4726,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
@@ -3008,14 +3001,14 @@
 		{
 			"x": 6.131,
 			"y": 5.2719,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0413,
 			"y": 5.2869,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
@@ -3035,27 +3028,29 @@
 			{
 				"id": "family:planning-&-dialogue",
 				"label": "Planning & Dialogue",
+				"value": 253,
 				"children": [
 					{
 						"id": "cluster:0",
 						"clusterId": 0,
 						"label": "Collaboration",
 						"description": "Topics related to the, user, if.",
+						"value": 171,
 						"children": [
 							{
 								"id": "keyword:0:0",
 								"label": "the",
-								"value": 73.0
+								"value": 85.5
 							},
 							{
 								"id": "keyword:0:1",
 								"label": "user",
-								"value": 48.67
+								"value": 57.0
 							},
 							{
 								"id": "keyword:0:2",
 								"label": "if",
-								"value": 24.33
+								"value": 28.5
 							}
 						]
 					},
@@ -3064,6 +3059,7 @@
 						"clusterId": 2,
 						"label": "Session",
 						"description": "Session metadata and timing context tied to recent interactions.",
+						"value": 82,
 						"children": [
 							{
 								"id": "keyword:2:0",
@@ -3077,12 +3073,14 @@
 			{
 				"id": "family:operations",
 				"label": "Operations",
+				"value": 127,
 				"children": [
 					{
 						"id": "cluster:1",
 						"clusterId": 1,
 						"label": "Automation",
 						"description": "Scheduled and automated jobs, including routine monitoring tasks.",
+						"value": 127,
 						"children": [
 							{
 								"id": "keyword:1:0",
@@ -3099,71 +3097,16 @@
 				]
 			},
 			{
-				"id": "family:workflow-signals",
-				"label": "Workflow Signals",
-				"children": [
-					{
-						"id": "cluster:4",
-						"clusterId": 4,
-						"label": "Face",
-						"description": "Topics related to the, face, hugging.",
-						"children": [
-							{
-								"id": "keyword:4:0",
-								"label": "hugging",
-								"value": 12.5
-							},
-							{
-								"id": "keyword:4:1",
-								"label": "glm5",
-								"value": 8.33
-							},
-							{
-								"id": "keyword:4:2",
-								"label": "model",
-								"value": 4.17
-							}
-						]
-					},
-					{
-						"id": "cluster:5",
-						"clusterId": 5,
-						"label": "Sluggo",
-						"description": "Topics related to sluggo, and, is.",
-						"children": [
-							{
-								"id": "keyword:5:0",
-								"label": "square",
-								"value": 6.0
-							},
-							{
-								"id": "keyword:5:1",
-								"label": "times",
-								"value": 4.5
-							},
-							{
-								"id": "keyword:5:2",
-								"label": "ssh",
-								"value": 3.0
-							},
-							{
-								"id": "keyword:5:3",
-								"label": "identity",
-								"value": 1.5
-							}
-						]
-					}
-				]
-			},
-			{
 				"id": "family:knowledge",
 				"label": "Knowledge",
+				"value": 30,
 				"children": [
 					{
 						"id": "cluster:3",
 						"clusterId": 3,
 						"label": "Vault",
 						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
+						"value": 30,
 						"children": [
 							{
 								"id": "keyword:3:0",
@@ -3184,6 +3127,42 @@
 								"id": "keyword:3:3",
 								"label": "todo",
 								"value": 3.0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "family:workflow-signals",
+				"label": "Workflow Signals",
+				"value": 15,
+				"children": [
+					{
+						"id": "cluster:4",
+						"clusterId": 4,
+						"label": "Sluggo",
+						"description": "Topics related to sluggo, and, is.",
+						"value": 15,
+						"children": [
+							{
+								"id": "keyword:4:0",
+								"label": "square",
+								"value": 6.0
+							},
+							{
+								"id": "keyword:4:1",
+								"label": "times",
+								"value": 4.5
+							},
+							{
+								"id": "keyword:4:2",
+								"label": "ssh",
+								"value": 3.0
+							},
+							{
+								"id": "keyword:4:3",
+								"label": "identity",
+								"value": 1.5
 							}
 						]
 					}
