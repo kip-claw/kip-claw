@@ -1,48 +1,42 @@
 {
-	"timestamp": "2026-07-19 12:10:12",
+	"timestamp": "2026-07-19 12:13:35",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
 	"pointCount": 425,
-	"clusterCount": 6,
+	"clusterCount": 5,
 	"excludedCronChunks": 0,
 	"excludedShortChunks": 0,
+	"excludedDreamingChunks": 1641,
 	"clusters": [
 		{
 			"id": 0,
 			"label": "Collaboration",
 			"description": "Topics related to the, user, if.",
-			"size": 143,
+			"size": 170,
 			"keywords": ["the", "user", "if"]
 		},
 		{
 			"id": 1,
 			"label": "Automation",
 			"description": "Scheduled and automated jobs, including routine monitoring tasks.",
-			"size": 127,
-			"keywords": ["cron", "sent"]
+			"size": 126,
+			"keywords": ["cron", "telegram"]
 		},
 		{
 			"id": 2,
 			"label": "Session",
 			"description": "Session metadata and timing context tied to recent interactions.",
-			"size": 81,
-			"keywords": ["model", "utc"]
-		},
-		{
-			"id": 4,
-			"label": "Vault",
-			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-			"size": 30,
-			"keywords": ["cron", "obsidian", "edt", "todo"]
+			"size": 82,
+			"keywords": ["the", "user", "to"]
 		},
 		{
 			"id": 3,
-			"label": "Face",
-			"description": "Topics related to the, face, hugging.",
-			"size": 29,
-			"keywords": ["hugging", "config"]
+			"label": "Vault",
+			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
+			"size": 32,
+			"keywords": ["cron", "obsidian", "edt", "todo"]
 		},
 		{
-			"id": 5,
+			"id": 4,
 			"label": "Sluggo",
 			"description": "Topics related to sluggo, and, is.",
 			"size": 15,
@@ -67,7 +61,7 @@
 		{
 			"x": 7.6574,
 			"y": 7.4137,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -95,42 +89,42 @@
 		{
 			"x": 6.0894,
 			"y": 5.299,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0045,
 			"y": 5.3571,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0488,
 			"y": 5.3668,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.993,
 			"y": 5.3797,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9302,
 			"y": 5.3937,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.043,
 			"y": 5.3474,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -165,14 +159,14 @@
 		{
 			"x": 7.0979,
 			"y": 7.7717,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-04-08-drive-service-jokes.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.0854,
 			"y": 7.7934,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-04-08-drive-service-jokes.md",
 			"source": "memory"
 		},
@@ -249,28 +243,28 @@
 		{
 			"x": 3.8759,
 			"y": 7.9067,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.9206,
 			"y": 7.8475,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.0249,
 			"y": 7.908,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.8959,
 			"y": 7.8097,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
@@ -333,14 +327,14 @@
 		{
 			"x": 5.903,
 			"y": 8.4035,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-04-09-1459.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.6504,
 			"y": 8.5638,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-04-09-1459.md",
 			"source": "memory"
 		},
@@ -354,42 +348,42 @@
 		{
 			"x": 4.0792,
 			"y": 9.6569,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.7264,
 			"y": 9.4009,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3914,
 			"y": 9.1358,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4466,
 			"y": 9.1346,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.324,
 			"y": 9.2173,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3899,
 			"y": 9.1722,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
@@ -424,28 +418,28 @@
 		{
 			"x": 3.9592,
 			"y": 9.2805,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1786,
 			"y": 9.5518,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1432,
 			"y": 9.3607,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.9455,
 			"y": 9.3076,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
@@ -459,14 +453,14 @@
 		{
 			"x": 3.5647,
 			"y": 9.3496,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1559,
 			"y": 9.7488,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
@@ -494,14 +488,14 @@
 		{
 			"x": 3.6283,
 			"y": 9.2956,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.7397,
 			"y": 9.283,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
@@ -529,7 +523,7 @@
 		{
 			"x": 7.3295,
 			"y": 7.5844,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-04-09.md",
 			"source": "memory"
 		},
@@ -571,42 +565,42 @@
 		{
 			"x": 3.5255,
 			"y": 8.8786,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4863,
 			"y": 9.0507,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4102,
 			"y": 8.7903,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3703,
 			"y": 8.7821,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3656,
 			"y": 8.7684,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3746,
 			"y": 8.7681,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
@@ -760,14 +754,14 @@
 		{
 			"x": 4.1516,
 			"y": 9.2244,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.3679,
 			"y": 9.085,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
@@ -1061,14 +1055,14 @@
 		{
 			"x": 4.2008,
 			"y": 8.0988,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-12-1606.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1427,
 			"y": 8.0178,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-12-1606.md",
 			"source": "memory"
 		},
@@ -1082,21 +1076,21 @@
 		{
 			"x": 6.6173,
 			"y": 8.1988,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.6243,
 			"y": 8.1894,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.6969,
 			"y": 8.1392,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
@@ -1264,7 +1258,7 @@
 		{
 			"x": 7.6764,
 			"y": 6.1363,
-			"cluster": 1,
+			"cluster": 3,
 			"path": "memory/2026-04-13.md",
 			"source": "memory"
 		},
@@ -1614,7 +1608,7 @@
 		{
 			"x": 4.1205,
 			"y": 8.6726,
-			"cluster": 3,
+			"cluster": 0,
 			"path": "memory/2026-04-18-version-check.md",
 			"source": "memory"
 		},
@@ -1859,7 +1853,7 @@
 		{
 			"x": 4.3018,
 			"y": 10.4676,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-25-1357.md",
 			"source": "memory"
 		},
@@ -2006,7 +2000,7 @@
 		{
 			"x": 7.5442,
 			"y": 7.6969,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-05.md",
 			"source": "memory"
 		},
@@ -2062,14 +2056,14 @@
 		{
 			"x": 8.0934,
 			"y": 7.2718,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-08.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0024,
 			"y": 7.339,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-09.md",
 			"source": "memory"
 		},
@@ -2132,7 +2126,7 @@
 		{
 			"x": 7.9781,
 			"y": 7.42,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
@@ -2174,7 +2168,7 @@
 		{
 			"x": 7.7707,
 			"y": 7.6571,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
@@ -2216,7 +2210,7 @@
 		{
 			"x": 7.608,
 			"y": 7.6019,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
@@ -2258,14 +2252,14 @@
 		{
 			"x": 7.5608,
 			"y": 7.5444,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8979,
 			"y": 7.5598,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
@@ -2321,7 +2315,7 @@
 		{
 			"x": 7.6942,
 			"y": 7.5163,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
@@ -2398,14 +2392,14 @@
 		{
 			"x": 7.4023,
 			"y": 7.5553,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6687,
 			"y": 7.448,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
@@ -2461,7 +2455,7 @@
 		{
 			"x": 7.8299,
 			"y": 7.6091,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
@@ -2538,7 +2532,7 @@
 		{
 			"x": 8.0952,
 			"y": 7.4689,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
@@ -2601,14 +2595,14 @@
 		{
 			"x": 8.0275,
 			"y": 7.3724,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8841,
 			"y": 7.6308,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
@@ -2664,14 +2658,14 @@
 		{
 			"x": 8.0701,
 			"y": 7.2913,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9962,
 			"y": 7.5699,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
@@ -2727,7 +2721,7 @@
 		{
 			"x": 8.0512,
 			"y": 7.3091,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
@@ -2769,14 +2763,14 @@
 		{
 			"x": 7.4684,
 			"y": 7.6491,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9182,
 			"y": 7.4462,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
@@ -2790,7 +2784,7 @@
 		{
 			"x": 7.54,
 			"y": 7.3951,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
@@ -2804,7 +2798,7 @@
 		{
 			"x": 7.629,
 			"y": 7.2272,
-			"cluster": 4,
+			"cluster": 3,
 			"path": "memory/2026-06-01.md",
 			"source": "memory"
 		},
@@ -2916,49 +2910,49 @@
 		{
 			"x": 6.1129,
 			"y": 5.3843,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0501,
 			"y": 5.4822,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9933,
 			"y": 5.4316,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.1143,
 			"y": 5.3746,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9657,
 			"y": 5.4118,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.984,
 			"y": 5.4493,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.1946,
 			"y": 5.4726,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
@@ -3007,14 +3001,14 @@
 		{
 			"x": 6.131,
 			"y": 5.2719,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0413,
 			"y": 5.2869,
-			"cluster": 5,
+			"cluster": 4,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
@@ -3043,17 +3037,17 @@
 							{
 								"id": "keyword:0:0",
 								"label": "the",
-								"value": 71.5
+								"value": 85.0
 							},
 							{
 								"id": "keyword:0:1",
 								"label": "user",
-								"value": 47.67
+								"value": 56.67
 							},
 							{
 								"id": "keyword:0:2",
 								"label": "if",
-								"value": 23.83
+								"value": 28.33
 							}
 						]
 					},
@@ -3065,13 +3059,18 @@
 						"children": [
 							{
 								"id": "keyword:2:0",
-								"label": "model",
-								"value": 54.0
+								"label": "the",
+								"value": 41.0
 							},
 							{
 								"id": "keyword:2:1",
-								"label": "utc",
-								"value": 27.0
+								"label": "user",
+								"value": 27.33
+							},
+							{
+								"id": "keyword:2:2",
+								"label": "to",
+								"value": 13.67
 							}
 						]
 					}
@@ -3090,64 +3089,12 @@
 							{
 								"id": "keyword:1:0",
 								"label": "cron",
-								"value": 84.67
+								"value": 84.0
 							},
 							{
 								"id": "keyword:1:1",
-								"label": "sent",
-								"value": 42.33
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": "family:workflow-signals",
-				"label": "Workflow Signals",
-				"children": [
-					{
-						"id": "cluster:3",
-						"clusterId": 3,
-						"label": "Face",
-						"description": "Topics related to the, face, hugging.",
-						"children": [
-							{
-								"id": "keyword:3:0",
-								"label": "hugging",
-								"value": 19.33
-							},
-							{
-								"id": "keyword:3:1",
-								"label": "config",
-								"value": 9.67
-							}
-						]
-					},
-					{
-						"id": "cluster:5",
-						"clusterId": 5,
-						"label": "Sluggo",
-						"description": "Topics related to sluggo, and, is.",
-						"children": [
-							{
-								"id": "keyword:5:0",
-								"label": "square",
-								"value": 6.0
-							},
-							{
-								"id": "keyword:5:1",
-								"label": "times",
-								"value": 4.5
-							},
-							{
-								"id": "keyword:5:2",
-								"label": "ssh",
-								"value": 3.0
-							},
-							{
-								"id": "keyword:5:3",
-								"label": "identity",
-								"value": 1.5
+								"label": "telegram",
+								"value": 42.0
 							}
 						]
 					}
@@ -3158,30 +3105,64 @@
 				"label": "Knowledge",
 				"children": [
 					{
-						"id": "cluster:4",
-						"clusterId": 4,
+						"id": "cluster:3",
+						"clusterId": 3,
 						"label": "Vault",
 						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
 						"children": [
 							{
-								"id": "keyword:4:0",
+								"id": "keyword:3:0",
 								"label": "cron",
-								"value": 12.0
+								"value": 12.8
 							},
 							{
-								"id": "keyword:4:1",
+								"id": "keyword:3:1",
 								"label": "obsidian",
-								"value": 9.0
+								"value": 9.6
 							},
 							{
-								"id": "keyword:4:2",
+								"id": "keyword:3:2",
 								"label": "edt",
+								"value": 6.4
+							},
+							{
+								"id": "keyword:3:3",
+								"label": "todo",
+								"value": 3.2
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "family:workflow-signals",
+				"label": "Workflow Signals",
+				"children": [
+					{
+						"id": "cluster:4",
+						"clusterId": 4,
+						"label": "Sluggo",
+						"description": "Topics related to sluggo, and, is.",
+						"children": [
+							{
+								"id": "keyword:4:0",
+								"label": "square",
 								"value": 6.0
 							},
 							{
-								"id": "keyword:4:3",
-								"label": "todo",
+								"id": "keyword:4:1",
+								"label": "times",
+								"value": 4.5
+							},
+							{
+								"id": "keyword:4:2",
+								"label": "ssh",
 								"value": 3.0
+							},
+							{
+								"id": "keyword:4:3",
+								"label": "identity",
+								"value": 1.5
 							}
 						]
 					}
