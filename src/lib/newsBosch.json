@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-20",
+		"displayDate": "July 20, 2026",
+		"image": "/images/news-bosch/2026/07/20.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-20T10:15:24.598928Z",
+		"sourceRetrievedAt": "2026-07-20T10:10:44.740772Z",
+		"themes": [
+			{
+				"name": "Rewiring the Nest",
+				"interpretation": "Political homes are being remade as new leaders promise repair while old perches suddenly stand empty.",
+				"storyRanks": [2, 7]
+			},
+			{
+				"name": "The Strait Holds Its Breath",
+				"interpretation": "War, damaged trade routes and tentative diplomacy turn a narrow passage into a threshold between escalation and reprieve.",
+				"storyRanks": [3, 4]
+			},
+			{
+				"name": "Crowns Among the Chorus",
+				"interpretation": "Public spectacle becomes a broken harmony, where celebration, jeering and national triumph compete in the same arena.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "Appetite Dresses the Machine",
+				"interpretation": "Consumers and young adults alike are urged beyond bare survival, seeking ornament, protection and the paperwork of adulthood.",
+				"storyRanks": [8, 9]
+			},
+			{
+				"name": "Small Creatures Speak",
+				"interpretation": "Microscopic doubt and insect-scale protest suggest that neglected signals can still force institutions to listen.",
+				"storyRanks": [1, 6]
+			}
+		],
+		"stories": [
+			{
+				"title": "FDA says Taylor Farms cyclospora finding was a false positive",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/fda-says-taylor-farms-cyclospora-finding-was-false-positive-2026-07-20/"
+			},
+			{
+				"title": "Andy Burnham to become prime minister, pledging to 'rewire Britain'",
+				"url": "https://reuters.com/world/uk/pledging-rewire-britain-king-north-burnham-becomes-pm-2026-07-19/"
+			},
+			{
+				"title": "US strikes Iran for ninth day; Iran says two oil tankers in Strait of Hormuz exploded and immobilised",
+				"url": "https://reuters.com/world/middle-east/us-launches-iran-strikes-ninth-day-another-american-confirmed-killed-2026-07-20/"
+			},
+			{
+				"title": "Oil reverses as Iranian comments interpreted as chance for fresh negotiations",
+				"url": "https://reuters.com/business/energy/brent-oil-tops-90-us-iran-intensify-attacks-middle-east-2026-07-20/"
+			},
+			{
+				"title": "Boos as Trump and Infantino enter the field for World Cup trophy ceremony",
+				"url": "https://reuters.com/sports/soccer/boos-trump-infantino-enter-field-world-cup-trophy-ceremony-2026-07-19/"
+			},
+			{
+				"title": "India's cockroach movement leaders to meet minister as supporters gather in Delhi",
+				"url": "https://reuters.com/world/india/indias-cockroach-movement-supporters-gather-march-despite-police-ban-2026-07-20/"
+			},
+			{
+				"title": "Singapore minister resigns over 'interactions with a woman', Prime Minister's Office says",
+				"url": "https://reuters.com/world/asia-pacific/singapore-minister-resigns-over-interactions-with-woman-local-media-reports-2026-07-20/"
+			},
+			{
+				"title": "Suzuki's no-frills cars once ruled India. Then buyers demanded frills.\u00a0",
+				"url": "https://reuters.com/business/autos-transportation/suzukis-no-frills-cars-once-ruled-india-then-buyers-demanded-frills-2026-07-20/"
+			},
+			{
+				"title": "5 key legal documents every young American adult needs\u00a0",
+				"url": "https://reuters.com/default/5-key-legal-documents-every-young-american-adult-needs-2026-07-16/"
+			},
+			{
+				"title": "Spain unites in joy at second World Cup crown",
+				"url": "https://reuters.com/sports/soccer/world-cup-joy-lamines-boyhood-home-rocafonda-2026-07-19/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-07-19",
 		"displayDate": "July 19, 2026",
 		"image": "/images/news-bosch/2026/07/19.webp",
