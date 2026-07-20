@@ -1,44 +1,65 @@
 {
-	"timestamp": "2026-07-19 12:21:15",
+	"timestamp": "2026-07-20 04:35:42",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
 	"pointCount": 425,
-	"clusterCount": 5,
+	"clusterCount": 8,
 	"excludedCronChunks": 0,
 	"excludedShortChunks": 0,
-	"excludedDreamingChunks": 1641,
+	"excludedDreamingChunks": 1649,
 	"clusters": [
 		{
 			"id": 0,
-			"label": "Collaboration",
-			"description": "Topics related to the, user, if.",
-			"size": 171,
-			"keywords": ["the", "user", "if"]
-		},
-		{
-			"id": 1,
 			"label": "Automation",
 			"description": "Scheduled and automated jobs, including routine monitoring tasks.",
-			"size": 127,
+			"size": 126,
 			"keywords": ["cron", "sent"]
 		},
 		{
-			"id": 2,
+			"id": 1,
 			"label": "Session",
 			"description": "Session metadata and timing context tied to recent interactions.",
-			"size": 82,
-			"keywords": ["model"]
+			"size": 81,
+			"keywords": ["model", "utc"]
 		},
 		{
 			"id": 3,
-			"label": "Vault",
-			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-			"size": 30,
-			"keywords": ["cron", "obsidian", "edt", "todo"]
+			"label": "Collaboration",
+			"description": "Topics related to assistant, you, to.",
+			"size": 65,
+			"keywords": ["ben", "add"]
+		},
+		{
+			"id": 2,
+			"label": "Command",
+			"description": "Topics related to the, if, user.",
+			"size": 65,
+			"keywords": ["continue", "task"]
 		},
 		{
 			"id": 4,
+			"label": "Vault",
+			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
+			"size": 31,
+			"keywords": ["cron", "obsidian", "todo", "edt", "changes"]
+		},
+		{
+			"id": 5,
+			"label": "Face",
+			"description": "Topics related to face, hugging, the.",
+			"size": 25,
+			"keywords": ["hugging", "glm5", "model"]
+		},
+		{
+			"id": 7,
+			"label": "Paths",
+			"description": "Topics related to paths, if, the.",
+			"size": 17,
+			"keywords": ["path", "like"]
+		},
+		{
+			"id": 6,
 			"label": "Sluggo",
-			"description": "Topics related to sluggo, and, is.",
+			"description": "Topics related to sluggo, is, and.",
 			"size": 15,
 			"keywords": ["square", "times", "ssh", "identity"]
 		}
@@ -47,2975 +68,2975 @@
 		{
 			"x": 1.0711,
 			"y": 6.8285,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.3383,
 			"y": 5.206,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6574,
 			"y": 7.4137,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.4404,
 			"y": 4.6836,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.422,
 			"y": 4.5544,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.8769,
 			"y": 4.1871,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0894,
 			"y": 5.299,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0045,
 			"y": 5.3571,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0488,
 			"y": 5.3668,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.993,
 			"y": 5.3797,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9302,
 			"y": 5.3937,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.043,
 			"y": 5.3474,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.3873,
 			"y": 7.5746,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-08-drive-service-jokes.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.734,
 			"y": 9.7907,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-08-drive-service-jokes.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.6015,
 			"y": 9.8717,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-08-drive-service-jokes.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.5136,
 			"y": 10.9385,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-08-drive-service-jokes.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.0979,
 			"y": 7.7717,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-08-drive-service-jokes.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.0854,
 			"y": 7.7934,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-08-drive-service-jokes.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.2733,
 			"y": 7.0539,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-08-session-start.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.5775,
 			"y": 7.0399,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-0930.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.5031,
 			"y": 11.0888,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-0930.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.2792,
 			"y": 11.1669,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-0930.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.5582,
 			"y": 6.7746,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-1002.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.2134,
 			"y": 10.8384,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-1002.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.9342,
 			"y": 10.5781,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-09-1002.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.2599,
 			"y": 7.2613,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-1021.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.6402,
 			"y": 10.2779,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-09-1021.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.3135,
 			"y": 7.1932,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.8759,
 			"y": 7.9067,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.9206,
 			"y": 7.8475,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.0249,
 			"y": 7.908,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.8959,
 			"y": 7.8097,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-1032.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.2516,
 			"y": 6.7823,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-1111.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.9182,
 			"y": 11.8879,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-09-1111.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.4457,
 			"y": 11.0733,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-1111.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.0435,
 			"y": 10.7637,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-1111.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.144,
 			"y": 11.8917,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-1111.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.5982,
 			"y": 11.3652,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-1111.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.5634,
 			"y": 11.0439,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-1111.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.3411,
 			"y": 6.7977,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-1459.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.903,
 			"y": 8.4035,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-09-1459.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.6504,
 			"y": 8.5638,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-09-1459.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2569,
 			"y": 6.4255,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.0792,
 			"y": 9.6569,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.7264,
 			"y": 9.4009,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3914,
 			"y": 9.1358,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4466,
 			"y": 9.1346,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.324,
 			"y": 9.2173,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3899,
 			"y": 9.1722,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-1722.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.9451,
 			"y": 7.4308,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-1740.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2891,
 			"y": 11.5072,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-09-1740.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.4177,
 			"y": 11.1543,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-09-1740.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1666,
 			"y": 12.3652,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-09-1740.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.9592,
 			"y": 9.2805,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1786,
 			"y": 9.5518,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1432,
 			"y": 9.3607,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.9455,
 			"y": 9.3076,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.8612,
 			"y": 11.405,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.5647,
 			"y": 9.3496,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1559,
 			"y": 9.7488,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-config-drift.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.4313,
 			"y": 6.9263,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.6162,
 			"y": 10.3881,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.6088,
 			"y": 10.3793,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.6283,
 			"y": 9.2956,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.7397,
 			"y": 9.283,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-09-ire-archive-correction.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.2291,
 			"y": 7.0642,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-new-session.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.3659,
 			"y": 6.8054,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-09-vault-permissions-test.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.2738,
 			"y": 10.7611,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-09-vault-permissions-test.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.3295,
 			"y": 7.5844,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-09.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.201,
 			"y": 7.2126,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-10-grant-gasoline.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1725,
 			"y": 12.3793,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-10-grant-gasoline.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.276,
 			"y": 11.053,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-10-grant-gasoline.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1728,
 			"y": 10.7331,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-10-grant-gasoline.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.0901,
 			"y": 7.0186,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.5255,
 			"y": 8.8786,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4863,
 			"y": 9.0507,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4102,
 			"y": 8.7903,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3703,
 			"y": 8.7821,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3656,
 			"y": 8.7684,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3746,
 			"y": 8.7681,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-10-llm-hosting.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9062,
 			"y": 6.6337,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-10-morphological-shapes.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.0331,
 			"y": 12.4265,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-10-morphological-shapes.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1577,
 			"y": 12.334,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-10-morphological-shapes.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3329,
 			"y": 11.5109,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-10-morphological-shapes.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3671,
 			"y": 11.4623,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-10-morphological-shapes.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.5477,
 			"y": 11.5474,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-10-morphological-shapes.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.1541,
 			"y": 6.8974,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-10-transcription-fail.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3367,
 			"y": 12.3275,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-10-transcription-fail.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.0892,
 			"y": 6.9782,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-10-voice-transcription.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2811,
 			"y": 12.2955,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-10-voice-transcription.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.5457,
 			"y": 11.4994,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-10-voice-transcription.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.1375,
 			"y": 11.1751,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-10-voice-transcription.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.0497,
 			"y": 6.8561,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-10-whisper-task.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.19,
 			"y": 12.4164,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-10-whisper-task.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3216,
 			"y": 10.3274,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-10-whisper-task.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.5738,
 			"y": 4.7657,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-04-10.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1272,
 			"y": 6.3478,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-1759.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.573,
 			"y": 11.2908,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-1759.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.0654,
 			"y": 11.4278,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-1759.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.7636,
 			"y": 9.8402,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-1759.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.9547,
 			"y": 7.6735,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1516,
 			"y": 9.2244,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.3679,
 			"y": 9.085,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.2179,
 			"y": 9.8971,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-2314.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2032,
 			"y": 6.364,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-approval-issues.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.7257,
 			"y": 11.0936,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-approval-issues.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.8268,
 			"y": 11.1686,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-approval-issues.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.1232,
 			"y": 11.2232,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-approval-issues.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1239,
 			"y": 6.3901,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-consolidate-ideas.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.1238,
 			"y": 10.9525,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-consolidate-ideas.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.911,
 			"y": 10.8409,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-consolidate-ideas.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.721,
 			"y": 10.7073,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-consolidate-ideas.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.7012,
 			"y": 10.6982,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-consolidate-ideas.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.0413,
 			"y": 6.2639,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-email-permissions.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.06,
 			"y": 11.5997,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-email-permissions.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.5236,
 			"y": 11.6138,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-email-permissions.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3903,
 			"y": 9.9508,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-email-permissions.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3869,
 			"y": 10.0694,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-email-permissions.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1175,
 			"y": 6.1962,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-fastmail-fetch.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.5211,
 			"y": 11.5867,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-fastmail-fetch.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.6035,
 			"y": 11.5682,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-fastmail-fetch.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.7041,
 			"y": 11.6457,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-fastmail-fetch.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.4653,
 			"y": 11.6609,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-fastmail-fetch.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.5531,
 			"y": 11.699,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-fastmail-fetch.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.4429,
 			"y": 11.6377,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-fastmail-fetch.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.5949,
 			"y": 6.8837,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-file-update.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.1224,
 			"y": 6.7877,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-humidor-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9454,
 			"y": 11.8621,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-11-humidor-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3639,
 			"y": 12.358,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-11-humidor-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.2718,
 			"y": 11.6887,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-humidor-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1347,
 			"y": 11.5986,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-humidor-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.0225,
 			"y": 6.1369,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-kip-origin.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.4233,
 			"y": 7.3494,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-new-session.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.6893,
 			"y": 6.3076,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-sent-email-sync.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.2388,
 			"y": 11.2885,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-sent-email-sync.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.2365,
 			"y": 11.3063,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-sent-email-sync.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.3174,
 			"y": 11.2605,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-sent-email-sync.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.2777,
 			"y": 11.3178,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-11-sent-email-sync.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.2136,
 			"y": 7.3779,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-11-train-dreams.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.7166,
 			"y": 10.8372,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-train-dreams.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.0184,
 			"y": 11.6278,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-11-train-dreams.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2004,
 			"y": 11.6318,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-train-dreams.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.0733,
 			"y": 10.2265,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-11-train-dreams.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.6804,
 			"y": 6.4304,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-12-1606.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.2008,
 			"y": 8.0988,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-12-1606.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1427,
 			"y": 8.0178,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-1606.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2011,
 			"y": 6.3227,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.6173,
 			"y": 8.1988,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.6243,
 			"y": 8.1894,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.6969,
 			"y": 8.1392,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9924,
 			"y": 6.2197,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-12-email-allowlist.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.7281,
 			"y": 11.7685,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-email-allowlist.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.8265,
 			"y": 11.5923,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-email-allowlist.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1475,
 			"y": 6.1648,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-12-fastmail-verify.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.483,
 			"y": 11.6882,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-fastmail-verify.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.4308,
 			"y": 11.8424,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-fastmail-verify.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.4379,
 			"y": 11.9393,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-fastmail-verify.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1002,
 			"y": 6.1524,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-12-github-repo.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.4331,
 			"y": 11.8146,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-github-repo.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.0125,
 			"y": 12.2843,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-12-github-repo.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.0437,
 			"y": 12.4209,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-12-github-repo.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.172,
 			"y": 6.1225,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-12-inbox-check.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.3262,
 			"y": 10.2661,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-12-inbox-check.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.2541,
 			"y": 10.4136,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-12-inbox-check.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.5948,
 			"y": 11.0232,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-inbox-check.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.5971,
 			"y": 11.6519,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-12-inbox-check.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.202,
 			"y": 6.2302,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-13-1055.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.8128,
 			"y": 11.3631,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-13-1055.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.8688,
 			"y": 11.5362,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-13-1055.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.222,
 			"y": 6.0842,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-13-1103.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.964,
 			"y": 11.7075,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-13-1103.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.971,
 			"y": 11.5464,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-13-1103.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.0058,
 			"y": 11.6839,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-13-1103.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6764,
 			"y": 6.1363,
-			"cluster": 1,
+			"cluster": 4,
 			"path": "memory/2026-04-13.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.95,
 			"y": 6.8079,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-14-1209.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.736,
 			"y": 7.1227,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-16-1025.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.7444,
 			"y": 11.3351,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-16-1025.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.6143,
 			"y": 11.3752,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-16-1025.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.1767,
 			"y": 6.9951,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-16-1030.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.1639,
 			"y": 6.943,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-16-1033.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.1686,
 			"y": 6.9886,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-16-1039.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.192,
 			"y": 6.9458,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-16-1041.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.4438,
 			"y": 7.2053,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-0902.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.4036,
 			"y": 10.6414,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-0902.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1489,
 			"y": 10.5177,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-0902.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.1119,
 			"y": 6.982,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-1039.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.0635,
 			"y": 7.5853,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-1039.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.028,
 			"y": 7.7008,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-1039.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9801,
 			"y": 10.254,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-1039.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.829,
 			"y": 10.2349,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-1039.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.4491,
 			"y": 7.7769,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-1039.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.2338,
 			"y": 7.0696,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-1041.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.089,
 			"y": 7.4381,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-1041.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.0875,
 			"y": 7.5636,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-1041.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.5293,
 			"y": 7.1174,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-1328.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.137,
 			"y": 12.4004,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-18-1328.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.6575,
 			"y": 10.3717,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-1328.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2425,
 			"y": 10.4797,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-1328.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.4664,
 			"y": 7.5131,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-failed-to-call-a-function-plea.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1829,
 			"y": 11.2848,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-failed-to-call-a-function-plea.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9585,
 			"y": 10.1802,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-failed-to-call-a-function-plea.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.4725,
 			"y": 7.6596,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-first-meeting.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.7913,
 			"y": 7.619,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-hello-again.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.8327,
 			"y": 10.1051,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-hello-again.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.8,
 			"y": 7.7702,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-humidor-reading.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.1205,
 			"y": 7.584,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-kip-check-in.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.784,
 			"y": 10.1115,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-kip-check-in.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.5791,
 			"y": 7.7317,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-kip-intro.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.5034,
 			"y": 7.654,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-kip-startup.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.9533,
 			"y": 7.7806,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-model-switch.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.822,
 			"y": 9.646,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-model-switch.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.8249,
 			"y": 9.8118,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-model-switch.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.4267,
 			"y": 7.6728,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-new-session.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.1453,
 			"y": 7.0926,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-obama-cubs-2026-townhall.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.5902,
 			"y": 5.5883,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-04-18-obama-cubs-2026-townhall.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.9469,
 			"y": 11.5395,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-18-obama-cubs-2026-townhall.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.8873,
 			"y": 11.71,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-18-obama-cubs-2026-townhall.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.1712,
 			"y": 7.0364,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-session-start.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.1606,
 			"y": 7.5375,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-session-start.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.072,
 			"y": 7.3159,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-session-startup.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.8725,
 			"y": 7.7175,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-tool-call-validation-failed-at.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.822,
 			"y": 10.0529,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-18-tool-call-validation-failed-at.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.9843,
 			"y": 7.7563,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-18-version-check.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.1205,
 			"y": 8.6726,
-			"cluster": 0,
+			"cluster": 5,
 			"path": "memory/2026-04-18-version-check.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.7414,
 			"y": 7.1588,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-22-agent-couldn-t-generate-a-resp.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.4269,
 			"y": 11.1781,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-22-agent-couldn-t-generate-a-resp.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.9307,
 			"y": 10.9843,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-22-agent-couldn-t-generate-a-resp.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.4459,
 			"y": 10.6582,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-22-agent-couldn-t-generate-a-resp.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.8246,
 			"y": 10.5541,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-22-agent-couldn-t-generate-a-resp.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.1931,
 			"y": 7.6187,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-22-daily-summary.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.8848,
 			"y": 10.1389,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-22-daily-summary.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.8338,
 			"y": 10.2923,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-22-daily-summary.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.8614,
 			"y": 10.3117,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-22-daily-summary.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.222,
 			"y": 7.5377,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-22-phone-speak.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.6339,
 			"y": 11.07,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-22-phone-speak.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.092,
 			"y": 4.2228,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-04-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9972,
 			"y": 6.6929,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-23-chart-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.2199,
 			"y": 11.811,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-23-chart-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.6086,
 			"y": 11.4791,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-23-chart-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.0708,
 			"y": 11.6514,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-23-chart-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.8435,
 			"y": 6.9712,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-23-run-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3456,
 			"y": 10.5209,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-23-run-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3988,
 			"y": 10.4468,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-23-run-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.5249,
 			"y": 10.7404,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-23-run-log.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1204,
 			"y": 6.5363,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-24-1704.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.9326,
 			"y": 11.8563,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-24-1704.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2574,
 			"y": 10.5759,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-24-1704.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1227,
 			"y": 10.8499,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-24-1704.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.1003,
 			"y": 11.1823,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-24-1704.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.286,
 			"y": 10.5486,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-24-1704.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.5162,
 			"y": 10.6484,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-24-1704.md",
 			"source": "memory"
 		},
 		{
 			"x": 10.0075,
 			"y": 3.5146,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-04-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.876,
 			"y": 7.0272,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-25-1057.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.2942,
 			"y": 12.28,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-25-1057.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.5958,
 			"y": 11.3248,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-25-1057.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.682,
 			"y": 11.3149,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-25-1057.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9487,
 			"y": 10.3137,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-25-1057.md",
 			"source": "memory"
 		},
 		{
 			"x": 0.5604,
 			"y": 7.1954,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-25-1357.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.3018,
 			"y": 10.4676,
-			"cluster": 2,
+			"cluster": 5,
 			"path": "memory/2026-04-25-1357.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.364,
 			"y": 11.3055,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-25-1357.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.393,
 			"y": 11.2629,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-25-1357.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.4186,
 			"y": 7.4321,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-25-2357.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.0649,
 			"y": 10.9829,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-25-2357.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.1608,
 			"y": 11.1168,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-25-2357.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.9714,
 			"y": 3.5583,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-04-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.68,
 			"y": 7.159,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-27-1359.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9297,
 			"y": 11.2901,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-27-1359.md",
 			"source": "memory"
 		},
 		{
 			"x": 3.6439,
 			"y": 11.4472,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-27-1359.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.3793,
 			"y": 11.1525,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-27-1359.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.4989,
 			"y": 12.2853,
-			"cluster": 0,
+			"cluster": 7,
 			"path": "memory/2026-04-27-1359.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.785,
 			"y": 12.03,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-27-1359.md",
 			"source": "memory"
 		},
 		{
 			"x": 4.2877,
 			"y": 11.4342,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-04-27-1359.md",
 			"source": "memory"
 		},
 		{
 			"x": 10.0064,
 			"y": 3.5246,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-04-29.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.8101,
 			"y": 7.1867,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-04-30-0029.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.5888,
 			"y": 10.1521,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-30-0029.md",
 			"source": "memory"
 		},
 		{
 			"x": 2.0254,
 			"y": 10.0314,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-30-0029.md",
 			"source": "memory"
 		},
 		{
 			"x": 1.9565,
 			"y": 10.018,
-			"cluster": 0,
+			"cluster": 3,
 			"path": "memory/2026-04-30-0029.md",
 			"source": "memory"
 		},
 		{
 			"x": 10.0367,
 			"y": 3.527,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-01.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.3453,
 			"y": 4.95,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-02.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.5442,
 			"y": 7.6969,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-05.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.5138,
 			"y": 4.6824,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.6042,
 			"y": 4.6368,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.5697,
 			"y": 4.6809,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.6411,
 			"y": 4.6387,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.5279,
 			"y": 3.9476,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.0305,
 			"y": 5.0309,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.4148,
 			"y": 3.6342,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0934,
 			"y": 7.2718,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-08.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0024,
 			"y": 7.339,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-09.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.3014,
 			"y": 3.9716,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-09.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8976,
 			"y": 5.1143,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-13.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.3255,
 			"y": 4.9705,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-14.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.1624,
 			"y": 11.7663,
-			"cluster": 0,
+			"cluster": 2,
 			"path": "memory/2026-05-15.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.3813,
 			"y": 3.9094,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9628,
 			"y": 3.7016,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.5732,
 			"y": 3.3958,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.7249,
 			"y": 3.2896,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9781,
 			"y": 7.42,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.1511,
 			"y": 3.7781,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9237,
 			"y": 3.3581,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.3497,
 			"y": 3.1251,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.6271,
 			"y": 3.3315,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.749,
 			"y": 4.9791,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.7707,
 			"y": 7.6571,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.1143,
 			"y": 3.7937,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9305,
 			"y": 3.5862,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9413,
 			"y": 3.689,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.2002,
 			"y": 3.2889,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.8009,
 			"y": 5.0693,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.608,
 			"y": 7.6019,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.1446,
 			"y": 3.6706,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9208,
 			"y": 3.4847,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.8329,
 			"y": 3.65,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.0216,
 			"y": 3.4807,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.8144,
 			"y": 5.0723,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.5608,
 			"y": 7.5444,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8979,
 			"y": 7.5598,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.4971,
 			"y": 3.4907,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0358,
 			"y": 3.8774,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.4439,
 			"y": 5.0192,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.7828,
 			"y": 4.6555,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.0296,
 			"y": 3.4047,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.6585,
 			"y": 3.3705,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.8187,
 			"y": 5.0826,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6942,
 			"y": 7.5163,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.3642,
 			"y": 3.5497,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8499,
 			"y": 3.6316,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.5031,
 			"y": 5.1781,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.5768,
 			"y": 5.0404,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.9707,
 			"y": 3.409,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.0687,
 			"y": 4.4152,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.8384,
 			"y": 4.8591,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.4765,
 			"y": 5.5918,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.3418,
 			"y": 5.7236,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.8081,
 			"y": 5.0667,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.4023,
 			"y": 7.5553,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6687,
 			"y": 7.448,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.2832,
 			"y": 3.5359,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0455,
 			"y": 3.2774,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.8878,
 			"y": 3.7676,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.4744,
 			"y": 4.2127,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.7814,
 			"y": 4.8342,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.9039,
 			"y": 3.313,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.7938,
 			"y": 5.0579,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8299,
 			"y": 7.6091,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.1234,
 			"y": 3.666,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9516,
 			"y": 3.1756,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.1578,
 			"y": 4.1362,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.062,
 			"y": 3.9851,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.1867,
 			"y": 3.6913,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.3483,
 			"y": 3.7339,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.3783,
 			"y": 3.2728,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.1123,
 			"y": 3.8455,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.5469,
 			"y": 3.4809,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.7089,
 			"y": 4.7164,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0952,
 			"y": 7.4689,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.188,
 			"y": 3.8125,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.2374,
 			"y": 3.5247,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0341,
 			"y": 3.7256,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.2093,
 			"y": 3.1348,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.2254,
 			"y": 3.4039,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.2027,
 			"y": 3.8346,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.581,
 			"y": 3.3966,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.7596,
 			"y": 4.6714,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0275,
 			"y": 7.3724,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8841,
 			"y": 7.6308,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.7067,
 			"y": 3.2415,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9442,
 			"y": 3.7081,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.5646,
 			"y": 4.0657,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.8728,
 			"y": 3.6252,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.4477,
 			"y": 3.7634,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.6174,
 			"y": 3.4458,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.6616,
 			"y": 4.6874,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0701,
 			"y": 7.2913,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9962,
 			"y": 7.5699,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0107,
 			"y": 3.3685,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6191,
 			"y": 3.246,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.3045,
 			"y": 3.1475,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.6912,
 			"y": 4.7018,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.7772,
 			"y": 4.8628,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.5434,
 			"y": 3.412,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.6651,
 			"y": 4.5584,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0512,
 			"y": 7.3091,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.1999,
 			"y": 3.7624,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9835,
 			"y": 3.1415,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.981,
 			"y": 3.8117,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.6409,
 			"y": 3.9957,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
 			"x": 9.6421,
 			"y": 3.6313,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.4684,
 			"y": 7.6491,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9182,
 			"y": 7.4462,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.2618,
 			"y": 4.3136,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.54,
 			"y": 7.3951,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.5436,
 			"y": 5.3704,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.629,
 			"y": 7.2272,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-06-01.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9258,
 			"y": 4.3095,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-02.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.0864,
 			"y": 4.6811,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-02.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9401,
 			"y": 4.3999,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.7098,
 			"y": 3.8045,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.4718,
 			"y": 3.8968,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.8922,
 			"y": 4.712,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-04.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6691,
 			"y": 4.3649,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.1581,
 			"y": 4.1456,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.4229,
 			"y": 4.4995,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.9328,
 			"y": 5.1198,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-06.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.1392,
 			"y": 5.082,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.1385,
 			"y": 5.035,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.3694,
 			"y": 5.1673,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.5466,
 			"y": 5.3464,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.8463,
 			"y": 4.21,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-07-10.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.1129,
 			"y": 5.3843,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0501,
 			"y": 5.4822,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9933,
 			"y": 5.4316,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.1143,
 			"y": 5.3746,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.9657,
 			"y": 5.4118,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 5.984,
 			"y": 5.4493,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.1946,
 			"y": 5.4726,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.696,
 			"y": 5.436,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/automated-charts.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.7483,
 			"y": 5.4317,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/ceo-scorecard.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.7285,
 			"y": 5.4171,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/climate-monitor.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.6314,
 			"y": 5.4689,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/ire-archive.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.5916,
 			"y": 5.5609,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/management.md",
 			"source": "memory"
 		},
 		{
 			"x": 8.2491,
 			"y": 5.029,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.131,
 			"y": 5.2719,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 6.0413,
 			"y": 5.2869,
-			"cluster": 4,
+			"cluster": 6,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
 			"x": 7.5227,
 			"y": 4.0794,
-			"cluster": 1,
+			"cluster": 0,
 			"path": "memory/2026-07-19.md",
 			"source": "memory"
 		}
@@ -3026,107 +3047,90 @@
 		"value": 425,
 		"children": [
 			{
-				"id": "family:planning-&-dialogue",
-				"label": "Planning & Dialogue",
-				"value": 253,
+				"id": "family:operations",
+				"label": "Operations",
+				"value": 191,
 				"children": [
 					{
 						"id": "cluster:0",
 						"clusterId": 0,
-						"label": "Collaboration",
-						"description": "Topics related to the, user, if.",
-						"value": 171,
+						"label": "Automation",
+						"description": "Scheduled and automated jobs, including routine monitoring tasks.",
+						"value": 126,
 						"children": [
 							{
 								"id": "keyword:0:0",
-								"label": "the",
-								"value": 85.5
+								"label": "cron",
+								"value": 84.0
 							},
 							{
 								"id": "keyword:0:1",
-								"label": "user",
-								"value": 57.0
-							},
-							{
-								"id": "keyword:0:2",
-								"label": "if",
-								"value": 28.5
+								"label": "sent",
+								"value": 42.0
 							}
 						]
 					},
 					{
 						"id": "cluster:2",
 						"clusterId": 2,
-						"label": "Session",
-						"description": "Session metadata and timing context tied to recent interactions.",
-						"value": 82,
+						"label": "Command",
+						"description": "Topics related to the, if, user.",
+						"value": 65,
 						"children": [
 							{
 								"id": "keyword:2:0",
-								"label": "model",
-								"value": 82.0
+								"label": "continue",
+								"value": 43.33
+							},
+							{
+								"id": "keyword:2:1",
+								"label": "task",
+								"value": 21.67
 							}
 						]
 					}
 				]
 			},
 			{
-				"id": "family:operations",
-				"label": "Operations",
-				"value": 127,
+				"id": "family:planning-&-dialogue",
+				"label": "Planning & Dialogue",
+				"value": 146,
 				"children": [
 					{
 						"id": "cluster:1",
 						"clusterId": 1,
-						"label": "Automation",
-						"description": "Scheduled and automated jobs, including routine monitoring tasks.",
-						"value": 127,
+						"label": "Session",
+						"description": "Session metadata and timing context tied to recent interactions.",
+						"value": 81,
 						"children": [
 							{
 								"id": "keyword:1:0",
-								"label": "cron",
-								"value": 84.67
+								"label": "model",
+								"value": 54.0
 							},
 							{
 								"id": "keyword:1:1",
-								"label": "sent",
-								"value": 42.33
+								"label": "utc",
+								"value": 27.0
 							}
 						]
-					}
-				]
-			},
-			{
-				"id": "family:knowledge",
-				"label": "Knowledge",
-				"value": 30,
-				"children": [
+					},
 					{
 						"id": "cluster:3",
 						"clusterId": 3,
-						"label": "Vault",
-						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-						"value": 30,
+						"label": "Collaboration",
+						"description": "Topics related to assistant, you, to.",
+						"value": 65,
 						"children": [
 							{
 								"id": "keyword:3:0",
-								"label": "cron",
-								"value": 12.0
+								"label": "ben",
+								"value": 43.33
 							},
 							{
 								"id": "keyword:3:1",
-								"label": "obsidian",
-								"value": 9.0
-							},
-							{
-								"id": "keyword:3:2",
-								"label": "edt",
-								"value": 6.0
-							},
-							{
-								"id": "keyword:3:3",
-								"label": "todo",
-								"value": 3.0
+								"label": "add",
+								"value": 21.67
 							}
 						]
 					}
@@ -3135,34 +3139,118 @@
 			{
 				"id": "family:workflow-signals",
 				"label": "Workflow Signals",
-				"value": 15,
+				"value": 57,
 				"children": [
 					{
-						"id": "cluster:4",
-						"clusterId": 4,
+						"id": "cluster:5",
+						"clusterId": 5,
+						"label": "Face",
+						"description": "Topics related to face, hugging, the.",
+						"value": 25,
+						"children": [
+							{
+								"id": "keyword:5:0",
+								"label": "hugging",
+								"value": 12.5
+							},
+							{
+								"id": "keyword:5:1",
+								"label": "glm5",
+								"value": 8.33
+							},
+							{
+								"id": "keyword:5:2",
+								"label": "model",
+								"value": 4.17
+							}
+						]
+					},
+					{
+						"id": "cluster:7",
+						"clusterId": 7,
+						"label": "Paths",
+						"description": "Topics related to paths, if, the.",
+						"value": 17,
+						"children": [
+							{
+								"id": "keyword:7:0",
+								"label": "path",
+								"value": 11.33
+							},
+							{
+								"id": "keyword:7:1",
+								"label": "like",
+								"value": 5.67
+							}
+						]
+					},
+					{
+						"id": "cluster:6",
+						"clusterId": 6,
 						"label": "Sluggo",
-						"description": "Topics related to sluggo, and, is.",
+						"description": "Topics related to sluggo, is, and.",
 						"value": 15,
 						"children": [
 							{
-								"id": "keyword:4:0",
+								"id": "keyword:6:0",
 								"label": "square",
 								"value": 6.0
 							},
 							{
-								"id": "keyword:4:1",
+								"id": "keyword:6:1",
 								"label": "times",
 								"value": 4.5
 							},
 							{
-								"id": "keyword:4:2",
+								"id": "keyword:6:2",
 								"label": "ssh",
 								"value": 3.0
 							},
 							{
-								"id": "keyword:4:3",
+								"id": "keyword:6:3",
 								"label": "identity",
 								"value": 1.5
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "family:knowledge",
+				"label": "Knowledge",
+				"value": 31,
+				"children": [
+					{
+						"id": "cluster:4",
+						"clusterId": 4,
+						"label": "Vault",
+						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
+						"value": 31,
+						"children": [
+							{
+								"id": "keyword:4:0",
+								"label": "cron",
+								"value": 10.33
+							},
+							{
+								"id": "keyword:4:1",
+								"label": "obsidian",
+								"value": 8.27
+							},
+							{
+								"id": "keyword:4:2",
+								"label": "todo",
+								"value": 6.2
+							},
+							{
+								"id": "keyword:4:3",
+								"label": "edt",
+								"value": 4.13
+							},
+							{
+								"id": "keyword:4:4",
+								"label": "changes",
+								"value": 2.07
 							}
 						]
 					}
