@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-07-21",
+		"displayDate": "July 21, 2026",
+		"image": "/images/news-bosch/2026/07/21.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 1792x1024) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 1792x1024)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-21T10:15:34.447117Z",
+		"sourceRetrievedAt": "2026-07-21T10:10:43.889711Z",
+		"themes": [
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [1, 3, 4, 5, 7, 9, 10]
+			},
+			{
+				"name": "Nature, Risk, and Discovery",
+				"interpretation": "Bodies, ecosystems, and frontiers strain under pressure as discovery and hazard advance together.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Origins and Promises",
+				"interpretation": "Institutions and actors set events in motion with pledges, plans, and unspoken costs.",
+				"storyRanks": [3]
+			}
+		],
+		"stories": [
+			{
+				"title": "Houthis announce Saudi naval blockade, threatening new front in US-Iran war",
+				"url": "https://reuters.com/world/middle-east/us-launches-iran-strikes-ninth-day-another-american-confirmed-killed-2026-07-20/"
+			},
+			{
+				"title": "Modi calls for foolproof exam system in India after youth protests",
+				"url": "https://reuters.com/world/india/india-youth-group-says-protest-continue-after-delhi-clashes-injure-180-2026-07-21/"
+			},
+			{
+				"title": "Why oil prices haven't gone crazy despite 5 months of US-Iran war",
+				"url": "https://reuters.com/business/energy/why-oil-prices-havent-gone-crazy-despite-5-months-us-iran-war-2026-07-20/"
+			},
+			{
+				"title": "Nicaragua's Ortega says 'never again' for elections after two decades in power",
+				"url": "https://reuters.com/world/americas/ortega-says-nicaragua-will-no-longer-hold-elections-2026-07-20/"
+			},
+			{
+				"title": "As Russia deploys jet-powered Shaheds, companies turn to faster interceptor drones",
+				"url": "https://reuters.com/business/aerospace-defense/russia-deploys-jet-powered-shaheds-companies-turn-faster-interceptor-drones-2026-07-21/"
+			},
+			{
+				"title": "Houthi Red Sea blockade would lift oil prices, but workarounds could limit impact\u00a0",
+				"url": "https://reuters.com/business/energy/houthi-red-sea-blockade-would-lift-oil-prices-workarounds-could-limit-impact-2026-07-20/"
+			},
+			{
+				"title": "US imposes new 50% tariffs on $20 billion worth of Canadian products",
+				"url": "https://reuters.com/business/us-imposes-new-50-tariffs-canadian-products-2026-07-20/"
+			},
+			{
+				"title": "Indian rupee's return to near-record lows reflects RBI debate on intervention",
+				"url": "https://reuters.com/world/india/indian-rupees-return-near-record-lows-reflects-rbi-debate-intervention-2026-07-21/"
+			},
+			{
+				"title": "US judge approves Anthropic's $1.5 billion settlement of copyright lawsuit",
+				"url": "https://reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/"
+			},
+			{
+				"title": "Diplomatic efforts seek to avert Trump split with UN refugee agency, sources say",
+				"url": "https://reuters.com/world/diplomatic-efforts-seek-avert-trump-split-with-un-refugee-agency-sources-say-2026-07-20/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"celestial bodies, eclipses, comets, clocks, and constellations"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-07-20",
 		"displayDate": "July 20, 2026",
 		"image": "/images/news-bosch/2026/07/20.webp",
