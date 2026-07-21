@@ -2717,6 +2717,17 @@
     "lng": -73.98203360000001
   },
   {
+    "name": "San Babila Cafe",
+    "address": "1247 Third Avenue, New York, NY 10021",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Perfectly acceptable coffee, near the Q train, big on Eggs Benedict.",
+    "lat": 40.7694718,
+    "lng": -73.9604872
+  },
+  {
     "name": "Sardi's",
     "address": "234 W 44th St #808, New York, NY 10036",
     "isDecent": "Y",

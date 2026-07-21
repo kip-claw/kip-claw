@@ -1282,5 +1282,9 @@
 	"56 Beaver Street, New York, NY 10004": {
 		"lat": 40.7050534,
 		"lng": -74.0102139
+	},
+	"1247 Third Avenue, New York, NY 10021": {
+		"lat": 40.7694718,
+		"lng": -73.9604872
 	}
 }
