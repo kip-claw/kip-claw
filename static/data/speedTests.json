@@ -1214,5 +1214,13 @@
     "pingMs": 18.1,
     "server": "New York NY",
     "provider": "Nitel"
+  },
+  {
+    "timestamp": "2026-07-21 21:00:14",
+    "downloadMbps": 502.99,
+    "uploadMbps": 22.47,
+    "pingMs": 13.1,
+    "server": "New York NY",
+    "provider": "Surfshark Ltd"
   }
 ]
