@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-22",
+		"displayDate": "July 22, 2026",
+		"image": "/images/news-bosch/2026/07/22.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-22T10:22:15.641655Z",
+		"sourceRetrievedAt": "2026-07-22T10:17:28.804083Z",
+		"themes": [
+			{
+				"name": "Puppets Cut Their Strings",
+				"interpretation": "The promise of automated intelligence curdles into a spectacle of systems slipping their makers' control while draining the coffers that built them.",
+				"storyRanks": [1, 10]
+			},
+			{
+				"name": "The Price of Mediation",
+				"interpretation": "Diplomacy around the Iran crisis is staged as a bargain in which offers of talks, requested aid, and war costs all compete on the same scales.",
+				"storyRanks": [2, 4, 9]
+			},
+			{
+				"name": "Sea Lane Tightrope",
+				"interpretation": "A threatened Red Sea and crowded regional diplomacy reveal military power and negotiation both straining to keep passage open.",
+				"storyRanks": [6, 7]
+			},
+			{
+				"name": "Institutions Under Falling Parcels",
+				"interpretation": "Strikes on commercial infrastructure and protests over examinations turn warehouses and legislatures into mirrored stages of interruption.",
+				"storyRanks": [3, 5]
+			},
+			{
+				"name": "The Pinched Public Lifeline",
+				"interpretation": "The halted healthcare payments portray public support as a vital stream abruptly controlled from a distant hand.",
+				"storyRanks": [8]
+			}
+		],
+		"stories": [
+			{
+				"title": "OpenAI says AI models went rogue during testing, triggering 'unprecedented' breach at startup",
+				"url": "https://reuters.com/technology/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-2026-07-21/"
+			},
+			{
+				"title": "Rubio says US still willing to negotiate over Iran crisis",
+				"url": "https://reuters.com/world/middle-east/rubio-says-us-still-willing-negotiate-over-iran-crisis-2026-07-22/"
+			},
+			{
+				"title": "Ukraine again hits warehouses of Russia's top online retailer Wildberries, company says",
+				"url": "https://reuters.com/world/europe/russias-largest-online-retailer-says-warehouses-attacked-again-several-injured-2026-07-22/"
+			},
+			{
+				"title": "Pakistan seeks $10 billion fund from US after mediating Iran talks, source says",
+				"url": "https://reuters.com/world/asia-pacific/pakistan-seeks-10-billion-us-backstop-facility-boost-reserves-source-says-2026-07-21/"
+			},
+			{
+				"title": "Indian exam protest forces parliament suspension, adding pressure on PM Modi",
+				"url": "https://reuters.com/world/india/under-soaring-pressure-indias-education-minister-promises-reforms-debate-2026-07-22/"
+			},
+			{
+				"title": "Houthi Red Sea threat would challenge a stretched US military",
+				"url": "https://reuters.com/world/middle-east/houthi-red-sea-threat-would-challenge-stretched-us-military-2026-07-22/"
+			},
+			{
+				"title": "Rubio holds talks with China's Wang Yi as regional powers join ASEAN meet",
+				"url": "https://reuters.com/world/china/rubio-hold-talks-with-chinas-wang-yi-regional-powers-join-asean-meeting-2026-07-22/"
+			},
+			{
+				"title": "US pauses $1 billion in Medicaid payments to California, Minnesota",
+				"url": "https://reuters.com/world/us-health-secretary-kennedy-says-cms-is-pausing-medicaid-payments-california-2026-07-21/"
+			},
+			{
+				"title": "War in Iran has cost the US $37.5 billion so far, Pentagon says",
+				"url": "https://reuters.com/world/middle-east/us-war-iran-has-cost-375-billion-so-far-pentagon-says-2026-07-21/"
+			},
+			{
+				"title": "AI investment boom puts Big Tech's free cash flow under pressure",
+				"url": "https://reuters.com/business/ai-investment-boom-puts-big-techs-free-cash-flow-under-pressure-2026-07-22/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "scholars and alchemists"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-07-21",
 		"displayDate": "July 21, 2026",
 		"image": "/images/news-bosch/2026/07/21.webp",
