@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-07-23",
+		"displayDate": "July 23, 2026",
+		"image": "/images/news-bosch/2026/07/23.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-23T10:15:37.044759Z",
+		"sourceRetrievedAt": "2026-07-23T10:10:43.509461Z",
+		"themes": [
+			{
+				"name": "Thresholds Under Fire",
+				"interpretation": "War turns borders, seas and ordinary passageways into lethal thresholds where movement itself becomes a weapon.",
+				"storyRanks": [1, 6, 9]
+			},
+			{
+				"name": "The Secret Arms Workshop",
+				"interpretation": "Fears of covert alliances and nuclear bargains depict the region as a workshop where each defensive tool manufactures the next threat.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "Institutions With Missing Teeth",
+				"interpretation": "Courts, regulators and sanctions authorities are pressured to prove that their mechanisms can still hold powerful actors accountable.",
+				"storyRanks": [4, 5, 7]
+			},
+			{
+				"name": "Flight Paths and Bottlenecks",
+				"interpretation": "Ambition to expand travel and clean energy collides with concentrated markets and supply chains that function like narrow gates.",
+				"storyRanks": [8, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			},
+			{
+				"title": "Iran strikes on CIA facilities prompt questions about possible Russian role",
+				"url": "https://reuters.com/world/middle-east/iran-strikes-cia-facilities-prompt-questions-about-possible-russian-role-2026-07-22/"
+			},
+			{
+				"title": "Israelis fear Saudi nuclear deal could ignite Mideast arms race",
+				"url": "https://reuters.com/world/middle-east/israelis-fear-saudi-nuclear-deal-could-ignite-mideast-arms-race-2026-07-23/"
+			},
+			{
+				"title": "India's Modi promises fast-track courts on exam leaks, protesters want minister to quit",
+				"url": "https://reuters.com/world/india/fresh-violence-delhi-youth-protest-demanding-ministers-resignation-2026-07-23/"
+			},
+			{
+				"title": "EU envoys agree 21st sanctions package against Russia targeting banks",
+				"url": "https://reuters.com/business/finance/eu-ambassadors-agree-21st-sanctions-package-against-russia-eu-diplomats-say-2026-07-23/"
+			},
+			{
+				"title": "Iran war live: Houthis strike tankers in Red Sea as second oil chokepoint looms",
+				"url": "https://reuters.com/world/iran-war-live-houthis-strike-tankers-red-sea-enforce-blockade-against-saudi-oil-2026-07-23/"
+			},
+			{
+				"title": "US FDA says it is investigating another cyclosporiasis outbreak",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/us-fda-says-it-is-investigating-another-cyclospora-outbreak-2026-07-22/"
+			},
+			{
+				"title": "Billionaire Adani weighs airline launch in Indian duopoly market, sources say",
+				"url": "https://reuters.com/world/india/indias-adani-group-considers-launching-own-airline-sources-say-2026-07-23/"
+			},
+			{
+				"title": "Houthis say they attacked Saudi tankers in the Red Sea, threatening new chokepoint in Iran war",
+				"url": "https://reuters.com/world/middle-east/houthis-say-they-attacked-saudi-tankers-red-sea-threatening-new-chokepoint-iran-2026-07-23/"
+			},
+			{
+				"title": "India's solar push idles factories unable to shake reliance on China",
+				"url": "https://reuters.com/business/energy/indias-solar-push-idles-factories-unable-shake-reliance-china-2026-07-23/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "scholars and alchemists"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-07-22",
 		"displayDate": "July 22, 2026",
 		"image": "/images/news-bosch/2026/07/22.webp",
