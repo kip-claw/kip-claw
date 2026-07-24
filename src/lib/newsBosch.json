@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-24",
+		"displayDate": "July 24, 2026",
+		"image": "/images/news-bosch/2026/07/24.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-24T10:15:38.138203Z",
+		"sourceRetrievedAt": "2026-07-24T10:10:43.750813Z",
+		"themes": [
+			{
+				"name": "Tollgate Procession",
+				"interpretation": "A trade procession reaches a labyrinthine customs threshold where coercion tariffs summon both protest and retaliation.",
+				"storyRanks": [1, 10]
+			},
+			{
+				"name": "Red Sea Hidden Chamber",
+				"interpretation": "The widening Iran conflict becomes a concealed military passage, moving weapons toward Yemen while attacks and threats interrupt the sea route.",
+				"storyRanks": [3, 4, 9]
+			},
+			{
+				"name": "Kill Zone Labyrinth",
+				"interpretation": "Ukraine\u2019s battlefield is imagined as a deadly maze whose exposed corridors turn every advance into a hunted procession.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Twin Stars, Empty Shelves",
+				"interpretation": "Technology rivalry and war-disrupted consumer supply chains reveal how distant conflicts reshape the objects that reach ordinary hands.",
+				"storyRanks": [6, 8]
+			},
+			{
+				"name": "Smoke Behind the Curtain",
+				"interpretation": "National emergency and political delay play as parallel side scenes, with wildfire urgency pressing against an unmoved institutional stage.",
+				"storyRanks": [5, 7]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump imposes forced labor tariffs, drawing protests from trading partners",
+				"url": "https://reuters.com/world/us/trump-imposes-forced-labor-duties-60-trading-partners-as-10-us-tariffs-expire-2026-07-24/"
+			},
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			},
+			{
+				"title": "Iran flew IRGC commanders, missile gear to Yemen's Houthis, sources say",
+				"url": "https://reuters.com/world/middle-east/iran-flew-irgc-commanders-missile-gear-yemens-houthis-sources-say-2026-07-23/"
+			},
+			{
+				"title": "Trump vows to punish Iran and Houthis for attacks in Red Sea",
+				"url": "https://reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24/"
+			},
+			{
+				"title": "Indian government seeks time on minister resignation demand",
+				"url": "https://reuters.com/world/india/india-youth-protest-leaders-hold-talks-with-government-protests-will-continue-2026-07-24/"
+			},
+			{
+				"title": "How the 'twin stars' of China, CXMT and YMTC, changed the chip game",
+				"url": "https://reuters.com/world/china/chinas-memory-chip-makers-ride-ai-boom-new-power-us-scrutiny-2026-07-24/"
+			},
+			{
+				"title": "Spain declares national emergency over wildfires near Madrid and in Avila",
+				"url": "https://reuters.com/business/environment/spain-declares-national-emergency-over-wildfires-near-madrid-avila-2026-07-24/"
+			},
+			{
+				"title": "In India, Iran war forces Diet Coke to roll out a bigger can, heftier price tag",
+				"url": "https://reuters.com/world/india/india-iran-war-forces-diet-coke-roll-out-bigger-can-heftier-price-tag-2026-07-24/"
+			},
+			{
+				"title": "UK says armed forces ready to defend country after Iran warning over US bombers",
+				"url": "https://reuters.com/business/aerospace-defense/uk-says-armed-forces-ready-defend-country-after-iran-warning-over-us-bombers-2026-07-23/"
+			},
+			{
+				"title": "Canada to consider retaliating against latest Trump tariffs, Carney says",
+				"url": "https://reuters.com/business/canada-will-do-whatever-it-takes-trade-war-with-us-says-carney-2026-07-23/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "gardeners and field workers"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"theaters, masks, puppets, curtains, and processions",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-07-23",
 		"displayDate": "July 23, 2026",
 		"image": "/images/news-bosch/2026/07/23.webp",
