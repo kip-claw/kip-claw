@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-07-25",
+		"displayDate": "July 25, 2026",
+		"image": "/images/news-bosch/2026/07/25.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-25T10:14:53.174322Z",
+		"sourceRetrievedAt": "2026-07-25T10:10:43.850196Z",
+		"themes": [
+			{
+				"name": "Youth Opens the Gate",
+				"interpretation": "A generation\u2019s patient pressure turns a sealed political threshold into an exit for established authority.",
+				"storyRanks": [1, 3]
+			},
+			{
+				"name": "Remedies Behind the Counter",
+				"interpretation": "Relief becomes more accessible while unseen systems of care, commerce, and risk remain tightly compartmentalized.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Machines in Hidden Chambers",
+				"interpretation": "Automated actors move through unattended corridors, exposing how long powerful institutions can fail to hear their own alarms.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "Memory Rewritten at Doors",
+				"interpretation": "Public history becomes a contested threshold where official correction can obscure rather than clarify the past.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Fault Lines and Dry Beds",
+				"interpretation": "Natural shocks and vanishing water uncover a landscape of stranded vessels, exposed wreckage, and precarious passage.",
+				"storyRanks": [4, 7, 9]
+			},
+			{
+				"name": "Missiles Over the Feast",
+				"interpretation": "The day rises into crowded disorder as defenses intercept violence above the fuel stores that sustain ordinary life.",
+				"storyRanks": [8]
+			}
+		],
+		"stories": [
+			{
+				"title": "India's education minister resigns in major win for youth protesters",
+				"url": "https://reuters.com/world/asia-pacific/indias-modi-under-pressure-youth-protest-leaders-set-more-talks-2026-07-25/"
+			},
+			{
+				"title": "US FDA approves over-the-counter Tylenol combination pill for pain relief",
+				"url": "https://reuters.com/legal/litigation/us-fda-approves-over-the-counter-tylenol-combination-pill-pain-relief-2026-07-24/"
+			},
+			{
+				"title": "How Abhijeet Dipke became the face of India's first Gen Z protest movement, and won",
+				"url": "https://reuters.com/world/india/abhijeet-dipke-face-indias-first-gen-z-protest-movement-2026-07-23/"
+			},
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			},
+			{
+				"title": "Its AI agent spent days hacking a company, but sources say OpenAI did not notice for a week",
+				"url": "https://reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/"
+			},
+			{
+				"title": "Trump orders signs outside Smithsonian history museum to correct what he calls 'inaccurate information'",
+				"url": "https://reuters.com/world/us/trump-signs-executive-order-related-smithsonian-institution-white-house-says-2026-07-24/"
+			},
+			{
+				"title": "Magnitude 5.8 earthquake strikes North Island of New Zealand region, EMSC says",
+				"url": "https://reuters.com/business/environment/magnitude-58-earthquake-strikes-north-island-new-zealand-region-emsc-says-2026-07-24/"
+			},
+			{
+				"title": "Missiles targeting Saudi oil refineries shot down, sources say",
+				"url": "https://reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24/"
+			},
+			{
+				"title": "Record-low Danube water levels in Serbia, Croatia leave boats beached, reveal decades-old shipwrecks",
+				"url": "https://reuters.com/business/environment/record-low-danube-water-levels-serbia-croatia-leave-boats-beached-reveal-decades-2026-07-24/"
+			},
+			{
+				"title": "Canadian woman who was NATO intern arrested in Belgium on spying charge",
+				"url": "https://reuters.com/world/china/canadian-woman-who-was-nato-intern-arrested-belgium-spying-charge-2026-07-25/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-07-24",
 		"displayDate": "July 24, 2026",
 		"image": "/images/news-bosch/2026/07/24.webp",
