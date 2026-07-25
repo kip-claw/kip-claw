@@ -1262,5 +1262,13 @@
     "pingMs": 13.2,
     "server": "New York NY",
     "provider": "Pilot Fiber"
+  },
+  {
+    "timestamp": "2026-07-24 21:00:14",
+    "downloadMbps": 562.0,
+    "uploadMbps": 22.54,
+    "pingMs": 14.1,
+    "server": "New York NY",
+    "provider": "Nitel"
   }
 ]
