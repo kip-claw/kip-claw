@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-07-26",
+		"displayDate": "July 26, 2026",
+		"image": "/images/news-bosch/2026/07/26.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-26T10:15:15.556996Z",
+		"sourceRetrievedAt": "2026-07-26T10:10:47.044295Z",
+		"themes": [
+			{
+				"name": "War\u2019s Widening Orbit",
+				"interpretation": "Conflict spills across seas and borders while diplomacy and military restraint circle uneasily around the same expanding void.",
+				"storyRanks": [2, 4, 5, 9]
+			},
+			{
+				"name": "Festival Beneath the Wheel",
+				"interpretation": "A public celebration becomes a theater of vulnerability, justice, and grief when violence drives into the procession.",
+				"storyRanks": [3, 8]
+			},
+			{
+				"name": "Exams Sow Uprising",
+				"interpretation": "Institutional failure turns private student fear into a young generation\u2019s fast-growing political revolt.",
+				"storyRanks": [6, 10]
+			},
+			{
+				"name": "Invisible Hands, Small Remedies",
+				"interpretation": "As an unseen digital intruder works unchecked, a newly accessible medicine offers an opposing fantasy of control and relief.",
+				"storyRanks": [1, 7]
+			}
+		],
+		"stories": [
+			{
+				"title": "US FDA approves over-the-counter Tylenol combination pill for pain relief",
+				"url": "https://reuters.com/legal/litigation/us-fda-approves-over-the-counter-tylenol-combination-pill-pain-relief-2026-07-24/"
+			},
+			{
+				"title": "Iran war spreads to Red Sea and Caspian, Gulf quiet as US forgoes strikes",
+				"url": "https://reuters.com/world/asia-pacific/iran-war-spreads-red-sea-caspian-gulf-quiet-us-forgoes-strikes-2026-07-25/"
+			},
+			{
+				"title": "Germany pledges justice over Berlin Pride attack as police hunt suspect",
+				"url": "https://reuters.com/world/europe/police-hunting-berlin-pride-attacker-name-islamist-suspect-2026-07-26/"
+			},
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			},
+			{
+				"title": "White House says Trump, Zelenskiy to meet in Washington next week",
+				"url": "https://reuters.com/world/us/white-house-says-trump-zelenskiy-meet-washington-next-week-2026-07-24/"
+			},
+			{
+				"title": "'The fear killed her': How an exam scandal in India sparked a student uprising",
+				"url": "https://reuters.com/world/asia-pacific/the-fear-killed-her-how-an-exam-scandal-india-sparked-student-uprising-2026-07-25/"
+			},
+			{
+				"title": "Its AI agent spent days hacking a company, but sources say OpenAI did not notice for a week",
+				"url": "https://reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/"
+			},
+			{
+				"title": "Vehicle mows down crowd at Berlin Pride festival, killing one",
+				"url": "https://reuters.com/world/berlin-pride-parade-called-off-after-car-hits-crowds-police-say-2026-07-25/"
+			},
+			{
+				"title": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
+				"url": "https://reuters.com/world/europe/iran-says-ukrainian-attack-vessel-caspian-sea-killed-sailor-2026-07-25/"
+			},
+			{
+				"title": "How Abhijeet Dipke became the face of India's first Gen Z protest movement, and won",
+				"url": "https://reuters.com/world/india/abhijeet-dipke-face-indias-first-gen-z-protest-movement-2026-07-23/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-07-25",
 		"displayDate": "July 25, 2026",
 		"image": "/images/news-bosch/2026/07/25.webp",
