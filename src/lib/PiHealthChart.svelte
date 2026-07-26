@@ -44,11 +44,6 @@
 
 			<path class="gpu-line" d={chart.gpuPath} />
 			<path class="cpu-line" d={chart.cpuPath} />
-			{#each chart.points as point}
-				<circle class="cpu-dot" cx={point.x} cy={point.y} r="2.5">
-					<title>{point.title}</title>
-				</circle>
-			{/each}
 		</ChartFrame>
 	{/if}
 </div>
@@ -89,11 +84,6 @@
 		fill: none;
 		stroke: #2b6cb0;
 		stroke-width: 1.75;
-	}
-
-	.cpu-dot {
-		fill: var(--color-accent);
-		opacity: 0.55;
 	}
 
 	.threshold-line {

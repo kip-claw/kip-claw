@@ -5,16 +5,9 @@ import { timeFormat } from 'd3-time-format';
 import type { ChartFrameModel } from './chartShared';
 import { parsePiHealthDate, type PiHealthSnapshot } from './piHealth';
 
-type ChartPoint = {
-	x: number;
-	y: number;
-	title: string;
-};
-
 export type PiTempChartModel = ChartFrameModel & {
 	cpuPath: string;
 	gpuPath: string;
-	points: ChartPoint[];
 	threshold: { y: number; label: string };
 };
 
@@ -24,13 +17,6 @@ const margin = { top: 26, right: 20, bottom: 52, left: 54 };
 const throttleTempC = 80;
 
 const formatDate = timeFormat('%b %-d');
-const formatTimestamp = new Intl.DateTimeFormat('en-US', {
-	month: 'short',
-	day: 'numeric',
-	hour: 'numeric',
-	minute: '2-digit'
-});
-
 export const buildPiTempChart = (rows: PiHealthSnapshot[], width: number): PiTempChartModel => {
 	const dated = [...rows]
 		.map((row) => ({ ...row, date: parsePiHealthDate(row.timestamp) }))
@@ -69,11 +55,6 @@ export const buildPiTempChart = (rows: PiHealthSnapshot[], width: number): PiTem
 		})),
 		cpuPath: buildPath((row) => row.cpuTempC),
 		gpuPath: buildPath((row) => row.gpuTempC),
-		points: dated.map((row) => ({
-			x: xScale(row.date),
-			y: yScale(row.cpuTempC),
-			title: `${formatTimestamp.format(row.date)}: CPU ${row.cpuTempC.toFixed(1)}°C, GPU ${row.gpuTempC.toFixed(1)}°C`
-		})),
 		threshold: { y: yScale(throttleTempC), label: `${throttleTempC}°C throttle` }
 	};
 };
