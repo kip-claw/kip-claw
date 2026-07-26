@@ -349,6 +349,16 @@
 			"realTimeFactor": 0.4511,
 			"model": "ggml-small.en-q5_1.bin",
 			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 15:08:16",
+			"outcome": "success",
+			"audioSeconds": 10.9935,
+			"endToEndMs": 7863.0,
+			"latitudeProcessingMs": 5681.0,
+			"realTimeFactor": 0.5168,
+			"model": "ggml-small.en-q5_1.bin",
+			"status": "http_200"
 		}
 	],
 	"health": [
@@ -2848,6 +2858,62 @@
 			"timestamp": "2026-07-26 7:07:18",
 			"outcome": "success",
 			"healthCheckMs": 92.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 8:07:15",
+			"outcome": "success",
+			"healthCheckMs": 132.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 9:07:16",
+			"outcome": "success",
+			"healthCheckMs": 195.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 10:07:15",
+			"outcome": "success",
+			"healthCheckMs": 142.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 11:07:15",
+			"outcome": "success",
+			"healthCheckMs": 88.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 12:07:15",
+			"outcome": "success",
+			"healthCheckMs": 91.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 13:07:15",
+			"outcome": "success",
+			"healthCheckMs": 141.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 14:07:15",
+			"outcome": "success",
+			"healthCheckMs": 104.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-07-26 15:07:15",
+			"outcome": "success",
+			"healthCheckMs": 191.0,
 			"reachable": true,
 			"status": "http_200"
 		}
