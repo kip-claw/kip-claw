@@ -50,7 +50,7 @@
 		"d3-time": "^3.1.0",
 		"d3-time-format": "^4.1.0",
 		"maplibre-gl": "^5.24.0",
-		"marked": "^18.0.5",
+		"marked": "^18.0.6",
 		"pmtiles": "^4.4.1"
 	},
 	"lint-staged": {
