@@ -79,26 +79,6 @@
       "size": "Gran Corona",
       "gauge": "56",
       "notes": ""
-    },
-    {
-      "dateAdded": "",
-      "maker": "",
-      "model": "",
-      "wrapper": "",
-      "origin": "",
-      "size": "",
-      "gauge": "",
-      "notes": ""
-    },
-    {
-      "dateAdded": "2026-06-08",
-      "maker": "Oliva",
-      "model": "Serie V Melanio",
-      "wrapper": "Ecuadorian Sumatra",
-      "origin": "Nicaragua",
-      "size": "Torpedo",
-      "gauge": "52",
-      "notes": ""
     }
   ],
   "humidityReadings": [
@@ -206,6 +186,13 @@
       "rh": "69",
       "temperatureF": "",
       "notes": ""
+    },
+    {
+      "date": "2026-07-25",
+      "time": "13:21",
+      "rh": "70",
+      "temperatureF": "",
+      "notes": ""
     }
   ],
   "bovedaChanges": [
@@ -222,6 +209,13 @@
       "rh": "72",
       "packCount": "3",
       "notes": "Removed 2 old packs and added 3 new ones"
+    },
+    {
+      "dateChanged": "2026-07-25",
+      "packType": "72\u00b0",
+      "rh": "72",
+      "packCount": "2",
+      "notes": "Replaced packets"
     }
   ]
 }
