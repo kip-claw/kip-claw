@@ -1,26 +1,26 @@
 {
-	"timestamp": "2026-07-26 14:22:47",
+	"timestamp": "2026-07-27 04:35:42",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
-	"pointCount": 83,
+	"pointCount": 85,
 	"clusterCount": 3,
 	"excludedCronChunks": 0,
 	"excludedMetadataChunks": 213,
 	"excludedShortChunks": 0,
-	"excludedDreamingChunks": 1724,
+	"excludedDreamingChunks": 1735,
 	"clusters": [
 		{
 			"id": 1,
 			"label": "Network Performance",
 			"description": "Internet speed tests and connectivity monitoring.",
-			"size": 40,
+			"size": 43,
 			"keywords": ["speed", "data", "test"]
 		},
 		{
-			"id": 2,
+			"id": 3,
 			"label": "Vault",
 			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-			"size": 29,
-			"keywords": ["obsidian", "todo", "done"]
+			"size": 28,
+			"keywords": ["obsidian", "todo"]
 		},
 		{
 			"id": 6,
@@ -32,618 +32,632 @@
 	],
 	"points": [
 		{
-			"x": 7.0303,
-			"y": 2.2016,
-			"cluster": 2,
+			"x": 5.3595,
+			"y": -0.0017,
+			"cluster": 3,
 			"path": "memory/2026-04-09.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.5963,
-			"y": 2.8134,
-			"cluster": 2,
+			"x": 5.7846,
+			"y": 0.5277,
+			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.5135,
-			"y": 2.6983,
-			"cluster": 2,
+			"x": 5.7115,
+			"y": 0.3743,
+			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.5668,
-			"y": 2.7458,
-			"cluster": 2,
+			"x": 5.771,
+			"y": 0.4314,
+			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 6.2157,
-			"y": 1.9725,
-			"cluster": 2,
+			"x": 4.6021,
+			"y": 0.1274,
+			"cluster": 3,
 			"path": "memory/2026-04-13.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.2904,
-			"y": -2.4824,
+			"x": 1.5537,
+			"y": -1.6168,
+			"cluster": 1,
+			"path": "memory/2026-04-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.7362,
+			"y": -2.7642,
 			"cluster": 1,
 			"path": "memory/2026-04-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.4152,
-			"y": -2.4998,
+			"x": 0.7515,
+			"y": -2.77,
 			"cluster": 1,
 			"path": "memory/2026-04-25.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.3639,
-			"y": -2.4649,
+			"x": 0.7365,
+			"y": -2.8013,
 			"cluster": 1,
 			"path": "memory/2026-04-29.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.3959,
-			"y": -2.452,
+			"x": 0.6529,
+			"y": -2.8817,
 			"cluster": 1,
 			"path": "memory/2026-05-01.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.4253,
-			"y": 2.0685,
-			"cluster": 2,
+			"x": 5.6639,
+			"y": -0.1642,
+			"cluster": 3,
 			"path": "memory/2026-05-05.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.5004,
-			"y": -2.3015,
+			"x": 0.8647,
+			"y": -2.6786,
 			"cluster": 1,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.1983,
-			"y": -1.6525,
+			"x": 2.9229,
+			"y": -1.0798,
 			"cluster": 1,
 			"path": "memory/2026-05-07.md",
 			"source": "memory"
 		},
 		{
-			"x": 6.9837,
-			"y": 1.2892,
-			"cluster": 2,
+			"x": 0.8977,
+			"y": -2.0249,
+			"cluster": 1,
+			"path": "memory/2026-05-07.md",
+			"source": "memory"
+		},
+		{
+			"x": 4.9103,
+			"y": -0.8798,
+			"cluster": 3,
 			"path": "memory/2026-05-08.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.1133,
-			"y": 1.5778,
-			"cluster": 2,
+			"x": 5.1538,
+			"y": -0.7842,
+			"cluster": 3,
 			"path": "memory/2026-05-09.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.4697,
-			"y": -1.4107,
+			"x": 2.7598,
+			"y": -1.5347,
+			"cluster": 1,
+			"path": "memory/2026-05-14.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.9563,
+			"y": -1.987,
 			"cluster": 1,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.3218,
-			"y": -1.8543,
+			"x": 0.7318,
+			"y": -2.3036,
 			"cluster": 1,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.0231,
-			"y": 1.5066,
-			"cluster": 2,
+			"x": 5.1902,
+			"y": -0.6854,
+			"cluster": 3,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.3349,
-			"y": -1.6864,
+			"x": 0.6959,
+			"y": -2.2534,
 			"cluster": 1,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.3715,
-			"y": 1.9018,
-			"cluster": 2,
+			"x": 5.636,
+			"y": -0.2402,
+			"cluster": 3,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.0018,
-			"y": -1.4349,
+			"x": 0.6544,
+			"y": -1.8905,
 			"cluster": 1,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.3672,
-			"y": 2.1291,
-			"cluster": 2,
+			"x": 5.6953,
+			"y": -0.1859,
+			"cluster": 3,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.8402,
-			"y": -0.9678,
-			"cluster": 1,
-			"path": "memory/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 2.8567,
-			"y": -1.2491,
+			"x": 0.8484,
+			"y": -1.4457,
 			"cluster": 1,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.0373,
-			"y": 2.1222,
-			"cluster": 2,
+			"x": 0.5568,
+			"y": -1.6828,
+			"cluster": 1,
+			"path": "memory/2026-05-20.md",
+			"source": "memory"
+		},
+		{
+			"x": 5.6344,
+			"y": 0.1417,
+			"cluster": 3,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.4021,
-			"y": 1.5108,
-			"cluster": 2,
+			"x": 5.6566,
+			"y": -0.5086,
+			"cluster": 3,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.9179,
-			"y": -0.3171,
+			"x": 2.044,
+			"y": -1.1937,
 			"cluster": 1,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.8805,
-			"y": -1.4611,
+			"x": 0.5682,
+			"y": -1.7498,
 			"cluster": 1,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.3172,
-			"y": -1.6269,
+			"x": 0.7145,
+			"y": -2.1283,
 			"cluster": 1,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.2963,
-			"y": 1.9538,
-			"cluster": 2,
+			"x": 5.764,
+			"y": -0.2173,
+			"cluster": 3,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.8296,
-			"y": -1.3631,
+			"x": 0.3846,
+			"y": -1.7278,
 			"cluster": 1,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.7859,
-			"y": -0.6377,
+			"x": 1.6833,
+			"y": -1.5848,
 			"cluster": 1,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 6.9195,
-			"y": 2.2103,
-			"cluster": 2,
+			"x": 5.3751,
+			"y": 0.0425,
+			"cluster": 3,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.2457,
-			"y": 1.8666,
-			"cluster": 2,
+			"x": 5.3548,
+			"y": -0.0738,
+			"cluster": 3,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.1473,
-			"y": -1.0969,
-			"cluster": 1,
-			"path": "memory/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 3.8236,
-			"y": -1.1756,
+			"x": 0.9362,
+			"y": -1.465,
 			"cluster": 1,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.285,
-			"y": -1.2945,
+			"x": 1.6207,
+			"y": -1.7515,
 			"cluster": 1,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.2712,
-			"y": 1.8627,
-			"cluster": 2,
+			"x": -0.1664,
+			"y": -1.1217,
+			"cluster": 1,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": 5.5576,
+			"y": -0.4392,
+			"cluster": 3,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.2156,
-			"y": -0.9089,
+			"x": -0.0109,
+			"y": -1.3214,
 			"cluster": 1,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.4008,
-			"y": -1.0384,
+			"x": 0.0862,
+			"y": -1.3861,
 			"cluster": 1,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.4937,
-			"y": -1.4031,
+			"x": 0.2715,
+			"y": -1.4517,
 			"cluster": 1,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.4761,
-			"y": -1.7862,
+			"x": -0.0654,
+			"y": -1.9834,
 			"cluster": 1,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.1023,
-			"y": -1.7052,
+			"x": -0.4256,
+			"y": -1.5944,
 			"cluster": 1,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.9398,
-			"y": -2.0956,
+			"x": 0.3714,
+			"y": -2.2037,
 			"cluster": 1,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.1881,
-			"y": 1.4765,
-			"cluster": 2,
+			"x": 5.3286,
+			"y": -0.763,
+			"cluster": 3,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.786,
-			"y": -1.6577,
-			"cluster": 1,
-			"path": "memory/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 2.3947,
-			"y": -1.5378,
+			"x": 0.2164,
+			"y": -1.8484,
 			"cluster": 1,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.8658,
-			"y": -2.0158,
+			"x": -0.0652,
+			"y": -1.7404,
 			"cluster": 1,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.0379,
-			"y": 1.6143,
-			"cluster": 2,
+			"x": 0.1923,
+			"y": -2.3294,
+			"cluster": 1,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": 5.3505,
+			"y": -0.6033,
+			"cluster": 3,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.3953,
-			"y": 1.5867,
-			"cluster": 2,
+			"x": 5.5875,
+			"y": -0.5598,
+			"cluster": 3,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.5341,
-			"y": -0.5347,
+			"x": 0.6432,
+			"y": -0.9372,
 			"cluster": 1,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.5262,
-			"y": -1.3131,
+			"x": 0.2919,
+			"y": -1.5157,
 			"cluster": 1,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.3935,
-			"y": -1.7973,
+			"x": -0.0149,
+			"y": -2.0652,
 			"cluster": 1,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.8246,
-			"y": -1.9698,
+			"x": 0.2603,
+			"y": -2.2863,
 			"cluster": 1,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 6.9052,
-			"y": 1.3727,
-			"cluster": 2,
+			"x": 4.9539,
+			"y": -0.5661,
+			"cluster": 3,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.4099,
-			"y": 1.4861,
-			"cluster": 2,
+			"x": 5.5672,
+			"y": -0.5859,
+			"cluster": 3,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.7874,
-			"y": -1.9057,
+			"x": 0.272,
+			"y": -2.3104,
 			"cluster": 1,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": 6.7811,
-			"y": 1.4948,
-			"cluster": 2,
+			"x": 5.0832,
+			"y": -0.7302,
+			"cluster": 3,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.4531,
-			"y": -0.554,
-			"cluster": 1,
-			"path": "memory/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": 3.3559,
-			"y": -1.5463,
+			"x": 0.6055,
+			"y": -1.042,
 			"cluster": 1,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.1722,
-			"y": 2.3248,
-			"cluster": 2,
+			"x": 1.0109,
+			"y": -2.0636,
+			"cluster": 1,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": 5.4949,
+			"y": 0.1094,
+			"cluster": 3,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.4875,
-			"y": 1.718,
-			"cluster": 2,
+			"x": 5.6137,
+			"y": -0.5486,
+			"cluster": 3,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": 7.009,
-			"y": 2.242,
-			"cluster": 2,
+			"x": 5.4619,
+			"y": 0.0388,
+			"cluster": 3,
 			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
 		{
-			"x": 6.8209,
-			"y": 2.0087,
-			"cluster": 2,
+			"x": 5.0519,
+			"y": -0.0696,
+			"cluster": 3,
 			"path": "memory/2026-06-01.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.869,
-			"y": -0.2696,
+			"x": 1.1201,
+			"y": -0.5808,
 			"cluster": 1,
 			"path": "memory/2026-06-02.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.8663,
-			"y": -0.2767,
+			"x": 1.0647,
+			"y": -0.6927,
 			"cluster": 1,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.973,
-			"y": -0.7534,
+			"x": 0.8957,
+			"y": -1.0848,
 			"cluster": 1,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.0561,
-			"y": -0.4879,
+			"x": 0.2954,
+			"y": -0.8734,
 			"cluster": 1,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.1499,
-			"y": 2.518,
+			"x": 2.3708,
+			"y": 1.6389,
 			"cluster": 6,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.3013,
-			"y": 2.7628,
+			"x": 2.4677,
+			"y": 1.8614,
 			"cluster": 6,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.1774,
-			"y": 2.7851,
+			"x": 2.4681,
+			"y": 1.9789,
 			"cluster": 6,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.1011,
-			"y": 2.694,
+			"x": 2.5042,
+			"y": 1.9103,
 			"cluster": 6,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.9637,
-			"y": 2.6491,
+			"x": 2.5129,
+			"y": 1.8839,
 			"cluster": 6,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.125,
-			"y": 2.8278,
+			"x": 2.3539,
+			"y": 1.9903,
 			"cluster": 6,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 3.9105,
-			"y": 2.6612,
+			"x": 2.2065,
+			"y": 1.8086,
 			"cluster": 6,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.4757,
-			"y": 2.5066,
+			"x": 2.6645,
+			"y": 1.591,
 			"cluster": 6,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.4536,
-			"y": 2.4177,
+			"x": 2.7533,
+			"y": 1.4487,
 			"cluster": 6,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.5329,
-			"y": 2.4244,
+			"x": 2.7919,
+			"y": 1.4424,
 			"cluster": 6,
 			"path": "memory/2026-07-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 4.0199,
-			"y": 2.5955,
+			"x": 2.2259,
+			"y": 1.8056,
 			"cluster": 6,
 			"path": "memory/2026-07-25.md",
 			"source": "memory"
 		},
 		{
-			"x": 6.5595,
-			"y": 1.3423,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": 5.8973,
-			"y": 1.2336,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": 4.5472,
-			"y": 2.3756,
-			"cluster": 6,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": 4.4049,
-			"y": 2.1953,
-			"cluster": 6,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": 4.2777,
-			"y": 2.5838,
+			"x": 2.6597,
+			"y": 1.8799,
 			"cluster": 6,
 			"path": "memory/2026-07-26.md",
+			"source": "memory"
+		},
+		{
+			"x": 4.6829,
+			"y": -0.4305,
+			"cluster": 3,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 2.8175,
+			"y": 1.414,
+			"cluster": 6,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 2.8403,
+			"y": 1.1939,
+			"cluster": 6,
+			"path": "MEMORY.md",
 			"source": "memory"
 		}
 	],
 	"tree": {
 		"id": "root",
 		"label": "Memory",
-		"value": 83,
+		"value": 85,
 		"children": [
 			{
 				"id": "family:workflow-signals",
 				"label": "Workflow Signals",
-				"value": 54,
+				"value": 57,
 				"children": [
 					{
 						"id": "cluster:1",
 						"clusterId": 1,
 						"label": "Network Performance",
 						"description": "Internet speed tests and connectivity monitoring.",
-						"value": 40,
+						"value": 43,
 						"children": [
 							{
 								"id": "keyword:1:0",
 								"label": "speed",
-								"value": 20.0
+								"value": 21.5
 							},
 							{
 								"id": "keyword:1:1",
 								"label": "data",
-								"value": 13.33
+								"value": 14.33
 							},
 							{
 								"id": "keyword:1:2",
 								"label": "test",
-								"value": 6.67
+								"value": 7.17
 							}
 						]
 					},
@@ -671,29 +685,24 @@
 			{
 				"id": "family:knowledge",
 				"label": "Knowledge",
-				"value": 29,
+				"value": 28,
 				"children": [
 					{
-						"id": "cluster:2",
-						"clusterId": 2,
+						"id": "cluster:3",
+						"clusterId": 3,
 						"label": "Vault",
 						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-						"value": 29,
+						"value": 28,
 						"children": [
 							{
-								"id": "keyword:2:0",
+								"id": "keyword:3:0",
 								"label": "obsidian",
-								"value": 14.5
+								"value": 18.67
 							},
 							{
-								"id": "keyword:2:1",
+								"id": "keyword:3:1",
 								"label": "todo",
-								"value": 9.67
-							},
-							{
-								"id": "keyword:2:2",
-								"label": "done",
-								"value": 4.83
+								"value": 9.33
 							}
 						]
 					}
