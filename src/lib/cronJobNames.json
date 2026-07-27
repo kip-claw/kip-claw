@@ -41,5 +41,7 @@
 	"Whisper transcription service health",
 	"Whisper transcription stats export",
 	"Wiki compile and lint",
-	"Wiki maintenance"
+	"Wiki maintenance",
+	"morning-weather-run",
+	"nyc-marathon-sunday-countdown"
 ]
