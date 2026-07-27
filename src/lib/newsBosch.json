@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-07-27",
+		"displayDate": "July 27, 2026",
+		"image": "/images/news-bosch/2026/07/27.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-27T10:15:49.227693Z",
+		"sourceRetrievedAt": "2026-07-27T10:10:46.175730Z",
+		"themes": [
+			{
+				"name": "Strait Held, Prices Loosen",
+				"interpretation": "A military pause leaves control of a vital passage contested while the commodity table briefly relaxes.",
+				"storyRanks": [2, 5, 8]
+			},
+			{
+				"name": "Red Sea Bottleneck",
+				"interpretation": "Attack risk turns an open maritime map into a narrowing route where trade slows and waits.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Shield Over the Kill Zone",
+				"interpretation": "Ukraine\u2019s exposed battlefield is answered with the distant promise of a defensive system not yet built.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "Symptoms, Secrets, Delays",
+				"interpretation": "Institutions confront warning signs on paper and in code while missing the deeper damage unfolding behind them.",
+				"storyRanks": [4, 9]
+			},
+			{
+				"name": "The Four-Hundred-Sixty-Six Die",
+				"interpretation": "A spectacular market debut makes valuation feel like a single oversized throw at a crowded gaming table.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Feast Table Turned Over",
+				"interpretation": "A public gathering meant for food becomes a stark image of ordinary celebration overturned by violence.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			},
+			{
+				"title": "Iran says it still controls strait, not seeking talks, after Trump halts bombing",
+				"url": "https://reuters.com/world/middle-east/iran-says-it-still-controls-strait-not-seeking-talks-after-trump-halts-bombing-2026-07-27/"
+			},
+			{
+				"title": "Red Sea shipping slows after Houthi attack on Saudi Arabia, data shows",
+				"url": "https://reuters.com/world/middle-east/red-sea-shipping-slows-after-houthi-attack-saudi-arabia-data-shows-2026-07-27/"
+			},
+			{
+				"title": "Germany's sick-note crackdown may be treating the symptoms, not the disease",
+				"url": "https://reuters.com/business/world-at-work/germanys-sick-note-crackdown-may-be-treating-symptoms-not-disease-2026-07-27/"
+			},
+			{
+				"title": "Iran says it will halt strikes as long as US bombing pause holds",
+				"url": "https://reuters.com/world/asia-pacific/iran-will-halt-attacks-long-us-maintains-pause-iranian-source-says-after-trump-2026-07-26/"
+			},
+			{
+				"title": "Chipmaker CXMT vaults to top of China's valuation with 466% surge in Shanghai debut",
+				"url": "https://reuters.com/world/asia-pacific/china-memory-chipmaker-cxmt-set-shanghai-debut-after-asias-biggest-ipo-2026-07-26/"
+			},
+			{
+				"title": "Ukraine wants prototype of European missile defence system by mid-2027, official says",
+				"url": "https://reuters.com/business/aerospace-defense/ukraine-wants-prototype-european-missile-defence-system-by-mid-2027-official-2026-07-27/"
+			},
+			{
+				"title": "Oil prices drop after US, Iran pause fighting over weekend",
+				"url": "https://reuters.com/business/energy/oil-slips-more-than-5-after-us-pauses-strikes-iran-2026-07-26/"
+			},
+			{
+				"title": "Its AI agent spent days hacking a company, but sources say OpenAI did not notice for a week",
+				"url": "https://reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/"
+			},
+			{
+				"title": "Three killed, four wounded in Seattle food festival shooting, police say",
+				"url": "https://reuters.com/world/us/seattle-shooting-leaves-2-dead-5-injured-according-reports-2026-07-27/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"games, dice, wheels, races, and balancing acts",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-07-26",
 		"displayDate": "July 26, 2026",
 		"image": "/images/news-bosch/2026/07/26.webp",
