@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-28",
+		"displayDate": "July 28, 2026",
+		"image": "/images/news-bosch/2026/07/28.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-28T10:15:56.228859Z",
+		"sourceRetrievedAt": "2026-07-28T10:10:46.293765Z",
+		"themes": [
+			{
+				"name": "Tremor Behind the Curtain",
+				"interpretation": "A sudden earthquake turns ordinary infrastructure into a fragile stage set, exposing how quickly daily order can go dark.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Fire Maps Unfold",
+				"interpretation": "Mapped wildfires make the landscape resemble an illuminated atlas whose borders are being redrawn by heat.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "The Lens Takes Root",
+				"interpretation": "Domestic chip-tool production signals a strategic effort to build the instruments of technological independence at home.",
+				"storyRanks": [3, 10]
+			},
+			{
+				"name": "Diplomacy on a Wire",
+				"interpretation": "War, drone strikes and urgent regional negotiations create a balancing act in which every diplomatic gesture risks tipping the wider conflict.",
+				"storyRanks": [4, 5, 6, 7]
+			},
+			{
+				"name": "The Settlement Procession",
+				"interpretation": "Corporate deals and restructuring show institutions trying to close old liabilities while quietly carrying workers toward an uncertain exit.",
+				"storyRanks": [8, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Japan quake injures at least 50, disrupts power and travel",
+				"url": "https://reuters.com/business/environment/magnitude-71-earthquake-hits-japans-kyushu-region-jma-says-2026-07-28/"
+			},
+			{
+				"title": "Mapping the wildfires outside Bordeaux, France, and Madrid, Spain",
+				"url": "https://reuters.com/graphics/EU-WILDFIRES/MAPS/xmpjxeejgpr/"
+			},
+			{
+				"title": "China starts production of home-grown immersion DUV chipmaking tools - source",
+				"url": "https://reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/"
+			},
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			},
+			{
+				"title": "Trump says US and Tehran having 'good talks' as drones hit Iran's neighbours",
+				"url": "https://reuters.com/world/middle-east/iran-says-it-still-controls-strait-not-seeking-talks-after-trump-halts-bombing-2026-07-27/"
+			},
+			{
+				"title": "Oman presented regional mechanism for Hormuz to Iran, source says",
+				"url": "https://reuters.com/world/middle-east/oman-presented-regional-mechanism-hormuz-iran-source-says-2026-07-28/"
+			},
+			{
+				"title": "Trump to host Netanyahu, Zelenskiy as Ukraine, Iran wars reach critical stages",
+				"url": "https://reuters.com/world/us/trump-host-netanyahu-zelenskiy-ukraine-iran-wars-reach-critical-stages-2026-07-28/"
+			},
+			{
+				"title": "J&J reaches sweeping talc deal that could end decade of litigation",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/johnson-johnson-announces-55-billion-settlement-talc-lawsuits-2026-07-27/"
+			},
+			{
+				"title": "Boston Scientific unveils new restructuring plan, expects job cuts",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/boston-scientific-unveils-new-restructuring-plan-expects-job-cuts-2026-07-27/"
+			},
+			{
+				"title": "China begins making homegrown DUV chipmaking tools, The Information reports",
+				"url": "https://reuters.com/world/china/china-begins-making-homegrown-duv-chipmaking-tools-information-reports-2026-07-27/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"games, dice, wheels, races, and balancing acts",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-07-27",
 		"displayDate": "July 27, 2026",
 		"image": "/images/news-bosch/2026/07/27.webp",
