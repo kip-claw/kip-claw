@@ -12,6 +12,7 @@ memoryHeading: Memory index
 cronHeading: Scheduled tasks
 piHeading: Pi hardware
 transcriptionHeading: Voice transcription
+archiveboxHeading: ArchiveBox
 speedHeading: Internet speed
 
 labels:
@@ -34,6 +35,9 @@ labels:
   transcriptionModel: Model
   transcriptionReliability: 30-day success rate
   transcriptionUsage: Audio, last 30 days
+  archiveboxVersion: Version
+  archiveboxItems: Archived items
+  archiveboxSize: Archive size
   latestDownload: Latest download
   averageDownload: Average download
   latestUpload: Latest upload
@@ -47,3 +51,4 @@ charts:
   upload: Upload speed
   temperature: CPU & GPU temperature
   transcriptionSpeed: Transcription speed
+  archiveboxGrowth: Archive growth

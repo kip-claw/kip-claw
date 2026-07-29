@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ArticlePage from '$lib/ArticlePage.svelte';
+	import ArchiveBoxChart from '$lib/ArchiveBoxChart.svelte';
 	import CronHeatmap from '$lib/CronHeatmap.svelte';
 	import MemoryChart from '$lib/MemoryChart.svelte';
 	import MemorySemanticMapChart from '$lib/MemorySemanticMapChart.svelte';
@@ -26,6 +27,7 @@
 		type TranscriptionDiagnostics
 	} from '$lib/transcriptionDiagnostics';
 	import { getTokenUsageSummary, tokenUsageData } from '$lib/tokenUsage';
+	import { archiveboxStats } from '$lib/archiveboxStats';
 	import openclawConfig from '$lib/openclawConfig.json';
 	import openclawJobs from '$lib/openclawJobs.json';
 	import piHealthData from '$lib/piHealth.json';
@@ -46,6 +48,7 @@
 		cronHeading: string;
 		piHeading: string;
 		transcriptionHeading: string;
+		archiveboxHeading: string;
 		speedHeading: string;
 		labels: {
 			version: string;
@@ -67,6 +70,9 @@
 			transcriptionModel: string;
 			transcriptionReliability: string;
 			transcriptionUsage: string;
+			archiveboxVersion: string;
+			archiveboxItems: string;
+			archiveboxSize: string;
 			latestDownload: string;
 			averageDownload: string;
 			latestUpload: string;
@@ -77,6 +83,7 @@
 			upload: string;
 			temperature: string;
 			transcriptionSpeed: string;
+			archiveboxGrowth: string;
 			tokenUsage: string;
 			memoryTrend: string;
 			memorySemanticMap: string;
@@ -104,6 +111,7 @@
 	const formatTokens = (value: number) =>
 		value >= 1e6 ? `${(value / 1e6).toFixed(1)}M` : new Intl.NumberFormat('en-US').format(value);
 	const formatCount = (value: number) => new Intl.NumberFormat('en-US').format(value);
+	const formatGigabytes = (value: number) => `${(value / 1e9).toFixed(1)}`;
 </script>
 
 <Seo {...copy.seo} />
@@ -214,6 +222,22 @@
 		rows={transcription.requests}
 		title={copy.charts.transcriptionSpeed}
 		chartId="transcription-speed"
+	/>
+
+	<h2 class="stats-section">{copy.archiveboxHeading}</h2>
+	<StatGrid label="ArchiveBox collection summary" columns={3}>
+		<StatItem label={copy.labels.archiveboxVersion} value={archiveboxStats.version} />
+		<StatItem label={copy.labels.archiveboxItems} value={formatCount(archiveboxStats.items)} />
+		<StatItem
+			label={copy.labels.archiveboxSize}
+			value={formatGigabytes(archiveboxStats.dataBytes)}
+			unit="GB"
+		/>
+	</StatGrid>
+	<ArchiveBoxChart
+		rows={archiveboxStats.history}
+		title={copy.charts.archiveboxGrowth}
+		chartId="archivebox-growth"
 	/>
 
 	<h2 class="stats-section">{copy.speedHeading}</h2>
