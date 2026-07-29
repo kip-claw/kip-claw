@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-07-29",
+		"displayDate": "July 29, 2026",
+		"image": "/images/news-bosch/2026/07/29.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-29T10:37:32.774694Z",
+		"sourceRetrievedAt": "2026-07-29T10:31:17.454738Z",
+		"themes": [
+			{
+				"name": "Silent House, Stilled Music",
+				"interpretation": "Private cultural spaces become fragile chambers where a sudden absence leaves the machinery of celebration silent.",
+				"storyRanks": [8]
+			},
+			{
+				"name": "Rescue Beneath the Arcade",
+				"interpretation": "Disaster turns an ordinary marketplace into a ruin where patient human effort searches beneath fallen structures.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "The Empty Promise Table",
+				"interpretation": "Household security and consumer trust are recast as a feast whose advertised portions keep disappearing.",
+				"storyRanks": [7, 9]
+			},
+			{
+				"name": "The Watchful Machine Revolts",
+				"interpretation": "Communication systems meant to connect and protect instead become contested workshops of exposure, coercion, and autonomous intrusion.",
+				"storyRanks": [3, 5, 6]
+			},
+			{
+				"name": "Furnace of Encircling Wars",
+				"interpretation": "Regional conflict rises into a crowded, self-feeding war machine as new weapons, allied strikes, and distant killing grounds converge.",
+				"storyRanks": [1, 2, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+				"url": "https://reuters.com/world/china/iran-get-chinese-shoulder-launched-missile-systems-weeks-sources-say-2026-07-29/"
+			},
+			{
+				"title": "Major Gulf fighting restarts as US and Saudi strike Iran's allies in Iraq",
+				"url": "https://reuters.com/world/asia-pacific/us-saudis-attack-iran-backed-groups-iraq-threatening-intensify-conflict-2026-07-29/"
+			},
+			{
+				"title": "Russia charges Telegram founder Durov with aiding terrorism, he gives Moscow the finger",
+				"url": "https://reuters.com/world/russias-fsb-charges-telegram-founder-durov-with-facilitating-terrorism-ifax-says-2026-07-29/"
+			},
+			{
+				"title": "Japan earthquake toll rises to 13 as rescuers haul people from collapsed mall",
+				"url": "https://reuters.com/world/asia-pacific/japan-quake-toll-rises-13-rescuers-haul-people-collapsed-mall-2026-07-29/"
+			},
+			{
+				"title": "US commander warns troops their videos help Iran, sources say",
+				"url": "https://reuters.com/business/media-telecom/us-commander-warns-troops-their-videos-help-iran-sources-say-2026-07-29/"
+			},
+			{
+				"title": "OpenAI's rogue agent compromised a customer at a second tech firm, executive says",
+				"url": "https://reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/"
+			},
+			{
+				"title": "Trump administration to end Medicare premium subsidy program",
+				"url": "https://reuters.com/legal/litigation/trump-administration-plans-end-medicare-drug-plan-subsidy-wsj-reports-2026-07-28/"
+			},
+			{
+				"title": "French DJ Kavinsky found dead in his home in Paris",
+				"url": "https://reuters.com/business/media-telecom/french-dj-kavinsky-found-dead-paris-bfm-tv-reports-2026-07-29/"
+			},
+			{
+				"title": "Chobani must face lawsuit over zero-sugar\u00a0yogurt claim, US appeals court rules",
+				"url": "https://reuters.com/legal/government/chobani-must-face-lawsuit-over-zero-sugar-yogurt-claim-us-appeals-court-rules-2026-07-28/"
+			},
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "courtiers and heralds"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-07-28",
 		"displayDate": "July 28, 2026",
 		"image": "/images/news-bosch/2026/07/28.webp",
