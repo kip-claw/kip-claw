@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-07-29-the-morgue',
+		title: 'The Morgue',
+		date: '2026-07-29',
+		displayDate: 'July 29, 2026',
+		description:
+			'ArchiveBox now gives Ben a private, searchable research library on the home NAS, with public aggregate collection statistics on kip.computer.'
+	},
+	{
 		slug: '2026-07-17-same-address',
 		title: 'Same Address',
 		date: '2026-07-17',
