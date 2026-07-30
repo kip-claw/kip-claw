@@ -1,15 +1,15 @@
 {
-	"timestamp": "2026-07-29 04:35:42",
+	"timestamp": "2026-07-30 04:35:42",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
-	"pointCount": 87,
-	"clusterCount": 3,
+	"pointCount": 102,
+	"clusterCount": 4,
 	"excludedCronChunks": 0,
 	"excludedMetadataChunks": 213,
 	"excludedShortChunks": 0,
-	"excludedDreamingChunks": 1740,
+	"excludedDreamingChunks": 1748,
 	"clusters": [
 		{
-			"id": 1,
+			"id": 0,
 			"label": "Network Performance",
 			"description": "Internet speed tests and connectivity monitoring.",
 			"size": 43,
@@ -19,678 +19,790 @@
 			"id": 2,
 			"label": "Vault",
 			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-			"size": 29,
-			"keywords": ["obsidian", "todo"]
+			"size": 32,
+			"keywords": ["obsidian", "todo", "done"]
 		},
 		{
 			"id": 6,
+			"label": "Backup",
+			"description": "General themes.",
+			"size": 15,
+			"keywords": ["cron", "health", "the"]
+		},
+		{
+			"id": 7,
 			"label": "Sluggo",
 			"description": "Topics related to sluggo, square, times.",
-			"size": 15,
+			"size": 12,
 			"keywords": ["square", "times", "ssh"]
 		}
 	],
 	"points": [
 		{
-			"x": 2.0826,
-			"y": 7.4916,
+			"x": 6.797,
+			"y": 8.3531,
 			"cluster": 2,
 			"path": "memory/2026-04-09.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.7085,
-			"y": 7.5264,
+			"x": 6.771,
+			"y": 7.5691,
 			"cluster": 2,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.6313,
-			"y": 7.6059,
+			"x": 6.7336,
+			"y": 7.6211,
 			"cluster": 2,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.6738,
-			"y": 7.5645,
+			"x": 6.7182,
+			"y": 7.6556,
 			"cluster": 2,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6891,
-			"y": 4.0609,
-			"cluster": 1,
+			"x": 7.1532,
+			"y": 8.6787,
+			"cluster": 2,
+			"path": "memory/2026-04-13.md",
+			"source": "memory"
+		},
+		{
+			"x": 7.4797,
+			"y": 12.7137,
+			"cluster": 0,
+			"path": "memory/2026-04-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.8009,
+			"y": 14.528,
+			"cluster": 0,
 			"path": "memory/2026-04-24.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6582,
-			"y": 4.0824,
-			"cluster": 1,
+			"x": 6.7956,
+			"y": 14.5367,
+			"cluster": 0,
 			"path": "memory/2026-04-25.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.7385,
-			"y": 4.0865,
-			"cluster": 1,
+			"x": 6.7477,
+			"y": 14.6193,
+			"cluster": 0,
 			"path": "memory/2026-04-29.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6558,
-			"y": 4.0884,
-			"cluster": 1,
+			"x": 6.7471,
+			"y": 14.6544,
+			"cluster": 0,
 			"path": "memory/2026-05-01.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.3371,
-			"y": 7.9141,
+			"x": 8.4258,
+			"y": 12.7126,
+			"cluster": 6,
+			"path": "memory/2026-05-02.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.3956,
+			"y": 8.0839,
 			"cluster": 2,
 			"path": "memory/2026-05-05.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.4222,
-			"y": 4.1056,
-			"cluster": 1,
+			"x": 6.8791,
+			"y": 14.4888,
+			"cluster": 0,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.4506,
-			"y": 4.7151,
-			"cluster": 1,
+			"x": 8.2014,
+			"y": 12.0397,
+			"cluster": 0,
 			"path": "memory/2026-05-07.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.2371,
-			"y": 4.8,
-			"cluster": 1,
+			"x": 6.8983,
+			"y": 13.976,
+			"cluster": 0,
 			"path": "memory/2026-05-07.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.3096,
-			"y": 7.9897,
+			"x": 6.1923,
+			"y": 9.1755,
 			"cluster": 2,
 			"path": "memory/2026-05-08.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.481,
-			"y": 7.9445,
+			"x": 6.2132,
+			"y": 8.915,
 			"cluster": 2,
 			"path": "memory/2026-05-09.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.5766,
-			"y": 4.3931,
-			"cluster": 1,
+			"x": 8.4304,
+			"y": 12.6562,
+			"cluster": 6,
 			"path": "memory/2026-05-14.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.4489,
-			"y": 4.8337,
-			"cluster": 1,
+			"x": 6.4174,
+			"y": 13.8242,
+			"cluster": 0,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6728,
-			"y": 4.6492,
-			"cluster": 1,
+			"x": 6.5076,
+			"y": 14.0339,
+			"cluster": 0,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.5271,
-			"y": 8.0269,
+			"x": 6.2117,
+			"y": 8.9327,
 			"cluster": 2,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6632,
-			"y": 4.6997,
-			"cluster": 1,
+			"x": 6.4245,
+			"y": 13.9073,
+			"cluster": 0,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.0875,
-			"y": 8.1263,
+			"x": 8.7264,
+			"y": 13.2609,
+			"cluster": 6,
+			"path": "memory/2026-05-19.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.2667,
+			"y": 8.2937,
 			"cluster": 2,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.5194,
-			"y": 5.0007,
-			"cluster": 1,
+			"x": 6.4921,
+			"y": 13.6664,
+			"cluster": 0,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.0834,
-			"y": 8.1019,
+			"x": 8.7785,
+			"y": 13.2596,
+			"cluster": 6,
+			"path": "memory/2026-05-20.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.434,
+			"y": 8.2623,
 			"cluster": 2,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.379,
-			"y": 5.494,
-			"cluster": 1,
+			"x": 7.0245,
+			"y": 13.1913,
+			"cluster": 0,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6276,
-			"y": 5.3023,
-			"cluster": 1,
+			"x": 6.7918,
+			"y": 13.551,
+			"cluster": 0,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.1356,
-			"y": 7.8843,
+			"x": 8.8094,
+			"y": 13.3172,
+			"cluster": 6,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.4765,
+			"y": 8.3465,
 			"cluster": 2,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.8197,
-			"y": 8.0462,
+			"x": 6.0659,
+			"y": 8.491,
 			"cluster": 2,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.2265,
-			"y": 5.0105,
-			"cluster": 1,
+			"x": 7.5203,
+			"y": 12.3903,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6088,
-			"y": 5.2285,
-			"cluster": 1,
+			"x": 6.722,
+			"y": 13.403,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.5716,
-			"y": 4.7647,
-			"cluster": 1,
+			"x": 6.5154,
+			"y": 14.0736,
+			"cluster": 0,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.9753,
-			"y": 7.9238,
+			"x": 8.7244,
+			"y": 13.2146,
+			"cluster": 6,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.3685,
+			"y": 8.4094,
 			"cluster": 2,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.741,
-			"y": 5.2573,
-			"cluster": 1,
+			"x": 6.7473,
+			"y": 13.4417,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.5156,
-			"y": 4.8043,
-			"cluster": 1,
+			"x": 7.5754,
+			"y": 12.7243,
+			"cluster": 0,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.227,
-			"y": 7.599,
+			"x": 8.6949,
+			"y": 13.3522,
+			"cluster": 6,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.6483,
+			"y": 8.4023,
 			"cluster": 2,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.0175,
-			"y": 7.7276,
+			"x": 6.2029,
+			"y": 8.5394,
 			"cluster": 2,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.0243,
-			"y": 5.0759,
-			"cluster": 1,
+			"x": 6.9712,
+			"y": 13.1157,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.592,
-			"y": 4.6327,
-			"cluster": 1,
+			"x": 7.6667,
+			"y": 13.1631,
+			"cluster": 0,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.762,
-			"y": 5.63,
-			"cluster": 1,
+			"x": 8.4848,
+			"y": 13.2726,
+			"cluster": 6,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.8994,
-			"y": 8.1775,
+			"x": 6.0876,
+			"y": 13.2271,
+			"cluster": 0,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": 8.7479,
+			"y": 13.2597,
+			"cluster": 6,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.1224,
+			"y": 8.4797,
 			"cluster": 2,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.1374,
-			"y": 5.9121,
-			"cluster": 1,
+			"x": 6.3934,
+			"y": 12.8861,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.0729,
-			"y": 5.3749,
-			"cluster": 1,
+			"x": 6.6939,
+			"y": 12.8557,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.1619,
-			"y": 5.2896,
-			"cluster": 1,
+			"x": 6.4552,
+			"y": 12.9158,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": -4.0553,
-			"y": 5.3156,
-			"cluster": 1,
+			"x": 6.0898,
+			"y": 13.5235,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.9859,
-			"y": 5.7649,
-			"cluster": 1,
+			"x": 5.7675,
+			"y": 13.3305,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": -4.0694,
-			"y": 4.8345,
-			"cluster": 1,
+			"x": 6.2077,
+			"y": 13.8873,
+			"cluster": 0,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.5772,
-			"y": 8.2526,
+			"x": 8.3201,
+			"y": 13.3393,
+			"cluster": 6,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.028,
+			"y": 8.7901,
 			"cluster": 2,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.7554,
-			"y": 5.1653,
-			"cluster": 1,
+			"x": 6.4926,
+			"y": 13.5189,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6038,
-			"y": 5.5371,
-			"cluster": 1,
+			"x": 6.3433,
+			"y": 13.1651,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": -4.044,
-			"y": 4.8175,
-			"cluster": 1,
+			"x": 6.1917,
+			"y": 13.931,
+			"cluster": 0,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.6216,
-			"y": 7.8927,
+			"x": 8.3402,
+			"y": 13.3873,
+			"cluster": 6,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.0756,
+			"y": 8.8888,
 			"cluster": 2,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.8502,
-			"y": 8.1808,
+			"x": 6.0301,
+			"y": 8.5332,
 			"cluster": 2,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.7079,
-			"y": 5.5154,
-			"cluster": 1,
+			"x": 6.853,
+			"y": 12.5717,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.5372,
-			"y": 5.5897,
-			"cluster": 1,
+			"x": 6.7675,
+			"y": 13.2795,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.9814,
-			"y": 5.3126,
-			"cluster": 1,
+			"x": 6.0452,
+			"y": 13.5801,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": -4.0497,
-			"y": 4.7999,
-			"cluster": 1,
+			"x": 6.2566,
+			"y": 13.9979,
+			"cluster": 0,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.3165,
-			"y": 7.8698,
+			"x": 8.163,
+			"y": 13.3429,
+			"cluster": 6,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.2581,
+			"y": 8.8469,
 			"cluster": 2,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.7381,
-			"y": 8.3104,
+			"x": 5.8895,
+			"y": 8.5986,
 			"cluster": 2,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.9603,
-			"y": 4.8599,
-			"cluster": 1,
+			"x": 8.2446,
+			"y": 13.5204,
+			"cluster": 6,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.3342,
-			"y": 8.0036,
+			"x": 8.3416,
+			"y": 13.5628,
+			"cluster": 6,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.1648,
+			"y": 13.9292,
+			"cluster": 0,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": 8.0946,
+			"y": 13.4229,
+			"cluster": 6,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.1116,
+			"y": 8.9042,
 			"cluster": 2,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.6934,
-			"y": 5.581,
-			"cluster": 1,
+			"x": 6.7783,
+			"y": 12.6101,
+			"cluster": 0,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.3627,
-			"y": 4.6579,
-			"cluster": 1,
+			"x": 6.8413,
+			"y": 13.9068,
+			"cluster": 0,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.4782,
-			"y": 7.8726,
+			"x": 6.4146,
+			"y": 8.108,
 			"cluster": 2,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.7728,
-			"y": 8.3006,
+			"x": 6.2374,
+			"y": 8.3199,
 			"cluster": 2,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.1422,
-			"y": 5.7611,
-			"cluster": 1,
+			"x": 6.8638,
+			"y": 11.9595,
+			"cluster": 0,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": 2.2813,
-			"y": 7.8615,
+			"x": 6.8243,
+			"y": 8.2851,
 			"cluster": 2,
 			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.9021,
-			"y": 7.6644,
+			"x": 6.8572,
+			"y": 8.5878,
 			"cluster": 2,
 			"path": "memory/2026-06-01.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.9728,
-			"y": 5.9031,
-			"cluster": 1,
+			"x": 6.8038,
+			"y": 11.6425,
+			"cluster": 0,
 			"path": "memory/2026-06-02.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.0547,
-			"y": 5.7221,
-			"cluster": 1,
+			"x": 6.8101,
+			"y": 11.7598,
+			"cluster": 0,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.9572,
-			"y": 5.2846,
-			"cluster": 1,
+			"x": 6.2826,
+			"y": 12.7934,
+			"cluster": 0,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.6251,
-			"y": 5.8806,
-			"cluster": 1,
+			"x": 6.409,
+			"y": 12.2663,
+			"cluster": 0,
 			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.7813,
-			"y": 4.1736,
-			"cluster": 6,
+			"x": 8.8522,
+			"y": 9.5038,
+			"cluster": 7,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.1515,
-			"y": 4.1276,
-			"cluster": 6,
+			"x": 8.8419,
+			"y": 9.3366,
+			"cluster": 7,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9496,
-			"y": 4.0878,
-			"cluster": 6,
+			"x": 8.9043,
+			"y": 9.3863,
+			"cluster": 7,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9722,
-			"y": 3.9968,
-			"cluster": 6,
+			"x": 8.9019,
+			"y": 9.3914,
+			"cluster": 7,
 			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.0531,
-			"y": 4.0596,
-			"cluster": 6,
+			"x": 9.0036,
+			"y": 9.4745,
+			"cluster": 7,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9624,
-			"y": 4.0187,
-			"cluster": 6,
+			"x": 9.0668,
+			"y": 9.4097,
+			"cluster": 7,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.8734,
-			"y": 4.0204,
-			"cluster": 6,
+			"x": 8.7937,
+			"y": 9.4424,
+			"cluster": 7,
 			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.1497,
-			"y": 4.3671,
-			"cluster": 6,
+			"x": 9.1051,
+			"y": 9.7501,
+			"cluster": 7,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9209,
-			"y": 4.3365,
-			"cluster": 6,
+			"x": 9.0158,
+			"y": 9.7234,
+			"cluster": 7,
 			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.2552,
-			"y": 4.7447,
-			"cluster": 6,
-			"path": "memory/automated-charts.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3146,
-			"y": 4.9046,
-			"cluster": 6,
-			"path": "memory/management.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8475,
-			"y": 4.6242,
-			"cluster": 6,
+			"x": 8.7411,
+			"y": 9.7338,
+			"cluster": 7,
 			"path": "memory/2026-07-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.8027,
-			"y": 4.182,
-			"cluster": 6,
+			"x": 9.1543,
+			"y": 9.479,
+			"cluster": 7,
 			"path": "memory/2026-07-25.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9499,
-			"y": 4.374,
-			"cluster": 6,
+			"x": 8.8185,
+			"y": 9.6699,
+			"cluster": 7,
 			"path": "memory/2026-07-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.1621,
-			"y": 7.5969,
+			"x": 6.7135,
+			"y": 9.2097,
 			"cluster": 2,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9725,
-			"y": 7.5644,
+			"x": 6.7676,
+			"y": 9.3739,
 			"cluster": 2,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.7973,
-			"y": 7.4488,
+			"x": 6.6703,
+			"y": 9.6531,
 			"cluster": 2,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.7765,
-			"y": 4.7359,
-			"cluster": 6,
-			"path": "MEMORY.md",
+			"x": 6.4638,
+			"y": 9.6382,
+			"cluster": 2,
+			"path": "memory/2026-07-29.md",
+			"source": "memory"
+		},
+		{
+			"x": 6.3928,
+			"y": 9.6383,
+			"cluster": 2,
+			"path": "memory/2026-07-29.md",
 			"source": "memory"
 		}
 	],
 	"tree": {
 		"id": "root",
 		"label": "Memory",
-		"value": 87,
+		"value": 102,
 		"children": [
 			{
 				"id": "family:workflow-signals",
 				"label": "Workflow Signals",
-				"value": 58,
+				"value": 55,
 				"children": [
 					{
-						"id": "cluster:1",
-						"clusterId": 1,
+						"id": "cluster:0",
+						"clusterId": 0,
 						"label": "Network Performance",
 						"description": "Internet speed tests and connectivity monitoring.",
 						"value": 43,
 						"children": [
 							{
-								"id": "keyword:1:0",
+								"id": "keyword:0:0",
 								"label": "speed",
 								"value": 28.67
 							},
 							{
-								"id": "keyword:1:1",
+								"id": "keyword:0:1",
 								"label": "data",
 								"value": 14.33
 							}
 						]
 					},
 					{
-						"id": "cluster:6",
-						"clusterId": 6,
+						"id": "cluster:7",
+						"clusterId": 7,
 						"label": "Sluggo",
 						"description": "Topics related to sluggo, square, times.",
-						"value": 15,
+						"value": 12,
 						"children": [
 							{
-								"id": "keyword:6:0",
+								"id": "keyword:7:0",
 								"label": "square",
-								"value": 7.5
+								"value": 6.0
 							},
 							{
-								"id": "keyword:6:1",
+								"id": "keyword:7:1",
 								"label": "times",
-								"value": 5.0
+								"value": 4.0
 							},
 							{
-								"id": "keyword:6:2",
+								"id": "keyword:7:2",
 								"label": "ssh",
-								"value": 2.5
+								"value": 2.0
 							}
 						]
 					}
@@ -699,24 +811,60 @@
 			{
 				"id": "family:knowledge",
 				"label": "Knowledge",
-				"value": 29,
+				"value": 32,
 				"children": [
 					{
 						"id": "cluster:2",
 						"clusterId": 2,
 						"label": "Vault",
 						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-						"value": 29,
+						"value": 32,
 						"children": [
 							{
 								"id": "keyword:2:0",
 								"label": "obsidian",
-								"value": 19.33
+								"value": 16.0
 							},
 							{
 								"id": "keyword:2:1",
 								"label": "todo",
-								"value": 9.67
+								"value": 10.67
+							},
+							{
+								"id": "keyword:2:2",
+								"label": "done",
+								"value": 5.33
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "family:infrastructure",
+				"label": "Infrastructure",
+				"value": 15,
+				"children": [
+					{
+						"id": "cluster:6",
+						"clusterId": 6,
+						"label": "Backup",
+						"description": "General themes.",
+						"value": 15,
+						"children": [
+							{
+								"id": "keyword:6:0",
+								"label": "cron",
+								"value": 7.5
+							},
+							{
+								"id": "keyword:6:1",
+								"label": "health",
+								"value": 5.0
+							},
+							{
+								"id": "keyword:6:2",
+								"label": "the",
+								"value": 2.5
 							}
 						]
 					}
