@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-07-30",
+		"displayDate": "July 30, 2026",
+		"image": "/images/news-bosch/2026/07/30.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-07-30T10:16:06.508774Z",
+		"sourceRetrievedAt": "2026-07-30T10:10:45.998704Z",
+		"themes": [
+			{
+				"name": "The Quiet Contest of Labels",
+				"interpretation": "Cultural gatekeeping and consumer claims become small but consequential arenas for legitimacy.",
+				"storyRanks": [2, 7]
+			},
+			{
+				"name": "An Unlocked Second Door",
+				"interpretation": "The promise of autonomous technology darkens when a rogue tool crosses from assistance into intrusion.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Roots Feeding the Arsenal",
+				"interpretation": "Military supply chains are taking root as stockpile anxiety turns weapons into an urgent harvest.",
+				"storyRanks": [3, 9]
+			},
+			{
+				"name": "The Wheel Eats Fortunes",
+				"interpretation": "Investors confront the spectacle of enormous losses as safeguards prove too slight to steady a falling market.",
+				"storyRanks": [8]
+			},
+			{
+				"name": "Cargoes Circle the Chokepoint",
+				"interpretation": "Energy trade reroutes through a narrowed passage, turning fuel shipments into a race against disruption.",
+				"storyRanks": [10]
+			},
+			{
+				"name": "Harbor Eclipse Turns Violent",
+				"interpretation": "Widening strikes transform the sea frontier into a crowded battlefield of targets, fires, and exposed ports.",
+				"storyRanks": [1, 5, 6]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran war live: US strikes Iran again as war widens with attack on Egypt port",
+				"url": "https://reuters.com/world/iran-war-live-us-strikes-iran-again-war-widens-with-attack-egypt-port-2026-07-30/"
+			},
+			{
+				"title": "BTS boycott Grammys over new Asian pop award category",
+				"url": "https://reuters.com/business/media-telecom/bts-boycott-grammys-over-new-asian-pop-award-category-2026-07-29/"
+			},
+			{
+				"title": "US strikes $58.6 billion Patriot missile deal amid rising stockpile concerns",
+				"url": "https://reuters.com/business/aerospace-defense/army-awards-lockheed-martin-586-billion-largest-ever-pac-3-patriot-missile-deal-2026-07-29/"
+			},
+			{
+				"title": "OpenAI's rogue agent compromised a customer at a second tech firm, executive says",
+				"url": "https://reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/"
+			},
+			{
+				"title": "Egypt confirms drone caused fire on two gas vessels at Damietta",
+				"url": "https://reuters.com/world/middle-east/drone-hits-gas-storage-tanker-egypts-mediterranean-port-2026-07-29/"
+			},
+			{
+				"title": "US military says it hit dozens of Iran's IRGC targets",
+				"url": "https://reuters.com/world/middle-east/us-military-says-it-hit-dozens-irans-irgc-targets-2026-07-30/"
+			},
+			{
+				"title": "Chobani must face lawsuit over zero-sugar\u00a0yogurt claim, US appeals court rules",
+				"url": "https://reuters.com/legal/government/chobani-must-face-lawsuit-over-zero-sugar-yogurt-claim-us-appeals-court-rules-2026-07-28/"
+			},
+			{
+				"title": "South Korea curbs may not save investors slaughtered by $2 trillion rout",
+				"url": "https://reuters.com/legal/transactional/south-korea-curbs-may-not-save-investors-slaughtered-by-2-trillion-rout-2026-07-30/"
+			},
+			{
+				"title": "Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+				"url": "https://reuters.com/world/china/iran-get-chinese-shoulder-launched-missile-systems-weeks-sources-say-2026-07-29/"
+			},
+			{
+				"title": "QatarEnergy buys 33 US LNG cargoes to offset Hormuz disruption, sources say",
+				"url": "https://reuters.com/business/energy/qatarenergy-buys-33-us-lng-cargoes-offset-hormuz-disruption-sources-say-2026-07-30/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "merchants and market keepers"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"celestial bodies, eclipses, comets, clocks, and constellations"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-07-29",
 		"displayDate": "July 29, 2026",
 		"image": "/images/news-bosch/2026/07/29.webp",
