@@ -1,4 +1,4 @@
-import { max, median } from 'd3-array';
+import { max, mean } from 'd3-array';
 import { scaleLinear, scaleTime } from 'd3-scale';
 import { area, line } from 'd3-shape';
 import { timeFormat } from 'd3-time-format';
@@ -11,26 +11,28 @@ type DatedRun = DomainRunSummary & {
 };
 
 export type DomainChartModel = ChartFrameModel & {
-	medianLinePath: string;
+	averageLinePath: string;
 	bandPath: string;
 };
 
 const height = 360;
 const margin = { top: 44, right: 26, bottom: 56, left: 58 };
 const formatTickDate = timeFormat('%b %-d');
-const rollingMedian = (runs: DatedRun[], windowDays = 7): DatedRun[] =>
+const rollingAverage = (runs: DatedRun[], windowDays = 1): DatedRun[] =>
 	runs.map((run, index) => {
-		const windowStart = +run.parsedDate - (windowDays - 1) * 24 * 60 * 60 * 1000;
+		const windowStart = +run.parsedDate - windowDays * 24 * 60 * 60 * 1000;
 		const values = runs
 			.slice(0, index + 1)
 			.filter((candidate) => +candidate.parsedDate >= windowStart)
 			.map((candidate) => candidate.averageResponseMs);
-		return { ...run, averageResponseMs: median(values) ?? run.averageResponseMs };
+		return { ...run, averageResponseMs: mean(values) ?? run.averageResponseMs };
 	});
 
 // Pick a robust y-axis ceiling so a single slow run doesn't squash the rest of
 // the chart. Uses the 95th percentile of max values, but never less than the
 // observed median max (so a flat dataset still spans the chart).
+const maximumVisibleResponseMs = 1500;
+
 const robustCeiling = (values: number[]): number => {
 	if (values.length === 0) return 100;
 	const sorted = [...values].sort((a, b) => a - b);
@@ -41,7 +43,7 @@ const robustCeiling = (values: number[]): number => {
 	const p95 = quantile(0.95);
 	const median = quantile(0.5);
 	// Floor at 1.5x median so small datasets still have headroom.
-	return Math.max(p95, median * 1.5, 50);
+	return Math.min(Math.max(p95, median * 1.5, 50), maximumVisibleResponseMs);
 };
 
 export const buildCloudflareDomainChart = (
@@ -65,7 +67,7 @@ export const buildCloudflareDomainChart = (
 	const observedMax = max(dated, (r) => r.maxResponseMs) ?? ceiling;
 	const yMax = Math.min(observedMax, ceiling);
 	const clamp = (v: number) => Math.min(v, yMax);
-	const smoothed = rollingMedian(dated);
+	const smoothed = rollingAverage(dated);
 
 	const xScale = scaleTime()
 		.domain([dated[0].parsedDate, dated.at(-1)!.parsedDate])
@@ -76,7 +78,7 @@ export const buildCloudflareDomainChart = (
 		.nice()
 		.range([height - margin.bottom, margin.top]);
 
-	const medianLinePath =
+	const averageLinePath =
 		line<DatedRun>()
 			.x((r) => xScale(r.parsedDate))
 			.y((r) => yScale(clamp(r.averageResponseMs)))(smoothed) ?? '';
@@ -99,7 +101,7 @@ export const buildCloudflareDomainChart = (
 			y: yScale(tick),
 			label: tick.toFixed(0)
 		})),
-		medianLinePath,
+		averageLinePath,
 		bandPath
 	};
 };

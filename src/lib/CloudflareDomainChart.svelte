@@ -23,16 +23,16 @@
 			chartId="domain-response-chart"
 			heading="Response trend"
 			title="HTTPS response time range across monitored domains"
-			desc="The line is a 7-day rolling median of HTTPS response time. The shaded band shows the daily range across monitored domains."
+			desc="The line is a 1-day rolling average of HTTPS response time. The shaded band shows the daily range across monitored domains, capped at 1,500 ms."
 			axisTitle="Milliseconds"
 		>
 			{#snippet legend()}
 				<span><i class="band"></i> Range</span>
-				<span><i class="line average"></i> 7-day median</span>
+				<span><i class="line average"></i> 1-day average</span>
 			{/snippet}
 
 			<path class="response-band" d={chart.bandPath} />
-			<path class="response-line" d={chart.medianLinePath} />
+			<path class="response-line" d={chart.averageLinePath} />
 		</ChartFrame>
 	{/if}
 </div>
