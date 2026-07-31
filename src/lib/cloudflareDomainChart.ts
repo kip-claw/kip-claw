@@ -1,4 +1,4 @@
-import { max } from 'd3-array';
+import { max, median } from 'd3-array';
 import { scaleLinear, scaleTime } from 'd3-scale';
 import { area, line } from 'd3-shape';
 import { timeFormat } from 'd3-time-format';
@@ -10,29 +10,23 @@ type DatedRun = DomainRunSummary & {
 	parsedDate: Date;
 };
 
-export type DomainChartPoint = {
-	x: number;
-	y: number;
-	r: number;
-	title: string;
-	clipped: boolean;
-};
-
 export type DomainChartModel = ChartFrameModel & {
-	averageLinePath: string;
-	minLinePath: string;
-	maxLinePath: string;
+	medianLinePath: string;
 	bandPath: string;
-	points: DomainChartPoint[];
 };
 
 const height = 360;
 const margin = { top: 44, right: 26, bottom: 56, left: 58 };
 const formatTickDate = timeFormat('%b %-d');
-const formatTooltipDate = new Intl.DateTimeFormat('en-US', {
-	month: 'short',
-	day: 'numeric'
-});
+const rollingMedian = (runs: DatedRun[], windowDays = 7): DatedRun[] =>
+	runs.map((run, index) => {
+		const windowStart = +run.parsedDate - (windowDays - 1) * 24 * 60 * 60 * 1000;
+		const values = runs
+			.slice(0, index + 1)
+			.filter((candidate) => +candidate.parsedDate >= windowStart)
+			.map((candidate) => candidate.averageResponseMs);
+		return { ...run, averageResponseMs: median(values) ?? run.averageResponseMs };
+	});
 
 // Pick a robust y-axis ceiling so a single slow run doesn't squash the rest of
 // the chart. Uses the 95th percentile of max values, but never less than the
@@ -71,6 +65,7 @@ export const buildCloudflareDomainChart = (
 	const observedMax = max(dated, (r) => r.maxResponseMs) ?? ceiling;
 	const yMax = Math.min(observedMax, ceiling);
 	const clamp = (v: number) => Math.min(v, yMax);
+	const smoothed = rollingMedian(dated);
 
 	const xScale = scaleTime()
 		.domain([dated[0].parsedDate, dated.at(-1)!.parsedDate])
@@ -81,34 +76,10 @@ export const buildCloudflareDomainChart = (
 		.nice()
 		.range([height - margin.bottom, margin.top]);
 
-	const formatMs = (v: number) => `${v.toFixed(0)} ms`;
-	const points: DomainChartPoint[] = dated.map((run) => {
-		const clipped = run.averageResponseMs > yMax;
-		const maxClipped = run.maxResponseMs > yMax;
-		const tooltipSuffix = maxClipped ? ` (max ${formatMs(run.maxResponseMs)} off scale)` : '';
-		return {
-			x: xScale(run.parsedDate),
-			y: yScale(clamp(run.averageResponseMs)),
-			r: run.fail > 0 ? 6 : run.warn > 0 ? 5 : 4,
-			title: `${formatTooltipDate.format(run.parsedDate)}: ${formatMs(run.minResponseMs)}–${formatMs(run.maxResponseMs)}, ${formatMs(run.averageResponseMs)} average, ${run.fail} failing${tooltipSuffix}`,
-			clipped
-		};
-	});
-
-	const averageLinePath =
+	const medianLinePath =
 		line<DatedRun>()
 			.x((r) => xScale(r.parsedDate))
-			.y((r) => yScale(clamp(r.averageResponseMs)))(dated) ?? '';
-
-	const minLinePath =
-		line<DatedRun>()
-			.x((r) => xScale(r.parsedDate))
-			.y((r) => yScale(clamp(r.minResponseMs)))(dated) ?? '';
-
-	const maxLinePath =
-		line<DatedRun>()
-			.x((r) => xScale(r.parsedDate))
-			.y((r) => yScale(clamp(r.maxResponseMs)))(dated) ?? '';
+			.y((r) => yScale(clamp(r.averageResponseMs)))(smoothed) ?? '';
 
 	const bandPath =
 		area<DatedRun>()
@@ -128,10 +99,7 @@ export const buildCloudflareDomainChart = (
 			y: yScale(tick),
 			label: tick.toFixed(0)
 		})),
-		averageLinePath,
-		minLinePath,
-		maxLinePath,
-		bandPath,
-		points
+		medianLinePath,
+		bandPath
 	};
 };

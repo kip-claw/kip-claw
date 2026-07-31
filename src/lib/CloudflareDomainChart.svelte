@@ -23,24 +23,16 @@
 			chartId="domain-response-chart"
 			heading="Response trend"
 			title="HTTPS response time range across monitored domains"
-			desc="Each run shows minimum, average, and maximum HTTPS response times across all monitored domains."
+			desc="The line is a 7-day rolling median of HTTPS response time. The shaded band shows the daily range across monitored domains."
 			axisTitle="Milliseconds"
 		>
 			{#snippet legend()}
 				<span><i class="band"></i> Range</span>
-				<span><i class="line average"></i> Average response</span>
-				<span><i class="dot clipped"></i> Off-scale outlier</span>
+				<span><i class="line average"></i> 7-day median</span>
 			{/snippet}
 
 			<path class="response-band" d={chart.bandPath} />
-			<path class="range-line" d={chart.maxLinePath} />
-			<path class="range-line" d={chart.minLinePath} />
-			<path class="response-line" d={chart.averageLinePath} />
-			{#each chart.points as point}
-				<circle class="run-dot" class:clipped={point.clipped} cx={point.x} cy={point.y} r={point.r}>
-					<title>{point.title}</title>
-				</circle>
-			{/each}
+			<path class="response-line" d={chart.medianLinePath} />
 		</ChartFrame>
 	{/if}
 </div>
@@ -72,44 +64,11 @@
 		stroke: none;
 	}
 
-	.range-line {
-		fill: none;
-		stroke: var(--color-muted);
-		stroke-width: 1.5;
-		stroke-linecap: round;
-		stroke-linejoin: round;
-		stroke-dasharray: 4 5;
-	}
-
 	.response-line {
 		fill: none;
 		stroke: var(--color-text);
 		stroke-width: 3.5;
 		stroke-linecap: round;
 		stroke-linejoin: round;
-	}
-
-	.run-dot {
-		fill: var(--color-accent);
-		stroke: var(--color-background);
-		stroke-width: 1.5;
-	}
-
-	.run-dot.clipped {
-		fill: var(--color-background);
-		stroke: var(--color-accent);
-		stroke-width: 2;
-	}
-
-	.dot {
-		display: inline-block;
-		width: 10px;
-		height: 10px;
-		border-radius: 50%;
-	}
-
-	.dot.clipped {
-		background: var(--color-background);
-		border: 2px solid var(--color-accent);
 	}
 </style>
