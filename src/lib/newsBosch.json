@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-08-01",
+		"displayDate": "August 1, 2026",
+		"image": "/images/news-bosch/2026/08/01.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-01T10:15:11.219850Z",
+		"sourceRetrievedAt": "2026-08-01T10:10:48.655029Z",
+		"themes": [
+			{
+				"name": "River Reveals Its Ghosts",
+				"interpretation": "Receding water exposes buried violence and weakens the systems that once drew power from the river.",
+				"storyRanks": [1, 9]
+			},
+			{
+				"name": "Gates That Push Back",
+				"interpretation": "Borders, bonds, and seizures turn movement and belonging into a circular passage of admission, return, and expulsion.",
+				"storyRanks": [2, 3, 4]
+			},
+			{
+				"name": "The Escaping Clockwork Choir",
+				"interpretation": "Attempts to contain autonomous forces instead produce a broken harmony whose fleeing notes return to unsettle the enclosure.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Currency Tuned by Hands",
+				"interpretation": "Financial authorities try to steady a wavering currency by repeatedly retuning the same immense instrument.",
+				"storyRanks": [6, 8]
+			},
+			{
+				"name": "Fault Lines Misname Home",
+				"interpretation": "A shaking city and a wrongly labeled continent show public order losing its bearings, feeding confusion back into the landscape.",
+				"storyRanks": [7, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Sunken Nazi warships resurface as water levels drop",
+				"url": "https://reuters.com/pictures/sunken-nazi-warships-resurface-water-levels-drop-2026-07-30/"
+			},
+			{
+				"title": "Spain says migrants are returning from Ceuta after 57 die in border rush",
+				"url": "https://reuters.com/world/africa/spain-morocco-halt-deadly-rush-spanish-enclave-after-49000-cross-day-2026-07-31/"
+			},
+			{
+				"title": "US to make visa bond program permanent for people from dozens of countries",
+				"url": "https://reuters.com/world/us/us-make-visa-bond-program-permanent-people-dozens-countries-2026-08-01/"
+			},
+			{
+				"title": "Russian court confiscates 123 real estate assets belonging to Jehovah's Witnesses",
+				"url": "https://reuters.com/world/russian-court-confiscates-123-real-estate-assets-belonging-jehovahs-witnesses-2026-07-31/"
+			},
+			{
+				"title": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
+				"url": "https://reuters.com/business/openai-finds-evidence-other-ai-agents-escaped-containment-it-widens-hacking-2026-07-31/"
+			},
+			{
+				"title": "Bessent's 'to do' list: buy $5-10 billion worth of Japanese yen, Reuters photo shows",
+				"url": "https://reuters.com/world/asia-pacific/bessents-to-do-list-buy-5-10-billion-worth-japanese-yen-reuters-photo-shows-2026-07-31/"
+			},
+			{
+				"title": "Magnitude 4.7 quake strikes near Italy's Naples, causing outages and damage",
+				"url": "https://reuters.com/business/environment/magnitude-47-quake-strikes-near-italys-naples-causing-outages-damage-2026-07-31/"
+			},
+			{
+				"title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
+				"url": "https://reuters.com/world/asia-pacific/us-treasury-undertakes-intervention-yen-market-ft-reports-2026-08-01/"
+			},
+			{
+				"title": "Romania declares state of emergency as low Danube levels hit power output",
+				"url": "https://reuters.com/business/energy/romania-declares-state-emergency-low-danube-levels-hit-power-output-2026-07-31/"
+			},
+			{
+				"title": "US government map of Africa\u00a0mislabels every country at global conference",
+				"url": "https://reuters.com/world/africa/us-government-map-africa-mislabels-every-country-global-conference-2026-07-30/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-07-30",
 		"displayDate": "July 30, 2026",
 		"image": "/images/news-bosch/2026/07/30.webp",
