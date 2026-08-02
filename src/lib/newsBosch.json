@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-08-02",
+		"displayDate": "August 2, 2026",
+		"image": "/images/news-bosch/2026/08/02.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-02T10:15:22.323723Z",
+		"sourceRetrievedAt": "2026-08-02T10:10:45.793768Z",
+		"themes": [
+			{
+				"name": "Hunger Reverses the Crossing",
+				"interpretation": "A promised passage becomes a retreat when deprivation and hostility outweigh the hope of arrival.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Accounts, Homes, and Entrenchments",
+				"interpretation": "Institutions wield paperwork, property, and corporate permanence to close doors and outlast political change.",
+				"storyRanks": [2, 4, 10]
+			},
+			{
+				"name": "Ceasefire's Broken Dinner Table",
+				"interpretation": "Diplomacy pauses one anticipated strike even as violence abruptly enters an ordinary public space.",
+				"storyRanks": [3, 6]
+			},
+			{
+				"name": "Fault Lines and Currency Lines",
+				"interpretation": "Natural instability and financial instability alike summon coordinated efforts to steady a trembling map.",
+				"storyRanks": [5, 8]
+			},
+			{
+				"name": "Fires Expose the Sunken Past",
+				"interpretation": "Water becomes both a perilous escape route and a receding veil that reveals old wreckage beneath it.",
+				"storyRanks": [7, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Migrants say hunger and hostility drove them back from Spain's Ceuta to Morocco",
+				"url": "https://reuters.com/world/europe/migrants-say-hunger-hostility-drove-them-back-spains-ceuta-morocco-2026-08-01/"
+			},
+			{
+				"title": "Capital One says it closed Trump Organization's accounts after anti-money laundering probe",
+				"url": "https://reuters.com/legal/government/capital-one-says-it-closed-trump-organizations-accounts-after-anti-money-2026-08-01/"
+			},
+			{
+				"title": "Trump says he will hold off on fresh Iran attack in hope of quick deal",
+				"url": "https://reuters.com/world/asia-pacific/iran-threatens-strike-other-nations-energy-fields-if-us-launches-fresh-attacks-2026-08-01/"
+			},
+			{
+				"title": "Russian court confiscates 123 real estate assets belonging to Jehovah's Witnesses",
+				"url": "https://reuters.com/world/russian-court-confiscates-123-real-estate-assets-belonging-jehovahs-witnesses-2026-07-31/"
+			},
+			{
+				"title": "Magnitude 5.9 earthquake hits east coast of North Island in New Zealand, GFZ says",
+				"url": "https://reuters.com/business/environment/magnitude-59-earthquake-hits-east-coast-north-island-new-zealand-gfz-says-2026-08-02/"
+			},
+			{
+				"title": "Bomb carried by woman kills three, injures 21 near Moscow restaurant, authorities say",
+				"url": "https://reuters.com/world/three-killed-15-injured-moscow-explosion-tass-says-2026-08-01/"
+			},
+			{
+				"title": "Five dead, 41 missing after Indonesian ferry catches fire, authorities say",
+				"url": "https://reuters.com/world/asia-pacific/five-dead-41-missing-after-indonesian-ferry-catches-fire-authorities-say-2026-08-02/"
+			},
+			{
+				"title": "Japan to announce Tokyo, Washington took joint action on yen, sources say",
+				"url": "https://reuters.com/world/asia-pacific/japan-announce-tokyo-washington-took-joint-action-yen-sources-say-2026-08-02/"
+			},
+			{
+				"title": "Sunken Nazi warships resurface as water levels drop",
+				"url": "https://reuters.com/pictures/sunken-nazi-warships-resurface-water-levels-drop-2026-07-30/"
+			},
+			{
+				"title": "Life after Orban: Hungary Inc digs in as new political era takes hold",
+				"url": "https://reuters.com/business/finance/life-after-orban-hungary-inc-digs-new-political-era-takes-hold-2026-08-02/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"vessels, canals, wells, floods, and bridges",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-08-01",
 		"displayDate": "August 1, 2026",
 		"image": "/images/news-bosch/2026/08/01.webp",
