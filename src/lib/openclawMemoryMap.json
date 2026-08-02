@@ -1,18 +1,1204 @@
 {
-	"timestamp": "2026-08-01 04:35:42",
+	"timestamp": "2026-08-02 04:35:42",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
-	"pointCount": 0,
-	"clusterCount": 0,
+	"pointCount": 142,
+	"clusterCount": 6,
 	"excludedCronChunks": 0,
 	"excludedMetadataChunks": 213,
 	"excludedShortChunks": 0,
-	"excludedDreamingChunks": 1757,
-	"clusters": [],
-	"points": [],
+	"excludedDreamingChunks": 1758,
+	"clusters": [
+		{
+			"id": 2,
+			"label": "Network Performance",
+			"description": "Internet speed tests and connectivity monitoring.",
+			"size": 42,
+			"keywords": ["speed", "data"]
+		},
+		{
+			"id": 1,
+			"label": "Vault",
+			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
+			"size": 32,
+			"keywords": ["obsidian", "todo", "done"]
+		},
+		{
+			"id": 8,
+			"label": "Reuters",
+			"description": "Chartbeat.",
+			"size": 22,
+			"keywords": ["chartbeat"]
+		},
+		{
+			"id": 5,
+			"label": "Personal Tracking",
+			"description": "Personal health, meals, medication, and activity records.",
+			"size": 18,
+			"keywords": ["logged"]
+		},
+		{
+			"id": 6,
+			"label": "Backup",
+			"description": "General themes.",
+			"size": 15,
+			"keywords": ["cron", "health", "the"]
+		},
+		{
+			"id": 7,
+			"label": "Sluggo",
+			"description": "Topics related to sluggo, square, times.",
+			"size": 13,
+			"keywords": ["square", "times", "ssh"]
+		}
+	],
+	"points": [
+		{
+			"x": 2.8657,
+			"y": -2.9276,
+			"cluster": 1,
+			"path": "memory/2026-04-09.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.4931,
+			"y": -3.2425,
+			"cluster": 8,
+			"path": "memory/2026-04-10.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.887,
+			"y": -3.3171,
+			"cluster": 1,
+			"path": "memory/2026-04-12-cuny-slideshow.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.775,
+			"y": -3.1908,
+			"cluster": 1,
+			"path": "memory/2026-04-12-cuny-slideshow.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.8257,
+			"y": -3.248,
+			"cluster": 1,
+			"path": "memory/2026-04-12-cuny-slideshow.md",
+			"source": "memory"
+		},
+		{
+			"x": 2.285,
+			"y": -3.0467,
+			"cluster": 1,
+			"path": "memory/2026-04-13.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.0689,
+			"y": -1.7696,
+			"cluster": 2,
+			"path": "memory/2026-04-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.0762,
+			"y": -1.4507,
+			"cluster": 2,
+			"path": "memory/2026-04-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.048,
+			"y": -1.4057,
+			"cluster": 2,
+			"path": "memory/2026-04-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.0796,
+			"y": -1.3898,
+			"cluster": 2,
+			"path": "memory/2026-04-29.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.2261,
+			"y": -1.4104,
+			"cluster": 2,
+			"path": "memory/2026-05-01.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.2455,
+			"y": -1.0719,
+			"cluster": 6,
+			"path": "memory/2026-05-02.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.5311,
+			"y": -2.8432,
+			"cluster": 1,
+			"path": "memory/2026-05-05.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.1121,
+			"y": -1.906,
+			"cluster": 8,
+			"path": "memory/2026-05-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.9544,
+			"y": -1.8163,
+			"cluster": 8,
+			"path": "memory/2026-05-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.8426,
+			"y": -1.8872,
+			"cluster": 8,
+			"path": "memory/2026-05-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.9614,
+			"y": -1.778,
+			"cluster": 8,
+			"path": "memory/2026-05-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.9667,
+			"y": -1.3658,
+			"cluster": 8,
+			"path": "memory/2026-05-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.0751,
+			"y": -1.4157,
+			"cluster": 2,
+			"path": "memory/2026-05-07.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.4073,
+			"y": -2.1246,
+			"cluster": 2,
+			"path": "memory/2026-05-07.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.0908,
+			"y": -2.0092,
+			"cluster": 1,
+			"path": "memory/2026-05-08.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.2164,
+			"y": -2.1877,
+			"cluster": 1,
+			"path": "memory/2026-05-09.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.0487,
+			"y": -1.7413,
+			"cluster": 8,
+			"path": "memory/2026-05-13.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.2609,
+			"y": -1.0488,
+			"cluster": 6,
+			"path": "memory/2026-05-14.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.4799,
+			"y": -1.7264,
+			"cluster": 2,
+			"path": "memory/2026-05-17.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.7396,
+			"y": -1.9581,
+			"cluster": 2,
+			"path": "memory/2026-05-17.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.1559,
+			"y": -2.2789,
+			"cluster": 1,
+			"path": "memory/2026-05-18.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.788,
+			"y": -1.8661,
+			"cluster": 2,
+			"path": "memory/2026-05-18.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.4055,
+			"y": -0.2657,
+			"cluster": 6,
+			"path": "memory/2026-05-19.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.4152,
+			"y": -2.7154,
+			"cluster": 1,
+			"path": "memory/2026-05-19.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.7377,
+			"y": -2.274,
+			"cluster": 2,
+			"path": "memory/2026-05-19.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.5609,
+			"y": -0.0127,
+			"cluster": 6,
+			"path": "memory/2026-05-20.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.4717,
+			"y": -2.7488,
+			"cluster": 1,
+			"path": "memory/2026-05-20.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.8081,
+			"y": -2.6374,
+			"cluster": 2,
+			"path": "memory/2026-05-20.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.9377,
+			"y": -2.562,
+			"cluster": 2,
+			"path": "memory/2026-05-20.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.564,
+			"y": -0.0112,
+			"cluster": 6,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.2533,
+			"y": -2.8145,
+			"cluster": 1,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.5887,
+			"y": -2.4228,
+			"cluster": 1,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.3376,
+			"y": -2.6689,
+			"cluster": 5,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6468,
+			"y": -2.0409,
+			"cluster": 2,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.7616,
+			"y": -2.4099,
+			"cluster": 2,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.7551,
+			"y": -1.905,
+			"cluster": 2,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.4052,
+			"y": -0.1445,
+			"cluster": 6,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.364,
+			"y": -2.6425,
+			"cluster": 1,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.3568,
+			"y": -2.5629,
+			"cluster": 8,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.6006,
+			"y": -2.4639,
+			"cluster": 8,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.0485,
+			"y": -2.5224,
+			"cluster": 2,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.9117,
+			"y": -1.8279,
+			"cluster": 2,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.5772,
+			"y": -1.8797,
+			"cluster": 2,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.733,
+			"y": -2.4371,
+			"cluster": 5,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.1777,
+			"y": -2.379,
+			"cluster": 5,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.4552,
+			"y": -0.1491,
+			"cluster": 6,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.2918,
+			"y": -2.9034,
+			"cluster": 1,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.2848,
+			"y": -2.7794,
+			"cluster": 1,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.2395,
+			"y": -2.442,
+			"cluster": 2,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.1345,
+			"y": -1.627,
+			"cluster": 2,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.625,
+			"y": -0.2983,
+			"cluster": 6,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.2291,
+			"y": -2.9725,
+			"cluster": 2,
+			"path": "memory/2026-05-23.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.4797,
+			"y": -0.0303,
+			"cluster": 6,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.4178,
+			"y": -2.5947,
+			"cluster": 1,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.4249,
+			"y": -2.979,
+			"cluster": 2,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.2247,
+			"y": -2.8624,
+			"cluster": 2,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.4279,
+			"y": -2.6467,
+			"cluster": 2,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.9906,
+			"y": -2.5898,
+			"cluster": 2,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.925,
+			"y": -3.0741,
+			"cluster": 2,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.0157,
+			"y": -2.1384,
+			"cluster": 2,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.602,
+			"y": -0.4831,
+			"cluster": 6,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.4689,
+			"y": -2.1708,
+			"cluster": 1,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.1417,
+			"y": -2.3486,
+			"cluster": 2,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.6261,
+			"y": -2.8502,
+			"cluster": 2,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.0629,
+			"y": -2.1147,
+			"cluster": 2,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6652,
+			"y": -0.5559,
+			"cluster": 6,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.3595,
+			"y": -2.1304,
+			"cluster": 1,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.5204,
+			"y": -2.4773,
+			"cluster": 1,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.923,
+			"y": -2.8404,
+			"cluster": 2,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.7131,
+			"y": -2.8124,
+			"cluster": 2,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.9016,
+			"y": -2.7022,
+			"cluster": 2,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.0382,
+			"y": -2.0788,
+			"cluster": 2,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.7066,
+			"y": -0.6483,
+			"cluster": 6,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.3315,
+			"y": -2.0479,
+			"cluster": 1,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.7092,
+			"y": -2.2907,
+			"cluster": 1,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.5989,
+			"y": -0.5378,
+			"cluster": 6,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.5084,
+			"y": -0.2832,
+			"cluster": 6,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.1124,
+			"y": -2.0261,
+			"cluster": 2,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.7472,
+			"y": -0.6641,
+			"cluster": 6,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.4947,
+			"y": -1.9543,
+			"cluster": 1,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.0562,
+			"y": -2.8881,
+			"cluster": 2,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.5069,
+			"y": -1.8981,
+			"cluster": 2,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.2892,
+			"y": -3.0444,
+			"cluster": 1,
+			"path": "memory/2026-05-29.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.5395,
+			"y": -2.3849,
+			"cluster": 1,
+			"path": "memory/2026-05-29.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.549,
+			"y": -2.9237,
+			"cluster": 8,
+			"path": "memory/2026-05-29.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.1486,
+			"y": -2.8875,
+			"cluster": 1,
+			"path": "memory/2026-05-31.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.7211,
+			"y": -2.4054,
+			"cluster": 5,
+			"path": "memory/2026-05-31.md",
+			"source": "memory"
+		},
+		{
+			"x": 2.9726,
+			"y": -2.7958,
+			"cluster": 1,
+			"path": "memory/2026-06-01.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.0669,
+			"y": -3.0632,
+			"cluster": 2,
+			"path": "memory/2026-06-02.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.8397,
+			"y": -2.7438,
+			"cluster": 8,
+			"path": "memory/2026-06-02.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.1268,
+			"y": -3.0233,
+			"cluster": 2,
+			"path": "memory/2026-06-03.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.2707,
+			"y": -2.3946,
+			"cluster": 2,
+			"path": "memory/2026-06-03.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.0352,
+			"y": -3.3003,
+			"cluster": 2,
+			"path": "memory/2026-06-03.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.7695,
+			"y": -2.8038,
+			"cluster": 8,
+			"path": "memory/2026-06-04.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.4386,
+			"y": -1.5438,
+			"cluster": 8,
+			"path": "memory/2026-06-06.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.0681,
+			"y": -1.5781,
+			"cluster": 8,
+			"path": "memory/2026-06-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.1011,
+			"y": -1.9482,
+			"cluster": 8,
+			"path": "memory/2026-06-07.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.0702,
+			"y": -1.9111,
+			"cluster": 8,
+			"path": "memory/2026-06-07.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.1406,
+			"y": -2.2202,
+			"cluster": 8,
+			"path": "memory/2026-06-07.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.5088,
+			"y": -2.4034,
+			"cluster": 5,
+			"path": "memory/2026-06-07.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.898,
+			"y": -0.6813,
+			"cluster": 7,
+			"path": "memory/2026-07-16.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.0733,
+			"y": -0.4801,
+			"cluster": 7,
+			"path": "memory/2026-07-16.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.0176,
+			"y": -0.3585,
+			"cluster": 7,
+			"path": "memory/2026-07-16.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.1296,
+			"y": -0.5193,
+			"cluster": 7,
+			"path": "memory/2026-07-16.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.1746,
+			"y": -0.4153,
+			"cluster": 7,
+			"path": "memory/2026-07-17.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.2499,
+			"y": -0.4884,
+			"cluster": 7,
+			"path": "memory/2026-07-17.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.9583,
+			"y": -0.2919,
+			"cluster": 7,
+			"path": "memory/2026-07-17.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.3256,
+			"y": -2.505,
+			"cluster": 5,
+			"path": "memory/2026-07-18.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.1087,
+			"y": -0.6736,
+			"cluster": 7,
+			"path": "memory/2026-07-18.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.1129,
+			"y": -0.7102,
+			"cluster": 7,
+			"path": "memory/2026-07-18.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.4068,
+			"y": -1.2735,
+			"cluster": 8,
+			"path": "memory/automated-charts.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.3116,
+			"y": -1.3675,
+			"cluster": 8,
+			"path": "memory/ceo-scorecard.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.2474,
+			"y": -1.4108,
+			"cluster": 8,
+			"path": "memory/climate-monitor.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.3934,
+			"y": -1.2979,
+			"cluster": 8,
+			"path": "memory/ire-archive.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.4453,
+			"y": -1.2493,
+			"cluster": 8,
+			"path": "memory/management.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.2856,
+			"y": -2.4186,
+			"cluster": 5,
+			"path": "memory/2026-07-21.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.1427,
+			"y": -2.7538,
+			"cluster": 5,
+			"path": "memory/2026-07-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.0424,
+			"y": -1.0281,
+			"cluster": 7,
+			"path": "memory/2026-07-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.2297,
+			"y": -2.7931,
+			"cluster": 5,
+			"path": "memory/2026-07-23.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.0473,
+			"y": -0.3985,
+			"cluster": 7,
+			"path": "memory/2026-07-25.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.2503,
+			"y": -2.6478,
+			"cluster": 5,
+			"path": "memory/2026-07-26.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.1898,
+			"y": -0.7638,
+			"cluster": 7,
+			"path": "memory/2026-07-26.md",
+			"source": "memory"
+		},
+		{
+			"x": 2.5132,
+			"y": -2.1213,
+			"cluster": 1,
+			"path": "memory/2026-07-29.md",
+			"source": "memory"
+		},
+		{
+			"x": 2.4954,
+			"y": -2.1134,
+			"cluster": 1,
+			"path": "memory/2026-07-29.md",
+			"source": "memory"
+		},
+		{
+			"x": 3.2118,
+			"y": -1.8955,
+			"cluster": 1,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.8386,
+			"y": -2.7412,
+			"cluster": 5,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 2.5898,
+			"y": -2.5193,
+			"cluster": 1,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.3609,
+			"y": -3.0029,
+			"cluster": 5,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.995,
+			"y": -2.8497,
+			"cluster": 5,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.7642,
+			"y": -2.772,
+			"cluster": 5,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.2014,
+			"y": -2.8332,
+			"cluster": 5,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.0151,
+			"y": -2.781,
+			"cluster": 5,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.9988,
+			"y": -1.1345,
+			"cluster": 7,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.2996,
+			"y": -2.4812,
+			"cluster": 5,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 1.499,
+			"y": -2.7325,
+			"cluster": 5,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 2.4626,
+			"y": -2.9927,
+			"cluster": 1,
+			"path": "MEMORY.md",
+			"source": "memory"
+		}
+	],
 	"tree": {
 		"id": "root",
 		"label": "Memory",
-		"value": 0,
-		"children": []
+		"value": 142,
+		"children": [
+			{
+				"id": "family:workflow-signals",
+				"label": "Workflow Signals",
+				"value": 73,
+				"children": [
+					{
+						"id": "cluster:2",
+						"clusterId": 2,
+						"label": "Network Performance",
+						"description": "Internet speed tests and connectivity monitoring.",
+						"value": 42,
+						"children": [
+							{
+								"id": "keyword:2:0",
+								"label": "speed",
+								"value": 28.0
+							},
+							{
+								"id": "keyword:2:1",
+								"label": "data",
+								"value": 14.0
+							}
+						]
+					},
+					{
+						"id": "cluster:5",
+						"clusterId": 5,
+						"label": "Personal Tracking",
+						"description": "Personal health, meals, medication, and activity records.",
+						"value": 18,
+						"children": [
+							{
+								"id": "keyword:5:0",
+								"label": "logged",
+								"value": 18.0
+							}
+						]
+					},
+					{
+						"id": "cluster:7",
+						"clusterId": 7,
+						"label": "Sluggo",
+						"description": "Topics related to sluggo, square, times.",
+						"value": 13,
+						"children": [
+							{
+								"id": "keyword:7:0",
+								"label": "square",
+								"value": 6.5
+							},
+							{
+								"id": "keyword:7:1",
+								"label": "times",
+								"value": 4.33
+							},
+							{
+								"id": "keyword:7:2",
+								"label": "ssh",
+								"value": 2.17
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "family:knowledge",
+				"label": "Knowledge",
+				"value": 32,
+				"children": [
+					{
+						"id": "cluster:1",
+						"clusterId": 1,
+						"label": "Vault",
+						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
+						"value": 32,
+						"children": [
+							{
+								"id": "keyword:1:0",
+								"label": "obsidian",
+								"value": 16.0
+							},
+							{
+								"id": "keyword:1:1",
+								"label": "todo",
+								"value": 10.67
+							},
+							{
+								"id": "keyword:1:2",
+								"label": "done",
+								"value": 5.33
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "family:operations",
+				"label": "Operations",
+				"value": 22,
+				"children": [
+					{
+						"id": "cluster:8",
+						"clusterId": 8,
+						"label": "Reuters",
+						"description": "Chartbeat.",
+						"value": 22,
+						"children": [
+							{
+								"id": "keyword:8:0",
+								"label": "chartbeat",
+								"value": 22.0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "family:infrastructure",
+				"label": "Infrastructure",
+				"value": 15,
+				"children": [
+					{
+						"id": "cluster:6",
+						"clusterId": 6,
+						"label": "Backup",
+						"description": "General themes.",
+						"value": 15,
+						"children": [
+							{
+								"id": "keyword:6:0",
+								"label": "cron",
+								"value": 7.5
+							},
+							{
+								"id": "keyword:6:1",
+								"label": "health",
+								"value": 5.0
+							},
+							{
+								"id": "keyword:6:2",
+								"label": "the",
+								"value": 2.5
+							}
+						]
+					}
+				]
+			}
+		]
 	}
 }
