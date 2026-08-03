@@ -1398,5 +1398,13 @@
     "pingMs": 11.6,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-08-02 21:00:14",
+    "downloadMbps": 534.05,
+    "uploadMbps": 22.51,
+    "pingMs": 16.0,
+    "server": "New York NY",
+    "provider": "Wnet"
   }
 ]
