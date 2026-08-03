@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-08-03",
+		"displayDate": "August 3, 2026",
+		"image": "/images/news-bosch/2026/08/03.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-03T10:16:16.423912Z",
+		"sourceRetrievedAt": "2026-08-03T10:10:46.229342Z",
+		"themes": [
+			{
+				"name": "Monday at the Narrow Gate",
+				"interpretation": "Scheduled talks and widening pressure turn diplomacy into a threshold where concessions are demanded before passage.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "The Four Hundred Billion Graft",
+				"interpretation": "A proposed pharmaceutical union promises colossal growth while wary investors resist the transplant.",
+				"storyRanks": [3, 9]
+			},
+			{
+				"name": "Ladder of Metabolic Rivalry",
+				"interpretation": "The renewed obesity-drug contest is a race to climb back toward market leadership.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Cheap Minds, Deep Roots",
+				"interpretation": "Artificial intelligence is becoming both cheaper to run and larger to build, pushing competition down into infrastructure and capital.",
+				"storyRanks": [5, 7, 8]
+			},
+			{
+				"name": "Hands Beneath the Yen",
+				"interpretation": "Joint currency intervention turns the market into a canal where states haul against speculative currents.",
+				"storyRanks": [6, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump says Iran talks to take place on Monday, sets no deadline for deal",
+				"url": "https://reuters.com/world/asia-pacific/trump-says-iran-talks-take-place-monday-sets-no-deadline-deal-2026-08-02/"
+			},
+			{
+				"title": "How Iran is widening its pressure campaign to force US concessions",
+				"url": "https://reuters.com/world/middle-east/how-iran-is-widening-its-pressure-campaign-force-us-concessions-2026-08-03/"
+			},
+			{
+				"title": "AstraZeneca held talks with Bristol Myers Squibb on $400 billion megadeal, source says",
+				"url": "https://reuters.com/legal/litigation/astrazeneca-holds-talks-with-bristol-myers-squibb-potential-megadeal-ft-reports-2026-08-02/"
+			},
+			{
+				"title": "Obesity battle heats up again as Novo claws way back into race with Lilly",
+				"url": "https://reuters.com/legal/litigation/obesity-battle-heats-up-again-novo-claws-way-back-into-race-with-lilly-2026-08-03/"
+			},
+			{
+				"title": "DeepSeek's new AI model is by far the cheapest of well-known models to run, research firm says",
+				"url": "https://reuters.com/business/retail-consumer/deepseeks-new-ai-model-is-by-far-cheapest-well-known-models-run-research-firm-2026-08-03/"
+			},
+			{
+				"title": "Japan, US confirm joint yen-buying intervention, signal more action",
+				"url": "https://reuters.com/world/asia-pacific/japan-vow-coordination-with-us-weak-yen-historic-battle-2026-08-02/"
+			},
+			{
+				"title": "Alibaba unveils its largest AI model yet, DeepSeek's latest model is ultra-low cost",
+				"url": "https://reuters.com/business/retail-consumer/alibaba-unveils-its-most-capable-ai-model-date-not-far-behind-moonshots-size-2026-08-03/"
+			},
+			{
+				"title": "CXMT plans second chip plant in Beijing and is in talks on its funding, sources say",
+				"url": "https://reuters.com/world/asia-pacific/cxmt-plans-second-chip-plant-beijing-is-talks-its-funding-sources-say-2026-08-03/"
+			},
+			{
+				"title": "AstraZeneca investors baulk at $400 billion Bristol Myers talks",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/astrazeneca-shares-tumble-7-after-reported-bristol-myers-talks-2026-08-03/"
+			},
+			{
+				"title": "How a US-Japan pact to hit yen speculators came together",
+				"url": "https://reuters.com/world/asia-pacific/how-us-japan-pact-hit-yen-speculators-came-together-2026-08-03/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"vessels, canals, wells, floods, and bridges"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-08-02",
 		"displayDate": "August 2, 2026",
 		"image": "/images/news-bosch/2026/08/02.webp",
