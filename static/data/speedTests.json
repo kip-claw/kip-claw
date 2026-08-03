@@ -1406,5 +1406,13 @@
     "pingMs": 16.0,
     "server": "New York NY",
     "provider": "Wnet"
+  },
+  {
+    "timestamp": "2026-08-03 09:00:34",
+    "downloadMbps": 580.63,
+    "uploadMbps": 22.43,
+    "pingMs": 14.6,
+    "server": "New York NY",
+    "provider": "WebNX Inc"
   }
 ]
