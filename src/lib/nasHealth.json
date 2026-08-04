@@ -1,0 +1,9 @@
+[
+	{
+		"timestamp": "2026-08-04 09:29:51",
+		"totalGb": 1800.0,
+		"usedGb": 728.0,
+		"usedPercent": 42.0,
+		"smartStatus": "/dev/sda: [auto] SMART overall-health self-assessment test result: PASSED; /dev/sdb: [scsi] SMART Health Status: OK; /dev/sdc: [scsi] SMART Health Status: OK"
+	}
+]

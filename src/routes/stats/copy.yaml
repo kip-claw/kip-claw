@@ -11,6 +11,7 @@ openClawHeading: OpenClaw
 memoryHeading: Memory index
 cronHeading: Scheduled tasks
 piHeading: Pi hardware
+nasHeading: NAS storage
 transcriptionHeading: Voice transcription
 archiveboxHeading: ArchiveBox
 speedHeading: Internet speed
@@ -32,6 +33,9 @@ labels:
   piRam: RAM used
   piDisk: Disk used
   piUptime: Uptime
+  nasUsed: Used
+  nasTotal: Total capacity
+  nasSmart: SMART status
   transcriptionModel: Model
   transcriptionReliability: 30-day success rate
   transcriptionUsage: Audio, last 30 days
@@ -50,5 +54,6 @@ charts:
   download: Download speed
   upload: Upload speed
   temperature: CPU & GPU temperature
+  nasSpace: NAS space usage
   transcriptionSpeed: Transcription speed
   archiveboxGrowth: Archive growth

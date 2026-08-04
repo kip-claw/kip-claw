@@ -4,6 +4,7 @@
 	import CronHeatmap from '$lib/CronHeatmap.svelte';
 	import MemoryChart from '$lib/MemoryChart.svelte';
 	import MemorySemanticMapChart from '$lib/MemorySemanticMapChart.svelte';
+	import NasHealthChart from '$lib/NasHealthChart.svelte';
 	import PageHeader from '$lib/PageHeader.svelte';
 	import PiHealthChart from '$lib/PiHealthChart.svelte';
 	import Seo from '$lib/Seo.svelte';
@@ -17,6 +18,7 @@
 	import { getLatestSnapshot, buildHeatmap, getCronSummary } from '$lib/cronJobs';
 	import type { CronJobSnapshot } from '$lib/cronJobs';
 	import { getPiHealthSummary, parsePiHealthData } from '$lib/piHealth';
+	import { getNasHealthSummary, parseNasHealthData } from '$lib/nasHealth';
 	import openclawMemory from '$lib/openclawMemory.json';
 	import openclawMemoryMap from '$lib/openclawMemoryMap.json';
 	import { getLatestMemorySnapshotByAgent, type OpenClawMemorySnapshot } from '$lib/openclawMemory';
@@ -31,6 +33,7 @@
 	import openclawConfig from '$lib/openclawConfig.json';
 	import openclawJobs from '$lib/openclawJobs.json';
 	import piHealthData from '$lib/piHealth.json';
+	import nasHealthData from '$lib/nasHealth.json';
 	import transcriptionData from '$lib/transcriptionDiagnostics.json';
 	import cronJobNames from '$lib/cronJobNames.json';
 	import copyData from './copy.yaml';
@@ -47,6 +50,7 @@
 		memoryHeading: string;
 		cronHeading: string;
 		piHeading: string;
+		nasHeading: string;
 		transcriptionHeading: string;
 		archiveboxHeading: string;
 		speedHeading: string;
@@ -67,6 +71,9 @@
 			piRam: string;
 			piDisk: string;
 			piUptime: string;
+			nasUsed: string;
+			nasTotal: string;
+			nasSmart: string;
 			transcriptionModel: string;
 			transcriptionReliability: string;
 			transcriptionUsage: string;
@@ -82,6 +89,7 @@
 			download: string;
 			upload: string;
 			temperature: string;
+			nasSpace: string;
 			transcriptionSpeed: string;
 			archiveboxGrowth: string;
 			tokenUsage: string;
@@ -106,6 +114,8 @@
 	const cronSummary = getCronSummary(cronLatest);
 	const piHealth = getPiHealthSummary(parsePiHealthData(piHealthData));
 	const piLatest = piHealth.latest;
+	const nasHealth = getNasHealthSummary(parseNasHealthData(nasHealthData));
+	const nasLatest = nasHealth.latest;
 	const transcription = getTranscriptionSummary(transcriptionData as TranscriptionDiagnostics);
 	const tokenUsage = getTokenUsageSummary(tokenUsageData);
 	const formatTokens = (value: number) =>
@@ -201,6 +211,24 @@
 	/>
 
 	<MemoryChart rows={memoryMainRows} title={copy.charts.memoryTrend} chartId="memory-trend" />
+
+	<h2 class="stats-section">{copy.nasHeading}</h2>
+
+	<StatGrid label="NAS storage summary" columns={3}>
+		<StatItem
+			label={copy.labels.nasUsed}
+			value={nasLatest ? nasLatest.usedPercent.toFixed(0) : '—'}
+			unit="%"
+		/>
+		<StatItem
+			label={copy.labels.nasTotal}
+			value={nasLatest ? nasLatest.totalGb.toFixed(0) : '—'}
+			unit="GB"
+		/>
+		<StatItem label={copy.labels.nasSmart} value={nasLatest?.smartStatus ?? '—'} />
+	</StatGrid>
+
+	<NasHealthChart rows={nasHealth.sorted} title={copy.charts.nasSpace} chartId="nas-space" />
 
 	<h2 class="stats-section">{copy.transcriptionHeading}</h2>
 
