@@ -21,7 +21,17 @@ export const buildNasHealthChart = (
 	const dated = [...rows]
 		.map((row) => ({ ...row, date: parseNasHealthDate(row.timestamp) }))
 		.sort((a, b) => +a.date - +b.date);
-	const range = extent(dated, (row) => row.date);
+	// A single snapshot has no horizontal extent, and a one-point SVG area has
+	// no visible fill. Give it a small time window and duplicate the value at
+	// both ends so the current used/free split still renders.
+	const chartRows =
+		dated.length === 1
+			? [
+					{ ...dated[0], date: new Date(+dated[0].date - 12 * 60 * 60 * 1000) },
+					{ ...dated[0], date: new Date(+dated[0].date + 12 * 60 * 60 * 1000) }
+				]
+			: dated;
+	const range = extent(chartRows, (row) => row.date);
 	const x = scaleTime()
 		.domain([range[0] ?? new Date(), range[1] ?? new Date()])
 		.range([margin.left, width - margin.right]);
@@ -43,7 +53,7 @@ export const buildNasHealthChart = (
 		margin,
 		yTicks: y.ticks(5).map((value) => ({ y: y(value), label: `${value}%` })),
 		xTicks: x.ticks(4).map((value) => ({ x: x(value), label: formatDate(value) })),
-		usedPath: usedArea(dated) ?? '',
-		freePath: freeArea(dated) ?? ''
+		usedPath: usedArea(chartRows) ?? '',
+		freePath: freeArea(chartRows) ?? ''
 	};
 };

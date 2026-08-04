@@ -6,6 +6,13 @@ export type NasHealthSnapshot = {
 	smartStatus: string;
 };
 
+export const normalizeSmartStatus = (status: string): string => {
+	const normalized = status.trim().toUpperCase();
+	if (normalized.includes('UNAVAILABLE')) return 'UNAVAILABLE';
+	if (normalized.includes('FAIL')) return 'FAILED';
+	return normalized.includes('OK') || normalized.includes('PASSED') ? 'OK' : 'UNKNOWN';
+};
+
 export const parseNasHealthData = (raw: unknown): NasHealthSnapshot[] =>
 	Array.isArray(raw)
 		? raw.filter((value): value is NasHealthSnapshot => {

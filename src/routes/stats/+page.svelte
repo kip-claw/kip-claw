@@ -18,7 +18,7 @@
 	import { getLatestSnapshot, buildHeatmap, getCronSummary } from '$lib/cronJobs';
 	import type { CronJobSnapshot } from '$lib/cronJobs';
 	import { getPiHealthSummary, parsePiHealthData } from '$lib/piHealth';
-	import { getNasHealthSummary, parseNasHealthData } from '$lib/nasHealth';
+	import { getNasHealthSummary, normalizeSmartStatus, parseNasHealthData } from '$lib/nasHealth';
 	import openclawMemory from '$lib/openclawMemory.json';
 	import openclawMemoryMap from '$lib/openclawMemoryMap.json';
 	import { getLatestMemorySnapshotByAgent, type OpenClawMemorySnapshot } from '$lib/openclawMemory';
@@ -225,7 +225,10 @@
 			value={nasLatest ? nasLatest.totalGb.toFixed(0) : '—'}
 			unit="GB"
 		/>
-		<StatItem label={copy.labels.nasSmart} value={nasLatest?.smartStatus ?? '—'} />
+		<StatItem
+			label={copy.labels.nasSmart}
+			value={nasLatest ? normalizeSmartStatus(nasLatest.smartStatus) : '—'}
+		/>
 	</StatGrid>
 
 	<NasHealthChart rows={nasHealth.sorted} title={copy.charts.nasSpace} chartId="nas-space" />
