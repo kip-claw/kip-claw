@@ -1430,5 +1430,13 @@
     "pingMs": 20.8,
     "server": "New York NY",
     "provider": "Tata Communications"
+  },
+  {
+    "timestamp": "2026-08-05 09:00:33",
+    "downloadMbps": 563.42,
+    "uploadMbps": 22.49,
+    "pingMs": 11.5,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
