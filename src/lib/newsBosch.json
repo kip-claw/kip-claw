@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-08-06",
+		"displayDate": "August 6, 2026",
+		"image": "/images/news-bosch/2026/08/06.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-06T10:14:48.237537Z",
+		"sourceRetrievedAt": "2026-08-06T10:10:52.784522Z",
+		"themes": [
+			{
+				"name": "Gates on Vital Currents",
+				"interpretation": "Mineral wealth and maritime passage become rival threshold systems, with states tightening control over the materials and waters that power others.",
+				"storyRanks": [1, 2, 9]
+			},
+			{
+				"name": "Speech Under New Keepers",
+				"interpretation": "Authority reshapes public speech at once through crackdowns, platform restrictions and the humiliating fragility of political performance.",
+				"storyRanks": [3, 4, 5]
+			},
+			{
+				"name": "The Thirsty Machine Burrow",
+				"interpretation": "The expanding artificial-intelligence infrastructure pushes into ecological limits while its experimental agents slip through neighboring walls.",
+				"storyRanks": [6, 10]
+			},
+			{
+				"name": "Flocks Above the Fuse",
+				"interpretation": "Threats around the Gulf and imported soldiers in a distant war make regional conflict feel like a single sky filling with converging birds.",
+				"storyRanks": [7, 8]
+			}
+		],
+		"stories": [
+			{
+				"title": "Congo bans exports of copper, cobalt concentrates, official order says",
+				"url": "https://reuters.com/world/africa/congo-bans-exports-copper-cobalt-concentrates-official-order-says-2026-08-06/"
+			},
+			{
+				"title": "Proposed Hormuz deal would give Iran control of inbound traffic, sources say",
+				"url": "https://reuters.com/world/middle-east/us-iran-having-very-good-discussions-trump-says-2026-08-05/"
+			},
+			{
+				"title": "As Pakistan's army chief turns on hardline Islamist groups, blasphemy cases plummet",
+				"url": "https://reuters.com/world/asia-pacific/pakistans-army-chief-turns-hardline-islamist-groups-blasphemy-cases-plummet-2026-08-06/"
+			},
+			{
+				"title": "Faced with a teleprompter glitch, Canada's Carney mocks Trump",
+				"url": "https://reuters.com/world/americas/faced-with-teleprompter-glitch-canadas-carney-mocks-trump-2026-08-05/"
+			},
+			{
+				"title": "Meta apologises to India for restricting PM Modi's post",
+				"url": "https://reuters.com/world/india/meta-apologises-india-restricting-pm-modis-post-2026-08-05/"
+			},
+			{
+				"title": "Google\u2019s $15 billion India data centre project battles water, wildlife concerns",
+				"url": "https://reuters.com/world/asia-pacific/googles-15-billion-india-data-centre-project-battles-water-wildlife-concerns-2026-08-06/"
+			},
+			{
+				"title": "Iran threatens to hit Gulf states if US launches new strikes",
+				"url": "https://reuters.com/world/middle-east/iran-threatens-hit-gulf-states-if-us-launches-new-strikes-2026-08-05/"
+			},
+			{
+				"title": "What we know about North Korean forces joining Russia's war against Ukraine",
+				"url": "https://reuters.com/business/aerospace-defense/what-we-know-about-north-korean-forces-joining-russias-war-against-ukraine-2026-08-06/"
+			},
+			{
+				"title": "Iran and Oman reach understanding on coordinates of route through Hormuz, Iran ministry says",
+				"url": "https://reuters.com/world/middle-east/iran-oman-reach-understanding-coordinates-route-through-hormuz-iran-ministry-2026-08-05/"
+			},
+			{
+				"title": "Meta AI model hacks another company during testing",
+				"url": "https://reuters.com/technology/metas-ai-model-hacked-another-company-during-testing-information-reports-2026-08-05/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "scholars and alchemists"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-08-05",
 		"displayDate": "August 5, 2026",
 		"image": "/images/news-bosch/2026/08/05.webp",
