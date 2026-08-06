@@ -1286,5 +1286,9 @@
 	"1247 Third Avenue, New York, NY 10021": {
 		"lat": 40.7694718,
 		"lng": -73.9604872
+	},
+	"154 East 55th Street, New York, NY 10022": {
+		"lat": 40.75907410000001,
+		"lng": -73.9692556
 	}
 }

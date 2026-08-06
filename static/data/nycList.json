@@ -2288,6 +2288,17 @@
     "lng": -73.9892162
   },
   {
+    "name": "Omar\u2019s Mediterranean",
+    "address": "154 East 55th Street, New York, NY 10022",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Small NYC chain serving fresh falafel, shawarma, and similar Mediterranean food from the grill. The Upper East Side location has seating in back; stick with the pita sandwich.",
+    "lat": 40.75907410000001,
+    "lng": -73.9692556
+  },
+  {
     "name": "Osamil",
     "address": "5 W 31st St #8, New York, NY 10001",
     "isDecent": "Y",
