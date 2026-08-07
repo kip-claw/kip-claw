@@ -2178,6 +2178,17 @@
     "lng": -73.9651882
   },
   {
+    "name": "Moono",
+    "address": "29 E. 32nd St., New York, NY 10016",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Beautiful dining room in a Romanesque historic landmark club. Extremely flavorful Korean dishes that are sometimes traditional and sometimes heretical.",
+    "lat": 40.7464153,
+    "lng": -73.98333149999999
+  },
+  {
     "name": "Morning Side Cafe",
     "address": "W 112th St and Manhattan Ave New York, NY 10026",
     "isDecent": "Y",
