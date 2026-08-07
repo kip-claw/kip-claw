@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-08-07",
+		"displayDate": "August 7, 2026",
+		"image": "/images/news-bosch/2026/08/07.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-07T10:14:51.978784Z",
+		"sourceRetrievedAt": "2026-08-07T10:10:47.294484Z",
+		"themes": [
+			{
+				"name": "Strait of No Exit",
+				"interpretation": "Regional alliances, threatened attacks and oil-route anxiety converge into a war maze whose exits keep sealing shut.",
+				"storyRanks": [1, 3, 4, 5]
+			},
+			{
+				"name": "The House-School Threshold",
+				"interpretation": "A place meant to shelter childhood becomes a shattered boundary between private fear and public safety.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Roots Without Papers",
+				"interpretation": "Citizenship rules, fleeing workers and changing religious prosecutions expose how quickly belonging can be uprooted or replanted by power.",
+				"storyRanks": [6, 7, 10]
+			},
+			{
+				"name": "Trials Beneath the Warehouse",
+				"interpretation": "Legal retribution and attacks on commercial infrastructure portray institutions as hidden chambers where political grudges and economic conflict collide.",
+				"storyRanks": [8, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Saudi Arabia, Turkey and Pakistan to sign joint defence deal amid regional turmoil",
+				"url": "https://reuters.com/world/asia-pacific/saudi-arabia-turkey-pakistan-sign-joint-defence-deal-amid-regional-turmoil-2026-08-07/"
+			},
+			{
+				"title": "Thai teen kills 7 in rampage at home and school before shooting himself",
+				"url": "https://reuters.com/world/asia-pacific/shooting-takes-place-school-thailand-officials-say-2026-08-07/"
+			},
+			{
+				"title": "Saudi expects imminent two-pronged attack from Iran's allies, official says",
+				"url": "https://reuters.com/world/middle-east/saudi-arabia-expects-imminent-attacks-north-south-senior-official-says-2026-08-06/"
+			},
+			{
+				"title": "Oil prices firm on concerns over Strait of Hormuz plans",
+				"url": "https://reuters.com/business/energy/oil-rises-concerns-over-strait-hormuz-reopening-plans-2026-08-07/"
+			},
+			{
+				"title": "Trump's Iran dilemma: He's stuck in war with no exit in sight",
+				"url": "https://reuters.com/world/middle-east/trumps-iran-dilemma-hes-stuck-war-with-no-exit-sight-2026-08-06/"
+			},
+			{
+				"title": "Trump signs orders to limit US birthright citizenship, despite Supreme Court ruling",
+				"url": "https://reuters.com/world/trump-sign-orders-birthright-citizenship-axios-reports-2026-08-06/"
+			},
+			{
+				"title": "South African clothing factories struggle after migrant workers flee",
+				"url": "https://reuters.com/business/world-at-work/south-african-clothing-factories-struggle-after-migrant-workers-flee-2026-08-06/"
+			},
+			{
+				"title": "Republican US Senator Rand Paul asks Justice Department to prosecute Fauci after contempt vote",
+				"url": "https://reuters.com/legal/litigation/us-senate-panel-votes-hold-fauci-contempt-congress-2026-08-06/"
+			},
+			{
+				"title": "Ukrainian attacks on Wildberries strike at heart of Russia Inc",
+				"url": "https://reuters.com/world/ukrainian-attacks-wildberries-strike-heart-russia-inc-2026-08-07/"
+			},
+			{
+				"title": "As Pakistan's army chief turns on hardline Islamist groups, blasphemy cases plummet",
+				"url": "https://reuters.com/world/asia-pacific/pakistans-army-chief-turns-hardline-islamist-groups-blasphemy-cases-plummet-2026-08-06/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "courtiers and heralds"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-08-06",
 		"displayDate": "August 6, 2026",
 		"image": "/images/news-bosch/2026/08/06.webp",
