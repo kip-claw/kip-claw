@@ -1454,5 +1454,13 @@
     "pingMs": 15.4,
     "server": "New York NY",
     "provider": "Starry Inc."
+  },
+  {
+    "timestamp": "2026-08-06 21:00:14",
+    "downloadMbps": 545.05,
+    "uploadMbps": 22.34,
+    "pingMs": 24.7,
+    "server": "New York NY",
+    "provider": "Pilot Fiber"
   }
 ]
