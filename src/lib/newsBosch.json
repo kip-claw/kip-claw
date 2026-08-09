@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-08-09",
+		"displayDate": "August 9, 2026",
+		"image": "/images/news-bosch/2026/08/09.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-09T10:15:20.104160Z",
+		"sourceRetrievedAt": "2026-08-09T10:11:00.385268Z",
+		"themes": [
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [3, 4, 6, 8, 9, 10]
+			},
+			{
+				"name": "Nature, Risk, and Discovery",
+				"interpretation": "Bodies, ecosystems, and frontiers strain under pressure as discovery and hazard advance together.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Origins and Promises",
+				"interpretation": "Institutions and actors set events in motion with pledges, plans, and unspoken costs.",
+				"storyRanks": [3]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran says deal on Strait of Hormuz is close but not enough to open the waterway",
+				"url": "https://reuters.com/world/middle-east/iran-says-deal-strait-hormuz-is-close-will-not-open-waterway-by-itself-2026-08-08/"
+			},
+			{
+				"title": "Ex-President Joe Biden's cancer has spread, is very painful, son says",
+				"url": "https://reuters.com/world/us/ex-president-joe-bidens-cancer-has-spread-is-very-painful-son-says-2026-08-08/"
+			},
+			{
+				"title": "Talks with US won't happen while interim deal is breached, Iranian minister says",
+				"url": "https://reuters.com/world/middle-east/talks-with-us-wont-happen-while-interim-deal-is-breached-iranian-minister-says-2026-08-09/"
+			},
+			{
+				"title": "Taylor Swift songs removed from White House, Trump campaign posts",
+				"url": "https://reuters.com/business/media-telecom/taylor-swift-songs-removed-white-house-trump-campaign-posts-2026-08-09/"
+			},
+			{
+				"title": "Yemen's Houthis say they attacked Saudi Aramco Jazan refinery, fire extinguished",
+				"url": "https://reuters.com/business/energy/fire-extinguished-aramco-facility-jizan-saudi-arabia-says-2026-08-09/"
+			},
+			{
+				"title": "German trade deficit with China grows as Beijing relies less on European industry",
+				"url": "https://reuters.com/world/china/german-trade-deficit-with-china-grows-beijing-relies-less-european-industry-2026-08-09/"
+			},
+			{
+				"title": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates",
+				"url": "https://reuters.com/world/asia-pacific/saudi-arabia-turkey-pakistan-sign-joint-defence-deal-amid-regional-turmoil-2026-08-07/"
+			},
+			{
+				"title": "Spain checks 200 Italy arrivals in border controls after migration row",
+				"url": "https://reuters.com/world/spain-checks-200-italy-arrivals-border-controls-after-migration-row-2026-08-09/"
+			},
+			{
+				"title": "Typhoon Dolphin set to hit China's east coast, triggering flood warnings",
+				"url": "https://reuters.com/business/environment/typhoon-dolphin-set-hit-chinas-east-coast-triggering-flood-warnings-2026-08-09/"
+			},
+			{
+				"title": "India warned Diageo that its whisky's 'matured in American oak casks' claim was misleading",
+				"url": "https://reuters.com/world/india/india-warned-diageo-that-its-whiskys-matured-american-oak-casks-claim-was-2026-08-08/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-08-08",
 		"displayDate": "August 8, 2026",
 		"image": "/images/news-bosch/2026/08/08.webp",
