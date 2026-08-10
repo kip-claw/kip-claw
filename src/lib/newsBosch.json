@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-08-10",
+		"displayDate": "August 10, 2026",
+		"image": "/images/news-bosch/2026/08/10.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-10T10:15:00.850515Z",
+		"sourceRetrievedAt": "2026-08-10T10:10:45.225123Z",
+		"themes": [
+			{
+				"name": "Bargaining at the Narrow Gate",
+				"interpretation": "A vital maritime passage becomes an unfinished machine whose reopening, oil flows and strategic relevance are all negotiated through leverage.",
+				"storyRanks": [1, 8, 10]
+			},
+			{
+				"name": "Treaty Threads and Fire",
+				"interpretation": "Regional security promises and rejected peace designs form a tense procession repeatedly interrupted by attacks and refusals.",
+				"storyRanks": [6, 7, 9]
+			},
+			{
+				"name": "Weather Rewrites the Ledger",
+				"interpretation": "Climate damage arrives as an economic reckoning, with summer storms turning transport and balance sheets into waterlogged theater props.",
+				"storyRanks": [3, 5]
+			},
+			{
+				"name": "Supply Chains Recoil Homeward",
+				"interpretation": "Consumer goods networks reveal their fragility as a food-safety alarm and a disappointing overseas warehouse experiment disrupt the production loom.",
+				"storyRanks": [2, 4]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran ties Hormuz reopening to US concessions on several demands",
+				"url": "https://reuters.com/world/middle-east/iran-ties-hormuz-reopening-us-concessions-several-demands-2026-08-09/"
+			},
+			{
+				"title": "Taylor Farms recalls salsa and guacamole over salmonella risk",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/taylor-farms-pulls-salsa-guacamole-over-salmonella-concerns-bloomberg-news-2026-08-09/"
+			},
+			{
+				"title": "How the hard reality of climate change hit Europe's economy this summer",
+				"url": "https://reuters.com/business/environment/how-hard-reality-climate-change-hit-europes-economy-this-summer-2026-08-10/"
+			},
+			{
+				"title": "Shein finds there's no place like China after Vietnam warehouse experiment disappoints\u00a0\u00a0",
+				"url": "https://reuters.com/business/retail-consumer/shein-finds-theres-no-place-like-china-after-vietnam-warehouse-experiment-2026-08-09/"
+			},
+			{
+				"title": "Storms from Dolphin soak China's east, ground nearly 950 Shanghai flights",
+				"url": "https://reuters.com/business/environment/storms-dolphin-soak-chinas-east-disrupt-life-shanghai-2026-08-10/"
+			},
+			{
+				"title": "Netanyahu says Trump's new Gaza plan is unacceptable",
+				"url": "https://reuters.com/world/middle-east/israel-rejects-trumps-15-point-plan-gaza-pm-netanyahu-says-2026-08-09/"
+			},
+			{
+				"title": "Iran says no reason to fear Pakistan-Turkey-Saudi security pact",
+				"url": "https://reuters.com/world/asia-pacific/iran-says-no-reason-fear-pakistan-turkey-saudi-security-pact-2026-08-10/"
+			},
+			{
+				"title": "Oil steady as Iran tempers hopes of swift Hormuz reopening",
+				"url": "https://reuters.com/business/energy/oil-rises-uncertainty-continues-over-reopening-strait-2026-08-09/"
+			},
+			{
+				"title": "Yemen's Houthis attack Saudi refinery after kingdom signs defence pact",
+				"url": "https://reuters.com/business/energy/fire-extinguished-aramco-facility-jizan-saudi-arabia-says-2026-08-09/"
+			},
+			{
+				"title": "Morning Bid: Suddenly the Strait of Hormuz is 'irrelevant' to the US",
+				"url": "https://reuters.com/world/china/global-markets-view-europe-2026-08-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "masked magistrates"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"theaters, masks, puppets, curtains, and processions",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-08-09",
 		"displayDate": "August 9, 2026",
 		"image": "/images/news-bosch/2026/08/09.webp",
