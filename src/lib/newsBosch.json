@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-08-11",
+		"displayDate": "August 11, 2026",
+		"image": "/images/news-bosch/2026/08/11.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-11T10:16:16.731512Z",
+		"sourceRetrievedAt": "2026-08-11T10:11:06.673412Z",
+		"themes": [
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [2, 5, 6, 7, 10]
+			},
+			{
+				"name": "Nature, Risk, and Discovery",
+				"interpretation": "Bodies, ecosystems, and frontiers strain under pressure as discovery and hazard advance together.",
+				"storyRanks": [3, 4]
+			},
+			{
+				"name": "Origins and Promises",
+				"interpretation": "Institutions and actors set events in motion with pledges, plans, and unspoken costs.",
+				"storyRanks": [3]
+			}
+		],
+		"stories": [
+			{
+				"title": "Hopes for Hormuz deal fade as Trump demands Iranian reparations",
+				"url": "https://reuters.com/world/middle-east/iran-ties-hormuz-reopening-us-concessions-several-demands-2026-08-09/"
+			},
+			{
+				"title": "Syria sentences absent Bashar al-Assad to death over killings, torture",
+				"url": "https://reuters.com/world/syria-sentences-absent-bashar-al-assad-death-over-killings-torture-2026-08-11/"
+			},
+			{
+				"title": "Trump boarded secret Turkey flight via catering truck due to Iran threat \u2013 media\u00a0",
+				"url": "https://reuters.com/business/aerospace-defense/trump-flew-secretly-turkey-due-iranian-threat-washington-post-reports-2026-08-11/"
+			},
+			{
+				"title": "Colombia rescue efforts press on after quake, death toll expected to rise",
+				"url": "https://reuters.com/business/environment/colombia-rescue-efforts-press-after-quake-death-toll-expected-rise-2026-08-11/"
+			},
+			{
+				"title": "Colombia earthquake: Death toll mounts as rescuers search collapsed buildings - as it happened",
+				"url": "https://reuters.com/world/colombia-earthquake-live-reports-deaths-collapsed-buildings-after-powerful-2026-08-10/"
+			},
+			{
+				"title": "Toyota to recall over 508,000 US vehicles over instrument cluster display issues",
+				"url": "https://reuters.com/legal/litigation/toyota-recall-over-508000-us-vehicles-over-instrument-cluster-display-issues-2026-08-11/"
+			},
+			{
+				"title": "US court rules Meta, other tech firms must face thousands of lawsuits over social media addiction",
+				"url": "https://reuters.com/world/us-appeals-court-allows-thousands-lawsuits-against-social-media-companies-over-2026-08-10/"
+			},
+			{
+				"title": "China missile test deepens Pacific divide over growing militarisation",
+				"url": "https://reuters.com/world/china/china-missile-test-deepens-pacific-divide-over-growing-militarisation-2026-08-11/"
+			},
+			{
+				"title": "Gold eases from over two-month high as rising oil prices cloud rate outlook",
+				"url": "https://reuters.com/world/india/gold-rises-third-straight-session-inflation-prints-focus-2026-08-11/"
+			},
+			{
+				"title": "Vietnam starts building largest homemade anti-submarine warship",
+				"url": "https://reuters.com/world/asia-pacific/vietnam-starts-building-largest-homemade-anti-submarine-warship-2026-08-11/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-08-10",
 		"displayDate": "August 10, 2026",
 		"image": "/images/news-bosch/2026/08/10.webp",
