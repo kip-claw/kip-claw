@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-08-12",
+		"displayDate": "August 12, 2026",
+		"image": "/images/news-bosch/2026/08/12.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-12T10:28:05.252008Z",
+		"sourceRetrievedAt": "2026-08-12T10:23:35.232411Z",
+		"themes": [
+			{
+				"name": "Sea Lanes Under Eclipse",
+				"interpretation": "Attacked shipping, halted exports and threatened vessel seizures turn maritime trade into a mirrored passage where every defensive move invites a matching retaliation.",
+				"storyRanks": [1, 6, 7, 8]
+			},
+			{
+				"name": "Fortune Without a Steward",
+				"interpretation": "A contested chair and a fund vulnerable to total collapse suggest that even vast institutions can become shells when guardianship fractures.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "Rescue Beneath Broken Earth",
+				"interpretation": "Rescuers descending into earthquake ruins embody a race against a clock whose hands move opposite ways for those buried and those searching.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Ballots at Opposite Thresholds",
+				"interpretation": "Two nearby contests portray electoral change as a flock splitting at a doorway, with ascent for one camp mirroring defeat for another.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Detours Through Fire",
+				"interpretation": "A secretly rerouted aircraft and a burning island ferry make escape itself the central drama, as one journey avoids danger while another is pulled back from it.",
+				"storyRanks": [9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "New attacks on shipping as Iran war talks hit fresh impasse",
+				"url": "https://reuters.com/world/middle-east/pakistan-says-us-iran-close-some-sort-deal-despite-attacks-shipping-2026-08-11/"
+			},
+			{
+				"title": "Tata chair Chandrasekaran to step down after tension with controlling charity arm",
+				"url": "https://reuters.com/world/india/indias-tata-sons-chairman-chandrasekaran-may-step-down-ahead-shareholder-meeting-2026-08-12/"
+			},
+			{
+				"title": "Norway wealth fund CEO says fund's entire value could be lost if market collapses",
+				"url": "https://reuters.com/business/finance/norway-wealth-fund-ceo-says-funds-entire-value-could-be-lost-future-2026-08-11/"
+			},
+			{
+				"title": "Colombia quake death toll tops 250 as rescuers race to find survivors",
+				"url": "https://reuters.com/business/environment/colombia-rescue-efforts-press-after-quake-death-toll-expected-rise-2026-08-11/"
+			},
+			{
+				"title": "Wisconsin Democrats nominate moderate Crowley for governor; Trump ally beaten in Minnesota",
+				"url": "https://reuters.com/world/us/upper-midwest-primaries-test-progressive-energy-trumps-influence-2026-08-11/"
+			},
+			{
+				"title": "Two grain terminals at Russia's Novorossiysk halt work after Ukrainian attack, sources say",
+				"url": "https://reuters.com/world/russias-novorossiysk-grain-terminal-halts-operations-after-ukrainian-drone-2026-08-12/"
+			},
+			{
+				"title": "Putin says Russia will respond in kind if EU nations seize Russian vessels",
+				"url": "https://reuters.com/world/putin-says-russia-will-respond-kind-if-eu-nations-seize-russian-vessels-2026-08-12/"
+			},
+			{
+				"title": "Four crew, two rescuers killed in Red Sea attack; US strikes ship in Gulf of Oman",
+				"url": "https://reuters.com/world/china/three-killed-attacks-ships-red-sea-gulf-sources-say-2026-08-11/"
+			},
+			{
+				"title": "Trump says his plane faced 'greater risk' in secret flight change",
+				"url": "https://reuters.com/business/aerospace-defense/trump-says-his-plane-faced-greater-risk-flight-change-2026-08-12/"
+			},
+			{
+				"title": "One dead, 172 rescued after Indonesian ferry from Bali catches fire",
+				"url": "https://reuters.com/world/asia-pacific/indonesian-ferry-bali-catches-fire-waters-off-lombok-evacuations-underway-2026-08-12/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "masked magistrates"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"animals, insects, shells, nests, and migrating flocks",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-08-11",
 		"displayDate": "August 11, 2026",
 		"image": "/images/news-bosch/2026/08/11.webp",
