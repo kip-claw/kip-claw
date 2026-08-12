@@ -715,6 +715,17 @@
     "lng": -73.9661194
   },
   {
+    "name": "CAVA \u2014 Bryant Park",
+    "address": "11 W 42nd St, New York, NY 10036",
+    "isDecent": "",
+    "isRecommended": "",
+    "isElite": "",
+    "isClosed": "",
+    "notes": "Way too small and overcrowded; felt like a fire hazard. Food is fine, but go to the Sweetgreen next door or NAYA instead to avoid the hassle.",
+    "lat": 40.7543352,
+    "lng": -73.981948
+  },
+  {
     "name": "Chambers",
     "address": "94 Chambers St #1, New York, NY 10007",
     "isDecent": "Y",
@@ -2913,6 +2924,17 @@
     "notes": "Famous signage and history. A clean, normal but not very memorable sports bar once you're inside.",
     "lat": 40.7615776,
     "lng": -73.9633396
+  },
+  {
+    "name": "Sweetgreen \u2014 Bryant Park",
+    "address": "1114 Avenue of the Americas, New York, NY 10036",
+    "isDecent": "Y",
+    "isRecommended": "",
+    "isElite": "",
+    "isClosed": "",
+    "notes": "A perfectly acceptable outpost of the lunch chain, though it has no indoor seating. Walk across the street to Bryant Park for a nice lunch instead.",
+    "lat": 40.75480760000001,
+    "lng": -73.9826874
   },
   {
     "name": "Szechuan Gourmet",
