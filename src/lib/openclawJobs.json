@@ -25144,5 +25144,437 @@
 		"consecutiveErrors": 1,
 		"errorReason": "",
 		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Sluggo task completion notifier",
+		"status": "ok",
+		"durationS": 47.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 2.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "OpenClaw job report",
+		"status": "error",
+		"durationS": 35.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Whisper transcription service health",
+		"status": "ok",
+		"durationS": 2.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Heartbeat cleanup",
+		"status": "ok",
+		"durationS": 2.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 39.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 4.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "OpenClaw memory report",
+		"status": "ok",
+		"durationS": 97.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 19.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "morning-weather-run",
+		"status": "ok",
+		"durationS": 27.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 4.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 7.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 231.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Lipitor reminder",
+		"status": "ok",
+		"durationS": 0.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 36.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 662.0,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "ArchiveBox backup monitor",
+		"status": "ok",
+		"durationS": 35.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "ArchiveBox stats export",
+		"status": "ok",
+		"durationS": 60.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Token usage export",
+		"status": "ok",
+		"durationS": 282.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Disk space check",
+		"status": "ok",
+		"durationS": 59.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Whisper transcription stats export",
+		"status": "ok",
+		"durationS": 194.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 27.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 23.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 36.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 83.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Email inbox check",
+		"status": "ok",
+		"durationS": 24.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 43.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Lipitor follow-up reminder",
+		"status": "ok",
+		"durationS": 2.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 49.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 220.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Sluggo encrypted NAS backup",
+		"status": "ok",
+		"durationS": 158.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 8.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 137.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Wiki maintenance",
+		"status": "skipped",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": "disabled"
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 2.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 21.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Mail archive reindex",
+		"status": "ok",
+		"durationS": 2.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 2997.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Wiki compile and lint",
+		"status": "ok",
+		"durationS": 77.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 129.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Weekly wiki enrichment",
+		"status": "ok",
+		"durationS": 689.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 147.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 94.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Finance: needs-review check",
+		"status": "ok",
+		"durationS": 116.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Finance: pending tax decisions",
+		"status": "ok",
+		"durationS": 141.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Google Drive sync report",
+		"status": "ok",
+		"durationS": 158.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "Weekly diet pattern report",
+		"status": "ok",
+		"durationS": 97.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-14 04:21:22",
+		"jobName": "NAS report",
+		"status": "error",
+		"durationS": 403.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "cron: job interrupted by gateway restart"
 	}
 ]
