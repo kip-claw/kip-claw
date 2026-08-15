@@ -5,17 +5,9 @@ import { timeFormat } from 'd3-time-format';
 import type { ChartFrameModel } from './chartShared';
 import type { OpenClawMemorySnapshot } from './openclawMemory';
 
-type ChartPoint = {
-	x: number;
-	y: number;
-	title: string;
-};
-
 export type MemoryChartModel = ChartFrameModel & {
 	chunksPath: string;
 	recallPath: string;
-	chunkPoints: ChartPoint[];
-	recallPoints: ChartPoint[];
 };
 
 const height = 360;
@@ -23,13 +15,6 @@ const margin = { top: 26, right: 20, bottom: 52, left: 54 };
 const minimumYMax = 10;
 
 const formatDate = timeFormat('%b %-d');
-const formatTimestamp = new Intl.DateTimeFormat('en-US', {
-	month: 'short',
-	day: 'numeric',
-	hour: 'numeric',
-	minute: '2-digit'
-});
-
 const parseMemoryDate = (value: string): Date => new Date(value.replace(' ', 'T'));
 
 export const buildMemoryTrendChart = (
@@ -71,16 +56,6 @@ export const buildMemoryTrendChart = (
 			label: formatDate(tick)
 		})),
 		chunksPath: buildPath((row) => row.indexedChunks),
-		recallPath: buildPath((row) => row.recallEntries),
-		chunkPoints: dated.map((row) => ({
-			x: xScale(row.date),
-			y: yScale(row.indexedChunks),
-			title: `${formatTimestamp.format(row.date)}: ${row.indexedChunks.toLocaleString()} chunks`
-		})),
-		recallPoints: dated.map((row) => ({
-			x: xScale(row.date),
-			y: yScale(row.recallEntries),
-			title: `${formatTimestamp.format(row.date)}: ${row.recallEntries.toLocaleString()} recall entries`
-		}))
+		recallPath: buildPath((row) => row.recallEntries)
 	};
 };

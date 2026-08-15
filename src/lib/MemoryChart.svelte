@@ -33,17 +33,6 @@
 
 			<path class="chunks-line" d={chart.chunksPath} />
 			<path class="recall-line" d={chart.recallPath} />
-
-			{#each chart.chunkPoints as point}
-				<circle class="chunks-dot" cx={point.x} cy={point.y} r="2.75">
-					<title>{point.title}</title>
-				</circle>
-			{/each}
-			{#each chart.recallPoints as point}
-				<circle class="recall-dot" cx={point.x} cy={point.y} r="2.75">
-					<title>{point.title}</title>
-				</circle>
-			{/each}
 		</ChartFrame>
 	{/if}
 </div>
@@ -80,19 +69,5 @@
 		stroke-width: 3;
 		stroke-linecap: round;
 		stroke-linejoin: round;
-	}
-
-	.chunks-dot {
-		fill: var(--color-accent);
-		fill-opacity: 0.4;
-		stroke: var(--color-background);
-		stroke-width: 1;
-	}
-
-	.recall-dot {
-		fill: var(--color-text);
-		fill-opacity: 0.35;
-		stroke: var(--color-background);
-		stroke-width: 1;
 	}
 </style>
