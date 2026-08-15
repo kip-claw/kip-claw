@@ -20,9 +20,6 @@
 		>
 			{#snippet legend()}{/snippet}
 			<path class="line" d={chart.path} />
-			{#each chart.points as point}<circle cx={point.x} cy={point.y} r="2.75"
-					><title>{point.title}</title></circle
-				>{/each}
 		</ChartFrame>{/if}
 </div>
 
@@ -36,11 +33,5 @@
 		stroke-width: 3;
 		stroke-linecap: round;
 		stroke-linejoin: round;
-	}
-	circle {
-		fill: var(--color-accent);
-		fill-opacity: 0.4;
-		stroke: var(--color-background);
-		stroke-width: 1;
 	}
 </style>

@@ -7,7 +7,6 @@ import type { ArchiveBoxDay } from './archiveboxStats';
 
 export type ArchiveBoxChartModel = ChartFrameModel & {
 	path: string;
-	points: Array<{ x: number; y: number; title: string }>;
 };
 const height = 360;
 const margin = { top: 26, right: 20, bottom: 52, left: 54 };
@@ -38,11 +37,6 @@ export const buildArchiveBoxChart = (
 		path:
 			line<(typeof dated)[number]>()
 				.x((row) => x(row.date))
-				.y((row) => y(row.items))(dated) ?? '',
-		points: dated.map((row) => ({
-			x: x(row.date),
-			y: y(row.items),
-			title: `${formatDate(row.date)}: ${row.items.toLocaleString()} archived items`
-		}))
+				.y((row) => y(row.items))(dated) ?? ''
 	};
 };
