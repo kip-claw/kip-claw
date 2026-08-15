@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-08-15",
+		"displayDate": "August 15, 2026",
+		"image": "/images/news-bosch/2026/08/15.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-15T10:14:38.884115Z",
+		"sourceRetrievedAt": "2026-08-15T10:10:46.872526Z",
+		"themes": [
+			{
+				"name": "Thirst Stops the Procession",
+				"interpretation": "Climate strain becomes the halted rhythm beneath the day, as vanished waters turn familiar landscapes into waiting ground.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Tremors Tune the Strait",
+				"interpretation": "Earthquakes and energy confrontation form a violent counter-melody, shaking homes while a strategic passage tightens fuel anxiety.",
+				"storyRanks": [2, 3, 7]
+			},
+			{
+				"name": "Gates, Guilt and Silence",
+				"interpretation": "Institutions appear as interrupted stages where confession, death, and cancelled speech leave public rooms abruptly emptied.",
+				"storyRanks": [4, 5, 8]
+			},
+			{
+				"name": "The Divided Machine Orchard",
+				"interpretation": "Artificial-intelligence ambition ripens into a contested orchard, where enormous forecasts and losses accompany demands to choose a side.",
+				"storyRanks": [6, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Where the water once flowed: Rivers and lakes dry up as droughts take toll",
+				"url": "https://reuters.com/pictures/where-water-once-flowed-rivers-lakes-dry-up-droughts-take-toll-2026-08-14/"
+			},
+			{
+				"title": "At least 38 dead after Indonesia's magnitude-7.7 earthquake, officials say",
+				"url": "https://reuters.com/business/environment/magnitude-69-earthquake-strikes-off-coast-indonesia-emsc-says-2026-08-14/"
+			},
+			{
+				"title": "Iran defiant on strait as Trump tells Americans to accept high gas prices",
+				"url": "https://reuters.com/world/us/trump-urges-americans-accept-higher-gas-prices-he-escalates-iran-rhetoric-2026-08-14/"
+			},
+			{
+				"title": "Luigi Mangione admits killing insurance CEO, pleads guilty in federal case",
+				"url": "https://reuters.com/legal/government/luigi-mangione-accused-insurance-ceo-killer-due-court-amid-plea-deal-reports-2026-08-14/"
+			},
+			{
+				"title": "Jason Arday, ex-Cambridge professor at centre of plagiarism scandal, found dead",
+				"url": "https://reuters.com/world/uk/ex-cambridge-professor-centre-plagiarism-scandal-found-dead-british-media-report-2026-08-14/"
+			},
+			{
+				"title": "Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say",
+				"url": "https://reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/"
+			},
+			{
+				"title": "Earthquake hits Spanish city of Granada, damages buildings and cars",
+				"url": "https://reuters.com/business/environment/earthquake-hits-spanish-city-granada-damages-buildings-cars-2026-08-15/"
+			},
+			{
+				"title": "Florida venue cancels rally with Palestinian American lawmaker Rashida Tlaib\u200b\u200b",
+				"url": "https://reuters.com/world/us/florida-venue-cancels-rally-with-palestinian-american-lawmaker-rashida-tlaib-2026-08-15/"
+			},
+			{
+				"title": "Jane Street took $15 billion hit in July tied to Situational Awareness, AI selloff, sources say",
+				"url": "https://reuters.com/business/finance/jane-street-took-15-billion-hit-july-tied-situational-awareness-sources-say-2026-08-14/"
+			},
+			{
+				"title": "US to tell partners they must pick sides in AI race with China\u00a0",
+				"url": "https://reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "merchants and market keepers"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "dry clay, straw yellow, olive, turquoise, and dark crimson",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-08-14",
 		"displayDate": "August 14, 2026",
 		"image": "/images/news-bosch/2026/08/14.webp",
