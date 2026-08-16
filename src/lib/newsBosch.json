@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-08-16",
+		"displayDate": "August 16, 2026",
+		"image": "/images/news-bosch/2026/08/16.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-16T10:15:19.016859Z",
+		"sourceRetrievedAt": "2026-08-16T10:10:47.234029Z",
+		"themes": [
+			{
+				"name": "Checkout at the Curtain",
+				"interpretation": "Domestic political theater is being staged through household scarcity, as old grocery imagery collides with demands to absorb higher fuel costs.",
+				"storyRanks": [1, 4]
+			},
+			{
+				"name": "Strait of Shadow Puppets",
+				"interpretation": "Military strikes, contested detentions, and defiant maritime postures turn regional power into a dangerous puppet show with unseen hands.",
+				"storyRanks": [2, 5]
+			},
+			{
+				"name": "Broken Roads, Returning Birds",
+				"interpretation": "Disaster and transport failure converge in a procession where quake-broken routes, a fatal coach, and an aborted flight all reverse the promised journey.",
+				"storyRanks": [3, 6, 7]
+			},
+			{
+				"name": "Fire Crossing the Garden",
+				"interpretation": "A record wildfire advancing across a border makes the landscape itself a runaway actor, burning through the lines meant to contain it.",
+				"storyRanks": [9]
+			},
+			{
+				"name": "Grafted Camps of Tomorrow",
+				"interpretation": "Commemorative alliance and technological rivalry harden the world into rival root systems, demanding loyalty while promising protection.",
+				"storyRanks": [8, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump's 2024 grocery photo op now haunts Republicans in the midterms",
+				"url": "https://reuters.com/world/us/trumps-2024-grocery-photo-op-now-haunts-republicans-midterms-2026-08-15/"
+			},
+			{
+				"title": "Ukrainian drones strike Moscow region, killing one",
+				"url": "https://reuters.com/world/ukrainian-drones-strike-moscow-region-killing-one-2026-08-16/"
+			},
+			{
+				"title": "Thousands evacuate after Indonesia quake kills 51, cuts roads",
+				"url": "https://reuters.com/business/environment/thousands-evacuate-after-indonesia-quake-kills-51-cuts-roads-2026-08-16/"
+			},
+			{
+				"title": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices",
+				"url": "https://reuters.com/world/us/trump-urges-americans-accept-higher-gas-prices-he-escalates-iran-rhetoric-2026-08-14/"
+			},
+			{
+				"title": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel",
+				"url": "https://reuters.com/world/middle-east/iran-says-qatar-delaying-probe-into-fate-iranian-pilots-tasnim-news-agency-2026-08-16/"
+			},
+			{
+				"title": "Twelve killed and at least 10 injured in Polish bus crash in Hungary",
+				"url": "https://reuters.com/world/twelve-killed-least-10-injured-polish-bus-crash-hungary-2026-08-16/"
+			},
+			{
+				"title": "Vietnam Airlines Boeing 787 returned to Munich after takeoff incident",
+				"url": "https://reuters.com/business/aerospace-defense/vietnam-airlines-boeing-787-returned-munich-after-takeoff-incident-flightradar24-2026-08-16/"
+			},
+			{
+				"title": "North Korea's Kim, Russia's Putin reaffirm ties on Korean Liberation Day",
+				"url": "https://reuters.com/world/china/north-koreas-kim-russias-putin-reaffirm-ties-korean-liberation-day-2026-08-16/"
+			},
+			{
+				"title": "Belgium's biggest wildfire on record heads towards Germany",
+				"url": "https://reuters.com/business/environment/belgiums-biggest-wildfire-record-heads-towards-germany-2026-08-16/"
+			},
+			{
+				"title": "US to tell partners they must pick sides in AI race with China",
+				"url": "https://reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "masked magistrates"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "dry clay, straw yellow, olive, turquoise, and dark crimson",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-08-15",
 		"displayDate": "August 15, 2026",
 		"image": "/images/news-bosch/2026/08/15.webp",
