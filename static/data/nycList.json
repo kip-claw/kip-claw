@@ -880,6 +880,17 @@
     "lng": -73.9967631
   },
   {
+    "name": "Cosenza\u2019s Fish Market",
+    "address": "2354 Arthur Ave, Bronx, NY 10458",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Order and eat fresh-shucked clams and oysters right on the street. Who could skip it?",
+    "lat": 40.854511,
+    "lng": -73.8881353
+  },
+  {
     "name": "Cowgirl SeaHorse",
     "address": "259 Front St, New York, NY 10038",
     "isDecent": "Y",
@@ -2143,6 +2154,17 @@
     "notes": "Short order cooks and coffee out of a tiny storefront just off Park Avenue. Open very early. Better than any vendor stall.",
     "lat": 40.7458692,
     "lng": -73.9829669
+  },
+  {
+    "name": "Mike\u2019s Deli",
+    "address": "Arthur Avenue Retail Market, 2344 Arthur Ave, Bronx, NY 10458",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Old-school Italian deli counter in the heart of the Bronx\u2019s Little Italy. Head to the back right of the Arthur Avenue Retail Market; plenty of seating.",
+    "lat": 40.8542194,
+    "lng": -73.88825829999999
   },
   {
     "name": "Miznon (The Hugh)",

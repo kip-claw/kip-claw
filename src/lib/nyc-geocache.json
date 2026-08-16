@@ -1302,5 +1302,13 @@
 	"1114 Avenue of the Americas, New York, NY 10036": {
 		"lat": 40.75480760000001,
 		"lng": -73.9826874
+	},
+	"2354 Arthur Ave, Bronx, NY 10458": {
+		"lat": 40.854511,
+		"lng": -73.8881353
+	},
+	"Arthur Avenue Retail Market, 2344 Arthur Ave, Bronx, NY 10458": {
+		"lat": 40.8542194,
+		"lng": -73.88825829999999
 	}
 }
