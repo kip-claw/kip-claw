@@ -18,7 +18,7 @@
 	{
 		"slug": "cigar-humidor",
 		"title": "Cigar Humidor",
-		"description": "Logs humidity readings, Boveda pack changes, and new cigars to Ben's humidor spreadsheet.",
+		"description": "Add a current-aging summary workflow for every logged cigar.",
 		"tag": "Lists",
 		"path": "cigar-humidor/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/cigar-humidor/SKILL.md"
