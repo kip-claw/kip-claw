@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"build": "node scripts/copy-maplibre-assets.mjs && vite build",
 		"preview": "vite preview",
 		"sync:soul": "node scripts/sync-soul.mjs",
 		"prepare": "husky",

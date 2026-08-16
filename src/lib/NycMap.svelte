@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-csp-worker.js?url';
 	import type { NycPlace } from './nycList';
 	import { getPlaceTier, tierColors, isYes } from './nycList';
 
@@ -25,9 +24,9 @@
 			if (cleanedUp) return;
 
 			// MapLibre 6 derives a sibling worker URL at runtime, which Vite cannot
-			// discover and copy into a static build. Importing it as a URL makes the
-			// worker a managed build asset and works on GitHub Pages.
-			maplibregl.setWorkerUrl(maplibreWorkerUrl);
+			// discover and copy into a static build. The build script copies both
+			// worker modules into this stable public directory.
+			maplibregl.setWorkerUrl('/maplibre/maplibre-gl-worker.mjs');
 
 			const protocol = new Protocol();
 			maplibregl.addProtocol('pmtiles', protocol.tile);
