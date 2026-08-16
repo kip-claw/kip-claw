@@ -1,6 +1,46 @@
 {
   "cigars": [
     {
+      "dateAdded": "2026-08-15",
+      "maker": "La Casa Grande Cigars",
+      "model": "Robusto Maduro",
+      "wrapper": "Brazilian Maduro",
+      "origin": "United States",
+      "size": "Robusto",
+      "gauge": "50",
+      "notes": "Gauge estimated as typical robusto; Brazilian-leaf maduro."
+    },
+    {
+      "dateAdded": "2026-08-15",
+      "maker": "La Casa Grande Cigars",
+      "model": "Robusto Maduro",
+      "wrapper": "Brazilian Maduro",
+      "origin": "United States",
+      "size": "Robusto",
+      "gauge": "50",
+      "notes": "Gauge estimated as typical robusto; Brazilian-leaf maduro."
+    },
+    {
+      "dateAdded": "2026-08-15",
+      "maker": "La Casa Grande Cigars",
+      "model": "Robusto Maduro",
+      "wrapper": "Brazilian Maduro",
+      "origin": "United States",
+      "size": "Robusto",
+      "gauge": "50",
+      "notes": "Gauge estimated as typical robusto; Brazilian-leaf maduro."
+    },
+    {
+      "dateAdded": "2026-08-14",
+      "maker": "My Father Cigars",
+      "model": "La Lealtad",
+      "wrapper": "Ecuadorian",
+      "origin": "Honduras",
+      "size": "Toro",
+      "gauge": "54",
+      "notes": "6 x 54; added to humidor."
+    },
+    {
       "dateAdded": "2026-05-22",
       "maker": "AJ Fernandez",
       "model": "New World",
@@ -83,11 +123,18 @@
   ],
   "humidityReadings": [
     {
+      "date": "2026-08-15",
+      "time": "18:33",
+      "rh": "67",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
       "date": "2026-05-22",
       "time": "18:35",
       "rh": "67",
       "temperatureF": "",
-      "notes": ""
+      "notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
     },
     {
       "date": "2026-05-15",
