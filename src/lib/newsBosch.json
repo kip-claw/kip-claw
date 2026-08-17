@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-08-17",
+		"displayDate": "August 17, 2026",
+		"image": "/images/news-bosch/2026/08/17.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-17T10:15:17.931704Z",
+		"sourceRetrievedAt": "2026-08-17T10:10:45.382578Z",
+		"themes": [
+			{
+				"name": "A Star Goes Dark",
+				"interpretation": "Private loss becomes the day\u2019s quiet opening note, with a familiar screen presence abruptly absent.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Pressure Without Breakthrough",
+				"interpretation": "Economic coercion and war-bound energy markets turn like a wheel that cannot gain traction.",
+				"storyRanks": [2, 9]
+			},
+			{
+				"name": "War Maps Fold Inward",
+				"interpretation": "Military restraint in one theater contrasts with the lethal compression of another battlefield.",
+				"storyRanks": [3, 8]
+			},
+			{
+				"name": "Forced Sides, Open Files",
+				"interpretation": "Great-power technology rivalry and exposed personal records depict allegiance as a compulsory game under surveillance.",
+				"storyRanks": [4, 5]
+			},
+			{
+				"name": "Engines Choke at Capacity",
+				"interpretation": "Weak demand, altered appetites and overloaded power networks show modern systems producing more than they can absorb.",
+				"storyRanks": [6, 7, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "'Heroes' and 'Nashville' actress, Hayden Panettiere, dies at 36",
+				"url": "https://reuters.com/business/media-telecom/american-actress-hayden-panettiere-dies-36-abc-news-reports-2026-08-17/"
+			},
+			{
+				"title": "Trump wants more economic pressure on Iran. What are his options?",
+				"url": "https://reuters.com/world/china/trump-wants-more-economic-pressure-iran-what-are-his-options-2026-08-16/"
+			},
+			{
+				"title": "Trump orders Pentagon to cut back military exercises with South Korea",
+				"url": "https://reuters.com/world/china/trump-instructs-pentagon-reduce-military-exercises-with-south-korea-2026-08-16/"
+			},
+			{
+				"title": "Binance gave Moscow client details used to charge Russian over Ukraine donations, documents show",
+				"url": "https://reuters.com/legal/government/binance-gave-moscow-client-details-used-charge-russian-over-ukraine-donations-2026-08-17/"
+			},
+			{
+				"title": "US to tell partners they must pick sides in AI race with China",
+				"url": "https://reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/"
+			},
+			{
+				"title": "Nestle looks to develop new products to serve users of weight-loss drugs\u00a0\u00a0",
+				"url": "https://reuters.com/legal/litigation/nestle-looks-develop-new-products-serve-users-weight-loss-drugs-2026-08-17/"
+			},
+			{
+				"title": "China's recovery sputters as consumption, output lose steam",
+				"url": "https://reuters.com/world/china/chinas-industrial-output-slows-july-retail-sales-miss-forecasts-2026-08-17/"
+			},
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			},
+			{
+				"title": "Oil prices mixed amid Iran war stalemate, near-term potential for gains seen limited",
+				"url": "https://reuters.com/business/energy/oil-treads-water-us-iran-peace-talks-stall-hormuz-shipping-slows-2026-08-17/"
+			},
+			{
+				"title": "China leads wave of clean power wastage as grids globally hit limits",
+				"url": "https://reuters.com/business/energy/china-leads-wave-clean-power-wastage-grids-globally-hit-limits-2026-08-17/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "sailors and navigators"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"games, dice, wheels, races, and balancing acts",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-08-16",
 		"displayDate": "August 16, 2026",
 		"image": "/images/news-bosch/2026/08/16.webp",
