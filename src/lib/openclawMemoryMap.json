@@ -1,4982 +1,1144 @@
 {
-	"timestamp": "2026-08-16 04:35:42",
-	"method": "pca2+kmeans",
-	"pointCount": 700,
-	"clusterCount": 6,
+	"timestamp": "2026-08-17 04:35:42",
+	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
+	"pointCount": 145,
+	"clusterCount": 4,
 	"excludedCronChunks": 0,
+	"excludedMetadataChunks": 213,
+	"excludedShortChunks": 0,
+	"excludedDreamingChunks": 1832,
 	"clusters": [
 		{
 			"id": 0,
-			"label": "Corpus",
-			"description": "Evidence Dreams, Dreams Corpus, Corpus Txt",
-			"keywords": [
-				"corpus",
-				"evidence dreams",
-				"dreams corpus",
-				"corpus txt",
-				"txt recalls",
-				"confidence"
-			],
-			"size": 206
+			"label": "Network Performance",
+			"description": "Internet speed tests and connectivity monitoring.",
+			"size": 56,
+			"keywords": ["speed", "data"]
 		},
 		{
 			"id": 2,
-			"label": "Health",
-			"description": "Exited, Edt Ran, Ran Kip",
-			"keywords": ["health", "exited", "edt ran", "ran kip", "confidence", "evidence"],
-			"size": 120
-		},
-		{
-			"id": 4,
-			"label": "Confidence",
-			"description": "Staged, Evidence, Confidence Evidence",
-			"keywords": [
-				"confidence",
-				"staged",
-				"evidence",
-				"confidence evidence",
-				"recalls",
-				"recalls staged"
-			],
-			"size": 102
-		},
-		{
-			"id": 1,
-			"label": "Evidence",
-			"description": "Confidence, Confidence Evidence, Recalls",
-			"keywords": [
-				"confidence",
-				"evidence",
-				"confidence evidence",
-				"recalls",
-				"staged",
-				"recalls staged"
-			],
-			"size": 98
-		},
-		{
-			"id": 5,
-			"label": "Your",
-			"description": "Telegram, Media, Command",
-			"keywords": ["your", "telegram", "media", "command", "model", "mention"],
-			"size": 90
+			"label": "Personal Tracking",
+			"description": "Personal health, meals, medication, and activity records.",
+			"size": 37,
+			"keywords": ["logged"]
 		},
 		{
 			"id": 3,
+			"label": "Vault",
+			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
+			"size": 31,
+			"keywords": ["obsidian", "todo"]
+		},
+		{
+			"id": 6,
 			"label": "Sluggo",
-			"description": "Openclaw, Confidence, Evidence",
-			"keywords": [
-				"sluggo",
-				"openclaw",
-				"confidence",
-				"evidence",
-				"confidence evidence",
-				"recalls"
-			],
-			"size": 84
+			"description": "Square.",
+			"size": 21,
+			"keywords": ["square"]
 		}
 	],
 	"points": [
 		{
-			"x": 1.6366,
-			"y": -1.9013,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1002.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6719,
-			"y": -1.559,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1002.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.9521,
-			"y": -1.9981,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1021.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.535,
-			"y": -2.0582,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1032.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9982,
-			"y": -1.357,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1032.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0229,
-			"y": -1.9955,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1459.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8887,
-			"y": -1.5464,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1722.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6915,
-			"y": -1.7574,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1722.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8878,
-			"y": -2.2298,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1740.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2224,
-			"y": -1.7336,
-			"cluster": 5,
-			"path": "memory/2026-04-09-1740.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.427,
-			"y": -0.6702,
-			"cluster": 1,
-			"path": "memory/2026-04-09-config-drift.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2379,
-			"y": -0.6245,
+			"x": -0.1909,
+			"y": 7.0775,
 			"cluster": 3,
-			"path": "memory/2026-04-09-config-drift.md",
+			"path": "memory/2026-04-09.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.1285,
-			"y": -0.3667,
-			"cluster": 3,
-			"path": "memory/2026-04-09-config-drift.md",
+			"x": -2.326,
+			"y": 4.4126,
+			"cluster": 2,
+			"path": "memory/2026-04-10.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.3687,
-			"y": -1.2087,
-			"cluster": 3,
-			"path": "memory/2026-04-09-ire-archive-correction.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.8574,
-			"y": -1.5047,
-			"cluster": 5,
-			"path": "memory/2026-04-09-new-session.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3806,
-			"y": -1.8712,
-			"cluster": 5,
-			"path": "memory/2026-04-10-grant-gasoline.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5116,
-			"y": -0.6399,
-			"cluster": 1,
-			"path": "memory/2026-04-10-llm-hosting.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7645,
-			"y": -1.1685,
-			"cluster": 5,
-			"path": "memory/2026-04-10-llm-hosting.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6169,
-			"y": -1.7076,
-			"cluster": 5,
-			"path": "memory/2026-04-10-morphological-shapes.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7025,
-			"y": -1.8899,
-			"cluster": 5,
-			"path": "memory/2026-04-10-voice-transcription.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0143,
-			"y": -1.4598,
-			"cluster": 5,
-			"path": "memory/2026-04-10-voice-transcription.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8652,
-			"y": -1.6223,
-			"cluster": 5,
-			"path": "memory/2026-04-11-1759.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7133,
-			"y": -1.9305,
-			"cluster": 5,
-			"path": "memory/2026-04-11-2314.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.26,
-			"y": -1.075,
-			"cluster": 3,
-			"path": "memory/2026-04-11-approval-issues.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8445,
-			"y": -1.5876,
-			"cluster": 5,
-			"path": "memory/2026-04-11-consolidate-ideas.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.4286,
-			"y": -1.2709,
-			"cluster": 5,
-			"path": "memory/2026-04-11-email-permissions.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.9362,
-			"y": -1.484,
-			"cluster": 5,
-			"path": "memory/2026-04-11-fastmail-fetch.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0422,
-			"y": -1.0637,
-			"cluster": 5,
-			"path": "memory/2026-04-11-fastmail-fetch.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1507,
-			"y": -1.0468,
-			"cluster": 5,
-			"path": "memory/2026-04-11-fastmail-fetch.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.4842,
-			"y": -1.5181,
-			"cluster": 5,
-			"path": "memory/2026-04-11-file-update.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1556,
-			"y": -1.7553,
-			"cluster": 5,
-			"path": "memory/2026-04-11-humidor-log.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.783,
-			"y": -0.8703,
-			"cluster": 1,
-			"path": "memory/2026-04-11-humidor-log.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7263,
-			"y": -1.3647,
-			"cluster": 5,
-			"path": "memory/2026-04-11-new-session.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.9687,
-			"y": -1.5481,
-			"cluster": 5,
-			"path": "memory/2026-04-11-train-dreams.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8569,
-			"y": -1.3192,
-			"cluster": 5,
-			"path": "memory/2026-04-12-1606.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3627,
-			"y": -1.3318,
-			"cluster": 5,
-			"path": "memory/2026-04-12-cuny-slideshow.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2943,
-			"y": -0.7518,
+			"x": 0.2072,
+			"y": 7.7285,
 			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.1457,
-			"y": -0.9374,
+			"x": 0.0289,
+			"y": 7.811,
 			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.1642,
-			"y": -1.9209,
-			"cluster": 5,
-			"path": "memory/2026-04-12-email-allowlist.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7319,
-			"y": -1.5917,
-			"cluster": 5,
-			"path": "memory/2026-04-12-fastmail-verify.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1409,
-			"y": -0.9755,
-			"cluster": 5,
-			"path": "memory/2026-04-12-fastmail-verify.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3808,
-			"y": -1.829,
-			"cluster": 5,
-			"path": "memory/2026-04-12-github-repo.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.8067,
-			"y": -1.4773,
-			"cluster": 5,
-			"path": "memory/2026-04-12-inbox-check.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.514,
-			"y": -1.5512,
-			"cluster": 5,
-			"path": "memory/2026-04-13-1055.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4969,
-			"y": -0.7834,
-			"cluster": 1,
-			"path": "memory/2026-04-13-1055.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.5551,
-			"y": -1.3701,
-			"cluster": 5,
-			"path": "memory/2026-04-13-1103.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8964,
-			"y": -1.1507,
-			"cluster": 5,
-			"path": "memory/2026-04-14-1209.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.5598,
-			"y": -1.4367,
-			"cluster": 5,
-			"path": "memory/2026-04-16-1025.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.8461,
-			"y": -1.4485,
-			"cluster": 5,
-			"path": "memory/2026-04-16-1041.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.4974,
-			"y": -2.3488,
-			"cluster": 5,
-			"path": "memory/2026-04-18-0902.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.9998,
-			"y": -1.1613,
-			"cluster": 5,
-			"path": "memory/2026-04-18-1039.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.5158,
-			"y": -2.0462,
-			"cluster": 5,
-			"path": "memory/2026-04-18-1039.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9085,
-			"y": -1.7919,
-			"cluster": 5,
-			"path": "memory/2026-04-18-1328.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3011,
-			"y": -1.3596,
-			"cluster": 5,
-			"path": "memory/2026-04-18-failed-to-call-a-function-plea.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7505,
-			"y": -1.7697,
-			"cluster": 5,
-			"path": "memory/2026-04-18-hello-again.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7509,
-			"y": -1.9339,
-			"cluster": 5,
-			"path": "memory/2026-04-18-kip-check-in.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2887,
-			"y": -1.9587,
-			"cluster": 5,
-			"path": "memory/2026-04-18-obama-cubs-2026-townhall.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6817,
-			"y": -0.8025,
-			"cluster": 1,
-			"path": "memory/2026-04-18-obama-cubs-2026-townhall.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7916,
-			"y": -1.3016,
-			"cluster": 5,
-			"path": "memory/2026-04-18-session-start.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.5047,
-			"y": -1.6241,
-			"cluster": 5,
-			"path": "memory/2026-04-18-version-check.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2091,
-			"y": -1.9129,
-			"cluster": 5,
-			"path": "memory/2026-04-22-agent-couldn-t-generate-a-resp.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.4276,
-			"y": -2.1707,
-			"cluster": 5,
-			"path": "memory/2026-04-22-agent-couldn-t-generate-a-resp.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3994,
-			"y": -2.4526,
-			"cluster": 5,
-			"path": "memory/2026-04-22-agent-couldn-t-generate-a-resp.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.6221,
-			"y": -2.2553,
-			"cluster": 5,
-			"path": "memory/2026-04-22-daily-summary.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.6935,
-			"y": -2.0644,
-			"cluster": 5,
-			"path": "memory/2026-04-22-daily-summary.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2433,
-			"y": -0.9607,
-			"cluster": 5,
-			"path": "memory/2026-04-23-chart-log.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1308,
-			"y": -2.0642,
-			"cluster": 5,
-			"path": "memory/2026-04-23-run-log.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0361,
-			"y": -0.7235,
-			"cluster": 1,
-			"path": "memory/2026-04-23-run-log.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5144,
-			"y": -1.8893,
-			"cluster": 5,
-			"path": "memory/2026-04-24-1704.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3486,
-			"y": -1.6479,
-			"cluster": 5,
-			"path": "memory/2026-04-24-1704.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2011,
-			"y": -1.4394,
-			"cluster": 5,
-			"path": "memory/2026-04-24-1704.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2561,
-			"y": -1.8194,
-			"cluster": 5,
-			"path": "memory/2026-04-25-1057.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7716,
-			"y": -1.4177,
-			"cluster": 5,
-			"path": "memory/2026-04-25-1057.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5409,
-			"y": -1.5945,
-			"cluster": 5,
-			"path": "memory/2026-04-25-1057.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7763,
-			"y": -0.4213,
-			"cluster": 1,
-			"path": "memory/2026-04-25-1357.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.9366,
-			"y": -2.0604,
-			"cluster": 5,
-			"path": "memory/2026-04-25-2357.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.6383,
-			"y": -1.9989,
-			"cluster": 5,
-			"path": "memory/2026-04-27-1359.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3953,
-			"y": -1.6643,
-			"cluster": 5,
-			"path": "memory/2026-04-27-1359.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.6959,
-			"y": -1.7689,
-			"cluster": 5,
-			"path": "memory/2026-04-30-0029.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.8474,
-			"y": -2.0033,
-			"cluster": 5,
-			"path": "memory/2026-04-30-0029.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0511,
-			"y": -0.5281,
+			"x": 0.0911,
+			"y": 7.7842,
 			"cluster": 3,
+			"path": "memory/2026-04-12-cuny-slideshow.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.3244,
+			"y": 6.7671,
+			"cluster": 3,
+			"path": "memory/2026-04-13.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.7916,
+			"y": 2.9717,
+			"cluster": 0,
+			"path": "memory/2026-04-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6995,
+			"y": 2.0656,
+			"cluster": 0,
+			"path": "memory/2026-04-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6192,
+			"y": 2.0908,
+			"cluster": 0,
+			"path": "memory/2026-04-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6334,
+			"y": 1.9916,
+			"cluster": 0,
+			"path": "memory/2026-04-29.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6205,
+			"y": 2.0009,
+			"cluster": 0,
 			"path": "memory/2026-05-01.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.2933,
-			"y": -1.0772,
+			"x": -0.4008,
+			"y": 7.8615,
 			"cluster": 3,
 			"path": "memory/2026-05-05.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.3594,
-			"y": -1.262,
-			"cluster": 3,
+			"x": -1.4727,
+			"y": 3.9272,
+			"cluster": 0,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.6618,
-			"y": -1.2567,
-			"cluster": 3,
+			"x": -1.3487,
+			"y": 4.0545,
+			"cluster": 0,
 			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
-			"x": -2.1516,
-			"y": -0.7554,
+			"x": -1.3797,
+			"y": 4.1528,
 			"cluster": 2,
-			"path": "memory/2026-05-17.md",
+			"path": "memory/2026-05-06.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.656,
-			"y": -1.3812,
+			"x": -1.3007,
+			"y": 4.1097,
+			"cluster": 6,
+			"path": "memory/2026-05-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.5621,
+			"y": 2.3773,
+			"cluster": 0,
+			"path": "memory/2026-05-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.03,
+			"y": 3.8009,
+			"cluster": 0,
+			"path": "memory/2026-05-07.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.3215,
+			"y": 2.4139,
+			"cluster": 0,
+			"path": "memory/2026-05-07.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.2055,
+			"y": 7.5909,
 			"cluster": 3,
+			"path": "memory/2026-05-08.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.1382,
+			"y": 7.6509,
+			"cluster": 3,
+			"path": "memory/2026-05-09.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6363,
+			"y": 4.8897,
+			"cluster": 0,
+			"path": "memory/2026-05-13.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.2145,
+			"y": 2.1861,
+			"cluster": 0,
 			"path": "memory/2026-05-17.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.7949,
-			"y": -1.0361,
-			"cluster": 2,
+			"x": -2.2621,
+			"y": 1.9696,
+			"cluster": 0,
+			"path": "memory/2026-05-17.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.0971,
+			"y": 7.668,
+			"cluster": 3,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.6583,
-			"y": -0.9768,
-			"cluster": 2,
-			"path": "memory/2026-05-19.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.8968,
-			"y": -1.3393,
-			"cluster": 2,
-			"path": "memory/2026-05-19.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7266,
-			"y": -0.7676,
-			"cluster": 2,
-			"path": "memory/2026-05-19.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.871,
-			"y": -1.2453,
-			"cluster": 2,
-			"path": "memory/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7813,
-			"y": -1.5618,
-			"cluster": 2,
-			"path": "memory/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.7012,
-			"y": -1.0825,
-			"cluster": 2,
-			"path": "memory/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.5978,
-			"y": -1.097,
-			"cluster": 2,
-			"path": "memory/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.012,
-			"y": -1.6353,
-			"cluster": 3,
-			"path": "memory/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.5364,
-			"y": -1.2286,
-			"cluster": 2,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.3544,
-			"y": -1.0121,
-			"cluster": 2,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7642,
-			"y": -1.3037,
-			"cluster": 2,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.6761,
-			"y": -1.264,
-			"cluster": 3,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5399,
-			"y": -1.1168,
-			"cluster": 3,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.6889,
-			"y": -1.278,
-			"cluster": 2,
-			"path": "memory/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.1069,
-			"y": -1.0888,
-			"cluster": 2,
-			"path": "memory/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.99,
-			"y": -1.3528,
-			"cluster": 3,
-			"path": "memory/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.5279,
-			"y": -1.3807,
-			"cluster": 2,
-			"path": "memory/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9321,
-			"y": -0.9217,
-			"cluster": 2,
-			"path": "memory/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1552,
-			"y": -1.1411,
-			"cluster": 2,
-			"path": "memory/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.1611,
-			"y": -1.0203,
-			"cluster": 2,
-			"path": "memory/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.8237,
-			"y": -1.0565,
-			"cluster": 2,
-			"path": "memory/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.69,
-			"y": -1.3916,
-			"cluster": 2,
-			"path": "memory/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.2398,
-			"y": -1.234,
-			"cluster": 2,
-			"path": "memory/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.2612,
-			"y": -1.009,
-			"cluster": 2,
-			"path": "memory/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.6764,
-			"y": -1.1052,
-			"cluster": 2,
-			"path": "memory/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.892,
-			"y": -1.332,
-			"cluster": 2,
-			"path": "memory/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.1394,
-			"y": -1.3092,
-			"cluster": 2,
-			"path": "memory/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.3589,
-			"y": -1.1613,
-			"cluster": 2,
-			"path": "memory/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7999,
-			"y": -1.0581,
-			"cluster": 2,
-			"path": "memory/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.6906,
-			"y": -1.059,
-			"cluster": 2,
-			"path": "memory/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4414,
-			"y": -1.047,
-			"cluster": 2,
-			"path": "memory/2026-05-29.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0055,
-			"y": -0.8095,
-			"cluster": 2,
-			"path": "memory/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0022,
-			"y": -1.1071,
-			"cluster": 2,
-			"path": "memory/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.2478,
-			"y": -0.685,
-			"cluster": 2,
-			"path": "memory/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2678,
-			"y": -0.8511,
-			"cluster": 3,
-			"path": "memory/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0158,
-			"y": -1.2276,
-			"cluster": 2,
-			"path": "memory/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1866,
-			"y": -1.4823,
-			"cluster": 3,
-			"path": "memory/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0289,
-			"y": -1.2518,
-			"cluster": 3,
-			"path": "memory/2026-07-18.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0616,
-			"y": -0.9734,
-			"cluster": 3,
-			"path": "memory/2026-07-18.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.055,
-			"y": -0.9458,
-			"cluster": 3,
-			"path": "memory/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4439,
-			"y": -0.2531,
-			"cluster": 3,
-			"path": "memory/2026-08-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3038,
-			"y": 0.8861,
+			"x": -2.3198,
+			"y": 2.1322,
 			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6977,
-			"y": 0.4692,
-			"cluster": 1,
-			"path": "memory/dreaming/deep/2026-06-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4936,
-			"y": 0.7384,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4421,
-			"y": 0.5489,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-06-16.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4421,
-			"y": 0.5489,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6919,
-			"y": 0.4857,
-			"cluster": 1,
-			"path": "memory/dreaming/deep/2026-06-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4421,
-			"y": 0.5489,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-06-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4421,
-			"y": 0.5489,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4421,
-			"y": 0.5489,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-06-30.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4421,
-			"y": 0.5489,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-07-06.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6919,
-			"y": 0.4857,
-			"cluster": 1,
-			"path": "memory/dreaming/deep/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4421,
-			"y": 0.5489,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6919,
-			"y": 0.4857,
-			"cluster": 1,
-			"path": "memory/dreaming/deep/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4421,
-			"y": 0.5489,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6919,
-			"y": 0.4857,
-			"cluster": 1,
-			"path": "memory/dreaming/deep/2026-07-15.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3038,
-			"y": 0.8861,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-07-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4991,
-			"y": 0.7866,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-07-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4725,
-			"y": 0.7623,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4828,
-			"y": 0.7299,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-07-28.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4725,
-			"y": 0.7623,
-			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-07-31.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9941,
-			"y": -0.023,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.169,
-			"y": -0.3511,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4158,
-			"y": -0.4127,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2423,
-			"y": 1.0148,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.788,
-			"y": 0.9088,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.4565,
-			"y": 1.013,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2807,
-			"y": 0.7524,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.6341,
-			"y": 0.5335,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.6042,
-			"y": -0.145,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9941,
-			"y": -0.023,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7492,
-			"y": -0.039,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.001,
-			"y": -0.1774,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.2645,
-			"y": -0.5594,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1656,
-			"y": 0.248,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2944,
-			"y": 0.4622,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3077,
-			"y": 0.5942,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9941,
-			"y": -0.023,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.0729,
-			"y": -0.4068,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.6014,
-			"y": -0.3263,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.423,
-			"y": -0.3445,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.0866,
-			"y": -0.4953,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.417,
-			"y": -0.5396,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2354,
-			"y": -0.3647,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9766,
-			"y": -0.2083,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5381,
-			"y": 0.4814,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3785,
-			"y": 0.1805,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1918,
-			"y": 0.6773,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.0198,
-			"y": -0.0226,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.0866,
-			"y": -0.4953,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2354,
-			"y": -0.3647,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1434,
-			"y": -0.2842,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.694,
-			"y": 0.0228,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0906,
-			"y": 0.224,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4294,
-			"y": -0.4155,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3737,
-			"y": 0.0097,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4321,
-			"y": 0.3899,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3488,
-			"y": 0.4991,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2753,
-			"y": 0.466,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1124,
-			"y": 0.8762,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9009,
-			"y": -0.0184,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9307,
-			"y": -0.1058,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.1851,
-			"y": -0.3979,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0828,
-			"y": 0.1569,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8559,
-			"y": 0.3348,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.199,
-			"y": -0.3956,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.3057,
-			"y": 0.9122,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7269,
-			"y": -0.1773,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.2041,
-			"y": -0.6308,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.577,
-			"y": -0.3608,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8907,
-			"y": -0.3505,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.3943,
-			"y": -0.4375,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.833,
-			"y": 0.1855,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.0799,
-			"y": -0.0149,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.093,
-			"y": -0.1939,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4635,
-			"y": 0.0927,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.989,
-			"y": -0.2882,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.093,
-			"y": -0.1939,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1907,
-			"y": -0.3199,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4933,
-			"y": -0.4832,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7411,
-			"y": 0.1173,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4871,
-			"y": 0.3728,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5232,
-			"y": 0.8684,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1391,
-			"y": 0.4749,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7159,
-			"y": -0.0592,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.3774,
-			"y": -0.0537,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4638,
-			"y": -0.4405,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.0177,
-			"y": -0.2805,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.8397,
-			"y": -0.2183,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.9975,
-			"y": 0.4452,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8202,
-			"y": 0.4943,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1012,
-			"y": 0.1935,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8374,
-			"y": 0.3671,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.6961,
-			"y": -0.059,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.8958,
-			"y": -0.1057,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9229,
-			"y": -0.2694,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5367,
-			"y": 0.3156,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0427,
-			"y": 1.0954,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5,
-			"y": 0.757,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0833,
-			"y": 0.0303,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1081,
-			"y": 1.0277,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-28.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7388,
-			"y": -0.1541,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-29.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9258,
-			"y": -0.5477,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-29.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.8525,
-			"y": -0.3049,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-29.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.772,
-			"y": 0.5521,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-29.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7336,
-			"y": 1.3354,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-29.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0241,
-			"y": 0.0395,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-05-29.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.3826,
-			"y": -0.1665,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7058,
-			"y": -0.0904,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2955,
-			"y": 0.1426,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3889,
-			"y": 0.7664,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.7281,
-			"y": 1.3444,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4507,
-			"y": 0.6047,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.941,
-			"y": 0.8694,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4504,
-			"y": 0.3898,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0917,
-			"y": 1.0651,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0422,
-			"y": 1.4183,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3291,
-			"y": 1.2596,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7704,
-			"y": 1.2113,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5318,
-			"y": 1.1458,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0052,
-			"y": 1.1994,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3074,
-			"y": 1.4053,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0702,
-			"y": 0.2312,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.9698,
-			"y": -0.3835,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8357,
-			"y": 0.1988,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7953,
-			"y": 1.515,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-01.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8304,
-			"y": 0.3117,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-01.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3044,
-			"y": 0.4624,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-01.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.5583,
-			"y": -0.2117,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-01.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.362,
-			"y": -0.7969,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-06-01.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9384,
-			"y": -0.2996,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-01.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2196,
-			"y": 1.5529,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-01.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.7376,
-			"y": 0.4774,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1113,
-			"y": 0.5408,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-02.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.6135,
-			"y": 0.577,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-02.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.544,
-			"y": -0.5013,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-06-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1386,
-			"y": 0.9222,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0723,
-			"y": 1.1613,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.855,
-			"y": 1.0161,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5594,
-			"y": 1.1865,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5366,
-			"y": 0.8534,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3534,
-			"y": 1.3206,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1663,
-			"y": 0.2522,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8934,
-			"y": 0.1123,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.2141,
-			"y": -0.1056,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3487,
-			"y": -1.1347,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.4535,
-			"y": -1.1991,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2765,
-			"y": 0.6792,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-04.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1336,
-			"y": 0.2722,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-04.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.5202,
-			"y": -0.1812,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-04.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.9949,
-			"y": -0.5521,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-04.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.479,
-			"y": -0.8169,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-04.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.5652,
-			"y": -0.2314,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-04.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.214,
-			"y": 0.4944,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1678,
-			"y": 1.6258,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.575,
-			"y": 0.2677,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3898,
-			"y": -0.0136,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.6553,
-			"y": -0.6435,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.2686,
-			"y": -0.8406,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1412,
-			"y": -0.582,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.5604,
-			"y": -0.1949,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4421,
-			"y": -0.2026,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5678,
-			"y": 0.7146,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3548,
-			"y": 0.8039,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.7427,
-			"y": 0.3567,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3235,
-			"y": 1.7997,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.6603,
-			"y": -1.2259,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3674,
-			"y": -1.6071,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8565,
-			"y": -0.9844,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3292,
-			"y": -0.0691,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.6196,
-			"y": 0.5681,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2472,
-			"y": 0.9293,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3591,
-			"y": 0.8248,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2369,
-			"y": 0.9666,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.7,
-			"y": -0.3151,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.8195,
-			"y": -0.2115,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4172,
-			"y": -0.7041,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3594,
-			"y": -1.0829,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4545,
-			"y": -0.6112,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.9671,
-			"y": -0.4008,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9398,
-			"y": -0.4628,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.7229,
-			"y": 1.1368,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-08.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.128,
-			"y": 1.2,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4797,
-			"y": 1.2805,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1151,
-			"y": 0.5966,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1614,
-			"y": 0.8641,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7141,
-			"y": 1.5767,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8254,
-			"y": 0.6942,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3269,
-			"y": 1.2995,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3446,
-			"y": 1.0972,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5644,
-			"y": 0.6291,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6165,
-			"y": 0.5202,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9013,
-			"y": 1.2702,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.241,
-			"y": 1.3105,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1731,
-			"y": 1.1785,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-10.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.241,
-			"y": 1.1136,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0448,
-			"y": 1.1168,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.261,
-			"y": 1.3105,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3993,
-			"y": 0.7754,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-11.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0172,
-			"y": 2.0784,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-11.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3263,
-			"y": 0.903,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3321,
-			"y": 1.7461,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-12.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.7913,
-			"y": 0.0098,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-12.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8496,
-			"y": 0.1312,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5114,
-			"y": 0.9031,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-13.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5855,
-			"y": 1.3354,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-13.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3051,
-			"y": 1.2889,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7494,
-			"y": 0.4626,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4146,
-			"y": 0.7786,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1785,
-			"y": 0.5374,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0043,
-			"y": 2.0866,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4742,
-			"y": 0.9236,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1701,
-			"y": 0.3105,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6683,
-			"y": 1.262,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-14.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.7078,
-			"y": 0.6241,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-14.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4324,
-			"y": 1.3536,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6973,
-			"y": 1.7819,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-14.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4276,
-			"y": 0.7089,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1425,
-			"y": 0.043,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-14.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0381,
-			"y": 0.4049,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-15.md",
+			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
 			"x": -0.7073,
-			"y": 0.2778,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-15.md",
+			"y": 7.8391,
+			"cluster": 3,
+			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.685,
-			"y": 0.4969,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-15.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1143,
-			"y": 0.7516,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-15.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.427,
-			"y": 0.9915,
+			"x": -2.5856,
+			"y": 2.3644,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-15.md",
+			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.53,
-			"y": 0.5611,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-15.md",
+			"x": -0.5375,
+			"y": 7.8981,
+			"cluster": 3,
+			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.2295,
-			"y": 0.6609,
+			"x": -2.5479,
+			"y": 2.7605,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-15.md",
+			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.2707,
-			"y": 0.0893,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2989,
-			"y": 0.7394,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3993,
-			"y": 1.2374,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8686,
-			"y": 0.6031,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-16.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5332,
-			"y": 1.2072,
+			"x": -2.768,
+			"y": 2.4682,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-16.md",
+			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.3031,
-			"y": 0.2518,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-16.md",
+			"x": -0.4898,
+			"y": 7.6668,
+			"cluster": 3,
+			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.0952,
-			"y": -0.6832,
+			"x": -1.0459,
+			"y": 8.063,
+			"cluster": 3,
+			"path": "memory/2026-05-21.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.7546,
+			"y": 4.7302,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-16.md",
+			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.3999,
-			"y": 0.8116,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1747,
-			"y": 0.5202,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-16.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5731,
-			"y": 1.0778,
+			"x": -1.7243,
+			"y": 3.3629,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-17.md",
+			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.006,
-			"y": 0.4953,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-17.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1966,
-			"y": -0.4793,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2978,
-			"y": 0.1024,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0308,
-			"y": 0.1578,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1163,
-			"y": 1.3216,
+			"x": -2.7168,
+			"y": 2.2828,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-17.md",
+			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.2044,
-			"y": 0.9015,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-17.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8527,
-			"y": 1.5049,
+			"x": -2.3808,
+			"y": 2.0526,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-18.md",
+			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.2041,
-			"y": 0.8272,
+			"x": -0.5908,
+			"y": 7.935,
+			"cluster": 3,
+			"path": "memory/2026-05-22.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.871,
+			"y": 3.8823,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-18.md",
+			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.4811,
-			"y": 1.0066,
+			"x": -2.024,
+			"y": 3.7888,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-18.md",
+			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.2935,
-			"y": 1.3023,
+			"x": -2.7632,
+			"y": 2.2542,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-18.md",
+			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.5139,
-			"y": 1.1087,
+			"x": -1.6229,
+			"y": 3.1725,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-18.md",
+			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.565,
-			"y": 1.1767,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-18.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9651,
-			"y": 0.307,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-18.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.2705,
-			"y": -0.8391,
+			"x": -1.3912,
+			"y": 3.444,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-18.md",
+			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.1053,
-			"y": 0.6852,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-18.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.686,
-			"y": 0.4172,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-18.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3539,
-			"y": 1.3468,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3421,
-			"y": -0.5484,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3845,
-			"y": -0.8384,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2793,
-			"y": -1.2884,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.746,
-			"y": -0.354,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6767,
-			"y": -0.2706,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2305,
-			"y": 0.72,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3893,
-			"y": 1.2935,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2421,
-			"y": 0.7262,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1162,
-			"y": 0.3829,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.335,
-			"y": 1.1946,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2448,
-			"y": 0.6878,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2747,
-			"y": 0.9002,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1336,
-			"y": 0.9927,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1082,
-			"y": -1.3107,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6637,
-			"y": -0.7127,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1749,
-			"y": 0.8126,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0634,
-			"y": 0.8563,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0894,
-			"y": 0.7076,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9011,
-			"y": 1.051,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5558,
-			"y": 1.6895,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2099,
-			"y": 1.3877,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.6605,
-			"y": 0.0202,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6167,
-			"y": 1.2872,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4068,
-			"y": 1.3424,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3381,
-			"y": 1.2145,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4932,
-			"y": 1.2952,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.805,
-			"y": 2.1384,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4068,
-			"y": 1.3424,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5681,
-			"y": 1.2736,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.062,
-			"y": 1.0425,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-24.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2068,
-			"y": 1.4146,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-24.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.473,
-			"y": 1.0237,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-24.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3742,
-			"y": 1.3866,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-24.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7741,
-			"y": -0.0022,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0178,
-			"y": 1.8989,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2518,
-			"y": 0.4927,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.6455,
-			"y": 0.7528,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2736,
-			"y": -1.5284,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7342,
-			"y": -1.4459,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7241,
-			"y": -0.7546,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9154,
-			"y": 2.1593,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4666,
-			"y": 0.9752,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.608,
-			"y": 0.8005,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4437,
-			"y": 0.2593,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.2452,
-			"y": -0.6109,
+			"x": -0.1478,
+			"y": 5.6526,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-26.md",
+			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9764,
-			"y": -0.9574,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.753,
-			"y": -0.6499,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6191,
-			"y": -0.9722,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.4004,
-			"y": -0.7488,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4067,
-			"y": 0.3789,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1093,
-			"y": 1.1362,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0066,
-			"y": 1.5002,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0108,
-			"y": 0.1679,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2736,
-			"y": -1.5284,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7241,
-			"y": -0.7546,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7343,
-			"y": 0.235,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-27.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.3873,
-			"y": 0.9151,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1611,
-			"y": 1.5445,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1785,
-			"y": -0.2092,
+			"x": -0.1063,
+			"y": 5.8869,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-27.md",
+			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.7171,
-			"y": -0.2626,
+			"x": -0.4817,
+			"y": 7.5505,
 			"cluster": 3,
-			"path": "memory/dreaming/light/2026-06-27.md",
+			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9327,
-			"y": -0.9363,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-27.md",
+			"x": -0.7059,
+			"y": 7.7859,
+			"cluster": 3,
+			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9074,
-			"y": -1.0039,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-06-27.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5564,
-			"y": -0.6826,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-27.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4067,
-			"y": 0.3789,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-06-27.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.276,
-			"y": 2.0865,
+			"x": -2.5975,
+			"y": 2.84,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-27.md",
+			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.5076,
-			"y": 0.7599,
+			"x": -1.8001,
+			"y": 2.6983,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-28.md",
+			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.3895,
-			"y": 1.3485,
+			"x": -2.9445,
+			"y": 2.4294,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-28.md",
+			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.1701,
-			"y": -0.754,
+			"x": -0.6154,
+			"y": 7.9956,
+			"cluster": 3,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.2204,
+			"y": 2.4313,
+			"cluster": 0,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.1111,
+			"y": 2.7985,
+			"cluster": 0,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.9165,
+			"y": 2.844,
+			"cluster": 0,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.9604,
+			"y": 2.0124,
+			"cluster": 0,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.8377,
+			"y": 2.6132,
+			"cluster": 0,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.231,
+			"y": 2.0455,
+			"cluster": 0,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.5832,
+			"y": 1.8006,
+			"cluster": 0,
+			"path": "memory/2026-05-24.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.1513,
+			"y": 7.8501,
+			"cluster": 3,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.7592,
+			"y": 2.1481,
+			"cluster": 0,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.1489,
+			"y": 2.1955,
+			"cluster": 0,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.6624,
+			"y": 1.7409,
+			"cluster": 0,
+			"path": "memory/2026-05-25.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.0574,
+			"y": 7.629,
+			"cluster": 3,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.0346,
+			"y": 8.1368,
+			"cluster": 3,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.8911,
+			"y": 3.1562,
+			"cluster": 0,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.0481,
+			"y": 2.6984,
+			"cluster": 0,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.9614,
+			"y": 1.8655,
+			"cluster": 0,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.6414,
+			"y": 1.7841,
+			"cluster": 0,
+			"path": "memory/2026-05-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.1831,
+			"y": 7.7345,
+			"cluster": 3,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.0554,
+			"y": 8.0265,
+			"cluster": 3,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.5947,
+			"y": 1.779,
+			"cluster": 0,
+			"path": "memory/2026-05-27.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.1763,
+			"y": 7.698,
+			"cluster": 3,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": -3.0751,
+			"y": 3.0387,
+			"cluster": 0,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.1141,
+			"y": 2.4095,
+			"cluster": 0,
+			"path": "memory/2026-05-28.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.392,
+			"y": 7.7846,
+			"cluster": 3,
+			"path": "memory/2026-05-29.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.9194,
+			"y": 8.0596,
+			"cluster": 3,
+			"path": "memory/2026-05-29.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.7595,
+			"y": 3.7737,
+			"cluster": 0,
+			"path": "memory/2026-05-29.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.3813,
+			"y": 7.6768,
+			"cluster": 3,
+			"path": "memory/2026-05-31.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.0099,
+			"y": 5.2164,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-28.md",
+			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.7561,
-			"y": 0.6049,
+			"x": -0.5183,
+			"y": 7.3021,
+			"cluster": 3,
+			"path": "memory/2026-06-01.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.4387,
+			"y": 4.0915,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-28.md",
+			"path": "memory/2026-06-02.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.2745,
-			"y": 0.9265,
+			"x": -2.1589,
+			"y": 4.0343,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-28.md",
+			"path": "memory/2026-06-02.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.3718,
-			"y": 0.4032,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-28.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1135,
-			"y": 0.7731,
+			"x": -2.5596,
+			"y": 3.9114,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-28.md",
+			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.2842,
-			"y": 0.8632,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-06-28.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7113,
-			"y": 1.1755,
+			"x": -2.5837,
+			"y": 3.3468,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-29.md",
+			"path": "memory/2026-06-03.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.1481,
-			"y": 1.8029,
+			"x": -2.2618,
+			"y": 4.2956,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-29.md",
+			"path": "memory/2026-06-04.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.341,
-			"y": 1.2757,
+			"x": -1.6048,
+			"y": 4.3469,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-29.md",
+			"path": "memory/2026-06-06.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.7174,
-			"y": 0.7182,
+			"x": -1.568,
+			"y": 4.8259,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-29.md",
+			"path": "memory/2026-06-06.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.7561,
-			"y": 0.6049,
+			"x": -1.4102,
+			"y": 4.7481,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-29.md",
+			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.8815,
-			"y": 1.0189,
+			"x": -1.5026,
+			"y": 4.6956,
 			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-29.md",
+			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.1135,
-			"y": 0.7731,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-29.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0349,
-			"y": 1.6882,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-29.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3222,
-			"y": 1.3164,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-30.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4608,
-			"y": 1.1876,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-30.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3856,
-			"y": 1.6365,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-30.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.857,
-			"y": 1.784,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-30.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8647,
-			"y": 0.9498,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-06-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1701,
-			"y": -0.754,
+			"x": -1.2855,
+			"y": 4.826,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-06-30.md",
+			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.5418,
-			"y": 0.9013,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-01.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5092,
-			"y": 1.7075,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-01.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6829,
-			"y": 1.562,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-02.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.9163,
-			"y": 0.9495,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9236,
-			"y": 1.0004,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9251,
-			"y": 1.1751,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9897,
-			"y": 1.6818,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9169,
-			"y": 0.8517,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5827,
-			"y": -0.7823,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4748,
-			"y": -0.3316,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5484,
-			"y": 1.3613,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3713,
-			"y": 1.1452,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-04.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.095,
-			"y": 0.8835,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-04.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4367,
-			"y": 0.7594,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-04.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4009,
-			"y": 0.3673,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-04.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0013,
-			"y": 0.5494,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-04.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9169,
-			"y": 0.8517,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-04.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6038,
-			"y": 0.921,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-05.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4618,
-			"y": 1.4639,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-05.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4213,
-			"y": 1.3205,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-05.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0863,
-			"y": 1.5415,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1713,
-			"y": 0.5222,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-05.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.519,
-			"y": 1.4217,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.251,
-			"y": 0.2714,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.1038,
-			"y": -0.0978,
+			"x": -0.0849,
+			"y": 4.9798,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-05.md",
+			"path": "memory/2026-06-07.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.9048,
-			"y": 1.2281,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-05.md",
+			"x": -2.2209,
+			"y": 6.5848,
+			"cluster": 6,
+			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 1.0136,
-			"y": 1.1413,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-05.md",
+			"x": -2.3445,
+			"y": 6.6725,
+			"cluster": 6,
+			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.2149,
-			"y": 0.6051,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-06.md",
+			"x": -2.3619,
+			"y": 6.6639,
+			"cluster": 6,
+			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.041,
-			"y": 1.3125,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-06.md",
+			"x": -2.2819,
+			"y": 6.5266,
+			"cluster": 6,
+			"path": "memory/2026-07-16.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.2973,
-			"y": -0.3313,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-06.md",
+			"x": -2.4144,
+			"y": 6.7211,
+			"cluster": 6,
+			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.2976,
-			"y": -0.6177,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-06.md",
+			"x": -2.3505,
+			"y": 6.6484,
+			"cluster": 6,
+			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.2568,
-			"y": 0.3978,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-06.md",
+			"x": -2.5024,
+			"y": 6.4428,
+			"cluster": 6,
+			"path": "memory/2026-07-17.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.2538,
-			"y": 0.202,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4016,
-			"y": 1.1975,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0072,
-			"y": -0.8609,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.558,
-			"y": -0.8694,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.6552,
-			"y": -0.8513,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0353,
-			"y": -0.5788,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9064,
-			"y": -0.7275,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9731,
-			"y": -0.5563,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2418,
-			"y": -0.5705,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0275,
-			"y": -0.7172,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0331,
-			"y": -0.4333,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0613,
-			"y": 0.3522,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.041,
-			"y": 1.3125,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2973,
-			"y": -0.3313,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0796,
-			"y": -0.4591,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0503,
-			"y": 0.0403,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5087,
-			"y": 0.3859,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1346,
-			"y": 0.6531,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1366,
-			"y": 0.2135,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8157,
-			"y": 0.9382,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0353,
-			"y": 1.8982,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5347,
-			"y": 0.9283,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4589,
-			"y": 1.0787,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3988,
-			"y": -0.3396,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5169,
-			"y": -0.3685,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.868,
-			"y": -1.0007,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6079,
-			"y": -1.4341,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0072,
-			"y": -0.8609,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7291,
-			"y": -0.3163,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.558,
-			"y": -0.8694,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0649,
-			"y": -0.9151,
-			"cluster": 5,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0946,
-			"y": -0.6603,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9064,
-			"y": -0.7275,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0053,
-			"y": -0.5321,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.9819,
-			"y": -0.5563,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8317,
-			"y": -0.7197,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0331,
-			"y": -0.4333,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5554,
-			"y": 0.2813,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2929,
-			"y": 0.6787,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6244,
-			"y": 0.5537,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3511,
-			"y": 1.0957,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1006,
-			"y": 0.5175,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0875,
-			"y": 0.7669,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0353,
-			"y": 1.8982,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4514,
-			"y": 1.4964,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3458,
-			"y": 1.437,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5697,
-			"y": 1.4569,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4073,
-			"y": 1.276,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6253,
-			"y": 0.9307,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0167,
-			"y": 0.8595,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6162,
-			"y": 0.5972,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5554,
-			"y": 0.2813,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.2929,
-			"y": 0.6787,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1874,
-			"y": 1.3958,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.5923,
-			"y": 0.7671,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0087,
-			"y": 0.9626,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5689,
-			"y": 1.3737,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0582,
-			"y": -0.4635,
+			"x": 0.0045,
+			"y": 6.09,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-11.md",
+			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.6062,
-			"y": -0.6742,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-11.md",
+			"x": -2.2079,
+			"y": 6.316,
+			"cluster": 6,
+			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.714,
-			"y": 1.6691,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-11.md",
+			"x": -2.2952,
+			"y": 6.3152,
+			"cluster": 6,
+			"path": "memory/2026-07-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.7294,
-			"y": 1.7072,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5612,
-			"y": 1.4075,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.6696,
-			"y": -0.1569,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0096,
-			"y": -0.4396,
+			"x": 0.0561,
+			"y": 5.8087,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-11.md",
+			"path": "memory/2026-07-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.3251,
-			"y": 0.0236,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3371,
-			"y": 1.2292,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4007,
-			"y": 1.128,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.333,
-			"y": 0.7475,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3287,
-			"y": 1.5137,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1567,
-			"y": 0.1548,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1526,
-			"y": -0.3992,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3156,
-			"y": -0.1307,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3906,
-			"y": 1.124,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2327,
-			"y": 0.876,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.118,
-			"y": 0.7143,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0087,
-			"y": 0.9626,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2706,
-			"y": 1.4987,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8668,
-			"y": 1.6968,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0173,
-			"y": 1.2358,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4515,
-			"y": 1.7051,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0518,
-			"y": 1.3826,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3602,
-			"y": 0.4244,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3353,
-			"y": 1.2648,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1537,
-			"y": 1.3454,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.326,
-			"y": 0.0991,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-13.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.1609,
-			"y": 1.3129,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.195,
-			"y": 1.3349,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1975,
-			"y": 1.2312,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.6213,
-			"y": -0.2884,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5022,
-			"y": -0.0446,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.314,
-			"y": 0.3427,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0937,
-			"y": 0.5165,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5337,
-			"y": 0.987,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5099,
-			"y": 1.6735,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5027,
-			"y": 1.7387,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2531,
-			"y": 1.9273,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.7456,
-			"y": 1.624,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.421,
-			"y": 0.6222,
-			"cluster": 0,
-			"path": "memory/dreaming/light/2026-07-14.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4481,
-			"y": -0.4862,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-15.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.115,
-			"y": 0.2503,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2568,
-			"y": -0.1707,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0227,
-			"y": -0.5336,
+			"x": -0.2124,
+			"y": 5.9629,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-17.md",
+			"path": "memory/2026-07-22.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.9834,
-			"y": -0.7723,
+			"x": -1.9454,
+			"y": 6.2258,
+			"cluster": 6,
+			"path": "memory/2026-07-22.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.1128,
+			"y": 6.131,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-17.md",
+			"path": "memory/2026-07-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.1337,
-			"y": -0.7839,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-17.md",
+			"x": -2.4682,
+			"y": 6.3174,
+			"cluster": 6,
+			"path": "memory/2026-07-25.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.8356,
-			"y": -0.5453,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.0811,
-			"y": -0.0124,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.6485,
-			"y": -0.5708,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-18.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2089,
-			"y": 0.0417,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-19.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.5391,
-			"y": -0.6775,
+			"x": 0.0712,
+			"y": 6.0328,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-20.md",
+			"path": "memory/2026-07-26.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.4265,
-			"y": -0.6109,
+			"x": -1.9947,
+			"y": 6.564,
+			"cluster": 6,
+			"path": "memory/2026-07-26.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.2395,
+			"y": 5.121,
+			"cluster": 3,
+			"path": "memory/2026-07-29.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.4642,
+			"y": 5.2619,
+			"cluster": 3,
+			"path": "memory/2026-07-29.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.2144,
+			"y": 5.0811,
+			"cluster": 6,
+			"path": "memory/2026-08-02.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6839,
+			"y": 5.2695,
+			"cluster": 6,
+			"path": "memory/automated-charts.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6473,
+			"y": 5.2337,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-20.md",
+			"path": "memory/ceo-scorecard.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.7967,
-			"y": -0.0245,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4749,
-			"y": -0.6098,
+			"x": -1.8204,
+			"y": 5.2071,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-21.md",
+			"path": "memory/climate-monitor.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.1842,
-			"y": -0.5355,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-21.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0883,
-			"y": -0.0098,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1755,
-			"y": -0.9698,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1121,
-			"y": -0.5519,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.3349,
-			"y": -0.2301,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.458,
-			"y": -0.636,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4547,
-			"y": -0.31,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2454,
-			"y": -0.6119,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2087,
-			"y": -0.736,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.5875,
-			"y": -0.3359,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4097,
-			"y": -0.5552,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-24.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.0303,
-			"y": -0.3145,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2168,
-			"y": -0.5907,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.4335,
-			"y": -0.5009,
-			"cluster": 2,
-			"path": "memory/dreaming/light/2026-07-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0132,
-			"y": -0.4396,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-24.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3224,
-			"y": -0.2351,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-25.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.121,
-			"y": -0.386,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2246,
-			"y": -0.5936,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1537,
-			"y": -0.3348,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2337,
-			"y": -0.7393,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3729,
-			"y": -0.9228,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1991,
-			"y": 0.0386,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.321,
-			"y": -0.2434,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4548,
-			"y": -0.3958,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0762,
-			"y": -0.2978,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-07-29.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1554,
-			"y": -0.3106,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4438,
-			"y": 0.1255,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-07-30.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2542,
-			"y": -0.2804,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-07-30.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4669,
-			"y": -0.4213,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-08-02.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.2096,
-			"y": 0.0868,
-			"cluster": 4,
-			"path": "memory/dreaming/rem/2026-05-20.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.828,
-			"y": -1.0933,
-			"cluster": 2,
-			"path": "memory/dreaming/rem/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.5084,
-			"y": -0.3879,
-			"cluster": 2,
-			"path": "memory/dreaming/rem/2026-05-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.509,
-			"y": -0.3868,
-			"cluster": 2,
-			"path": "memory/dreaming/rem/2026-05-24.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8581,
-			"y": -0.2201,
-			"cluster": 4,
-			"path": "memory/dreaming/rem/2026-05-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8402,
-			"y": 0.2518,
-			"cluster": 4,
-			"path": "memory/dreaming/rem/2026-05-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.429,
-			"y": 0.1259,
-			"cluster": 2,
-			"path": "memory/dreaming/rem/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8021,
-			"y": 0.1314,
-			"cluster": 4,
-			"path": "memory/dreaming/rem/2026-06-02.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7509,
-			"y": -1.9556,
-			"cluster": 5,
-			"path": "memory/dreaming/rem/2026-06-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3566,
-			"y": -0.7992,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4629,
-			"y": -0.0358,
-			"cluster": 4,
-			"path": "memory/dreaming/rem/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 1.7253,
-			"y": -1.92,
-			"cluster": 5,
-			"path": "memory/dreaming/rem/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3073,
-			"y": 0.9332,
-			"cluster": 0,
-			"path": "memory/dreaming/rem/2026-06-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3073,
-			"y": 0.9332,
-			"cluster": 0,
-			"path": "memory/dreaming/rem/2026-06-09.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3073,
-			"y": 0.9332,
-			"cluster": 0,
-			"path": "memory/dreaming/rem/2026-06-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8376,
-			"y": -0.0457,
-			"cluster": 1,
-			"path": "memory/dreaming/rem/2026-06-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.234,
-			"y": -0.2229,
-			"cluster": 2,
-			"path": "memory/dreaming/rem/2026-06-18.md",
-			"source": "memory"
-		},
-		{
-			"x": -1.2883,
-			"y": -1.0984,
-			"cluster": 2,
-			"path": "memory/dreaming/rem/2026-06-18.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0161,
-			"y": -0.6197,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-06-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3073,
-			"y": 0.9332,
-			"cluster": 0,
-			"path": "memory/dreaming/rem/2026-06-23.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.8464,
-			"y": -1.2782,
-			"cluster": 5,
-			"path": "memory/dreaming/rem/2026-06-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.6968,
-			"y": -0.4052,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-04.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8606,
-			"y": -0.9613,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0806,
-			"y": -0.0693,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4832,
-			"y": -1.2302,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-08.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3073,
-			"y": 0.9332,
-			"cluster": 0,
-			"path": "memory/dreaming/rem/2026-07-10.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.2543,
-			"y": -0.9284,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-11.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0351,
-			"y": 0.2661,
-			"cluster": 4,
-			"path": "memory/dreaming/rem/2026-07-12.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3903,
-			"y": 1.1032,
-			"cluster": 0,
-			"path": "memory/dreaming/rem/2026-07-16.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.2426,
-			"y": -0.3058,
-			"cluster": 1,
-			"path": "memory/dreaming/rem/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0063,
-			"y": -1.5245,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.4215,
-			"y": -0.2857,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-19.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0323,
-			"y": -1.2933,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-20.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.0631,
-			"y": -0.0038,
-			"cluster": 1,
-			"path": "memory/dreaming/rem/2026-07-22.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.1655,
-			"y": -0.0787,
-			"cluster": 1,
-			"path": "memory/dreaming/rem/2026-07-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.094,
-			"y": -1.1998,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-27.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.8731,
-			"y": -0.8786,
-			"cluster": 3,
-			"path": "memory/dreaming/rem/2026-07-29.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3855,
-			"y": -0.3992,
-			"cluster": 1,
+			"x": -1.7644,
+			"y": 5.3423,
+			"cluster": 6,
 			"path": "memory/ire-archive.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.3326,
-			"y": -0.489,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-08-03.md",
+			"x": -1.6547,
+			"y": 5.4635,
+			"cluster": 6,
+			"path": "memory/management.md",
 			"source": "memory"
 		},
 		{
-			"x": -1.8364,
-			"y": -0.5989,
+			"x": 0.7541,
+			"y": 5.4792,
 			"cluster": 2,
-			"path": "memory/dreaming/light/2026-08-03.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.3336,
-			"y": -0.9989,
-			"cluster": 3,
 			"path": "memory/2026-08-03.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.36,
-			"y": -0.9782,
-			"cluster": 3,
+			"x": 0.8457,
+			"y": 5.3719,
+			"cluster": 2,
 			"path": "memory/2026-08-03.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.4736,
-			"y": 0.7654,
+			"x": 0.6496,
+			"y": 5.2573,
+			"cluster": 2,
+			"path": "memory/2026-08-03.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.4135,
+			"y": 5.2206,
+			"cluster": 2,
+			"path": "memory/2026-08-03.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.422,
+			"y": 5.384,
+			"cluster": 2,
+			"path": "memory/2026-08-03.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.3944,
+			"y": 5.1917,
+			"cluster": 2,
+			"path": "memory/2026-08-03.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.2928,
+			"y": 5.1248,
+			"cluster": 2,
+			"path": "memory/2026-08-03.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.3296,
+			"y": 5.1735,
+			"cluster": 2,
+			"path": "memory/2026-08-03.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.3005,
+			"y": 5.5801,
+			"cluster": 2,
+			"path": "memory/2026-08-03.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.2708,
+			"y": 6.0175,
+			"cluster": 2,
+			"path": "memory/2026-08-04.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.1219,
+			"y": 4.029,
+			"cluster": 2,
+			"path": "memory/2026-08-04.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.0884,
+			"y": 6.5472,
+			"cluster": 6,
+			"path": "memory/2026-08-06.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.0674,
+			"y": 6.6148,
+			"cluster": 6,
+			"path": "memory/2026-08-07.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.6348,
+			"y": 6.5068,
+			"cluster": 6,
+			"path": "memory/2026-08-07.md",
+			"source": "memory"
+		},
+		{
+			"x": -1.1283,
+			"y": 6.1868,
+			"cluster": 2,
+			"path": "memory/2026-08-07.md",
+			"source": "memory"
+		},
+		{
+			"x": -2.6632,
+			"y": 4.7954,
 			"cluster": 0,
-			"path": "memory/dreaming/deep/2026-08-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1905,
-			"y": 0.4116,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-08-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.1415,
-			"y": -0.4887,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-08-07.md",
-			"source": "memory"
-		},
-		{
-			"x": 0.4964,
-			"y": -0.0597,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-08-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0456,
-			"y": -0.2775,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-08-09.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.0456,
-			"y": -0.2775,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-08-10.md",
-			"source": "memory"
-		},
-		{
-			"x": -0.9346,
-			"y": -0.6217,
-			"cluster": 2,
 			"path": "memory/2026-08-13.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.1816,
-			"y": -0.3592,
+			"x": -0.9574,
+			"y": 6.8467,
 			"cluster": 3,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.3765,
-			"y": -0.8016,
+			"x": -0.2596,
+			"y": 5.5068,
+			"cluster": 2,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.8902,
+			"y": 6.4608,
 			"cluster": 3,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.3053,
-			"y": -0.951,
-			"cluster": 3,
+			"x": -2.769,
+			"y": 4.7833,
+			"cluster": 0,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.2735,
-			"y": -0.6625,
-			"cluster": 3,
+			"x": 0.0505,
+			"y": 6.2341,
+			"cluster": 2,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.1657,
-			"y": -0.8784,
-			"cluster": 3,
+			"x": -0.0169,
+			"y": 6.5386,
+			"cluster": 2,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.0524,
-			"y": -0.0715,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-08-16.md",
+			"x": 0.1454,
+			"y": 6.1411,
+			"cluster": 2,
+			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.2371,
-			"y": -0.5274,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-08-16.md",
+			"x": -1.9172,
+			"y": 6.1132,
+			"cluster": 6,
+			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.2244,
-			"y": -0.5934,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-08-16.md",
+			"x": 0.8838,
+			"y": 5.364,
+			"cluster": 2,
+			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.6644,
-			"y": -0.1767,
-			"cluster": 4,
-			"path": "memory/dreaming/light/2026-08-16.md",
+			"x": 0.8414,
+			"y": 5.3644,
+			"cluster": 2,
+			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": 0.7538,
-			"y": -0.5489,
-			"cluster": 1,
-			"path": "memory/dreaming/light/2026-08-16.md",
+			"x": 0.5184,
+			"y": 5.7631,
+			"cluster": 2,
+			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.0767,
-			"y": -0.1804,
-			"cluster": 3,
-			"path": "memory/dreaming/light/2026-08-16.md",
+			"x": 0.4819,
+			"y": 5.9108,
+			"cluster": 2,
+			"path": "MEMORY.md",
+			"source": "memory"
+		},
+		{
+			"x": 0.8284,
+			"y": 5.3509,
+			"cluster": 2,
+			"path": "MEMORY.md",
 			"source": "memory"
 		}
 	],
-	"fallback": "pca2+kmeans"
+	"tree": {
+		"id": "root",
+		"label": "Memory",
+		"value": 145,
+		"children": [
+			{
+				"id": "family:workflow-signals",
+				"label": "Workflow Signals",
+				"value": 114,
+				"children": [
+					{
+						"id": "cluster:0",
+						"clusterId": 0,
+						"label": "Network Performance",
+						"description": "Internet speed tests and connectivity monitoring.",
+						"value": 56,
+						"children": [
+							{
+								"id": "keyword:0:0",
+								"label": "speed",
+								"value": 37.33
+							},
+							{
+								"id": "keyword:0:1",
+								"label": "data",
+								"value": 18.67
+							}
+						]
+					},
+					{
+						"id": "cluster:2",
+						"clusterId": 2,
+						"label": "Personal Tracking",
+						"description": "Personal health, meals, medication, and activity records.",
+						"value": 37,
+						"children": [
+							{
+								"id": "keyword:2:0",
+								"label": "logged",
+								"value": 37.0
+							}
+						]
+					},
+					{
+						"id": "cluster:6",
+						"clusterId": 6,
+						"label": "Sluggo",
+						"description": "Square.",
+						"value": 21,
+						"children": [
+							{
+								"id": "keyword:6:0",
+								"label": "square",
+								"value": 21.0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "family:knowledge",
+				"label": "Knowledge",
+				"value": 31,
+				"children": [
+					{
+						"id": "cluster:3",
+						"clusterId": 3,
+						"label": "Vault",
+						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
+						"value": 31,
+						"children": [
+							{
+								"id": "keyword:3:0",
+								"label": "obsidian",
+								"value": 20.67
+							},
+							{
+								"id": "keyword:3:1",
+								"label": "todo",
+								"value": 10.33
+							}
+						]
+					}
+				]
+			}
+		]
+	}
 }
