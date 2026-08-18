@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-08-18",
+		"displayDate": "August 18, 2026",
+		"image": "/images/news-bosch/2026/08/18.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 1792x1024) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 1792x1024)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-18T10:19:09.036594Z",
+		"sourceRetrievedAt": "2026-08-18T10:10:45.289991Z",
+		"themes": [
+			{
+				"name": "Law, Judgment, and Accountability",
+				"interpretation": "Courts, investigators, and rules test who is held responsible and who escapes scrutiny.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [5, 7, 8, 9, 10]
+			},
+			{
+				"name": "Origins and Promises",
+				"interpretation": "Institutions and actors set events in motion with pledges, plans, and unspoken costs.",
+				"storyRanks": [3]
+			}
+		],
+		"stories": [
+			{
+				"title": "Pakistan top court orders ex-PM Imran Khan be moved to hospital from jail, his party says",
+				"url": "https://reuters.com/world/asia-pacific/pakistan-top-court-orders-ex-pm-imran-khan-be-moved-hospital-jail-local-media-2026-08-18/"
+			},
+			{
+				"title": "Trump says Iran won't make deal he thinks is needed, threatens to bomb Oman",
+				"url": "https://reuters.com/world/middle-east/trump-says-iran-should-surrender-threatens-bomb-oman-2026-08-17/"
+			},
+			{
+				"title": "Philippine student live-streamed fatal school shooting before taking own life, official say",
+				"url": "https://reuters.com/world/asia-pacific/mayor-says-shooting-incident-school-southern-philippines-reports-two-casualties-2026-08-18/"
+			},
+			{
+				"title": "Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds",
+				"url": "https://reuters.com/world/us/trump-approval-falls-33-lowest-his-presidency-reutersipsos-poll-finds-2026-08-17/"
+			},
+			{
+				"title": "Iran threatens new offensive while US rules out extending ceasefire\u00a0deal",
+				"url": "https://reuters.com/world/middle-east/iran-threatens-go-offensive-strait-hormuz-if-diplomacy-with-us-fails-2026-08-17/"
+			},
+			{
+				"title": "Diageo agrees to reformulate India whisky, rum drinks after flavouring breach, sources say",
+				"url": "https://reuters.com/world/india/diageo-agrees-reformulate-india-whisky-rum-drinks-after-flavouring-breach-2026-08-17/"
+			},
+			{
+				"title": "Battered by war, Iran\u2019s rulers wary of more economic pain and unrest if US tightens pressure",
+				"url": "https://reuters.com/world/middle-east/battered-by-war-irans-rulers-wary-more-economic-pain-unrest-if-us-tightens-2026-08-17/"
+			},
+			{
+				"title": "Russia warns Britain of 'consequences' for supplying drones to Ukraine",
+				"url": "https://reuters.com/world/uk/russia-warns-britain-consequences-supplying-drones-ukraine-2026-08-18/"
+			},
+			{
+				"title": "Selling grips bond markets from US to Japan as inflation, fiscal worries take hold",
+				"url": "https://reuters.com/world/china/selling-grips-bond-markets-us-japan-inflation-fiscal-worries-take-hold-2026-08-18/"
+			},
+			{
+				"title": "Nestle looks to develop new products to serve users of weight-loss drugs\u00a0\u00a0",
+				"url": "https://reuters.com/legal/litigation/nestle-looks-develop-new-products-serve-users-weight-loss-drugs-2026-08-17/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"games, dice, wheels, races, and balancing acts",
+				"vessels, canals, wells, floods, and bridges"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "dry clay, straw yellow, olive, turquoise, and dark crimson",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-08-17",
 		"displayDate": "August 17, 2026",
 		"image": "/images/news-bosch/2026/08/17.webp",
