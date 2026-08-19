@@ -1599,6 +1599,76 @@
 			"realTimeFactor": 0.8915,
 			"model": "ggml-small.en-q5_1.bin",
 			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 7:14:58",
+			"outcome": "success",
+			"audioSeconds": 4.6135,
+			"endToEndMs": 5910.0,
+			"latitudeProcessingMs": 4946.0,
+			"realTimeFactor": 1.0721,
+			"model": "ggml-small.en-q5_1.bin",
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 7:29:46",
+			"outcome": "success",
+			"audioSeconds": 5.7735,
+			"endToEndMs": 6196.0,
+			"latitudeProcessingMs": 5130.0,
+			"realTimeFactor": 0.8885,
+			"model": "ggml-small.en-q5_1.bin",
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 7:37:13",
+			"outcome": "success",
+			"audioSeconds": 5.2935,
+			"endToEndMs": 6058.0,
+			"latitudeProcessingMs": 5029.0,
+			"realTimeFactor": 0.95,
+			"model": "ggml-small.en-q5_1.bin",
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 7:38:50",
+			"outcome": "success",
+			"audioSeconds": 5.8735,
+			"endToEndMs": 6012.0,
+			"latitudeProcessingMs": 4997.0,
+			"realTimeFactor": 0.8508,
+			"model": "ggml-small.en-q5_1.bin",
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 9:49:04",
+			"outcome": "success",
+			"audioSeconds": 6.4335,
+			"endToEndMs": 6256.0,
+			"latitudeProcessingMs": 5186.0,
+			"realTimeFactor": 0.8061,
+			"model": "ggml-small.en-q5_1.bin",
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 11:31:20",
+			"outcome": "success",
+			"audioSeconds": 9.1735,
+			"endToEndMs": 6264.0,
+			"latitudeProcessingMs": 5237.0,
+			"realTimeFactor": 0.5709,
+			"model": "ggml-small.en-q5_1.bin",
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 6:48:24",
+			"outcome": "success",
+			"audioSeconds": 10.1335,
+			"endToEndMs": 7124.0,
+			"latitudeProcessingMs": 5882.0,
+			"realTimeFactor": 0.5805,
+			"model": "ggml-small.en-q5_1.bin",
+			"status": "http_200"
 		}
 	],
 	"health": [
@@ -7927,6 +7997,174 @@
 			"timestamp": "2026-08-18 7:07:15",
 			"outcome": "success",
 			"healthCheckMs": 205.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 8:07:15",
+			"outcome": "success",
+			"healthCheckMs": 74.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 9:07:15",
+			"outcome": "success",
+			"healthCheckMs": 165.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 10:07:15",
+			"outcome": "success",
+			"healthCheckMs": 79.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 11:07:16",
+			"outcome": "success",
+			"healthCheckMs": 124.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 12:07:15",
+			"outcome": "success",
+			"healthCheckMs": 152.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 13:07:15",
+			"outcome": "success",
+			"healthCheckMs": 119.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 14:07:15",
+			"outcome": "success",
+			"healthCheckMs": 69.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 15:07:15",
+			"outcome": "success",
+			"healthCheckMs": 155.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 16:07:15",
+			"outcome": "success",
+			"healthCheckMs": 152.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 17:07:15",
+			"outcome": "success",
+			"healthCheckMs": 104.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 18:07:15",
+			"outcome": "success",
+			"healthCheckMs": 113.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 19:07:15",
+			"outcome": "success",
+			"healthCheckMs": 95.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 20:07:15",
+			"outcome": "success",
+			"healthCheckMs": 169.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 21:07:15",
+			"outcome": "success",
+			"healthCheckMs": 119.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 22:07:15",
+			"outcome": "success",
+			"healthCheckMs": 178.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-18 23:07:15",
+			"outcome": "success",
+			"healthCheckMs": 321.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 0:07:15",
+			"outcome": "success",
+			"healthCheckMs": 155.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 1:07:15",
+			"outcome": "success",
+			"healthCheckMs": 130.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 2:07:15",
+			"outcome": "success",
+			"healthCheckMs": 116.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 3:07:15",
+			"outcome": "success",
+			"healthCheckMs": 68.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 4:25:27",
+			"outcome": "success",
+			"healthCheckMs": 112.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 5:07:15",
+			"outcome": "success",
+			"healthCheckMs": 167.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 6:07:15",
+			"outcome": "success",
+			"healthCheckMs": 115.0,
+			"reachable": true,
+			"status": "http_200"
+		},
+		{
+			"timestamp": "2026-08-19 7:07:15",
+			"outcome": "success",
+			"healthCheckMs": 123.0,
 			"reachable": true,
 			"status": "http_200"
 		}
