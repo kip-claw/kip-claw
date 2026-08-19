@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-08-19",
+		"displayDate": "August 19, 2026",
+		"image": "/images/news-bosch/2026/08/19.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-19T10:15:08.547736Z",
+		"sourceRetrievedAt": "2026-08-19T10:10:45.454283Z",
+		"themes": [
+			{
+				"name": "The Strait Holds Its Breath",
+				"interpretation": "A sealed maritime artery turns diplomacy into a stalled chorus, with rival declarations colliding over who can reopen the passage.",
+				"storyRanks": [1, 3]
+			},
+			{
+				"name": "Ballots in the Kill Zone",
+				"interpretation": "War and political legitimacy balance precariously together, as the machinery of elections is proposed amid lethal terrain.",
+				"storyRanks": [4, 8]
+			},
+			{
+				"name": "Reefs, Borders, and Tollgates",
+				"interpretation": "Territory and trade are being reshaped through construction and temporary reprieves, with every crossing becoming a bargaining point.",
+				"storyRanks": [5, 7]
+			},
+			{
+				"name": "The Fifteen-Note Squeeze",
+				"interpretation": "A surge in demand makes essential industrial components sound a sharper, more expensive note across the global economy.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Crash and Fire Chorus",
+				"interpretation": "Private catastrophe becomes public reckoning as a fatal road collision and a deadly hotel blaze ring out at once.",
+				"storyRanks": [2, 10]
+			},
+			{
+				"name": "The Contested Hospital Bed",
+				"interpretation": "Even a medical transfer becomes a political tug-of-war, exposing how confinement and care can share the same room.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says",
+				"url": "https://reuters.com/world/middle-east/hormuz-strait-remain-shut-until-us-meets-interim-deal-conditions-iran-says-2026-08-18/"
+			},
+			{
+				"title": "Vietnam police address ex-politician's car crash that killed a teenager",
+				"url": "https://reuters.com/world/asia-pacific/vietnam-police-address-ex-politicians-car-crash-that-killed-teenager-2026-08-19/"
+			},
+			{
+				"title": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
+				"url": "https://reuters.com/world/middle-east/trump-says-no-talks-planned-with-iran-tehran-says-strait-hormuz-still-shut-2026-08-18/"
+			},
+			{
+				"title": "Inside Ukraine\u2019s Kill Zone",
+				"url": "https://reuters.com/graphics/UKRAINE-CRISIS/KILL-ZONE/znpnojmknvl/"
+			},
+			{
+				"title": "China completes first stage of work at disputed South China Sea reef, images show",
+				"url": "https://reuters.com/world/china/china-completes-first-stage-work-disputed-south-china-sea-reef-images-show-2026-08-19/"
+			},
+			{
+				"title": "Samsung hikes chipmaking prices by up to 15% on demand spike, sources say",
+				"url": "https://reuters.com/business/autos-transportation/samsung-hikes-chipmaking-prices-by-up-15-demand-spike-sources-say-2026-08-19/"
+			},
+			{
+				"title": "Trump pauses tariffs on Canadian imports, Carney says key work remains",
+				"url": "https://reuters.com/world/americas/carney-trump-speak-ahead-50-us-tariff-deadline-2026-08-18/"
+			},
+			{
+				"title": "Ukraine's ousted defence minister calls for wartime elections",
+				"url": "https://reuters.com/business/aerospace-defense/ukraines-ousted-defence-minister-calls-wartime-elections-2026-08-18/"
+			},
+			{
+				"title": "Pakistan government to challenge Imran Khan hospital move, says law minister",
+				"url": "https://reuters.com/world/asia-pacific/pakistan-government-challenge-imran-khan-hospital-move-says-law-minister-2026-08-19/"
+			},
+			{
+				"title": "At least nine killed in hotel fire in India's Kolkata",
+				"url": "https://reuters.com/world/asia-pacific/least-nine-killed-hotel-fire-indias-kolkata-2026-08-19/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "courtiers and heralds"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"games, dice, wheels, races, and balancing acts",
+				"vessels, canals, wells, floods, and bridges"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-08-18",
 		"displayDate": "August 18, 2026",
 		"image": "/images/news-bosch/2026/08/18.webp",
