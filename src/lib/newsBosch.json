@@ -1,5 +1,88 @@
 [
 	{
+		"date": "2026-08-20",
+		"displayDate": "August 20, 2026",
+		"image": "/images/news-bosch/2026/08/20.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-20T10:15:02.150243Z",
+		"sourceRetrievedAt": "2026-08-20T10:10:45.684892Z",
+		"themes": [
+			{
+				"name": "Contested Power and Statecraft",
+				"interpretation": "Governments, leaders, and institutions maneuver for advantage while the public absorbs the consequences.",
+				"storyRanks": [2, 4, 6, 7, 9, 10]
+			},
+			{
+				"name": "Nature, Risk, and Discovery",
+				"interpretation": "Bodies, ecosystems, and frontiers strain under pressure as discovery and hazard advance together.",
+				"storyRanks": [8]
+			},
+			{
+				"name": "Origins and Promises",
+				"interpretation": "Institutions and actors set events in motion with pledges, plans, and unspoken costs.",
+				"storyRanks": [3]
+			}
+		],
+		"stories": [
+			{
+				"title": "China Evergrande founder sentenced to life in prison",
+				"url": "https://reuters.com/world/china/china-evergrande-founder-sentenced-life-imprisonment-cctv-reports-2026-08-20/"
+			},
+			{
+				"title": "US debt crosses $40 trillion threshold after doubling under Trump and Biden",
+				"url": "https://reuters.com/world/us-debt-crosses-40-trillion-threshold-after-doubling-under-trump-biden-2026-08-19/"
+			},
+			{
+				"title": "Evergrande founder Hui Ka Yan, from property tycoon to life in jail",
+				"url": "https://reuters.com/world/china/evergrande-founder-hui-ka-yan-property-tycoon-life-jail-2026-08-20/"
+			},
+			{
+				"title": "South Korea estimates North Korea has up to 120 nuclear warheads, far above Trump's figure",
+				"url": "https://reuters.com/business/aerospace-defense/south-korea-estimates-north-korea-has-up-120-nuclear-warheads-far-above-trumps-2026-08-20/"
+			},
+			{
+				"title": "Prince Harry and Meghan to move back to Britain",
+				"url": "https://reuters.com/world/uk/prince-harry-meghan-move-back-britain-2026-08-20/"
+			},
+			{
+				"title": "Moderna, Merck breakthrough could usher in wave of cancer vaccines",
+				"url": "https://reuters.com/legal/litigation/moderna-merck-breakthrough-could-usher-wave-cancer-vaccines-2026-08-19/"
+			},
+			{
+				"title": "Trump warns of economic consequences for any country that supports Iran",
+				"url": "https://reuters.com/world/middle-east/trump-warns-economic-consequences-any-country-that-supports-iran-2026-08-20/"
+			},
+			{
+				"title": "Moderna, Merck vaccine cuts recurrence and spread of melanoma, raising new treatment hope",
+				"url": "https://reuters.com/legal/litigation/merck-moderna-say-melanoma-skin-cancer-vaccine-meets-goals-large-trial-2026-08-19/"
+			},
+			{
+				"title": "Russian ballistic missiles kill 12 in Ukraine's Kyiv, spark fires",
+				"url": "https://reuters.com/world/ukrainian-capital-kyiv-under-attack-by-russian-ballistic-missiles-mayor-says-2026-08-19/"
+			},
+			{
+				"title": "Netflix sued by band Demon Hunter over 'KPop Demon Hunters'",
+				"url": "https://reuters.com/legal/legalindustry/netflix-sued-by-band-demon-hunter-over-kpop-demon-hunters-2026-08-19/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "merchants and market keepers"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-08-19",
 		"displayDate": "August 19, 2026",
 		"image": "/images/news-bosch/2026/08/19.webp",
