@@ -123,6 +123,13 @@
   ],
   "humidityReadings": [
     {
+      "date": "2026-08-19",
+      "time": "18:16",
+      "rh": "67",
+      "temperatureF": "",
+      "notes": ""
+    },
+    {
       "date": "2026-08-15",
       "time": "18:33",
       "rh": "67",
@@ -243,6 +250,13 @@
     }
   ],
   "bovedaChanges": [
+    {
+      "dateChanged": "2026-08-19",
+      "packType": "",
+      "rh": "",
+      "packCount": "",
+      "notes": "Changed Boveda packs; type, RH and count not specified."
+    },
     {
       "dateChanged": "2026-04-08",
       "packType": "72\u00b0",
