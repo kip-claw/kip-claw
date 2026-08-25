@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-08-20T10:30:45+00:00",
+	"generatedAt": "2026-08-25T13:27:00+00:00",
 	"days": [
 		{
 			"date": "2026-06-05",
@@ -611,11 +611,43 @@
 		},
 		{
 			"date": "2026-08-20",
-			"calls": 10,
-			"inputTokens": 36582,
-			"outputTokens": 1609,
-			"cacheReadTokens": 178944,
-			"totalTokens": 217135
+			"calls": 23,
+			"inputTokens": 45442,
+			"outputTokens": 2270,
+			"cacheReadTokens": 540160,
+			"totalTokens": 587872
+		},
+		{
+			"date": "2026-08-21",
+			"calls": 40,
+			"inputTokens": 0,
+			"outputTokens": 0,
+			"cacheReadTokens": 0,
+			"totalTokens": 0
+		},
+		{
+			"date": "2026-08-22",
+			"calls": 13,
+			"inputTokens": 0,
+			"outputTokens": 0,
+			"cacheReadTokens": 0,
+			"totalTokens": 0
+		},
+		{
+			"date": "2026-08-23",
+			"calls": 78,
+			"inputTokens": 0,
+			"outputTokens": 0,
+			"cacheReadTokens": 0,
+			"totalTokens": 0
+		},
+		{
+			"date": "2026-08-25",
+			"calls": 6,
+			"inputTokens": 7044,
+			"outputTokens": 710,
+			"cacheReadTokens": 111360,
+			"totalTokens": 119114
 		}
 	]
 }
