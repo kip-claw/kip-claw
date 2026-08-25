@@ -27682,5 +27682,419 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Kip backup",
+		"status": "error",
+		"durationS": 3.0,
+		"consecutiveErrors": 5,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 70.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Wiki maintenance",
+		"status": "skipped",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": "disabled"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Sync Obsidian repository",
+		"status": "error",
+		"durationS": 0.8,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Tailnet sentinel",
+		"status": "error",
+		"durationS": 120.3,
+		"consecutiveErrors": 1,
+		"errorReason": "timeout",
+		"notes": "command produced no output before noOutputTimeoutSeconds"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 0.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 1.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "OpenClaw job report",
+		"status": "error",
+		"durationS": 0.9,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Heartbeat cleanup",
+		"status": "ok",
+		"durationS": 1.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "OpenClaw config report",
+		"status": "error",
+		"durationS": 0.9,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Humidor export",
+		"status": "error",
+		"durationS": 0.6,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "OpenClaw memory report",
+		"status": "error",
+		"durationS": 79.6,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Runs export",
+		"status": "error",
+		"durationS": 0.9,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "NYC list export",
+		"status": "error",
+		"durationS": 0.9,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "OpenAI limits report",
+		"status": "error",
+		"durationS": 11.2,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 61.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Lipitor reminder",
+		"status": "error",
+		"durationS": 30.1,
+		"consecutiveErrors": 6,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Twitter archive export",
+		"status": "error",
+		"durationS": 2.1,
+		"consecutiveErrors": 5,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Token usage export",
+		"status": "error",
+		"durationS": 0.8,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Disk space check",
+		"status": "ok",
+		"durationS": 0.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Whisper transcription stats export",
+		"status": "error",
+		"durationS": 1.1,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "OpenClaw release check",
+		"status": "error",
+		"durationS": 110.3,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Morning speed test",
+		"status": "error",
+		"durationS": 61.1,
+		"consecutiveErrors": 3,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Email inbox check",
+		"status": "error",
+		"durationS": 182.9,
+		"consecutiveErrors": 9,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: turn-accepted)"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Sluggo encrypted NAS backup",
+		"status": "error",
+		"durationS": 182.2,
+		"consecutiveErrors": 6,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: turn-accepted)"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Todo cleanup",
+		"status": "error",
+		"durationS": 283.5,
+		"consecutiveErrors": 6,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | gr"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 3306.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "morning-weather-run",
+		"status": "error",
+		"durationS": 259.9,
+		"consecutiveErrors": 6,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (4): openai/gpt-5.6-luna: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | gro"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 265.7,
+		"consecutiveErrors": 4,
+		"errorReason": "",
+		"notes": "Error: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses)"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "ArchiveBox backup monitor",
+		"status": "error",
+		"durationS": 91.7,
+		"consecutiveErrors": 6,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: turn-accepted)"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "ArchiveBox stats export",
+		"status": "error",
+		"durationS": 301.7,
+		"consecutiveErrors": 6,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: turn-accepted)"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 52.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 50.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Whisper transcription service health",
+		"status": "error",
+		"durationS": 18.8,
+		"consecutiveErrors": 76,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 20.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Lipitor follow-up reminder",
+		"status": "ok",
+		"durationS": 2.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 46.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Wiki compile and lint",
+		"status": "error",
+		"durationS": 280.7,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | gr"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 0.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Weekly wiki enrichment",
+		"status": "error",
+		"durationS": 256.3,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | gr"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Dependabot PR triage",
+		"status": "error",
+		"durationS": 275.2,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | gr"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 11.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Finance: needs-review check",
+		"status": "error",
+		"durationS": 556.7,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (5): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | op"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Finance: pending tax decisions",
+		"status": "error",
+		"durationS": 547.7,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (5): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | op"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Google Drive sync report",
+		"status": "error",
+		"durationS": 283.2,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "Error: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses)"
+	},
+	{
+		"timestamp": "2026-08-25 08:11:12",
+		"jobName": "Weekly diet pattern report",
+		"status": "error",
+		"durationS": 301.6,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: turn-accepted)"
 	}
 ]
