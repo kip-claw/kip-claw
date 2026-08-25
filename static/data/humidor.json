@@ -119,6 +119,16 @@
       "size": "Gran Corona",
       "gauge": "56",
       "notes": ""
+    },
+    {
+      "dateAdded": "2026-08-21",
+      "maker": "AJ Fernandez",
+      "model": "New World",
+      "wrapper": "Nicaraguan",
+      "origin": "Nicaragua ",
+      "size": "Toro",
+      "gauge": "55",
+      "notes": ""
     }
   ],
   "humidityReadings": [
@@ -247,6 +257,13 @@
       "rh": "70",
       "temperatureF": "",
       "notes": ""
+    },
+    {
+      "date": "2026-08-21",
+      "time": "12:00",
+      "rh": "70",
+      "temperatureF": "",
+      "notes": ""
     }
   ],
   "bovedaChanges": [
@@ -277,6 +294,13 @@
       "rh": "72",
       "packCount": "2",
       "notes": "Replaced packets"
+    },
+    {
+      "dateChanged": "2026-08-19",
+      "packType": "72\u00b0",
+      "rh": "72",
+      "packCount": "3",
+      "notes": ""
     }
   ]
 }
