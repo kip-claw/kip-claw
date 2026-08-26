@@ -1710,5 +1710,13 @@
     "pingMs": 16.8,
     "server": "New York NY",
     "provider": "Starry Inc."
+  },
+  {
+    "timestamp": "2026-08-26 09:00:34",
+    "downloadMbps": 565.42,
+    "uploadMbps": 22.47,
+    "pingMs": 17.0,
+    "server": "New York NY",
+    "provider": "WebNX Inc"
   }
 ]
