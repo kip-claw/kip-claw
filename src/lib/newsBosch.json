@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-08-26",
+		"displayDate": "August 26, 2026",
+		"image": "/images/news-bosch/2026/08/26.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-26T10:14:59.626916Z",
+		"sourceRetrievedAt": "2026-08-26T10:10:44.969258Z",
+		"themes": [
+			{
+				"name": "The Silent Visa Choir",
+				"interpretation": "A worldwide pause turns the promise of passage into a held breath at the threshold.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "The Algorithmic Oracle Beckons",
+				"interpretation": "Anxieties over artificial intelligence summon a search for rules across a geopolitical divide.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Commerce Through Narrow Gates",
+				"interpretation": "Shipping, capital, and factory plans depend on temporary corridors and bargains not yet secured.",
+				"storyRanks": [4, 5, 8]
+			},
+			{
+				"name": "Waters Leave Ashes Behind",
+				"interpretation": "Flood and fire expose how quickly ordinary shelters can become chambers of irreversible loss.",
+				"storyRanks": [2, 7]
+			},
+			{
+				"name": "Spotlight Turns to Snare",
+				"interpretation": "The same attention that magnifies celebrity also carries rumor, menace, and exposure.",
+				"storyRanks": [6, 10]
+			},
+			{
+				"name": "The Eightieth String Breaks",
+				"interpretation": "A revered musical voice leaves the stage, making public memory sound like a final sustained note.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump administration issues pause on immigrant visa appointments for applicants worldwide",
+				"url": "https://reuters.com/legal/government/trump-administration-issues-pause-visa-appointments-applicants-worldwide-2026-08-26/"
+			},
+			{
+				"title": "Flash flood on Nepal-Tibet border kills nine and destroys villages, toll likely to jump",
+				"url": "https://reuters.com/business/environment/nepal-flash-flood-washes-away-villages-project-sites-near-tibet-border-2026-08-26/"
+			},
+			{
+				"title": "Bill Gates, alarmed by AI, has policy ideas he wants to discuss with China's Xi",
+				"url": "https://reuters.com/world/china/bill-gates-alarmed-by-ai-has-policy-ideas-he-wants-discuss-with-chinas-xi-2026-08-26/"
+			},
+			{
+				"title": "Iran and Oman plan for temporary Hormuz corridor as impasse with US persists",
+				"url": "https://reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/"
+			},
+			{
+				"title": "BNP Paribas, KB Kookmin in talks for $2 billion Vietnam Techcombank stake, sources say",
+				"url": "https://reuters.com/world/asia-pacific/bnp-paribas-kb-kookmin-talks-2-billion-vietnam-techcombank-stake-sources-say-2026-08-26/"
+			},
+			{
+				"title": "Harry and Meghan's media storm shows the power and peril of their brand",
+				"url": "https://reuters.com/world/uk/harry-meghans-media-storm-shows-power-peril-their-brand-2026-08-26/"
+			},
+			{
+				"title": "At least 14 infants killed in Islamabad hospital fire",
+				"url": "https://reuters.com/world/asia-pacific/least-14-infants-killed-islamabad-hospital-fire-local-tv-reports-2026-08-26/"
+			},
+			{
+				"title": "Honda says it may not build new plant in North America without trade deal extension",
+				"url": "https://reuters.com/business/autos-transportation/honda-says-it-may-not-build-new-plant-north-america-without-trade-deal-extension-2026-08-25/"
+			},
+			{
+				"title": "Dolly Parton, queen of country music, dies at 80",
+				"url": "https://reuters.com/lifestyle/dolly-parton-has-died-family-says-2026-08-25/"
+			},
+			{
+				"title": "U.S. Secret Service aware of Iranian video threat against Barron Trump\u00a0",
+				"url": "https://reuters.com/business/media-telecom/us-secret-service-aware-iranian-video-threat-against-barron-trump-2026-08-25/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "sailors and navigators"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-08-25",
 		"displayDate": "August 25, 2026",
 		"image": "/images/news-bosch/2026/08/25.webp",
