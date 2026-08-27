@@ -1718,5 +1718,13 @@
     "pingMs": 17.0,
     "server": "New York NY",
     "provider": "WebNX Inc"
+  },
+  {
+    "timestamp": "2026-08-26 21:00:14",
+    "downloadMbps": 558.08,
+    "uploadMbps": 22.49,
+    "pingMs": 10.0,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
