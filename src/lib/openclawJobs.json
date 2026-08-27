@@ -28510,5 +28510,419 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "OpenClaw job report",
+		"status": "ok",
+		"durationS": 54.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Heartbeat cleanup",
+		"status": "ok",
+		"durationS": 1.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 35.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 4.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "OpenClaw memory report",
+		"status": "error",
+		"durationS": 223.8,
+		"consecutiveErrors": 5,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 34.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Whisper transcription service health",
+		"status": "error",
+		"durationS": 18.2,
+		"consecutiveErrors": 119,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "morning-weather-run",
+		"status": "ok",
+		"durationS": 90.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 4.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "OpenAI limits report",
+		"status": "ok",
+		"durationS": 11.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 50.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Lipitor reminder",
+		"status": "ok",
+		"durationS": 0.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Twitter archive export",
+		"status": "error",
+		"durationS": 6.3,
+		"consecutiveErrors": 7,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Daily Bosch generation",
+		"status": "ok",
+		"durationS": 315.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "ArchiveBox backup monitor",
+		"status": "ok",
+		"durationS": 44.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "ArchiveBox stats export",
+		"status": "ok",
+		"durationS": 33.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Token usage export",
+		"status": "ok",
+		"durationS": 206.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Disk space check",
+		"status": "ok",
+		"durationS": 1.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Whisper transcription stats export",
+		"status": "ok",
+		"durationS": 204.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 24.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 21.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 112.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 50.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Email inbox check",
+		"status": "ok",
+		"durationS": 46.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 38.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Lipitor follow-up reminder",
+		"status": "ok",
+		"durationS": 1.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 40.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Kip backup",
+		"status": "error",
+		"durationS": 51.4,
+		"consecutiveErrors": 8,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Sluggo encrypted NAS backup",
+		"status": "ok",
+		"durationS": 29.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 71.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 204.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Wiki maintenance",
+		"status": "skipped",
+		"durationS": 0.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": "disabled"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Sync Obsidian repository",
+		"status": "ok",
+		"durationS": 11.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 1.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Memory Dreaming Promotion",
+		"status": "ok",
+		"durationS": 58.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 2.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Wiki compile and lint",
+		"status": "error",
+		"durationS": 280.7,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | gr"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Sync SOUL page",
+		"status": "ok",
+		"durationS": 0.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Weekly wiki enrichment",
+		"status": "error",
+		"durationS": 256.3,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | gr"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Dependabot PR triage",
+		"status": "error",
+		"durationS": 275.2,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (2): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | gr"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 11.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Finance: needs-review check",
+		"status": "error",
+		"durationS": 556.7,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (5): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | op"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Finance: pending tax decisions",
+		"status": "error",
+		"durationS": 547.7,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "FallbackSummaryError: All models failed (5): openai/gpt-5.6-terra: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses) (unknown) | op"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Google Drive sync report",
+		"status": "error",
+		"durationS": 283.2,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "Error: stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses)"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "Weekly diet pattern report",
+		"status": "error",
+		"durationS": 301.6,
+		"consecutiveErrors": 4,
+		"errorReason": "timeout",
+		"notes": "cron: job execution timed out (last phase: turn-accepted)"
+	},
+	{
+		"timestamp": "2026-08-27 04:05:26",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 318.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
