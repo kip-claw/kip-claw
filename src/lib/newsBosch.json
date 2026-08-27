@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-08-27",
+		"displayDate": "August 27, 2026",
+		"image": "/images/news-bosch/2026/08/27.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-27T10:14:58.411863Z",
+		"sourceRetrievedAt": "2026-08-27T10:10:45.344547Z",
+		"themes": [
+			{
+				"name": "Choir Beneath the Torrent",
+				"interpretation": "The Nepal disaster becomes a broken chorus of vanished travelers and communities, with nature turning a mountain threshold into an instrument of absence.",
+				"storyRanks": [1, 3, 5, 8, 10]
+			},
+			{
+				"name": "The Unmanned Loom",
+				"interpretation": "Ambitions to replace human craft with automated intelligence unravel as the machine meant to weave efficiency tangles its own threads.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Six Months of Dissonance",
+				"interpretation": "Prolonged war is depicted as a six-part harmony whose repeated notes leave institutions, families, and futures out of tune.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "The Alliance Antechamber",
+				"interpretation": "Military planners wait at a guarded threshold, translating alliances into contingent movements while the door to escalation remains only partly open.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "Price of the New Voice",
+				"interpretation": "The purchase of a powerful language-making workshop suggests that the tools of expression are being gathered into ever larger industrial hands.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Nepal flash flood live: Nearly 1,500 missing, including foreign tourists, as death toll rises",
+				"url": "https://reuters.com/world/nepal-floods-live-nearly-1500-missing-including-tourists-death-toll-rises-2026-08-27/"
+			},
+			{
+				"title": "Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here\u2019s how it imploded.",
+				"url": "https://reuters.com/investigations/mark-zuckerberg-had-bold-plan-replace-meta-staff-with-ai-heres-how-it-imploded-2026-08-26/"
+			},
+			{
+				"title": "Glacier collapse may have triggered deadly Nepal flash flood, experts say",
+				"url": "https://reuters.com/business/environment/glacier-collapse-may-have-triggered-deadly-nepal-flash-flood-experts-say-2026-08-26/"
+			},
+			{
+				"title": "  ",
+				"url": "https://reuters.com/business/environment/rescuers-search-survivors-after-devastating-nepal-flood-2026-08-27/"
+			},
+			{
+				"title": "What triggered the catastrophic flood on the Nepal-Tibet border?",
+				"url": "https://reuters.com/business/environment/what-triggered-catastrophic-flood-nepal-tibet-border-2026-08-26/"
+			},
+			{
+				"title": "Six consequences of six months of war in Iran",
+				"url": "https://reuters.com/world/middle-east/six-consequences-six-months-war-iran-2026-08-27/"
+			},
+			{
+				"title": "Pentagon's NATO review preparing troop options for Hegseth by November 6",
+				"url": "https://reuters.com/world/pentagons-nato-review-preparing-troop-options-hegseth-by-november-6-2026-08-27/"
+			},
+			{
+				"title": "Hundreds dead and missing after flash flood hits Nepal-Tibet border - as it happened",
+				"url": "https://reuters.com/world/nepal-flash-floods-live-mudslide-nepal-tibet-border-triggers-catastrophic-2026-08-26/"
+			},
+			{
+				"title": "Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports",
+				"url": "https://reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/"
+			},
+			{
+				"title": "Nations with tourists missing in Nepal flood",
+				"url": "https://reuters.com/world/china/list-nationalities-missing-tourists-nepal-flood-2026-08-27/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "sailors and navigators"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"workshops, looms, mills, gears, and unfinished machines"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-08-26",
 		"displayDate": "August 26, 2026",
 		"image": "/images/news-bosch/2026/08/26.webp",
