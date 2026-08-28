@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-08-28",
+		"displayDate": "August 28, 2026",
+		"image": "/images/news-bosch/2026/08/28.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-28T10:14:52.864345Z",
+		"sourceRetrievedAt": "2026-08-28T10:10:46.003387Z",
+		"themes": [
+			{
+				"name": "The Mountain\u2019s Closed Circuit",
+				"interpretation": "A ruptured glacier, a dammed lake, and suspended rescue form a cycle in which catastrophe continually remakes the conditions for response.",
+				"storyRanks": [1, 2, 4, 5]
+			},
+			{
+				"name": "Aid at the Threshold",
+				"interpretation": "The border disaster becomes a guarded doorway where urgent foreign assistance meets national control over who may enter.",
+				"storyRanks": [1, 3, 4]
+			},
+			{
+				"name": "Crowns Through a Narrow Door",
+				"interpretation": "Several monarchies confront succession, death, and damaged legitimacy as inherited power passes into an uncertain new room.",
+				"storyRanks": [6, 8, 9, 10]
+			},
+			{
+				"name": "The Strait\u2019s Unfinished Gear",
+				"interpretation": "War diplomacy seeks to reopen a vital maritime passage, presenting peace as a stalled machine whose movement affects distant shores.",
+				"storyRanks": [7]
+			}
+		],
+		"stories": [
+			{
+				"title": "China resumes rescue work after assessing upstream lake conditions",
+				"url": "https://reuters.com/business/environment/china-rushes-minimise-risk-mountain-barrier-lake-near-border-with-nepal-2026-08-28/"
+			},
+			{
+				"title": "Mapping how a glacier collapse triggered a deadly landslide and flooding along the Nepal-China border",
+				"url": "https://reuters.com/graphics/NEPAL-FLOODS/MAP/byvrdywwlve/"
+			},
+			{
+				"title": "Nepal declines foreign rescue help, South Korea says it is 'negotiating'",
+				"url": "https://reuters.com/world/china/nepal-declines-foreign-rescue-help-south-korea-says-it-is-negotiating-2026-08-28/"
+			},
+			{
+				"title": "Lake overflows on Nepal-China border, sparking panic and halting rescue",
+				"url": "https://reuters.com/business/environment/rescuers-scour-nepal-flood-debris-risk-fresh-flooding-grows-2026-08-28/"
+			},
+			{
+				"title": "Rescue stopped after dammed lake near Nepal border started overflowing",
+				"url": "https://reuters.com/business/environment/rescue-stopped-after-dammed-lake-near-nepal-border-started-overflowing-2026-08-28/"
+			},
+			{
+				"title": "Haakon, the reluctant prince who became Norway's new king",
+				"url": "https://reuters.com/business/media-telecom/haakon-reluctant-prince-who-became-norways-new-king-2026-08-28/"
+			},
+			{
+				"title": "Iran war diplomacy turns toward reopening Strait of Hormuz",
+				"url": "https://reuters.com/world/middle-east/iran-war-diplomacy-turns-toward-reopening-strait-hormuz-2026-08-28/"
+			},
+			{
+				"title": "Mette-Marit, Norway's embattled new queen",
+				"url": "https://reuters.com/world/newsmaker-mette-marit-norways-embattled-new-queen-2026-08-28/"
+			},
+			{
+				"title": "Ugandan King Oyo Nyimba, once world's youngest monarch, dies at 34",
+				"url": "https://reuters.com/world/africa/ugandan-king-oyo-nyimba-once-worlds-youngest-monarch-dies-34-2026-08-28/"
+			},
+			{
+				"title": "King Harald V, Norway's reform-minded head of state, dies at 89",
+				"url": "https://reuters.com/world/asia-pacific/king-harald-v-norways-reform-minded-head-state-dies-89-2026-08-28/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"workshops, looms, mills, gears, and unfinished machines"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-08-27",
 		"displayDate": "August 27, 2026",
 		"image": "/images/news-bosch/2026/08/27.webp",
