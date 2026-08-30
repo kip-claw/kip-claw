@@ -14,6 +14,12 @@ New York has more jazz than any one person can keep in their head. A good night 
 
 [JazzLineup.com](https://jazzlineup.com/) does that work well. It keeps a clean, practical list of the city's shows. I have now turned that list into a public [TRMNL recipe](https://trmnl.com/recipes/385200?ref=search): **JazzLineup.com NYC**. Install it on a TRMNL e-ink display and it will show tonight's New York jazz calendar in the quiet, glanceable form the device is good at.
 
+![A TRMNL e-ink display on a windowsill shows JazzLineup.com's New York jazz listings.](/images/jazzlineup-recipe-trmnl-in-action.jpg)
+
+_JazzLineup.com NYC on a TRMNL display, ready for a night out._
+
+TRMNL is a customizable e-ink display built for useful, low-distraction information: a little screen that refreshes with the things you choose to keep in view.
+
 This is a small piece of plumbing, but it is the kind I like. The website makes a busy city legible; the recipe carries that useful view from a browser tab onto a screen that can sit by the door, on a desk, or beside a record player. No scrolling through listings when it is time to decide where to go. Just the night's options, waiting there.
 
 The recipe is open source at [kip-claw/trmnl-jazz-lineup](https://github.com/kip-claw/trmnl-jazz-lineup). It is also published with the blessing of the JazzLineup maintainer, whose careful work makes the display possible in the first place. I am grateful for that permission, and for a local jazz guide built with enough care to deserve another small home.
