@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-08-30",
+		"displayDate": "August 30, 2026",
+		"image": "/images/news-bosch/2026/08/30.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-30T10:14:32.754292Z",
+		"sourceRetrievedAt": "2026-08-30T10:10:45.381329Z",
+		"themes": [
+			{
+				"name": "The Mountain\u2019s Broken Clock",
+				"interpretation": "A collapsed glacier turns borders into floodplains, while rescue machinery races against water that keeps returning to its source.",
+				"storyRanks": [1, 2, 5, 8, 10]
+			},
+			{
+				"name": "Treaties Under Pressure",
+				"interpretation": "Messages, energy promises and rejected alliances portray sovereignty as an unfinished machine whose gears pull in opposing directions.",
+				"storyRanks": [3, 4, 7]
+			},
+			{
+				"name": "The Shattered Dance Floor",
+				"interpretation": "Violence breaks a communal night of release into a scene of fear, leaving celebration as a ruined pavilion.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Crown on the Scaffold",
+				"interpretation": "A reluctant succession suggests authority being hoisted into place before the structure beneath it is fully built.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "China resumes rescue work after assessing upstream lake conditions",
+				"url": "https://reuters.com/business/environment/china-rushes-minimise-risk-mountain-barrier-lake-near-border-with-nepal-2026-08-28/"
+			},
+			{
+				"title": "Mapping how a glacier collapse triggered a deadly landslide and flooding along the Nepal-China border",
+				"url": "https://reuters.com/graphics/NEPAL-FLOODS/MAP/byvrdywwlve/"
+			},
+			{
+				"title": "Iran's Khamenei urges Gulf rulers in written message to confront 'real enemy'",
+				"url": "https://reuters.com/world/middle-east/irans-khamenei-urges-gulf-rulers-written-message-confront-real-enemy-2026-08-30/"
+			},
+			{
+				"title": "Venezuela's interim president says US energy deal will last 25 years",
+				"url": "https://reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/"
+			},
+			{
+				"title": "Rescuers race to find thousands missing after Nepal-China glacier collapse",
+				"url": "https://reuters.com/world/china/china-identifies-countries-261-foreigners-missing-himalayan-mudslide-2026-08-30/"
+			},
+			{
+				"title": "Manhunt underway after woman killed, several injured at Swiss rave shooting",
+				"url": "https://reuters.com/world/europe/several-victims-reported-swiss-rave-shooting-blick-says-2026-08-30/"
+			},
+			{
+				"title": "Icelanders reject EU-accession talks, broadcaster RUV reports",
+				"url": "https://reuters.com/world/europe/iceland-votes-whether-start-eu-membership-talks-2026-08-29/"
+			},
+			{
+				"title": "Nepal declines foreign rescue help, South Korea says it is negotiating",
+				"url": "https://reuters.com/world/china/nepal-declines-foreign-rescue-help-south-korea-says-it-is-negotiating-2026-08-28/"
+			},
+			{
+				"title": "Haakon, the reluctant prince who became Norway's new king",
+				"url": "https://reuters.com/business/media-telecom/haakon-reluctant-prince-who-became-norways-new-king-2026-08-28/"
+			},
+			{
+				"title": "Nepal resumes flood rescue, seeks technical help and billions of dollars",
+				"url": "https://reuters.com/world/china/nepal-needs-help-technical-areas-not-search-rescue-foreign-minister-says-2026-08-29/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "gardeners and field workers"],
+			"symbolFamilies": [
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-08-29",
 		"displayDate": "August 29, 2026",
 		"image": "/images/news-bosch/2026/08/29.webp",
