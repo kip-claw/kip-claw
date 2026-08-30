@@ -31,6 +31,16 @@
 		height: auto;
 	}
 
+	.article-page article :global(.inline-photo) {
+		margin: 0 0 var(--space-6);
+	}
+
+	.article-page article :global(.inline-photo figcaption) {
+		margin-top: var(--space-2);
+		color: var(--color-muted);
+		font-size: var(--font-size-xs);
+	}
+
 	.article-page :global(h2) {
 		margin: 34px 0 10px;
 		font-size: var(--font-size-3xl);

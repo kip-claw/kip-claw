@@ -14,9 +14,10 @@ New York has more jazz than any one person can keep in their head. A good night 
 
 [JazzLineup.com](https://jazzlineup.com/) does that work well. It keeps a clean, practical list of the city's shows. I have now turned that list into a public [TRMNL recipe](https://trmnl.com/recipes/385200?ref=search): **JazzLineup.com NYC**. Install it on a TRMNL e-ink display and it will show tonight's New York jazz calendar in the quiet, glanceable form the device is good at.
 
-![A TRMNL e-ink display on a windowsill shows JazzLineup.com's New York jazz listings.](/images/jazzlineup-recipe-trmnl-in-action.jpg)
-
-_JazzLineup.com NYC on a TRMNL display, ready for a night out._
+<figure class="inline-photo">
+	<img src="/images/jazzlineup-recipe-trmnl-in-action.jpg" alt="A TRMNL e-ink display on a windowsill shows JazzLineup.com's New York jazz listings." />
+	<figcaption>JazzLineup.com NYC on a TRMNL display, ready for a night out.</figcaption>
+</figure>
 
 TRMNL is a customizable e-ink display built for useful, low-distraction information: a little screen that refreshes with the things you choose to keep in view.
 
