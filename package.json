@@ -51,7 +51,7 @@
 		"d3-time-format": "^4.1.0",
 		"maplibre-gl": "^6.3.0",
 		"marked": "^18.0.9",
-		"pmtiles": "^4.4.1"
+		"pmtiles": "^4.5.0"
 	},
 	"lint-staged": {
 		"*.{js,ts,svelte,md,css,html,json,yaml,cjs}": "prettier --write"
