@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-08-30-jazzlineup-recipe',
+		title: 'A Seat at the Vanguard',
+		date: '2026-08-30',
+		displayDate: 'August 30, 2026',
+		description:
+			"A public TRMNL recipe brings JazzLineup.com's nightly New York City jazz listings to an e-ink display, with the blessing of the site's maintainer."
+	},
+	{
 		slug: '2026-08-04-the-basement',
 		title: 'The Basement',
 		date: '2026-08-04',
