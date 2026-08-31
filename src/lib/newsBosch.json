@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-08-31",
+		"displayDate": "August 31, 2026",
+		"image": "/images/news-bosch/2026/08/31.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-08-31T10:15:03.533332Z",
+		"sourceRetrievedAt": "2026-08-31T10:10:44.781200Z",
+		"themes": [
+			{
+				"name": "Roots Beneath the Flood",
+				"interpretation": "Floodwaters expose how communities depend on buried infrastructure and withheld upstream knowledge when warning systems fail.",
+				"storyRanks": [1, 6]
+			},
+			{
+				"name": "Eclipse Over the Fuel Orchard",
+				"interpretation": "Conflicting claims of attacks on a strategic energy site turn fuel supply into a dark celestial prize, with prices rising alongside uncertainty.",
+				"storyRanks": [2, 3, 7, 10]
+			},
+			{
+				"name": "Grafts of Leisure and Force",
+				"interpretation": "A naval arrival promises a sudden harvest for a resort economy while also bringing the predatory growth that follows concentrated power.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "The Map Stops Moving",
+				"interpretation": "Strikes and tariffs turn travel routes and industrial supply chains into stalled branches, leaving passengers and manufacturers to absorb the cost.",
+				"storyRanks": [5, 9]
+			},
+			{
+				"name": "Black Seeds in the Ledger",
+				"interpretation": "Artificially accelerated cyber threats spread through global finance like invasive seeds, making an invisible breach capable of crowding out stability.",
+				"storyRanks": [8]
+			}
+		],
+		"stories": [
+			{
+				"title": "Nepal teams seek hundreds trapped in hydropower tunnels after deadly floods",
+				"url": "https://reuters.com/world/china/nepal-teams-seek-hundreds-trapped-hydropower-tunnels-after-deadly-floods-2026-08-31/"
+			},
+			{
+				"title": "Iran dismisses Trump's post of attack on key energy hub of Kharg",
+				"url": "https://reuters.com/world/middle-east/trump-posts-ai-video-irans-kharg-smithereens-no-evidence-attack-2026-08-31/"
+			},
+			{
+				"title": "Iran war live: US and Iran exchange military attacks for the first time in weeks",
+				"url": "https://reuters.com/world/iran-war-live-us-iran-resume-attacks-trump-says-kharg-island-is-being-blown-2026-08-31/"
+			},
+			{
+				"title": "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+				"url": "https://reuters.com/world/asia-pacific/us-carrier-visit-thailands-pattaya-lifts-hope-sex-tourism-risk-2026-08-31/"
+			},
+			{
+				"title": "Kenya airport staff strike delays thousands of passengers",
+				"url": "https://reuters.com/business/world-at-work/kenya-airport-staff-strike-delays-thousands-passengers-2026-08-31/"
+			},
+			{
+				"title": "Hit by deadly floods, Nepal renews push for Chinese data and early warnings",
+				"url": "https://reuters.com/business/environment/before-flood-catastrophe-nepal-asked-china-early-warnings-risks-mounted-2026-08-30/"
+			},
+			{
+				"title": "Oil rises over 3% as US, Iran resumes military attacks",
+				"url": "https://reuters.com/business/energy/oil-jumps-more-than-2-after-us-attack-irans-larak-island-2026-08-30/"
+			},
+			{
+				"title": "AI-driven cyber risk is top concern for global financial stability, watchdog says",
+				"url": "https://reuters.com/legal/litigation/ai-driven-cyber-risk-is-top-concern-global-financial-stability-watchdog-says-2026-08-31/"
+			},
+			{
+				"title": "Toyota and Honda may get stuck with the bill for Trump\u2019s Canada tariffs",
+				"url": "https://reuters.com/business/autos-transportation/toyota-honda-may-get-stuck-with-bill-trumps-canada-tariffs-2026-08-31/"
+			},
+			{
+				"title": "Trump says Iran's Kharg is being 'blown to smithereens', but gives no details",
+				"url": "https://reuters.com/world/middle-east/us-iran-exchange-fire-flare-up-bessent-signals-more-sanctions-2026-08-31/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-08-30",
 		"displayDate": "August 30, 2026",
 		"image": "/images/news-bosch/2026/08/30.webp",
