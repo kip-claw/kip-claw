@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-09-01",
+		"displayDate": "September 1, 2026",
+		"image": "/images/news-bosch/2026/09/01.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-01T10:15:15.486448Z",
+		"sourceRetrievedAt": "2026-09-01T10:10:44.401073Z",
+		"themes": [
+			{
+				"name": "Yield Tide Breaks Locks",
+				"interpretation": "A sharp rise in borrowing costs turns the world\u2019s financial waterways from promised passage into a dangerous current.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "Conditional Ferry Across Strait",
+				"interpretation": "Diplomacy advances as a reciprocal bargain, with each shore demanding proof that the other will keep its word.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Oil Beneath Red Flags",
+				"interpretation": "The hunger for fuel makes commerce, military pressure, and supply anxiety flow through the same poisoned channel.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "Harvests With Borrowed Skins",
+				"interpretation": "Falsified food markings and a fight over guarded knowledge expose a wider struggle over who owns truth, origin, and invention.",
+				"storyRanks": [2, 6]
+			},
+			{
+				"name": "Curtained Council Reopens",
+				"interpretation": "A global forum stages inclusion for one returning power while drawing the curtain against the witnesses.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Floodplains Grow Iron Roots",
+				"interpretation": "As rescuers search a devastated landscape, a nearby nation plants domestic defenses in the same unsettled ground.",
+				"storyRanks": [8, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Global bond rout deepens as Japan yield hits key threshold",
+				"url": "https://reuters.com/world/asia-pacific/global-bond-rout-deepens-japan-yield-hits-key-threshold-2026-09-01/"
+			},
+			{
+				"title": "India busts firm faking expiry dates, nutrition labels on PepsiCo, Nestle food exports",
+				"url": "https://reuters.com/world/china/india-busts-firm-faking-expiry-dates-nutrition-labels-pepsico-nestle-food-2026-09-01/"
+			},
+			{
+				"title": "US irks G20 ministers by bringing back Russia, barring journalists",
+				"url": "https://reuters.com/world/china/g20-host-us-pushes-growth-agenda-allay-debt-market-concerns-2026-08-31/"
+			},
+			{
+				"title": "Iran's president says Tehran will reciprocate if US honours interim deal commitments",
+				"url": "https://reuters.com/world/middle-east/irans-president-says-tehran-will-reciprocate-if-us-honours-interim-deal-2026-09-01/"
+			},
+			{
+				"title": "Trump's oil deal with Venezuela raises red flags for some major producers, sources say",
+				"url": "https://reuters.com/business/energy/trumps-oil-deal-with-venezuela-raises-red-flags-some-major-producers-sources-say-2026-09-01/"
+			},
+			{
+				"title": "OpenAI says Apple has only itself to blame in trade-secret fight",
+				"url": "https://reuters.com/legal/litigation/openai-says-apple-has-only-itself-blame-trade-secret-fight-2026-09-01/"
+			},
+			{
+				"title": "Analysts react to global bond selloff",
+				"url": "https://reuters.com/business/view-analysts-react-global-bond-selloff-2026-09-01/"
+			},
+			{
+				"title": "Nepal rescuers reach remote areas in search of thousands missing nearly a week after devastating floods",
+				"url": "https://reuters.com/business/environment/nepal-rescuers-reach-remote-areas-electricity-restored-nearly-week-after-2026-09-01/"
+			},
+			{
+				"title": "Poland pivots to home-grown defence production as it builds Europe's biggest army",
+				"url": "https://reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/"
+			},
+			{
+				"title": "Oil rises as renewed US-Iran strikes stoke supply fears",
+				"url": "https://reuters.com/business/energy/oil-prices-rise-latest-fighting-resurrects-middle-east-supply-disruption-risks-2026-09-01/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"theaters, masks, puppets, curtains, and processions",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-08-31",
 		"displayDate": "August 31, 2026",
 		"image": "/images/news-bosch/2026/08/31.webp",
