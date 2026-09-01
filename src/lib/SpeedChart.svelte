@@ -35,7 +35,7 @@
 			{/snippet}
 
 			{#each chart.points as point}
-				<circle class="test-dot" cx={point.x} cy={point.y} r="3.5">
+				<circle class="test-dot" cx={point.x} cy={point.y} r="1.5">
 					<title>{point.title}</title>
 				</circle>
 			{/each}
@@ -50,8 +50,8 @@
 	}
 
 	.dot {
-		width: 8px;
-		height: 8px;
+		width: 5px;
+		height: 5px;
 		border-radius: 999px;
 		background: var(--color-accent);
 		opacity: 0.6;
@@ -65,9 +65,7 @@
 
 	.test-dot {
 		fill: var(--color-accent);
-		fill-opacity: 0.45;
-		stroke: var(--color-background);
-		stroke-width: 1;
+		fill-opacity: 0.35;
 	}
 
 	.average-line {

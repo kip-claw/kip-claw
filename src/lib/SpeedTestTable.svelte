@@ -8,6 +8,12 @@
 	};
 
 	let { tests }: Props = $props();
+	const tableLimit = 100;
+	const recentTests = $derived(
+		[...tests]
+			.sort((a, b) => +parseSpeedTestDate(b.timestamp) - +parseSpeedTestDate(a.timestamp))
+			.slice(0, tableLimit)
+	);
 
 	const columns: DataTableColumn<SpeedTest>[] = [
 		{
@@ -33,11 +39,11 @@
 </script>
 
 <DataTable
-	rows={tests}
+	rows={recentTests}
 	{columns}
 	heading="Log"
 	headingId="speed-table-title"
-	countText="{tests.length} tests logged"
+	countText="Showing {recentTests.length} most recent of {tests.length} tests logged"
 	initialSortKey="timestamp"
 	initialSortDirection="desc"
 >
