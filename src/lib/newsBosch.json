@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-02",
+		"displayDate": "September 2, 2026",
+		"image": "/images/news-bosch/2026/09/02.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-02T10:18:01.742702Z",
+		"sourceRetrievedAt": "2026-09-02T10:13:58.271806Z",
+		"themes": [
+			{
+				"name": "Distant Drums Answer",
+				"interpretation": "A retaliatory exchange turns the region into a call-and-response rhythm of force, with every strike summoning another beat.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "The Blocked Oil Well",
+				"interpretation": "Military pressure and a halted export lifeline make energy scarcity the dark water feeding wider anxiety.",
+				"storyRanks": [5, 3]
+			},
+			{
+				"name": "Cold Bridge Garrison",
+				"interpretation": "Arctic deployment and a long naval voyage portray strategic power inching into exposed, distant passages.",
+				"storyRanks": [4, 6]
+			},
+			{
+				"name": "The Treasury Discord",
+				"interpretation": "Bond-market convulsions turn global capital into an orchestra whose instruments have slipped out of tune.",
+				"storyRanks": [3, 7, 10]
+			},
+			{
+				"name": "City Lights Go Silent",
+				"interpretation": "A killing at a crowded crossroads and sabotage against vital infrastructure bring private vulnerability into the public square.",
+				"storyRanks": [2, 8, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "US pounds Iran, Tehran strikes back at bases in biggest exchange since July",
+				"url": "https://reuters.com/world/middle-east/us-iran-exchange-attacks-lull-war-appears-over-2026-09-02/"
+			},
+			{
+				"title": "BofA vice president killed in Times Square stabbing",
+				"url": "https://reuters.com/world/bank-america-vice-president-killed-times-square-stabbing-bloomberg-news-reports-2026-09-01/"
+			},
+			{
+				"title": "Bond selloff deepens as inflation risks, oil prices jolt markets",
+				"url": "https://reuters.com/world/asia-pacific/bond-selloff-deepens-inflation-oil-prices-jolt-markets-2026-09-02/"
+			},
+			{
+				"title": "Denmark sends conscripts to Greenland as Arctic tensions grow",
+				"url": "https://reuters.com/world/denmark-sends-conscripts-greenland-arctic-tensions-grow-2026-09-02/"
+			},
+			{
+				"title": "Blockade succeeds where sanctions failed as Iran oil exports stall",
+				"url": "https://reuters.com/business/energy/blockade-succeeds-where-sanctions-failed-iran-oil-exports-stall-2026-09-01/"
+			},
+			{
+				"title": "After 286 days at sea, US\u00a0aircraft carrier arrives in Thailand",
+				"url": "https://reuters.com/world/asia-pacific/after-over-200-days-sea-us-aircraft-carrier-arrives-thailand-2026-09-02/"
+			},
+			{
+				"title": "How Japan's bond rout is turning the tide of global capital",
+				"url": "https://reuters.com/world/asia-pacific/how-japans-bond-rout-is-turning-tide-global-capital-2026-09-02/"
+			},
+			{
+				"title": "German power grid under fresh sabotage attack, police say",
+				"url": "https://reuters.com/world/europe/german-power-grid-under-fresh-sabotage-attack-police-say-2026-09-02/"
+			},
+			{
+				"title": "UnitedHealthcare to drop prior authorization requirements for range of conditions from Oct. 1",
+				"url": "https://reuters.com/legal/litigation/unitedhealthcare-drop-prior-authorization-requirements-range-conditions-oct-1-2026-09-01/"
+			},
+			{
+				"title": "No shortage of culprits in panic over long US Treasury yields",
+				"url": "https://reuters.com/legal/transactional/no-shortage-culprits-panic-over-long-us-treasury-yields-2026-09-02/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"musical instruments, choirs, bells, and broken harmonies",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-09-01",
 		"displayDate": "September 1, 2026",
 		"image": "/images/news-bosch/2026/09/01.webp",
