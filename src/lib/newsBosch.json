@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-03",
+		"displayDate": "September 3, 2026",
+		"image": "/images/news-bosch/2026/09/03.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-03T12:01:06.308422Z",
+		"sourceRetrievedAt": "2026-09-03T11:48:32.816418Z",
+		"themes": [
+			{
+				"name": "The Revoked Driver's Map",
+				"interpretation": "Private reckoning and public consequence set the day\u2019s quiet opening, where a celebrated route narrows into restraint.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Labels Beneath the Peel",
+				"interpretation": "Trust in the traded and measured world is under scrutiny, from relabeled food to growth figures that do not quite match their outward shine.",
+				"storyRanks": [2, 5]
+			},
+			{
+				"name": "Erased Names, Living Ledgers",
+				"interpretation": "The struggle over who is counted meets the remembrance of a lifelong advocate, turning official records into a moral mirror.",
+				"storyRanks": [3, 6]
+			},
+			{
+				"name": "Borders Turn Into Gameboards",
+				"interpretation": "States answer pressure with seizures, shutdowns, warnings and deployments, making territory and commerce into pieces on an increasingly crowded strategic board.",
+				"storyRanks": [7, 8, 9, 10]
+			},
+			{
+				"name": "Civilian Scale Tilts",
+				"interpretation": "Escalating war leaves ordinary lives bearing the weight as the day\u2019s balancing act tips from diplomacy toward human loss.",
+				"storyRanks": [4, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Tiger Woods loses driver's license for five years in plea deal, avoids jail time",
+				"url": "https://reuters.com/sports/golf/woods-gets-5-year-license-suspension-plea-deal-2026-09-02/"
+			},
+			{
+				"title": "Canada assesses risks to imports after India raid finds fake labels on food products",
+				"url": "https://reuters.com/legal/litigation/canada-assesses-risks-imports-after-india-raid-finds-fake-labels-food-products-2026-09-03/"
+			},
+			{
+				"title": "Kennedy asked to remove Pennsylvania measles death from CDC tally, sources say",
+				"url": "https://reuters.com/world/kennedy-asked-remove-pennsylvania-measles-death-cdc-tally-sources-say-2026-09-03/"
+			},
+			{
+				"title": "Iran war escalation raises concern over civilian death toll",
+				"url": "https://reuters.com/world/middle-east/iran-war-escalation-raises-concern-over-civilian-death-toll-2026-09-03/"
+			},
+			{
+				"title": "Why India's strong GDP growth is raising eyebrows",
+				"url": "https://reuters.com/world/india/why-indias-strong-gdp-growth-is-raising-eyebrows-2026-09-03/"
+			},
+			{
+				"title": "Feminist activist Gloria Steinem dies at age 92",
+				"url": "https://reuters.com/world/feminist-activist-gloria-steinem-dies-age-92-2026-09-03/"
+			},
+			{
+				"title": "Kenya's president orders Tata Chemicals to end operations in the country",
+				"url": "https://reuters.com/world/india/kenyas-president-orders-tata-chemicals-end-operations-country-2026-09-03/"
+			},
+			{
+				"title": "Norway seizes Russian ship to enforce $4.2 billion claim by Ukrainian energy firm",
+				"url": "https://reuters.com/world/norway-seizes-russian-ship-over-naftogaz-award-company-says-2026-09-02/"
+			},
+			{
+				"title": "Iran warns US against Israeli attack on south Lebanon ridge held by Hezbollah, sources say",
+				"url": "https://reuters.com/world/middle-east/iran-warns-us-against-israeli-attack-south-lebanon-ridge-held-by-hezbollah-2026-09-03/"
+			},
+			{
+				"title": "Denmark sends conscripts to Greenland as Arctic tensions grow",
+				"url": "https://reuters.com/world/denmark-sends-conscripts-greenland-arctic-tensions-grow-2026-09-02/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"games, dice, wheels, races, and balancing acts",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-09-02",
 		"displayDate": "September 2, 2026",
 		"image": "/images/news-bosch/2026/09/02.webp",
