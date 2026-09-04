@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-04",
+		"displayDate": "September 4, 2026",
+		"image": "/images/news-bosch/2026/09/04.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-04T10:24:17.340718Z",
+		"sourceRetrievedAt": "2026-09-04T10:10:51.130087Z",
+		"themes": [
+			{
+				"name": "Blocked Currents of Power",
+				"interpretation": "Sanctions, halted mineral flows and a corporate expulsion portray geopolitics as a canal system whose gates are being shut upstream.",
+				"storyRanks": [2, 3, 4]
+			},
+			{
+				"name": "Justice on a Broken Bridge",
+				"interpretation": "Court battles, criminal charges and a driving ban frame accountability as a precarious crossing where privilege and procedure are tested.",
+				"storyRanks": [1, 5, 6]
+			},
+			{
+				"name": "Wedding Bells Under Fire",
+				"interpretation": "The strike on a wedding and the tightening pressure on Iran turn celebration into a broken harmony engulfed by conflict.",
+				"storyRanks": [3, 8]
+			},
+			{
+				"name": "Rescue Beneath the Wheel",
+				"interpretation": "Survivors emerging from a flooded hydropower tunnel offer a fragile counterpoint to a world cycling through disaster and recovery.",
+				"storyRanks": [9, 10]
+			},
+			{
+				"name": "Markets Tune the Tightrope",
+				"interpretation": "A modest market rise before jobs data suggests investors balancing on a wire while monetary reassurance briefly restores the orchestra's rhythm.",
+				"storyRanks": [7]
+			}
+		],
+		"stories": [
+			{
+				"title": "Tiger Woods loses driver's license for five years in plea deal, avoids jail time",
+				"url": "https://reuters.com/sports/golf/woods-gets-5-year-license-suspension-plea-deal-2026-09-02/"
+			},
+			{
+				"title": "Kenya's president orders Tata Chemicals to end operations in the country",
+				"url": "https://reuters.com/world/india/kenyas-president-orders-tata-chemicals-end-operations-country-2026-09-03/"
+			},
+			{
+				"title": "US pressure on Iran starting to tell, as sanctions and blockade bite",
+				"url": "https://reuters.com/world/middle-east/us-pressure-iran-starting-tell-sanctions-blockade-bite-2026-09-03/"
+			},
+			{
+				"title": "China rare earth firms halt some US shipments over geopolitical worries, sources say",
+				"url": "https://reuters.com/business/aerospace-defense/china-rare-earth-firms-halt-some-us-shipments-over-geopolitical-worries-sources-2026-09-04/"
+			},
+			{
+				"title": "Romanian prosecutors indict Andrew Tate for trafficking minors, money laundering",
+				"url": "https://reuters.com/world/romanian-prosecutors-indict-andrew-tate-trafficking-minors-money-laundering-2026-09-04/"
+			},
+			{
+				"title": "Trump administration takes mail-in ballot fight to US Supreme Court",
+				"url": "https://reuters.com/world/trump-administration-takes-mail-in-ballot-fight-us-supreme-court-2026-09-03/"
+			},
+			{
+				"title": "Shares inch higher ahead of US jobs data after Fed's Waller soothes bonds",
+				"url": "https://reuters.com/world/china/global-markets-wrapup-1-2026-09-04/"
+			},
+			{
+				"title": "Deadly strike on Iranian wedding was likely a direct hit by a US munition, analysis shows",
+				"url": "https://reuters.com/investigations/deadly-strike-iranian-wedding-was-likely-direct-hit-by-us-munition-analysis-2026-09-03/"
+			},
+			{
+				"title": "Nine days after disaster, two pulled alive from Nepal\u00a0hydropower tunnel",
+				"url": "https://reuters.com/world/china/two-people-pulled-alive-nepal-hydropower-tunnel-2026-09-04/"
+			},
+			{
+				"title": "'Supersized' El\u00a0Ni\u00f1o may become strongest ever recorded, UN says",
+				"url": "https://reuters.com/business/environment/el-nio-likely-strengthen-further-persist-into-2027-wmo-says-2026-09-03/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "scholars and alchemists"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"games, dice, wheels, races, and balancing acts",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-09-03",
 		"displayDate": "September 3, 2026",
 		"image": "/images/news-bosch/2026/09/03.webp",
