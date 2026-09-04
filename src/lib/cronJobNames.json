@@ -11,6 +11,7 @@
 	"Evening speed test",
 	"Finance: needs-review check",
 	"Finance: pending tax decisions",
+	"Frame pending-display retry",
 	"Google Drive sync report",
 	"Heartbeat cleanup",
 	"Humidor export",
@@ -44,5 +45,7 @@
 	"Whisper transcription stats export",
 	"Wiki compile and lint",
 	"Wiki maintenance",
-	"morning-weather-run"
+	"morning-weather-run",
+	"skill-collection-review-cron",
+	"skill-collection-review-main"
 ]
