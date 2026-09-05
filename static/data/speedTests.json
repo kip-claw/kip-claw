@@ -1862,5 +1862,13 @@
     "pingMs": 10.1,
     "server": "New York NY",
     "provider": "Starry Inc."
+  },
+  {
+    "timestamp": "2026-09-04 21:00:14",
+    "downloadMbps": 575.29,
+    "uploadMbps": 22.9,
+    "pingMs": 14.2,
+    "server": "New York NY",
+    "provider": "Optimum Online"
   }
 ]
