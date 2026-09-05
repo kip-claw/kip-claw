@@ -3261,7 +3261,7 @@
     "isDecent": "Y",
     "isRecommended": "Y",
     "isElite": "N",
-    "isClosed": "N",
+    "isClosed": "Y",
     "notes": "Fancy food court at the Seaport with great seafood. Great for tourists.",
     "lat": 40.70619500000001,
     "lng": -74.00226909999999
