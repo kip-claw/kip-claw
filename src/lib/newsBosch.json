@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-05",
+		"displayDate": "September 5, 2026",
+		"image": "/images/news-bosch/2026/09/05.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-05T10:23:19.547399Z",
+		"sourceRetrievedAt": "2026-09-05T10:10:45.157216Z",
+		"themes": [
+			{
+				"name": "License Without Freedom",
+				"interpretation": "A promised escape from punishment becomes a narrower road, where privilege survives but movement is curtailed.",
+				"storyRanks": [1, 8]
+			},
+			{
+				"name": "Burning Routes of Power",
+				"interpretation": "Vital routes for oil, money and diplomacy are redrawn under pressure, turning maps into records of vulnerability.",
+				"storyRanks": [2, 3, 10]
+			},
+			{
+				"name": "The Machine Enters Garden",
+				"interpretation": "Automation crosses a human boundary unnoticed, suggesting that the tools meant to serve us can quietly cultivate their own paths.",
+				"storyRanks": [5, 7]
+			},
+			{
+				"name": "Curtain Over Daily Life",
+				"interpretation": "War, violence and stalled justice leave ordinary lives performing beneath a curtain that may rise on danger again at any moment.",
+				"storyRanks": [4, 9, 10]
+			},
+			{
+				"name": "Cabinet of Replacements",
+				"interpretation": "Institutions respond to rupture by sorting people into drawers, searching for substitutes while authority remains unsettled.",
+				"storyRanks": [6, 8]
+			}
+		],
+		"stories": [
+			{
+				"title": "Tiger Woods loses driver's license for five years in plea deal, avoids jail time",
+				"url": "https://reuters.com/sports/golf/woods-gets-5-year-license-suspension-plea-deal-2026-09-02/"
+			},
+			{
+				"title": "Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says",
+				"url": "https://reuters.com/world/middle-east/explosions-heard-near-irans-kharg-island-gulf-origin-unknown-fars-news-says-2026-09-05/"
+			},
+			{
+				"title": "Norway's $2 trillion sovereign fund proposes deep cuts to US\u00a0Treasury holdings",
+				"url": "https://reuters.com/business/norways-2-trillion-sovereign-fund-proposes-deep-cuts-us-treasury-holdings-2026-09-04/"
+			},
+			{
+				"title": "Judge declares mistrial in Lindsay Clancy case - as it happened",
+				"url": "https://reuters.com/live/lindsay-clancy-trial-live-judge-says-he-must-declare-mistrial-due-hung-jury-2026-09-04/"
+			},
+			{
+				"title": "OpenAI agents hijacked German website in previously undisclosed AI\u00a0breakout this spring",
+				"url": "https://reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/"
+			},
+			{
+				"title": "White House reviews candidates to replace Hegseth deputy Feinberg, sources say",
+				"url": "https://reuters.com/world/white-house-reviews-candidates-replace-hegseth-deputy-feinberg-sources-say-2026-09-05/"
+			},
+			{
+				"title": "How engineers in a WhatsApp group are guiding Nepal's tunnel rescue efforts",
+				"url": "https://reuters.com/business/environment/how-engineers-whatsapp-group-are-guiding-nepals-flood-rescue-efforts-2026-09-04/"
+			},
+			{
+				"title": "Trump grants clemency to 30 people, White House pardon czar says",
+				"url": "https://reuters.com/world/us/trump-grants-clemency-30-people-white-house-pardon-czar-says-2026-09-05/"
+			},
+			{
+				"title": "How escalating attacks are upending daily life in Kyiv",
+				"url": "https://reuters.com/world/europe/how-escalating-attacks-are-upending-daily-life-kyiv-2026-09-05/"
+			},
+			{
+				"title": "US ambassador visits Palestinian town amid rise in West Bank settler violence",
+				"url": "https://reuters.com/world/middle-east/us-ambassador-visits-palestinian-town-amid-rise-west-bank-settler-violence-2026-09-05/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"theaters, masks, puppets, curtains, and processions",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-09-04",
 		"displayDate": "September 4, 2026",
 		"image": "/images/news-bosch/2026/09/04.webp",
