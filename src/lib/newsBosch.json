@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-09-06",
+		"displayDate": "September 6, 2026",
+		"image": "/images/news-bosch/2026/09/06.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-06T10:45:30.154355Z",
+		"sourceRetrievedAt": "2026-09-06T10:35:00.830566Z",
+		"themes": [
+			{
+				"name": "Volcano Closes the Board",
+				"interpretation": "Natural upheaval abruptly interrupts ordinary movement, schooling, and livelihoods.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "Oil Deal Reverses Allegiance",
+				"interpretation": "Power and suspicion change sides when strategic resources turn an investigated fortune into a military partnership.",
+				"storyRanks": [2, 5]
+			},
+			{
+				"name": "Waters Become a Battlefield",
+				"interpretation": "Ships and aircraft convert shared spaces into arenas where protection and threat mirror each other.",
+				"storyRanks": [3, 9]
+			},
+			{
+				"name": "Talks Behind the Curtain",
+				"interpretation": "Diplomatic performance produces gestures of usefulness while the promised breakthrough remains concealed.",
+				"storyRanks": [4, 6]
+			},
+			{
+				"name": "Ports, Votes, and Ruins",
+				"interpretation": "Collapsed infrastructure and electoral ambition reveal societies balancing between disappearance and a new political order.",
+				"storyRanks": [7, 8]
+			},
+			{
+				"name": "Orbit After the Fall",
+				"interpretation": "Technological ascent contrasts with human and institutional failures below, turning progress into an unstable race.",
+				"storyRanks": [6, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Indonesia's Anak Krakatau eruption halts flights, schools, fishing",
+				"url": "https://reuters.com/business/environment/indonesias-jakarta-airport-suspends-flights-due-ash-mount-anak-krakatau-2026-09-06/"
+			},
+			{
+				"title": "The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal",
+				"url": "https://reuters.com/business/energy/venezuelan-billionaire-us-investigated-money-laundering-now-has-pentagon-oil-2026-09-05/"
+			},
+			{
+				"title": "US, Iranian forces fire at vessels in waters near Iran",
+				"url": "https://reuters.com/world/middle-east/explosions-heard-near-irans-kharg-island-gulf-origin-unknown-fars-news-says-2026-09-05/"
+			},
+			{
+				"title": "Kremlin says Ukraine talks with US envoys were useful; no sign of breakthrough",
+				"url": "https://reuters.com/world/europe/putins-envoy-dmitriev-meet-witkoff-kushner-upon-their-arrival-moscow-sources-say-2026-09-05/"
+			},
+			{
+				"title": "US carrier Abraham Lincoln departs Thailand after respite visit",
+				"url": "https://reuters.com/world/asia-pacific/us-carrier-abraham-lincoln-departs-thailand-after-respite-visit-2026-09-06/"
+			},
+			{
+				"title": "OpenAI acknowledges 'wiki incident' and need for more transparency around unintended AI behavior",
+				"url": "https://reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/"
+			},
+			{
+				"title": "At flood-destroyed China-Nepal border, no sign of a once-busy port\u00a0",
+				"url": "https://reuters.com/world/china/flood-destroyed-china-nepal-border-no-sign-once-busy-port-reuters-witnesses-2026-09-06/"
+			},
+			{
+				"title": "Germany's far-right AfD seeks landmark state victory as Saxony-Anhalt votes",
+				"url": "https://reuters.com/world/germanys-far-right-afd-seeks-landmark-state-victory-saxony-anhalt-votes-2026-09-06/"
+			},
+			{
+				"title": "Greek F-4 crashes during air show near Athens, two pilots dead, sources say",
+				"url": "https://reuters.com/business/aerospace-defense/greek-f-4-crashes-during-an-air-show-near-athens-ert-reports-2026-09-05/"
+			},
+			{
+				"title": "German space rocket reaches orbit in Europe's first commercial launch",
+				"url": "https://reuters.com/business/media-telecom/german-space-rocket-lifts-off-norway-base-2026-09-05/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-09-05",
 		"displayDate": "September 5, 2026",
 		"image": "/images/news-bosch/2026/09/05.webp",
