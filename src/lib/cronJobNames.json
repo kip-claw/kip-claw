@@ -46,6 +46,7 @@
 	"Wiki compile and lint",
 	"Wiki maintenance",
 	"morning-weather-run",
+	"openclaw-backup-scheduled",
 	"skill-collection-review-cron",
 	"skill-collection-review-main"
 ]
