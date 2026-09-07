@@ -1,12 +1,12 @@
 {
-	"timestamp": "2026-09-06 04:35:42",
+	"timestamp": "2026-09-07 04:35:42",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
 	"pointCount": 28,
 	"clusterCount": 1,
 	"excludedCronChunks": 0,
 	"excludedMetadataChunks": 213,
 	"excludedShortChunks": 12,
-	"excludedDreamingChunks": 1934,
+	"excludedDreamingChunks": 1941,
 	"clusters": [
 		{
 			"id": 1,
@@ -18,199 +18,199 @@
 	],
 	"points": [
 		{
-			"x": 12.1066,
-			"y": 1.7247,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": 11.5825,
-			"y": 1.9347,
+			"x": 7.8128,
+			"y": -0.3612,
 			"cluster": 1,
 			"path": "memory/2026-04-09.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.0733,
-			"y": 1.6697,
+			"x": 7.3986,
+			"y": -0.185,
 			"cluster": 1,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.1828,
-			"y": 1.6743,
+			"x": 7.4031,
+			"y": -0.1955,
 			"cluster": 1,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.1242,
-			"y": 1.6488,
+			"x": 7.4616,
+			"y": -0.2443,
 			"cluster": 1,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.1811,
-			"y": 2.7664,
+			"x": 8.4953,
+			"y": -0.1414,
 			"cluster": 1,
 			"path": "memory/2026-04-13.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.7051,
-			"y": 1.7592,
+			"x": 7.7791,
+			"y": -0.4101,
 			"cluster": 1,
 			"path": "memory/2026-05-05.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.7854,
-			"y": 2.0824,
+			"x": 8.8022,
+			"y": -0.7463,
 			"cluster": 1,
 			"path": "memory/2026-05-08.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.392,
-			"y": 1.916,
+			"x": 8.622,
+			"y": -0.6532,
 			"cluster": 1,
 			"path": "memory/2026-05-09.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.4453,
-			"y": 2.0283,
+			"x": 8.5726,
+			"y": -0.7249,
 			"cluster": 1,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.827,
-			"y": 1.6939,
+			"x": 7.864,
+			"y": -0.5093,
 			"cluster": 1,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.8054,
-			"y": 1.7858,
+			"x": 7.9208,
+			"y": -0.5766,
 			"cluster": 1,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.657,
-			"y": 1.9518,
+			"x": 7.9204,
+			"y": -0.4381,
 			"cluster": 1,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.2146,
-			"y": 1.7022,
+			"x": 8.2316,
+			"y": -0.9841,
 			"cluster": 1,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.9083,
-			"y": 1.7528,
+			"x": 8.0059,
+			"y": -0.6873,
 			"cluster": 1,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.6729,
-			"y": 1.8742,
+			"x": 7.7983,
+			"y": -0.4403,
 			"cluster": 1,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.828,
-			"y": 1.8435,
+			"x": 8.0757,
+			"y": -0.7865,
 			"cluster": 1,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.0626,
-			"y": 1.6765,
+			"x": 8.0639,
+			"y": -0.6814,
 			"cluster": 1,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.3606,
-			"y": 1.8505,
+			"x": 8.3618,
+			"y": -0.8578,
 			"cluster": 1,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.3823,
-			"y": 1.9198,
+			"x": 8.4422,
+			"y": -0.724,
 			"cluster": 1,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.1786,
-			"y": 1.7718,
+			"x": 8.1826,
+			"y": -0.9427,
 			"cluster": 1,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.5172,
-			"y": 1.9371,
+			"x": 8.5027,
+			"y": -0.7009,
 			"cluster": 1,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.2759,
-			"y": 1.6668,
+			"x": 8.2233,
+			"y": -1.0032,
 			"cluster": 1,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.5485,
-			"y": 1.9525,
+			"x": 8.683,
+			"y": -0.6625,
 			"cluster": 1,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.4999,
-			"y": 1.8296,
+			"x": 7.8222,
+			"y": -0.3783,
 			"cluster": 1,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.938,
-			"y": 2.027,
+			"x": 8.1404,
+			"y": -0.7996,
 			"cluster": 1,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": 11.6014,
-			"y": 1.8672,
+			"x": 8.1009,
+			"y": -0.4365,
 			"cluster": 1,
 			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
 		{
-			"x": 12.0617,
-			"y": 2.155,
+			"x": 8.2997,
+			"y": -0.418,
 			"cluster": 1,
 			"path": "memory/2026-06-01.md",
+			"source": "memory"
+		},
+		{
+			"x": 8.102,
+			"y": -1.0493,
+			"cluster": 1,
+			"path": "MEMORY.md",
 			"source": "memory"
 		}
 	],
