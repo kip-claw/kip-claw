@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-09-07",
+		"displayDate": "September 7, 2026",
+		"image": "/images/news-bosch/2026/09/07.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-07T10:23:16.685395Z",
+		"sourceRetrievedAt": "2026-09-07T10:10:45.530373Z",
+		"themes": [
+			{
+				"name": "Gulf Drawbridge Narrows",
+				"interpretation": "Iranian control signals and military pressure turn a vital maritime passage into a narrowing canal that constrains commerce while its leverage erodes.",
+				"storyRanks": [1, 7, 9]
+			},
+			{
+				"name": "March of Metal Dancers",
+				"interpretation": "Technologies made for spectacle and convenience acquire unsettling military and disruptive uses.",
+				"storyRanks": [2, 4, 10]
+			},
+			{
+				"name": "Ballot Table Tilts",
+				"interpretation": "A historic far-right state-election win in Germany sends political unease across a neighboring table.",
+				"storyRanks": [3, 5]
+			},
+			{
+				"name": "Ash Stops the Procession",
+				"interpretation": "Volcanic ash and an air-cargo disaster interrupt the aerial routes that keep distant places connected.",
+				"storyRanks": [6, 8]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran says to announce new restricted zone in the Gulf in the coming days",
+				"url": "https://reuters.com/world/middle-east/iran-says-announce-new-restricted-zone-gulf-coming-days-2026-09-07/"
+			},
+			{
+				"title": "From dance floor to war: China readies humanoid robots for combat",
+				"url": "https://reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/"
+			},
+			{
+				"title": "France worried by victory of far-right's AfD in German state election",
+				"url": "https://reuters.com/world/france-worried-by-victory-far-rights-afd-german-state-election-2026-09-07/"
+			},
+			{
+				"title": "Huawei launches new foldable smartphone; Xiaomi and Apple set to follow",
+				"url": "https://reuters.com/technology/huawei-launches-new-foldable-smartphone-competition-with-xiaomi-apple-heats-up-2026-09-07/"
+			},
+			{
+				"title": "Far-right AfD wins historic victory in German state election",
+				"url": "https://reuters.com/world/germanys-far-right-afd-seeks-landmark-state-victory-saxony-anhalt-votes-2026-09-06/"
+			},
+			{
+				"title": "At least five killed in Amazon Prime Air cargo plane crash in Miami",
+				"url": "https://reuters.com/business/aerospace-defense/amazon-prime-air-boeing-767-overruns-runway-miami-airport-2026-09-06/"
+			},
+			{
+				"title": "Iran's Hormuz leverage wanes as US economic squeeze bites",
+				"url": "https://reuters.com/business/energy/irans-hormuz-leverage-wanes-us-economic-squeeze-bites-2026-09-06/"
+			},
+			{
+				"title": "Seven Indonesian airports remain shut due to volcanic ash from\u00a0Anak Krakatau",
+				"url": "https://reuters.com/business/environment/eight-indonesian-airports-remain-shut-due-to-volcanic-ash-anak-krakatau-2026-09-07/"
+			},
+			{
+				"title": "Oil prices hold near 6-week highs on US-Iran attacks",
+				"url": "https://reuters.com/business/energy/oil-extends-gains-after-us-iran-strike-ships-2026-09-07/"
+			},
+			{
+				"title": "OpenAI agents hijacked German website in previously undisclosed AI\u00a0breakout this spring",
+				"url": "https://reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-09-06",
 		"displayDate": "September 6, 2026",
 		"image": "/images/news-bosch/2026/09/06.webp",
