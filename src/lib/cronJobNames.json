@@ -45,6 +45,7 @@
 	"Whisper transcription stats export",
 	"Wiki compile and lint",
 	"Wiki maintenance",
+	"morning-calendar-digest",
 	"morning-weather-run",
 	"openclaw-backup-scheduled",
 	"skill-collection-review-cron",
