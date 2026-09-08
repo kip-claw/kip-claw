@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-08",
+		"displayDate": "September 8, 2026",
+		"image": "/images/news-bosch/2026/09/08.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-08T10:22:01.966217Z",
+		"sourceRetrievedAt": "2026-09-08T10:10:47.586594Z",
+		"themes": [
+			{
+				"name": "War at the Energy Table",
+				"interpretation": "Expanding attacks turn energy infrastructure into a feast of risk while oil markets remain unexpectedly restrained.",
+				"storyRanks": [1, 3, 5]
+			},
+			{
+				"name": "Power on a Tilted Board",
+				"interpretation": "Electoral shock and stalled trade talks make national power look like an unstable contest of wagers and barriers.",
+				"storyRanks": [2, 4]
+			},
+			{
+				"name": "Chambers Behind Thresholds",
+				"interpretation": "Land acquisition and controlled access reveal how exclusion can advance through both open terrain and hidden rooms.",
+				"storyRanks": [6, 10]
+			},
+			{
+				"name": "Ladders of Money and Choice",
+				"interpretation": "Political authority is recalibrated through sharply higher compensation above and new controls over digital choice below.",
+				"storyRanks": [7, 8]
+			},
+			{
+				"name": "Nine Days Underground",
+				"interpretation": "A flood-tunnel survival ordeal turns a hidden passage into a test of endurance, timing, and escape.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt",
+				"url": "https://reuters.com/world/middle-east/iran-says-it-plans-new-gulf-exclusion-zone-threatens-us-with-new-missiles-2026-09-08/"
+			},
+			{
+				"title": "Far-right win leaves Germany's Merz shaken as AfD plots path to power",
+				"url": "https://reuters.com/world/europe/far-right-afd-courts-conservative-support-after-historic-german-state-election-2026-09-07/"
+			},
+			{
+				"title": "Houthi attacks disrupt Saudi energy facilities, wound 73, authorities say",
+				"url": "https://reuters.com/world/middle-east/saudi-led-coalition-yemen-says-73-injured-houthi-attacks-kingdom-2026-09-08/"
+			},
+			{
+				"title": "Canada's retaliatory tariffs take effect as US trade talks stall",
+				"url": "https://reuters.com/business/autos-transportation/canadas-retaliatory-tariffs-take-effect-us-trade-talks-stall-2026-09-08/"
+			},
+			{
+				"title": "Explainer: Why isn't oil above $100 despite supply disruptions?",
+				"url": "https://reuters.com/business/energy/why-isnt-oil-above-100-despite-supply-disruptions-2026-09-08/"
+			},
+			{
+				"title": "How two Israeli brothers are driving a West Bank settler land grab",
+				"url": "https://reuters.com/world/middle-east/how-two-israeli-brothers-are-driving-west-bank-settler-land-grab-2026-09-08/"
+			},
+			{
+				"title": "Singapore PM's annual salary to rise 64% to $2.85\u00a0million amid ministerial pay hike",
+				"url": "https://reuters.com/world/asia-pacific/singapore-pm-proposes-big-salary-increase-ministers-2026-09-08/"
+			},
+			{
+				"title": "Australia targets social media algorithms with new user-choice rules",
+				"url": "https://reuters.com/business/media-telecom/australia-targets-social-media-algorithms-with-new-user-choice-rules-2026-09-08/"
+			},
+			{
+				"title": "How two men survived nine days in a Nepal flood tunnel",
+				"url": "https://reuters.com/world/asia-pacific/exclusive-how-two-men-survived-nine-days-nepal-flood-tunnel-2026-09-08/"
+			},
+			{
+				"title": "Paris investigates claim women were hidden from Hindu delegation at Eiffel Tower",
+				"url": "https://reuters.com/business/media-telecom/paris-investigates-claim-women-were-hidden-hindu-delegation-eiffel-tower-2026-09-07/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "gardeners and field workers"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-09-07",
 		"displayDate": "September 7, 2026",
 		"image": "/images/news-bosch/2026/09/07.webp",
