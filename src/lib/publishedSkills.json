@@ -19,7 +19,7 @@
 		"slug": "cigar-humidor",
 		"title": "Cigar Humidor",
 		"description": "Add a current-aging summary workflow for every logged cigar.",
-		"tag": "Lists",
+		"tag": "",
 		"path": "cigar-humidor/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/cigar-humidor/SKILL.md"
 	},
@@ -35,7 +35,7 @@
 		"slug": "homepage-charts",
 		"title": "Homepage Charts",
 		"description": "Logs the graphics that reach the Reuters homepage to Ben's spreadsheet.",
-		"tag": "Work",
+		"tag": "",
 		"path": "homepage-charts/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/homepage-charts/SKILL.md"
 	},
@@ -59,7 +59,7 @@
 		"slug": "morning-message",
 		"title": "Morning Message",
 		"description": "Writes Ben's daily Reuters News Apps morning message.",
-		"tag": "Work",
+		"tag": "",
 		"path": "morning-message/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/morning-message/SKILL.md"
 	},
@@ -67,7 +67,7 @@
 		"slug": "movie-list",
 		"title": "Movie List",
 		"description": "Tracks the films Ben has watched and the ones he wants to see.",
-		"tag": "Lists",
+		"tag": "",
 		"path": "movie-list/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/movie-list/SKILL.md"
 	},
@@ -89,9 +89,9 @@
 	},
 	{
 		"slug": "nyc-list",
-		"title": "NYC List",
+		"title": "Nyc List",
 		"description": "Tracks the New York City places Ben has visited.",
-		"tag": "Lists",
+		"tag": "",
 		"path": "nyc-list/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/nyc-list/SKILL.md"
 	},
@@ -123,7 +123,7 @@
 		"slug": "pi-diagnostics",
 		"title": "Pi Diagnostics",
 		"description": "Reports Raspberry Pi health, temperatures, disk usage, and cron job status.",
-		"tag": "Monitoring",
+		"tag": "",
 		"path": "pi-diagnostics/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/pi-diagnostics/SKILL.md"
 	},
@@ -131,7 +131,7 @@
 		"slug": "reading-list",
 		"title": "Reading List",
 		"description": "Tracks the books Ben has finished and the ones he wants to read.",
-		"tag": "Lists",
+		"tag": "",
 		"path": "reading-list/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/reading-list/SKILL.md"
 	},
@@ -145,9 +145,9 @@
 	},
 	{
 		"slug": "runs-log",
-		"title": "Running Log",
+		"title": "Runs Log",
 		"description": "Records the date, distance, route, and reflections from Ben's runs.",
-		"tag": "Lists",
+		"tag": "",
 		"path": "runs-log/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/runs-log/SKILL.md"
 	},
@@ -155,7 +155,7 @@
 		"slug": "speed-tests",
 		"title": "Speed Tests",
 		"description": "Runs an internet speed test and logs the results for the public stats page.",
-		"tag": "Monitoring",
+		"tag": "",
 		"path": "speed-tests/SKILL.md",
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/speed-tests/SKILL.md"
 	},
