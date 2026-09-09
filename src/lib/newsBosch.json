@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-09",
+		"displayDate": "September 9, 2026",
+		"image": "/images/news-bosch/2026/09/09.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-09T10:54:57.639656Z",
+		"sourceRetrievedAt": "2026-09-09T10:42:40.768251Z",
+		"themes": [
+			{
+				"name": "Strait Under Siege",
+				"interpretation": "The central sea passage becomes a bottleneck where warfare, surveillance and fuel prices squeeze the wider world.",
+				"storyRanks": [1, 2, 3]
+			},
+			{
+				"name": "The Hungry Power Cabinet",
+				"interpretation": "New machine intelligence and industrial ambitions are portrayed as a cabinet of marvels whose drawers require ever more electricity and crude.",
+				"storyRanks": [4, 9]
+			},
+			{
+				"name": "Borders Become Locks",
+				"interpretation": "Trade bans, diplomatic eviction and exclusionary politics turn neighboring doors into increasingly elaborate locks.",
+				"storyRanks": [5, 6, 7]
+			},
+			{
+				"name": "Inheritance In The Mirror",
+				"interpretation": "A warning about prenatal medicine frames the body as a mirror in which consequences may appear generations later.",
+				"storyRanks": [8]
+			},
+			{
+				"name": "Grounded Migrating Flock",
+				"interpretation": "An air-traffic breakdown interrupts the day\u2019s procession, leaving a would-be flock stranded between departure and return.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
+				"url": "https://reuters.com/world/middle-east/iran-attacks-us-base-jordan-ships-near-hormuz-after-tankers-sunk-2026-09-09/"
+			},
+			{
+				"title": "Iran says it captured US submarine drone in Strait of Hormuz",
+				"url": "https://reuters.com/world/middle-east/iran-says-it-captured-us-submarine-drone-strait-hormuz-2026-09-08/"
+			},
+			{
+				"title": "Brent crude rises above $100 a barrel as Middle East conflict intensifies",
+				"url": "https://reuters.com/business/energy/brent-crude-rises-above-100-barrel-middle-east-conflict-escalates-2026-09-09/"
+			},
+			{
+				"title": "Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland",
+				"url": "https://reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/"
+			},
+			{
+				"title": "US to ban Canadian motorcycle, dairy, alcohol imports as trade war sizzles",
+				"url": "https://reuters.com/business/autos-transportation/canadas-retaliatory-tariffs-take-effect-us-trade-talks-stall-2026-09-08/"
+			},
+			{
+				"title": "Israel tells Britain to close East Jerusalem consulate within 30 days, sources say",
+				"url": "https://reuters.com/world/europe/israel-tells-british-consulate-east-jerusalem-close-within-30-days-sources-say-2026-09-09/"
+			},
+			{
+				"title": "Germany's Merz accuses far-right AfD of calling for 'ethnic cleansing'",
+				"url": "https://reuters.com/world/europe/germanys-merz-accuses-far-right-afd-calling-ethnic-cleansing-2026-09-09/"
+			},
+			{
+				"title": "Tylenol use in pregnancy may be linked with uterus, ovary changes in daughters",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/tylenol-use-pregnancy-may-be-linked-with-uterus-ovary-changes-daughters-2026-09-09/"
+			},
+			{
+				"title": "Dangote's proposed Kenyan oil refinery faces hurdles, not least with crude supply",
+				"url": "https://reuters.com/business/energy/dangotes-proposed-kenyan-oil-refinery-faces-hurdles-not-least-with-crude-supply-2026-09-09/"
+			},
+			{
+				"title": "UK summons air traffic boss after major outage as flights slowly resume",
+				"url": "https://reuters.com/world/uk/uk-flights-resume-airports-warn-ongoing-disruption-air-traffic-outage-2026-09-09/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "scholars and alchemists"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-09-08",
 		"displayDate": "September 8, 2026",
 		"image": "/images/news-bosch/2026/09/08.webp",
