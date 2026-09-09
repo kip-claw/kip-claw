@@ -1934,5 +1934,13 @@
     "pingMs": 15.1,
     "server": "New York NY",
     "provider": "Pilot Fiber"
+  },
+  {
+    "timestamp": "2026-09-09 09:00:34",
+    "downloadMbps": 582.46,
+    "uploadMbps": 22.79,
+    "pingMs": 14.4,
+    "server": "New York NY",
+    "provider": "WebNX Inc"
   }
 ]
