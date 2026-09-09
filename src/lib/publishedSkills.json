@@ -136,14 +136,6 @@
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/reading-list/SKILL.md"
 	},
 	{
-		"slug": "reuters-news-bosch",
-		"title": "Reuters News Bosch",
-		"description": "Publish a post-publish vellum Frame edition and defer display safely until the TV is reachable.",
-		"tag": "Work",
-		"path": "reuters-news-bosch/SKILL.md",
-		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/reuters-news-bosch/SKILL.md"
-	},
-	{
 		"slug": "runs-log",
 		"title": "Runs Log",
 		"description": "Records the date, distance, route, and reflections from Ben's runs.",
