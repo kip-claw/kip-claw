@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-10",
+		"displayDate": "September 10, 2026",
+		"image": "/images/news-bosch/2026/09/10.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-10T10:21:59.850223Z",
+		"sourceRetrievedAt": "2026-09-10T10:10:41.551458Z",
+		"themes": [
+			{
+				"name": "Thaw Behind Frosted Gates",
+				"interpretation": "Diplomatic warmth advances toward a threshold while commercial suspicion freezes the passage from the other side.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "War Clock Runs Backward",
+				"interpretation": "Military escalation, proxy pressure and evasion routes form a conflict whose promised ending is pushed beyond an electoral clock.",
+				"storyRanks": [2, 4, 6, 8]
+			},
+			{
+				"name": "The Cable Beneath Tides",
+				"interpretation": "A hidden act of sabotage turns the seabed into a labyrinth where protection and rupture mirror one another.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Five Thousand Rungs",
+				"interpretation": "A promised cash ascent becomes a reversible ladder, with reward on one panel and electoral dependency on the next.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "Age and Empty Chambers",
+				"interpretation": "A quest for exceptional longevity contrasts with an institution hollowed by allegations and departure.",
+				"storyRanks": [7, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Xi's India visit to help diplomatic thaw, but business ties bound by suspicion",
+				"url": "https://reuters.com/world/china/xis-india-visit-help-diplomatic-thaw-business-ties-bound-by-suspicion-2026-09-10/"
+			},
+			{
+				"title": "Trump says Iran war to end after US midterm elections, threatens to attack Pickaxe Mountain\u00a0",
+				"url": "https://reuters.com/world/middle-east/trump-says-iran-war-end-after-us-midterm-elections-threatens-attack-pickaxe-2026-09-10/"
+			},
+			{
+				"title": "NATO allies foil Russian subsea cable sabotage plot",
+				"url": "https://reuters.com/world/europe/nato-allies-foil-russian-subsea-cable-sabotage-plot-2026-09-10/"
+			},
+			{
+				"title": "Multiple US\u00a0military aircraft suffered damage in overnight strikes on\u00a0Jordan air base, CBS says\u00a0",
+				"url": "https://reuters.com/world/multiple-us-military-aircraft-suffered-damage-overnight-strikes-on-jordan-air-2026-09-10/"
+			},
+			{
+				"title": "Trump offers $5,000 to every American if Republicans win midterm elections",
+				"url": "https://reuters.com/world/us/republicans-tie-midterm-hopes-trump-dallas-convention-despite-political-risks-2026-09-09/"
+			},
+			{
+				"title": "Pakistan warns Iran to rein in Houthis as Riyadh strikes back",
+				"url": "https://reuters.com/world/asia-pacific/pakistan-warns-iran-rein-houthis-riyadh-strikes-back-2026-09-09/"
+			},
+			{
+				"title": "Costa Rican man, 119, seeks recognition as world's oldest person",
+				"url": "https://reuters.com/world/americas/costa-rican-man-119-seeks-recognition-worlds-oldest-person-2026-09-09/"
+			},
+			{
+				"title": "How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran",
+				"url": "https://reuters.com/world/asia-pacific/how-billion-dollar-sanctions-dodge-kept-chinese-goods-flowing-iran-2026-09-10/"
+			},
+			{
+				"title": "Hasina's daughter resigns as WHO regional head after fraud allegations",
+				"url": "https://reuters.com/world/asia-pacific/hasinas-daughter-resigns-who-regional-head-after-fraud-allegations-2026-09-09/"
+			},
+			{
+				"title": "Trump touts $5,000 payout if Republicans win as Vance waits in wings",
+				"url": "https://reuters.com/world/us/trump-touts-5000-payout-if-republicans-win-vance-waits-wings-2026-09-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "scholars and alchemists"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-09-09",
 		"displayDate": "September 9, 2026",
 		"image": "/images/news-bosch/2026/09/09.webp",
