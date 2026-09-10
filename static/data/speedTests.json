@@ -1950,5 +1950,13 @@
     "pingMs": 13.1,
     "server": "New York NY",
     "provider": "x99.cloud"
+  },
+  {
+    "timestamp": "2026-09-10 09:00:33",
+    "downloadMbps": 575.58,
+    "uploadMbps": 22.76,
+    "pingMs": 14.3,
+    "server": "New York NY",
+    "provider": "x99.cloud"
   }
 ]
