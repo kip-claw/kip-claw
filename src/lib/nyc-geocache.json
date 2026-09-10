@@ -1310,5 +1310,9 @@
 	"Arthur Avenue Retail Market, 2344 Arthur Ave, Bronx, NY 10458": {
 		"lat": 40.8542194,
 		"lng": -73.88825829999999
+	},
+	"Broadway, just south of Herald Square, New York, NY": {
+		"lat": 40.8099273,
+		"lng": -73.9623793
 	}
 }

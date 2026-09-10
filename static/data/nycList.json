@@ -1243,6 +1243,17 @@
     "lng": -74.0004759
   },
   {
+    "name": "Good Morning Breakfast Food Truck",
+    "address": "Broadway, just south of Herald Square, New York, NY",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "A somewhat more gourmet take on the bodega short-order grill. Decent.",
+    "lat": 40.8099273,
+    "lng": -73.9623793
+  },
+  {
     "name": "Gran Via",
     "address": "57 Stone St, New York, NY 10004",
     "isDecent": "Y",
