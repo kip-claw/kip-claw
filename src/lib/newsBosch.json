@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-09-12",
+		"displayDate": "September 12, 2026",
+		"image": "/images/news-bosch/2026/09/12.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 (direct API, 3840x2160) and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 (direct API, 3840x2160)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-12T10:20:24.246582Z",
+		"sourceRetrievedAt": "2026-09-12T10:10:41.340452Z",
+		"themes": [
+			{
+				"name": "The Pipeline\u2019s Narrow Throat",
+				"interpretation": "A threatened energy artery turns maritime pressure into a plea for protection, sending scarcity back toward the source.",
+				"storyRanks": [1, 5, 8]
+			},
+			{
+				"name": "A Choir of Signatures",
+				"interpretation": "A leader\u2019s arrival becomes a carefully harmonized declaration, with diplomacy performing unity before the audience.",
+				"storyRanks": [2, 3, 9]
+			},
+			{
+				"name": "The Ammunition Bell",
+				"interpretation": "Repeated violence at a weapons site breaks the surrounding landscape into a warning whose echo unsettles every gathering.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "The Ninety-Fourth Candle",
+				"interpretation": "A death immediately after royal mourning makes ceremony feel like a fading refrain passed from one empty seat to the next.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "The Fairway After the Table",
+				"interpretation": "Diplomatic encounters and leisure occupy the same itinerary, turning public leadership into a procession from conference table to green.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "The Packaged-Food Nest",
+				"interpretation": "Convenience food becomes a daily shelter, closing the cycle as industrial abundance replaces the communal kitchen with an emptying bowl.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
+				"url": "https://reuters.com/business/energy/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-2026-09-12/"
+			},
+			{
+				"title": "China's Xi lands in Delhi for BRICS summit and talks with Modi",
+				"url": "https://reuters.com/world/china/chinas-xi-lands-delhi-brics-summit-indian-tv-channels-report-2026-09-12/"
+			},
+			{
+				"title": "BRICS agrees on joint declaration before New Delhi summit, sources say",
+				"url": "https://reuters.com/business/aerospace-defense/brics-agrees-joint-declaration-before-new-delhi-summit-sources-say-2026-09-12/"
+			},
+			{
+				"title": "Explosion hits another weapons site in Bulgaria",
+				"url": "https://reuters.com/world/explosion-hits-another-weapons-site-bulgaria-2026-09-12/"
+			},
+			{
+				"title": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down",
+				"url": "https://reuters.com/world/middle-east/yemens-houthis-reach-strategic-island-mouth-vital-shipping-lane-2026-09-11/"
+			},
+			{
+				"title": "Norway's Princess Astrid dies, aged 94, two days after king's funeral",
+				"url": "https://reuters.com/world/norways-princess-astrid-dies-aged-94-two-days-after-kings-funeral-2026-09-11/"
+			},
+			{
+				"title": "Trump arrives in Ireland to meet leaders before attending golf tournament",
+				"url": "https://reuters.com/world/trump-visit-irelands-leaders-before-attending-golf-tournament-2026-09-12/"
+			},
+			{
+				"title": "Saudi crown prince sought US military help from Trump with Houthis, sources say",
+				"url": "https://reuters.com/world/trump-declines-saudi-crown-princes-call-us-strikes-houthis-axios-reports-2026-09-11/"
+			},
+			{
+				"title": "BRICS bloc agrees on joint declaration, sources say",
+				"url": "https://reuters.com/world/china/brics-bloc-agrees-joint-declaration-sources-say-2026-09-12/"
+			},
+			{
+				"title": "From Maggi noodles to Thums Up: How India became dependent on cheap packaged food",
+				"url": "https://reuters.com/legal/litigation/maggi-noodles-thums-up-how-india-became-dependent-cheap-packaged-food-2026-09-11/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "masked magistrates"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"musical instruments, choirs, bells, and broken harmonies",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-09-11",
 		"displayDate": "September 11, 2026",
 		"image": "/images/news-bosch/2026/09/11.webp",
