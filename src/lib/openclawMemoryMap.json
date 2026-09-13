@@ -1,39 +1,39 @@
 {
-	"timestamp": "2026-09-12 04:35:42",
+	"timestamp": "2026-09-13 04:35:42",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
-	"pointCount": 169,
+	"pointCount": 167,
 	"clusterCount": 4,
 	"excludedCronChunks": 0,
 	"excludedMetadataChunks": 203,
 	"excludedShortChunks": 12,
-	"excludedDreamingChunks": 1733,
+	"excludedDreamingChunks": 1740,
 	"clusters": [
 		{
 			"id": 1,
 			"label": "Sluggo",
 			"description": "General themes.",
-			"size": 77,
+			"size": 80,
 			"keywords": ["and", "the", "is"]
 		},
 		{
 			"id": 2,
-			"label": "News",
-			"description": "Topics related to news, applications, reuters.",
-			"size": 41,
-			"keywords": ["applications", "reuters", "course"]
+			"label": "Course",
+			"description": "Topics related to course, journalism, news.",
+			"size": 37,
+			"keywords": ["journalism", "news"]
 		},
 		{
-			"id": 3,
+			"id": 4,
 			"label": "Vault",
 			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-			"size": 29,
+			"size": 26,
 			"keywords": ["obsidian", "publish"]
 		},
 		{
 			"id": 5,
 			"label": "Personal Tracking",
 			"description": "Personal health, meals, medication, and activity records.",
-			"size": 22,
+			"size": 24,
 			"keywords": ["logged"]
 		}
 	],
@@ -76,7 +76,7 @@
 		{
 			"x": -4.3984,
 			"y": 9.7429,
-			"cluster": 1,
+			"cluster": 2,
 			"path": "USER.md",
 			"source": "memory"
 		},
@@ -209,7 +209,7 @@
 		{
 			"x": -3.501,
 			"y": 7.4994,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-09.md",
 			"source": "memory"
 		},
@@ -223,8 +223,15 @@
 		{
 			"x": -2.59,
 			"y": 7.3627,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
+			"source": "memory"
+		},
+		{
+			"x": -0.7885,
+			"y": 6.5722,
+			"cluster": 1,
+			"path": "memory/2026-04-12-fastmail-verify.md",
 			"source": "memory"
 		},
 		{
@@ -251,7 +258,7 @@
 		{
 			"x": -3.2058,
 			"y": 7.5715,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-05.md",
 			"source": "memory"
 		},
@@ -279,14 +286,14 @@
 		{
 			"x": -3.8158,
 			"y": 6.691,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-08.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.7691,
 			"y": 6.7209,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-09.md",
 			"source": "memory"
 		},
@@ -307,35 +314,35 @@
 		{
 			"x": -3.6492,
 			"y": 6.6741,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.424,
 			"y": 7.1151,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.5864,
 			"y": 7.1536,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.7109,
 			"y": 7.1097,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.381,
 			"y": 6.8312,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
@@ -349,21 +356,21 @@
 		{
 			"x": -4.0518,
 			"y": 7.1491,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": -5.2702,
 			"y": 8.4302,
-			"cluster": 5,
+			"cluster": 1,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
 			"x": -4.9988,
 			"y": 8.6117,
-			"cluster": 1,
+			"cluster": 5,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
@@ -384,84 +391,84 @@
 		{
 			"x": -3.4703,
 			"y": 7.2846,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.3348,
 			"y": 6.755,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.5027,
 			"y": 7.0402,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.6231,
 			"y": 6.6049,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.5627,
 			"y": 6.7569,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.2635,
 			"y": 6.7003,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.5519,
 			"y": 6.8602,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.3762,
 			"y": 6.8566,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.7891,
 			"y": 6.7335,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.3657,
 			"y": 7.3585,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.7014,
 			"y": 7.0761,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.6183,
 			"y": 7.2538,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
@@ -475,7 +482,7 @@
 		{
 			"x": -3.694,
 			"y": 7.2932,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "memory/2026-06-01.md",
 			"source": "memory"
 		},
@@ -484,13 +491,6 @@
 			"y": 7.6929,
 			"cluster": 1,
 			"path": "memory/2026-06-02.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.4125,
-			"y": 7.7552,
-			"cluster": 1,
-			"path": "memory/2026-06-04.md",
 			"source": "memory"
 		},
 		{
@@ -524,13 +524,6 @@
 		{
 			"x": -5.851,
 			"y": 8.7409,
-			"cluster": 1,
-			"path": "memory/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.5905,
-			"y": 8.5661,
 			"cluster": 1,
 			"path": "memory/2026-06-07.md",
 			"source": "memory"
@@ -669,16 +662,9 @@
 			"source": "memory"
 		},
 		{
-			"x": -4.298,
-			"y": 7.1383,
-			"cluster": 3,
-			"path": "memory/2026-07-29.md",
-			"source": "memory"
-		},
-		{
 			"x": -4.247,
 			"y": 7.0422,
-			"cluster": 3,
+			"cluster": 1,
 			"path": "memory/2026-07-29.md",
 			"source": "memory"
 		},
@@ -769,7 +755,7 @@
 		{
 			"x": -4.4993,
 			"y": 7.3388,
-			"cluster": 3,
+			"cluster": 1,
 			"path": "memory/2026-08-30.md",
 			"source": "memory"
 		},
@@ -895,7 +881,7 @@
 		{
 			"x": -3.262,
 			"y": 9.4455,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/automated-charts.md",
 			"source": "memory"
 		},
@@ -930,14 +916,14 @@
 		{
 			"x": -3.0771,
 			"y": 8.9515,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "memory/2026-09-09.md",
 			"source": "memory"
 		},
 		{
 			"x": -4.0013,
 			"y": 11.3492,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -951,7 +937,7 @@
 		{
 			"x": -3.4269,
 			"y": 7.1705,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -1007,7 +993,7 @@
 		{
 			"x": -4.9047,
 			"y": 10.401,
-			"cluster": 1,
+			"cluster": 5,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -1077,7 +1063,7 @@
 		{
 			"x": -3.0787,
 			"y": 8.0328,
-			"cluster": 3,
+			"cluster": 4,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -1098,14 +1084,14 @@
 		{
 			"x": -3.6508,
 			"y": 9.0769,
-			"cluster": 2,
+			"cluster": 1,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
 		{
 			"x": -3.892,
 			"y": 8.7611,
-			"cluster": 2,
+			"cluster": 5,
 			"path": "MEMORY.md",
 			"source": "memory"
 		},
@@ -1225,58 +1211,53 @@
 	"tree": {
 		"id": "root",
 		"label": "Memory",
-		"value": 169,
+		"value": 167,
 		"children": [
 			{
 				"id": "family:workflow-signals",
 				"label": "Workflow Signals",
-				"value": 140,
+				"value": 141,
 				"children": [
 					{
 						"id": "cluster:1",
 						"clusterId": 1,
 						"label": "Sluggo",
 						"description": "General themes.",
-						"value": 77,
+						"value": 80,
 						"children": [
 							{
 								"id": "keyword:1:0",
 								"label": "and",
-								"value": 38.5
+								"value": 40.0
 							},
 							{
 								"id": "keyword:1:1",
 								"label": "the",
-								"value": 25.67
+								"value": 26.67
 							},
 							{
 								"id": "keyword:1:2",
 								"label": "is",
-								"value": 12.83
+								"value": 13.33
 							}
 						]
 					},
 					{
 						"id": "cluster:2",
 						"clusterId": 2,
-						"label": "News",
-						"description": "Topics related to news, applications, reuters.",
-						"value": 41,
+						"label": "Course",
+						"description": "Topics related to course, journalism, news.",
+						"value": 37,
 						"children": [
 							{
 								"id": "keyword:2:0",
-								"label": "applications",
-								"value": 20.5
+								"label": "journalism",
+								"value": 24.67
 							},
 							{
 								"id": "keyword:2:1",
-								"label": "reuters",
-								"value": 13.67
-							},
-							{
-								"id": "keyword:2:2",
-								"label": "course",
-								"value": 6.83
+								"label": "news",
+								"value": 12.33
 							}
 						]
 					},
@@ -1285,12 +1266,12 @@
 						"clusterId": 5,
 						"label": "Personal Tracking",
 						"description": "Personal health, meals, medication, and activity records.",
-						"value": 22,
+						"value": 24,
 						"children": [
 							{
 								"id": "keyword:5:0",
 								"label": "logged",
-								"value": 22.0
+								"value": 24.0
 							}
 						]
 					}
@@ -1299,24 +1280,24 @@
 			{
 				"id": "family:knowledge",
 				"label": "Knowledge",
-				"value": 29,
+				"value": 26,
 				"children": [
 					{
-						"id": "cluster:3",
-						"clusterId": 3,
+						"id": "cluster:4",
+						"clusterId": 4,
 						"label": "Vault",
 						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-						"value": 29,
+						"value": 26,
 						"children": [
 							{
-								"id": "keyword:3:0",
+								"id": "keyword:4:0",
 								"label": "obsidian",
-								"value": 19.33
+								"value": 17.33
 							},
 							{
-								"id": "keyword:3:1",
+								"id": "keyword:4:1",
 								"label": "publish",
-								"value": 9.67
+								"value": 8.67
 							}
 						]
 					}
