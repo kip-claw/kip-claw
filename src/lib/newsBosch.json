@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-13",
+		"displayDate": "September 13, 2026",
+		"image": "/images/news-bosch/2026/09/13.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using gpt-image-2 OAuth normalized from 1672x941 and the reuters-news-bosch skill.",
+		"aiModel": "gpt-image-2 OAuth normalized from 1672x941",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-13T10:41:42.586593Z",
+		"sourceRetrievedAt": "2026-09-13T10:10:41.175554Z",
+		"themes": [
+			{
+				"name": "Strait Under Pressure",
+				"interpretation": "Threats around Yemen, Iran, and UAE turn a narrow shipping passage into a vessel for wider fears about war, oil, and restraint.",
+				"storyRanks": [1, 5, 9]
+			},
+			{
+				"name": "Inverted Rescue Table",
+				"interpretation": "A capsized passenger ship and a breach caused by forged government requests make trust appear as fragile as a vessel turned upside down.",
+				"storyRanks": [2, 10]
+			},
+			{
+				"name": "Broadcasts Over Empty Shelves",
+				"interpretation": "Competing standards for televised political speech collide with consumers rebuilding supply chains away from American goods.",
+				"storyRanks": [3, 4]
+			},
+			{
+				"name": "A Wider Economic Arch",
+				"interpretation": "The push to enlarge BRICS imagines a new commercial structure spanning more countries and challenging the existing global order.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "Night Roads, Cooling Ovens",
+				"interpretation": "New tools promise clearer human sight while AI leaders urge restraint before technological power becomes difficult to contain.",
+				"storyRanks": [6, 8]
+			}
+		],
+		"stories": [
+			{
+				"title": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
+				"url": "https://reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/"
+			},
+			{
+				"title": "Rescuers search for 130 people after Indonesia passenger ship flipped; six dead, government says",
+				"url": "https://reuters.com/world/asia-pacific/indonesia-passenger-ship-with-243-people-reported-missing-sea-agency-says-2026-09-13/"
+			},
+			{
+				"title": "Republican senator's TV interview passes muster with FCC's Carr even though Democratic candidate's does not",
+				"url": "https://reuters.com/world/us/republican-senators-tv-interview-passes-muster-with-fccs-carr-even-though-2026-09-13/"
+			},
+			{
+				"title": "Canadian boycott of US products pushes grocers to adapt, explore new supply sources",
+				"url": "https://reuters.com/business/retail-consumer/canadian-boycott-us-products-pushes-grocers-adapt-explore-new-supply-sources-2026-09-12/"
+			},
+			{
+				"title": "Houthi advance in Yemen puts U.S. in a new bind",
+				"url": "https://reuters.com/world/middle-east/houthi-advance-yemen-puts-us-new-bind-2026-09-12/"
+			},
+			{
+				"title": "Experimental eye drops ease night vision problems for drivers",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/experimental-eye-drops-ease-night-vision-problems-drivers-2026-09-11/"
+			},
+			{
+				"title": "Xi pushes 'Greater BRICS' economic ties to give bloc larger global role",
+				"url": "https://reuters.com/business/aerospace-defense/xi-pushes-greater-brics-economic-ties-give-bloc-larger-global-role-2026-09-13/"
+			},
+			{
+				"title": "Anthropic CEO urges AI companies to slow model development amid fears over misuse",
+				"url": "https://reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+			},
+			{
+				"title": "Iran and UAE back joint BRICS statement urging restraint in war",
+				"url": "https://reuters.com/business/aerospace-defense/brics-agrees-joint-declaration-before-new-delhi-summit-sources-say-2026-09-12/"
+			},
+			{
+				"title": "Revolut confirms sensitive customer data breach, falling for fake government requests",
+				"url": "https://reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "merchants and market keepers"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-09-12",
 		"displayDate": "September 12, 2026",
 		"image": "/images/news-bosch/2026/09/12.webp",
