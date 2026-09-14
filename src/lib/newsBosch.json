@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-09-14",
+		"displayDate": "September 14, 2026",
+		"image": "/images/news-bosch/2026/09/14.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-14T10:14:29.538569Z",
+		"sourceRetrievedAt": "2026-09-14T10:10:41.292868Z",
+		"themes": [
+			{
+				"name": "War Chokes the Arteries",
+				"interpretation": "Postponed diplomacy, attacks, and a threatened pipeline outage turn the Gulf into a blocked passage for global energy.",
+				"storyRanks": [2, 4, 8]
+			},
+			{
+				"name": "Institutions Lose Their Balance",
+				"interpretation": "Cultural and transport institutions teeter toward closure as war costs expose the fragility of public life and mobility.",
+				"storyRanks": [6, 7]
+			},
+			{
+				"name": "Trust Beneath the Scaffold",
+				"interpretation": "Stolen customer data and a fierce dispute over slowing artificial intelligence reveal a technology order built on suspicion and restraint.",
+				"storyRanks": [1, 5, 10]
+			},
+			{
+				"name": "Ballots Against the Drift",
+				"interpretation": "Sweden's opposition attempts to stop a rightward political slide while new industrial wealth rises through a landmark refinery share sale.",
+				"storyRanks": [3, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Revolut confirms sensitive customer data breach after fake government requests",
+				"url": "https://reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/"
+			},
+			{
+				"title": "Gulf states call off meeting with Iran, Houthis launch new attack on Saudi",
+				"url": "https://reuters.com/business/energy/diplomacy-stumbles-with-postponement-meeting-strait-hormuz-proposal-2026-09-13/"
+			},
+			{
+				"title": "Opposition set to halt Sweden's slide to right",
+				"url": "https://reuters.com/world/europe/swedish-centre-left-opposition-pole-position-take-power-after-tight-election-2026-09-14/"
+			},
+			{
+				"title": "Iran war live: Hormuz talks postponed and oil prices jump, as Houthi attacks on Saudi Arabia continue",
+				"url": "https://reuters.com/live/live-hormuz-talks-postponed-oil-prices-jump-houthi-attacks-saudi-arabia-continue-2026-09-14/"
+			},
+			{
+				"title": "China state newspaper blasts Anthropic's calls to slow AI as 'Cold War' tactic",
+				"url": "https://reuters.com/world/china/china-state-newspaper-blasts-anthropics-calls-slow-ai-cold-war-tactic-2026-09-14/"
+			},
+			{
+				"title": "Kennedy Center on brink of bankruptcy, could close as early as Tuesday, Washington Post reports",
+				"url": "https://reuters.com/world/us/kennedy-center-brink-bankruptcy-could-close-early-tuesday-washington-post-2026-09-14/"
+			},
+			{
+				"title": "AirBaltic files for Chapter 11 bankruptcy as Iran war costs bite",
+				"url": "https://reuters.com/world/airbaltic-files-chapter-11-bankruptcy-new-york-2026-09-14/"
+			},
+			{
+				"title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+				"url": "https://reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/"
+			},
+			{
+				"title": "Nigerian billionaire Dangote launches oil refinery IPO, Africa's biggest share sale",
+				"url": "https://reuters.com/business/energy/nigerian-billionaire-dangote-launches-oil-refinery-ipo-africas-biggest-share-2026-09-14/"
+			},
+			{
+				"title": "AI-linked stocks slump after top lab CEOs call for slowing technology's development",
+				"url": "https://reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "sailors and navigators"],
+			"symbolFamilies": [
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "dry clay, straw yellow, olive, turquoise, and dark crimson",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-09-13",
 		"displayDate": "September 13, 2026",
 		"image": "/images/news-bosch/2026/09/13.webp",
