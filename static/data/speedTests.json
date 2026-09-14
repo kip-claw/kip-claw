@@ -2006,5 +2006,13 @@
     "pingMs": 11.7,
     "server": "New York NY",
     "provider": "WebNX Inc"
+  },
+  {
+    "timestamp": "2026-09-13 21:00:14",
+    "downloadMbps": 465.44,
+    "uploadMbps": 23.02,
+    "pingMs": 20.0,
+    "server": "New York NY",
+    "provider": "Optimum Online"
   }
 ]
