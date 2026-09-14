@@ -1,1303 +1,224 @@
 {
-	"timestamp": "2026-09-13 04:35:42",
+	"timestamp": "2026-09-14 04:35:42",
 	"method": "bertopic+umap+hdbscan+ctfidf-bm25+reduce-frequent-words+representation+auto-reduction+outlier-reduction+hierarchy-v4",
-	"pointCount": 167,
-	"clusterCount": 4,
+	"pointCount": 25,
+	"clusterCount": 1,
 	"excludedCronChunks": 0,
 	"excludedMetadataChunks": 203,
 	"excludedShortChunks": 12,
-	"excludedDreamingChunks": 1740,
+	"excludedDreamingChunks": 1746,
 	"clusters": [
 		{
-			"id": 1,
-			"label": "Sluggo",
-			"description": "General themes.",
-			"size": 80,
-			"keywords": ["and", "the", "is"]
-		},
-		{
-			"id": 2,
-			"label": "Course",
-			"description": "Topics related to course, journalism, news.",
-			"size": 37,
-			"keywords": ["journalism", "news"]
-		},
-		{
-			"id": 4,
+			"id": 3,
 			"label": "Vault",
 			"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-			"size": 26,
+			"size": 25,
 			"keywords": ["obsidian", "publish"]
-		},
-		{
-			"id": 5,
-			"label": "Personal Tracking",
-			"description": "Personal health, meals, medication, and activity records.",
-			"size": 24,
-			"keywords": ["logged"]
 		}
 	],
 	"points": [
 		{
-			"x": -4.3015,
-			"y": 9.7539,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.9939,
-			"y": 9.787,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.8576,
-			"y": 10.0992,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.3293,
-			"y": 10.7735,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.3116,
-			"y": 10.7224,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.3984,
-			"y": 9.7429,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.8917,
-			"y": 9.7732,
-			"cluster": 1,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.9882,
-			"y": 11.2184,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.5602,
-			"y": 10.5034,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.6091,
-			"y": 9.6754,
-			"cluster": 1,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.2317,
-			"y": 10.0664,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0131,
-			"y": 9.6055,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.8432,
-			"y": 10.332,
-			"cluster": 1,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.8837,
-			"y": 10.3062,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.8124,
-			"y": 10.0966,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0223,
-			"y": 9.8016,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.39,
-			"y": 10.8811,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.4171,
-			"y": 8.4139,
-			"cluster": 5,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.4227,
-			"y": 10.9399,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.035,
-			"y": 10.6546,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.9533,
-			"y": 10.5099,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.9157,
-			"y": 10.3609,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0436,
-			"y": 10.5644,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0802,
-			"y": 10.6604,
-			"cluster": 2,
-			"path": "USER.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.501,
-			"y": 7.4994,
-			"cluster": 4,
+			"x": 2.3432,
+			"y": 1.5269,
+			"cluster": 3,
 			"path": "memory/2026-04-09.md",
 			"source": "memory"
 		},
 		{
-			"x": -4.8864,
-			"y": 8.1666,
-			"cluster": 1,
-			"path": "memory/2026-04-10.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.59,
-			"y": 7.3627,
-			"cluster": 4,
+			"x": 2.9547,
+			"y": 2.2769,
+			"cluster": 3,
 			"path": "memory/2026-04-12-cuny-slideshow.md",
 			"source": "memory"
 		},
 		{
-			"x": -0.7885,
-			"y": 6.5722,
-			"cluster": 1,
-			"path": "memory/2026-04-12-fastmail-verify.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.9104,
-			"y": 10.4049,
-			"cluster": 1,
-			"path": "memory/2026-04-13.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.1098,
-			"y": 8.7453,
-			"cluster": 1,
-			"path": "memory/2026-04-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.9674,
-			"y": 8.4363,
-			"cluster": 1,
-			"path": "memory/2026-05-02.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.2058,
-			"y": 7.5715,
-			"cluster": 4,
+			"x": 2.3508,
+			"y": 1.8156,
+			"cluster": 3,
 			"path": "memory/2026-05-05.md",
 			"source": "memory"
 		},
 		{
-			"x": -5.6163,
-			"y": 9.2083,
-			"cluster": 1,
-			"path": "memory/2026-05-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.6311,
-			"y": 9.3576,
-			"cluster": 1,
-			"path": "memory/2026-05-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.7428,
-			"y": 8.9326,
-			"cluster": 1,
-			"path": "memory/2026-05-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.8158,
-			"y": 6.691,
-			"cluster": 4,
+			"x": 2.7132,
+			"y": 0.7164,
+			"cluster": 3,
 			"path": "memory/2026-05-08.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.7691,
-			"y": 6.7209,
-			"cluster": 4,
+			"x": 2.7862,
+			"y": 0.8873,
+			"cluster": 3,
 			"path": "memory/2026-05-09.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6592,
-			"y": 9.0217,
-			"cluster": 2,
-			"path": "memory/2026-05-13.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.2638,
-			"y": 9.4855,
-			"cluster": 1,
-			"path": "memory/2026-05-15.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.6492,
-			"y": 6.6741,
-			"cluster": 4,
+			"x": 2.7287,
+			"y": 0.9106,
+			"cluster": 3,
 			"path": "memory/2026-05-18.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.424,
-			"y": 7.1151,
-			"cluster": 4,
+			"x": 2.742,
+			"y": 1.3325,
+			"cluster": 3,
 			"path": "memory/2026-05-19.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.5864,
-			"y": 7.1536,
-			"cluster": 4,
+			"x": 2.7148,
+			"y": 1.1818,
+			"cluster": 3,
 			"path": "memory/2026-05-20.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.7109,
-			"y": 7.1097,
-			"cluster": 4,
+			"x": 2.5092,
+			"y": 1.2444,
+			"cluster": 3,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.381,
-			"y": 6.8312,
-			"cluster": 4,
+			"x": 3.0627,
+			"y": 1.1584,
+			"cluster": 3,
 			"path": "memory/2026-05-21.md",
 			"source": "memory"
 		},
 		{
-			"x": -4.8565,
-			"y": 8.2323,
-			"cluster": 1,
-			"path": "memory/2026-05-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.0518,
-			"y": 7.1491,
-			"cluster": 4,
+			"x": 2.4847,
+			"y": 0.9324,
+			"cluster": 3,
 			"path": "memory/2026-05-22.md",
 			"source": "memory"
 		},
 		{
-			"x": -5.2702,
-			"y": 8.4302,
-			"cluster": 1,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.9988,
-			"y": 8.6117,
-			"cluster": 5,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.6874,
-			"y": 8.5765,
-			"cluster": 5,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.4712,
-			"y": 8.3854,
-			"cluster": 5,
-			"path": "memory/2026-05-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.4703,
-			"y": 7.2846,
-			"cluster": 4,
+			"x": 2.4812,
+			"y": 1.492,
+			"cluster": 3,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.3348,
-			"y": 6.755,
-			"cluster": 4,
+			"x": 3.0997,
+			"y": 1.2382,
+			"cluster": 3,
 			"path": "memory/2026-05-23.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.5027,
-			"y": 7.0402,
-			"cluster": 4,
+			"x": 2.8963,
+			"y": 1.3589,
+			"cluster": 3,
 			"path": "memory/2026-05-24.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6231,
-			"y": 6.6049,
-			"cluster": 4,
+			"x": 2.9578,
+			"y": 1.0456,
+			"cluster": 3,
 			"path": "memory/2026-05-25.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.5627,
-			"y": 6.7569,
-			"cluster": 4,
+			"x": 2.9579,
+			"y": 1.19,
+			"cluster": 3,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.2635,
-			"y": 6.7003,
-			"cluster": 4,
+			"x": 3.0533,
+			"y": 1.1858,
+			"cluster": 3,
 			"path": "memory/2026-05-26.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.5519,
-			"y": 6.8602,
-			"cluster": 4,
+			"x": 2.7386,
+			"y": 0.9697,
+			"cluster": 3,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.3762,
-			"y": 6.8566,
-			"cluster": 4,
+			"x": 3.1355,
+			"y": 1.3299,
+			"cluster": 3,
 			"path": "memory/2026-05-27.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.7891,
-			"y": 6.7335,
-			"cluster": 4,
+			"x": 2.5998,
+			"y": 0.9467,
+			"cluster": 3,
 			"path": "memory/2026-05-28.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.3657,
-			"y": 7.3585,
-			"cluster": 4,
+			"x": 2.5546,
+			"y": 1.6077,
+			"cluster": 3,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.7014,
-			"y": 7.0761,
-			"cluster": 4,
+			"x": 2.9348,
+			"y": 1.2345,
+			"cluster": 3,
 			"path": "memory/2026-05-29.md",
 			"source": "memory"
 		},
 		{
-			"x": -3.6183,
-			"y": 7.2538,
-			"cluster": 4,
+			"x": 2.4693,
+			"y": 1.3445,
+			"cluster": 3,
 			"path": "memory/2026-05-31.md",
 			"source": "memory"
 		},
 		{
-			"x": -4.8,
-			"y": 8.6761,
-			"cluster": 5,
-			"path": "memory/2026-05-31.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.694,
-			"y": 7.2932,
-			"cluster": 4,
+			"x": 2.4421,
+			"y": 1.1381,
+			"cluster": 3,
 			"path": "memory/2026-06-01.md",
 			"source": "memory"
 		},
 		{
-			"x": -5.3317,
-			"y": 7.6929,
-			"cluster": 1,
-			"path": "memory/2026-06-02.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.5241,
-			"y": 8.4945,
-			"cluster": 1,
-			"path": "memory/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.8708,
-			"y": 8.7269,
-			"cluster": 1,
-			"path": "memory/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.0886,
-			"y": 8.9706,
-			"cluster": 1,
-			"path": "memory/2026-06-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.7738,
-			"y": 8.7966,
-			"cluster": 1,
-			"path": "memory/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.851,
-			"y": 8.7409,
-			"cluster": 1,
-			"path": "memory/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0595,
-			"y": 9.8778,
-			"cluster": 2,
-			"path": "memory/2026-06-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.1563,
-			"y": 10.428,
-			"cluster": 1,
-			"path": "memory/2026-07-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.3348,
-			"y": 10.4551,
-			"cluster": 1,
-			"path": "memory/2026-07-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.2208,
-			"y": 10.4415,
-			"cluster": 1,
-			"path": "memory/2026-07-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.2852,
-			"y": 10.4214,
-			"cluster": 1,
-			"path": "memory/2026-07-16.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.2551,
-			"y": 10.4807,
-			"cluster": 1,
-			"path": "memory/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.1651,
-			"y": 10.526,
-			"cluster": 1,
-			"path": "memory/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.9384,
-			"y": 10.1745,
-			"cluster": 1,
-			"path": "memory/2026-07-17.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.2532,
-			"y": 9.0748,
-			"cluster": 5,
-			"path": "memory/2026-07-18.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.3971,
-			"y": 10.3803,
-			"cluster": 1,
-			"path": "memory/2026-07-18.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.1036,
-			"y": 9.4076,
-			"cluster": 1,
-			"path": "memory/2026-07-18.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.6479,
-			"y": 8.3352,
-			"cluster": 1,
-			"path": "memory/2026-07-19.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.1568,
-			"y": 9.1142,
-			"cluster": 5,
-			"path": "memory/2026-07-21.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.0631,
-			"y": 9.3171,
-			"cluster": 5,
-			"path": "memory/2026-07-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0395,
-			"y": 8.5391,
-			"cluster": 1,
-			"path": "memory/2026-07-22.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.2123,
-			"y": 9.1047,
-			"cluster": 5,
-			"path": "memory/2026-07-23.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.2272,
-			"y": 10.206,
-			"cluster": 1,
-			"path": "memory/2026-07-25.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.3508,
-			"y": 9.0212,
-			"cluster": 5,
-			"path": "memory/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.0165,
-			"y": 10.6986,
-			"cluster": 1,
-			"path": "memory/2026-07-26.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.247,
-			"y": 7.0422,
-			"cluster": 1,
-			"path": "memory/2026-07-29.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.4056,
-			"y": 10.2382,
-			"cluster": 1,
-			"path": "memory/2026-08-02.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.6574,
-			"y": 9.0743,
-			"cluster": 5,
-			"path": "memory/2026-08-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.7797,
-			"y": 9.3631,
-			"cluster": 5,
-			"path": "memory/2026-08-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.6991,
-			"y": 9.0954,
-			"cluster": 5,
-			"path": "memory/2026-08-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.6462,
-			"y": 9.1243,
-			"cluster": 5,
-			"path": "memory/2026-08-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.6548,
-			"y": 9.1263,
-			"cluster": 5,
-			"path": "memory/2026-08-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.6474,
-			"y": 8.9493,
-			"cluster": 5,
-			"path": "memory/2026-08-03.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.5023,
-			"y": 8.833,
-			"cluster": 5,
-			"path": "memory/2026-08-04.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.277,
-			"y": 8.5962,
-			"cluster": 5,
-			"path": "memory/2026-08-04.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.0644,
-			"y": 10.6773,
-			"cluster": 1,
-			"path": "memory/2026-08-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.1732,
-			"y": 10.751,
-			"cluster": 1,
-			"path": "memory/2026-08-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.7038,
-			"y": 10.5428,
-			"cluster": 1,
-			"path": "memory/2026-08-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.4993,
-			"y": 7.3388,
-			"cluster": 1,
-			"path": "memory/2026-08-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.6769,
-			"y": 9.3873,
-			"cluster": 1,
-			"path": "memory/2026-08-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.8313,
-			"y": 10.3987,
-			"cluster": 1,
-			"path": "memory/2026-08-30.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.14,
-			"y": 9.4349,
-			"cluster": 1,
-			"path": "memory/2026-08-31.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.3101,
-			"y": 9.544,
-			"cluster": 1,
-			"path": "memory/2026-09-01.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.1777,
-			"y": 9.1063,
-			"cluster": 1,
-			"path": "memory/2026-09-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.4626,
-			"y": 10.6009,
-			"cluster": 1,
-			"path": "memory/2026-09-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.2723,
-			"y": 10.7495,
-			"cluster": 1,
-			"path": "memory/2026-09-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.0934,
-			"y": 10.7893,
-			"cluster": 1,
-			"path": "memory/2026-09-05.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.4782,
-			"y": 10.125,
-			"cluster": 1,
-			"path": "memory/2026-09-06.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.0362,
-			"y": 10.6063,
-			"cluster": 1,
-			"path": "memory/2026-09-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.3507,
-			"y": 10.2458,
-			"cluster": 1,
-			"path": "memory/2026-09-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.9822,
-			"y": 10.4674,
-			"cluster": 1,
-			"path": "memory/2026-09-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.4049,
-			"y": 10.1459,
-			"cluster": 1,
-			"path": "memory/2026-09-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.6723,
-			"y": 9.6282,
-			"cluster": 1,
-			"path": "memory/2026-09-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.0944,
-			"y": 10.3891,
-			"cluster": 1,
-			"path": "memory/2026-09-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.4263,
-			"y": 9.9928,
-			"cluster": 1,
-			"path": "memory/2026-09-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.2817,
-			"y": 9.5643,
-			"cluster": 1,
-			"path": "memory/2026-09-07.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.262,
-			"y": 9.4455,
-			"cluster": 1,
-			"path": "memory/automated-charts.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.1182,
-			"y": 9.3689,
-			"cluster": 2,
-			"path": "memory/ceo-scorecard.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.4539,
-			"y": 9.613,
-			"cluster": 2,
-			"path": "memory/climate-monitor.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.2971,
-			"y": 9.6905,
-			"cluster": 2,
-			"path": "memory/ire-archive.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.1308,
-			"y": 9.5734,
-			"cluster": 2,
-			"path": "memory/management.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0771,
-			"y": 8.9515,
-			"cluster": 1,
-			"path": "memory/2026-09-09.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.0013,
-			"y": 11.3492,
-			"cluster": 1,
+			"x": 2.6803,
+			"y": 1.3474,
+			"cluster": 3,
 			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.6243,
-			"y": 9.8198,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.4269,
-			"y": 7.1705,
-			"cluster": 4,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.0937,
-			"y": 9.9849,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.7465,
-			"y": 10.1894,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.763,
-			"y": 10.1809,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.7726,
-			"y": 10.1196,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.3333,
-			"y": 10.1349,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.3724,
-			"y": 10.3023,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.9827,
-			"y": 8.923,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.9047,
-			"y": 10.401,
-			"cluster": 5,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.3004,
-			"y": 8.9619,
-			"cluster": 5,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.2677,
-			"y": 8.7062,
-			"cluster": 5,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.4053,
-			"y": 8.7749,
-			"cluster": 5,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.3881,
-			"y": 9.7109,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.5758,
-			"y": 9.7257,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.1188,
-			"y": 8.5196,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0559,
-			"y": 8.1183,
-			"cluster": 5,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.1392,
-			"y": 8.2273,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.4913,
-			"y": 8.8641,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0787,
-			"y": 8.0328,
-			"cluster": 4,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.2165,
-			"y": 8.2001,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.9586,
-			"y": 8.7143,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.6508,
-			"y": 9.0769,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.892,
-			"y": 8.7611,
-			"cluster": 5,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.904,
-			"y": 11.3915,
-			"cluster": 2,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.1959,
-			"y": 10.2011,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.1243,
-			"y": 9.7346,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.0516,
-			"y": 11.3454,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.1564,
-			"y": 9.4222,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -4.0348,
-			"y": 11.2782,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -5.6118,
-			"y": 9.2576,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.9711,
-			"y": 11.2697,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.3866,
-			"y": 9.7072,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.9763,
-			"y": 11.2531,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.9954,
-			"y": 8.8861,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -6.0975,
-			"y": 8.9682,
-			"cluster": 1,
-			"path": "MEMORY.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.8959,
-			"y": 9.8504,
-			"cluster": 2,
-			"path": "memory/2026-09-11.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.0332,
-			"y": 10.0407,
-			"cluster": 2,
-			"path": "memory/2026-09-11.md",
-			"source": "memory"
-		},
-		{
-			"x": -3.1,
-			"y": 10.0116,
-			"cluster": 2,
-			"path": "memory/2026-09-11.md",
-			"source": "memory"
-		},
-		{
-			"x": -2.8224,
-			"y": 9.9104,
-			"cluster": 2,
-			"path": "memory/2026-09-11.md",
 			"source": "memory"
 		}
 	],
 	"tree": {
 		"id": "root",
 		"label": "Memory",
-		"value": 167,
+		"value": 25,
 		"children": [
-			{
-				"id": "family:workflow-signals",
-				"label": "Workflow Signals",
-				"value": 141,
-				"children": [
-					{
-						"id": "cluster:1",
-						"clusterId": 1,
-						"label": "Sluggo",
-						"description": "General themes.",
-						"value": 80,
-						"children": [
-							{
-								"id": "keyword:1:0",
-								"label": "and",
-								"value": 40.0
-							},
-							{
-								"id": "keyword:1:1",
-								"label": "the",
-								"value": 26.67
-							},
-							{
-								"id": "keyword:1:2",
-								"label": "is",
-								"value": 13.33
-							}
-						]
-					},
-					{
-						"id": "cluster:2",
-						"clusterId": 2,
-						"label": "Course",
-						"description": "Topics related to course, journalism, news.",
-						"value": 37,
-						"children": [
-							{
-								"id": "keyword:2:0",
-								"label": "journalism",
-								"value": 24.67
-							},
-							{
-								"id": "keyword:2:1",
-								"label": "news",
-								"value": 12.33
-							}
-						]
-					},
-					{
-						"id": "cluster:5",
-						"clusterId": 5,
-						"label": "Personal Tracking",
-						"description": "Personal health, meals, medication, and activity records.",
-						"value": 24,
-						"children": [
-							{
-								"id": "keyword:5:0",
-								"label": "logged",
-								"value": 24.0
-							}
-						]
-					}
-				]
-			},
 			{
 				"id": "family:knowledge",
 				"label": "Knowledge",
-				"value": 26,
+				"value": 25,
 				"children": [
 					{
-						"id": "cluster:4",
-						"clusterId": 4,
+						"id": "cluster:3",
+						"clusterId": 3,
 						"label": "Vault",
 						"description": "Knowledge captured from the Obsidian vault, including notes and wiki content.",
-						"value": 26,
+						"value": 25,
 						"children": [
 							{
-								"id": "keyword:4:0",
+								"id": "keyword:3:0",
 								"label": "obsidian",
-								"value": 17.33
+								"value": 16.67
 							},
 							{
-								"id": "keyword:4:1",
+								"id": "keyword:3:1",
 								"label": "publish",
-								"value": 8.67
+								"value": 8.33
 							}
 						]
 					}
