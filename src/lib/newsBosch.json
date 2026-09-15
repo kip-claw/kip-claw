@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-15",
+		"displayDate": "September 15, 2026",
+		"image": "/images/news-bosch/2026/09/15.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-15T10:14:55.398116Z",
+		"sourceRetrievedAt": "2026-09-15T10:10:41.282607Z",
+		"themes": [
+			{
+				"name": "Strait Under Pressure",
+				"interpretation": "Renewed attacks, stalled negotiations, and disrupted energy flows turn the region into a single chokepoint of military and economic risk.",
+				"storyRanks": [1, 8, 10]
+			},
+			{
+				"name": "The AI Reckoning",
+				"interpretation": "Artificial intelligence appears simultaneously as a powerful professional instrument, an existential warning, and a source of investor anxiety.",
+				"storyRanks": [2, 3, 7]
+			},
+			{
+				"name": "Trust Behind False Seals",
+				"interpretation": "Digital systems become vulnerable when official-looking deception and national security restrictions reshape how information and people move.",
+				"storyRanks": [5, 9]
+			},
+			{
+				"name": "Payments Meet The Toll",
+				"interpretation": "India\u2019s proposed fees suggest that even everyday digital transactions may acquire a visible cost as payment networks mature.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "A Polling Weather Change",
+				"interpretation": "A recovery from a record-low approval reading coexists with a worsening outlook for the governing party, revealing a politically unsettled public mood.",
+				"storyRanks": [6]
+			}
+		],
+		"stories": [
+			{
+				"title": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall",
+				"url": "https://reuters.com/world/middle-east/houthis-strike-saudi-targets-anew-talks-over-strait-hormuz-stall-2026-09-15/"
+			},
+			{
+				"title": "Ex-Google DeepMind researcher adds to warnings that AI could 'kill all humans'",
+				"url": "https://reuters.com/technology/ex-google-deepmind-researcher-adds-warnings-that-ai-could-kill-all-humans-2026-09-15/"
+			},
+			{
+				"title": "Anthropic targets financial advisers with new Claude tool",
+				"url": "https://reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/"
+			},
+			{
+				"title": "India opens door to fees on large payments made via UPI system",
+				"url": "https://reuters.com/world/india/india-bars-bank-charges-upi-payments-up-2000-rupees-2026-09-14/"
+			},
+			{
+				"title": "Revolut confirms sensitive customer data breach after fake government requests",
+				"url": "https://reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/"
+			},
+			{
+				"title": "Trump approval up from record low, but outlook sours for Republicans, Reuters/Ipsos poll finds",
+				"url": "https://reuters.com/world/us/trump-approval-up-record-low-outlook-sours-republicans-reutersipsos-poll-finds-2026-09-14/"
+			},
+			{
+				"title": "Investors nervous about AI spending slowdown after industry warnings",
+				"url": "https://reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/"
+			},
+			{
+				"title": "Oil rises above $108 as attacks, pipeline outage deepen Saudi supply concerns",
+				"url": "https://reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15/"
+			},
+			{
+				"title": "China tightens travel rules over tech security",
+				"url": "https://reuters.com/world/china/chinas-new-tech-national-security-exit-rules-take-effect-2026-09-15/"
+			},
+			{
+				"title": "Saudi civil defence says danger has passed in six cities including Yanbu",
+				"url": "https://reuters.com/world/middle-east/saudi-civil-defence-says-danger-has-passed-six-cities-including-yanbu-2026-09-15/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "masked magistrates"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-09-14",
 		"displayDate": "September 14, 2026",
 		"image": "/images/news-bosch/2026/09/14.webp",
