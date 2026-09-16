@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-16",
+		"displayDate": "September 16, 2026",
+		"image": "/images/news-bosch/2026/09/16.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-16T10:29:16.642886Z",
+		"sourceRetrievedAt": "2026-09-16T10:25:11.717614Z",
+		"themes": [
+			{
+				"name": "Unproofed Remedies, Breached Walls",
+				"interpretation": "The rush toward experimental cures and vulnerable artificial agents reveals faith in systems before their safeguards are tested.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "Arches Over Uneasy Courts",
+				"interpretation": "New political affiliations and international prosecutions turn Europe\u2019s legal order into an unfinished structure of access and judgment.",
+				"storyRanks": [2, 3, 9]
+			},
+			{
+				"name": "Oil Through the War Canal",
+				"interpretation": "Conflict expands into new theaters while crude reroutes through narrow passages, linking bombardment to the cost of fuel.",
+				"storyRanks": [4, 8]
+			},
+			{
+				"name": "Factories Without Their Future",
+				"interpretation": "The struggle to build advanced manufacturing collides with policy reversals that can derail the industrial transition toward electric vehicles.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "The Tolling Payment Bridge",
+				"interpretation": "Digital commerce is shifting from frictionless expansion toward a gated economy in which larger transactions carry a visible toll.",
+				"storyRanks": [6]
+			}
+		],
+		"stories": [
+			{
+				"title": "Use of untested 'Wolverine' peptide backed by US Health Secretary Kennedy on the rise, study finds",
+				"url": "https://reuters.com/legal/litigation/use-untested-wolverine-peptide-backed-by-us-health-secretary-kennedy-rise-study-2026-09-15/"
+			},
+			{
+				"title": "EU's von der Leyen wants Canada to become bloc's first associate member",
+				"url": "https://reuters.com/world/eu-opens-door-canada-become-first-associate-member-eu-commission-president-says-2026-09-16/"
+			},
+			{
+				"title": "Former Kosovo president Thaci sentenced to 25 years in prison for war crimes",
+				"url": "https://reuters.com/world/europe/former-kosovo-president-thaci-sentenced-25-years-prison-war-crimes-2026-09-16/"
+			},
+			{
+				"title": "Saudis pound Yemen as Houthis solidify gains in new theatre of Middle East war",
+				"url": "https://reuters.com/world/middle-east/saudi-coalition-says-houthi-drone-destroyed-near-mecca-2026-09-16/"
+			},
+			{
+				"title": "SK Hynix in talks with Intel about deal to make memory chips in US for the first time, sources say",
+				"url": "https://reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/"
+			},
+			{
+				"title": "India's UPI ends free era with fee on large merchant payments",
+				"url": "https://reuters.com/world/india/india-payments-authority-sets-04-fee-upi-merchant-payments-above-2000-rupees-2026-09-15/"
+			},
+			{
+				"title": "OpenAI's rogue agents\u00a0probed Hugging Face for weaknesses two months before major hack",
+				"url": "https://reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/"
+			},
+			{
+				"title": "Oil slips as Saudi Arabia offers more crude via Oman; diesel near record high",
+				"url": "https://reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/"
+			},
+			{
+				"title": "Former Philippines leader Duterte appears in ICC courtroom",
+				"url": "https://reuters.com/world/asia-pacific/former-philippines-leader-duterte-appears-icc-courtroom-2026-09-16/"
+			},
+			{
+				"title": "How Trump\u2019s war on EVs derailed America\u2019s auto-factory revival",
+				"url": "https://reuters.com/investigations/how-trumps-war-evs-derailed-americas-auto-factory-revival-2026-09-15/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "scholars and alchemists"],
+			"symbolFamilies": [
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"vessels, canals, wells, floods, and bridges",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-09-15",
 		"displayDate": "September 15, 2026",
 		"image": "/images/news-bosch/2026/09/15.webp",
