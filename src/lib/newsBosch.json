@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-17",
+		"displayDate": "September 17, 2026",
+		"image": "/images/news-bosch/2026/09/17.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-17T10:15:17.120332Z",
+		"sourceRetrievedAt": "2026-09-17T10:10:41.693606Z",
+		"themes": [
+			{
+				"name": "Tariff Table of Alliances",
+				"interpretation": "Energy dependence and competing tariff threats turn international partnerships into a bargaining table where every place setting carries a cost.",
+				"storyRanks": [1, 6, 7, 8]
+			},
+			{
+				"name": "The Peptide Oven",
+				"interpretation": "A rising appetite for an untested treatment shows how promises of rapid transformation can move from a political kitchen into legal consequence.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Boats Through Narrow Doors",
+				"interpretation": "As governments tighten migration thresholds, people fleeing expanding war are pushed toward increasingly dangerous passages.",
+				"storyRanks": [3, 4]
+			},
+			{
+				"name": "Evidence Beneath the Table",
+				"interpretation": "International investigators uncover allegations of state violence behind the public theater of war and diplomacy.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Fortunes in the Maze",
+				"interpretation": "Commercial identity disputes and hidden share agreements turn wealth into a labyrinth where ownership can vanish behind legal thresholds.",
+				"storyRanks": [9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "India warns new US tariffs over Russian oil could hit ties, vows to protect energy security",
+				"url": "https://reuters.com/business/energy/india-vows-protect-energy-security-warns-us-tariffs-could-hit-ties-2026-09-17/"
+			},
+			{
+				"title": "Use of untested 'Wolverine' peptide backed by US Health Secretary Kennedy on the rise, study finds",
+				"url": "https://reuters.com/legal/litigation/use-untested-wolverine-peptide-backed-by-us-health-secretary-kennedy-rise-study-2026-09-15/"
+			},
+			{
+				"title": "Australia cracks down on student and backpacker visas to curb migration",
+				"url": "https://reuters.com/business/media-telecom/australia-bar-foreign-students-bringing-partners-children-while-they-study-2026-09-17/"
+			},
+			{
+				"title": "Yemenis take to boats to flee as Middle East war spreads",
+				"url": "https://reuters.com/world/middle-east/trump-hopes-iran-war-nearing-end-houthi-saudi-fighting-escalates-2026-09-17/"
+			},
+			{
+				"title": "UN mission finds grounds to believe\u00a0US committed war crimes in Iran, and Tehran crimes against humanity",
+				"url": "https://reuters.com/world/middle-east/un-mission-finds-grounds-believe-us-committed-war-crimes-iran-tehran-crimes-2026-09-17/"
+			},
+			{
+				"title": "Trump derides EU pitch to Canada as 'laughable', threatens more tariffs",
+				"url": "https://reuters.com/world/americas/trump-warns-eu-tariffs-over-canadas-potential-associate-membership-calls-it-2026-09-17/"
+			},
+			{
+				"title": "EU chief wants Canada to become an 'associate member'. What does that mean?",
+				"url": "https://reuters.com/world/eu-chief-wants-canada-become-an-associate-member-what-does-that-mean-2026-09-16/"
+			},
+			{
+				"title": "Oil prices extend losses as supply disruption fears ease",
+				"url": "https://reuters.com/business/energy/oil-prices-extend-losses-fears-middle-east-supply-disruptions-ease-2026-09-17/"
+			},
+			{
+				"title": "New Balance sues Decathlon for trademark infringement over shoe logo",
+				"url": "https://reuters.com/legal/legalindustry/new-balance-sues-decathlon-trademark-infringement-over-shoe-logo-2026-09-16/"
+			},
+			{
+				"title": "LVMH signed a secret 2002 pact to buy Herm\u00e8s heir\u2019s shares. Now he says his fortune is missing",
+				"url": "https://reuters.com/legal/litigation/lvmh-signed-secret-2002-pact-buy-herms-heirs-shares-now-he-says-his-fortune-is-2026-09-17/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-09-16",
 		"displayDate": "September 16, 2026",
 		"image": "/images/news-bosch/2026/09/16.webp",
