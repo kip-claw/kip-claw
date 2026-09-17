@@ -12,6 +12,7 @@
 
 	const interfaces: Interface[] = [
 		{ title: 'Telegram', sub: 'Chat · Commands' },
+		{ title: 'Discord', sub: 'Chat · Server' },
 		{ title: 'kip.computer', sub: 'Public site · Apps' },
 		{ title: 'Android app', sub: 'Mobile app' }
 	];
@@ -24,12 +25,11 @@
 				{ title: 'NAS', subs: ['Backups · ArchiveBox', 'FileBrowser · Birdclaw'] },
 				{ title: 'Batocera', subs: ['Retro gaming'] },
 				{ title: 'Kodi', subs: ['Media center'] },
-				{ title: 'Whisper', subs: ['Speech to text'] },
+				{ title: 'Speaches', subs: ['Speech to text · Text to speech', "On Ben's Latitude"] },
 				{ title: 'Android phone', subs: ['Termux node'] },
 				{ title: 'Obsidian', subs: ['Todo · Memory wiki', 'Work documents'] },
 				{ title: 'Ollama', subs: ['Memory search', 'nomic-embed-text'] },
 				{ title: 'Sonos', subs: ['Sound system'] },
-				{ title: 'Piper', subs: ['Text to speech'] },
 				{ title: 'Butterchurn', subs: ['Music visuals'] }
 			]
 		},
