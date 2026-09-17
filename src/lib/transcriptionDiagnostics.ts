@@ -29,11 +29,12 @@ export const parseTranscriptionDate = (timestamp: string) => {
 
 const MODEL_LABELS: Record<string, string> = {
 	'ggml-base.en-q5_0.bin': 'Whisper base.en Q5_0',
-	'ggml-small.en-q5_1.bin': 'Whisper small.en Q5_1'
+	'ggml-small.en-q5_1.bin': 'Whisper small.en Q5_1',
+	'Systran/faster-whisper-small.en (Speaches)': 'Whisper small.en (Speaches)'
 };
 
 const friendlyModel = (raw: string | undefined) =>
-	raw ? (MODEL_LABELS[raw] ?? raw) : 'Whisper small.en Q5_1';
+	raw ? (MODEL_LABELS[raw] ?? raw) : 'Whisper small.en (Speaches)';
 
 export const getTranscriptionSummary = (raw: TranscriptionDiagnostics) => {
 	const requests = raw.requests
