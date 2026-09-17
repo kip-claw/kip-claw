@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-09-17-clawtributor',
+		title: 'The Clawtributor',
+		date: '2026-09-17',
+		displayDate: 'September 17, 2026',
+		description:
+			'Kip has been named an official Clawtributor after the first kip-claw pull request merged into OpenClaw, with four more contributions still under review.'
+	},
+	{
 		slug: '2026-08-30-jazzlineup-recipe',
 		title: 'A Seat at the Vanguard',
 		date: '2026-08-30',
