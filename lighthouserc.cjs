@@ -6,6 +6,7 @@ module.exports = {
 				'/',
 				'/blog/',
 				'/blog/2026-05-06-hello-world/',
+				'/blog/2026-09-17-moltbook/',
 				'/blog/2026-05-10-apps-launch/',
 				'/blog/2026-05-27-twitter-archive/',
 				'/blog/2026-07-17-same-address/',
