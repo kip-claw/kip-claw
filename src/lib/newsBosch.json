@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-18",
+		"displayDate": "September 18, 2026",
+		"image": "/images/news-bosch/2026/09/18.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-18T10:14:39.689114Z",
+		"sourceRetrievedAt": "2026-09-18T10:10:41.370858Z",
+		"themes": [
+			{
+				"name": "Pressure Around the Table",
+				"interpretation": "Diplomatic appeals, wartime skepticism, and easing supply fears show regional pressure being passed from one power to another like a meal around a crowded table.",
+				"storyRanks": [1, 6, 10]
+			},
+			{
+				"name": "Discovery With Hidden Costs",
+				"interpretation": "A newly identified animal, an untested medical substance, and abusive surveillance technology turn scientific novelty into a cycle of wonder, risk, and scrutiny.",
+				"storyRanks": [2, 4, 8]
+			},
+			{
+				"name": "Property Behind Locks",
+				"interpretation": "Corporate seizure and a former leader's house arrest depict ownership and punishment being rearranged by state power.",
+				"storyRanks": [3, 9]
+			},
+			{
+				"name": "The Rate-Making Wheel",
+				"interpretation": "A decades-high interest-rate decision and falling oil prices reveal economies balancing shocks by turning a shared wheel of costs.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "Grief Under Glass",
+				"interpretation": "A disputed image of royal grief and the misuse of recording glasses show private emotion repeatedly converted into public spectacle.",
+				"storyRanks": [7, 8]
+			}
+		],
+		"stories": [
+			{
+				"title": "China presses Iran to help rein in Houthis after Saudi appeal, sources say",
+				"url": "https://reuters.com/world/china/china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say-2026-09-17/"
+			},
+			{
+				"title": "New cat species identified in Bolivia, first in over a century",
+				"url": "https://reuters.com/business/environment/new-cat-species-identified-bolivia-first-over-century-2026-09-17/"
+			},
+			{
+				"title": "Nestle weighing all options after Kremlin moves to seize Russia business",
+				"url": "https://reuters.com/business/retail-consumer/nestle-responds-putins-decision-put-its-russian-business-under-external-2026-09-18/"
+			},
+			{
+				"title": "Use of untested 'Wolverine' peptide backed by US Health Secretary Kennedy on the rise, study finds",
+				"url": "https://reuters.com/legal/litigation/use-untested-wolverine-peptide-backed-by-us-health-secretary-kennedy-rise-study-2026-09-15/"
+			},
+			{
+				"title": "Bank of Japan raises policy rate to 31-year high - as it happened",
+				"url": "https://reuters.com/live/boj-decision-live-japans-policy-interest-rate-set-rise-31-year-high-2026-09-18/"
+			},
+			{
+				"title": "As Iran war grinds on, Trump to face skeptical world leaders at UN",
+				"url": "https://reuters.com/world/middle-east/iran-war-grinds-trump-face-skeptical-world-leaders-un-2026-09-18/"
+			},
+			{
+				"title": "King Charles sounded like 'lottery winner' after Diana's death, her brother writes",
+				"url": "https://reuters.com/world/uk/king-charles-sounded-like-lottery-winner-after-dianas-death-her-brother-writes-2026-09-17/"
+			},
+			{
+				"title": "France probes misuse of smart glasses in sexual harassment cases",
+				"url": "https://reuters.com/technology/french-prosecutors-regulators-step-up-scrutiny-smart-glasses-2026-09-18/"
+			},
+			{
+				"title": "Malaysia king permits ex-PM Najib Razak to serve term under house arrest",
+				"url": "https://reuters.com/world/malaysia-king-permits-ex-pm-najib-razak-serve-term-under-house-arrest-2026-09-18/"
+			},
+			{
+				"title": "Oil prices fall 2% on easing fears over Saudi supply disruption",
+				"url": "https://reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "scholars and alchemists"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"games, dice, wheels, races, and balancing acts",
+				"workshops, looms, mills, gears, and unfinished machines"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-09-17",
 		"displayDate": "September 17, 2026",
 		"image": "/images/news-bosch/2026/09/17.webp",
