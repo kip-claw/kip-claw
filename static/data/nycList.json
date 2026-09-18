@@ -1903,6 +1903,17 @@
     "lng": -73.98644639999999
   },
   {
+    "name": "Little Biggs (Bryant Park)",
+    "address": "2 W 42nd St, New York, NY 10036",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "New kiosk-sized sandwich shop next to Breads Bakery by Bryant Park, with more gourmet and expensive breakfast and lunch sandwiches than the average bodega. The Italian roll with soppressata and mortadella is quite good.",
+    "lat": 40.753656,
+    "lng": -73.981828
+  },
+  {
     "name": "Little Branch",
     "address": "20 7th Ave S, New York, NY 10014",
     "isDecent": "Y",

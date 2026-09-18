@@ -1314,5 +1314,9 @@
 	"Broadway, just south of Herald Square, New York, NY": {
 		"lat": 40.8099273,
 		"lng": -73.9623793
+	},
+	"2 W 42nd St, New York, NY 10036": {
+		"lat": 40.753656,
+		"lng": -73.981828
 	}
 }
