@@ -112,14 +112,6 @@
 		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/openclaw-releases/SKILL.md"
 	},
 	{
-		"slug": "openclaw-upstream-pr",
-		"title": "Openclaw Pull Requests",
-		"description": "Guides submitting pull requests to the upstream OpenClaw repository.",
-		"tag": "Code",
-		"path": "openclaw-upstream-pr/SKILL.md",
-		"markdownUrl": "https://raw.githubusercontent.com/kip-claw/skills/main/openclaw-upstream-pr/SKILL.md"
-	},
-	{
 		"slug": "pi-diagnostics",
 		"title": "Pi Diagnostics",
 		"description": "Reports Raspberry Pi health, temperatures, disk usage, and cron job status.",
