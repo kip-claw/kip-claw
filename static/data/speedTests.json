@@ -2094,5 +2094,13 @@
     "pingMs": 11.6,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-09-19 09:00:33",
+    "downloadMbps": 571.38,
+    "uploadMbps": 22.73,
+    "pingMs": 11.7,
+    "server": "New York NY",
+    "provider": "Pilot Fiber"
   }
 ]
