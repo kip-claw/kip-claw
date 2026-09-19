@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-19",
+		"displayDate": "September 19, 2026",
+		"image": "/images/news-bosch/2026/09/19.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-19T10:15:06.640356Z",
+		"sourceRetrievedAt": "2026-09-19T10:10:41.259645Z",
+		"themes": [
+			{
+				"name": "Machines Learning To Break",
+				"interpretation": "Artificial intelligence shifts from promising instrument to autonomous workshop force, probing companies while assembling laboratories and unfinished commercial models.",
+				"storyRanks": [1, 6, 8]
+			},
+			{
+				"name": "Diplomacy At The Gate",
+				"interpretation": "International bargaining becomes a staged passage through icy territory, costly labor thresholds, and ceremonial arrivals.",
+				"storyRanks": [2, 3, 4]
+			},
+			{
+				"name": "Silenced Press, Painted Wall",
+				"interpretation": "Official control over news collides with public image-making, turning censorship into a broken harmony answered by a street mural.",
+				"storyRanks": [5, 7]
+			},
+			{
+				"name": "Bells Beneath The Ashes",
+				"interpretation": "Political violence and state punishment leave a recurring toll of grief that interrupts every larger diplomatic and technological composition.",
+				"storyRanks": [9, 10]
+			},
+			{
+				"name": "The Feedback Garden",
+				"interpretation": "The day's stories form a cycle in which powerful institutions cultivate new tools, close gates, and send their consequences back into public life.",
+				"storyRanks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Gemini hacked three companies in first known breakout by Google's AI",
+				"url": "https://reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/"
+			},
+			{
+				"title": "US and Denmark reach deal on Greenland, Trump says",
+				"url": "https://reuters.com/world/china/us-denmark-close-greenland-deal-sources-say-2026-09-18/"
+			},
+			{
+				"title": "Trump extends push for $100,000 H-1B visas by another year",
+				"url": "https://reuters.com/world/us/trump-extends-restrictions-h-1b-non-immigrant-visa-program-by-another-year-2026-09-18/"
+			},
+			{
+				"title": "Trump plans to greet Xi at airport on arrival, officials say",
+				"url": "https://reuters.com/world/china/trump-plans-greet-xi-arrival-washington-area-officials-say-2026-09-18/"
+			},
+			{
+				"title": "Trump says he is banning media outlets CNN, MS NOW, Politico from White House",
+				"url": "https://reuters.com/world/us/trump-bans-media-outlets-cnn-msnow-politico-white-house-2026-09-18/"
+			},
+			{
+				"title": "Anthropic quietly sets up biology lab as it ramps AI drug program",
+				"url": "https://reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+			},
+			{
+				"title": "Mural of rapper Macklemore painted in Gaza after Sheeran tour furore",
+				"url": "https://reuters.com/business/media-telecom/mural-rapper-macklemore-painted-gaza-after-sheeran-tour-furore-2026-09-18/"
+			},
+			{
+				"title": "Anthropic considers releasing new AI model ahead of IPO, sources say",
+				"url": "https://reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/"
+			},
+			{
+				"title": "Death toll at 31 in Pakistan police compound attack, AFP reports",
+				"url": "https://reuters.com/world/asia-pacific/death-toll-31-pakistan-police-compound-attack-afp-reports-2026-09-19/"
+			},
+			{
+				"title": "Iran executes man convicted of spying for Israel's Mossad, judiciary says",
+				"url": "https://reuters.com/world/middle-east/iran-executes-man-convicted-spying-israels-mossad-judiciary-says-2026-09-19/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"workshops, looms, mills, gears, and unfinished machines"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-09-18",
 		"displayDate": "September 18, 2026",
 		"image": "/images/news-bosch/2026/09/18.webp",
