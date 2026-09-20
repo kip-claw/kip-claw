@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-20",
+		"displayDate": "September 20, 2026",
+		"image": "/images/news-bosch/2026/09/20.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-20T10:20:47.813874Z",
+		"sourceRetrievedAt": "2026-09-20T10:14:39.934404Z",
+		"themes": [
+			{
+				"name": "Drones Break the Procession",
+				"interpretation": "Strikes around Moscow turn a national ritual into a procession interrupted by smoke, casualties, and airborne threats.",
+				"storyRanks": [1, 10]
+			},
+			{
+				"name": "Ash Over the Airport",
+				"interpretation": "Reported attacks near Riyadh place an international gateway beneath a sudden countercurrent of fire and fear.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "The Fractured World Choir",
+				"interpretation": "World leaders returning to the UN seek a common voice while wars in the Middle East and Ukraine produce broken harmonies.",
+				"storyRanks": [2, 8]
+			},
+			{
+				"name": "Diplomacy Across the Archipelago",
+				"interpretation": "Meetings in a French Atlantic setting and new energy agreements portray diplomacy as a fragile bridge built across scattered interests.",
+				"storyRanks": [4, 6]
+			},
+			{
+				"name": "The AI Tower Race",
+				"interpretation": "Rapid AI upheaval, a coming advisory appointment, and talks linking trade with critical minerals reveal competing powers building unstable technological towers.",
+				"storyRanks": [5, 7, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Two dead in Moscow region, drones hit oil refinery in Russian capital",
+				"url": "https://reuters.com/world/europe/two-dead-moscow-region-drones-hit-oil-refinery-russian-capital-2026-09-20/"
+			},
+			{
+				"title": "World leaders return to UN amid wars in Middle East and Ukraine",
+				"url": "https://reuters.com/world/china/world-leaders-return-un-amid-wars-middle-east-ukraine-2026-09-20/"
+			},
+			{
+				"title": "Flames, smoke seen near Riyadh airport; Houthis claim attacks on Saudi capital",
+				"url": "https://reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/"
+			},
+			{
+				"title": "Macron, Carney to meet in French Atlantic archipelago in signal to Trump",
+				"url": "https://reuters.com/world/americas/macron-carney-meet-french-atlantic-archipelago-signal-trump-2026-09-20/"
+			},
+			{
+				"title": "Ten days that changed the course of AI",
+				"url": "https://reuters.com/business/media-telecom/ten-days-that-changed-course-ai-2026-09-19/"
+			},
+			{
+				"title": "Venezuela leader Rodriguez signs agreement with French Oil Company Total Energies",
+				"url": "https://reuters.com/business/energy/venezuela-leader-rodriguez-signs-agreement-with-french-oil-company-total-2026-09-19/"
+			},
+			{
+				"title": "Trump says he will appoint a new AI adviser, without providing details",
+				"url": "https://reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/"
+			},
+			{
+				"title": "Ed Sheeran calls Israel's treatment of Gazans 'unjustifiable,' apologizes for Macklemore controversy",
+				"url": "https://reuters.com/business/media-telecom/ed-sheerans-fans-back-singer-after-controversy-over-macklemore-palestinians-2026-09-20/"
+			},
+			{
+				"title": "US Treasury's Bessent, China's He to launch talks on AI, trade, critical minerals",
+				"url": "https://reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
+			},
+			{
+				"title": "Ukraine launches biggest Moscow drone attack as Russia votes",
+				"url": "https://reuters.com/world/europe/russian-election-cast-test-support-ukraine-war-enters-final-day-2026-09-20/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"animals, insects, shells, nests, and migrating flocks",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-09-19",
 		"displayDate": "September 19, 2026",
 		"image": "/images/news-bosch/2026/09/19.webp",
