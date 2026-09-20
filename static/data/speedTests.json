@@ -2110,5 +2110,13 @@
     "pingMs": 12.1,
     "server": "New York NY",
     "provider": "Spectrum"
+  },
+  {
+    "timestamp": "2026-09-20 09:00:34",
+    "downloadMbps": 568.67,
+    "uploadMbps": 22.64,
+    "pingMs": 14.8,
+    "server": "New York NY",
+    "provider": "Pilot Fiber"
   }
 ]
