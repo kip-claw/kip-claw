@@ -1243,6 +1243,17 @@
     "lng": -74.0004759
   },
   {
+    "name": "gertrude's",
+    "address": "605 Carlton Avenue, Brooklyn, NY 11238",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Standard Brooklyn brunch.",
+    "lat": 40.6790422,
+    "lng": -73.9715398
+  },
+  {
     "name": "Good Morning Breakfast Food Truck",
     "address": "Broadway, just south of Herald Square, New York, NY",
     "isDecent": "Y",
