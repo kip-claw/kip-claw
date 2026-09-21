@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-21",
+		"displayDate": "September 21, 2026",
+		"image": "/images/news-bosch/2026/09/21.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-21T10:19:17.628622Z",
+		"sourceRetrievedAt": "2026-09-21T10:10:41.572337Z",
+		"themes": [
+			{
+				"name": "The Trade Engine Summit",
+				"interpretation": "A high-stakes diplomatic procession advances around a roaring economic machine while negotiation remains a contest of leverage.",
+				"storyRanks": [1, 4]
+			},
+			{
+				"name": "The Strait of Uncertainty",
+				"interpretation": "Escalating threats and fragile diplomacy turn regional movement into a narrow passage where every vessel risks interruption.",
+				"storyRanks": [3, 6, 9]
+			},
+			{
+				"name": "The Sanctions Threshold",
+				"interpretation": "Competing claims of justice and sovereign power gather at a threshold where legal institutions may be barred from proceeding.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Gardens of Power",
+				"interpretation": "Elections produce sharply different political growths as parties compete to control the soil, housing, and direction of the state.",
+				"storyRanks": [7, 8, 10]
+			},
+			{
+				"name": "A Sudden Fallen Seed",
+				"interpretation": "Amid the day's public contests, a young life ending abruptly interrupts the procession with private grief.",
+				"storyRanks": [2]
+			}
+		],
+		"stories": [
+			{
+				"title": "Xi rolls into Trump summit with China's trade engine roaring",
+				"url": "https://reuters.com/world/china/xi-rolls-into-trump-summit-with-chinas-trade-engine-roaring-2026-09-21/"
+			},
+			{
+				"title": "Cindy Crawford's son Presley Gerber dies aged 27",
+				"url": "https://reuters.com/world/us/cindy-crawfords-son-presley-gerber-dies-aged-27-2026-09-21/"
+			},
+			{
+				"title": "Iran and US trade threats after Houthi attacks escalate regional conflict",
+				"url": "https://reuters.com/world/asia-pacific/iran-warns-against-new-escalation-by-us-allies-2026-09-20/"
+			},
+			{
+				"title": "China slows humanoid robot IPO rush as hype outruns reality",
+				"url": "https://reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/"
+			},
+			{
+				"title": "Trump administration prepares sanctions against International Criminal Court, sources say",
+				"url": "https://reuters.com/world/trump-administration-prepares-sanction-international-criminal-court-wsj-reports-2026-09-20/"
+			},
+			{
+				"title": "Oil prices slide to 11-day low on hopes of US-Iran diplomacy, Saudi exports",
+				"url": "https://reuters.com/business/energy/oil-rises-after-houthi-attack-saudi-capital-2026-09-20/"
+			},
+			{
+				"title": "AfD leads as Merz rues 'disaster' in worst state election result in postwar Germany",
+				"url": "https://reuters.com/world/europe/merz-under-pressure-two-more-german-states-go-polls-2026-09-20/"
+			},
+			{
+				"title": "Far-left party wins Berlin election, pledging to nationalise housing",
+				"url": "https://reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/"
+			},
+			{
+				"title": "Vessels trickle through Strait of Hormuz as Middle East conflict persists",
+				"url": "https://reuters.com/world/middle-east/vessels-trickle-through-strait-hormuz-mideast-tension-persists-2026-09-21/"
+			},
+			{
+				"title": "Russia's ruling pro-Putin party wins wartime election with over 57% of vote, near complete results show",
+				"url": "https://reuters.com/world/russias-ruling-pro-putin-party-wins-wartime-election-with-over-57-vote-near-2026-09-21/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "dry clay, straw yellow, olive, turquoise, and dark crimson",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-09-20",
 		"displayDate": "September 20, 2026",
 		"image": "/images/news-bosch/2026/09/20.webp",
