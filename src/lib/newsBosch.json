@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-09-22",
+		"displayDate": "September 22, 2026",
+		"image": "/images/news-bosch/2026/09/22.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-22T10:16:38.069763Z",
+		"sourceRetrievedAt": "2026-09-22T10:10:41.440444Z",
+		"themes": [
+			{
+				"name": "Taiwan Arms Chessboard",
+				"interpretation": "A high-stakes negotiation turns weapons, agreements, and strategic pressure into pieces on a board whose moves can reverse their apparent purpose.",
+				"storyRanks": [1, 3]
+			},
+			{
+				"name": "The Millstone Crown",
+				"interpretation": "A former symbol of industrial prestige becomes a weight dragging its larger parent through a mechanical decline.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Arctic Bargaining Wheel",
+				"interpretation": "Military expansion and diplomatic compromise revolve around the same contested northern space, alternately tightening and loosening the standoff.",
+				"storyRanks": [4, 5]
+			},
+			{
+				"name": "Pressure Across the Map",
+				"interpretation": "Wars, public discontent, contested territory, a threatened waterway, and deaths in detention form a world map under shifting pressure and unfinished accountability.",
+				"storyRanks": [6, 7, 8, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "China's Xi expected to press Trump to halt Taiwan arms sales under 1982 agreement, sources say",
+				"url": "https://reuters.com/world/china/chinas-xi-expected-press-trump-halt-taiwan-arms-sales-under-1982-agreement-2026-09-22/"
+			},
+			{
+				"title": "Porsche's decline from crown jewel to millstone for parent Volkswagen",
+				"url": "https://reuters.com/business/finance/porsches-decline-crown-jewel-millstone-parent-volkswagen-2026-09-21/"
+			},
+			{
+				"title": "US battery\u00a0startup that ditched Kentucky for China opens factory as Trump and Xi meet",
+				"url": "https://reuters.com/world/china/us-battery-startup-that-ditched-kentucky-china-opens-factory-trump-xi-meet-2026-09-22/"
+			},
+			{
+				"title": "US to open two new military bases in Greenland, sources say",
+				"url": "https://reuters.com/world/europe/us-open-two-new-military-bases-greenland-sources-say-2026-09-21/"
+			},
+			{
+				"title": "Trump, Greenland, Denmark to sign deal in bid to end Arctic standoff",
+				"url": "https://reuters.com/world/europe/trump-denmark-greenland-sign-deal-bid-end-arctic-standoff-2026-09-22/"
+			},
+			{
+				"title": "Trump set for whirlwind UN meetings with wars in Iran, Ukraine on agenda",
+				"url": "https://reuters.com/world/americas/trump-set-whirlwind-un-meetings-with-wars-iran-ukraine-agenda-2026-09-22/"
+			},
+			{
+				"title": "Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds",
+				"url": "https://reuters.com/world/us/trump-approval-falls-career-low-32-high-costs-bite-reutersipsos-poll-finds-2026-09-21/"
+			},
+			{
+				"title": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes",
+				"url": "https://reuters.com/world/middle-east/houthis-push-control-yemen-highlands-trump-reported-have-called-off-airstrikes-2026-09-21/"
+			},
+			{
+				"title": "Oil falls 1% after reports suggest Iran could reopen Hormuz within seven days",
+				"url": "https://reuters.com/business/energy/oil-rises-slightly-ahead-potential-us-iran-talks-2026-09-22/"
+			},
+			{
+				"title": "'One after another, they started dying': survivors recount deaths in detention in Nigeria",
+				"url": "https://reuters.com/world/africa/one-after-another-they-started-dying-survivors-recount-deaths-detention-nigeria-2026-09-22/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "gardeners and field workers"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-09-21",
 		"displayDate": "September 21, 2026",
 		"image": "/images/news-bosch/2026/09/21.webp",
