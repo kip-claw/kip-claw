@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-09-23",
+		"displayDate": "September 23, 2026",
+		"image": "/images/news-bosch/2026/09/23.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-23T09:07:02.434607Z",
+		"sourceRetrievedAt": "2026-09-23T09:00:43.141503Z",
+		"themes": [
+			{
+				"name": "Drums Against Diplomacy",
+				"interpretation": "Threats of annihilation turn negotiations into a precarious contest between military force and an urgently sought agreement.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "The Theater of Shame",
+				"interpretation": "Public denunciations and demands to abandon international courts reveal diplomacy staged as spectacle rather than cooperation.",
+				"storyRanks": [3, 5]
+			},
+			{
+				"name": "Law Takes Root",
+				"interpretation": "A court ruling asserts that commercial privilege remains planted inside the soil of domestic law.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Broken Command Strings",
+				"interpretation": "Data theft and military purges expose institutions whose hidden structures can be severed from within.",
+				"storyRanks": [4, 6]
+			},
+			{
+				"name": "Pipelines and Barriers",
+				"interpretation": "Energy routes reopen while access to health coverage, ownership, and Arctic territory remains controlled by gates and contested boundaries.",
+				"storyRanks": [7, 8, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump threatens to annihilate Iran as diplomats push for deal at UN",
+				"url": "https://reuters.com/world/middle-east/tehran-hints-hormuz-talks-with-us-leaders-gather-un-2026-09-22/"
+			},
+			{
+				"title": "Indian court rejects Adani plea that duty-free shops are beyond domestic laws",
+				"url": "https://reuters.com/world/india/indian-court-rejects-adani-plea-that-duty-free-shops-are-beyond-domestic-laws-2026-09-23/"
+			},
+			{
+				"title": "In UN farewell, Macron denounces Trump's Gaza diplomacy as spectacle of shame",
+				"url": "https://reuters.com/world/europe/un-farewell-macron-denounces-trumps-gaza-diplomacy-spectacle-shame-2026-09-22/"
+			},
+			{
+				"title": "ShinyHunters hackers say they breached FBI, stole data on bureau\u00a0employees",
+				"url": "https://reuters.com/world/shinyhunters-hackers-say-they-breached-federal-bureau-investigation-no-immediate-2026-09-22/"
+			},
+			{
+				"title": "Trump calls on all ICC\u00a0members to resign immediately",
+				"url": "https://reuters.com/world/china/trump-calls-all-icc-members-resign-immediately-2026-09-22/"
+			},
+			{
+				"title": "China's purges of top military commanders spur questions about war-waging ability",
+				"url": "https://reuters.com/business/aerospace-defense/chinas-purges-top-military-commanders-spur-questions-about-war-waging-ability-2026-09-23/"
+			},
+			{
+				"title": "Saudi Arabia restarts East-West oil pipeline, sources say",
+				"url": "https://reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/"
+			},
+			{
+				"title": "US halts Obamacare enrollment for over 760,000 enrollees, claiming fraud",
+				"url": "https://reuters.com/legal/government/us-says-it-canceled-315000-obamacare-policies-last-month-2026-09-22/"
+			},
+			{
+				"title": "UK's Pollen Street has weighed options including sale, sources say",
+				"url": "https://reuters.com/legal/transactional/uks-pollen-street-has-weighed-options-including-sale-sources-say-2026-09-23/"
+			},
+			{
+				"title": "US, Greenland, Denmark sign deal in bid to end Arctic standoff",
+				"url": "https://reuters.com/world/europe/trump-denmark-greenland-sign-deal-bid-end-arctic-standoff-2026-09-22/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "merchants and market keepers"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"theaters, masks, puppets, curtains, and processions",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-09-22",
 		"displayDate": "September 22, 2026",
 		"image": "/images/news-bosch/2026/09/22.webp",
