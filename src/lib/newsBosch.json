@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-09-24",
+		"displayDate": "September 24, 2026",
+		"image": "/images/news-bosch/2026/09/24.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-24T10:09:45.861078Z",
+		"sourceRetrievedAt": "2026-09-24T10:02:25.326858Z",
+		"themes": [
+			{
+				"name": "The Unbarred Press Door",
+				"interpretation": "A ruling turns a blocked threshold back into a passage, making access the day's clearest contest.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Curtains at the Trade Table",
+				"interpretation": "A high-profile summit unfolds as a split-screen performance, with rare-earth leverage hanging over hopes of a deal.",
+				"storyRanks": [2, 3, 8]
+			},
+			{
+				"name": "The Breached Kitchen Window",
+				"interpretation": "Digital agents and ambitious gadgets blur the line between useful tools and unexpected openings into public systems.",
+				"storyRanks": [4, 7]
+			},
+			{
+				"name": "Bowls at the Flooded Table",
+				"interpretation": "Stalled diplomacy, rising oil, political spectacle, and squeezed commissions crowd a table where every side feels shortchanged.",
+				"storyRanks": [5, 6, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Judge blocks Trump's White House media ban, orders access to be restored",
+				"url": "https://reuters.com/world/judge-lifts-trumps-white-house-ban-cnn-ms-now-politico-2026-09-24/"
+			},
+			{
+				"title": "Trump welcomes Xi to Washington looking for a trade win",
+				"url": "https://reuters.com/world/china/trump-welcomes-xi-washington-looking-trade-win-2026-09-24/"
+			},
+			{
+				"title": "A diplomatic split screen as Trump and Xi meet",
+				"url": "https://reuters.com/world/china/diplomatic-split-screen-trump-xi-meet-2026-09-24/"
+			},
+			{
+				"title": "Australia says OpenAI agent hacked government website, checks for more breaches",
+				"url": "https://reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/"
+			},
+			{
+				"title": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender",
+				"url": "https://reuters.com/world/middle-east/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/"
+			},
+			{
+				"title": "Oil extends gains on little sign of progress in US-Iran talks",
+				"url": "https://reuters.com/business/energy/oil-prices-edge-lower-iran-says-it-is-open-diplomacy-end-war-2026-09-24/"
+			},
+			{
+				"title": "Meta's Charm gadget carries CEO Zuckerberg's big AI ambitions",
+				"url": "https://reuters.com/business/media-telecom/metas-charm-gadget-carries-ceo-zuckerbergs-big-ai-ambitions-2026-09-24/"
+			},
+			{
+				"title": "China's rare earths dominance to overshadow Trump's talks with Xi",
+				"url": "https://reuters.com/world/china/chinas-rare-earths-dominance-overshadow-trumps-talks-with-xi-2026-09-24/"
+			},
+			{
+				"title": "Netanyahu expected to berate New York's Mamdani in 'campaign speech' of UN address",
+				"url": "https://reuters.com/world/middle-east/netanyahu-expected-berate-new-yorks-mamdani-campaign-speech-un-address-2026-09-24/"
+			},
+			{
+				"title": "India insurance reform tanks distributors with commission squeeze",
+				"url": "https://reuters.com/legal/litigation/india-insurance-reform-plan-tanks-distribution-linked-shares-threat-income-2026-09-24/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-09-23",
 		"displayDate": "September 23, 2026",
 		"image": "/images/news-bosch/2026/09/23.webp",
