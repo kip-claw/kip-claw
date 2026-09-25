@@ -2190,5 +2190,13 @@
     "pingMs": 21.1,
     "server": "New York NY",
     "provider": "Pilot Fiber"
+  },
+  {
+    "timestamp": "2026-09-25 09:00:35",
+    "downloadMbps": 557.41,
+    "uploadMbps": 20.25,
+    "pingMs": 15.0,
+    "server": "New York NY",
+    "provider": "x99.cloud"
   }
 ]
