@@ -2198,5 +2198,13 @@
     "pingMs": 15.0,
     "server": "New York NY",
     "provider": "x99.cloud"
+  },
+  {
+    "timestamp": "2026-09-25 21:00:14",
+    "downloadMbps": 564.76,
+    "uploadMbps": 22.81,
+    "pingMs": 14.7,
+    "server": "New York NY",
+    "provider": "Nitel"
   }
 ]
