@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-09-26",
+		"displayDate": "September 26, 2026",
+		"image": "/images/news-bosch/2026/09/26.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-26T09:34:21.417502Z",
+		"sourceRetrievedAt": "2026-09-26T09:29:40.031602Z",
+		"themes": [
+			{
+				"name": "Peace Behind the Curtain",
+				"interpretation": "Iran\u2019s refusal to make nuclear concessions and the reported rejection of a peace plan frame diplomacy as a theater of pressure with uncertain limits.",
+				"storyRanks": [1, 5, 8]
+			},
+			{
+				"name": "Grafts Across the Divide",
+				"interpretation": "A tariff-cut agreement and planned AI dialogue suggest rival powers can still graft practical cooperation onto a strained diplomatic relationship.",
+				"storyRanks": [5, 6]
+			},
+			{
+				"name": "Floodwater Through Ruins",
+				"interpretation": "Bangkok\u2019s flooding and the deadly Athens building explosion make cities seem vulnerable to forces that reshape streets and dwellings overnight.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "The Leaking Puppet Ledger",
+				"interpretation": "An emerging data leak and a bid to withhold approved funds turn questions of oversight into a struggle over who controls hidden mechanisms.",
+				"storyRanks": [4, 7]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran awaits US move after WSJ report says Trump rejects peace plan",
+				"url": "https://reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
+			},
+			{
+				"title": "Thai capital Bangkok declared disaster zone amid flooding",
+				"url": "https://reuters.com/business/environment/thai-capital-bangkok-declared-disaster-zone-amid-flooding-2026-09-26/"
+			},
+			{
+				"title": "One dead, 5 missing after explosion destroys building in Athens",
+				"url": "https://reuters.com/world/one-dead-5-missing-after-explosion-destroys-building-athens-2026-09-26/"
+			},
+			{
+				"title": "OpenAI works to understand full scope of agent activity as user data leak emerges",
+				"url": "https://reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/"
+			},
+			{
+				"title": "How Trump's diplomatic week exposed the limits of his power",
+				"url": "https://reuters.com/world/china/how-trumps-diplomatic-week-exposed-limits-his-power-2026-09-25/"
+			},
+			{
+				"title": "China, US agree to $30 billion tariff cut, AI dialogue during Xi visit, China foreign ministry says",
+				"url": "https://reuters.com/world/china/china-us-agree-30-billion-tariff-cut-ai-dialogue-during-xi-visit-2026-09-26/"
+			},
+			{
+				"title": "Trump seeks to withhold $800 million in Congress-approved funds",
+				"url": "https://reuters.com/legal/government/trump-seeks-withhold-800-million-congress-approved-funds-2026-09-26/"
+			},
+			{
+				"title": "Iran will make no nuclear concessions, Iranian official says",
+				"url": "https://reuters.com/world/middle-east/iran-will-make-no-nuclear-concessions-iranian-official-says-2026-09-25/"
+			},
+			{
+				"title": "Photos of the week",
+				"url": "https://reuters.com/pictures/photos-week-2026-09-24/"
+			},
+			{
+				"title": "Photos of the week",
+				"url": "https://reuters.com/pictures/photos-week-2026-09-24/?utm_source=firefox-newtab-en-us"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "masked magistrates"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-09-24",
 		"displayDate": "September 24, 2026",
 		"image": "/images/news-bosch/2026/09/24.webp",
