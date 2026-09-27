@@ -2214,5 +2214,13 @@
     "pingMs": 15.9,
     "server": "New York NY",
     "provider": "Tata Communications"
+  },
+  {
+    "timestamp": "2026-09-26 21:00:14",
+    "downloadMbps": 540.73,
+    "uploadMbps": 22.89,
+    "pingMs": 14.1,
+    "server": "New York NY",
+    "provider": "Starry Inc."
   }
 ]
