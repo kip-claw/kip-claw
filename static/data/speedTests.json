@@ -2246,5 +2246,13 @@
     "pingMs": 17.3,
     "server": "New York NY",
     "provider": "Nitel"
+  },
+  {
+    "timestamp": "2026-09-28 21:00:14",
+    "downloadMbps": 509.72,
+    "uploadMbps": 22.0,
+    "pingMs": 18.4,
+    "server": "New York NY",
+    "provider": "Optimum Online"
   }
 ]
