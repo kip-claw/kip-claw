@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-09-29",
+		"displayDate": "September 29, 2026",
+		"image": "/images/news-bosch/2026/09/29.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-29T09:06:03.504006Z",
+		"sourceRetrievedAt": "2026-09-29T09:00:46.974952Z",
+		"themes": [
+			{
+				"name": "The Costly Oracle",
+				"interpretation": "An ambitious artificial intelligence vision advances like a grand performance, shadowed by mounting costs and warnings of existential danger.",
+				"storyRanks": [1, 4]
+			},
+			{
+				"name": "A Procession of Negotiations",
+				"interpretation": "As US forces leave Iraq, rival signals and mediated talks form a fragile procession repeatedly interrupted by uncertainty over Iran.",
+				"storyRanks": [2, 3, 5]
+			},
+			{
+				"name": "Choked Routes to Supply",
+				"interpretation": "Flood disruption and energy anxieties reveal how fragile transport and fuel networks remain, even as a refinery project presses ahead.",
+				"storyRanks": [6, 7, 8]
+			},
+			{
+				"name": "Engines of Escalation",
+				"interpretation": "Rising military budgets and a rocket\u2019s brief orbital debut turn the global procession toward spectacle, power, and uncertain endings.",
+				"storyRanks": [9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Anthropic's IPO prospectus shows sweeping AI vision, surging costs",
+				"url": "https://reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/"
+			},
+			{
+				"title": "US forces exit Iraq after two decades, leaving opening for Iran",
+				"url": "https://reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/"
+			},
+			{
+				"title": "Trump denies offering Iran sanctions relief, Tehran says ready for talks",
+				"url": "https://reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+			},
+			{
+				"title": "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing",
+				"url": "https://reuters.com/business/finance/anthropic-warns-ai-may-pose-existential-risks-humanity-ipo-filing-2026-09-29/"
+			},
+			{
+				"title": "US, Iran separately talk with mediators in latest bid to end war",
+				"url": "https://reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+			},
+			{
+				"title": "Thai Airways cuts flights, battles baggage chaos as Bangkok floods ease",
+				"url": "https://reuters.com/business/environment/thailand-expects-clear-bangkok-floodwater-two-three-days-government-says-2026-09-29/"
+			},
+			{
+				"title": "Oil prices rise for second session on continued Middle East supply concerns",
+				"url": "https://reuters.com/business/energy/oil-prices-rise-second-session-continued-middle-east-supply-concern-2026-09-29/"
+			},
+			{
+				"title": "Dangote says Kenya court ruling won't halt refinery launch but may affect site activities",
+				"url": "https://reuters.com/business/energy/dangote-says-kenya-court-ruling-wont-halt-refinery-launch-may-affect-site-2026-09-29/"
+			},
+			{
+				"title": "Russia raises 2027 military spending by 27%, budget documents show",
+				"url": "https://reuters.com/world/russia-raises-2027-military-spending-by-27-budget-documents-show-2026-09-28/"
+			},
+			{
+				"title": "SpaceX's Starship makes orbital debut deploying Starlinks before early ending",
+				"url": "https://reuters.com/business/media-telecom/spacexs-starship-launches-14th-flight-first-headed-orbit-2026-09-28/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "merchants and market keepers"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"theaters, masks, puppets, curtains, and processions",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-09-28",
 		"displayDate": "September 28, 2026",
 		"image": "/images/news-bosch/2026/09/28.webp",
