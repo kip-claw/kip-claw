@@ -2270,5 +2270,13 @@
     "pingMs": 17.0,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-09-30 09:00:35",
+    "downloadMbps": 578.39,
+    "uploadMbps": 22.76,
+    "pingMs": 15.6,
+    "server": "New York NY",
+    "provider": "Optimum Online"
   }
 ]
