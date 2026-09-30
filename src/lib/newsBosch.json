@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-09-30",
+		"displayDate": "September 30, 2026",
+		"image": "/images/news-bosch/2026/09/30.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-09-30T09:06:42.682918Z",
+		"sourceRetrievedAt": "2026-09-30T09:00:41.927579Z",
+		"themes": [
+			{
+				"name": "The Sky Turns Back",
+				"interpretation": "A flight meant for Israel is redirected to Saudi Arabia after conflict in the cockpit, turning a route into a reversal.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "The Well Changes Hands",
+				"interpretation": "As US forces leave Iraq, oil revenues and competing plans make the opening left behind a contested channel of influence.",
+				"storyRanks": [3, 4, 6, 8, 9]
+			},
+			{
+				"name": "The Garden Learns a Price",
+				"interpretation": "AI promises new growth and safety even as its costs, data-center expansion, and automated pricing reshape the bargain.",
+				"storyRanks": [5, 7, 10]
+			},
+			{
+				"name": "A Clock Counts Two Centuries",
+				"interpretation": "Tennessee\u2019s planned execution of a woman for the first time in two centuries makes a long interval end in an irreversible act.",
+				"storyRanks": [2]
+			}
+		],
+		"stories": [
+			{
+				"title": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says",
+				"url": "https://reuters.com/world/middle-east/diverted-flydubai-flight-israel-was-not-hijacking-incident-israeli-prime-2026-09-30/"
+			},
+			{
+				"title": "Tennessee set to execute a woman for the first time in two centuries",
+				"url": "https://reuters.com/world/us/tennessee-due-execute-woman-first-time-two-centuries-2026-09-30/"
+			},
+			{
+				"title": "Iran receives US feedback on seven-day trust-building plan",
+				"url": "https://reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+			},
+			{
+				"title": "Iran appeals to US voters as American troops leave Iraq",
+				"url": "https://reuters.com/world/us/iran-appeals-us-voters-american-troops-leave-iraq-2026-09-30/"
+			},
+			{
+				"title": "Anthropic's IPO prospectus shows sweeping AI vision, surging costs",
+				"url": "https://reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/"
+			},
+			{
+				"title": "How the US controls Iraq's oil revenues",
+				"url": "https://reuters.com/business/energy/how-us-controls-iraqs-oil-revenues-2026-09-30/"
+			},
+			{
+				"title": "Inside McDonald\u2019s push to have AI price your Big Mac",
+				"url": "https://reuters.com/business/inside-mcdonalds-push-have-ai-price-your-big-mac-2026-09-29/"
+			},
+			{
+				"title": "US forces exit Iraq, emboldening Iran's proxies and Islamic State",
+				"url": "https://reuters.com/world/us-forces-exit-iraq-emboldening-irans-proxies-islamic-state-2026-09-30/"
+			},
+			{
+				"title": "US forces exit Iraq after two decades, leaving opening for Iran",
+				"url": "https://reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/"
+			},
+			{
+				"title": "Trump, AI CEOs sign voluntary safety pact, back data center expansion",
+				"url": "https://reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "gardeners and field workers"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"vessels, canals, wells, floods, and bridges",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-09-29",
 		"displayDate": "September 29, 2026",
 		"image": "/images/news-bosch/2026/09/29.webp",
