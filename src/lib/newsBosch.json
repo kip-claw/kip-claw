@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-10-01",
+		"displayDate": "October 1, 2026",
+		"image": "/images/news-bosch/2026/10/01.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-01T09:06:01.439430Z",
+		"sourceRetrievedAt": "2026-10-01T09:00:45.155910Z",
+		"themes": [
+			{
+				"name": "The Loom Turns Pilot",
+				"interpretation": "A co-pilot\u2019s attack becomes a passenger-and-pilot rescue, while a textile engineer\u2019s craft echoes through the cockpit as a pattern of danger reversed.",
+				"storyRanks": [1, 3]
+			},
+			{
+				"name": "The Unfinished Threshold",
+				"interpretation": "Violence presses against a city and a death chamber, but survival leaves both stories suspended at the brink rather than resolved.",
+				"storyRanks": [2, 4]
+			},
+			{
+				"name": "The Drying Fuel Mill",
+				"interpretation": "Export suspensions and stockpile demands turn fuel into a contested resource, while falling Indian benchmarks suggest the wider machinery of trade is losing momentum.",
+				"storyRanks": [5, 6, 7]
+			},
+			{
+				"name": "The Island Labyrinth",
+				"interpretation": "Diplomatic replies, troop withdrawals, and competing assessments of Taiwan\u2019s risk form a maze where ships and powers approach one another while their next moves remain hidden.",
+				"storyRanks": [8, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Passengers foil bid to crash Dubai-Tel Aviv flight, Israel says, after co-pilot stabs pilot",
+				"url": "https://reuters.com/world/middle-east/diverted-flydubai-flight-israel-was-not-hijacking-incident-israeli-prime-2026-09-30/"
+			},
+			{
+				"title": "Explosions heard overnight in Ethiopia's capital, diplomatic sources say",
+				"url": "https://reuters.com/world/africa/explosions-heard-overnight-ethiopias-capital-diplomatic-sources-say-2026-10-01/"
+			},
+			{
+				"title": "From textile engineering to cockpit hero: Indian pilot wins praise after flydubai drama",
+				"url": "https://reuters.com/world/textile-engineering-cockpit-hero-indian-pilot-wins-praise-after-flydubai-drama-2026-10-01/"
+			},
+			{
+				"title": "Tennessee death row inmate Christa Pike survives execution attempt",
+				"url": "https://reuters.com/world/us/tennessee-due-execute-woman-first-time-two-centuries-2026-09-30/"
+			},
+			{
+				"title": "Chinese refiners suspend October fuel exports, one cancels cargoes, sources say",
+				"url": "https://reuters.com/business/energy/chinese-refiners-suspend-oct-fuel-exports-petrochina-cancels-cargoes-sources-say-2026-10-01/"
+			},
+			{
+				"title": "Indian share benchmarks set for longest weekly losing run in 25 years",
+				"url": "https://reuters.com/world/india/india-shares-head-negative-open-foreign-outflows-offset-oil-relief-2026-10-01/"
+			},
+			{
+				"title": "US tells France and Germany to release diesel stocks or face US export ban, sources say",
+				"url": "https://reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+			},
+			{
+				"title": "Iran says it receives US response to latest proposal as Washington pulls out of Iraq",
+				"url": "https://reuters.com/world/us/iran-appeals-us-voters-american-troops-leave-iraq-2026-09-30/"
+			},
+			{
+				"title": "Philippines sends largest ship, aircraft to drive away Chinese vessel in waters near Taiwan",
+				"url": "https://reuters.com/world/china/philippines-sends-largest-ship-aircraft-drive-away-chinese-vessel-waters-near-2026-10-01/"
+			},
+			{
+				"title": "US sees Chinese invasion of Taiwan unlikely next year despite 2027 timeline, sources say",
+				"url": "https://reuters.com/world/china/us-sees-chinese-invasion-taiwan-unlikely-next-year-despite-2027-timeline-sources-2026-10-01/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "courtiers and heralds"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-09-30",
 		"displayDate": "September 30, 2026",
 		"image": "/images/news-bosch/2026/09/30.webp",
