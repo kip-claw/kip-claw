@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-02",
+		"displayDate": "October 2, 2026",
+		"image": "/images/news-bosch/2026/10/02.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-02T09:06:05.991436Z",
+		"sourceRetrievedAt": "2026-10-02T09:00:46.434095Z",
+		"themes": [
+			{
+				"name": "The Cockpit Becomes a Stage",
+				"interpretation": "A violent attempt to seize a plane collides with passengers and pilots who turn a watched lesson into a real-time act of resistance.",
+				"storyRanks": [2, 5, 7, 9, 10]
+			},
+			{
+				"name": "Fuel Beneath the Starshield",
+				"interpretation": "Energy pressure and military rearmament cast strategic bargaining as a contest over what keeps nations moving and protected.",
+				"storyRanks": [1, 8]
+			},
+			{
+				"name": "Schoolyards Behind Curtains",
+				"interpretation": "Mass closures and protests reveal public education as a contested stage where civic demands and violence meet.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Life After the Sentence",
+				"interpretation": "Survival after an execution places the machinery of punishment beside the fragile possibility of care.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "A Ban Lifted in Appeal",
+				"interpretation": "A successful challenge to a charity trustee ban turns institutional judgment into a public reversal.",
+				"storyRanks": [4]
+			}
+		],
+		"stories": [
+			{
+				"title": "US tells France and Germany to release diesel stocks or face US export ban, sources say",
+				"url": "https://reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+			},
+			{
+				"title": "Passengers foil bid to crash Dubai-Tel Aviv flight, Israel says, after co-pilot stabs pilot",
+				"url": "https://reuters.com/world/middle-east/diverted-flydubai-flight-israel-was-not-hijacking-incident-israeli-prime-2026-09-30/"
+			},
+			{
+				"title": "Christa Pike getting 'life-saving medical care' after surviving Tennessee execution",
+				"url": "https://reuters.com/world/us/tennessee-governor-calls-failed-christa-pike-execution-tragedy-2026-10-01/"
+			},
+			{
+				"title": "Supermodel Naomi Campbell wins appeal against charity trustee ban",
+				"url": "https://reuters.com/world/uk/supermodel-naomi-campbell-wins-appeal-against-charity-trustee-ban-2026-10-01/"
+			},
+			{
+				"title": "Israeli passenger says he knew what to do on flydubai plane after watching TV show",
+				"url": "https://reuters.com/world/middle-east/israeli-passenger-says-he-knew-what-do-flydubai-plane-after-watching-tv-show-2026-10-01/"
+			},
+			{
+				"title": "About 400 French schools closed as some student protests turn violent",
+				"url": "https://reuters.com/world/about-400-french-schools-closed-some-student-protests-turn-violent-2026-10-02/"
+			},
+			{
+				"title": "Indian pilot tells PM Modi he opened flydubai cockpit door during attack",
+				"url": "https://reuters.com/world/indian-pilot-tells-pm-modi-he-opened-flydubai-cockpit-door-during-attack-2026-10-02/"
+			},
+			{
+				"title": "Taiwan's first new F-16V fighter jets arrive to bolster defences against China",
+				"url": "https://reuters.com/business/aerospace-defense/first-new-f-16v-fighter-jets-arrive-taiwan-bolster-defences-against-china-2026-10-02/"
+			},
+			{
+				"title": "Israel's Netanyahu:\u00a0Co-pilot of flydubai plane underwent radical Islamist indoctrination",
+				"url": "https://reuters.com/world/middle-east/israel-vows-get-root-flydubai-attack-uae-launches-investigation-2026-10-01/"
+			},
+			{
+				"title": "From textile engineering to cockpit hero: Indian pilot wins praise after flydubai drama",
+				"url": "https://reuters.com/world/textile-engineering-cockpit-hero-indian-pilot-wins-praise-after-flydubai-drama-2026-10-01/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-10-01",
 		"displayDate": "October 1, 2026",
 		"image": "/images/news-bosch/2026/10/01.webp",
