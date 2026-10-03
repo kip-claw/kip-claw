@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-10-03",
+		"displayDate": "October 3, 2026",
+		"image": "/images/news-bosch/2026/10/03.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-03T09:06:21.773387Z",
+		"sourceRetrievedAt": "2026-10-03T09:00:42.299163Z",
+		"themes": [
+			{
+				"name": "Passages Under Siege",
+				"interpretation": "Routes promised as lifelines become contested thresholds where force decides who can pass.",
+				"storyRanks": [1, 2, 6]
+			},
+			{
+				"name": "Relief on a Ticking Clock",
+				"interpretation": "Promises of money and fuel offer passage through scarcity even as the resources behind them run low.",
+				"storyRanks": [3, 8, 10]
+			},
+			{
+				"name": "The Canal's Stranded Pilgrim",
+				"interpretation": "A rescue that stalls leaves a living creature trapped between open water and an engineered channel.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "Thresholds of Reckoning",
+				"interpretation": "Students, campuses, and public memory confront histories and cultures that institutions cannot simply pass by.",
+				"storyRanks": [4, 5, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Saudis plan assault on Houthis to break Red Sea chokehold",
+				"url": "https://reuters.com/world/asia-pacific/saudis-plan-assault-houthis-break-red-sea-chokehold-2026-10-02/"
+			},
+			{
+				"title": "Flydubai co-pilot attacked pilot with axe, attempted 'terrorist attack', UAE says",
+				"url": "https://reuters.com/business/aerospace-defense/flydubai-co-pilot-attacked-pilot-with-axe-attempted-terrorist-attack-uae-says-2026-10-03/"
+			},
+			{
+				"title": "Trump says US to send one-time $90 payment to 20 million seniors enrolled in Medicare",
+				"url": "https://reuters.com/world/trump-says-us-send-one-time-90-payment-20-million-seniors-enrolled-medicare-2026-10-03/"
+			},
+			{
+				"title": "No apology but King Charles will not shy away from slavery issue during Caribbean tour, Buckingham Palace says",
+				"url": "https://reuters.com/world/uk/king-charles-will-not-shy-away-slavery-issue-during-caribbean-tour-buckingham-2026-10-02/"
+			},
+			{
+				"title": "High school students in Paris' deprived suburbs spark national protest movement",
+				"url": "https://reuters.com/world/high-school-students-paris-deprived-suburbs-spark-national-protest-movement-2026-10-03/"
+			},
+			{
+				"title": "Pro-government forces say they retake airport in Ethiopia's Tigray region",
+				"url": "https://reuters.com/world/africa/pro-government-forces-say-they-retake-airport-ethiopias-tigray-region-2026-10-03/"
+			},
+			{
+				"title": "Shark remains stranded in South Korean canal after second rescue attempt ends",
+				"url": "https://reuters.com/business/environment/shark-remains-stranded-south-korean-canal-after-second-rescue-attempt-ends-2026-10-02/"
+			},
+			{
+				"title": "G7 countries agree on release of diesel and oil stocks after US pressure",
+				"url": "https://reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"
+			},
+			{
+				"title": "At Cornell, rape allegations spark outrage, soul-searching over campus culture",
+				"url": "https://reuters.com/legal/government/cornell-rape-allegations-spark-outrage-soul-searching-over-campus-culture-2026-10-02/"
+			},
+			{
+				"title": "AI's race to transform the world before the money runs out",
+				"url": "https://reuters.com/business/retail-consumer/ais-race-transform-world-before-money-runs-out-2026-10-03/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "merchants and market keepers"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"vessels, canals, wells, floods, and bridges",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-10-02",
 		"displayDate": "October 2, 2026",
 		"image": "/images/news-bosch/2026/10/02.webp",
