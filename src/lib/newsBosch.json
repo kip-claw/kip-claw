@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-06",
+		"displayDate": "October 6, 2026",
+		"image": "/images/news-bosch/2026/10/06.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-06T09:07:37.215335Z",
+		"sourceRetrievedAt": "2026-10-06T09:00:49.669433Z",
+		"themes": [
+			{
+				"name": "Signals Behind the Curtain",
+				"interpretation": "Scientific discovery and sudden disappearances in data and trade show how much power now lies in what can be seen\u2014or concealed.",
+				"storyRanks": [8, 9, 10]
+			},
+			{
+				"name": "Quarantine at the Wells",
+				"interpretation": "Fatal outbreaks and emergency isolation turn distant laboratories and borders into fragile barriers against contagion.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "A Strait Under Guard",
+				"interpretation": "Control of a narrow passage becomes a contest over who can move through\u2014and who can be held back.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Ballots and Empty Bowls",
+				"interpretation": "Political influence without a name on the ballot meets promises of cuts as financial confidence drains away.",
+				"storyRanks": [4, 6]
+			},
+			{
+				"name": "Orders in the Open Square",
+				"interpretation": "Threats and state violence push the day's tensions toward a crowded spectacle of force.",
+				"storyRanks": [5, 7]
+			}
+		],
+		"stories": [
+			{
+				"title": "Kenya confirms first Ebola case imported from Congo, patient has died",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/kenya-confirms-first-ebola-case-imported-congo-patient-has-died-2026-10-06/"
+			},
+			{
+				"title": "Dozens quarantined in Siberia after plague institute lab worker dies",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/dozens-quarantined-siberia-after-plague-institute-lab-worker-dies-2026-10-05/"
+			},
+			{
+				"title": "Yemeni government forces seize strategic strait from Houthis",
+				"url": "https://reuters.com/world/yemeni-government-forces-seize-district-by-bab-el-mandeb-military-sources-say-2026-10-05/"
+			},
+			{
+				"title": "Brazil ex-President Bolsonaro wins big without his name on the ballot",
+				"url": "https://reuters.com/world/americas/brazil-ex-president-bolsonaro-wins-big-without-his-name-ballot-2026-10-06/"
+			},
+			{
+				"title": "Trump orders firing squad for gunman who killed 13 people at Fort Hood, Texas",
+				"url": "https://reuters.com/world/us/trump-orders-firing-squad-gunman-who-killed-13-people-fort-hood-texas-2026-10-06/"
+			},
+			{
+				"title": "Far right presidential frontrunner Le Pen to pitch budget cuts as French bonds bomb",
+				"url": "https://reuters.com/business/far-right-presidential-frontrunner-le-pen-pitch-budget-cuts-french-bonds-bomb-2026-10-06/"
+			},
+			{
+				"title": "Trump says US bombers moved from UK due to threats",
+				"url": "https://reuters.com/world/uk/us-removes-b-1-bombers-uk-base-amid-security-concerns-2026-10-04/"
+			},
+			{
+				"title": "US and German scientists win Nobel medicine prize for work on light and brain",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/deisseroth-hegemann-nagelwin-2026-nobel-medicine-prize-2026-10-05/"
+			},
+			{
+				"title": "Accenture contractor removed from FBI following damaging data breach, sources say",
+				"url": "https://reuters.com/technology/accenture-contractor-removed-fbi-following-damaging-data-breach-sources-say-2026-10-06/"
+			},
+			{
+				"title": "The US said China was priming a trade superweapon. Then it vanished.",
+				"url": "https://reuters.com/business/media-telecom/us-said-china-was-priming-trade-superweapon-then-it-vanished-2026-10-05/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-10-05",
 		"displayDate": "October 5, 2026",
 		"image": "/images/news-bosch/2026/10/05.webp",
