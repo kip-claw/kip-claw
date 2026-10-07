@@ -133,136 +133,17 @@
   ],
   "humidityReadings": [
     {
-      "date": "2026-08-19",
-      "time": "18:16",
-      "rh": "67",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-08-15",
-      "time": "18:33",
-      "rh": "67",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-05-22",
-      "time": "18:35",
-      "rh": "67",
-      "temperatureF": "",
-      "notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
-    },
-    {
-      "date": "2026-05-15",
-      "time": "",
-      "rh": "62",
-      "temperatureF": "",
-      "notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
-    },
-    {
-      "date": "2026-05-09",
-      "time": "15:54",
-      "rh": "64",
-      "temperatureF": "",
-      "notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
-    },
-    {
-      "date": "2026-04-08",
-      "time": "",
-      "rh": "64",
-      "temperatureF": "",
-      "notes": "Yesterday - loaded two new 72\u00b0 Boveda packs"
-    },
-    {
-      "date": "2026-04-10",
-      "time": "21:01",
-      "rh": "62",
-      "temperatureF": "",
-      "notes": "Fresh reading"
-    },
-    {
-      "date": "2026-04-18",
-      "time": "19:00",
-      "rh": "71",
-      "temperatureF": "",
-      "notes": "First reading over 70. Boveda packs still squishy."
-    },
-    {
-      "date": "2026-04-27",
-      "time": "",
-      "rh": "71",
-      "temperatureF": "",
-      "notes": "Recorded via Kip"
-    },
-    {
-      "date": "2026-05-01",
-      "time": "",
-      "rh": "70",
-      "temperatureF": "",
-      "notes": "Recorded via Kip"
-    },
-    {
-      "date": "2026-05-17",
-      "time": "16:36",
-      "rh": "65",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-05-29",
-      "time": "21:30",
-      "rh": "71",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-04",
-      "time": "21:38",
-      "rh": "70",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-08",
-      "time": "22:57",
-      "rh": "71",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-26",
-      "time": "",
-      "rh": "67",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-28",
-      "time": "",
+      "date": "2026-10-07",
+      "time": "19:18:43",
       "rh": "69",
-      "temperatureF": "",
+      "temperatureF": "73.1",
       "notes": ""
     },
     {
-      "date": "2026-07-12",
-      "time": "15:04",
+      "date": "2026-10-07",
+      "time": "19:36:29",
       "rh": "69",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-07-25",
-      "time": "13:21",
-      "rh": "70",
-      "temperatureF": "",
-      "notes": ""
-    },
-    {
-      "date": "2026-08-21",
-      "time": "12:00",
-      "rh": "70",
-      "temperatureF": "",
+      "temperatureF": "73.1",
       "notes": ""
     }
   ],
