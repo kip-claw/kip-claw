@@ -13,6 +13,7 @@ export type HumidityReading = {
 	date: string;
 	time: string;
 	rh: string;
+	temperatureF?: string;
 	notes: string;
 };
 
