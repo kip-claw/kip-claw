@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-10-07",
+		"displayDate": "October 7, 2026",
+		"image": "/images/news-bosch/2026/10/07.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-07T09:06:51.316233Z",
+		"sourceRetrievedAt": "2026-10-07T09:00:58.919250Z",
+		"themes": [
+			{
+				"name": "The Tightening Reservoir",
+				"interpretation": "Iran\u2019s enrichment standoff collides with oil markets already balancing threatened supply against exports and a nearly spent buffer.",
+				"storyRanks": [1, 5, 8]
+			},
+			{
+				"name": "Streets Beneath a Rising Dial",
+				"interpretation": "France\u2019s costly school protests and India\u2019s first rate hike in nearly four years make public strain and economic restraint sound together.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "Fire Across the Waterway",
+				"interpretation": "A burning tanker in the Black Sea and an attack on Aden airport turn vital passages into simultaneous scenes of danger and rescue.",
+				"storyRanks": [4, 7]
+			},
+			{
+				"name": "Bridges Under Pressure",
+				"interpretation": "A contested driverless-car approval, a newly visible military foothold, and rival pledges over Taiwan and Russia strain the structures of authority and alliance.",
+				"storyRanks": [6, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Vance says Iran must cut enrichment to end war",
+				"url": "https://reuters.com/world/interview-us-vice-president-vance-says-iran-must-cut-enrichment-end-war-2026-10-06/"
+			},
+			{
+				"title": "India joins global rate-tightening wave with first hike in nearly 4 years",
+				"url": "https://reuters.com/world/india/india-raises-policy-rate-by-25-bps-first-hike-nearly-four-years-2026-10-07/"
+			},
+			{
+				"title": "School protests sweeping France cause 'heaviest toll in decades'",
+				"url": "https://reuters.com/world/europe/france-braces-day-school-blockades-street-protests-2026-10-06/"
+			},
+			{
+				"title": "Russia says tanker crew rescued in Black Sea after attack set ship ablaze",
+				"url": "https://reuters.com/world/russia-says-tanker-crew-rescued-black-sea-after-attack-set-ship-ablaze-2026-10-06/"
+			},
+			{
+				"title": "Oil stable as higher Middle East exports offset supply threats",
+				"url": "https://reuters.com/business/energy/oil-prices-rise-storms-air-strikes-threaten-supply-2026-10-07/"
+			},
+			{
+				"title": "Tesla is browbeating the EU to approve its \u2018Full Self-Driving\u2019 tech. The pressure is working.",
+				"url": "https://reuters.com/investigations/tesla-is-browbeating-eu-approve-its-full-self-driving-tech-pressure-is-working-2026-10-07/"
+			},
+			{
+				"title": "Houthis attack Aden airport as fighting intensifies in Yemen",
+				"url": "https://reuters.com/world/middle-east/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies-2026-10-07/"
+			},
+			{
+				"title": "The world has nearly burned through its oil stockpile buffer, executives say",
+				"url": "https://reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/"
+			},
+			{
+				"title": "Attack aircraft, military vehicles visible at new China-Laos base, satellite images show",
+				"url": "https://reuters.com/world/asia-pacific/attack-aircraft-military-vehicles-visible-new-china-laos-base-satellite-images-2026-10-06/"
+			},
+			{
+				"title": "North Korea criticises US support for Taiwan, pledges backing for Russia",
+				"url": "https://reuters.com/business/aerospace-defense/north-korea-warns-us-over-taiwan-while-kim-pledges-support-russia-2026-10-06/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "masked magistrates"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-10-06",
 		"displayDate": "October 6, 2026",
 		"image": "/images/news-bosch/2026/10/06.webp",
