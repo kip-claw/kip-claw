@@ -3672,5 +3672,27 @@
     "notes": "The basic bagel stuff. Good but not a great storefront to hang at.",
     "lat": 40.7507644,
     "lng": -73.9767968
+  },
+  {
+    "name": "Lunetta",
+    "address": "245 3rd Ave, New York, NY 10010",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Standard slice shop. No frills. Good stop before night class at SVA on E. 21st Street for a garlicky grandma.",
+    "lat": 40.7369476,
+    "lng": -73.9841709
+  },
+  {
+    "name": "Lenz's",
+    "address": "514 E 20th St, New York, NY 10009",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Standard NYC bodega.",
+    "lat": 40.733604,
+    "lng": -73.97749999999999
   }
 ]
