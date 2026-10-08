@@ -23,12 +23,11 @@
 			chartId="humidity-chart"
 			heading="Humidity trend"
 			title="Relative humidity readings over time"
-			desc="Each reading is plotted as a dot showing RH%. The shaded band marks the target range. The line shows the 5-reading rolling average."
+			desc="A line traces relative humidity readings over time. The shaded band marks the target range."
 			axisTitle="RH%"
 		>
 			{#snippet legend()}
 				<span><i class="band"></i> Target range ({chart.targetMin}–{chart.targetMax}%)</span>
-				<span><i class="dot"></i> Reading</span>
 			{/snippet}
 
 			{#snippet background()}
@@ -36,11 +35,6 @@
 			{/snippet}
 
 			<path class="reading-line" d={chart.linePath} />
-			{#each chart.points as point}
-				<circle class="test-dot" cx={point.x} cy={point.y} r="5">
-					<title>{point.title}</title>
-				</circle>
-			{/each}
 		</ChartFrame>
 	{/if}
 </div>
@@ -48,14 +42,6 @@
 <style>
 	.chart-container {
 		min-height: 360px;
-	}
-
-	.dot {
-		width: 8px;
-		height: 8px;
-		border-radius: 999px;
-		background: var(--color-accent);
-		opacity: 1;
 	}
 
 	.band {
@@ -71,18 +57,10 @@
 		fill-opacity: 0.1;
 	}
 
-	.test-dot {
-		fill: var(--color-accent);
-		fill-opacity: 1;
-		stroke: var(--color-background);
-		stroke-width: 1;
-	}
-
 	.reading-line {
 		fill: none;
 		stroke: var(--color-accent);
 		stroke-width: 3;
-		stroke-opacity: 0.4;
 		stroke-linecap: round;
 		stroke-linejoin: round;
 	}

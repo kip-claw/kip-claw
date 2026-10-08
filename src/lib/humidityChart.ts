@@ -1,4 +1,4 @@
-import { extent, max } from 'd3-array';
+import { extent, max, min } from 'd3-array';
 import { scaleLinear, scaleTime } from 'd3-scale';
 import { area, line } from 'd3-shape';
 import { timeFormat } from 'd3-time-format';
@@ -11,14 +11,7 @@ type DatedReading = HumidityReading & {
 	rhValue: number;
 };
 
-type ChartPoint = {
-	x: number;
-	y: number;
-	title: string;
-};
-
 export type HumidityChartModel = ChartFrameModel & {
-	points: ChartPoint[];
 	linePath: string;
 	targetBandPath: string;
 	targetMin: number;
@@ -28,12 +21,6 @@ export type HumidityChartModel = ChartFrameModel & {
 const height = 360;
 const margin = { top: 26, right: 20, bottom: 52, left: 54 };
 const formatDate = timeFormat('%b %-d');
-const formatTimestamp = new Intl.DateTimeFormat('en-US', {
-	month: 'short',
-	day: 'numeric',
-	hour: 'numeric',
-	minute: '2-digit'
-});
 
 const TARGET_RH_MIN = 65;
 const TARGET_RH_MAX = 72;
@@ -53,7 +40,8 @@ export const buildHumidityChart = (
 
 	const dateExtent = extent(dated, (r) => r.parsedDate);
 	const maxRh = max(dated, (r) => r.rhValue) ?? 75;
-	const yMin = Math.min(TARGET_RH_MIN - 5, Math.min(...dated.map((r) => r.rhValue)) - 2);
+	const minRh = min(dated, (r) => r.rhValue) ?? TARGET_RH_MIN;
+	const yMin = Math.min(TARGET_RH_MIN - 5, minRh - 2);
 	const yMax = Math.max(maxRh, TARGET_RH_MAX) + 5;
 
 	const xScale = scaleTime()
@@ -88,11 +76,6 @@ export const buildHumidityChart = (
 		xTicks: xScale.ticks(4).map((tick) => ({
 			x: xScale(tick),
 			label: formatDate(tick)
-		})),
-		points: dated.map((r) => ({
-			x: xScale(r.parsedDate),
-			y: yScale(r.rhValue),
-			title: `${formatTimestamp.format(r.parsedDate)}: ${r.rhValue}% RH`
 		})),
 		linePath:
 			line<DatedReading>()
