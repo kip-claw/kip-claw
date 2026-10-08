@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-08",
+		"displayDate": "October 8, 2026",
+		"image": "/images/news-bosch/2026/10/08.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-08T09:07:08.314735Z",
+		"sourceRetrievedAt": "2026-10-08T09:00:47.740459Z",
+		"themes": [
+			{
+				"name": "Pipes Across a War",
+				"interpretation": "A proposed gas route and anxious oil markets turn Europe\u2019s energy lifelines into channels exposed to conflict.",
+				"storyRanks": [1, 5, 9]
+			},
+			{
+				"name": "Airports Under Fire",
+				"interpretation": "Missile claims and deadly airport attacks make the region\u2019s gateways ring like alarms amid escalating violence.",
+				"storyRanks": [4, 6, 5]
+			},
+			{
+				"name": "Doors and Detentions",
+				"interpretation": "As Indian lawmakers protest and Washington opens talks with Myanmar\u2019s generals, political access swings between a locked gate and a newly opened door.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "Routes Under Watch",
+				"interpretation": "A militia boat near Taiwan and civilians risking a deadly road in Ukraine reveal how movement itself becomes perilous and contested.",
+				"storyRanks": [7, 9]
+			},
+			{
+				"name": "The Cut and the Halt",
+				"interpretation": "Job losses and a failed execution expose institutions that abruptly stop lives and livelihoods, leaving a broken rhythm behind.",
+				"storyRanks": [8, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "US, Russia explore gas sale to Europe amid Ukraine war, say sources",
+				"url": "https://reuters.com/business/energy/us-russia-explore-gas-sale-europe-amid-ukraine-war-say-sources-2026-10-08/"
+			},
+			{
+				"title": "Rahul Gandhi, Indian opposition lawmakers detained over election chief protest for second day",
+				"url": "https://reuters.com/world/india/india-opposition-leader-rahul-gandhi-lawmakers-detained-over-election-chief-2026-10-07/"
+			},
+			{
+				"title": "US opens direct talks with Myanmar's generals, reversing years of isolation",
+				"url": "https://reuters.com/world/asia-pacific/us-opens-direct-talks-with-myanmars-generals-reversing-years-isolation-2026-10-08/"
+			},
+			{
+				"title": "Yemen's Houthis say they attacked Riyadh airport with ballistic missile",
+				"url": "https://reuters.com/world/middle-east/yemens-houthis-say-they-attacked-riyadh-airport-with-ballistic-missile-2026-10-08/"
+			},
+			{
+				"title": "Oil rises as Middle East supply concerns persist amid shipping attacks",
+				"url": "https://reuters.com/business/energy/oil-rises-middle-east-supply-concerns-persist-amid-shipping-attacks-2026-10-08/"
+			},
+			{
+				"title": "Attacks on Saudi airports kill three people, as fighting escalates in Yemen",
+				"url": "https://reuters.com/world/middle-east/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies-2026-10-07/"
+			},
+			{
+				"title": "China militia boat spotted for first time off Taiwan's east coast, patrol finds",
+				"url": "https://reuters.com/world/china/china-militia-boat-spotted-first-time-off-taiwans-east-coast-patrol-finds-2026-10-08/"
+			},
+			{
+				"title": "Amazon makes fresh job cuts, mainly in retail division",
+				"url": "https://reuters.com/business/world-at-work/amazon-makes-fresh-job-cuts-mainly-retail-division-2026-10-08/"
+			},
+			{
+				"title": "People in Russian-occupied Ukrainian town risk 'road of death' to get food",
+				"url": "https://reuters.com/world/europe/people-russian-occupied-ukrainian-town-risk-road-death-get-food-2026-10-08/"
+			},
+			{
+				"title": "Christa Pike 'angry and confused' about Tennessee's failed execution effort, lawyers say",
+				"url": "https://reuters.com/legal/government/christa-pikes-lawyers-demand-see-syringes-drug-residue-botched-execution-2026-10-07/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "sailors and navigators"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"vessels, canals, wells, floods, and bridges",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "dry clay, straw yellow, olive, turquoise, and dark crimson",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-10-07",
 		"displayDate": "October 7, 2026",
 		"image": "/images/news-bosch/2026/10/07.webp",
