@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-10-09",
+		"displayDate": "October 9, 2026",
+		"image": "/images/news-bosch/2026/10/09.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-09T09:07:04.927523Z",
+		"sourceRetrievedAt": "2026-10-09T09:00:44.817429Z",
+		"themes": [
+			{
+				"name": "The State Takes the Stage",
+				"interpretation": "Public power turns violence and contested history into spectacles, while the same curtain can expose what it tries to erase.",
+				"storyRanks": [1, 3]
+			},
+			{
+				"name": "Budgets Behind the Curtain",
+				"interpretation": "Governments and corporations are arranging the infrastructure of the future while deciding who gets to pass through its gates.",
+				"storyRanks": [2, 4, 9]
+			},
+			{
+				"name": "Roots Refuse the Graft",
+				"interpretation": "People push back when grand plans for technological progress or public provision threaten the ground they depend on.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "A Flock Between War and Calm",
+				"interpretation": "A damaged aircraft and shifting signals about Iran make restraint and escalation mirror each other, with oil markets following the turn.",
+				"storyRanks": [6, 7, 8]
+			}
+		],
+		"stories": [
+			{
+				"title": "US to livestream Army firing squad execution of Fort Hood shooter, Pentagon says",
+				"url": "https://reuters.com/world/us-livestream-army-execution-fort-hood-shooter-pentagon-official-says-2026-10-08/"
+			},
+			{
+				"title": "Malaysia plans $112.5 billion budget for 2027 ahead of possible election",
+				"url": "https://reuters.com/world/asia-pacific/malaysia-plans-1125-billion-budget-2027-ahead-possible-election-2026-10-09/"
+			},
+			{
+				"title": "US sued over plan to blast Utah canyon inscribed\u00a0by 19th century 'Buffalo Soldiers,' European\u00a0pioneers",
+				"url": "https://reuters.com/business/environment/us-sued-over-plan-blast-utah-canyon-inscribed-by-19th-century-buffalo-soldiers-2026-10-09/"
+			},
+			{
+				"title": "Trump administration freezes green cards for Microsoft, IT firms, probes universities",
+				"url": "https://reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/"
+			},
+			{
+				"title": "Modi wants India to power the AI age. Residents are pushing back",
+				"url": "https://reuters.com/world/india/modi-wants-india-power-ai-age-residents-are-pushing-back-2026-10-09/"
+			},
+			{
+				"title": "Plane damaged at Riyadh airport as Houthis escalate attacks, sources say",
+				"url": "https://reuters.com/world/asia-pacific/syria-considers-help-yemen-war-after-saudi-airports-come-under-houthi-fire-2026-10-08/"
+			},
+			{
+				"title": "Trump says US will not attack Iran before midterm elections in November",
+				"url": "https://reuters.com/world/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-2026-10-08/"
+			},
+			{
+				"title": "Oil falls as Trump comments on Iran talks ease supply concerns",
+				"url": "https://reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/"
+			},
+			{
+				"title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
+				"url": "https://reuters.com/business/media-telecom/spacex-acquire-spectrum-that-enables-starlink-mobile-services-2026-10-08/"
+			},
+			{
+				"title": "Wealthy French quit failing state schools squeezed by pensions and austerity",
+				"url": "https://reuters.com/world/europe/wealthy-french-quit-failing-state-schools-squeezed-by-pensions-austerity-2026-10-09/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-10-08",
 		"displayDate": "October 8, 2026",
 		"image": "/images/news-bosch/2026/10/08.webp",
