@@ -1859,6 +1859,17 @@
     "lng": -73.9774315
   },
   {
+    "name": "Lenz's",
+    "address": "514 E 20th St, New York, NY 10009",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Standard NYC bodega.",
+    "lat": 40.733604,
+    "lng": -73.97749999999999
+  },
+  {
     "name": "Leo's Bagels",
     "address": "3 Hanover Square, New York, NY 10004",
     "isDecent": "Y",
@@ -2022,6 +2033,17 @@
     "notes": "Simple beer-and-shot bar. Small. Punk music. A little cliche but cheap and does the job.",
     "lat": 40.7452646,
     "lng": -73.9794045
+  },
+  {
+    "name": "Lunetta",
+    "address": "245 3rd Ave, New York, NY 10010",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Standard slice shop. No frills. Good stop before night class at SVA on E. 21st Street for a garlicky grandma.",
+    "lat": 40.7369476,
+    "lng": -73.9841709
   },
   {
     "name": "Macao Trading Company",
@@ -2440,6 +2462,17 @@
     "notes": "Inside of the Urban Hawker food hall. Malaysian noodles and soups and rendang and all that good stuff. Spicy. Good.",
     "lat": 40.7610525,
     "lng": -73.9824613
+  },
+  {
+    "name": "Papaya King",
+    "address": "206 E 86th St, New York, NY 10028",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Classic papaya-stand hot dog with a snappy dog.",
+    "lat": 40.7783469,
+    "lng": -73.953602
   },
   {
     "name": "Parisien Bistrot",
@@ -3672,27 +3705,5 @@
     "notes": "The basic bagel stuff. Good but not a great storefront to hang at.",
     "lat": 40.7507644,
     "lng": -73.9767968
-  },
-  {
-    "name": "Lunetta",
-    "address": "245 3rd Ave, New York, NY 10010",
-    "isDecent": "Y",
-    "isRecommended": "N",
-    "isElite": "N",
-    "isClosed": "N",
-    "notes": "Standard slice shop. No frills. Good stop before night class at SVA on E. 21st Street for a garlicky grandma.",
-    "lat": 40.7369476,
-    "lng": -73.9841709
-  },
-  {
-    "name": "Lenz's",
-    "address": "514 E 20th St, New York, NY 10009",
-    "isDecent": "Y",
-    "isRecommended": "N",
-    "isElite": "N",
-    "isClosed": "N",
-    "notes": "Standard NYC bodega.",
-    "lat": 40.733604,
-    "lng": -73.97749999999999
   }
 ]
