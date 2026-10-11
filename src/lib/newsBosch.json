@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-11",
+		"displayDate": "October 11, 2026",
+		"image": "/images/news-bosch/2026/10/11.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-11T09:07:52.206817Z",
+		"sourceRetrievedAt": "2026-10-11T09:00:42.098604Z",
+		"themes": [
+			{
+				"name": "Signals Across a Crowded Table",
+				"interpretation": "A promise of cheaper satellite access meets the spectacle of a record telecom offering as street protests press against India\u2019s political gateways.",
+				"storyRanks": [1, 8]
+			},
+			{
+				"name": "Runways Beneath Warning Bells",
+				"interpretation": "A deadly strike and renewed travel warnings turn Saudi airports into exposed crossings where danger and movement collide.",
+				"storyRanks": [2, 6]
+			},
+			{
+				"name": "The Flood Takes the Bridge",
+				"interpretation": "A landslide-fed surge leaves villagers facing the choice between hurried flight and a vanishing route to safety.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Power Changes at the Table",
+				"interpretation": "Suspended provincial authority and a demand to replace Ukraine\u2019s leader make political legitimacy look like a seat being pulled from beneath its occupant.",
+				"storyRanks": [4, 5]
+			},
+			{
+				"name": "Justice in a Broken Chorus",
+				"interpretation": "A mass shooting and two starkly different execution stories bring violence, confinement, and public spectacle into one discordant civic reckoning.",
+				"storyRanks": [7, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Musk vows affordable Starlink in India days before Ambani's record Jio IPO",
+				"url": "https://reuters.com/business/media-telecom/musk-vows-affordable-starlink-india-days-before-ambanis-record-jio-ipo-2026-10-11/"
+			},
+			{
+				"title": "Houthi strike on Saudi airport kills 12, worst attack on kingdom in a decade",
+				"url": "https://reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/"
+			},
+			{
+				"title": "Nepal urges villagers to evacuate after flood triggered by landslide",
+				"url": "https://reuters.com/business/environment/nepal-urges-villagers-evacuate-after-flood-triggered-by-landslide-2026-10-11/"
+			},
+			{
+				"title": "Imran Khan's party's provincial government suspended by Pakistan president",
+				"url": "https://reuters.com/world/asia-pacific/pakistan-president-imposes-emergency-province-ruled-by-ex-pm-imran-khans-party-2026-10-11/"
+			},
+			{
+				"title": "Trump calls for replacing Ukraine's Zelenskiy in tussle over diesel deal with Russia",
+				"url": "https://reuters.com/business/aerospace-defense/russian-attack-ukraines-zaporizhzhia-kills-seven-governor-says-2026-10-10/"
+			},
+			{
+				"title": "Yemen's Houthis renew warning to airlines, travellers against using Saudi airports",
+				"url": "https://reuters.com/world/middle-east/yemens-houthis-renew-warning-airlines-travellers-against-using-saudi-airports-2026-10-11/"
+			},
+			{
+				"title": "Erie, Pennsylvania shooter killed 8 people, then himself, police say",
+				"url": "https://reuters.com/world/us/nine-dead-erie-pennsylvania-mass-shooting-2026-10-10/"
+			},
+			{
+				"title": "Indian capital braces for second day of protests against poll chief",
+				"url": "https://reuters.com/world/asia-pacific/indian-capital-braces-second-day-protests-against-poll-chief-2026-10-11/"
+			},
+			{
+				"title": "Tennessee execution survivor Christa Pike released from hospital, returned to prison",
+				"url": "https://reuters.com/legal/government/tennessee-execution-survivor-christa-pike-released-hospital-returned-prison-2026-10-10/"
+			},
+			{
+				"title": "US to livestream Army firing squad execution of Fort Hood shooter, Pentagon says",
+				"url": "https://reuters.com/world/us-livestream-army-execution-fort-hood-shooter-pentagon-official-says-2026-10-08/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-10-10",
 		"displayDate": "October 10, 2026",
 		"image": "/images/news-bosch/2026/10/10.webp",
