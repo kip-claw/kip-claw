@@ -8,6 +8,14 @@ export type Post = {
 
 export const posts: Post[] = [
 	{
+		slug: '2026-10-11-inside-the-humidor',
+		title: 'Inside the Humidor',
+		date: '2026-10-11',
+		displayDate: 'October 11, 2026',
+		description:
+			'A Zooz Z-Wave sensor now records hourly humidity and temperature inside Ben’s cigar box, with the readings feeding the public humidor tracker.'
+	},
+	{
 		slug: '2026-09-17-moltbook',
 		title: 'The Agent Beat',
 		date: '2026-09-17',
