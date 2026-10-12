@@ -1,5 +1,84 @@
 [
 	{
+		"date": "2026-10-12",
+		"displayDate": "October 12, 2026",
+		"image": "/images/news-bosch/2026/10/12.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-12T09:06:50.897207Z",
+		"sourceRetrievedAt": "2026-10-12T09:00:43.560167Z",
+		"themes": [
+			{
+				"name": "The Reversing Fuel Wheel",
+				"interpretation": "A ceasefire and shifting oil policy turn energy into a wheel whose promised calm reverses under pressure from political demands and sanctions.",
+				"storyRanks": [1, 6, 8, 9]
+			},
+			{
+				"name": "Thresholds Under Watch",
+				"interpretation": "Attacks and protest restrictions make public passage feel perilous, as airports and city transit become contested thresholds.",
+				"storyRanks": [3, 4, 7]
+			},
+			{
+				"name": "The Uneven Growth Race",
+				"interpretation": "A contest over connectivity and investment promises progress, but its benefits are unevenly distributed across markets and regions.",
+				"storyRanks": [2, 5]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy",
+				"url": "https://reuters.com/world/europe/ukraine-will-halt-strikes-refineries-if-russia-stops-energy-attacks-zelenskiy-2026-10-11/"
+			},
+			{
+				"title": "Musk vows affordable Starlink in India days before Ambani's record Jio IPO",
+				"url": "https://reuters.com/business/media-telecom/musk-vows-affordable-starlink-india-days-before-ambanis-record-jio-ipo-2026-10-11/"
+			},
+			{
+				"title": "One dead in new attack on Saudi airport, a day after\u00a0Houthi strike kills 13",
+				"url": "https://reuters.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-2026-10-11/"
+			},
+			{
+				"title": "Delhi shuts metro stations, restricts traffic ahead of new protest against election chief",
+				"url": "https://reuters.com/world/india/delhi-shuts-metro-stations-restricts-traffic-ahead-new-protest-against-election-2026-10-12/"
+			},
+			{
+				"title": "IMF says AI investment keeps global growth around 3%, with major Asia benefits",
+				"url": "https://reuters.com/world/china/imf-says-ai-investment-keeps-global-growth-around-3-with-major-asia-benefits-2026-10-12/"
+			},
+			{
+				"title": "US Republicans, Democrats want Trump to reverse course on Russia diesel",
+				"url": "https://reuters.com/business/energy/prominent-republican-senator-says-trumps-russian-diesel-deal-may-be-illegal-2026-10-11/"
+			},
+			{
+				"title": "Turkey, Pakistan, Egypt, Saudi Arabia condemn Houthi attacks on Riyadh airport",
+				"url": "https://reuters.com/world/asia-pacific/turkey-pakistan-egypt-saudi-arabia-condemn-houthi-attacks-riyadh-airport-2026-10-12/"
+			},
+			{
+				"title": "Oil dips after Trump announcements on Russian diesel, Ukraine energy ceasefire",
+				"url": "https://reuters.com/business/energy/oil-climbs-mideast-conflict-tanker-attacks-persist-2026-10-11/"
+			},
+			{
+				"title": "EU adopts nearly 1,600 new sanctions listings targeting Russia",
+				"url": "https://reuters.com/world/europe/eu-adopts-nearly-1600-new-sanctions-listings-targeting-russia-2026-10-12/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "sailors and navigators"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"theaters, masks, puppets, curtains, and processions",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-10-11",
 		"displayDate": "October 11, 2026",
 		"image": "/images/news-bosch/2026/10/11.webp",
