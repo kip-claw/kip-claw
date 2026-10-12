@@ -803,6 +803,69 @@
       "rh": "74",
       "temperatureF": "74",
       "notes": ""
+    },
+    {
+      "date": "2026-10-11",
+      "time": "20:00:00",
+      "rh": "74",
+      "temperatureF": "74",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-11",
+      "time": "21:00:00",
+      "rh": "74",
+      "temperatureF": "74",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-11",
+      "time": "22:00:00",
+      "rh": "74",
+      "temperatureF": "74",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-11",
+      "time": "23:00:00",
+      "rh": "74",
+      "temperatureF": "74",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-12",
+      "time": "00:00:00",
+      "rh": "74",
+      "temperatureF": "73.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-12",
+      "time": "01:00:00",
+      "rh": "74",
+      "temperatureF": "73.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-12",
+      "time": "02:00:00",
+      "rh": "74",
+      "temperatureF": "73.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-12",
+      "time": "03:00:00",
+      "rh": "74",
+      "temperatureF": "73.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-12",
+      "time": "04:00:00",
+      "rh": "73",
+      "temperatureF": "73.3",
+      "notes": ""
     }
   ],
   "bovedaChanges": [
