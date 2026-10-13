@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-13",
+		"displayDate": "October 13, 2026",
+		"image": "/images/news-bosch/2026/10/13.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-13T09:05:46.088671Z",
+		"sourceRetrievedAt": "2026-10-13T09:00:43.622184Z",
+		"themes": [
+			{
+				"name": "Signals Before the Crossing",
+				"interpretation": "Warnings failed at the edge of danger, leaving people to discover too late that a threshold had become a trap.",
+				"storyRanks": [1, 4]
+			},
+			{
+				"name": "Machines Without Safeguards",
+				"interpretation": "As ordinary infrastructure and artificial systems slip beyond control, the machinery of commerce and creation starts to run hot.",
+				"storyRanks": [2, 3, 5]
+			},
+			{
+				"name": "Doors Drawn Into Conflict",
+				"interpretation": "Raids, closures, and new armed formations turn homes, schools, and political boundaries into contested thresholds.",
+				"storyRanks": [6, 8, 10]
+			},
+			{
+				"name": "A Queue Before the Hidden",
+				"interpretation": "A rare glimpse of art gathers a quiet crowd around what has remained unseen for decades.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "Denials Across the Canal",
+				"interpretation": "Conflicting claims about distant powers leave geopolitical alignments resembling a passage whose far end stays obscured.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Saudi warning system stayed silent before deadly airport attacks",
+				"url": "https://reuters.com/world/middle-east/saudi-warning-system-stayed-silent-before-deadly-airport-attacks-2026-10-12/"
+			},
+			{
+				"title": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+				"url": "https://reuters.com/business/retail-consumer/french-supermarket-chain-intermarche-hit-by-cyberattack-150-stories-targeted-2026-10-12/"
+			},
+			{
+				"title": "Character.AI files for bankruptcy, agrees to sell some assets for $20 million",
+				"url": "https://reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/"
+			},
+			{
+				"title": "Eleven sailors missing after drone sinks ship off Bulgaria",
+				"url": "https://reuters.com/world/europe/drone-sinks-ship-off-bulgaria-coast-prime-minister-says-2026-10-13/"
+			},
+			{
+				"title": "AI models may soon self-replicate without access to data centers, Anthropic warns",
+				"url": "https://reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/"
+			},
+			{
+				"title": "US immigration authorities raid home of Democratic Trump critic Ilhan Omar",
+				"url": "https://reuters.com/legal/government/us-launches-immigration-raid-democratic-congresswoman-ilhan-omars-home-fox-news-2026-10-12/"
+			},
+			{
+				"title": "Hundreds queue in Hong Kong to glimpse Van Gogh painting unseen in public for 60 years",
+				"url": "https://reuters.com/lifestyle/hundreds-queue-hong-kong-glimpse-van-gogh-painting-unseen-public-60-years-2026-10-13/"
+			},
+			{
+				"title": "Mauritius temporarily closes schools after night of unrest over police shooting",
+				"url": "https://reuters.com/world/mauritius-temporarily-closes-schools-after-night-unrest-over-police-shooting-2026-10-13/"
+			},
+			{
+				"title": "Trump says he does not believe China and Russia are helping Iran 'at all'",
+				"url": "https://reuters.com/world/china/trump-says-he-does-not-believe-china-russia-are-helping-iran-at-all-2026-10-13/"
+			},
+			{
+				"title": "Congo's former president Kabila forms new group to replace M23 insurgency",
+				"url": "https://reuters.com/world/congos-former-president-kabila-forms-new-group-replace-m23-insurgency-2026-10-12/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"vessels, canals, wells, floods, and bridges"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-10-12",
 		"displayDate": "October 12, 2026",
 		"image": "/images/news-bosch/2026/10/12.webp",
