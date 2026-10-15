@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-15",
+		"displayDate": "October 15, 2026",
+		"image": "/images/news-bosch/2026/10/15.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-15T09:06:44.447566Z",
+		"sourceRetrievedAt": "2026-10-15T09:00:43.534140Z",
+		"themes": [
+			{
+				"name": "Routes Through Fire",
+				"interpretation": "Strikes and threats turn oil infrastructure and sea lanes into a perilous passage from pressure toward wider conflict.",
+				"storyRanks": [1, 5, 6, 8]
+			},
+			{
+				"name": "The Freight Bargain",
+				"interpretation": "The bid to lower shipping costs reveals how sanctions and export ambitions pull commerce in opposing directions.",
+				"storyRanks": [2, 4]
+			},
+			{
+				"name": "A Roof Gives Way",
+				"interpretation": "A school\u2019s collapse makes the cost of fragile protections devastatingly immediate.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "The AI Balance Wheel",
+				"interpretation": "Investor appetite for AI promise meets the burden of data-centre debt and questions about what the technology can deliver.",
+				"storyRanks": [7, 10]
+			},
+			{
+				"name": "A Career Reopened",
+				"interpretation": "A performer\u2019s story of revival turns an apparent ending into a surprising second act.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Ukraine resumes strikes on Russian refineries as Zelenskiy says 'we're done'",
+				"url": "https://reuters.com/world/zelenskiy-says-ukraine-will-resume-strikes-russian-refineries-ft-reports-2026-10-15/"
+			},
+			{
+				"title": "US considers easing sanctions on shadow fleet vessels to cut freight rates, official says",
+				"url": "https://reuters.com/legal/government/us-considers-easing-sanctions-shadow-fleet-vessels-cut-freight-rates-official-2026-10-15/"
+			},
+			{
+				"title": "Pakistan school roof collapse kills 28; more deaths feared",
+				"url": "https://reuters.com/world/asia-pacific/seventeen-students-one-teacher-killed-school-roof-collapse-pakistan-2026-10-15/"
+			},
+			{
+				"title": "This Chinese export boom really has legs \u2013 and wings",
+				"url": "https://reuters.com/world/china/this-chinese-export-boom-really-has-legs-wings-2026-10-15/"
+			},
+			{
+				"title": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks",
+				"url": "https://reuters.com/world/asia-pacific/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say-2026-10-14/"
+			},
+			{
+				"title": "US military weighs use of \u2018mother of all bombs\u2019 in potential future strikes on Iran, CNN says",
+				"url": "https://reuters.com/world/us-military-weighs-use-mother-all-bombs-potential-future-strikes-iran-cnn-says-2026-10-15/"
+			},
+			{
+				"title": "At Anthropic pre-IPO meet: \u2018Thinking\u2019 caps, surging revenue, no human extinction",
+				"url": "https://reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/"
+			},
+			{
+				"title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+				"url": "https://reuters.com/business/energy/yemens-houthis-vow-more-attacks-saudi-airports-oil-facilities-after-aramco-hq-2026-10-14/"
+			},
+			{
+				"title": "Paul Bettany says Marvel transformed his life after he was told his career was over",
+				"url": "https://reuters.com/business/media-telecom/paul-bettany-says-marvel-transformed-his-life-after-he-was-told-his-career-was-2026-10-13/"
+			},
+			{
+				"title": "Tech stocks tumble as data centre debt worries hit AI trades",
+				"url": "https://reuters.com/world/china/global-markets-wrapup-1-2026-10-15/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "merchants and market keepers"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-10-14",
 		"displayDate": "October 14, 2026",
 		"image": "/images/news-bosch/2026/10/14.webp",
