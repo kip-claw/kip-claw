@@ -2510,5 +2510,13 @@
     "pingMs": 12.4,
     "server": "New York NY",
     "provider": "Natural Wireless"
+  },
+  {
+    "timestamp": "2026-10-15 09:00:35",
+    "downloadMbps": 577.63,
+    "uploadMbps": 12.87,
+    "pingMs": 15.7,
+    "server": "New York NY",
+    "provider": "Optimum Online"
   }
 ]
