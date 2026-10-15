@@ -2502,5 +2502,13 @@
     "pingMs": 14.2,
     "server": "New York NY",
     "provider": "Starry Inc."
+  },
+  {
+    "timestamp": "2026-10-14 21:00:14",
+    "downloadMbps": 566.31,
+    "uploadMbps": 22.78,
+    "pingMs": 12.4,
+    "server": "New York NY",
+    "provider": "Natural Wireless"
   }
 ]
