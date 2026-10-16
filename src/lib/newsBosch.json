@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-16",
+		"displayDate": "October 16, 2026",
+		"image": "/images/news-bosch/2026/10/16.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-16T09:06:17.404179Z",
+		"sourceRetrievedAt": "2026-10-16T09:00:42.712330Z",
+		"themes": [
+			{
+				"name": "The Paperwork Procession",
+				"interpretation": "A public procession is halted by an old file reopened as a tool of possible removal.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "A Shield Behind Curtains",
+				"interpretation": "A decision made out of sight interrupts the flow of protection to Ukraine.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "The Interrupted Schoolroom",
+				"interpretation": "A school day\u2019s ordinary procession is shattered by violence and an intervention from within the community.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Refineries Under Eclipse",
+				"interpretation": "Strikes and seizures turn energy infrastructure into contested territory as a diplomatic procession approaches.",
+				"storyRanks": [4, 5, 9]
+			},
+			{
+				"name": "Markets, Meals, And Flight",
+				"interpretation": "A supplier switch and a market shock interrupt the spectacle of a vehicle suspended between launch and landing.",
+				"storyRanks": [6, 7, 8, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "US probes Omar's decades-old immigration paperwork with eye toward deportation, sources say",
+				"url": "https://reuters.com/legal/government/us-probes-omars-decades-old-immigration-paperwork-with-eye-toward-deportation-2026-10-16/"
+			},
+			{
+				"title": "Order to limit Starshield for Ukraine came from inside White House, sources say",
+				"url": "https://reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/"
+			},
+			{
+				"title": "Shooter kills four at Oregon elementary school before being shot dead by community member",
+				"url": "https://reuters.com/world/shooter-is-killed-oregon-elementary-school-least-two-taken-away-ambulance-2026-10-15/"
+			},
+			{
+				"title": "Russia takes control of more European corporate assets ahead of Zelenskiy's appearance at EU summit",
+				"url": "https://reuters.com/business/retail-consumer/russia-moves-more-european-firms-ahead-zelenskiys-appearance-eu-summit-2026-10-16/"
+			},
+			{
+				"title": "How Iran's precision strikes picked apart Gulf infrastructure",
+				"url": "https://reuters.com/investigates/special-report/iran-crisis-infrastructure-attacks/"
+			},
+			{
+				"title": "Tesla's new Roadster turns in air with SpaceX thrusters, won't land until 2028",
+				"url": "https://reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/"
+			},
+			{
+				"title": "KFC picks Coca-Cola as US soda supplier, ditches longtime partner PepsiCo",
+				"url": "https://reuters.com/business/kfc-sign-coca-cola-beverage-partner-ditching-pepsico-wsj-reports-2026-10-15/"
+			},
+			{
+				"title": "Indonesia gets a 'wake-up call' as MSCI prepares to expel it from global indexes",
+				"url": "https://reuters.com/world/asia-pacific/msci-weighs-downgrading-indonesia-standalone-market-status-2026-10-15/"
+			},
+			{
+				"title": "Ukraine's resumption of strikes on Russian refineries is 'disgrace', Trump says",
+				"url": "https://reuters.com/business/energy/ukraines-resumption-strikes-russian-refineries-is-disgrace-trump-says-2026-10-16/"
+			},
+			{
+				"title": "Indonesian stocks sink most since 1998 on MSCI downgrade warning",
+				"url": "https://reuters.com/world/asia-pacific/jakarta-stocks-plunge-11-msci-set-drop-indonesia-indexes-2026-10-16/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "courtiers and heralds"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"theaters, masks, puppets, curtains, and processions",
+				"celestial bodies, eclipses, comets, clocks, and constellations"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "moonlit indigo, silver, chalk white, ember orange, and muted violet",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-10-15",
 		"displayDate": "October 15, 2026",
 		"image": "/images/news-bosch/2026/10/15.webp",
