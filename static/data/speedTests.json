@@ -2518,5 +2518,13 @@
     "pingMs": 15.7,
     "server": "New York NY",
     "provider": "Optimum Online"
+  },
+  {
+    "timestamp": "2026-10-15 21:00:14",
+    "downloadMbps": 522.83,
+    "uploadMbps": 21.56,
+    "pingMs": 16.2,
+    "server": "New York NY",
+    "provider": "Pilot Fiber"
   }
 ]
