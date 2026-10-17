@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-10-17",
+		"displayDate": "October 17, 2026",
+		"image": "/images/news-bosch/2026/10/17.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-17T09:05:27.012089Z",
+		"sourceRetrievedAt": "2026-10-17T09:00:42.145193Z",
+		"themes": [
+			{
+				"name": "Diplomacy in Broken Harmony",
+				"interpretation": "Sanctions, a walkout, and a hidden order show international cooperation splintering under competing pressures.",
+				"storyRanks": [1, 2, 6]
+			},
+			{
+				"name": "Ballots Beneath the Gavel",
+				"interpretation": "Threats, public mockery, and legal settlements turn political speech and election disputes into instruments of pressure.",
+				"storyRanks": [3, 4, 7, 10]
+			},
+			{
+				"name": "Small Shields, Large Warnings",
+				"interpretation": "A school community\u2019s armed defense and a measles surge reveal how safety can depend on fragile, local protections.",
+				"storyRanks": [5, 8]
+			},
+			{
+				"name": "Wagers on the Unfinished",
+				"interpretation": "A settlement over an election lottery and a delayed flying car capture the risks and promises of futures not yet settled.",
+				"storyRanks": [9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law",
+				"url": "https://reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/"
+			},
+			{
+				"title": "Delegates walked out of IMF steering committee meeting when Russian official spoke, sources say",
+				"url": "https://reuters.com/world/china/delegates-walked-out-imf-steering-committee-meeting-when-russian-official-spoke-2026-10-17/"
+			},
+			{
+				"title": "White House press secretary\u00a0Zacharia fired in less than a week after facing criticism",
+				"url": "https://reuters.com/world/trump-says-zacharia-should-reconsider-white-house-spokeswoman-role-2026-10-16/"
+			},
+			{
+				"title": "Trump threatens California officials with imprisonment over stance on mail ballots",
+				"url": "https://reuters.com/world/us/trump-threatens-california-officials-with-imprisonment-over-stance-mail-ballots-2026-10-17/"
+			},
+			{
+				"title": "Teacher and armed parent teamed up to stop Oregon school shooter, police say",
+				"url": "https://reuters.com/world/us/police-seek-answers-after-children-killed-oregon-school-shooting-2026-10-16/"
+			},
+			{
+				"title": "Order to limit Starshield for Ukraine came from inside White House, sources say",
+				"url": "https://reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/"
+			},
+			{
+				"title": "Trump mocks popularity of the name Mohammad, common among Muslims",
+				"url": "https://reuters.com/world/us/trump-mocks-popularity-name-mohammad-common-among-muslims-2026-10-16/"
+			},
+			{
+				"title": "Bangladesh is battling measles. It's a 'real warning' to other nations",
+				"url": "https://reuters.com/world/bangladesh-is-battling-measles-its-real-warning-other-nations-2026-10-17/"
+			},
+			{
+				"title": "Tesla's new Roadster turns in air with SpaceX thrusters, won't land until 2028",
+				"url": "https://reuters.com/business/autos-transportation/tesla-set-unveil-next-generation-roadster-sports-ev-after-years-delay-2026-10-15/"
+			},
+			{
+				"title": "Elon Musk agrees to settle lawsuits over 2024 election lottery",
+				"url": "https://reuters.com/legal/government/elon-musk-agrees-settle-lawsuits-over-2024-election-lottery-2026-10-15/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "scholars and alchemists"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"musical instruments, choirs, bells, and broken harmonies",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-10-16",
 		"displayDate": "October 16, 2026",
 		"image": "/images/news-bosch/2026/10/16.webp",
