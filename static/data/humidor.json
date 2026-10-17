@@ -41,16 +41,6 @@
       "notes": "6 x 54; added to humidor."
     },
     {
-      "dateAdded": "",
-      "maker": "",
-      "model": "",
-      "wrapper": "",
-      "origin": "",
-      "size": "",
-      "gauge": "",
-      "notes": "Smoked 2026-09-07; moved to Smoked Cigars."
-    },
-    {
       "dateAdded": "2026-05-15",
       "maker": "Oliva",
       "model": "Serie V Melanio",
@@ -118,16 +108,6 @@
       "origin": "Brazil",
       "size": "Gran Corona",
       "gauge": "56",
-      "notes": ""
-    },
-    {
-      "dateAdded": "2026-08-21",
-      "maker": "AJ Fernandez",
-      "model": "New World",
-      "wrapper": "Nicaraguan",
-      "origin": "Nicaragua ",
-      "size": "Toro",
-      "gauge": "55",
       "notes": ""
     }
   ],
@@ -1523,6 +1503,153 @@
       "time": "04:00:00",
       "rh": "74",
       "temperatureF": "73.3",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "05:00:00",
+      "rh": "74",
+      "temperatureF": "73.3",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "06:00:00",
+      "rh": "74",
+      "temperatureF": "73.3",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "07:00:00",
+      "rh": "74",
+      "temperatureF": "73.3",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "08:00:00",
+      "rh": "74",
+      "temperatureF": "74",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "09:00:00",
+      "rh": "74",
+      "temperatureF": "74",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "10:00:00",
+      "rh": "74",
+      "temperatureF": "74",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "11:00:00",
+      "rh": "74",
+      "temperatureF": "74",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "12:00:00",
+      "rh": "75",
+      "temperatureF": "74.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "13:00:00",
+      "rh": "75",
+      "temperatureF": "74.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "14:00:00",
+      "rh": "75",
+      "temperatureF": "74.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "15:00:00",
+      "rh": "75",
+      "temperatureF": "74.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "19:00:00",
+      "rh": "74",
+      "temperatureF": "74.7",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:00:00",
+      "rh": "75",
+      "temperatureF": "75.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "21:00:00",
+      "rh": "75",
+      "temperatureF": "74.7",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "22:00:00",
+      "rh": "75",
+      "temperatureF": "75.7",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-16",
+      "time": "23:00:00",
+      "rh": "75",
+      "temperatureF": "74.7",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-17",
+      "time": "00:00:00",
+      "rh": "74",
+      "temperatureF": "74.7",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-17",
+      "time": "01:00:00",
+      "rh": "74",
+      "temperatureF": "74.7",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-17",
+      "time": "02:00:00",
+      "rh": "74",
+      "temperatureF": "73.3",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-17",
+      "time": "03:00:00",
+      "rh": "74",
+      "temperatureF": "73.3",
+      "notes": ""
+    },
+    {
+      "date": "2026-10-17",
+      "time": "04:00:00",
+      "rh": "74",
+      "temperatureF": "73.1",
       "notes": ""
     }
   ],
