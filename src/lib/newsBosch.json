@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-18",
+		"displayDate": "October 18, 2026",
+		"image": "/images/news-bosch/2026/10/18.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-18T09:05:44.996006Z",
+		"sourceRetrievedAt": "2026-10-18T09:00:44.199950Z",
+		"themes": [
+			{
+				"name": "The Riot-Broken Procession",
+				"interpretation": "France\u2019s spiraling unrest turns the day\u2019s public procession into a march repeatedly blocked by upheaval.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Diplomacy on a Long Clock",
+				"interpretation": "A 60-day pause on Russia sanctions and a diplomatic journey through Central Asia make foreign policy feel slow-moving and contested.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "A Fragile Return to Rome",
+				"interpretation": "The Pope\u2019s return to the Vatican after surgery offers a brief note of recovery amid the day\u2019s discord.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Fractures Across the Alliance",
+				"interpretation": "Blame over dimming Republican prospects and Ukraine\u2019s lost support exposes a widening rift in the political constellation.",
+				"storyRanks": [5, 8, 10]
+			},
+			{
+				"name": "Side Scenes of Alarm",
+				"interpretation": "A base fire, a shelter warning, and a fatal interruption at a youth soccer game cut across the day like abrupt countercurrents.",
+				"storyRanks": [6, 7, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Mass protests in France spiral into worst riots in years",
+				"url": "https://reuters.com/world/students-trade-unions-yellow-vests-set-protest-across-france-2026-10-17/"
+			},
+			{
+				"title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
+				"url": "https://reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/"
+			},
+			{
+				"title": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots",
+				"url": "https://reuters.com/world/asia-pacific/rubio-heads-central-asia-while-other-us-officials-hit-foreign-policy-hot-spots-2026-10-18/"
+			},
+			{
+				"title": "Pope Leo returns to Vatican four days after cancer surgery",
+				"url": "https://reuters.com/world/europe/pope-leo-be-discharged-hospital-vatican-2026-10-17/"
+			},
+			{
+				"title": "Trump faults aides as Republican midterm prospects dim",
+				"url": "https://reuters.com/world/us/trump-faults-aides-republican-midterm-prospects-dim-2026-10-17/"
+			},
+			{
+				"title": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
+				"url": "https://reuters.com/world/americas/serious-incident-canada-military-base-alberta-causes-major-fire-carney-says-2026-10-18/"
+			},
+			{
+				"title": "Lithuania told residents to go to shelters after detecting a flying object",
+				"url": "https://reuters.com/world/lithuania-told-residents-go-shelters-after-detecting-flying-object-2026-10-18/"
+			},
+			{
+				"title": "Trump says neither he nor Musk responsible for Ukraine loss of Starlink access",
+				"url": "https://reuters.com/world/europe/trump-says-neither-he-nor-musk-responsible-ukraine-starlink-access-2026-10-16/"
+			},
+			{
+				"title": "Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say",
+				"url": "https://reuters.com/sports/vehicle-drives-through-kansas-soccer-game-killing-two-including-child-police-say-2026-10-17/"
+			},
+			{
+				"title": "Trump-Zelenskiy rift threatens vital support for Kyiv",
+				"url": "https://reuters.com/world/europe/trump-zelenskiy-rift-threatens-vital-support-kyiv-2026-10-17/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a procession repeatedly interrupted by side scenes and countercurrents"
+		}
+	},
+	{
 		"date": "2026-10-17",
 		"displayDate": "October 17, 2026",
 		"image": "/images/news-bosch/2026/10/17.webp",
