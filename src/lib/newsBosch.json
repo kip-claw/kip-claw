@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-19",
+		"displayDate": "October 19, 2026",
+		"image": "/images/news-bosch/2026/10/19.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-19T09:06:12.952718Z",
+		"sourceRetrievedAt": "2026-10-19T09:00:43.228944Z",
+		"themes": [
+			{
+				"name": "France\u2019s Cracked Security Bridge",
+				"interpretation": "Calls for calm collide with unrest and scrutiny of security failures, leaving France to reckon with the cost of its worst riots in years.",
+				"storyRanks": [2, 4, 8]
+			},
+			{
+				"name": "Oil and Summit Tides",
+				"interpretation": "A possible easing of oil supply meets competing diplomatic plans over Ukraine, as energy and power politics surge through the same channel.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "Backlogs in a Narrow Channel",
+				"interpretation": "Migration queues and mounting food-supply shocks expose how bottlenecks can turn scarcity into a wider crisis of rights and nourishment.",
+				"storyRanks": [3, 6]
+			},
+			{
+				"name": "A Returning Figure in Glass",
+				"interpretation": "The pope\u2019s return to the Vatican after surgery places recovery and public duty side by side.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Ballots and Market Panic",
+				"interpretation": "Political uncertainty in Israel and a looming market exclusion in Indonesia show how votes and financial thresholds can unsettle fragile systems.",
+				"storyRanks": [9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Oil slips from 5-month high as Trump's Russia sanctions waiver may bring more supplies",
+				"url": "https://reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/"
+			},
+			{
+				"title": "Macron urges calm as France counts cost of worst unrest in years",
+				"url": "https://reuters.com/world/europe/france-faces-aftermath-worst-unrest-years-2026-10-18/"
+			},
+			{
+				"title": "Spain's rush to clear Ceuta migrant backlog raises rights concerns",
+				"url": "https://reuters.com/world/africa/spains-rush-clear-ceuta-migrant-backlog-raises-rights-concerns-2026-10-19/"
+			},
+			{
+				"title": "As France reels from violence, Macron points to security failings",
+				"url": "https://reuters.com/world/europe/frances-macron-declines-interior-ministers-offer-resign-2026-10-19/"
+			},
+			{
+				"title": "Pope Leo returns to Vatican four days after cancer surgery",
+				"url": "https://reuters.com/world/europe/pope-leo-be-discharged-hospital-vatican-2026-10-17/"
+			},
+			{
+				"title": "Global food inflation is expected to intensify as supply shocks pile up",
+				"url": "https://reuters.com/world/americas/global-food-inflation-is-expected-intensify-supply-shocks-pile-up-2026-10-19/"
+			},
+			{
+				"title": "Putin proposes summit with Trump and Xi to discuss Ukraine deal, WSJ says",
+				"url": "https://reuters.com/world/china/putin-proposes-summit-with-trump-xi-discuss-ukraine-deal-wsj-says-2026-10-19/"
+			},
+			{
+				"title": "Mass protests in France spiral into worst riots in years",
+				"url": "https://reuters.com/world/students-trade-unions-yellow-vests-set-protest-across-france-2026-10-17/"
+			},
+			{
+				"title": "Arab voter turnout could make or break Netanyahu in Israeli election",
+				"url": "https://reuters.com/world/middle-east/arab-voter-turnout-could-make-or-break-netanyahu-israeli-election-2026-10-19/"
+			},
+			{
+				"title": "'Panic' selling hits Indonesian markets on MSCI expulsion threat",
+				"url": "https://reuters.com/world/asia-pacific/frail-indonesian-markets-reel-after-msci-shock-warning-2026-10-19/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"vessels, canals, wells, floods, and bridges",
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"workshops, looms, mills, gears, and unfinished machines"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-10-18",
 		"displayDate": "October 18, 2026",
 		"image": "/images/news-bosch/2026/10/18.webp",
