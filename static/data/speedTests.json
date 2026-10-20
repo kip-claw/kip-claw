@@ -2590,5 +2590,13 @@
     "pingMs": 18.1,
     "server": "New York NY",
     "provider": "x99.cloud"
+  },
+  {
+    "timestamp": "2026-10-20 09:00:35",
+    "downloadMbps": 83.93,
+    "uploadMbps": 19.84,
+    "pingMs": 17.2,
+    "server": "New York NY",
+    "provider": "Tata Communications"
   }
 ]
