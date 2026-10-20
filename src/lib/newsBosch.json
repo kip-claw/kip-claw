@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-10-20",
+		"displayDate": "October 20, 2026",
+		"image": "/images/news-bosch/2026/10/20.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-20T09:07:04.324785Z",
+		"sourceRetrievedAt": "2026-10-20T09:00:42.295626Z",
+		"themes": [
+			{
+				"name": "Fuel Bells, Broken Streets",
+				"interpretation": "Riots and fuel-price anger turn France\u2019s streets into a discordant signal that may strengthen the far right ahead of elections.",
+				"storyRanks": [1, 5]
+			},
+			{
+				"name": "The Thirty-One-Note Machine",
+				"interpretation": "A record-low approval reading puts the approaching midterms in motion like a political machine whose gears are slipping.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Summit Over Shallow Water",
+				"interpretation": "A proposed Ukraine summit and a naval watch near a disputed shoal make diplomacy and military pressure sound in uneasy counterpoint.",
+				"storyRanks": [3, 6]
+			},
+			{
+				"name": "Grafts and Hidden Routes",
+				"interpretation": "Strained business bets, concealed unemployment, and plans for new shipping paths suggest people and commerce searching for ways around blocked channels.",
+				"storyRanks": [7, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "France in turmoil after riots and looting: What we know",
+				"url": "https://reuters.com/world/europe/france-turmoil-what-might-follow-a-weekend-riots-2026-10-19/"
+			},
+			{
+				"title": "Trump's approval falls to record low of 31% as midterms near, Reuters/Ipsos poll finds",
+				"url": "https://reuters.com/world/us/trump-approval-falls-record-low-31-midterms-near-reutersipsos-poll-finds-2026-10-19/"
+			},
+			{
+				"title": "Putin proposes summit with Trump and Xi to discuss Ukraine deal, WSJ says",
+				"url": "https://reuters.com/world/china/putin-proposes-summit-with-trump-xi-discuss-ukraine-deal-wsj-says-2026-10-19/"
+			},
+			{
+				"title": "As weight-loss drug users turn to dietary supplements, doctors, regulators raise flags",
+				"url": "https://reuters.com/legal/litigation/weight-loss-drug-users-turn-dietary-supplements-doctors-regulators-raise-flags-2026-10-20/"
+			},
+			{
+				"title": "As France erupts, Europe's far right gains from fuel-price anger ahead of elections",
+				"url": "https://reuters.com/world/europe/france-erupts-europes-far-right-gains-fuel-price-anger-ahead-elections-2026-10-20/"
+			},
+			{
+				"title": "China sends naval forces to monitor US warship near disputed shoal",
+				"url": "https://reuters.com/world/china/chinese-navy-says-us-ship-near-sabina-shoal-jeopardised-maritime-security-2026-10-20/"
+			},
+			{
+				"title": "Volkswagen bet on Xpeng to save its China business. It's not going to plan",
+				"url": "https://reuters.com/business/autos-transportation/volkswagen-bet-xpeng-save-its-china-business-its-not-going-plan-2026-10-20/"
+			},
+			{
+				"title": "Alberta votes to remain part of Canada",
+				"url": "https://reuters.com/world/americas/alberta-votes-leaving-canada-separatist-movement-likely-outlast-expected-defeat-2026-10-19/"
+			},
+			{
+				"title": "The fake commute: How China's unemployed save face",
+				"url": "https://reuters.com/business/world-at-work/fake-commute-how-chinas-unemployed-save-face-2026-10-20/"
+			},
+			{
+				"title": "Hormuz could be 'redundant' in five years, replaced by new routes, HSBC CEO says",
+				"url": "https://reuters.com/business/energy/hsbc-ceo-says-alternative-routes-could-make-strait-hormuz-redundant-five-years-2026-10-20/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"workshops, looms, mills, gears, and unfinished machines"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-10-19",
 		"displayDate": "October 19, 2026",
 		"image": "/images/news-bosch/2026/10/19.webp",
