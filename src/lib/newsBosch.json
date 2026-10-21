@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-21",
+		"displayDate": "October 21, 2026",
+		"image": "/images/news-bosch/2026/10/21.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-21T09:07:56.619187Z",
+		"sourceRetrievedAt": "2026-10-21T09:00:43.066361Z",
+		"themes": [
+			{
+				"name": "The Patchwork Threshold",
+				"interpretation": "A fragile digital gateway risks going dark until a critical repair restores passage.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "The IPO and the Abyss",
+				"interpretation": "A record-breaking rush for shares stands beside the enormous losses powering the race for artificial intelligence.",
+				"storyRanks": [2, 3]
+			},
+			{
+				"name": "The War's Control Wheel",
+				"interpretation": "Diplomatic pressure and contested satellite access turn decisions about Ukraine into a wheel passed between powerful hands.",
+				"storyRanks": [4, 6, 7]
+			},
+			{
+				"name": "Gates, Licenses, and Lanes",
+				"interpretation": "Regulators and governments narrow routes for commerce and migration even as airlines warn that travel will grow more costly.",
+				"storyRanks": [5, 8, 9]
+			},
+			{
+				"name": "The Heat Engine's Loop",
+				"interpretation": "A giant heat storm becomes part of a self-feeding cycle that pushes the planet toward another scorching turn.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Cyber agency warns websites may go dark as PHP prepares critical fix",
+				"url": "https://reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/"
+			},
+			{
+				"title": "Anthropic logged net loss of over $80 billion in first half of 2026",
+				"url": "https://reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/"
+			},
+			{
+				"title": "Ambani's Jio IPO fully subscribed within hours in record Indian sale",
+				"url": "https://reuters.com/world/india/indias-jio-ipo-opens-public-bids-record-32-billion-sale-2026-10-20/"
+			},
+			{
+				"title": "US envoy Witkoff to meet Putin, Trump presses Kyiv to settle",
+				"url": "https://reuters.com/business/media-telecom/zelenskiy-meet-witkoff-trump-praises-russia-rebukes-ukraine-2026-10-20/"
+			},
+			{
+				"title": "Taiwan regulator blocks Grab's purchase of Foodpanda delivery business in Taiwan",
+				"url": "https://reuters.com/world/asia-pacific/taiwan-regulator-blocks-grabs-purchase-foodpanda-delivery-business-taiwan-2026-10-21/"
+			},
+			{
+				"title": "Musk ordered slowdown of Starlink service used by Ukraine's military, WSJ reports",
+				"url": "https://reuters.com/business/media-telecom/musk-ordered-starlink-slowdown-that-blindsided-ukraine-wsj-reports-2026-10-20/"
+			},
+			{
+				"title": "Starlink access in Ukraine a decision for Musk, not White House, Rubio says",
+				"url": "https://reuters.com/world/rubio-says-witkoff-zelenskiy-meeting-positive-ideas-be-discussed-with-russia-2026-10-21/"
+			},
+			{
+				"title": "Trump administration says it has revoked over 300,000 visas",
+				"url": "https://reuters.com/legal/government/trump-administration-says-it-has-revoked-over-300000-visas-2026-10-20/"
+			},
+			{
+				"title": "Ryanair CEO tells Europe to ready for biggest airfare hike in history",
+				"url": "https://reuters.com/business/ryanair-optimistic-boeing-max-10-certification-will-be-done-october-2026-10-20/"
+			},
+			{
+				"title": "Giant \u2018heat storms\u2019 are scorching Earth. The story of the biggest one.",
+				"url": "https://reuters.com/investigates/special-report/climate-heatstorms-science/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"games, dice, wheels, races, and balancing acts",
+				"workshops, looms, mills, gears, and unfinished machines"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-10-20",
 		"displayDate": "October 20, 2026",
 		"image": "/images/news-bosch/2026/10/20.webp",
