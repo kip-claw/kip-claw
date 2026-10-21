@@ -2598,5 +2598,13 @@
     "pingMs": 17.2,
     "server": "New York NY",
     "provider": "Tata Communications"
+  },
+  {
+    "timestamp": "2026-10-21 09:00:35",
+    "downloadMbps": 565.81,
+    "uploadMbps": 18.11,
+    "pingMs": 12.2,
+    "server": "New York NY",
+    "provider": "GSL Networks"
   }
 ]
