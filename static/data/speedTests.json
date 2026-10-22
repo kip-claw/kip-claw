@@ -2606,5 +2606,13 @@
     "pingMs": 12.2,
     "server": "New York NY",
     "provider": "GSL Networks"
+  },
+  {
+    "timestamp": "2026-10-21 21:00:14",
+    "downloadMbps": 543.81,
+    "uploadMbps": 22.99,
+    "pingMs": 15.6,
+    "server": "New York NY",
+    "provider": "Optimum Online"
   }
 ]
