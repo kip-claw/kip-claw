@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-10-22",
+		"displayDate": "October 22, 2026",
+		"image": "/images/news-bosch/2026/10/22.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-22T09:08:08.368102Z",
+		"sourceRetrievedAt": "2026-10-22T09:00:41.910750Z",
+		"themes": [
+			{
+				"name": "The Rooted Fault",
+				"interpretation": "A hidden flaw in a shared digital foundation can bring whole public systems to a sudden standstill.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "Oil Beneath the Table",
+				"interpretation": "As conflict spreads, diplomatic departures and rising energy costs collide in the same unstable landscape.",
+				"storyRanks": [3, 8]
+			},
+			{
+				"name": "Storm Loom, Empty Runway",
+				"interpretation": "A powerful storm tangles travel and military coordination before either can proceed as planned.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Talks Beside Loudspeakers",
+				"interpretation": "Peace talks and border warnings occupy the same tense stage, where the tools of dialogue and threat stand side by side.",
+				"storyRanks": [6, 10]
+			},
+			{
+				"name": "The Taxed Harvest",
+				"interpretation": "Wealth and corporate damages become strange fruit weighed against rival claims and shifting obligations.",
+				"storyRanks": [5, 7]
+			},
+			{
+				"name": "A Seed in the Clinic",
+				"interpretation": "A newly reported infection turns distant travel into a reminder that biological threats can take root unexpectedly.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Government websites go dark after AI-discovered flaw sparks security scramble",
+				"url": "https://reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/"
+			},
+			{
+				"title": "What is PHP and why did it take government websites offline?",
+				"url": "https://reuters.com/technology/what-is-php-why-did-it-take-government-websites-offline-2026-10-21/"
+			},
+			{
+				"title": "US orders diplomats to depart Saudi Arabia amid Houthi strikes",
+				"url": "https://reuters.com/world/middle-east/us-preparing-issue-ordered-departure-some-personnel-gulf-embassies-us-officials-2026-10-21/"
+			},
+			{
+				"title": "Typhoon Champi nears Taiwan, causing flight cancellations and disrupting US-Japan drills",
+				"url": "https://reuters.com/business/environment/taiwan-issues-land-warning-ahead-arrival-powerful-typhoon-champi-2026-10-22/"
+			},
+			{
+				"title": "Meta strikes deal to keep Zuckerberg in California after wealth tax concerns",
+				"url": "https://reuters.com/business/meta-strikes-deal-keep-zuckerberg-california-after-wealth-tax-concerns-2026-10-22/"
+			},
+			{
+				"title": "Putin agrees to resume 3-way peace talks with Ukraine and US",
+				"url": "https://reuters.com/world/europe/putin-hosts-trump-envoy-new-ukraine-peace-talks-frees-us-citizen-held-russia-2026-10-21/"
+			},
+			{
+				"title": "Heineken ordered to pay \u20ac111 million in damages, interest to Greek rival",
+				"url": "https://reuters.com/business/retail-consumer/heineken-ordered-pay-111-million-damages-interest-greek-rival-2026-10-21/"
+			},
+			{
+				"title": "Oil jumps on escalating Middle East conflict",
+				"url": "https://reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/"
+			},
+			{
+				"title": "France reports first human Shamonda virus case",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/france-reports-first-human-shamonda-virus-case-2026-10-22/"
+			},
+			{
+				"title": "North Korea's Kim Yo Jong warns South Korea, says border loudspeakers to be ready within days",
+				"url": "https://reuters.com/world/asia-pacific/north-koreas-kim-yo-jong-warns-south-korea-says-border-loudspeakers-be-ready-2026-10-21/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "courtiers and heralds"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-10-21",
 		"displayDate": "October 21, 2026",
 		"image": "/images/news-bosch/2026/10/21.webp",
