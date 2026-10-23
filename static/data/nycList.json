@@ -1089,6 +1089,17 @@
     "lng": -73.9895296
   },
   {
+    "name": "Eggstravaganza",
+    "address": "Park Ave & E 52nd St, New York, NY 10022",
+    "isDecent": "Y",
+    "isRecommended": "N",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Good egg wraps.",
+    "lat": 40.7583939,
+    "lng": -73.9729703
+  },
+  {
     "name": "Eli's at Grand Central Market",
     "address": "89 E 42nd St, New York, NY 10017",
     "isDecent": "Y",
@@ -1461,6 +1472,17 @@
     "notes": "Bougie coffee shop with the studied California vibe that New Yorker prefer to call Austrailian. Great location south of Gramercy Park. Good when walking.",
     "lat": 40.7369089,
     "lng": -73.98684159999999
+  },
+  {
+    "name": "Il Buco Alimentari & Vineria",
+    "address": "53 Great Jones St, New York, NY 10012",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "The New York pasta dinner people expect in the Nolita zone.",
+    "lat": 40.7264217,
+    "lng": -73.992587
   },
   {
     "name": "Il Mulino Prime",
@@ -3111,6 +3133,17 @@
     "notes": "Embrace it for what it is. Get the steak sandwich.",
     "lat": 40.7747354,
     "lng": -73.9823119
+  },
+  {
+    "name": "Temple Bar",
+    "address": "332 Lafayette St, New York, NY 10012",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "A dependable traditional cocktail bar in a great location near Lafayette and Broadway by Houston. Can be a little loud when they have a DJ in there.",
+    "lat": 40.7257623,
+    "lng": -73.9949559
   },
   {
     "name": "Tengri Tagh",

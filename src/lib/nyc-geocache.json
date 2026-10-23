@@ -1334,5 +1334,17 @@
 	"206 E 86th St, New York, NY 10028": {
 		"lat": 40.7783469,
 		"lng": -73.953602
+	},
+	"Park Ave & E 52nd St, New York, NY 10022": {
+		"lat": 40.7583939,
+		"lng": -73.9729703
+	},
+	"53 Great Jones St, New York, NY 10012": {
+		"lat": 40.7264217,
+		"lng": -73.992587
+	},
+	"332 Lafayette St, New York, NY 10012": {
+		"lat": 40.7257623,
+		"lng": -73.9949559
 	}
 }
