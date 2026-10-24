@@ -2638,5 +2638,13 @@
     "pingMs": 10.9,
     "server": "New York NY",
     "provider": "Starry Inc."
+  },
+  {
+    "timestamp": "2026-10-23 21:00:14",
+    "downloadMbps": 565.64,
+    "uploadMbps": 22.79,
+    "pingMs": 15.9,
+    "server": "New York NY",
+    "provider": "Starry Inc."
   }
 ]
