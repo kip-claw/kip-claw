@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-24",
+		"displayDate": "October 24, 2026",
+		"image": "/images/news-bosch/2026/10/24.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-24T09:05:51.683614Z",
+		"sourceRetrievedAt": "2026-10-24T09:00:41.988173Z",
+		"themes": [
+			{
+				"name": "Signals Over Fraying Cables",
+				"interpretation": "Promises of seamless connection meet the appetite for control and the consequence of crowded or threatened networks.",
+				"storyRanks": [1, 3, 8]
+			},
+			{
+				"name": "Crossing Into Shadow",
+				"interpretation": "A guarded passage and exposed private messages turn political movement into a journey under watch.",
+				"storyRanks": [2, 10]
+			},
+			{
+				"name": "The Nest Catches Fire",
+				"interpretation": "Old political shadows and present unrest make the promise of order feel increasingly combustible.",
+				"storyRanks": [4, 6]
+			},
+			{
+				"name": "Counting Days and Jobs",
+				"interpretation": "Households are urged to prepare for disruption while workers wait on a short deadline for reprieve.",
+				"storyRanks": [5, 7]
+			},
+			{
+				"name": "Dice Beside the Ballot",
+				"interpretation": "A contested path to a Senate seat makes democratic choice feel like a game whose rules are themselves in dispute.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say",
+				"url": "https://reuters.com/business/autos-transportation/us-has-years-asked-musk-alter-starlink-service-ukraine-middle-east-sources-say-2026-10-24/"
+			},
+			{
+				"title": "North Korea's Kim Jong Un visits China via Dandong bridge, South Korean official says",
+				"url": "https://reuters.com/world/china/north-koreas-kim-jong-un-arrives-dandong-china-yonhap-says-2026-10-24/"
+			},
+			{
+				"title": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say",
+				"url": "https://reuters.com/world/middle-east/iran-has-detailed-plans-hit-gulf-undersea-cables-if-war-resumes-officials-say-2026-10-23/"
+			},
+			{
+				"title": "Suspect arrested as fire engulfs Nazi guest house 'Eagle's Nest', German police say",
+				"url": "https://reuters.com/world/europe/suspect-arrested-fire-engulfs-hitlers-eagles-nest-retreat-german-police-say-2026-10-24/"
+			},
+			{
+				"title": "UK tells public to keep three days' emergency supplies at home",
+				"url": "https://reuters.com/business/aerospace-defense/uk-tells-public-keep-three-days-emergency-supplies-home-2026-10-23/"
+			},
+			{
+				"title": "France boosts police presence, hoping to prevent repeat of riots",
+				"url": "https://reuters.com/world/europe/french-businesses-events-close-with-more-weekend-protests-expected-2026-10-23/"
+			},
+			{
+				"title": "Canada gives Cleveland-Cliffs 15 days to reverse planned job cuts",
+				"url": "https://reuters.com/business/canada-gives-cleveland-cliffs-15-days-reverse-planned-job-cuts-2026-10-22/"
+			},
+			{
+				"title": "Amazon cloud capacity sold out through 2027, CEO Jassy says",
+				"url": "https://reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/"
+			},
+			{
+				"title": "US Justice Dept sues to block possible Alaska election of Democrat to Senate",
+				"url": "https://reuters.com/world/trump-administration-sues-block-senate-race-certification-alaska-if-republican-2026-10-23/"
+			},
+			{
+				"title": "Hacked emails yield revelations on Germany's far-right AfD party leader",
+				"url": "https://reuters.com/business/media-telecom/hacked-emails-yield-revelations-germanys-far-right-afd-party-leader-2026-10-23/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-10-22",
 		"displayDate": "October 22, 2026",
 		"image": "/images/news-bosch/2026/10/22.webp",
