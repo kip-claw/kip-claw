@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-10-25",
+		"displayDate": "October 25, 2026",
+		"image": "/images/news-bosch/2026/10/25.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-25T09:19:01.063207Z",
+		"sourceRetrievedAt": "2026-10-25T09:13:44.733942Z",
+		"themes": [
+			{
+				"name": "Signals Across Broken Fronts",
+				"interpretation": "A contested wartime signal and the discovery of ambushed soldiers show how fragile security remains across distant fronts.",
+				"storyRanks": [1, 7]
+			},
+			{
+				"name": "Ballots, Stones, and Trumpets",
+				"interpretation": "Protest and election campaigns turn public streets and polling places into arenas where political voices collide.",
+				"storyRanks": [5, 6, 8, 10]
+			},
+			{
+				"name": "Tide Beneath the Rig",
+				"interpretation": "An oil spill closing beaches and a sinking offshore rig make the sea both threatened shoreline and perilous workplace.",
+				"storyRanks": [3, 4]
+			},
+			{
+				"name": "Sweetness on the Scales",
+				"interpretation": "A chocolate pricing misstep and an experimental cancer treatment place commercial judgment beside the uncertain promise of medicine.",
+				"storyRanks": [2, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Ukraine says Starshield back to normal, Musk says Kyiv violated terms",
+				"url": "https://reuters.com/world/europe/ukraine-says-starlink-starshield-operating-400-kph-after-week-throttling-2026-10-24/"
+			},
+			{
+				"title": "Lindt got chocolate price hikes wrong, chairman says after CEO's ouster",
+				"url": "https://reuters.com/business/retail-consumer/lindt-got-chocolate-price-hikes-wrong-chairman-says-after-ceos-ouster-2026-10-24/"
+			},
+			{
+				"title": "UAE's Ras Al Khaimah shuts all beaches as neighbours grapple with oil spill",
+				"url": "https://reuters.com/world/middle-east/uaes-ras-al-khaimah-shuts-all-beaches-neighbours-grapple-with-oil-spill-2026-10-24/"
+			},
+			{
+				"title": "Borr Drilling rig sinks offshore Gabon, five personnel\u00a0missing",
+				"url": "https://reuters.com/world/africa/borr-drilling-rig-sinks-offshore-gabon-five-personnel-missing-2026-10-25/"
+			},
+			{
+				"title": "Violence flares in Paris after largely peaceful protests across France",
+				"url": "https://reuters.com/world/europe/france-mounts-huge-security-operation-protesters-prepare-march-2026-10-24/"
+			},
+			{
+				"title": "Obama unloads on Trump while stumping for Democrats ahead of midterms",
+				"url": "https://reuters.com/legal/government/obama-unloads-trump-while-stumping-democrats-ahead-midterms-2026-10-25/"
+			},
+			{
+				"title": "Bodies of ambushed Salvadoran soldiers found in Haiti, New York Times\u00a0reports",
+				"url": "https://reuters.com/world/americas/bodies-ambushed-salvadoran-soldiers-found-haiti-new-york-times-reports-2026-10-24/"
+			},
+			{
+				"title": "Disenchanted Netanyahu supporters are prize of Israel election campaign",
+				"url": "https://reuters.com/world/asia-pacific/disenchanted-netanyahu-supporters-are-prize-israel-election-campaign-2026-10-25/"
+			},
+			{
+				"title": "Johnson & Johnson's prostate cancer drug shrinks tumors in early-stage trial",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/johnson-johnsons-prostate-cancer-drug-shrinks-tumors-early-stage-trial-2026-10-24/"
+			},
+			{
+				"title": "Brazil heads to polls in runoff between leftist Lula and Bolsonaro Jr.",
+				"url": "https://reuters.com/world/americas/brazil-heads-polls-runoff-between-leftist-lula-bolsonaro-jr-2026-10-25/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"games, dice, wheels, races, and balancing acts",
+				"musical instruments, choirs, bells, and broken harmonies"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-10-24",
 		"displayDate": "October 24, 2026",
 		"image": "/images/news-bosch/2026/10/24.webp",
