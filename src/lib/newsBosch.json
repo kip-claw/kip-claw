@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-10-27",
+		"displayDate": "October 27, 2026",
+		"image": "/images/news-bosch/2026/10/27.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-27T09:08:25.764427Z",
+		"sourceRetrievedAt": "2026-10-27T09:00:42.994701Z",
+		"themes": [
+			{
+				"name": "The Bubble's Reverse Image",
+				"interpretation": "China's AI boom appears to have turned into a bust, making technological promise reflect back as fragility.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Sixty Thousand Exit Slips",
+				"interpretation": "A vast buyout offer turns cost-cutting into a mass departure, with each invitation balancing a job against a company ledger.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "The Ballot After the Bell",
+				"interpretation": "Israel's vote makes political survival hinge on the moment the polls close and the uncertain count that follows.",
+				"storyRanks": [2, 4]
+			},
+			{
+				"name": "Mirrors of Electoral Trust",
+				"interpretation": "Rising approval in the United States and rival claims around Brazil's result show how elections can reflect sharply different ideas of legitimacy.",
+				"storyRanks": [5, 6]
+			},
+			{
+				"name": "Maps Under Strain",
+				"interpretation": "Regional diplomacy is tested by attacks, gas disputes, and haze that cross borders even as officials seek calmer routes.",
+				"storyRanks": [7, 8]
+			},
+			{
+				"name": "Two Unequal Balancing Acts",
+				"interpretation": "Luxury aviation's widening divide and a warning against spending reserves to defend the rupee contrast conspicuous consumption with financial restraint.",
+				"storyRanks": [9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "In China, the AI bubble has already burst",
+				"url": "https://reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/"
+			},
+			{
+				"title": "Netanyahu's political survival on the line as Israel votes",
+				"url": "https://reuters.com/world/middle-east/netanyahus-political-survival-line-israel-votes-2026-10-27/"
+			},
+			{
+				"title": "Microsoft offers buyouts to around 60,000 employees to contain costs",
+				"url": "https://reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/"
+			},
+			{
+				"title": "Israel election: What happens after polls close?",
+				"url": "https://reuters.com/world/middle-east/israel-election-what-happens-after-polls-close-2026-10-27/"
+			},
+			{
+				"title": "Trump approval rises from record low to 32% ahead of midterm election, Reuters Ipsos poll finds",
+				"url": "https://reuters.com/world/us/trump-approval-rises-record-low-32-ahead-midterm-election-reuters-ipsos-poll-2026-10-26/"
+			},
+			{
+				"title": "Trump says Brazil election looked 'rigged,' defeated Bolsonaro's party recognizes Lula win",
+				"url": "https://reuters.com/world/americas/brazil-heads-back-future-flavio-bolsonaro-refuses-recognize-lula-win-2026-10-26/"
+			},
+			{
+				"title": "Saudi defence pact countries push for peace in Tehran as Houthis launch more attacks",
+				"url": "https://reuters.com/world/asia-pacific/top-officials-mecca-pact-countries-meet-iranian-officials-tehran-monday-two-2026-10-26/"
+			},
+			{
+				"title": "Singapore foreign minister heads to Indonesia amid tensions over gas and haze",
+				"url": "https://reuters.com/business/energy/singapore-foreign-minister-heads-indonesia-amid-tensions-over-gas-haze-2026-10-27/"
+			},
+			{
+				"title": "Caviar, champagne and a Porsche ride as aviation widens its class divide",
+				"url": "https://reuters.com/business/caviar-champagne-porsche-ride-aviation-widens-its-class-divide-2026-10-27/"
+			},
+			{
+				"title": "India should not deplete reserves to defend rupee, ex-RBI chief Rajan says",
+				"url": "https://reuters.com/world/india/india-should-not-deplete-reserves-defend-rupee-ex-rbi-chief-rajan-says-2026-10-27/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"musical instruments, choirs, bells, and broken harmonies",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-10-26",
 		"displayDate": "October 26, 2026",
 		"image": "/images/news-bosch/2026/10/26.webp",
