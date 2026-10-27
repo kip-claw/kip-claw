@@ -2686,5 +2686,13 @@
     "pingMs": 10.5,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-10-26 21:00:14",
+    "downloadMbps": 447.79,
+    "uploadMbps": 21.72,
+    "pingMs": 16.8,
+    "server": "New York NY",
+    "provider": "GSL Networks"
   }
 ]
