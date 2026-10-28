@@ -1,5 +1,93 @@
 [
 	{
+		"date": "2026-10-28",
+		"displayDate": "October 28, 2026",
+		"image": "/images/news-bosch/2026/10/28.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-28T09:07:30.341980Z",
+		"sourceRetrievedAt": "2026-10-28T09:00:42.095480Z",
+		"themes": [
+			{
+				"name": "The Deadlocked Crown Wheel",
+				"interpretation": "Israel\u2019s tied election turns leadership into a contest of rival claims, with each live count moving the wheel without settling who will lead.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "The Bubble and the Collision",
+				"interpretation": "A burst in China\u2019s AI hopes and a deadly rail collision show how systems built for speed can suddenly lose their forward motion.",
+				"storyRanks": [3, 4]
+			},
+			{
+				"name": "Towers Built on Doubt",
+				"interpretation": "A record-valued debut rises like a new tower even as layoffs and a possible corporate split expose the unstable foundations beneath business confidence.",
+				"storyRanks": [5, 7, 9]
+			},
+			{
+				"name": "The Unheard Mirror Race",
+				"interpretation": "Young European protesters push into public view while distant political and cultural comments are recast through competing mirrors of approval and offense.",
+				"storyRanks": [6, 8, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Netanyahu, Eisenkot stake rival claims to lead Israel after deadlocked vote",
+				"url": "https://reuters.com/world/middle-east/netanyahu-eisenkot-stake-rival-claims-lead-israel-after-deadlocked-vote-2026-10-28/"
+			},
+			{
+				"title": "Live 2026 Israel election results",
+				"url": "https://reuters.com/graphics/ISRAEL-ELECTION/RESULTS/akvelybkapr/"
+			},
+			{
+				"title": "In China, the AI bubble has already burst",
+				"url": "https://reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/"
+			},
+			{
+				"title": "Two high-speed trains collide in Spain, rail operator says",
+				"url": "https://reuters.com/world/two-high-speed-trains-rear-end-spain-rail-operator-says-2026-10-28/"
+			},
+			{
+				"title": "Ambani\u2019s Jio becomes India\u2019s second-most valuable firm in $131.5 billion debut",
+				"url": "https://reuters.com/world/india/ambanis-jio-make-mumbai-trading-debut-after-record-32-billion-india-ipo-2026-10-28/"
+			},
+			{
+				"title": "'Nobody heard us' \u2013 why Gen Z are leading protests across Europe",
+				"url": "https://reuters.com/world/europe/nobody-heard-us-why-gen-z-are-leading-protests-across-europe-2026-10-28/"
+			},
+			{
+				"title": "Ben & Jerry's founders explore deal to separate brand from owner, WSJ reports (Oct 26)",
+				"url": "https://reuters.com/legal/legalindustry/ben-jerrys-exploring-deal-with-kkr-executive-separate-ice-cream-brand-owner-wsj-2026-10-26/"
+			},
+			{
+				"title": "Trump says he approves of Brazil's Flavio Bolsonaro coming to US",
+				"url": "https://reuters.com/world/china/trump-says-he-approves-brazils-flavio-bolsonaro-coming-us-2026-10-28/"
+			},
+			{
+				"title": "Microsoft offers buyouts to around 60,000 employees to contain costs",
+				"url": "https://reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/"
+			},
+			{
+				"title": "Mbappe seeks to defuse anger in China after Mao 'dictator' comment",
+				"url": "https://reuters.com/business/media-telecom/mbappe-dropped-by-chinese-brands-over-alleged-mao-meme-comments-2026-10-27/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "hybrid human-machine attendants"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-10-27",
 		"displayDate": "October 27, 2026",
 		"image": "/images/news-bosch/2026/10/27.webp",
