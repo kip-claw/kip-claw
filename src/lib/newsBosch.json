@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-29",
+		"displayDate": "October 29, 2026",
+		"image": "/images/news-bosch/2026/10/29.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-29T09:06:20.474960Z",
+		"sourceRetrievedAt": "2026-10-29T09:00:42.321243Z",
+		"themes": [
+			{
+				"name": "Factories Of Strange Fruit",
+				"interpretation": "The promise of artificial intelligence and industrial reinvention meets the consequence of a burst bubble and a race to catch up.",
+				"storyRanks": [1, 9, 10]
+			},
+			{
+				"name": "Pilgrimage Through Twisted Rails",
+				"interpretation": "A journey promised as ordinary passage ends in devastating loss, with Spain facing another major train disaster.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Unfinished Machines Of Power",
+				"interpretation": "Legal institutions and fortunes built to endure prove vulnerable to collapse, settlements, and judgment.",
+				"storyRanks": [3, 7]
+			},
+			{
+				"name": "Scarcity Beside The Feast",
+				"interpretation": "While a record IPO draws a lavish celebration, women face a widening shortage of estrogen patches.",
+				"storyRanks": [5, 8]
+			},
+			{
+				"name": "Ballots Behind Velvet Ropes",
+				"interpretation": "Political choice and privileged access share a stage where the promise of public participation meets paid shortcuts.",
+				"storyRanks": [4, 6]
+			}
+		],
+		"stories": [
+			{
+				"title": "In China, the AI bubble has already burst",
+				"url": "https://reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/"
+			},
+			{
+				"title": "At least 68 people dead in Spain's second major train crash this year",
+				"url": "https://reuters.com/world/two-high-speed-trains-rear-end-spain-rail-operator-says-2026-10-28/"
+			},
+			{
+				"title": "Weil Gotshal law firm plans to dissolve, capping dizzying fall",
+				"url": "https://reuters.com/legal/litigation/weil-gotshal-law-firm-plans-dissolve-capping-dizzying-fall-2026-10-28/"
+			},
+			{
+				"title": "Live 2026 Israel election results",
+				"url": "https://reuters.com/graphics/ISRAEL-ELECTION/RESULTS/akvelybkapr/"
+			},
+			{
+				"title": "US estrogen supply crunch widens as women seek alternatives to scarce patches",
+				"url": "https://reuters.com/legal/litigation/us-estrogen-supply-crunch-widens-women-seek-alternatives-scarce-patches-2026-10-28/"
+			},
+			{
+				"title": "Bloomberg, trading firms to pay Trump for faster Truth Social access, sources say",
+				"url": "https://reuters.com/business/finance/bloomberg-two-trading-firms-agree-pay-trumps-truth-social-faster-access-2026-10-29/"
+			},
+			{
+				"title": "Richard Sackler loses bid to keep mansion despite Purdue settlement",
+				"url": "https://reuters.com/legal/government/richard-sackler-loses-bid-keep-mansion-despite-purdue-settlement-2026-10-28/"
+			},
+			{
+				"title": "With drones, DJs and a helipad, Ambani throws a party for Jio\u2019s record IPO",
+				"url": "https://reuters.com/world/india/with-drones-djs-helipad-ambani-throws-party-jios-record-ipo-2026-10-28/"
+			},
+			{
+				"title": "How China went from selling clothes to cars",
+				"url": "https://reuters.com/graphics/CHINA-ECONOMY/TRADE-OBJECTS/moparrmewva/"
+			},
+			{
+				"title": "Putin salutes Musk's genius as Russia plays catch-up with Starlink",
+				"url": "https://reuters.com/world/europe/putin-salutes-musks-genius-russia-plays-catch-up-with-starlink-2026-10-28/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "courtiers and heralds"],
+			"symbolFamilies": [
+				"workshops, looms, mills, gears, and unfinished machines",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-10-28",
 		"displayDate": "October 28, 2026",
 		"image": "/images/news-bosch/2026/10/28.webp",
