@@ -2726,5 +2726,13 @@
     "pingMs": 14.9,
     "server": "New York NY",
     "provider": "x99.cloud"
+  },
+  {
+    "timestamp": "2026-10-29 09:00:34",
+    "downloadMbps": 556.8,
+    "uploadMbps": 9.88,
+    "pingMs": 13.3,
+    "server": "New York NY",
+    "provider": "Optimum Online"
   }
 ]
