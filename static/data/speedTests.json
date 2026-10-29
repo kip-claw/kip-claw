@@ -2718,5 +2718,13 @@
     "pingMs": 33.1,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-10-28 21:00:14",
+    "downloadMbps": 553.32,
+    "uploadMbps": 13.37,
+    "pingMs": 14.9,
+    "server": "New York NY",
+    "provider": "x99.cloud"
   }
 ]
