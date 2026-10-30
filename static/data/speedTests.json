@@ -2742,5 +2742,13 @@
     "pingMs": 16.7,
     "server": "New York NY",
     "provider": "x99.cloud"
+  },
+  {
+    "timestamp": "2026-10-30 09:00:34",
+    "downloadMbps": 585.46,
+    "uploadMbps": 22.8,
+    "pingMs": 9.9,
+    "server": "New York NY",
+    "provider": "WebNX Inc"
   }
 ]
