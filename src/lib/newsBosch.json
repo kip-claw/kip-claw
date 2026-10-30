@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-30",
+		"displayDate": "October 30, 2026",
+		"image": "/images/news-bosch/2026/10/30.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-30T09:06:05.670648Z",
+		"sourceRetrievedAt": "2026-10-30T09:00:42.183382Z",
+		"themes": [
+			{
+				"name": "A Map Under Glass",
+				"interpretation": "Diplomatic pressure over Russia and Iran turns distant borders into a fragile surface that powerful hands keep trying to redraw.",
+				"storyRanks": [1, 3, 4]
+			},
+			{
+				"name": "The Cabinet of Missing Keys",
+				"interpretation": "A record-breaking crypto theft makes digital wealth seem like a locked cabinet whose contents can vanish through a hidden seam.",
+				"storyRanks": [2, 9]
+			},
+			{
+				"name": "A Loom of Fraying Wires",
+				"interpretation": "China's fading AI boom and proposed telecom restrictions show technological ambition caught in a tightening weave of limits.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "The Harbor's Stopped Gears",
+				"interpretation": "Political attacks and port strikes reveal how domestic power struggles and resistance to arms shipments can jam the machinery of conflict.",
+				"storyRanks": [6, 7]
+			},
+			{
+				"name": "The Orchard in the Workshop",
+				"interpretation": "A proposed take-private deal turns a familiar fast-food business into a grafted specimen on the workbench of corporate finance.",
+				"storyRanks": [8]
+			}
+		],
+		"stories": [
+			{
+				"title": "Pentagon tells Europeans to cool their rhetoric on Russia, sources say",
+				"url": "https://reuters.com/business/finance/pentagon-tells-europeans-cool-their-rhetoric-russia-sources-say-2026-10-30/"
+			},
+			{
+				"title": "Hackers steal $6.3 billion from Binance in world's biggest crypto heist",
+				"url": "https://reuters.com/legal/transactional/tether-circle-freeze-238-billion-after-binance-reports-security-incident-2026-10-29/"
+			},
+			{
+				"title": "Qatari mediators return to Tehran to push for US-Iran deal, official says",
+				"url": "https://reuters.com/world/middle-east/qatari-mediators-return-tehran-push-us-iran-deal-official-says-2026-10-30/"
+			},
+			{
+				"title": "Iran\u2019s hidden web of military agencies is slipping hardware past the US blockade",
+				"url": "https://reuters.com/world/iran/irans-hidden-web-military-agencies-is-slipping-hardware-past-us-blockade-2026-10-29/"
+			},
+			{
+				"title": "In China, the AI bubble has already burst",
+				"url": "https://reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/"
+			},
+			{
+				"title": "Netanyahu, at risk of losing power, steps up attacks on Israel's Arab parties",
+				"url": "https://reuters.com/world/middle-east/netanyahu-risk-losing-power-steps-up-attacks-israels-arab-parties-2026-10-29/"
+			},
+			{
+				"title": "Dockworkers at more than 100 ports worldwide strike against arms shipments",
+				"url": "https://reuters.com/business/world-at-work/dockworkers-more-than-100-ports-strike-against-arms-shipments-friday-2026-10-29/"
+			},
+			{
+				"title": "Wendy's gets $1.4 billion take-private offer from Peltz-led group",
+				"url": "https://reuters.com/business/trian-fund-management-offers-buy-wendys-14-billion-wsj-reports-2026-10-28/"
+			},
+			{
+				"title": "Where Binance's $6.3 billion breach ranks in crypto's biggest hacks and heists",
+				"url": "https://reuters.com/legal/government/where-binances-63-billion-breach-ranks-cryptos-biggest-hacks-heists-2026-10-30/"
+			},
+			{
+				"title": "US plans to ban Chinese telecom firms from direct access to US phone numbers",
+				"url": "https://reuters.com/world/asia-pacific/us-plans-ban-chinese-telecom-firms-direct-access-us-phone-numbers-2026-10-30/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "scholars and alchemists"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "clear winter light with long blue shadows",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-10-29",
 		"displayDate": "October 29, 2026",
 		"image": "/images/news-bosch/2026/10/29.webp",
