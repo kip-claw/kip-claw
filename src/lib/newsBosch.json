@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-10-31",
+		"displayDate": "October 31, 2026",
+		"image": "/images/news-bosch/2026/10/31.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-10-31T09:05:40.570687Z",
+		"sourceRetrievedAt": "2026-10-31T09:00:42.345937Z",
+		"themes": [
+			{
+				"name": "The Lawsuit's Crooked Tune",
+				"interpretation": "A courtroom turns a disputed promise into a public performance where the smallest claim can sound like a warning bell.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Oil Deal Labyrinth",
+				"interpretation": "Grand promises of oil wealth meet the winding passage from political announcement to material reality.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "Diplomacy Behind Closed Arches",
+				"interpretation": "Disputes over protocol and suspended authority leave leaders stranded at thresholds they cannot cross.",
+				"storyRanks": [3, 4]
+			},
+			{
+				"name": "The Crowd Breaks Harmony",
+				"interpretation": "Mass demonstrations turn civic streets into a swelling, discordant chorus as governments brace to answer.",
+				"storyRanks": [5, 7]
+			},
+			{
+				"name": "Courts, Machines, and Missing Voices",
+				"interpretation": "Judicial absences, guarded election officials, and independent weapons systems reveal institutions and technologies testing their limits.",
+				"storyRanks": [6, 8, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "McDonald's must face lawsuit over\u00a0McRib, US judge rules",
+				"url": "https://reuters.com/legal/government/mcdonalds-must-face-lawsuit-over-mcrib-us-judge-rules-2026-10-30/"
+			},
+			{
+				"title": "Trump touted a record Venezuela oil deal. Now reality is setting in",
+				"url": "https://reuters.com/legal/litigation/trump-touted-record-venezuela-oil-deal-now-reality-is-setting-2026-10-30/"
+			},
+			{
+				"title": "Russia's Lavrov says inviting Poland to attend G20 meeting breaks diplomatic rules",
+				"url": "https://reuters.com/world/russias-lavrov-says-inviting-poland-attend-g20-meeting-breaks-diplomatic-rules-2026-10-30/"
+			},
+			{
+				"title": "Polish president turns back from Senegal trip after top court chief suspended",
+				"url": "https://reuters.com/world/africa/polish-president-turns-back-senegal-trip-top-court-chief-suspended-2026-10-30/"
+			},
+			{
+				"title": "Gen Z protests reach Germany as over 160,000 expected at Halloween rallies",
+				"url": "https://reuters.com/world/europe/gen-z-protests-reach-germany-over-160000-expected-halloween-rallies-2026-10-31/"
+			},
+			{
+				"title": "Judge orders Trump administration to cease threats to prosecute election officials",
+				"url": "https://reuters.com/legal/government/judge-orders-trump-administration-cease-threats-prosecute-election-officials-2026-10-31/"
+			},
+			{
+				"title": "France braces for fresh unrest, government vows tough response",
+				"url": "https://reuters.com/world/europe/france-braces-fresh-unrest-government-vows-tough-response-2026-10-31/"
+			},
+			{
+				"title": "Ukrainian arms maker Fire Point says its systems can complete\u00a0missions without SpaceX",
+				"url": "https://reuters.com/business/aerospace-defense/ukrainian-arms-maker-fire-point-says-its-systems-can-complete-missions-without-2026-10-30/"
+			},
+			{
+				"title": "Japanese bodybuilder, 90, flexes ageless ambition on Spanish stage",
+				"url": "https://reuters.com/sports/japanese-bodybuilder-90-flexes-ageless-ambition-spanish-stage-2026-10-31/"
+			},
+			{
+				"title": "Texas federal judge fails to appear for judicial misconduct investigative hearing",
+				"url": "https://reuters.com/legal/government/texas-federal-judge-fails-appear-judicial-misconduct-investigative-hearing-2026-10-30/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "gardeners and field workers"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-10-30",
 		"displayDate": "October 30, 2026",
 		"image": "/images/news-bosch/2026/10/30.webp",
