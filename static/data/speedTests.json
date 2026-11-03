@@ -2806,5 +2806,13 @@
     "pingMs": 14.3,
     "server": "New York NY",
     "provider": "Stealth Communications"
+  },
+  {
+    "timestamp": "2026-11-03 09:00:35",
+    "downloadMbps": 583.9,
+    "uploadMbps": 23.01,
+    "pingMs": 14.5,
+    "server": "New York NY",
+    "provider": "Optimum Online"
   }
 ]
