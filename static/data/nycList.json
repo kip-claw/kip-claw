@@ -2970,6 +2970,17 @@
     "lng": -74.2612596
   },
   {
+    "name": "Sky Pavilion",
+    "address": "325 W 42nd St, New York, NY 10036",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "N",
+    "isClosed": "N",
+    "notes": "Szechuan restaurant across from the Port Authority on 42nd Street, with a massive menu of unAmericanized dishes. Far too good and interesting for such a terrible location.",
+    "lat": 40.7579786,
+    "lng": -73.9908556
+  },
+  {
     "name": "Socarrat (Chelsea)",
     "address": "259 W 19th St, New York, NY 10011",
     "isDecent": "Y",
