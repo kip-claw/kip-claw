@@ -2870,5 +2870,13 @@
     "pingMs": 11.4,
     "server": "New York NY",
     "provider": "Spectrum"
+  },
+  {
+    "timestamp": "2026-11-07 09:00:38",
+    "downloadMbps": 567.93,
+    "uploadMbps": 22.44,
+    "pingMs": 11.8,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
