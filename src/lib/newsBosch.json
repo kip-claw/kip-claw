@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-11-08",
+		"displayDate": "November 8, 2026",
+		"image": "/images/news-bosch/2026/11/08.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-08T10:05:26.868870Z",
+		"sourceRetrievedAt": "2026-11-08T10:00:41.669305Z",
+		"themes": [
+			{
+				"name": "Six Silences Over Krakow",
+				"interpretation": "The shock of six deaths in a Krakow mass shooting makes collective grief a central counterweight to the day's simultaneous struggles for power.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Molting Beneath the Election Clock",
+				"interpretation": "A midterm rout drives political reinvention toward 2028, while warnings about conflicts of interest expose the ethical pressures surrounding that repositioning.",
+				"storyRanks": [2, 6, 9]
+			},
+			{
+				"name": "Nests Without Settled Majorities",
+				"interpretation": "An Israeli rival's mandate to attempt government formation and South African local election losses place coalition bargaining at the center of contested authority.",
+				"storyRanks": [3, 5]
+			},
+			{
+				"name": "Debris Meets the Blockade",
+				"interpretation": "Damage to an oil-company building in Riyadh and prospective restrictions on Iranian land commerce bring physical vulnerability and economic constriction into the same regional frame.",
+				"storyRanks": [4, 8]
+			},
+			{
+				"name": "Rejected Ballots Behind Glass",
+				"interpretation": "The Alaska lawsuit over rejected absentee-ballot records turns access to election documentation into a separate struggle over accountability.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "Stimulus Against the Alliance Orbit",
+				"interpretation": "A French presidential hopeful couples economic stimulus with a renewed call to leave NATO, linking domestic revival to a proposed strategic departure.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Poland in shock after six die in Krakow mass shooting",
+				"url": "https://reuters.com/world/europe/two-kiled-least-10-injured-shooting-polish-city-krakow-tvn24-reports-2026-11-07/"
+			},
+			{
+				"title": "After midterm rout, Vance tries to build his own 2028 brand",
+				"url": "https://reuters.com/world/us/after-midterm-rout-vance-tries-build-his-own-2028-brand-2026-11-07/"
+			},
+			{
+				"title": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government",
+				"url": "https://reuters.com/world/middle-east/israeli-president-picks-gadi-eisenkot-netanyahu-rival-form-government-2026-11-07/"
+			},
+			{
+				"title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
+				"url": "https://reuters.com/world/middle-east/loud-booms-heard-saudi-capital-riyadh-after-early-warning-alert-issued-2026-11-08/"
+			},
+			{
+				"title": "South Africa's ANC battered by local election losses ahead of coalition talks",
+				"url": "https://reuters.com/world/africa/south-africas-anc-battered-by-local-election-losses-ahead-coalition-talks-2026-11-08/"
+			},
+			{
+				"title": "US midterm election results in graphics and charts",
+				"url": "https://reuters.com/graphics/US-ELECTIONS/GRAPHICS-BLOG/akpelkldzvr/"
+			},
+			{
+				"title": "Peltola campaign sues Alaska to get records on rejected absentee ballots",
+				"url": "https://reuters.com/legal/government/peltola-campaign-sues-alaska-get-records-rejected-absentee-ballots-2026-11-07/"
+			},
+			{
+				"title": "Expanding on naval blockade, US military looks to restrict Iranian land commerce",
+				"url": "https://reuters.com/world/middle-east/expanding-naval-blockade-us-military-looks-restrict-iranian-land-commerce-2026-11-07/"
+			},
+			{
+				"title": "Rubio warns top staff against conflicts of interest as Republicans look to 2028",
+				"url": "https://reuters.com/world/us/rubio-seeks-impose-order-state-republicans-look-ahead-2028-2026-11-07/"
+			},
+			{
+				"title": "French presidential hopeful Melenchon\u00a0pledges economic stimulus, renews NATO exit call",
+				"url": "https://reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "merchants and market keepers"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a continuous procession moving through all three panels",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-11-07",
 		"displayDate": "November 7, 2026",
 		"image": "/images/news-bosch/2026/11/07.webp",
