@@ -1,11 +1,11 @@
 {
   "summary": {
-    "totalTweets": 74411,
-    "totalLikes": 134043,
-    "originalTweets": 38450,
+    "totalTweets": 74413,
+    "totalLikes": 134045,
+    "originalTweets": 38452,
     "replies": 35961,
     "firstTweet": "1994-05-30T03:17:12.000Z",
-    "lastTweet": "2026-11-04T15:47:47.000Z"
+    "lastTweet": "2026-11-05T22:05:53.000Z"
   },
   "monthlyTweets": [
     {
@@ -910,7 +910,7 @@
     },
     {
       "month": "2026-11",
-      "count": 8
+      "count": 10
     }
   ],
   "topTweets": [
