@@ -2902,5 +2902,13 @@
     "pingMs": 15.0,
     "server": "New York NY",
     "provider": "Wnet"
+  },
+  {
+    "timestamp": "2026-11-09 09:00:50",
+    "downloadMbps": 563.35,
+    "uploadMbps": 22.69,
+    "pingMs": 8.7,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
