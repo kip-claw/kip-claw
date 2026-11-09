@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-09",
+		"displayDate": "November 9, 2026",
+		"image": "/images/news-bosch/2026/11/09.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-09T10:06:47.675254Z",
+		"sourceRetrievedAt": "2026-11-09T10:00:42.070452Z",
+		"themes": [
+			{
+				"name": "The Chip Under Glass",
+				"interpretation": "An internal probe over espionage claims turns technological power into an object of suspicion, opening the cycle with scrutiny and falling shares.",
+				"storyRanks": [1, 9]
+			},
+			{
+				"name": "The Mirrors Manufacture Motives",
+				"interpretation": "A reported covert exploitation of French riots and a political dispute over a Krakow shooter's motives show how violence becomes material for competing narratives.",
+				"storyRanks": [2, 5]
+			},
+			{
+				"name": "The Feast Consumes Air",
+				"interpretation": "Illegal Diwali fireworks and the hunt for secondhand engines to power AI expose the atmospheric and mechanical appetites beneath celebration and technological expansion.",
+				"storyRanks": [3, 8]
+			},
+			{
+				"name": "The Nest Refuses Return",
+				"interpretation": "The denied request for a new passport makes return to Bangladesh a migration interrupted by the state's control of identity documents.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "The Strait Feeds Back",
+				"interpretation": "Shipping attacks, signals of restraint toward Iran and understandings over Iraqi oil exports make energy passage a negotiated bottleneck, with the rightmost oil channel looping back to feed the opening chip cabinet.",
+				"storyRanks": [6, 7]
+			}
+		],
+		"stories": [
+			{
+				"title": "Nvidia's shares slide as chip giant probes CEO over spy claims",
+				"url": "https://reuters.com/world/asia-pacific/south-korea-says-nvidia-issues-wont-affect-contracted-gpu-supplies-2026-11-09/"
+			},
+			{
+				"title": "Covert Russian network exploited French riots on social media, EU report says",
+				"url": "https://reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/"
+			},
+			{
+				"title": "Delhi air quality deteriorates as revellers mark Diwali with illegal fireworks",
+				"url": "https://reuters.com/business/environment/delhi-air-quality-deteriorates-revellers-mark-diwali-with-illegal-fireworks-2026-11-09/"
+			},
+			{
+				"title": "Sheikh Hasina seeks new passport to return to Bangladesh, government denies request",
+				"url": "https://reuters.com/world/asia-pacific/hasina-seeks-new-passport-clearest-sign-bangladesh-return-2026-11-09/"
+			},
+			{
+				"title": "Krakow mass shooter dies as political dispute over motives builds",
+				"url": "https://reuters.com/world/europe/krakow-mass-shooting-assailant-died-hospital-polish-police-say-2026-11-09/"
+			},
+			{
+				"title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks",
+				"url": "https://reuters.com/business/energy/oil-falls-open-trump-says-fresh-iran-attacks-unlikely-2026-11-08/"
+			},
+			{
+				"title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
+				"url": "https://reuters.com/business/energy/iraq-has-reached-understandings-with-us-allow-oil-exports-through-hormuz-2026-11-08/"
+			},
+			{
+				"title": "AI power rush sends data centres hunting for used turbines and jet engines",
+				"url": "https://reuters.com/business/aerospace-defense/ai-power-rush-sends-data-centres-hunting-used-turbines-jet-engines-2026-11-09/"
+			},
+			{
+				"title": "What we know about Nvidia's probe into CEO Jensen Huang",
+				"url": "https://reuters.com/world/asia-pacific/what-we-know-about-nvidias-probe-into-ceo-jensen-huang-2026-11-09/"
+			},
+			{
+				"title": "Tesla to refund many Cybertruck deposits as demand exceeds production, Musk says",
+				"url": "https://reuters.com/business/autos-transportation/tesla-refund-many-cybertruck-deposits-demand-exceeds-production-musk-says-2026-11-09/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["hybrid human-machine attendants", "masked magistrates"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"animals, insects, shells, nests, and migrating flocks",
+				"feasts, kitchens, ovens, tables, and empty bowls"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "dry clay, straw yellow, olive, turquoise, and dark crimson",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-11-08",
 		"displayDate": "November 8, 2026",
 		"image": "/images/news-bosch/2026/11/08.webp",
