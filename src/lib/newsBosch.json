@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-10",
+		"displayDate": "November 10, 2026",
+		"image": "/images/news-bosch/2026/11/10.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-10T10:06:01.712316Z",
+		"sourceRetrievedAt": "2026-11-10T10:00:42.284471Z",
+		"themes": [
+			{
+				"name": "Connections Under Reversing Lenses",
+				"interpretation": "Interest in a Chinese businesswoman's executive ties becomes a wider scrutiny of technology leadership, as reported investigative claims and a disclosure lawsuit turn proximity into a contested liability.",
+				"storyRanks": [1, 4, 6]
+			},
+			{
+				"name": "The Nest That Fails",
+				"interpretation": "Three worker deaths at an Indian phone-parts factory expose the human cost beneath industrial production and renewed questions about safety.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "A Prospectus Flies Backward",
+				"interpretation": "An AI company's nearly $70 billion flotation plan briefly reaches banks before its withdrawal reverses the apparent momentum toward public markets.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Reprieve Across Unfinished Bridges",
+				"interpretation": "A pause in threatened Iran strikes and renewed Russia\u2013Ukraine talks suggest tentative diplomatic openings, while falling oil prices register diminished fears rather than settled peace.",
+				"storyRanks": [5, 7, 10]
+			},
+			{
+				"name": "Exports Overflow the Measure",
+				"interpretation": "China's trade surplus passing $1 trillion shows AI demand translating into a powerful export current even as cross-border technology ties draw suspicion.",
+				"storyRanks": [9, 1, 4]
+			}
+		],
+		"stories": [
+			{
+				"title": "Who is Alice Huang, the Chinese businesswoman tied to Nvidia's CEO?",
+				"url": "https://reuters.com/business/finance/alice-huang-chinese-businesswoman-tied-nvidia-ceo-went-finance-chips-2026-11-10/"
+			},
+			{
+				"title": "Three workers die at Tata's India iPhone parts factory in latest safety incident",
+				"url": "https://reuters.com/world/india/three-workers-die-tata-electronics-iphone-parts-plant-new-indian-express-reports-2026-11-10/"
+			},
+			{
+				"title": "Anthropic\u2019s nearly $70 billion IPO plan briefly circulated to banks, then retracted",
+				"url": "https://reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/"
+			},
+			{
+				"title": "Trump says FBI probing Nvidia CEO Huang as China controversy deepens",
+				"url": "https://reuters.com/world/asia-pacific/south-korea-says-nvidia-issues-wont-affect-contracted-gpu-supplies-2026-11-09/"
+			},
+			{
+				"title": "Trump says he will hold off on fresh Iran strikes for now",
+				"url": "https://reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/"
+			},
+			{
+				"title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
+				"url": "https://reuters.com/world/nvidia-ceo-huang-sued-over-disclosures-related-suspected-chinese-spy-2026-11-09/"
+			},
+			{
+				"title": "Russia and Ukraine hold first peace talks for nine months, Trump envoy says gaps have narrowed",
+				"url": "https://reuters.com/world/europe/russia-ukraine-meet-us-backed-talks-after-trump-says-broad-deal-possible-2026-11-10/"
+			},
+			{
+				"title": "Indonesia VP expresses intent to step down, presidential official says",
+				"url": "https://reuters.com/world/asia-pacific/fate-indonesias-vice-president-hangs-balance-lawmakers-mull-probe-2026-11-10/"
+			},
+			{
+				"title": "China's trade surplus soars past $1 trillion as AI boom powers exports",
+				"url": "https://reuters.com/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/"
+			},
+			{
+				"title": "Oil falls as Trump downplays prospect of escalation with Iran",
+				"url": "https://reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"vessels, canals, wells, floods, and bridges"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-11-09",
 		"displayDate": "November 9, 2026",
 		"image": "/images/news-bosch/2026/11/09.webp",
