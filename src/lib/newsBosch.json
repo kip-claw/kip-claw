@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-11",
+		"displayDate": "November 11, 2026",
+		"image": "/images/news-bosch/2026/11/11.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-11T10:06:09.722488Z",
+		"sourceRetrievedAt": "2026-11-11T10:00:42.286285Z",
+		"themes": [
+			{
+				"name": "The Housing Chorus Stops",
+				"interpretation": "Spain\u2019s first general strike in 14 years turns the withdrawal of everyday labor into a collective demand for somewhere to live.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Chips Cross Closed Canals",
+				"interpretation": "A blacklisted Chinese university\u2019s chip purchase and scrutiny of business and personal ties expose the tension between technological exclusion and continuing connections.",
+				"storyRanks": [2, 3, 6]
+			},
+			{
+				"name": "The Echo Sues Back",
+				"interpretation": "Lawsuits involving a broadcaster and a podcaster turn public speech into a contested exchange in which amplified voices face answering legal claims.",
+				"storyRanks": [4, 10]
+			},
+			{
+				"name": "A Price On Certainty",
+				"interpretation": "The dispute between an Indian billionaire and doctors over a $900 brain blood-flow tracker pits commercial confidence against medical skepticism.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Shelter Becomes A Siege",
+				"interpretation": "Threats, reciprocal security labels and Iran\u2019s refusal to release nuclear material turn protective boundaries into instruments of confrontation and market pressure.",
+				"storyRanks": [7, 8, 9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Workers across Spain stage first general strike in 14 years in anger over housing",
+				"url": "https://reuters.com/business/world-at-work/workers-across-spain-stage-first-general-strike-14-years-anger-over-housing-2026-11-11/"
+			},
+			{
+				"title": "Chinese university bought Nvidia H200 chips despite US blacklist",
+				"url": "https://reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/"
+			},
+			{
+				"title": "Who is Alice Huang, the Chinese businesswoman tied to Nvidia's CEO?",
+				"url": "https://reuters.com/business/finance/alice-huang-chinese-businesswoman-tied-nvidia-ceo-went-finance-chips-2026-11-10/"
+			},
+			{
+				"title": "US judge says Trump\u2019s $10 billion BBC defamation case can proceed",
+				"url": "https://reuters.com/legal/government/us-judge-says-trumps-10-billion-bbc-defamation-case-can-proceed-2026-11-10/"
+			},
+			{
+				"title": "Indian billionaire, doctors spar over $900 brain blood-flow tracker Temple",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/indian-billionaire-doctors-spar-over-900-brain-blood-flow-tracker-temple-2026-11-11/"
+			},
+			{
+				"title": "Nvidia faces deepening scrutiny over China chip ties, CEO affair",
+				"url": "https://reuters.com/world/china/nvidia-ceos-affair-aided-75-billion-chip-shipments-china-information-reports-2026-11-10/"
+			},
+			{
+				"title": "US Treasury chief Bessent moved to military base after Iranian threats, sources say",
+				"url": "https://reuters.com/world/middle-east/us-treasury-chief-bessent-moved-military-base-after-iranian-threats-nyt-reports-2026-11-11/"
+			},
+			{
+				"title": "Iran designates Argentina's navy and air force as 'terrorist organizations'",
+				"url": "https://reuters.com/world/americas/iran-designates-argentinas-navy-air-force-terrorist-organizations-2026-11-11/"
+			},
+			{
+				"title": "Oil up 1% after Iran says no nuclear material will leave the country",
+				"url": "https://reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/"
+			},
+			{
+				"title": "France's Macron and wife file new lawsuit against US podcaster Owens",
+				"url": "https://reuters.com/legal/litigation/frances-president-wife-file-new-lawsuit-against-us-podcaster-owens-2026-11-10/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"vessels, canals, wells, floods, and bridges",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-11-10",
 		"displayDate": "November 10, 2026",
 		"image": "/images/news-bosch/2026/11/10.webp",
