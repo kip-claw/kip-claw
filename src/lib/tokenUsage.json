@@ -1,14 +1,6 @@
 {
-	"generatedAt": "2026-11-10T11:30:13+00:00",
+	"generatedAt": "2026-11-11T11:30:11+00:00",
 	"days": [
-		{
-			"date": "2026-07-13",
-			"calls": 27,
-			"inputTokens": 1987382,
-			"outputTokens": 34456,
-			"cacheReadTokens": 6152576,
-			"totalTokens": 8174414
-		},
 		{
 			"date": "2026-07-14",
 			"calls": 55,
@@ -955,11 +947,19 @@
 		},
 		{
 			"date": "2026-11-10",
-			"calls": 20,
-			"inputTokens": 241720,
-			"outputTokens": 1587,
-			"cacheReadTokens": 1371648,
-			"totalTokens": 1614955
+			"calls": 60,
+			"inputTokens": 955916,
+			"outputTokens": 15562,
+			"cacheReadTokens": 6937088,
+			"totalTokens": 7908566
+		},
+		{
+			"date": "2026-11-11",
+			"calls": 27,
+			"inputTokens": 200638,
+			"outputTokens": 1439,
+			"cacheReadTokens": 2038784,
+			"totalTokens": 2240861
 		}
 	]
 }
