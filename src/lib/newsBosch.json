@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-11-12",
+		"displayDate": "November 12, 2026",
+		"image": "/images/news-bosch/2026/11/12.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-12T10:06:23.187800Z",
+		"sourceRetrievedAt": "2026-11-12T10:00:42.101698Z",
+		"themes": [
+			{
+				"name": "The Silicon Throne Tilts",
+				"interpretation": "A scandal-driven leadership crisis sends shares tumbling while succession contenders and Chinese chip buyers scramble around the same unstable center of power.",
+				"storyRanks": [1, 3, 7, 9]
+			},
+			{
+				"name": "History as a Puppeteer",
+				"interpretation": "China's assertion that Taiwan's reunification is inevitable casts a contested political future as a performance whose ending has already been dictated.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "An Entangled Palace Garden",
+				"interpretation": "Indonesia's wiretapping investigation, threatened treason charges and vice-presidential resignation expose surveillance and shifting loyalties as intertwined roots of political instability.",
+				"storyRanks": [5, 6]
+			},
+			{
+				"name": "The Ballot Behind Glass",
+				"interpretation": "An Alaska judge's rejection of a candidate's request for absentee ballot data turns electoral scrutiny into a struggle over access to the machinery backstage.",
+				"storyRanks": [4]
+			},
+			{
+				"name": "Pruning the Credit Orchard",
+				"interpretation": "India's proposed restriction on private equity control of multiple non-bank lenders seeks to prevent separate credit institutions from sharing one controlling root.",
+				"storyRanks": [8]
+			},
+			{
+				"name": "Another Turn Toward Peace",
+				"interpretation": "The arrival of US envoys in Moscow places another round of Ukraine peace diplomacy on a wheel whose motion does not yet guarantee progress.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Live: Nvidia shares plunge as board weighs ousting CEO Jensen Huang amid affair scandal",
+				"url": "https://reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+			},
+			{
+				"title": "China's Xi says Taiwan 'reunification' must happen as history cannot be stopped",
+				"url": "https://reuters.com/world/china/chinas-xi-says-taiwan-reunification-must-happen-history-cannot-be-stopped-2026-11-12/"
+			},
+			{
+				"title": "Nvidia board weighs CEO Huang's future as leadership crisis deepens",
+				"url": "https://reuters.com/technology/nvidia-is-preparing-oust-ceo-jensen-huang-wsj-reports-2026-11-11/"
+			},
+			{
+				"title": "Alaska judge rules against Democratic US \u200bSenate candidate's request for absentee ballot data",
+				"url": "https://reuters.com/legal/government/alaska-judge-rules-against-democratic-us-senate-candidates-request-absentee-2026-11-12/"
+			},
+			{
+				"title": "Indonesian police say they have enough initial evidence to pursue treason charges in Prabowo wiretapping case",
+				"url": "https://reuters.com/world/asia-pacific/indonesian-police-say-they-have-enough-initial-evidence-pursue-treason-charges-2026-11-12/"
+			},
+			{
+				"title": "Indonesia VP hands resignation to parliament as Jokowi backs Prabowo",
+				"url": "https://reuters.com/world/asia-pacific/indonesia-vp-gibran-hands-his-resignation-upper-house-2026-11-12/"
+			},
+			{
+				"title": "Who would be next CEO at Nvidia? Top engineer and CFO favored as candidates",
+				"url": "https://reuters.com/legal/transactional/whos-next-ceo-nvidia-top-engineer-cfo-favored-candidates-2026-11-12/"
+			},
+			{
+				"title": "India to ban private equity firms from controlling multiple non-bank lenders, sources say",
+				"url": "https://reuters.com/legal/government/india-ban-private-equity-firms-controlling-multiple-non-bank-lenders-sources-say-2026-11-12/"
+			},
+			{
+				"title": "Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs",
+				"url": "https://reuters.com/world/china/chinese-ai-firms-rush-secure-nvidia-chip-capacity-spy-scandal-stirs-fear-us-2026-11-12/"
+			},
+			{
+				"title": "US envoys arrive in Moscow for latest round of Ukrainian peace talks with Putin",
+				"url": "https://reuters.com/world/europe/us-envoys-arrive-moscow-latest-round-ukrainian-peace-talks-with-putin-2026-11-12/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["merchants and market keepers", "courtiers and heralds"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"games, dice, wheels, races, and balancing acts"
+			],
+			"composition": "deep theatrical prosceniums, each panel revealing a scene behind another scene",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-11-11",
 		"displayDate": "November 11, 2026",
 		"image": "/images/news-bosch/2026/11/11.webp",
