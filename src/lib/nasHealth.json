@@ -110,5 +110,12 @@
 		"usedGb": 773.0,
 		"usedPercent": 45.0,
 		"smartStatus": "OK"
+	},
+	{
+		"timestamp": "2026-11-13 12:22:50",
+		"totalGb": 1800.0,
+		"usedGb": 773.0,
+		"usedPercent": 45.0,
+		"smartStatus": "OK"
 	}
 ]
