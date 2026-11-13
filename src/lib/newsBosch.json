@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-11-13",
+		"displayDate": "November 13, 2026",
+		"image": "/images/news-bosch/2026/11/13.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-13T10:05:42.905440Z",
+		"sourceRetrievedAt": "2026-11-13T10:00:42.489444Z",
+		"themes": [
+			{
+				"name": "The Promise Falls Silent",
+				"interpretation": "A worldwide outage turns the promise of seamless digital assistance into a pilgrimage stalled at its first gate.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Appetite Unseats the Architect",
+				"interpretation": "Reports of workplace relationships and a leadership resignation expose private appetite beneath technological ambition, leaving a former financial challenger to inherit the machinery.",
+				"storyRanks": [2, 4, 5]
+			},
+			{
+				"name": "Consequences Cross the Map",
+				"interpretation": "The corporate scandal spreads into political vulnerability and threatens Chinese AI projects worth three billion dollars, revealing how distant promises depend on one unstable workshop.",
+				"storyRanks": [6, 7]
+			},
+			{
+				"name": "The Nest Divides Its Hoard",
+				"interpretation": "A Dutch wealth-tax dispute threatens government survival, making the distribution of accumulated riches a test of whether a shared political shelter can endure.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "The Lens Turns Inward",
+				"interpretation": "As US leadership dismisses the need for an Iran deal and redirects attention toward domestic corruption, an Iranian claim of targeting a radar in Bahrain underscores the danger beyond the inward-facing lens.",
+				"storyRanks": [8, 9]
+			},
+			{
+				"name": "The Procession Finds Closed Gates",
+				"interpretation": "A Florida city's refusal to host two public celebrations because of an anti-diversity law brings the pilgrimage to a civic gate where belonging is constrained by statute.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Microsoft outage hits Outlook, Teams and Copilot worldwide",
+				"url": "https://reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/"
+			},
+			{
+				"title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+				"url": "https://reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/"
+			},
+			{
+				"title": "Dutch government set for talks to stave off collapse after wealth tax row",
+				"url": "https://reuters.com/world/dutch-government-set-talks-stave-off-collapse-after-wealth-tax-row-2026-11-13/"
+			},
+			{
+				"title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+				"url": "https://reuters.com/business/colette-kress-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-2026-11-13/"
+			},
+			{
+				"title": "Jensen Huang resigns as Nvidia CEO amid reports of extramarital affairs - as it happened",
+				"url": "https://reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+			},
+			{
+				"title": "White House weighs Lutnick's ouster after Nvidia scandal",
+				"url": "https://reuters.com/world/china/republican-senator-urges-ban-chinese-chipmaker-cxmt-us-market-2026-11-12/"
+			},
+			{
+				"title": "Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
+				"url": "https://reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/"
+			},
+			{
+				"title": "Trump says US does not need Iran deal, directs Vance to focus on domestic corruption",
+				"url": "https://reuters.com/world/us/trump-says-vance-should-focus-domestic-corruption-we-dont-need-deal-with-iran-2026-11-12/"
+			},
+			{
+				"title": "Iran's Guards say they targeted a US early-warning radar in Bahrain",
+				"url": "https://reuters.com/world/middle-east/irans-guards-say-they-targeted-us-early-warning-radar-bahrain-2026-11-13/"
+			},
+			{
+				"title": "Florida city says it will not host St Patrick's Day parade, Pride event due to anti-diversity law",
+				"url": "https://reuters.com/world/us/florida-city-says-it-will-not-host-st-patricks-day-parade-pride-event-due-anti-2026-11-12/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "scholars and alchemists"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"workshops, looms, mills, gears, and unfinished machines"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "spring green, river blue, coral, cream, and weathered copper",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-11-12",
 		"displayDate": "November 12, 2026",
 		"image": "/images/news-bosch/2026/11/12.webp",
