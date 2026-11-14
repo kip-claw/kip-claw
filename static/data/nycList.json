@@ -3278,6 +3278,17 @@
     "lng": -73.9700009
   },
   {
+    "name": "The Lunch Box",
+    "address": "3 E 53rd St, New York, NY 10022",
+    "isDecent": "Y",
+    "isRecommended": "Y",
+    "isElite": "Y",
+    "isClosed": "N",
+    "notes": "Small bodega-style grill inside Paley Park, a pocket park just off Fifth Avenue at 53rd Street with a beautiful waterfall. A special place in the heart of Midtown to get a bodega meal.",
+    "lat": 40.7603267,
+    "lng": -73.9751022
+  },
+  {
     "name": "The Mansion",
     "address": "1634 York Ave, New York, NY 10028",
     "isDecent": "Y",
