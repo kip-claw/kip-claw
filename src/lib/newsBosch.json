@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-14",
+		"displayDate": "November 14, 2026",
+		"image": "/images/news-bosch/2026/11/14.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-14T10:05:55.317463Z",
+		"sourceRetrievedAt": "2026-11-14T10:00:43.636322Z",
+		"themes": [
+			{
+				"name": "The Grounded Flight Garden",
+				"interpretation": "The planned resumption of US flights after an air traffic network failure reveals how mass movement depends on a fragile web of coordination.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Grafts Behind Closed Doors",
+				"interpretation": "Reports of concealed relationships and competing leadership overtures depict corporate authority as a cultivated canopy whose hidden grafts threaten its stability.",
+				"storyRanks": [2, 5, 10]
+			},
+			{
+				"name": "The Orchard Must Evacuate",
+				"interpretation": "The warning to park 720,000 vehicles outside turns the household threshold from a boundary of shelter into a firebreak.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Judgment at the Kitchen Door",
+				"interpretation": "Reported fake court orders in India and an attack on an international court expose distinct pressures on the authenticity and legitimacy of legal authority.",
+				"storyRanks": [4, 7]
+			},
+			{
+				"name": "The Harbor Feeds Back",
+				"interpretation": "A tanker\u2013cruise ship collision and 32 hospitalizations close the cycle of disrupted movement, with the rightmost harbor's broken channels feeding visually back into the leftmost runway roots.",
+				"storyRanks": [8, 1]
+			}
+		],
+		"stories": [
+			{
+				"title": "US to resume flights after air traffic network failure sparks chaos",
+				"url": "https://reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/"
+			},
+			{
+				"title": "Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say",
+				"url": "https://reuters.com/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/"
+			},
+			{
+				"title": "US urges owners of 720,000 BMW vehicles to park outside over fire risks",
+				"url": "https://reuters.com/world/us-urges-owners-720000-bmw-vehicles-park-outside-over-fire-risks-2026-11-13/"
+			},
+			{
+				"title": "Modi's office summons telecom secretary over use of fake court orders, officials say",
+				"url": "https://reuters.com/world/modi-summons-telecom-secretary-over-website-takedowns-sources-say-2026-11-14/"
+			},
+			{
+				"title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+				"url": "https://reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/"
+			},
+			{
+				"title": "India's Sooryavanshi becomes youngest captain in men's T20 history",
+				"url": "https://reuters.com/sports/cricket/indias-sooryavanshi-becomes-youngest-captain-mens-t20-history-2026-11-14/"
+			},
+			{
+				"title": "Rubio assails international court in speech to conservative legal group",
+				"url": "https://reuters.com/world/us/rubio-assails-international-court-speech-conservative-legal-group-2026-11-14/"
+			},
+			{
+				"title": "Tanker collides with cruise ship in New Orleans, 32 hospitalized",
+				"url": "https://reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/"
+			},
+			{
+				"title": "Tesla invites select customers to buy Cybercab for personal use",
+				"url": "https://reuters.com/business/autos-transportation/tesla-invites-select-customers-buy-cybercab-personal-use-2026-11-14/"
+			},
+			{
+				"title": "Nvidia approaches Arm CEO Haas as employees seek Huang's return, reports say",
+				"url": "https://reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["gardeners and field workers", "players on a theatrical stage"],
+			"symbolFamilies": [
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "misty dawn with luminous clouds and wet reflective ground",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-11-13",
 		"displayDate": "November 13, 2026",
 		"image": "/images/news-bosch/2026/11/13.webp",
