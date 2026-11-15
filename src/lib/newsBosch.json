@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-11-15",
+		"displayDate": "November 15, 2026",
+		"image": "/images/news-bosch/2026/11/15.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-15T10:05:26.998989Z",
+		"sourceRetrievedAt": "2026-11-15T10:00:42.245595Z",
+		"themes": [
+			{
+				"name": "One Switch Silences Flight",
+				"interpretation": "The aviation shutdown and a novice pilot's first solo flight expose how a single technical failure can silence an entire system while leaving individuals suspended in uncertainty.",
+				"storyRanks": [1, 5]
+			},
+			{
+				"name": "Narrow Waters Fractured Skies",
+				"interpretation": "Withdrawal near Bab el-Mandeb, intercepted attacks over Bahrain, and the South China Sea rift turn passage through water and air into a contested choreography.",
+				"storyRanks": [2, 7, 9]
+			},
+			{
+				"name": "An Exit Echoes Forward",
+				"interpretation": "A company's statement that an employee left in August 2025 brings an earlier departure back onto the present news stage.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Power Rewrites the Score",
+				"interpretation": "An effort to curb judicial power and a victorious party's internal divisions reveal competing struggles over who conducts government and which agenda it performs.",
+				"storyRanks": [4, 10]
+			},
+			{
+				"name": "A Summit Without a Stage",
+				"interpretation": "Pressure for a major-power meeting meets a prospective host's wariness, leaving the staging of diplomacy itself unresolved.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "Safety Returns Vehicles Outside",
+				"interpretation": "The warning to park 720,000 vehicles outdoors makes ordinary storage a hazard, while a procession of displaced cars can loop from the right panel back toward the grounded aircraft on the left.",
+				"storyRanks": [8]
+			}
+		],
+		"stories": [
+			{
+				"title": "US aviation shutdown blamed on L3 Harris installed router",
+				"url": "https://reuters.com/business/aerospace-defense/us-aviation-shutdown-blamed-l3-harris-installed-router-2026-11-14/"
+			},
+			{
+				"title": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control",
+				"url": "https://reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/"
+			},
+			{
+				"title": "Megaspeed says Alice Huang left company in August 2025",
+				"url": "https://reuters.com/business/megaspeed-says-alice-huang-left-company-august-2025-2026-11-15/"
+			},
+			{
+				"title": "At the Supreme Court, Trump aims to cut the power of judges again",
+				"url": "https://reuters.com/legal/government/supreme-court-trump-aims-cut-power-judges-again-2026-11-14/"
+			},
+			{
+				"title": "\u2018I don\u2019t know what to do\u2019: student pilot on first solo flight caught in US shutdown",
+				"url": "https://reuters.com/business/aerospace-defense/i-dont-know-what-do-student-pilot-first-solo-flight-caught-us-shutdown-2026-11-14/"
+			},
+			{
+				"title": "A new 'Yalta'? Trump and Putin push for a meeting that Xi is wary of hosting",
+				"url": "https://reuters.com/world/china/new-yalta-trump-putin-push-meeting-that-xi-is-wary-hosting-2026-11-14/"
+			},
+			{
+				"title": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base",
+				"url": "https://reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/"
+			},
+			{
+				"title": "US urges owners of 720,000 BMW vehicles to park outside over fire risks",
+				"url": "https://reuters.com/world/us-urges-owners-720000-bmw-vehicles-park-outside-over-fire-risks-2026-11-13/"
+			},
+			{
+				"title": "Rift deepens between the Philippines, China over South China Sea",
+				"url": "https://reuters.com/world/china/rift-deepens-between-philippines-china-over-south-china-sea-2026-11-15/"
+			},
+			{
+				"title": "After midterm sweep, Democrats split over Trump, cost-cutting agenda",
+				"url": "https://reuters.com/world/us/after-midterm-sweep-democrats-split-over-trump-cost-cutting-agenda-2026-11-14/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "masked magistrates"],
+			"symbolFamilies": [
+				"musical instruments, choirs, bells, and broken harmonies",
+				"vessels, canals, wells, floods, and bridges",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-11-14",
 		"displayDate": "November 14, 2026",
 		"image": "/images/news-bosch/2026/11/14.webp",
