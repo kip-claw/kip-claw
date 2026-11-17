@@ -3030,5 +3030,13 @@
     "pingMs": 13.9,
     "server": "New York NY",
     "provider": "Nitel"
+  },
+  {
+    "timestamp": "2026-11-16 21:00:14",
+    "downloadMbps": 431.21,
+    "uploadMbps": 22.76,
+    "pingMs": 14.4,
+    "server": "New York NY",
+    "provider": "Nitel"
   }
 ]
