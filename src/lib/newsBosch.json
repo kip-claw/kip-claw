@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-17",
+		"displayDate": "November 17, 2026",
+		"image": "/images/news-bosch/2026/11/17.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-17T10:05:58.394990Z",
+		"sourceRetrievedAt": "2026-11-17T10:00:43.089298Z",
+		"themes": [
+			{
+				"name": "Guardrails Around the Loom",
+				"interpretation": "The approaching US-China summit puts tentative AI safety cooperation beside chip tensions and China's use of US models to train domestic rivals.",
+				"storyRanks": [1, 8]
+			},
+			{
+				"name": "Nests Along Diplomatic Routes",
+				"interpretation": "Talks in Manila before a China visit and the difficult closure of Papua New Guinea's Taiwan office reveal diplomacy as a shifting network of gathering places and constrained allegiances.",
+				"storyRanks": [2, 9]
+			},
+			{
+				"name": "Familiar Shells Conceal Siphons",
+				"interpretation": "The subversion of popular websites to target phone users and steal cryptocurrency turns familiar digital shelters into concealed extraction channels.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Brakes on the Money Mill",
+				"interpretation": "Court supervision over laundering failings, possible limits on leveraged bets, and a bank share decline following reports of dealings and lapses expose financial machinery straining against oversight and mistrust.",
+				"storyRanks": [4, 5, 7]
+			},
+			{
+				"name": "Swarm Above the Crossing",
+				"interpretation": "Russia's report of a second consecutive day of strikes on the Crimea bridge brings the day's contested connections to a climax of physical disruption and crowded aerial violence.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Chip tensions loom over Trump-Xi summit, as US and China push AI safety steps",
+				"url": "https://reuters.com/business/media-telecom/chip-tensions-loom-over-trump-xi-summit-us-china-push-ai-safety-steps-2026-11-16/"
+			},
+			{
+				"title": "Trump arrives in Manila for Quad talks ahead of China visit",
+				"url": "https://reuters.com/world/china/trump-kick-off-asia-trip-with-quad-talks-manila-ahead-china-visit-2026-11-17/"
+			},
+			{
+				"title": "Popular websites subverted in bid to steal crypto, target iPhone users",
+				"url": "https://reuters.com/legal/government/popular-websites-subverted-bid-steal-crypto-target-iphone-users-2026-11-17/"
+			},
+			{
+				"title": "Italian court places Revolut unit under supervision over money-laundering failings",
+				"url": "https://reuters.com/business/finance/italian-court-places-revolut-unit-under-supervision-over-money-laundering-2026-11-16/"
+			},
+			{
+				"title": "India may limit leveraged stock bets to curb volatility, sources say",
+				"url": "https://reuters.com/legal/government/india-may-limit-leveraged-stock-bets-curb-volatility-sources-say-2026-11-17/"
+			},
+			{
+				"title": "North Korea's Kim inspects Samjiyon tourism zone amid speculation over China trip",
+				"url": "https://reuters.com/world/china/north-koreas-kim-inspects-tourist-zone-senior-official-visits-moscow-2026-11-16/"
+			},
+			{
+				"title": "Deutsche Bank shares fall after media reports on Russia, Epstein dealings and lapses",
+				"url": "https://reuters.com/business/finance/deutsche-bank-defends-itself-after-media-reports-based-leaks-2026-11-17/"
+			},
+			{
+				"title": "China taps US AI models to train homegrown rivals as chip curbs bite",
+				"url": "https://reuters.com/world/china/china-taps-us-ai-models-train-homegrown-rivals-chip-curbs-bite-2026-11-17/"
+			},
+			{
+				"title": "Papua New Guinea prime minister tells Xi it 'wasn't easy' to close Taiwan office",
+				"url": "https://reuters.com/world/china/papua-new-guineas-prime-minister-says-taiwan-does-not-operate-there-anymore-2026-11-17/"
+			},
+			{
+				"title": "Russia says Ukraine struck its bridge to Crimea for second day in biggest drone attack of war",
+				"url": "https://reuters.com/world/russia-says-ukraine-struck-its-bridge-crimea-second-day-biggest-drone-attack-war-2026-11-17/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "courtiers and heralds"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"workshops, looms, mills, gears, and unfinished machines",
+				"vessels, canals, wells, floods, and bridges"
+			],
+			"composition": "an asymmetrical triptych with a quiet left panel and an overflowing center-right",
+			"atmosphere": "dry ochre heat under a pale, nearly colorless sky",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-11-16",
 		"displayDate": "November 16, 2026",
 		"image": "/images/news-bosch/2026/11/16.webp",
