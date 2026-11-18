@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-18",
+		"displayDate": "November 18, 2026",
+		"image": "/images/news-bosch/2026/11/18.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-18T10:05:44.399283Z",
+		"sourceRetrievedAt": "2026-11-18T10:00:41.721465Z",
+		"themes": [
+			{
+				"name": "A Glimpse Beyond the Frame",
+				"interpretation": "Rare images of an isolated Indigenous group in Brazil make visibility a fragile instrument for recognizing threats rather than a guarantee of protection.",
+				"storyRanks": [6]
+			},
+			{
+				"name": "The Harvest Tips Over",
+				"interpretation": "India's emergence as a rice powerhouse turns agricultural abundance into a balancing act in which success itself becomes a burden.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Three Seats Behind Tariff Hedges",
+				"interpretation": "Condemnations of Western trade barriers and hopes for three-power bargaining meet the reality of interrupted technology shipments to China.",
+				"storyRanks": [1, 3, 8]
+			},
+			{
+				"name": "Wings Across the Gameboard",
+				"interpretation": "Russia's military aircraft deployment makes Asian airspace a stage for strategic signaling, adding coercive weight to the day's diplomatic maneuvering.",
+				"storyRanks": [2]
+			},
+			{
+				"name": "The Board Catches Fire",
+				"interpretation": "Iran's firing at Kuwait after a US strike on an Iranian island turns retaliation into a widening regional conflict that threatens to overwhelm calculated play.",
+				"storyRanks": [4]
+			}
+		],
+		"stories": [
+			{
+				"title": "Xi, Putin blast Western 'protectionism', sanctions as Trump lands in China",
+				"url": "https://reuters.com/world/chinas-xi-calls-free-open-trade-apec-summit-2026-11-18/"
+			},
+			{
+				"title": "Russian military aircraft deployment sends potent message to Asia",
+				"url": "https://reuters.com/business/aerospace-defense/russian-military-aircraft-deployment-sends-potent-message-asia-2026-11-18/"
+			},
+			{
+				"title": "Russia's Putin says he expects 'big potential benefit' from meeting with Trump and Xi",
+				"url": "https://reuters.com/world/china/russias-putin-says-he-expects-big-potential-benefit-meeting-with-trump-and-xi-2026-11-18/"
+			},
+			{
+				"title": "Iran fires at Kuwait, widening strikes after US hit Iranian island",
+				"url": "https://reuters.com/world/middle-east/bahrain-warns-potential-threat-urges-residents-seek-safety-2026-11-17/"
+			},
+			{
+				"title": "How India became a rice powerhouse - and why it's becoming a problem",
+				"url": "https://reuters.com/world/how-india-became-rice-powerhouse-why-its-becoming-problem-2026-11-18/"
+			},
+			{
+				"title": "Rare images of isolated\u00a0Indigenous group in Brazil highlight threats",
+				"url": "https://reuters.com/world/americas/rare-images-isolated-indigenous-group-brazil-highlight-threats-2026-11-17/"
+			},
+			{
+				"title": "Myanmar's army-backed leader says he is reconsidering ASEAN ties",
+				"url": "https://reuters.com/world/asia-pacific/myanmars-army-backed-leader-says-he-is-reconsidering-asean-relationship-2026-11-18/"
+			},
+			{
+				"title": "Nvidia stops shipping US-approved AI chips to China",
+				"url": "https://reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+			},
+			{
+				"title": "Popular websites compromised in bid to steal crypto, target iPhone users",
+				"url": "https://reuters.com/legal/government/popular-websites-subverted-bid-steal-crypto-target-iphone-users-2026-11-17/"
+			},
+			{
+				"title": "Gold drops 2% to over one-year low as hawkish Fed signals boost dollar",
+				"url": "https://reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["players on a theatrical stage", "artisans and instrument makers"],
+			"symbolFamilies": [
+				"games, dice, wheels, races, and balancing acts",
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "three nested circular arenas embedded across the triptych",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a rising visual rhythm from quiet observation to crowded disorder"
+		}
+	},
+	{
 		"date": "2026-11-17",
 		"displayDate": "November 17, 2026",
 		"image": "/images/news-bosch/2026/11/17.webp",
