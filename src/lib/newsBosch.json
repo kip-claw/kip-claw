@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-11-19",
+		"displayDate": "November 19, 2026",
+		"image": "/images/news-bosch/2026/11/19.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-19T10:05:43.664662Z",
+		"sourceRetrievedAt": "2026-11-19T10:00:42.044489Z",
+		"themes": [
+			{
+				"name": "Three Arches Toward Peace",
+				"interpretation": "The unprecedented trilateral talks offer a passage toward resolving war while placing the governance of AI beneath the same uncertain diplomatic roof.",
+				"storyRanks": [1, 4]
+			},
+			{
+				"name": "The Appetite of Towers",
+				"interpretation": "A record AI flotation and a broad banking takeover agreement turn promises of future power into towering valuations and institutional consolidation.",
+				"storyRanks": [2, 10]
+			},
+			{
+				"name": "Mandibles Beneath the Citadel",
+				"interpretation": "The reported cyberattack on the European Commission exposes the vulnerability of institutions whose imposing public architecture conceals penetrable digital foundations.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Islands at the Table",
+				"interpretation": "Greenland's ratified deal and Japan's lonely summit diplomacy reveal how territorial questions shape belonging, leverage and declarations of continuity.",
+				"storyRanks": [5, 6, 9]
+			},
+			{
+				"name": "The Flood After Feeding",
+				"interpretation": "Regret over enormous election spending after a Republican defeat marks the point where political appetite encounters consequences money could not prevent.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "Pilgrims Across the Horizon",
+				"interpretation": "The forecast that Islam will surpass Christianity in adherents shifts the day's scale from immediate contests for power to a longer transformation of global faith.",
+				"storyRanks": [8]
+			}
+		],
+		"stories": [
+			{
+				"title": "Live: Trump, Xi and Putin kick off unprecedented trilateral talks as Ukraine war, AI issues loom",
+				"url": "https://reuters.com/live/trump-xi-putin-live-leaders-hold-unprecedented-summit-shenzhen-2026-11-18/"
+			},
+			{
+				"title": "Anthropic raises record $81 billion in IPO at $1.5 trillion valuation",
+				"url": "https://reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/"
+			},
+			{
+				"title": "EU Commission targeted in cyberattack, Politico reports",
+				"url": "https://reuters.com/legal/litigation/eu-commission-targeted-cyberattack-politico-reports-2026-11-19/"
+			},
+			{
+				"title": "Trump, Xi, Putin begin historic meeting with Ukraine war on agenda",
+				"url": "https://reuters.com/world/china/trumps-historic-meeting-with-xi-putin-headlines-asia-trip-2026-11-18/"
+			},
+			{
+				"title": "Denmark ratifies Trump deal over Greenland",
+				"url": "https://reuters.com/world/denmark-expected-ratify-trump-deal-over-greenland-thursday-2026-11-19/"
+			},
+			{
+				"title": "From tarmac to APEC summit table, Japan's PM cuts a lonely figure",
+				"url": "https://reuters.com/world/china/tarmac-apec-summit-table-japans-pm-cuts-lonely-figure-2026-11-19/"
+			},
+			{
+				"title": "Musk says he felt 'pretty foolish' about scale of midterm spending after Republican rout",
+				"url": "https://reuters.com/business/media-telecom/musk-says-he-felt-pretty-foolish-about-scale-midterm-spending-after-republican-2026-11-19/"
+			},
+			{
+				"title": "Islam forecast to soon exceed Christianity as world's biggest faith",
+				"url": "https://reuters.com/world/middle-east/islam-forecast-soon-exceed-christianity-worlds-biggest-faith-2026-11-19/"
+			},
+			{
+				"title": "Japan's position on Taiwan has not changed, PM Takaichi says",
+				"url": "https://reuters.com/world/china/japans-position-taiwan-has-not-changed-pm-takaichi-says-2026-11-19/"
+			},
+			{
+				"title": "UniCredit and Germany reach broad agreement on Commerzbank takeover",
+				"url": "https://reuters.com/business/finance/unicredit-germany-reach-broad-agreement-commerzbank-takeover-2026-11-18/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["artisans and instrument makers", "pilgrims and wayfarers"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"vessels, canals, wells, floods, and bridges",
+				"ruins, scaffolds, towers, arches, and impossible dwellings"
+			],
+			"composition": "a central vertical axis surrounded by mirrored but imperfect side panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "deep forest green, plum, old gold, pale cyan, and soot",
+			"scale": "mostly miniature crowds with three oversized symbolic objects",
+			"narrativeMotion": "a pilgrimage from promise through appetite to consequence"
+		}
+	},
+	{
 		"date": "2026-11-18",
 		"displayDate": "November 18, 2026",
 		"image": "/images/news-bosch/2026/11/18.webp",
