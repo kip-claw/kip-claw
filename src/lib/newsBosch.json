@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-20",
+		"displayDate": "November 20, 2026",
+		"image": "/images/news-bosch/2026/11/20.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-20T10:05:41.295225Z",
+		"sourceRetrievedAt": "2026-11-20T10:00:43.629051Z",
+		"themes": [
+			{
+				"name": "The Three Place Setting",
+				"interpretation": "Personalized diplomacy reaches the limits of a three-way bargain, while middle powers turn from waiting for invitations to setting their own tables.",
+				"storyRanks": [1, 5]
+			},
+			{
+				"name": "Passage Becomes a Barrier",
+				"interpretation": "Strikes on the Crimean bridge strain Russia's supply routes as Moscow resists a proposed NATO-style security framework for Ukraine, making access and protection opposing movements.",
+				"storyRanks": [2, 4]
+			},
+			{
+				"name": "The Pantry's Borrowed Keys",
+				"interpretation": "A cyberattack targeting financial firms' third-party vendors exposes how the doors opened for outside services can also become routes for intrusion.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Faith Flows Both Ways",
+				"interpretation": "An AI-linked market rout redirects billions toward India even as a major AI company's debut tests investors' willingness to keep feeding the boom.",
+				"storyRanks": [6, 7]
+			},
+			{
+				"name": "Risk Behind the Mirror",
+				"interpretation": "Incorrectly recorded trades conceal a $35 billion understatement of risky assets, turning apparent financial order into a revelation of hidden exposure.",
+				"storyRanks": [10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump's personalized diplomacy hits its limits with 3-way summit",
+				"url": "https://reuters.com/world/china/trumps-personalized-diplomacy-hits-its-limits-with-3-way-summit-2026-11-20/"
+			},
+			{
+				"title": "Ukraine strains Russian logistics with Crimean bridge strikes",
+				"url": "https://reuters.com/world/china/ukraine-strains-russian-logistics-with-crimean-bridge-strikes-2026-11-20/"
+			},
+			{
+				"title": "JPMorgan, Visa, Mastercard say third-party vendors targeted in cyberattack",
+				"url": "https://reuters.com/legal/government/jpmorgan-says-third-party-vendors-targeted-cyberattack-2026-11-19/"
+			},
+			{
+				"title": "Russia pushes back against US idea of NATO-style security guarantees for\u00a0Ukraine",
+				"url": "https://reuters.com/world/russia-pushes-back-against-us-idea-nato-style-security-guarantees-for-ukraine-2026-11-20/"
+			},
+			{
+				"title": "As Trump courts Xi and Putin, middle powers make their own moves",
+				"url": "https://reuters.com/world/china/trump-courts-xi-putin-middle-powers-make-their-own-moves-2026-11-20/"
+			},
+			{
+				"title": "Rupee rises past 93/USD as AI rout draws billions into India, speculators bail",
+				"url": "https://reuters.com/world/india/indian-rupee-rises-past-93usd-portfolio-inflows-bear-retreat-fuel-rally-2026-11-20/"
+			},
+			{
+				"title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom",
+				"url": "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+			},
+			{
+				"title": "Microsite Myanmar",
+				"url": "https://reuters.com/graphics/MYANMAR-RAKINE/010060TD1JR/"
+			},
+			{
+				"title": "Here are the Democrats emerging as potential 2028 US presidential candidates",
+				"url": "https://reuters.com/world/us/here-are-democrats-taking-early-steps-potential-2028-white-house-bids-2026-11-19/"
+			},
+			{
+				"title": "Citi underestimated risky assets by $35 billion after incorrectly recording trades, sources say",
+				"url": "https://reuters.com/business/citi-incorrectly-booked-trades-underestimated-risky-assets-by-35-billion-sources-2026-11-19/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["courtiers and heralds", "masked magistrates"],
+			"symbolFamilies": [
+				"feasts, kitchens, ovens, tables, and empty bowls",
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"animals, insects, shells, nests, and migrating flocks"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "humid summer haze before a storm",
+			"palette": "verdigris, lapis, ochre, parchment, burgundy, and restrained gold",
+			"scale": "a gradual shift from human scale to cosmic scale across the panels",
+			"narrativeMotion": "mirrored actions whose meanings reverse from one panel to the next"
+		}
+	},
+	{
 		"date": "2026-11-19",
 		"displayDate": "November 19, 2026",
 		"image": "/images/news-bosch/2026/11/19.webp",
