@@ -3086,5 +3086,13 @@
     "pingMs": 26.4,
     "server": "New York NY",
     "provider": "Surfshark Ltd"
+  },
+  {
+    "timestamp": "2026-11-20 09:00:34",
+    "downloadMbps": 568.49,
+    "uploadMbps": 18.74,
+    "pingMs": 12.5,
+    "server": "New York NY",
+    "provider": "Spectrum"
   }
 ]
