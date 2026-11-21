@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-21",
+		"displayDate": "November 21, 2026",
+		"image": "/images/news-bosch/2026/11/21.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-21T10:05:31.958633Z",
+		"sourceRetrievedAt": "2026-11-21T10:00:42.072726Z",
+		"themes": [
+			{
+				"name": "Three Orbits One Eclipse",
+				"interpretation": "Summit spectacle collides with the limits of personalized diplomacy as China strengthens its leverage within a three-way encounter.",
+				"storyRanks": [1, 8]
+			},
+			{
+				"name": "Courts Prune Familiar Shapes",
+				"interpretation": "Judicial interventions challenge both a vehicle's borrowed appearance and the constitutional foundations of an already-passed spending bill.",
+				"storyRanks": [2, 6]
+			},
+			{
+				"name": "Market Nests Lose Shelter",
+				"interpretation": "The withdrawal of IPO stabilization support and scrutiny of chip-company accounting expose different vulnerabilities beneath technology-market confidence.",
+				"storyRanks": [3, 5]
+			},
+			{
+				"name": "Sovereignty Rewrites the Garden",
+				"interpretation": "Restrictions on military ties with Canada collide with a requested US takeover of a battery startup, recasting partnerships and ownership as instruments of state power.",
+				"storyRanks": [4, 7]
+			},
+			{
+				"name": "Silenced Accounts Swarm Back",
+				"interpretation": "Account removals become a physical political confrontation as opposition protesters converge on social-media offices in India.",
+				"storyRanks": [9]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump's personalized diplomacy hits its limits with 3-way summit",
+				"url": "https://reuters.com/world/china/trumps-personalized-diplomacy-hits-its-limits-with-3-way-summit-2026-11-20/"
+			},
+			{
+				"title": "Dutch court bars Chinese SUV in Europe over resemblance to Land Rover Defender",
+				"url": "https://reuters.com/world/china/chinas-byd-has-suv-that-infringes-jlr-defender-design-dutch-court-rules-2026-11-20/"
+			},
+			{
+				"title": "Anthropic's IPO bank closed position meant to stabilize stock, removing source of support",
+				"url": "https://reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/"
+			},
+			{
+				"title": "US Defense Secretary\u00a0Hegseth restricts military ties with Canada, Washington Post reports",
+				"url": "https://reuters.com/world/americas/us-defense-secretary-hegseth-restricts-military-ties-with-canada-washington-post-2026-11-20/"
+			},
+			{
+				"title": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+				"url": "https://reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+			},
+			{
+				"title": "US House unconstitutionally passed spending bill in 2022, court rules",
+				"url": "https://reuters.com/legal/government/us-house-unconstitutionally-passed-spending-bill-2022-court-rules-2026-11-21/"
+			},
+			{
+				"title": "Lutnick asked battery startup Pure Lithium to accept US takeover, documents and source say",
+				"url": "https://reuters.com/world/china/lutnick-asked-battery-startup-pure-lithium-accept-us-takeover-documents-source-2026-11-20/"
+			},
+			{
+				"title": "As Trump basks in summit pomp, China's Xi strengthens his hand",
+				"url": "https://reuters.com/world/china/trump-basks-summit-pomp-chinas-xi-strengthens-his-hand-2026-11-21/"
+			},
+			{
+				"title": "Meta's India offices hit by opposition protests over account removals",
+				"url": "https://reuters.com/world/asia-pacific/metas-india-offices-hit-by-opposition-protests-over-account-removals-2026-11-21/"
+			},
+			{
+				"title": "Why Jeffrey Epstein loved Russia: women, oligarchs and a shot at redemption",
+				"url": "https://reuters.com/investigations/why-jeffrey-epstein-loved-russia-women-oligarchs-shot-redemption-2026-11-20/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "sailors and navigators"],
+			"symbolFamilies": [
+				"animals, insects, shells, nests, and migrating flocks",
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"gardens, seeds, roots, grafts, and strange fruit"
+			],
+			"composition": "a low viewpoint with monumental foreground figures and distant miniature worlds",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-11-20",
 		"displayDate": "November 20, 2026",
 		"image": "/images/news-bosch/2026/11/20.webp",
