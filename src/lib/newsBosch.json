@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-22",
+		"displayDate": "November 22, 2026",
+		"image": "/images/news-bosch/2026/11/22.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-22T10:05:15.541111Z",
+		"sourceRetrievedAt": "2026-11-22T10:00:41.852497Z",
+		"themes": [
+			{
+				"name": "The Smaller Players Move",
+				"interpretation": "As major powers court one another, middle powers seek independent roles and Myanmar contests regional judgment, opening a cycle of negotiation and resistance.",
+				"storyRanks": [1, 6]
+			},
+			{
+				"name": "The Burning Maritime Stage",
+				"interpretation": "The attacked Russian cargo ship off Finland turns a commercial passage into a theater of vulnerability, carrying diplomatic tension into the Baltic.",
+				"storyRanks": [2, 10]
+			},
+			{
+				"name": "Passage Becomes A Trap",
+				"interpretation": "Airport arrests and Estonia's border closure make thresholds instruments of state power, converting ordinary movement into confinement and confrontation.",
+				"storyRanks": [3, 7]
+			},
+			{
+				"name": "Promises Above The Ruins",
+				"interpretation": "NATO's pledge to defend every inch of Poland contrasts with a drone-hit building near Kyiv, placing territorial assurances beside the human uncertainty of destruction.",
+				"storyRanks": [4, 9]
+			},
+			{
+				"name": "The Debut Staircase Returns",
+				"interpretation": "An AI company's post-debut stumble exposes the fragility of technological expectations, with the rightmost staircase looping back into the opening diplomatic theater as another contest over future power.",
+				"storyRanks": [8]
+			}
+		],
+		"stories": [
+			{
+				"title": "As Trump courts Xi and Putin, middle powers make their own moves",
+				"url": "https://reuters.com/world/china/trump-courts-xi-putin-middle-powers-make-their-own-moves-2026-11-20/"
+			},
+			{
+				"title": "Russian cargo ship still on fire off Finland after attack",
+				"url": "https://reuters.com/world/europe/russian-cargo-ship-still-fire-off-finland-after-attack-2026-11-22/"
+			},
+			{
+				"title": "Washington governor, union denounce ICE arrests of travelers at Seattle airport",
+				"url": "https://reuters.com/legal/litigation/washington-governor-union-denounce-ice-arrests-travelers-seattle-airport-2026-11-22/"
+			},
+			{
+				"title": "NATO will defend every inch of Polish territory, Rutte says",
+				"url": "https://reuters.com/world/nato-will-defend-every-inch-polish-territory-rutte-says-2026-11-21/"
+			},
+			{
+				"title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
+				"url": "https://reuters.com/world/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe-2026-11-21/"
+			},
+			{
+				"title": "Myanmar's army-backed government calls ASEAN decision 'unfair and imbalanced'",
+				"url": "https://reuters.com/world/asia-pacific/myanmars-army-backed-government-calls-asean-decision-unfair-imbalanced-2026-11-22/"
+			},
+			{
+				"title": "Russia accuses Estonia of erecting new 'Iron Curtain' with border closure, says it will respond",
+				"url": "https://reuters.com/world/europe/russia-accuses-estonia-erecting-new-iron-curtain-with-border-closure-says-it-2026-11-20/"
+			},
+			{
+				"title": "Anthropic's post-debut stumble delivers reality check for AI trade",
+				"url": "https://reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/"
+			},
+			{
+				"title": "At least 14 people missing after Russian drone hit building in Kyiv region, Zelenskiy says",
+				"url": "https://reuters.com/world/least-14-people-missing-after-russian-drone-hit-building-kyiv-region-zelenskiy-2026-11-22/"
+			},
+			{
+				"title": "Russian cargo ship ablaze in Baltic Sea after drone strike, crew evacuates",
+				"url": "https://reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["pilgrims and wayfarers", "scholars and alchemists"],
+			"symbolFamilies": [
+				"theaters, masks, puppets, curtains, and processions",
+				"ruins, scaffolds, towers, arches, and impossible dwellings",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "cold starlight with aurora-like veils",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "tiny figures navigating architecture that behaves like a living organism",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-11-21",
 		"displayDate": "November 21, 2026",
 		"image": "/images/news-bosch/2026/11/21.webp",
