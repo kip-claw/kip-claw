@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-23",
+		"displayDate": "November 23, 2026",
+		"image": "/images/news-bosch/2026/11/23.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-23T10:05:17.889306Z",
+		"sourceRetrievedAt": "2026-11-23T10:00:42.026418Z",
+		"themes": [
+			{
+				"name": "Seas Become Hidden Corridors",
+				"interpretation": "Iran's threatened response to a US naval blockade and Ukraine's reported sinking of a Russian warship in Libya turn maritime space into a labyrinth of containment and distant retaliation.",
+				"storyRanks": [1, 2]
+			},
+			{
+				"name": "The Bottle Under Scrutiny",
+				"interpretation": "An unsafe bottled-water sample in India transforms an everyday promise of purity into a widening inquiry across competing brands.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Scaffolds Behind the Rally",
+				"interpretation": "A pause in the AI selloff and official support for Asian stocks offer a fragile recovery while scrutiny of chipmaker accounting exposes uncertainty backstage.",
+				"storyRanks": [4, 8]
+			},
+			{
+				"name": "The Gala's Descending Mirror",
+				"interpretation": "A presidential gala for meme-coin investors places ceremonial access beside a token's record-low valuation, separating the spectacle of wealth from its market reflection.",
+				"storyRanks": [7]
+			},
+			{
+				"name": "The Broken Negotiating Circle",
+				"interpretation": "The rejected COP31 deal, Saudi influence and questions about rebuilding diplomacy form a final chamber whose circular passage returns failed collective bargaining to the opening scene of confrontation.",
+				"storyRanks": [5, 9, 10]
+			}
+		],
+		"stories": [
+			{
+				"title": "Iran says it will use all its tools to confront US naval blockade",
+				"url": "https://reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
+			},
+			{
+				"title": "Zelenskiy says Ukraine sank Russian warship in Libya",
+				"url": "https://reuters.com/world/europe/zelenskiy-says-ukraine-sank-russian-corvette-near-libyas-coast-hit-cargo-ship-2026-11-23/"
+			},
+			{
+				"title": "India finds sample of popular Bisleri water unsafe, to widen checks to all brands",
+				"url": "https://reuters.com/business/healthcare-pharmaceuticals/indias-food-regulator-take-bisleri-court-over-water-quality-finding-2026-11-22/"
+			},
+			{
+				"title": "US futures rally as AI rout pauses, Asian authorities prop up stocks",
+				"url": "https://reuters.com/world/china/global-markets-global-markets-2026-11-22/"
+			},
+			{
+				"title": "COP31 climate talks collapse as EU and others reject deal",
+				"url": "https://reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/"
+			},
+			{
+				"title": "US intelligence chief says Putin is 'not America's friend in Ukraine'",
+				"url": "https://reuters.com/world/china/us-intelligence-chief-says-putin-is-not-americas-friend-ukraine-2026-11-22/"
+			},
+			{
+				"title": "Trump hosts gala for meme coin investors as his token plunges to record lows",
+				"url": "https://reuters.com/legal/government/trump-welcome-investors-gala-his-plunging-meme-coin-2026-11-22/"
+			},
+			{
+				"title": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+				"url": "https://reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+			},
+			{
+				"title": "Can climate diplomacy build on the collapse of COP31?",
+				"url": "https://reuters.com/sustainability/cop/can-climate-diplomacy-build-collapse-cop31-2026-11-22/"
+			},
+			{
+				"title": "Saudi Arabia's influence loomed large over failed COP31 deal",
+				"url": "https://reuters.com/sustainability/cop/saudi-arabias-influence-loomed-large-over-failed-cop31-deal-2026-11-23/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["masked magistrates", "gardeners and field workers"],
+			"symbolFamilies": [
+				"books, maps, mirrors, lenses, and cabinets of curiosities",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"theaters, masks, puppets, curtains, and processions"
+			],
+			"composition": "three balanced panels with one recurring object crossing every boundary",
+			"atmosphere": "moonlit silver-blue night with small pools of firelight",
+			"palette": "pearl gray, faded rose, malachite, saffron, and ink black",
+			"scale": "monumental characters surrounded by miniature consequences",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-11-22",
 		"displayDate": "November 22, 2026",
 		"image": "/images/news-bosch/2026/11/22.webp",
