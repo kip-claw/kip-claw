@@ -1,5 +1,98 @@
 [
 	{
+		"date": "2026-11-24",
+		"displayDate": "November 24, 2026",
+		"image": "/images/news-bosch/2026/11/24.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-24T10:05:50.215286Z",
+		"sourceRetrievedAt": "2026-11-24T10:00:41.622319Z",
+		"themes": [
+			{
+				"name": "Inferno Behind the Page",
+				"interpretation": "Revelations of papal visions turn private spiritual experience into a public threshold between sacred authority and its darkest imaginings.",
+				"storyRanks": [1]
+			},
+			{
+				"name": "Return Gates Under Pressure",
+				"interpretation": "A proposed political homecoming and an externally influenced corporate reinstatement collide around the question of who controls the gates back to power.",
+				"storyRanks": [2, 4, 9]
+			},
+			{
+				"name": "Channels Glutted With Wealth",
+				"interpretation": "West Africa's refining expansion and rising oil supplies expose the tension between commanding valuable resources and flooding the channels that sustain their value.",
+				"storyRanks": [3, 7]
+			},
+			{
+				"name": "Power Beneath the Threshold",
+				"interpretation": "An investigation into political ties to a Venezuelan oil contract and Beijing's commentary on Taiwan's elections expose pressure around decisions presented as locally controlled.",
+				"storyRanks": [5, 10]
+			},
+			{
+				"name": "Rupture Beside Acceleration",
+				"interpretation": "A deadly explosion in Hanoi and a tool promising faster code delivery place physical vulnerability and technological acceleration in the same unsettled frame.",
+				"storyRanks": [6, 8]
+			}
+		],
+		"stories": [
+			{
+				"title": "Pope Francis had visions of the Devil and Hell, diaries reveal",
+				"url": "https://reuters.com/world/pope-francis-had-visions-devil-hell-diaries-reveal-2026-11-24/"
+			},
+			{
+				"title": "Sheikh Hasina seeks to return to Bangladesh on December 16 on state carrier",
+				"url": "https://reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+			},
+			{
+				"title": "West Africa's rush to refine its own gold unleashes flood of capacity",
+				"url": "https://reuters.com/world/africa/west-africas-rush-refine-its-own-gold-unleashes-flood-capacity-2026-11-24/"
+			},
+			{
+				"title": "Jensen Huang returns to Nvidia, vows to be 'a better CEO'",
+				"url": "https://reuters.com/business/jensen-huang-steps-down-hands-on-kingmaker-behind-ai-boom-2026-11-12/"
+			},
+			{
+				"title": "JD Vance's ties to prized Venezuelan oil contract under investigation by US Senate panel",
+				"url": "https://reuters.com/business/energy/exclusive-jd-vances-ties-prized-venezuelan-oil-contract-under-investigation-by-2026-11-23/"
+			},
+			{
+				"title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi",
+				"url": "https://reuters.com/world/asia-pacific/explosion-kills-6-injures-10-vietnam-capital-hanoi-2026-11-24/"
+			},
+			{
+				"title": "Oil touches three-month lows as rising supply offsets Hormuz threat",
+				"url": "https://reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/"
+			},
+			{
+				"title": "Anthropic launches Claude Ship to help developers ship code faster",
+				"url": "https://reuters.com/business/anthropic-launches-claude-ship-help-developers-ship-code-faster-2026-11-23/"
+			},
+			{
+				"title": "Huang returns as Nvidia CEO after Trump intervention in abrupt board reversal",
+				"url": "https://reuters.com/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/"
+			},
+			{
+				"title": "Taiwan's elections not about China, but Beijing has a lot to say",
+				"url": "https://reuters.com/world/china/taiwans-elections-not-about-china-beijing-has-lot-say-2026-11-24/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["sailors and navigators", "courtiers and heralds"],
+			"symbolFamilies": [
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"gardens, seeds, roots, grafts, and strange fruit",
+				"vessels, canals, wells, floods, and bridges"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "green-gold twilight after rain",
+			"palette": "earth umber, moss green, bone white, rust red, and smoky blue",
+			"scale": "many equal-sized vignettes with no single heroic protagonist",
+			"narrativeMotion": "several stories colliding simultaneously rather than unfolding in sequence"
+		}
+	},
+	{
 		"date": "2026-11-23",
 		"displayDate": "November 23, 2026",
 		"image": "/images/news-bosch/2026/11/23.webp",
