@@ -7656,6 +7656,153 @@
       "rh": "69",
       "temperatureF": "72.1",
       "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "05:00:00",
+      "rh": "69",
+      "temperatureF": "71.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "06:00:00",
+      "rh": "69",
+      "temperatureF": "71.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "07:00:00",
+      "rh": "69",
+      "temperatureF": "71.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "08:00:00",
+      "rh": "69",
+      "temperatureF": "71.8",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "09:00:00",
+      "rh": "69",
+      "temperatureF": "71.3",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "10:00:00",
+      "rh": "69",
+      "temperatureF": "71.2",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "11:00:00",
+      "rh": "69",
+      "temperatureF": "72.2",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "12:00:00",
+      "rh": "69",
+      "temperatureF": "72.2",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "13:00:00",
+      "rh": "69",
+      "temperatureF": "72.2",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "14:00:00",
+      "rh": "69",
+      "temperatureF": "72.2",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "15:00:00",
+      "rh": "70",
+      "temperatureF": "72.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "16:00:00",
+      "rh": "70",
+      "temperatureF": "72.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "17:00:00",
+      "rh": "70",
+      "temperatureF": "72.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "18:00:00",
+      "rh": "70",
+      "temperatureF": "72.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "20:00:00",
+      "rh": "70",
+      "temperatureF": "72.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "22:00:00",
+      "rh": "70",
+      "temperatureF": "71.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-24",
+      "time": "23:00:00",
+      "rh": "69",
+      "temperatureF": "72.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-25",
+      "time": "00:00:00",
+      "rh": "69",
+      "temperatureF": "72.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-25",
+      "time": "01:00:00",
+      "rh": "69",
+      "temperatureF": "72.5",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-25",
+      "time": "03:00:00",
+      "rh": "70",
+      "temperatureF": "72.9",
+      "notes": ""
+    },
+    {
+      "date": "2026-11-25",
+      "time": "04:00:00",
+      "rh": "70",
+      "temperatureF": "74",
+      "notes": ""
     }
   ],
   "bovedaChanges": [
