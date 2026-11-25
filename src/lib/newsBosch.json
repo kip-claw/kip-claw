@@ -1,5 +1,103 @@
 [
 	{
+		"date": "2026-11-25",
+		"displayDate": "November 25, 2026",
+		"image": "/images/news-bosch/2026/11/25.webp",
+		"alt": "Panoramic allegorical triptych: the left panel shows institutional thresholds and origins; the center panel depicts the day's primary struggle over power and resources; the right panel shows unstable aftermath under dim light, with small figures moving through labyrinthine architecture.",
+		"disclosure": "Generated with AI using openai/gpt-image-2 (oauth) and the reuters-news-bosch skill.",
+		"aiModel": "openai/gpt-image-2 (oauth)",
+		"skill": "reuters-news-bosch",
+		"generatedAt": "2026-11-25T13:12:57.799167Z",
+		"sourceRetrievedAt": "2026-11-25T13:07:41.477936Z",
+		"themes": [
+			{
+				"name": "The Returning Tariff Eclipse",
+				"interpretation": "Renewed tariff plans despite electoral defeat and Iran's stated readiness for blockade frame economic barriers as an eclipse that returns rather than passes.",
+				"storyRanks": [1, 9]
+			},
+			{
+				"name": "Ledgers Behind Hidden Doors",
+				"interpretation": "Records of AI servers listed in China and talks over transferring financial-data operations reveal the machinery of information commerce behind apparently seamless systems.",
+				"storyRanks": [2, 10]
+			},
+			{
+				"name": "The Clock Goes Dark",
+				"interpretation": "A historic technology outage and an internal emergency declaration turn the promise of continuous digital service into a stopped celestial mechanism.",
+				"storyRanks": [3]
+			},
+			{
+				"name": "Thresholds Without Settled Destinations",
+				"interpretation": "Suspended coalition talks in Israel and competing expectations over the 2030 World Cup final expose how presumed destinations can become contested thresholds.",
+				"storyRanks": [4, 8]
+			},
+			{
+				"name": "A Constellation Under Punishment",
+				"interpretation": "The reported flogging of a singer and her team in Iran becomes an image of coercive power attempting to extinguish collective expression.",
+				"storyRanks": [5]
+			},
+			{
+				"name": "Prices Return To Judgment",
+				"interpretation": "A US class action over menu pricing turns the final panel into a mirror of contested costs, visually feeding back into the opening tariff threshold.",
+				"storyRanks": [6]
+			}
+		],
+		"stories": [
+			{
+				"title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
+				"url": "https://reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/"
+			},
+			{
+				"title": "Alice Huang-linked firms listed $270 million in AI servers in China, records show",
+				"url": "https://reuters.com/business/finance/alice-huang-linked-firms-listed-270-million-ai-servers-china-records-show-2026-11-25/"
+			},
+			{
+				"title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+				"url": "https://reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"
+			},
+			{
+				"title": "Israel's Eisenkot faces new coalition challenge as left-wing faction suspends talks",
+				"url": "https://reuters.com/world/middle-east/israels-eisenkot-clinches-first-coalition-agreement-bid-form-government-2026-11-24/"
+			},
+			{
+				"title": "Iran carries out flogging of singer and her team, Iranian website says",
+				"url": "https://reuters.com/business/media-telecom/iran-carries-out-flogging-singer-her-team-iranian-website-says-2026-11-23/"
+			},
+			{
+				"title": "Wendy\u2019s hit with US class action over\u00a0menu pricing",
+				"url": "https://reuters.com/business/wendys-hit-with-us-class-action-over-menu-pricing-2026-11-24/"
+			},
+			{
+				"title": "East Coast storm to bring rain, strong winds on US Thanksgiving",
+				"url": "https://reuters.com/business/environment/east-coast-storm-bring-rain-strong-winds-us-thanksgiving-2026-11-24/"
+			},
+			{
+				"title": "Spain thought it had the 2030 World Cup final. Morocco had other plans.",
+				"url": "https://reuters.com/sports/soccer/spain-thought-it-had-2030-world-cup-final-morocco-had-other-plans-2026-11-25/"
+			},
+			{
+				"title": "Iran says it is prepared to withstand US blockade, seeks to curb price rises",
+				"url": "https://reuters.com/world/middle-east/iran-says-it-is-prepared-withstand-us-blockade-seeks-curb-price-rises-2026-11-25/"
+			},
+			{
+				"title": "Cognizant in talks to take over parts of S&P Global's Capital IQ operations, sources say",
+				"url": "https://reuters.com/technology/cognizant-talks-take-over-parts-sp-globals-capital-iq-operations-sources-say-2026-11-25/"
+			}
+		],
+		"creativeDirection": {
+			"characters": ["scholars and alchemists", "merchants and market keepers"],
+			"symbolFamilies": [
+				"celestial bodies, eclipses, comets, clocks, and constellations",
+				"labyrinths, thresholds, ladders, tunnels, and hidden chambers",
+				"books, maps, mirrors, lenses, and cabinets of curiosities"
+			],
+			"composition": "a high bird's-eye view with winding paths connecting all three panels",
+			"atmosphere": "festival daylight gradually darkening into an eclipse",
+			"palette": "limited grisaille with selective jewel-toned red, blue, and green accents",
+			"scale": "alternating intimate foreground vignettes and immense distant structures",
+			"narrativeMotion": "a cycle in which the right panel visually feeds back into the left"
+		}
+	},
+	{
 		"date": "2026-11-24",
 		"displayDate": "November 24, 2026",
 		"image": "/images/news-bosch/2026/11/24.webp",
