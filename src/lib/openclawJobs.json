@@ -44341,5 +44341,419 @@
 		"consecutiveErrors": 0,
 		"errorReason": "",
 		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "OpenClaw Jobs report",
+		"status": "ok",
+		"durationS": 70.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Publish skills",
+		"status": "ok",
+		"durationS": 2.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Frame pending-display retry",
+		"status": "ok",
+		"durationS": 0.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Whisper transcription service health",
+		"status": "ok",
+		"durationS": 3.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Heartbeat cleanup",
+		"status": "ok",
+		"durationS": 1.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "OpenClaw config report",
+		"status": "ok",
+		"durationS": 50.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Batch failure monitor",
+		"status": "ok",
+		"durationS": 9.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Humidor export",
+		"status": "ok",
+		"durationS": 26.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Runs export",
+		"status": "ok",
+		"durationS": 21.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "morning-weather-run",
+		"status": "ok",
+		"durationS": 75.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "morning-calendar-digest",
+		"status": "ok",
+		"durationS": 73.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "NYC list export",
+		"status": "ok",
+		"durationS": 5.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Daily Bosch generation",
+		"status": "error",
+		"durationS": 89.7,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "command exited with code 1"
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Twitter archive sync",
+		"status": "ok",
+		"durationS": 1528.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Lipitor reminder",
+		"status": "ok",
+		"durationS": 12.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Twitter archive export",
+		"status": "ok",
+		"durationS": 38.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "ArchiveBox backup monitor v2",
+		"status": "ok",
+		"durationS": 3.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "ArchiveBox stats export v2",
+		"status": "ok",
+		"durationS": 71.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Daily cron mechanic",
+		"status": "ok",
+		"durationS": 212.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Token usage export",
+		"status": "ok",
+		"durationS": 87.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Disk space check",
+		"status": "ok",
+		"durationS": 1.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Whisper transcription stats export",
+		"status": "ok",
+		"durationS": 79.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Daily Bosch pixel prune",
+		"status": "ok",
+		"durationS": 2.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "OpenClaw release check",
+		"status": "ok",
+		"durationS": 45.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Pi health report",
+		"status": "ok",
+		"durationS": 23.5,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Tailnet sentinel",
+		"status": "ok",
+		"durationS": 110.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Cloudflare domain monitor",
+		"status": "ok",
+		"durationS": 63.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Email inbox check",
+		"status": "ok",
+		"durationS": 29.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "daily-moltbook-desk-check",
+		"status": "ok",
+		"durationS": 142.8,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Morning speed test",
+		"status": "ok",
+		"durationS": 109.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "OpenClaw upstream PR monitor",
+		"status": "ok",
+		"durationS": 17.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Knowledge scribe \u00b7 Learn from Granola",
+		"status": "ok",
+		"durationS": 103.7,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Lipitor follow-up reminder",
+		"status": "ok",
+		"durationS": 5.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Evening speed test",
+		"status": "ok",
+		"durationS": 38.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Kip backup",
+		"status": "ok",
+		"durationS": 3929.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Sluggo encrypted NAS backup",
+		"status": "ok",
+		"durationS": 32.2,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Batocera backup",
+		"status": "ok",
+		"durationS": 603.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Todo cleanup",
+		"status": "ok",
+		"durationS": 29.6,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Sync workspace repository",
+		"status": "ok",
+		"durationS": 1.1,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Knowledge scribe \u00b7 Knowledge Consolidation",
+		"status": "ok",
+		"durationS": 308.3,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Scribe \u00b7 Learn from conversations",
+		"status": "error",
+		"durationS": 1.4,
+		"consecutiveErrors": 1,
+		"errorReason": "unknown",
+		"notes": "Error: Requester-scoped automation can only use its owning conversation\u2019s workspace."
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Dependabot PR triage",
+		"status": "ok",
+		"durationS": 67.9,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Disk cleanup",
+		"status": "ok",
+		"durationS": 12.4,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Google Drive sync report",
+		"status": "error",
+		"durationS": 219.0,
+		"consecutiveErrors": 6,
+		"errorReason": "unknown",
+		"notes": "LLM request rejected: Tool call validation failed\\: tool call validation failed\\: attempted to call tool \\'json\\' which was not in request\\.tools"
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "Weekly diet pattern report",
+		"status": "error",
+		"durationS": 99.6,
+		"consecutiveErrors": 1,
+		"errorReason": "",
+		"notes": "\u26a0\ufe0f Message failed"
+	},
+	{
+		"timestamp": "2026-11-26 04:00:02",
+		"jobName": "NAS report",
+		"status": "ok",
+		"durationS": 61.0,
+		"consecutiveErrors": 0,
+		"errorReason": "",
+		"notes": ""
 	}
 ]
